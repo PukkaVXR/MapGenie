@@ -43,7 +43,7 @@ interface MapState {
 }
 
 // Initial state
-const initialState: MapState = {
+export const initialState: MapState = {
   territories: {},
   continents: {},
   selectedTool: 'select',

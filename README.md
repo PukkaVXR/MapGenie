@@ -1,4 +1,4 @@
-# MapGenie
+# MapGenie - Created by CQG/Barry
 
 A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 
@@ -14,47 +14,14 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 - Dark/Light theme
 - Custom color palettes for continents
 
+## Changelog
+
+### V1.0.4 (UI Fix)
+- Compact export toolbar: icon buttons in a row, export/toggles stacked below
+- Toggles for territory names and continent colors in toolbar
+- Improved professional export options
+
 ## Getting Started
 
 1. Clone the repository:
-```bash
-git clone https://github.com/PukkaVXR/MapGenie.git
-cd MapGenie
 ```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Build for production:
-```bash
-npm run build
-```
-
-## Usage
-
-- Use the toolbar to select drawing tools (Freehand, Polygon, Rectangle, Ellipse)
-- Select territories to move, rename, or delete them
-- Use the Connect tool to create or remove connections between territories
-- Manage continents and their bonus values in the sidebar
-- Hold Space to pan the map, use mouse wheel to zoom
-- Export your map as JSON or PNG using the toolbar buttons
-
-## Technologies Used
-
-- React
-- TypeScript
-- Vite
-- Material-UI
-- Konva.js (for canvas drawing)
-- React Konva
-
-## License
-
-MIT

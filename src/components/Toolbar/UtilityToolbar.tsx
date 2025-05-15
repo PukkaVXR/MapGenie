@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, IconButton, Tooltip, TextField, Dialog, DialogTitle, DialogContent, DialogActions } from '@mui/material';
+import { Box, Button, IconButton, Tooltip, TextField, Dialog, DialogTitle, DialogContent, DialogActions, Stack } from '@mui/material';
 import SaveAltIcon from '@mui/icons-material/SaveAlt'; // Export JSON
 import PublishIcon from '@mui/icons-material/Publish'; // Import JSON
 import SaveIcon from '@mui/icons-material/Save'; // Save to Local
@@ -15,6 +15,8 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import PaletteIcon from '@mui/icons-material/Palette';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import Switch from '@mui/material/Switch';
+import FormControlLabel from '@mui/material/FormControlLabel';
 
 export const UtilityToolbar: React.FC<{
   onExportJSON: () => void;
@@ -34,6 +36,10 @@ export const UtilityToolbar: React.FC<{
   palette: string[];
   paletteNames: string[];
   onPaletteChange: (name: string) => void;
+  onToggleTerritoryNames: () => void;
+  onToggleContinentColors: () => void;
+  showTerritoryNames: boolean;
+  showContinentColors: boolean;
 }> = ({
   onExportJSON,
   onImportJSON,
@@ -52,6 +58,10 @@ export const UtilityToolbar: React.FC<{
   palette,
   paletteNames,
   onPaletteChange,
+  onToggleTerritoryNames,
+  onToggleContinentColors,
+  showTerritoryNames,
+  showContinentColors,
 }) => {
   const fileInputRef = React.useRef<HTMLInputElement>(null);
   const bgInputRef = React.useRef<HTMLInputElement>(null);
@@ -75,109 +85,126 @@ export const UtilityToolbar: React.FC<{
         boxShadow: 1,
         p: 1,
         display: 'flex',
-        flexDirection: 'row',
-        gap: 1,
-        alignItems: 'center',
+        flexDirection: 'column',
+        gap: 2,
+        alignItems: 'flex-start',
+        minWidth: 180,
       }}>
-        <Tooltip title="Export JSON">
-          <IconButton color="primary" onClick={onExportJSON}>
-            <SaveAltIcon />
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Import JSON">
-          <span>
-            <IconButton color="primary" onClick={() => fileInputRef.current?.click()}>
-              <PublishIcon />
+        {/* Top row: small icon buttons */}
+        <Box sx={{ display: 'flex', flexDirection: 'row', gap: 1, alignItems: 'center', width: '100%', justifyContent: 'flex-start' }}>
+          <Tooltip title="Export JSON">
+            <IconButton color="primary" onClick={onExportJSON} size="small">
+              <SaveAltIcon />
             </IconButton>
-            <input
-              ref={fileInputRef}
-              type="file"
-              accept="application/json"
-              style={{ display: 'none' }}
-              onChange={e => {
-                if (e.target.files && e.target.files[0]) {
-                  onImportJSON(e.target.files[0]);
-                  e.target.value = '';
-                }
-              }}
-            />
-          </span>
-        </Tooltip>
-        <Tooltip title="Save to Local Storage">
-          <IconButton color="primary" onClick={onSaveLocal}>
-            <SaveIcon />
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Load from Local Storage">
-          <IconButton color="primary" onClick={onLoadLocal}>
-            <FolderOpenIcon />
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Set Background Image">
-          <span>
-            <IconButton color="primary" onClick={() => bgInputRef.current?.click()}>
-              <ImageIcon />
+          </Tooltip>
+          <Tooltip title="Import JSON">
+            <span>
+              <IconButton color="primary" onClick={() => fileInputRef.current?.click()} size="small">
+                <PublishIcon />
+              </IconButton>
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="application/json"
+                style={{ display: 'none' }}
+                onChange={e => {
+                  if (e.target.files && e.target.files[0]) {
+                    onImportJSON(e.target.files[0]);
+                    e.target.value = '';
+                  }
+                }}
+              />
+            </span>
+          </Tooltip>
+          <Tooltip title="Save to Local Storage">
+            <IconButton color="primary" onClick={onSaveLocal} size="small">
+              <SaveIcon />
             </IconButton>
-            <input
-              ref={bgInputRef}
-              type="file"
-              accept="image/*"
-              style={{ display: 'none' }}
-              onChange={e => {
-                if (e.target.files && e.target.files[0]) {
-                  onSetBackground(e.target.files[0]);
-                  e.target.value = '';
-                }
-              }}
-            />
-          </span>
-        </Tooltip>
-        <Tooltip title="Remove Background Image">
-          <IconButton color="error" onClick={onRemoveBackground}>
-            <DeleteIcon />
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Undo (Ctrl+Z)">
-          <span>
-            <IconButton color="primary" onClick={onUndo} disabled={!canUndo}>
-              <UndoIcon />
+          </Tooltip>
+          <Tooltip title="Load from Local Storage">
+            <IconButton color="primary" onClick={onLoadLocal} size="small">
+              <FolderOpenIcon />
             </IconButton>
-          </span>
-        </Tooltip>
-        <Tooltip title="Redo (Ctrl+Y)">
-          <span>
-            <IconButton color="primary" onClick={onRedo} disabled={!canRedo}>
-              <RedoIcon />
+          </Tooltip>
+          <Tooltip title="Set Background Image">
+            <span>
+              <IconButton color="primary" onClick={() => bgInputRef.current?.click()} size="small">
+                <ImageIcon />
+              </IconButton>
+              <input
+                ref={bgInputRef}
+                type="file"
+                accept="image/*"
+                style={{ display: 'none' }}
+                onChange={e => {
+                  if (e.target.files && e.target.files[0]) {
+                    onSetBackground(e.target.files[0]);
+                    e.target.value = '';
+                  }
+                }}
+              />
+            </span>
+          </Tooltip>
+          <Tooltip title="Remove Background Image">
+            <IconButton color="error" onClick={onRemoveBackground} size="small">
+              <DeleteIcon />
             </IconButton>
-          </span>
-        </Tooltip>
-        <TextField
-          size="small"
-          label="PNG Filename"
-          value={pngFilename}
-          onChange={e => setPngFilename(e.target.value)}
-          sx={{ width: 160 }}
-        />
-        <Tooltip title="Export PNG">
-          <IconButton color="primary" onClick={() => onExportPNG(pngFilename)}>
-            <PhotoCameraIcon />
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Help / Quick Start">
-          <IconButton color="primary" onClick={() => setHelpOpen(true)}>
-            <HelpOutlineIcon />
-          </IconButton>
-        </Tooltip>
-        <Tooltip title={themeMode === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}>
-          <IconButton color="primary" onClick={toggleTheme}>
-            {themeMode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
-          </IconButton>
-        </Tooltip>
-        <Tooltip title="Select Continent Color Palette">
-          <IconButton color="primary" onClick={handlePaletteClick}>
-            <PaletteIcon />
-          </IconButton>
-        </Tooltip>
+          </Tooltip>
+          <Tooltip title="Undo (Ctrl+Z)">
+            <span>
+              <IconButton color="primary" onClick={onUndo} disabled={!canUndo} size="small">
+                <UndoIcon />
+              </IconButton>
+            </span>
+          </Tooltip>
+          <Tooltip title="Redo (Ctrl+Y)">
+            <span>
+              <IconButton color="primary" onClick={onRedo} disabled={!canRedo} size="small">
+                <RedoIcon />
+              </IconButton>
+            </span>
+          </Tooltip>
+        </Box>
+        {/* Second column: PNG filename, export PNG, help, palette, toggles */}
+        <Stack direction="column" spacing={1} sx={{ width: '100%' }}>
+          <TextField
+            size="small"
+            label="PNG Filename"
+            value={pngFilename}
+            onChange={e => setPngFilename(e.target.value)}
+            sx={{ width: '100%' }}
+          />
+          <Tooltip title="Export PNG">
+            <IconButton color="primary" onClick={() => onExportPNG(pngFilename)}>
+              <PhotoCameraIcon />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Help / Quick Start">
+            <IconButton color="primary" onClick={() => setHelpOpen(true)}>
+              <HelpOutlineIcon />
+            </IconButton>
+          </Tooltip>
+          <Tooltip title={themeMode === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}>
+            <IconButton color="primary" onClick={toggleTheme}>
+              {themeMode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+            </IconButton>
+          </Tooltip>
+          <Tooltip title="Select Continent Color Palette">
+            <IconButton color="primary" onClick={handlePaletteClick}>
+              <PaletteIcon />
+            </IconButton>
+          </Tooltip>
+          <FormControlLabel
+            control={<Switch checked={showTerritoryNames} onChange={onToggleTerritoryNames} color="primary" />}
+            label="Show Territory Names"
+            sx={{ ml: 0 }}
+          />
+          <FormControlLabel
+            control={<Switch checked={showContinentColors} onChange={onToggleContinentColors} color="primary" />}
+            label="Show Continent Colors"
+            sx={{ ml: 0 }}
+          />
+        </Stack>
         <Menu anchorEl={paletteAnchor} open={!!paletteAnchor} onClose={handlePaletteClose}>
           {paletteNames.map(name => (
             <MenuItem key={name} selected={name === paletteName} onClick={() => handlePaletteSelect(name)}>

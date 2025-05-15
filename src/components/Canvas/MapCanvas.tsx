@@ -685,8 +685,8 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
               {/* Existing territories */}
               {Object.entries(state.territories).map(([id, t]) => {
                 const continent = t.continentId ? state.continents[t.continentId] : null;
-                const fillColor = continent ? `${continent.color}33` : 'rgba(0,0,0,0.1)';
-                const strokeColor = continent ? continent.color : '#000';
+                const fillColor = (continent && state.viewSettings.showContinentColors) ? `${continent.color}33` : 'rgba(0,0,0,0.1)';
+                const strokeColor = (continent && state.viewSettings.showContinentColors) ? continent.color : '#000';
                 
                 if (t.shape.type === 'polygon') {
                   const centroid = getPolygonCentroid(t.shape.points);
@@ -704,16 +704,18 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                         stroke={strokeColor}
                         strokeWidth={2}
                       />
-                      <Text
-                        text={t.name}
-                        x={centroid.x}
-                        y={centroid.y}
-                        offsetX={40}
-                        offsetY={10}
-                        fontSize={16}
-                        fill={'#222'}
-                      />
-                      {continent && (
+                      {state.viewSettings.showTerritoryNames && (
+                        <Text
+                          text={t.name}
+                          x={centroid.x}
+                          y={centroid.y}
+                          offsetX={40}
+                          offsetY={10}
+                          fontSize={16}
+                          fill={'#222'}
+                        />
+                      )}
+                      {continent && state.viewSettings.showContinentColors && (
                         <Text
                           text={`+${continent.bonusValue}`}
                           x={centroid.x}
@@ -745,16 +747,18 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                         stroke={strokeColor}
                         strokeWidth={2}
                       />
-                      <Text
-                        text={t.name}
-                        x={center.x}
-                        y={center.y}
-                        offsetX={40}
-                        offsetY={10}
-                        fontSize={16}
-                        fill={'#222'}
-                      />
-                      {continent && (
+                      {state.viewSettings.showTerritoryNames && (
+                        <Text
+                          text={t.name}
+                          x={center.x}
+                          y={center.y}
+                          offsetX={40}
+                          offsetY={10}
+                          fontSize={16}
+                          fill={'#222'}
+                        />
+                      )}
+                      {continent && state.viewSettings.showContinentColors && (
                         <Text
                           text={`+${continent.bonusValue}`}
                           x={center.x}
@@ -786,16 +790,18 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                         stroke={strokeColor}
                         strokeWidth={2}
                       />
-                      <Text
-                        text={t.name}
-                        x={center.x}
-                        y={center.y}
-                        offsetX={40}
-                        offsetY={10}
-                        fontSize={16}
-                        fill={'#222'}
-                      />
-                      {continent && (
+                      {state.viewSettings.showTerritoryNames && (
+                        <Text
+                          text={t.name}
+                          x={center.x}
+                          y={center.y}
+                          offsetX={40}
+                          offsetY={10}
+                          fontSize={16}
+                          fill={'#222'}
+                        />
+                      )}
+                      {continent && state.viewSettings.showContinentColors && (
                         <Text
                           text={`+${continent.bonusValue}`}
                           x={center.x}
@@ -828,16 +834,18 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                         lineJoin="round"
                         tension={0.5}
                       />
-                      <Text
-                        text={t.name}
-                        x={centroid.x}
-                        y={centroid.y}
-                        offsetX={40}
-                        offsetY={10}
-                        fontSize={16}
-                        fill={'#222'}
-                      />
-                      {continent && (
+                      {state.viewSettings.showTerritoryNames && (
+                        <Text
+                          text={t.name}
+                          x={centroid.x}
+                          y={centroid.y}
+                          offsetX={40}
+                          offsetY={10}
+                          fontSize={16}
+                          fill={'#222'}
+                        />
+                      )}
+                      {continent && state.viewSettings.showContinentColors && (
                         <Text
                           text={`+${continent.bonusValue}`}
                           x={centroid.x}

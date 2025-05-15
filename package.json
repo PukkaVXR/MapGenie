@@ -1,8 +1,8 @@
 {
   "name": "mapdesigntoolrisk",
   "private": true,
-  "version": "1.0.3",
-  "description": "Pan & Zoom Fix",
+  "version": "1.0.4",
+  "description": "UI Fix",
   "type": "module",
   "scripts": {
     "dev": "vite",

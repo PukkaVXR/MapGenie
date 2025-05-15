@@ -1,5 +1,5 @@
 import { ThemeProvider, createTheme, CssBaseline, Box, IconButton } from '@mui/material';
-import { MapProvider, useMap } from './context/MapContext';
+import { MapProvider, useMap, initialState } from './context/MapContext';
 import { MapCanvas } from './components/Canvas/MapCanvas';
 import { ContinentEditor } from './components/Sidebar/ContinentEditor';
 import { useState, useRef } from 'react';
@@ -46,8 +46,17 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
     reader.onload = e => {
       try {
         const json = JSON.parse(e.target?.result as string);
-        if (json.territories && json.continents) {
-          dispatch({ type: 'REPLACE_STATE', payload: json });
+        // Merge with default state to ensure all fields exist
+        const merged = {
+          ...initialState,
+          ...json,
+          viewSettings: {
+            ...initialState.viewSettings,
+            ...(json.viewSettings || {})
+          }
+        };
+        if (merged.territories && merged.continents) {
+          dispatch({ type: 'REPLACE_STATE', payload: merged });
         } else {
           alert('Invalid map file.');
         }
@@ -174,6 +183,10 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
           palette={palette}
           paletteNames={paletteNames}
           onPaletteChange={handlePaletteChange}
+          onToggleTerritoryNames={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showTerritoryNames' })}
+          onToggleContinentColors={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showContinentColors' })}
+          showTerritoryNames={state.viewSettings.showTerritoryNames}
+          showContinentColors={state.viewSettings.showContinentColors}
         />
         <MapCanvas ref={mapCanvasRef} highlightedConnection={highlightedConnection} backgroundImage={backgroundImage} />
       </Box>
