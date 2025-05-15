@@ -26,5 +26,9 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 
 ## Getting Started
 
+1. Visit https://pukkavxr.github.io/MapGenie/
+
+==or==
+
 1. Clone the repository:
 ```
