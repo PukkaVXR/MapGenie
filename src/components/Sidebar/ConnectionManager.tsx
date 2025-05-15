@@ -25,6 +25,14 @@ export const ConnectionManager: React.FC<{ setHighlighted: (conn: { from: string
     if (!t) return;
     t.connections.forEach(cid => {
       dispatch({ type: 'REMOVE_CONNECTION', payload: { from: territoryId, to: cid } });
+      // Also remove freehand connection if it exists
+      const freehandConn = state.freehandConnections.find(conn =>
+        (conn.from === territoryId && conn.to === cid) ||
+        (conn.from === cid && conn.to === territoryId)
+      );
+      if (freehandConn) {
+        dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
+      }
     });
   };
 
@@ -32,6 +40,14 @@ export const ConnectionManager: React.FC<{ setHighlighted: (conn: { from: string
   const removeAllConnections = () => {
     connections.forEach(conn => {
       dispatch({ type: 'REMOVE_CONNECTION', payload: conn });
+      // Also remove freehand connection if it exists
+      const freehandConn = state.freehandConnections.find(fconn =>
+        (fconn.from === conn.from && fconn.to === conn.to) ||
+        (fconn.from === conn.to && fconn.to === conn.from)
+      );
+      if (freehandConn) {
+        dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
+      }
     });
   };
 
@@ -58,7 +74,17 @@ export const ConnectionManager: React.FC<{ setHighlighted: (conn: { from: string
                 <IconButton edge="end" onClick={() => setHighlighted(isHighlighted ? null : conn)} color={isHighlighted ? 'primary' : 'default'}>
                   <HighlightIcon />
                 </IconButton>
-                <IconButton edge="end" onClick={() => dispatch({ type: 'REMOVE_CONNECTION', payload: conn })} color="error">
+                <IconButton edge="end" onClick={() => {
+                  dispatch({ type: 'REMOVE_CONNECTION', payload: conn });
+                  // Also remove freehand connection if it exists
+                  const freehandConn = state.freehandConnections.find(fconn =>
+                    (fconn.from === conn.from && fconn.to === conn.to) ||
+                    (fconn.from === conn.to && fconn.to === conn.from)
+                  );
+                  if (freehandConn) {
+                    dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
+                  }
+                }} color="error">
                   <DeleteIcon />
                 </IconButton>
               </>

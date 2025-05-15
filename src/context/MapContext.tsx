@@ -20,6 +20,13 @@ export interface Continent {
   territoryIds: string[];
 }
 
+interface FreehandConnection {
+  id: string;
+  from: string;
+  to: string;
+  points: number[];
+}
+
 interface MapState {
   territories: Record<string, Territory>;
   continents: Record<string, Continent>;
@@ -31,6 +38,8 @@ interface MapState {
     showContinentColors: boolean;
     showConnections: boolean;
   };
+  connectionMode: 'straight' | 'freehand';
+  freehandConnections: FreehandConnection[];
 }
 
 // Initial state
@@ -45,6 +54,8 @@ const initialState: MapState = {
     showContinentColors: true,
     showConnections: true,
   },
+  connectionMode: 'straight',
+  freehandConnections: [],
 };
 
 // --- Add to types ---
@@ -75,7 +86,10 @@ type MapAction =
   | { type: 'REMOVE_CONNECTION'; payload: { from: string; to: string } }
   | { type: 'REPLACE_STATE'; payload: MapState }
   | { type: 'UNDO' }
-  | { type: 'REDO' };
+  | { type: 'REDO' }
+  | { type: 'SET_CONNECTION_MODE'; payload: 'straight' | 'freehand' }
+  | { type: 'ADD_FREEHAND_CONNECTION'; payload: FreehandConnection }
+  | { type: 'REMOVE_FREEHAND_CONNECTION'; payload: string };
 
 // --- Helper: which actions should be undoable? ---
 const isUndoableAction = (action: MapAction) =>
@@ -204,6 +218,14 @@ function mapReducer(state: MapState, action: MapAction): MapState {
     
     case 'REPLACE_STATE':
       return { ...action.payload };
+    
+    case 'SET_CONNECTION_MODE':
+      return { ...state, connectionMode: action.payload };
+    
+    case 'ADD_FREEHAND_CONNECTION':
+      return { ...state, freehandConnections: [...state.freehandConnections, action.payload] };
+    case 'REMOVE_FREEHAND_CONNECTION':
+      return { ...state, freehandConnections: state.freehandConnections.filter(conn => conn.id !== action.payload) };
     
     default:
       return state;

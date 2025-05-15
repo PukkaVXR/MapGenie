@@ -10,6 +10,8 @@ import PanoramaFishEyeIcon from '@mui/icons-material/PanoramaFishEye';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
+import TimelineIcon from '@mui/icons-material/Timeline';
+import GestureIcon from '@mui/icons-material/Gesture';
 
 export const MainTools: React.FC<{
   onCanvasResize?: (widthPercent: number, heightPercent: number, mode: 'expand' | 'contract') => void;
@@ -78,6 +80,26 @@ export const MainTools: React.FC<{
           <Typography variant="caption">Connect</Typography>
         </ToggleButton>
       </ToggleButtonGroup>
+      {state.selectedTool === 'connect' && (
+        <Box sx={{ mt: 1, mb: 1, display: 'flex', justifyContent: 'center' }}>
+          <ToggleButtonGroup
+            value={state.connectionMode}
+            exclusive
+            onChange={(_e, mode) => mode && dispatch({ type: 'SET_CONNECTION_MODE', payload: mode })}
+            aria-label="connection mode"
+            size="small"
+          >
+            <ToggleButton value="straight" aria-label="Straight Connection">
+              <TimelineIcon fontSize="small" />
+              <Typography variant="caption" sx={{ ml: 0.5 }}>Straight</Typography>
+            </ToggleButton>
+            <ToggleButton value="freehand" aria-label="Freehand Connection">
+              <GestureIcon fontSize="small" />
+              <Typography variant="caption" sx={{ ml: 0.5 }}>Freehand</Typography>
+            </ToggleButton>
+          </ToggleButtonGroup>
+        </Box>
+      )}
       <Box sx={{ mt: 2, p: 1, borderTop: '1px solid #eee' }}>
         <Stack direction="row" spacing={1} alignItems="center">
           <Typography variant="body2">Width</Typography>

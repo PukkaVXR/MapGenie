@@ -5,6 +5,7 @@ import { Box, TextField, Paper, IconButton } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { MainTools } from '../Toolbar/MainTools';
 import useImage from 'use-image';
+import { v4 as uuidv4 } from 'uuid';
 
 const CANVAS_INITIAL_WIDTH = 1200;
 const CANVAS_INITIAL_HEIGHT = 800;
@@ -28,6 +29,11 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     // Connection state
     const [connectionStart, setConnectionStart] = useState<string | null>(null);
     const [connectionPreview, setConnectionPreview] = useState<{ x: number; y: number } | null>(null);
+
+    // Freehand connection drawing state
+    const [freehandDrawing, setFreehandDrawing] = useState(false);
+    const [freehandPoints, setFreehandPoints] = useState<number[]>([]);
+    const [freehandStart, setFreehandStart] = useState<string | null>(null);
 
     // Clear connection preview if tool changes or connection is completed
     useEffect(() => {
@@ -148,7 +154,33 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     const handleStageMouseDown = (e: any) => {
       const stage = stageRef.current.getStage();
       const pointer = stage.getPointerPosition();
-      if (state.selectedTool === 'connect') {
+      if (state.selectedTool === 'connect' && state.connectionMode === 'freehand') {
+        // Find clicked territory
+        const clickedTerritory = Object.entries(state.territories).find(([, t]) => {
+          let bounds = null;
+          if (t.shape.type === 'polygon' || t.shape.type === 'freehand') {
+            bounds = getPolygonBounds(t.shape.points);
+          } else if (t.shape.type === 'rect' || t.shape.type === 'ellipse') {
+            bounds = t.shape;
+          }
+          if (bounds) {
+            return (
+              pointer.x >= bounds.x &&
+              pointer.x <= bounds.x + bounds.width &&
+              pointer.y >= bounds.y &&
+              pointer.y <= bounds.y + bounds.height
+            );
+          }
+          return false;
+        });
+        if (clickedTerritory) {
+          const [id] = clickedTerritory;
+          setFreehandStart(id);
+          setFreehandPoints([pointer.x, pointer.y]);
+          setFreehandDrawing(true);
+        }
+        return;
+      } else if (state.selectedTool === 'connect') {
         // Find clicked territory
         const clickedTerritory = Object.entries(state.territories).find(([, t]) => {
           let bounds = null;
@@ -208,6 +240,12 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     };
 
     const handleStageMouseMove = () => {
+      if (state.selectedTool === 'connect' && state.connectionMode === 'freehand' && freehandDrawing) {
+        const stage = stageRef.current.getStage();
+        const pointer = stage.getPointerPosition();
+        setFreehandPoints(prev => [...prev, pointer.x, pointer.y]);
+        return;
+      }
       if (!drawing && !selectionStart) return;
       const stage = stageRef.current.getStage();
       const pointer = stage.getPointerPosition();
@@ -264,6 +302,47 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     };
 
     const handleStageMouseUp = () => {
+      if (state.selectedTool === 'connect' && state.connectionMode === 'freehand' && freehandDrawing) {
+        const stage = stageRef.current.getStage();
+        const pointer = stage.getPointerPosition();
+        // Find end territory
+        const endTerritory = Object.entries(state.territories).find(([, t]) => {
+          let bounds = null;
+          if (t.shape.type === 'polygon' || t.shape.type === 'freehand') {
+            bounds = getPolygonBounds(t.shape.points);
+          } else if (t.shape.type === 'rect' || t.shape.type === 'ellipse') {
+            bounds = t.shape;
+          }
+          if (bounds) {
+            return (
+              pointer.x >= bounds.x &&
+              pointer.x <= bounds.x + bounds.width &&
+              pointer.y >= bounds.y &&
+              pointer.y <= bounds.y + bounds.height
+            );
+          }
+          return false;
+        });
+        if (endTerritory && freehandStart && endTerritory[0] !== freehandStart && freehandPoints.length > 3) {
+          dispatch({
+            type: 'ADD_FREEHAND_CONNECTION',
+            payload: {
+              id: uuidv4(),
+              from: freehandStart,
+              to: endTerritory[0],
+              points: freehandPoints,
+            },
+          });
+          dispatch({
+            type: 'ADD_CONNECTION',
+            payload: { from: freehandStart, to: endTerritory[0] },
+          });
+        }
+        setFreehandDrawing(false);
+        setFreehandPoints([]);
+        setFreehandStart(null);
+        return;
+      }
       if (state.selectedTool === 'connect') {
         if (!connectionStart) {
           setConnectionPreview(null);
@@ -519,7 +598,20 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                   opacity={0.7}
                 />
               )}
-              {/* --- Connection lines --- */}
+              {/* --- Freehand connections --- */}
+              {state.viewSettings.showConnections && state.freehandConnections.map(conn => (
+                <Line
+                  key={conn.id}
+                  points={conn.points}
+                  stroke="#1976d2"
+                  strokeWidth={3}
+                  dash={[10, 10]}
+                  lineCap="round"
+                  lineJoin="round"
+                  opacity={0.8}
+                />
+              ))}
+              {/* --- Connection lines (straight) --- */}
               {state.viewSettings.showConnections && Object.entries(state.territories).map(([id, t]) => {
                 const center = getTerritoryCenter(t);
                 return t.connections.map(connectedId => {
@@ -528,6 +620,12 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                   const connectedCenter = getTerritoryCenter(connectedTerritory);
                   // Only draw each connection once
                   if (id > connectedId) return null;
+                  // Skip straight line if a freehand connection exists between these two territories
+                  const hasFreehand = state.freehandConnections.some(conn =>
+                    (conn.from === id && conn.to === connectedId) ||
+                    (conn.from === connectedId && conn.to === id)
+                  );
+                  if (hasFreehand) return null;
                   const isHighlighted = highlightedConnection &&
                     ((highlightedConnection.from === id && highlightedConnection.to === connectedId) ||
                      (highlightedConnection.from === connectedId && highlightedConnection.to === id));
@@ -542,25 +640,30 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                       onClick={() => {
                         if (state.selectedTool === 'connect') {
                           dispatch({ type: 'REMOVE_CONNECTION', payload: { from: id, to: connectedId } });
+                          // Also remove freehand connection if it exists
+                          const freehandConn = state.freehandConnections.find(conn =>
+                            (conn.from === id && conn.to === connectedId) ||
+                            (conn.from === connectedId && conn.to === id)
+                          );
+                          if (freehandConn) {
+                            dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
+                          }
                         }
                       }}
                     />
                   );
                 });
               })}
-              {/* --- Connection preview line --- */}
-              {state.selectedTool === 'connect' && connectionStart && connectionPreview && (
+              {/* --- Connection preview line (freehand) --- */}
+              {state.selectedTool === 'connect' && state.connectionMode === 'freehand' && freehandDrawing && freehandPoints.length > 1 && (
                 <Line
-                  points={[
-                    getTerritoryCenter(state.territories[connectionStart]).x,
-                    getTerritoryCenter(state.territories[connectionStart]).y,
-                    connectionPreview.x,
-                    connectionPreview.y
-                  ]}
-                  stroke="#666"
-                  strokeWidth={2}
-                  dash={[5, 5]}
+                  points={freehandPoints}
+                  stroke="#1976d2"
+                  strokeWidth={3}
+                  dash={[10, 10]}
                   lineCap="round"
+                  lineJoin="round"
+                  opacity={0.5}
                 />
               )}
               {/* --- Highlight connection start territory --- */}
