@@ -28,7 +28,6 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
 
     // Connection state
     const [connectionStart, setConnectionStart] = useState<string | null>(null);
-    const [connectionPreview, setConnectionPreview] = useState<{ x: number; y: number } | null>(null);
 
     // Freehand connection drawing state
     const [freehandDrawing, setFreehandDrawing] = useState(false);
@@ -39,7 +38,6 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     useEffect(() => {
       if (state.selectedTool !== 'connect') {
         setConnectionStart(null);
-        setConnectionPreview(null);
       }
     }, [state.selectedTool]);
 
@@ -150,10 +148,20 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
       setCanvasHeight(newHeight);
     };
 
+    // Utility to get pointer position in canvas coordinates
+    function getCanvasPointer(stage: any) {
+      const pointer = stage.getPointerPosition();
+      const scale = stage.scaleX();
+      return {
+        x: (pointer.x - stage.x()) / scale,
+        y: (pointer.y - stage.y()) / scale,
+      };
+    }
+
     // Drawing handlers
     const handleStageMouseDown = (e: any) => {
       const stage = stageRef.current.getStage();
-      const pointer = stage.getPointerPosition();
+      const pointer = getCanvasPointer(stage);
       if (state.selectedTool === 'connect' && state.connectionMode === 'freehand') {
         // Find clicked territory
         const clickedTerritory = Object.entries(state.territories).find(([, t]) => {
@@ -204,7 +212,6 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
           handleConnectToolClick(id);
         } else {
           setConnectionStart(null);
-          setConnectionPreview(null);
         }
       } else if (state.selectedTool === 'polygon') {
         if (!drawing) {
@@ -242,15 +249,15 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     const handleStageMouseMove = () => {
       if (state.selectedTool === 'connect' && state.connectionMode === 'freehand' && freehandDrawing) {
         const stage = stageRef.current.getStage();
-        const pointer = stage.getPointerPosition();
+        const pointer = getCanvasPointer(stage);
         setFreehandPoints(prev => [...prev, pointer.x, pointer.y]);
         return;
       }
       if (!drawing && !selectionStart) return;
       const stage = stageRef.current.getStage();
-      const pointer = stage.getPointerPosition();
+      const pointer = getCanvasPointer(stage);
       if (state.selectedTool === 'connect' && connectionStart) {
-        setConnectionPreview(pointer);
+        return;
       } else if (drawing && newShape) {
         if (newShape.type === 'polygon') {
           setNewShape((prev: any) => ({ ...prev, preview: [pointer.x, pointer.y] }));
@@ -304,7 +311,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     const handleStageMouseUp = () => {
       if (state.selectedTool === 'connect' && state.connectionMode === 'freehand' && freehandDrawing) {
         const stage = stageRef.current.getStage();
-        const pointer = stage.getPointerPosition();
+        const pointer = getCanvasPointer(stage);
         // Find end territory
         const endTerritory = Object.entries(state.territories).find(([, t]) => {
           let bounds = null;
@@ -345,7 +352,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
       }
       if (state.selectedTool === 'connect') {
         if (!connectionStart) {
-          setConnectionPreview(null);
+          setConnectionStart(null);
         }
       } else if (drawing && newShape) {
         if (newShape.type === 'rect' || newShape.type === 'ellipse') {
@@ -495,7 +502,6 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
       } else if (connectionStart !== territoryId) {
         dispatch({ type: 'ADD_CONNECTION', payload: { from: connectionStart, to: territoryId } });
         setConnectionStart(null);
-        setConnectionPreview(null);
       }
     };
 
