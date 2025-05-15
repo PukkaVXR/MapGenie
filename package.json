@@ -1,8 +1,8 @@
 {
   "name": "mapdesigntoolrisk",
   "private": true,
-  "version": "1.0.4",
-  "description": "UI Fix",
+  "version": "1.0.5",
+  "description": "Local storage fix",
   "type": "module",
   "scripts": {
     "dev": "vite",

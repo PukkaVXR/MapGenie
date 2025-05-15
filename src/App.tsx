@@ -86,8 +86,17 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
         return;
       }
       const json = JSON.parse(data);
-      if (json.territories && json.continents) {
-        dispatch({ type: 'REPLACE_STATE', payload: json });
+      // Merge with default state to ensure all fields exist
+      const merged = {
+        ...initialState,
+        ...json,
+        viewSettings: {
+          ...initialState.viewSettings,
+          ...(json.viewSettings || {})
+        }
+      };
+      if (merged.territories && merged.continents) {
+        dispatch({ type: 'REPLACE_STATE', payload: merged });
         alert('Map loaded from local storage.');
       } else {
         alert('Invalid map data in local storage.');

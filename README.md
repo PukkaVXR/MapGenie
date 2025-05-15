@@ -16,6 +16,9 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 
 ## Changelog
 
+### V1.0.5 (Local storage fix)
+- Robust loading from local storage: merges with default state to prevent errors from missing fields
+
 ### V1.0.4 (UI Fix)
 - Compact export toolbar: icon buttons in a row, export/toggles stacked below
 - Toggles for territory names and continent colors in toolbar
