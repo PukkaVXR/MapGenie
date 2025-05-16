@@ -16,6 +16,14 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 
 ## Changelog
 
+### V1.0.6 (Font and Styling)
+- Added customizable text settings for territories:
+  - Font family selection (9 web-safe fonts)
+  - Font size adjustment
+  - Text position offset controls
+- Improved toolbar layout organization
+- Added default text settings for new territories
+
 ### V1.0.5 (Local storage fix)
 - Robust loading from local storage: merges with default state to prevent errors from missing fields
 
