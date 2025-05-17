@@ -10,6 +10,12 @@ export interface Territory {
   continentId: string | null;
   position: { x: number; y: number };
   connections: string[];
+  textSettings: {
+    offsetX: number;
+    offsetY: number;
+    fontSize: number;
+    fontFamily: string;
+  };
 }
 
 export interface Continent {
@@ -27,10 +33,17 @@ interface FreehandConnection {
   points: number[];
 }
 
+export interface Connection {
+  from: string;
+  to: string;
+  fromPoint: { x: number; y: number };
+  toPoint: { x: number; y: number };
+}
+
 interface MapState {
   territories: Record<string, Territory>;
   continents: Record<string, Continent>;
-  selectedTool: 'draw' | 'polygon' | 'connect' | 'select' | 'rect' | 'ellipse';
+  selectedTool: 'draw' | 'polygon' | 'connect' | 'select' | 'rect' | 'ellipse' | 'connected';
   selectedTerritory: string | null;
   referenceImage: string | null;
   viewSettings: {
@@ -38,7 +51,14 @@ interface MapState {
     showContinentColors: boolean;
     showConnections: boolean;
   };
+  defaultTextSettings: {
+    offsetX: number;
+    offsetY: number;
+    fontSize: number;
+    fontFamily: string;
+  };
   connectionMode: 'straight' | 'freehand';
+  connections: Connection[];
   freehandConnections: FreehandConnection[];
 }
 
@@ -54,7 +74,14 @@ export const initialState: MapState = {
     showContinentColors: true,
     showConnections: true,
   },
+  defaultTextSettings: {
+    offsetX: 40,
+    offsetY: 10,
+    fontSize: 16,
+    fontFamily: 'Arial'
+  },
   connectionMode: 'straight',
+  connections: [],
   freehandConnections: [],
 };
 
@@ -73,16 +100,17 @@ const initialUndoableState: UndoableMapState = {
 
 // --- Update actions ---
 type MapAction =
-  | { type: 'SET_SELECTED_TOOL'; payload: 'draw' | 'polygon' | 'rect' | 'ellipse' | 'connect' | 'select' }
+  | { type: 'SET_SELECTED_TOOL'; payload: 'draw' | 'polygon' | 'rect' | 'ellipse' | 'connect' | 'select' | 'connected' }
   | { type: 'SET_SELECTED_TERRITORY'; payload: string | null }
   | { type: 'ADD_TERRITORY'; payload: Omit<Territory, 'id'> }
   | { type: 'UPDATE_TERRITORY'; payload: { id: string; updates: Partial<Territory> } }
   | { type: 'DELETE_TERRITORY'; payload: string }
   | { type: 'TOGGLE_VIEW_SETTING'; payload: keyof MapState['viewSettings'] }
+  | { type: 'SET_DEFAULT_TEXT_SETTING'; payload: { key: keyof MapState['defaultTextSettings']; value: any } }
   | { type: 'ADD_CONTINENT'; payload: Continent }
   | { type: 'UPDATE_CONTINENT'; payload: { id: string; updates: Partial<Continent> } }
   | { type: 'DELETE_CONTINENT'; payload: string }
-  | { type: 'ADD_CONNECTION'; payload: { from: string; to: string } }
+  | { type: 'ADD_CONNECTION'; payload: { from: string; to: string; fromPoint: { x: number; y: number }; toPoint: { x: number; y: number } } }
   | { type: 'REMOVE_CONNECTION'; payload: { from: string; to: string } }
   | { type: 'REPLACE_STATE'; payload: MapState }
   | { type: 'UNDO' }
@@ -108,8 +136,24 @@ function mapReducer(state: MapState, action: MapAction): MapState {
     case 'SET_SELECTED_TERRITORY':
       return { ...state, selectedTerritory: action.payload };
     
+    case 'SET_DEFAULT_TEXT_SETTING':
+      return {
+        ...state,
+        defaultTextSettings: {
+          ...state.defaultTextSettings,
+          [action.payload.key]: action.payload.value
+        }
+      };
+    
     case 'ADD_TERRITORY':
-      const newTerritory = { ...action.payload, id: uuidv4() };
+      const newTerritory = { 
+        ...action.payload, 
+        id: uuidv4(),
+        textSettings: {
+          ...state.defaultTextSettings,
+          ...(action.payload.textSettings || {})
+        }
+      };
       return {
         ...state,
         territories: { ...state.territories, [newTerritory.id]: newTerritory },
@@ -182,39 +226,31 @@ function mapReducer(state: MapState, action: MapAction): MapState {
         territories: updatedTerritories
       };
     
-    case 'ADD_CONNECTION':
+    case 'ADD_CONNECTION': {
+      const { from, to, fromPoint, toPoint } = action.payload as any;
+      // Prevent self-connections and duplicates
+      if (from === to) return state;
+      if (state.connections.some(conn =>
+        (conn.from === from && conn.to === to) ||
+        (conn.from === to && conn.to === from)
+      )) return state;
+      return {
+        ...state,
+        connections: [
+          ...state.connections,
+          { from, to, fromPoint, toPoint }
+        ]
+      };
+    }
+    case 'REMOVE_CONNECTION': {
       const { from, to } = action.payload;
-      if (from === to) return state; // Prevent self-connections
-      
-      const updatedTerritoriesWithConnection = { ...state.territories };
-      const fromTerritory = updatedTerritoriesWithConnection[from];
-      const toTerritory = updatedTerritoriesWithConnection[to];
-      
-      if (!fromTerritory || !toTerritory) return state;
-      
-      // Add bidirectional connection if it doesn't exist
-      if (!fromTerritory.connections.includes(to)) {
-        fromTerritory.connections = [...fromTerritory.connections, to];
-      }
-      if (!toTerritory.connections.includes(from)) {
-        toTerritory.connections = [...toTerritory.connections, from];
-      }
-      
-      return { ...state, territories: updatedTerritoriesWithConnection };
-
-    case 'REMOVE_CONNECTION':
-      const { from: fromId, to: toId } = action.payload;
-      const updatedTerritoriesWithoutConnection = { ...state.territories };
-      const fromT = updatedTerritoriesWithoutConnection[fromId];
-      const toT = updatedTerritoriesWithoutConnection[toId];
-      
-      if (!fromT || !toT) return state;
-      
-      // Remove bidirectional connection
-      fromT.connections = fromT.connections.filter(id => id !== toId);
-      toT.connections = toT.connections.filter(id => id !== fromId);
-      
-      return { ...state, territories: updatedTerritoriesWithoutConnection };
+      return {
+        ...state,
+        connections: state.connections.filter(conn =>
+          !((conn.from === from && conn.to === to) || (conn.from === to && conn.to === from))
+        )
+      };
+    }
     
     case 'REPLACE_STATE':
       return { ...action.payload };
@@ -223,7 +259,14 @@ function mapReducer(state: MapState, action: MapAction): MapState {
       return { ...state, connectionMode: action.payload };
     
     case 'ADD_FREEHAND_CONNECTION':
-      return { ...state, freehandConnections: [...state.freehandConnections, action.payload] };
+      // Replace if exists, else add
+      return {
+        ...state,
+        freehandConnections: [
+          ...state.freehandConnections.filter(conn => conn.id !== action.payload.id),
+          action.payload
+        ]
+      };
     case 'REMOVE_FREEHAND_CONNECTION':
       return { ...state, freehandConnections: state.freehandConnections.filter(conn => conn.id !== action.payload) };
     

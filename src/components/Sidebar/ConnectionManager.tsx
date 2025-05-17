@@ -9,45 +9,31 @@ export const ConnectionManager: React.FC<{ setHighlighted: (conn: { from: string
   if (!open) return null;
   const { state, dispatch } = useMap();
 
-  // Gather all unique connections (from lower id to higher id)
-  const connections: { from: string; to: string }[] = [];
-  Object.entries(state.territories).forEach(([id, t]) => {
-    t.connections.forEach(cid => {
-      if (id < cid) {
-        connections.push({ from: id, to: cid });
-      }
-    });
-  });
+  // Gather all unique straight connections from the global array
+  const connections = state.connections;
 
   // Remove all connections for a territory
   const removeAllForTerritory = (territoryId: string) => {
-    const t = state.territories[territoryId];
-    if (!t) return;
-    t.connections.forEach(cid => {
-      dispatch({ type: 'REMOVE_CONNECTION', payload: { from: territoryId, to: cid } });
-      // Also remove freehand connection if it exists
-      const freehandConn = state.freehandConnections.find(conn =>
-        (conn.from === territoryId && conn.to === cid) ||
-        (conn.from === cid && conn.to === territoryId)
-      );
-      if (freehandConn) {
-        dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
+    state.connections.forEach(conn => {
+      if (conn.from === territoryId || conn.to === territoryId) {
+        dispatch({ type: 'REMOVE_CONNECTION', payload: { from: conn.from, to: conn.to } });
+      }
+    });
+    // Also remove all freehand connections for this territory
+    state.freehandConnections.forEach(conn => {
+      if (conn.from === territoryId || conn.to === territoryId) {
+        dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: conn.id });
       }
     });
   };
 
   // Remove all connections globally
   const removeAllConnections = () => {
-    connections.forEach(conn => {
-      dispatch({ type: 'REMOVE_CONNECTION', payload: conn });
-      // Also remove freehand connection if it exists
-      const freehandConn = state.freehandConnections.find(fconn =>
-        (fconn.from === conn.from && fconn.to === conn.to) ||
-        (fconn.from === conn.to && fconn.to === conn.from)
-      );
-      if (freehandConn) {
-        dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
-      }
+    state.connections.forEach(conn => {
+      dispatch({ type: 'REMOVE_CONNECTION', payload: { from: conn.from, to: conn.to } });
+    });
+    state.freehandConnections.forEach(conn => {
+      dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: conn.id });
     });
   };
 
@@ -75,7 +61,7 @@ export const ConnectionManager: React.FC<{ setHighlighted: (conn: { from: string
                   <HighlightIcon />
                 </IconButton>
                 <IconButton edge="end" onClick={() => {
-                  dispatch({ type: 'REMOVE_CONNECTION', payload: conn });
+                  dispatch({ type: 'REMOVE_CONNECTION', payload: { from: conn.from, to: conn.to } });
                   // Also remove freehand connection if it exists
                   const freehandConn = state.freehandConnections.find(fconn =>
                     (fconn.from === conn.from && fconn.to === conn.to) ||
@@ -99,7 +85,8 @@ export const ConnectionManager: React.FC<{ setHighlighted: (conn: { from: string
       <List dense>
         {Object.entries(state.territories).map(([id, t]) => (
           <ListItem key={id} secondaryAction={
-            <Button size="small" color="error" variant="outlined" onClick={() => removeAllForTerritory(id)} disabled={t.connections.length === 0}>
+            <Button size="small" color="error" variant="outlined" onClick={() => removeAllForTerritory(id)}
+              disabled={state.connections.filter(conn => conn.from === id || conn.to === id).length === 0 && state.freehandConnections.filter(conn => conn.from === id || conn.to === id).length === 0}>
               Remove All
             </Button>
           }>

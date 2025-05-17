@@ -1,14 +1,27 @@
 import React, { useRef, useState, useEffect, useImperativeHandle, forwardRef } from 'react';
 import { Stage, Layer, Rect, Ellipse, Line, Text, Group, Transformer, Circle, Image as KonvaImage } from 'react-konva';
 import { useMap } from '../../context/MapContext';
-import { Box, TextField, Paper, IconButton } from '@mui/material';
+import { Box, TextField, Paper, IconButton, Slider, Typography, Stack, Select, MenuItem, FormControl, InputLabel } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { MainTools } from '../Toolbar/MainTools';
 import useImage from 'use-image';
 import { v4 as uuidv4 } from 'uuid';
+import { useTheme } from '@mui/material/styles';
 
 const CANVAS_INITIAL_WIDTH = 1200;
 const CANVAS_INITIAL_HEIGHT = 800;
+
+const AVAILABLE_FONTS = [
+  'Arial',
+  'Verdana',
+  'Helvetica',
+  'Times New Roman',
+  'Courier New',
+  'Georgia',
+  'Trebuchet MS',
+  'Impact',
+  'Comic Sans MS'
+];
 
 const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: string } | null, backgroundImage?: string | null }>(
   ({ highlightedConnection, backgroundImage }, ref) => {
@@ -51,6 +64,8 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     const [stageY, setStageY] = useState(0);
     const [isPanning, setIsPanning] = useState(false);
     const [spacePressed, setSpacePressed] = useState(false);
+
+    const theme = useTheme();
 
     // Pan/zoom event handlers
     useEffect(() => {
@@ -162,6 +177,19 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     const handleStageMouseDown = (e: any) => {
       const stage = stageRef.current.getStage();
       const pointer = getCanvasPointer(stage);
+      
+      if (state.selectedTool === 'connected') {
+        if (!drawing) {
+          setDrawing(true);
+          const point = snappedEdge ? snappedEdge.point : pointer;
+          setNewShape({ type: 'polygon', points: [point.x, point.y] });
+        } else {
+          const point = snappedEdge ? snappedEdge.point : pointer;
+          setNewShape((prev: any) => ({ ...prev, points: [...prev.points, point.x, point.y] }));
+        }
+        return;
+      }
+      
       if (state.selectedTool === 'connect' && state.connectionMode === 'freehand') {
         // Find clicked territory
         const clickedTerritory = Object.entries(state.territories).find(([, t]) => {
@@ -188,7 +216,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
           setFreehandDrawing(true);
         }
         return;
-      } else if (state.selectedTool === 'connect') {
+      } else if (state.selectedTool === 'connect' && state.connectionMode === 'straight') {
         // Find clicked territory
         const clickedTerritory = Object.entries(state.territories).find(([, t]) => {
           let bounds = null;
@@ -208,11 +236,35 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
           return false;
         });
         if (clickedTerritory) {
-          const [id] = clickedTerritory;
-          handleConnectToolClick(id);
+          const [id, t] = clickedTerritory;
+          // Calculate relative point
+          let relX = pointer.x, relY = pointer.y;
+          if (t.shape.type === 'polygon' || t.shape.type === 'freehand') {
+            const bounds = getPolygonBounds(t.shape.points);
+            relX = pointer.x - bounds.x;
+            relY = pointer.y - bounds.y;
+          } else if (t.shape.type === 'rect' || t.shape.type === 'ellipse') {
+            relX = pointer.x - t.shape.x;
+            relY = pointer.y - t.shape.y;
+          }
+          if (!connectionStartPoint) {
+            setConnectionStartPoint({ territoryId: id, point: { x: relX, y: relY } });
+          } else if (connectionStartPoint.territoryId !== id) {
+            // Second click: create connection
+            const from = connectionStartPoint.territoryId;
+            const to = id;
+            const fromPoint = connectionStartPoint.point;
+            const toPoint = { x: relX, y: relY };
+            dispatch({
+              type: 'ADD_CONNECTION',
+              payload: { from, to, fromPoint, toPoint }
+            });
+            setConnectionStartPoint(null);
+          }
         } else {
-          setConnectionStart(null);
+          setConnectionStartPoint(null);
         }
+        return;
       } else if (state.selectedTool === 'polygon') {
         if (!drawing) {
           setDrawing(true);
@@ -220,21 +272,23 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
         } else {
           setNewShape((prev: any) => ({ ...prev, points: [...prev.points, pointer.x, pointer.y] }));
         }
-      } else if (state.selectedTool === 'rect' || state.selectedTool === 'ellipse') {
-        setDrawing(true);
-        setNewShape({
-          type: state.selectedTool,
-          x: pointer.x,
-          y: pointer.y,
-          width: 0,
-          height: 0,
-        });
+      } else if (state.selectedTool === 'rect') {
+        if (!drawing) {
+          setDrawing(true);
+          setNewShape({ type: 'rect', x: pointer.x, y: pointer.y, width: 0, height: 0 });
+        }
+      } else if (state.selectedTool === 'ellipse') {
+        if (!drawing) {
+          setDrawing(true);
+          setNewShape({ type: 'ellipse', x: pointer.x, y: pointer.y, width: 0, height: 0 });
+        }
       } else if (state.selectedTool === 'draw') {
-        setDrawing(true);
-        setNewShape({
-          type: 'freehand',
-          points: [pointer.x, pointer.y],
-        });
+        if (!drawing) {
+          setDrawing(true);
+          setNewShape({ type: 'freehand', points: [pointer.x, pointer.y] });
+        } else {
+          setNewShape((prev: any) => ({ ...prev, points: [...prev.points, pointer.x, pointer.y] }));
+        }
       } else if (state.selectedTool === 'select') {
         // Marquee selection: start rectangle
         if (e.target === e.target.getStage()) {
@@ -256,6 +310,16 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
       if (!drawing && !selectionStart) return;
       const stage = stageRef.current.getStage();
       const pointer = getCanvasPointer(stage);
+      
+      // Handle connected drawing mode
+      if (state.selectedTool === 'connected') {
+        const nearestEdge = findNearestEdge(pointer);
+        if (nearestEdge) {
+          setSnappedEdge(nearestEdge);
+        } else {
+          setSnappedEdge(null);
+        }
+      }
       if (state.selectedTool === 'connect' && connectionStart) {
         return;
       } else if (drawing && newShape) {
@@ -285,7 +349,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
     };
 
     const handleStageDblClick = () => {
-      if (state.selectedTool === 'polygon' && drawing && newShape && newShape.points.length >= 6) {
+      if ((state.selectedTool === 'polygon' || state.selectedTool === 'connected') && drawing && newShape && newShape.points.length >= 6) {
         const points = newShape.points;
         const bounds = getPolygonBounds(points);
         const name = `Territory ${Object.keys(state.territories).length + 1}`;
@@ -301,10 +365,14 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
             continentId: null,
             position: { x: bounds.x, y: bounds.y },
             connections: [],
+            textSettings: {
+              ...state.defaultTextSettings
+            }
           },
         });
         setDrawing(false);
         setNewShape(null);
+        setSnappedEdge(null);
       }
     };
 
@@ -356,51 +424,60 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
         }
       } else if (drawing && newShape) {
         if (newShape.type === 'rect' || newShape.type === 'ellipse') {
-          const bounds = {
-            x: Math.min(newShape.x, newShape.x + newShape.width),
-            y: Math.min(newShape.y, newShape.y + newShape.height),
-            width: Math.abs(newShape.width),
-            height: Math.abs(newShape.height),
-          };
-          const name = `Territory ${Object.keys(state.territories).length + 1}`;
-          dispatch({
-            type: 'ADD_TERRITORY',
-            payload: {
-              name,
-              shape: {
-                type: newShape.type,
-                ...bounds,
+          if (Math.abs(newShape.width) > 5 && Math.abs(newShape.height) > 5) {
+            const bounds = {
+              x: Math.min(newShape.x, newShape.x + newShape.width),
+              y: Math.min(newShape.y, newShape.y + newShape.height),
+              width: Math.abs(newShape.width),
+              height: Math.abs(newShape.height),
+            };
+            const name = `Territory ${Object.keys(state.territories).length + 1}`;
+            dispatch({
+              type: 'ADD_TERRITORY',
+              payload: {
+                name,
+                shape: {
+                  type: newShape.type,
+                  ...bounds,
+                },
+                continentId: null,
+                position: { x: bounds.x, y: bounds.y },
+                connections: [],
+                textSettings: {
+                  ...state.defaultTextSettings
+                }
               },
-              continentId: null,
-              position: { x: bounds.x, y: bounds.y },
-              connections: [],
-            },
-          });
+            });
+          }
           setDrawing(false);
           setNewShape(null);
         } else if (newShape.type === 'freehand') {
-          // Close the freehand shape and fill it
-          let points = newShape.points;
-          if (points.length >= 4) {
-            points = [...points, points[0], points[1]]; // Close the shape
-          }
-          const bounds = getPolygonBounds(points);
-          const name = `Territory ${Object.keys(state.territories).length + 1}`;
-          dispatch({
-            type: 'ADD_TERRITORY',
-            payload: {
-              name,
-              shape: {
-                type: 'freehand',
-                points,
-                bounds,
-                closed: true,
+          if (newShape.points.length >= 6) {
+            let points = newShape.points;
+            if (points.length >= 4) {
+              points = [...points, points[0], points[1]];
+            }
+            const bounds = getPolygonBounds(points);
+            const name = `Territory ${Object.keys(state.territories).length + 1}`;
+            dispatch({
+              type: 'ADD_TERRITORY',
+              payload: {
+                name,
+                shape: {
+                  type: 'freehand',
+                  points,
+                  bounds,
+                  closed: true,
+                },
+                continentId: null,
+                position: { x: bounds.x, y: bounds.y },
+                connections: [],
+                textSettings: {
+                  ...state.defaultTextSettings
+                }
               },
-              continentId: null,
-              position: { x: bounds.x, y: bounds.y },
-              connections: [],
-            },
-          });
+            });
+          }
           setDrawing(false);
           setNewShape(null);
         }
@@ -555,6 +632,156 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
       return { x, y };
     }
 
+    // Add these utility functions near the other utility functions
+    function getTerritoryEdges(territory: any): { x1: number; y1: number; x2: number; y2: number }[] {
+      const edges: { x1: number; y1: number; x2: number; y2: number }[] = [];
+      
+      if (territory.shape.type === 'polygon' || territory.shape.type === 'freehand') {
+        const points = territory.shape.points;
+        for (let i = 0; i < points.length; i += 2) {
+          const x1 = points[i];
+          const y1 = points[i + 1];
+          const x2 = points[(i + 2) % points.length];
+          const y2 = points[(i + 3) % points.length];
+          edges.push({ x1, y1, x2, y2 });
+        }
+      } else if (territory.shape.type === 'rect') {
+        const { x, y, width, height } = territory.shape;
+        edges.push(
+          { x1: x, y1: y, x2: x + width, y2: y }, // top
+          { x1: x + width, y1: y, x2: x + width, y2: y + height }, // right
+          { x1: x + width, y1: y + height, x2: x, y2: y + height }, // bottom
+          { x1: x, y1: y + height, x2: x, y2: y } // left
+        );
+      } else if (territory.shape.type === 'ellipse') {
+        // For ellipses, we'll approximate with a polygon of 32 points
+        const { x, y, width, height } = territory.shape;
+        const centerX = x + width / 2;
+        const centerY = y + height / 2;
+        const radiusX = Math.abs(width) / 2;
+        const radiusY = Math.abs(height) / 2;
+        const points: number[] = [];
+        for (let i = 0; i < 32; i++) {
+          const angle = (i / 32) * Math.PI * 2;
+          points.push(
+            centerX + Math.cos(angle) * radiusX,
+            centerY + Math.sin(angle) * radiusY
+          );
+        }
+        for (let i = 0; i < points.length; i += 2) {
+          const x1 = points[i];
+          const y1 = points[i + 1];
+          const x2 = points[(i + 2) % points.length];
+          const y2 = points[(i + 3) % points.length];
+          edges.push({ x1, y1, x2, y2 });
+        }
+      }
+      return edges;
+    }
+
+    function findNearestEdge(point: { x: number; y: number }, snapDistance: number = 10) {
+      let nearestEdge = null;
+      let minDistance = snapDistance;
+      for (const territory of Object.values(state.territories)) {
+        const edges = getTerritoryEdges(territory);
+        for (const edge of edges) {
+          const dx = edge.x2 - edge.x1;
+          const dy = edge.y2 - edge.y1;
+          const length = Math.sqrt(dx * dx + dy * dy);
+          if (length === 0) continue;
+          const t = Math.max(0, Math.min(1, ((point.x - edge.x1) * dx + (point.y - edge.y1) * dy) / (length * length)));
+          const nearestX = edge.x1 + t * dx;
+          const nearestY = edge.y1 + t * dy;
+          const distance = Math.sqrt(Math.pow(point.x - nearestX, 2) + Math.pow(point.y - nearestY, 2));
+          if (distance < minDistance) {
+            minDistance = distance;
+            nearestEdge = {
+              edge,
+              point: { x: nearestX, y: nearestY },
+              distance
+            };
+          }
+        }
+      }
+      return nearestEdge;
+    }
+
+    // Add these state variables near the other state declarations
+    const [snappedEdge, setSnappedEdge] = useState<{ edge: { x1: number; y1: number; x2: number; y2: number }; point: { x: number; y: number }; distance: number } | null>(null);
+
+    // Add state for connection start point
+    const [connectionStartPoint, setConnectionStartPoint] = useState<{ territoryId: string, point: { x: number, y: number } } | null>(null);
+
+    const handleDragEnd = (e: any) => {
+      if (state.selectedTool === 'select') {
+        const territoryId = e.target.id().replace('shape-', '');
+        const territory = state.territories[territoryId];
+        if (!territory) return;
+        const dx = e.target.x();
+        const dy = e.target.y();
+
+        // Debug: log freehand connections before move
+        console.log('Before move, freehandConnections:', state.freehandConnections);
+
+        // Update the shape's position based on its type
+        let updatedShape = { ...territory.shape };
+        if (territory.shape.type === 'polygon' || territory.shape.type === 'freehand') {
+          updatedShape = {
+            ...updatedShape,
+            points: territory.shape.points.map((point: number, index: number) => 
+              index % 2 === 0 ? point + dx : point + dy
+            )
+          };
+        } else if (territory.shape.type === 'rect' || territory.shape.type === 'ellipse') {
+          updatedShape = {
+            ...updatedShape,
+            x: territory.shape.x + dx,
+            y: territory.shape.y + dy
+          };
+        }
+
+        dispatch({
+          type: 'UPDATE_TERRITORY',
+          payload: {
+            id: territoryId,
+            updates: {
+              shape: updatedShape,
+              position: {
+                x: territory.position.x + dx,
+                y: territory.position.y + dy
+              }
+            }
+          }
+        });
+
+        // Update freehand connections involving this territory
+        state.freehandConnections.forEach(conn => {
+          let updatedPoints = null;
+          if (conn.from === territoryId) {
+            updatedPoints = [...conn.points];
+            updatedPoints[0] += dx;
+            updatedPoints[1] += dy;
+          }
+          if (conn.to === territoryId) {
+            updatedPoints = updatedPoints || [...conn.points];
+            updatedPoints[updatedPoints.length - 2] += dx;
+            updatedPoints[updatedPoints.length - 1] += dy;
+          }
+          if (updatedPoints) {
+            // Only dispatch ADD (which replaces) and do not dispatch REMOVE
+            dispatch({
+              type: 'ADD_FREEHAND_CONNECTION',
+              payload: { ...conn, points: updatedPoints }
+            });
+          }
+        });
+
+        // Reset the node's position to 0,0
+        e.target.x(0);
+        e.target.y(0);
+      }
+    };
+
     return (
       <Box
         sx={{
@@ -604,61 +831,58 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                   opacity={0.7}
                 />
               )}
-              {/* --- Freehand connections --- */}
-              {state.viewSettings.showConnections && state.freehandConnections.map(conn => (
-                <Line
-                  key={conn.id}
-                  points={conn.points}
-                  stroke="#1976d2"
-                  strokeWidth={3}
-                  dash={[10, 10]}
-                  lineCap="round"
-                  lineJoin="round"
-                  opacity={0.8}
-                />
-              ))}
+              {/* Before rendering freehand connections: */}
+              {state.viewSettings.showConnections && state.freehandConnections.map(conn => {
+                const points = conn.points;
+                return (
+                  <Line
+                    key={conn.id}
+                    points={points}
+                    stroke="#1976d2"
+                    strokeWidth={3}
+                    dash={[10, 10]}
+                    lineCap="round"
+                    lineJoin="round"
+                    opacity={0.8}
+                  />
+                );
+              })}
               {/* --- Connection lines (straight) --- */}
-              {state.viewSettings.showConnections && Object.entries(state.territories).map(([id, t]) => {
-                const center = getTerritoryCenter(t);
-                return t.connections.map(connectedId => {
-                  const connectedTerritory = state.territories[connectedId];
-                  if (!connectedTerritory) return null;
-                  const connectedCenter = getTerritoryCenter(connectedTerritory);
-                  // Only draw each connection once
-                  if (id > connectedId) return null;
-                  // Skip straight line if a freehand connection exists between these two territories
-                  const hasFreehand = state.freehandConnections.some(conn =>
-                    (conn.from === id && conn.to === connectedId) ||
-                    (conn.from === connectedId && conn.to === id)
-                  );
-                  if (hasFreehand) return null;
-                  const isHighlighted = highlightedConnection &&
-                    ((highlightedConnection.from === id && highlightedConnection.to === connectedId) ||
-                     (highlightedConnection.from === connectedId && highlightedConnection.to === id));
-                  return (
-                    <Line
-                      key={`${id}-${connectedId}`}
-                      points={[center.x, center.y, connectedCenter.x, connectedCenter.y]}
-                      stroke={isHighlighted ? '#1976d2' : '#666'}
-                      strokeWidth={isHighlighted ? 5 : 2}
-                      dash={isHighlighted ? undefined : [5, 5]}
-                      lineCap="round"
-                      onClick={() => {
-                        if (state.selectedTool === 'connect') {
-                          dispatch({ type: 'REMOVE_CONNECTION', payload: { from: id, to: connectedId } });
-                          // Also remove freehand connection if it exists
-                          const freehandConn = state.freehandConnections.find(conn =>
-                            (conn.from === id && conn.to === connectedId) ||
-                            (conn.from === connectedId && conn.to === id)
-                          );
-                          if (freehandConn) {
-                            dispatch({ type: 'REMOVE_FREEHAND_CONNECTION', payload: freehandConn.id });
-                          }
-                        }
-                      }}
-                    />
-                  );
-                });
+              {state.viewSettings.showConnections && state.connections.map(conn => {
+                const fromTerritory = state.territories[conn.from];
+                const toTerritory = state.territories[conn.to];
+                if (!fromTerritory || !toTerritory) return null;
+                if (!conn.fromPoint || !conn.toPoint) return null; // Safety check
+
+                // Convert relative points to absolute/canvas coordinates
+                let fromAbs = { x: 0, y: 0 };
+                let toAbs = { x: 0, y: 0 };
+                if (fromTerritory.shape.type === 'polygon' || fromTerritory.shape.type === 'freehand') {
+                  const bounds = getPolygonBounds(fromTerritory.shape.points);
+                  fromAbs.x = bounds.x + conn.fromPoint.x;
+                  fromAbs.y = bounds.y + conn.fromPoint.y;
+                } else if (fromTerritory.shape.type === 'rect' || fromTerritory.shape.type === 'ellipse') {
+                  fromAbs.x = fromTerritory.shape.x + conn.fromPoint.x;
+                  fromAbs.y = fromTerritory.shape.y + conn.fromPoint.y;
+                }
+                if (toTerritory.shape.type === 'polygon' || toTerritory.shape.type === 'freehand') {
+                  const bounds = getPolygonBounds(toTerritory.shape.points);
+                  toAbs.x = bounds.x + conn.toPoint.x;
+                  toAbs.y = bounds.y + conn.toPoint.y;
+                } else if (toTerritory.shape.type === 'rect' || toTerritory.shape.type === 'ellipse') {
+                  toAbs.x = toTerritory.shape.x + conn.toPoint.x;
+                  toAbs.y = toTerritory.shape.y + conn.toPoint.y;
+                }
+                return (
+                  <Line
+                    key={`${conn.from}-${conn.to}`}
+                    points={[fromAbs.x, fromAbs.y, toAbs.x, toAbs.y]}
+                    stroke={'#1976d2'}
+                    strokeWidth={2}
+                    dash={[5, 5]}
+                    lineCap="round"
+                  />
+                );
               })}
               {/* --- Connection preview line (freehand) --- */}
               {state.selectedTool === 'connect' && state.connectionMode === 'freehand' && freehandDrawing && freehandPoints.length > 1 && (
@@ -696,6 +920,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                       id={`shape-${id}`}
                       onClick={() => state.selectedTool === 'select' && handleShapeClick(id, t.shape)}
                       draggable={state.selectedTool === 'select'}
+                      onDragEnd={handleDragEnd}
                     >
                       <Line
                         points={t.shape.points}
@@ -709,9 +934,10 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           text={t.name}
                           x={centroid.x}
                           y={centroid.y}
-                          offsetX={40}
-                          offsetY={10}
-                          fontSize={16}
+                          offsetX={t.textSettings.offsetX}
+                          offsetY={t.textSettings.offsetY}
+                          fontSize={t.textSettings.fontSize}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={'#222'}
                         />
                       )}
@@ -723,6 +949,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           offsetX={40}
                           offsetY={-10}
                           fontSize={14}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={continent.color}
                           fontStyle="italic"
                         />
@@ -737,6 +964,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                       id={`shape-${id}`}
                       onClick={() => state.selectedTool === 'select' && handleShapeClick(id, t.shape)}
                       draggable={state.selectedTool === 'select'}
+                      onDragEnd={handleDragEnd}
                     >
                       <Rect
                         x={t.shape.x}
@@ -752,9 +980,10 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           text={t.name}
                           x={center.x}
                           y={center.y}
-                          offsetX={40}
-                          offsetY={10}
-                          fontSize={16}
+                          offsetX={t.textSettings.offsetX}
+                          offsetY={t.textSettings.offsetY}
+                          fontSize={t.textSettings.fontSize}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={'#222'}
                         />
                       )}
@@ -766,6 +995,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           offsetX={40}
                           offsetY={-10}
                           fontSize={14}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={continent.color}
                           fontStyle="italic"
                         />
@@ -780,6 +1010,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                       id={`shape-${id}`}
                       onClick={() => state.selectedTool === 'select' && handleShapeClick(id, t.shape)}
                       draggable={state.selectedTool === 'select'}
+                      onDragEnd={handleDragEnd}
                     >
                       <Ellipse
                         x={t.shape.x + t.shape.width / 2}
@@ -795,9 +1026,10 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           text={t.name}
                           x={center.x}
                           y={center.y}
-                          offsetX={40}
-                          offsetY={10}
-                          fontSize={16}
+                          offsetX={t.textSettings.offsetX}
+                          offsetY={t.textSettings.offsetY}
+                          fontSize={t.textSettings.fontSize}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={'#222'}
                         />
                       )}
@@ -809,6 +1041,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           offsetX={40}
                           offsetY={-10}
                           fontSize={14}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={continent.color}
                           fontStyle="italic"
                         />
@@ -823,6 +1056,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                       id={`shape-${id}`}
                       onClick={() => state.selectedTool === 'select' && handleShapeClick(id, t.shape)}
                       draggable={state.selectedTool === 'select'}
+                      onDragEnd={handleDragEnd}
                     >
                       <Line
                         points={t.shape.points}
@@ -839,9 +1073,10 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           text={t.name}
                           x={centroid.x}
                           y={centroid.y}
-                          offsetX={40}
-                          offsetY={10}
-                          fontSize={16}
+                          offsetX={t.textSettings.offsetX}
+                          offsetY={t.textSettings.offsetY}
+                          fontSize={t.textSettings.fontSize}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={'#222'}
                         />
                       )}
@@ -853,6 +1088,7 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                           offsetX={40}
                           offsetY={-10}
                           fontSize={14}
+                          fontFamily={t.textSettings.fontFamily}
                           fill={continent.color}
                           fontStyle="italic"
                         />
@@ -929,6 +1165,15 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
               {state.selectedTool === 'select' && selectedIds.length > 0 && (
                 <Transformer ref={transformerRef} />
               )}
+              {/* Snapped edge preview */}
+              {state.selectedTool === 'connected' && snappedEdge && (
+                <Line
+                  points={[snappedEdge.edge.x1, snappedEdge.edge.y1, snappedEdge.edge.x2, snappedEdge.edge.y2]}
+                  stroke="#1976d2"
+                  strokeWidth={2}
+                  dash={[5, 5]}
+                />
+              )}
             </Layer>
           </Stage>
           {inputPos && (
@@ -942,25 +1187,154 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
                 zIndex: 10,
                 p: 1,
                 display: 'flex',
-                alignItems: 'center',
+                flexDirection: 'column',
                 gap: 1,
+                minWidth: 200,
               }}
             >
-              <TextField
-                size="small"
-                value={inputValue}
-                onChange={handleNameChange}
-                autoFocus
-                sx={{ minWidth: 120 }}
-              />
-              <IconButton color="error" onClick={handleDelete} size="small">
-                <DeleteIcon />
-              </IconButton>
+              <Stack direction="row" spacing={1} alignItems="center">
+                <TextField
+                  size="small"
+                  value={inputValue}
+                  onChange={handleNameChange}
+                  autoFocus
+                  sx={{ minWidth: 120 }}
+                />
+                <IconButton color="error" onClick={handleDelete} size="small">
+                  <DeleteIcon />
+                </IconButton>
+              </Stack>
+              {selectedId && (
+                <Stack spacing={1}>
+                  <Typography variant="caption" color="text.secondary">Text Settings</Typography>
+                  <FormControl size="small" fullWidth>
+                    <InputLabel id="font-family-label">Font</InputLabel>
+                    <Select
+                      labelId="font-family-label"
+                      value={state.territories[selectedId].textSettings.fontFamily}
+                      label="Font"
+                      onChange={(e) => {
+                        dispatch({
+                          type: 'UPDATE_TERRITORY',
+                          payload: {
+                            id: selectedId,
+                            updates: {
+                              textSettings: {
+                                ...state.territories[selectedId].textSettings,
+                                fontFamily: e.target.value
+                              }
+                            }
+                          }
+                        });
+                      }}
+                    >
+                      {AVAILABLE_FONTS.map((font) => (
+                        <MenuItem 
+                          key={font} 
+                          value={font}
+                          sx={{ fontFamily: font }}
+                        >
+                          {font}
+                        </MenuItem>
+                      ))}
+                    </Select>
+                  </FormControl>
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <Typography variant="caption" sx={{ minWidth: 60 }}>X Offset:</Typography>
+                    <Slider
+                      size="small"
+                      value={state.territories[selectedId].textSettings.offsetX}
+                      onChange={(_, value) => {
+                        dispatch({
+                          type: 'UPDATE_TERRITORY',
+                          payload: {
+                            id: selectedId,
+                            updates: {
+                              textSettings: {
+                                ...state.territories[selectedId].textSettings,
+                                offsetX: value as number
+                              }
+                            }
+                          }
+                        });
+                      }}
+                      min={-100}
+                      max={100}
+                      sx={{ width: 100 }}
+                    />
+                  </Stack>
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <Typography variant="caption" sx={{ minWidth: 60 }}>Y Offset:</Typography>
+                    <Slider
+                      size="small"
+                      value={state.territories[selectedId].textSettings.offsetY}
+                      onChange={(_, value) => {
+                        dispatch({
+                          type: 'UPDATE_TERRITORY',
+                          payload: {
+                            id: selectedId,
+                            updates: {
+                              textSettings: {
+                                ...state.territories[selectedId].textSettings,
+                                offsetY: value as number
+                              }
+                            }
+                          }
+                        });
+                      }}
+                      min={-100}
+                      max={100}
+                      sx={{ width: 100 }}
+                    />
+                  </Stack>
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <Typography variant="caption" sx={{ minWidth: 60 }}>Font Size:</Typography>
+                    <Slider
+                      size="small"
+                      value={state.territories[selectedId].textSettings.fontSize}
+                      onChange={(_, value) => {
+                        dispatch({
+                          type: 'UPDATE_TERRITORY',
+                          payload: {
+                            id: selectedId,
+                            updates: {
+                              textSettings: {
+                                ...state.territories[selectedId].textSettings,
+                                fontSize: value as number
+                              }
+                            }
+                          }
+                        });
+                      }}
+                      min={8}
+                      max={32}
+                      sx={{ width: 100 }}
+                    />
+                  </Stack>
+                </Stack>
+              )}
             </Paper>
           )}
           {/* UI overlay for zoom level and reset button */}
-          <Box sx={{ position: 'absolute', top: 8, left: 8, zIndex: 10, bgcolor: 'rgba(255,255,255,0.8)', borderRadius: 1, p: 0.5, display: 'flex', alignItems: 'center', gap: 1 }}>
-            <span style={{ fontSize: 14 }}>Zoom: {(stageScale * 100).toFixed(0)}%</span>
+          <Box
+            sx={{
+              position: 'absolute',
+              top: 8,
+              left: 8,
+              zIndex: 10,
+              bgcolor: theme.palette.mode === 'dark' ? 'rgba(24,24,24,0.85)' : 'rgba(255,255,255,0.85)',
+              color: theme.palette.mode === 'dark' ? '#fff' : '#222',
+              borderRadius: 1,
+              p: 0.5,
+              display: 'flex',
+              alignItems: 'center',
+              gap: 1,
+              boxShadow: 1,
+            }}
+          >
+            <span style={{ fontSize: 14, color: theme.palette.mode === 'dark' ? '#fff' : '#222' }}>
+              Zoom: {(stageScale * 100).toFixed(0)}%
+            </span>
             <IconButton size="small" onClick={handleResetView} title="Reset View">
               <svg width="20" height="20" viewBox="0 0 20 20"><path d="M10 2v2a6 6 0 1 1-6 6H2a8 8 0 1 0 8-8z" fill="#1976d2"/></svg>
             </IconButton>

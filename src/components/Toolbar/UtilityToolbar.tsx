@@ -38,8 +38,10 @@ export const UtilityToolbar: React.FC<{
   onPaletteChange: (name: string) => void;
   onToggleTerritoryNames: () => void;
   onToggleContinentColors: () => void;
+  onToggleConnections: () => void;
   showTerritoryNames: boolean;
   showContinentColors: boolean;
+  showConnections: boolean;
 }> = ({
   onExportJSON,
   onImportJSON,
@@ -60,8 +62,10 @@ export const UtilityToolbar: React.FC<{
   onPaletteChange,
   onToggleTerritoryNames,
   onToggleContinentColors,
+  onToggleConnections,
   showTerritoryNames,
   showContinentColors,
+  showConnections,
 }) => {
   const fileInputRef = React.useRef<HTMLInputElement>(null);
   const bgInputRef = React.useRef<HTMLInputElement>(null);
@@ -165,20 +169,25 @@ export const UtilityToolbar: React.FC<{
             </span>
           </Tooltip>
         </Box>
-        {/* Second column: PNG filename, export PNG, help, palette, toggles */}
-        <Stack direction="column" spacing={1} sx={{ width: '100%' }}>
+
+        {/* Second row: PNG export and filename */}
+        <Box sx={{ display: 'flex', flexDirection: 'row', gap: 1, alignItems: 'center', width: '100%' }}>
           <TextField
             size="small"
             label="PNG Filename"
             value={pngFilename}
             onChange={e => setPngFilename(e.target.value)}
-            sx={{ width: '100%' }}
+            sx={{ flex: 1 }}
           />
           <Tooltip title="Export PNG">
             <IconButton color="primary" onClick={() => onExportPNG(pngFilename)}>
               <PhotoCameraIcon />
             </IconButton>
           </Tooltip>
+        </Box>
+
+        {/* Third row: Help, Dark mode, and Palette buttons */}
+        <Box sx={{ display: 'flex', flexDirection: 'row', gap: 1, alignItems: 'center', width: '100%', justifyContent: 'center' }}>
           <Tooltip title="Help / Quick Start">
             <IconButton color="primary" onClick={() => setHelpOpen(true)}>
               <HelpOutlineIcon />
@@ -194,6 +203,10 @@ export const UtilityToolbar: React.FC<{
               <PaletteIcon />
             </IconButton>
           </Tooltip>
+        </Box>
+
+        {/* Fourth row: View toggles */}
+        <Stack direction="column" spacing={1} sx={{ width: '100%' }}>
           <FormControlLabel
             control={<Switch checked={showTerritoryNames} onChange={onToggleTerritoryNames} color="primary" />}
             label="Show Territory Names"
@@ -204,7 +217,13 @@ export const UtilityToolbar: React.FC<{
             label="Show Continent Colors"
             sx={{ ml: 0 }}
           />
+          <FormControlLabel
+            control={<Switch checked={showConnections} onChange={onToggleConnections} color="primary" />}
+            label="Show Connections"
+            sx={{ ml: 0 }}
+          />
         </Stack>
+
         <Menu anchorEl={paletteAnchor} open={!!paletteAnchor} onClose={handlePaletteClose}>
           {paletteNames.map(name => (
             <MenuItem key={name} selected={name === paletteName} onClick={() => handlePaletteSelect(name)}>
