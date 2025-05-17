@@ -1,8 +1,8 @@
 {
   "name": "mapdesigntoolrisk",
   "private": true,
-  "version": "1.0.5",
-  "description": "Local storage fix",
+  "version": "1.0.8",
+  "description": "Fixed all drawing tools behavior",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -22,6 +22,7 @@
     "konva": "^9.3.20",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-draggable": "^4.4.6",
     "react-konva": "^19.0.3",
     "use-image": "^1.1.1",
     "uuid": "^11.1.0"
