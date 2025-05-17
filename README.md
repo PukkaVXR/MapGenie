@@ -17,6 +17,9 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 
 ## Changelog
 
+### V1.0.81 (Freehand Fix)
+- Freehand connections no longer create an unwanted straight connection line.
+
 ### V1.0.8 (Connection Overhaul)
 - **Precise Connection Points:** Straight connections now use the exact point clicked on each territory, not just the center.
 - **Connection Management Overhaul:** All straight connections are managed globally, making them easier to list and remove.

@@ -1,7 +1,7 @@
 {
   "name": "mapdesigntoolrisk",
   "private": true,
-  "version": "1.0.8",
+  "version": "1.0.81",
   "description": "Fixed all drawing tools behavior",
   "type": "module",
   "scripts": {

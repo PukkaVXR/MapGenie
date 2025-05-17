@@ -23,8 +23,8 @@ const AVAILABLE_FONTS = [
   'Comic Sans MS'
 ];
 
-const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: string } | null, backgroundImage?: string | null }>(
-  ({ highlightedConnection, backgroundImage }, ref) => {
+const MapCanvas = forwardRef<any, { backgroundImage?: string | null }>(
+  ({ backgroundImage }, ref) => {
     const { state, dispatch } = useMap();
     const [drawing, setDrawing] = useState(false);
     const [newShape, setNewShape] = useState<any>(null); // {type, points, ...}
@@ -408,10 +408,6 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
               points: freehandPoints,
             },
           });
-          dispatch({
-            type: 'ADD_CONNECTION',
-            payload: { from: freehandStart, to: endTerritory[0] },
-          });
         }
         setFreehandDrawing(false);
         setFreehandPoints([]);
@@ -571,16 +567,6 @@ const MapCanvas = forwardRef<any, { highlightedConnection?: { from: string; to: 
       }
       return { x: 0, y: 0 };
     }
-
-    // --- Connect tool logic ---
-    const handleConnectToolClick = (territoryId: string) => {
-      if (!connectionStart) {
-        setConnectionStart(territoryId);
-      } else if (connectionStart !== territoryId) {
-        dispatch({ type: 'ADD_CONNECTION', payload: { from: connectionStart, to: territoryId } });
-        setConnectionStart(null);
-      }
-    };
 
     // Transformer logic
     React.useEffect(() => {

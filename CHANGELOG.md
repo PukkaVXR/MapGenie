@@ -1,3 +1,7 @@
+## [1.0.81] - Freehand Fix
+### Fixed
+- Freehand connections no longer create an unwanted straight connection line.
+
 ## [1.0.8] - Connection Overhaul
 ### Added
 - Straight connections now use precise click points for endpoints.

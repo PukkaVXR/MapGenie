@@ -199,7 +199,7 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
           showContinentColors={state.viewSettings.showContinentColors}
           showConnections={state.viewSettings.showConnections}
         />
-        <MapCanvas ref={mapCanvasRef} highlightedConnection={highlightedConnection} backgroundImage={backgroundImage} />
+        <MapCanvas ref={mapCanvasRef} backgroundImage={backgroundImage} />
       </Box>
     </Box>
   );
