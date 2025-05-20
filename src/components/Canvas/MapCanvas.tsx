@@ -4,11 +4,9 @@ import { useMap } from '../../context/MapContext';
 import { Box, TextField, Paper, IconButton, Slider, Typography, Stack, Select, MenuItem, FormControl, InputLabel, Button } from '@mui/material';
 import DeleteIcon from '@mui/icons-material/Delete';
 import CloseIcon from '@mui/icons-material/Close';
-import { MainTools } from '../Toolbar/MainTools';
 import useImage from 'use-image';
 import { v4 as uuidv4 } from 'uuid';
 import { useTheme } from '@mui/material/styles';
-import { useContext } from 'react';
 import zombiemodeImg from '../../../public/Zombiemode.png';
 
 const CANVAS_INITIAL_WIDTH = 1200;
@@ -57,8 +55,8 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       }
     }, [state.selectedTool]);
 
-    const [canvasWidth, setCanvasWidth] = useState(CANVAS_INITIAL_WIDTH);
-    const [canvasHeight, setCanvasHeight] = useState(CANVAS_INITIAL_HEIGHT);
+    const [canvasWidth] = useState(CANVAS_INITIAL_WIDTH);
+    const [canvasHeight] = useState(CANVAS_INITIAL_HEIGHT);
 
     const [bgImage] = useImage(backgroundImage || '', 'anonymous');
 
@@ -147,23 +145,6 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       setStageScale(1);
       setStageX(0);
       setStageY(0);
-    };
-
-    const handleCanvasResize = (widthPercent: number, heightPercent: number, mode: 'expand' | 'contract') => {
-      let newWidth = canvasWidth;
-      let newHeight = canvasHeight;
-      if (mode === 'expand') {
-        newWidth = Math.round(canvasWidth * (1 + widthPercent / 100));
-        newHeight = Math.round(canvasHeight * (1 + heightPercent / 100));
-      } else {
-        newWidth = Math.round(canvasWidth * (1 - widthPercent / 100));
-        newHeight = Math.round(canvasHeight * (1 - heightPercent / 100));
-      }
-      // Clamp to sensible min/max
-      newWidth = Math.max(400, Math.min(4000, newWidth));
-      newHeight = Math.max(400, Math.min(4000, newHeight));
-      setCanvasWidth(newWidth);
-      setCanvasHeight(newHeight);
     };
 
     // Utility to get pointer position in canvas coordinates
@@ -894,7 +875,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
     };
 
     // Deselect on canvas click (if not clicking an arrow)
-    const handleStageMouseDownZombie = (e: any) => {
+    const handleStageMouseDownZombie = () => {
       const stage = stageRef.current.getStage();
       const pointer = getCanvasPointer(stage);
       if (isZombieMode && zombieTool === 'arrow') {
@@ -913,7 +894,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       }
       // ... other tool logic if needed ...
     };
-    const handleStageMouseMoveZombie = (e: any) => {
+    const handleStageMouseMoveZombie = () => {
       if (isZombieMode && zombieTool === 'arrow' && drawingZombieArrow) {
         const stage = stageRef.current.getStage();
         const pointer = getCanvasPointer(stage);
@@ -959,7 +940,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
         });
       }
     };
-    const handleStageMouseUpZombie = (e: any) => {
+    const handleStageMouseUpZombie = () => {
       if (isZombieMode && zombieTool === 'arrow' && drawingZombieArrow) {
         const stage = stageRef.current.getStage();
         const pointer = getCanvasPointer(stage);
@@ -1102,7 +1083,6 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
     };
     // ... inside MapCanvas ...
     const [legendPos, setLegendPos] = useState<{ x: number; y: number }>({ x: 40, y: 40 });
-    const [legendDragging, setLegendDragging] = useState(false);
 
     // Compute used arrow colors
     const usedArrowColors = Array.from(new Set(zombieArrows.map(a => a.color))).filter(c => ZOMBIE_ARROW_LABELS[c]);
@@ -1612,9 +1592,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
                   x={legendPos.x}
                   y={legendPos.y}
                   draggable
-                  onDragStart={() => setLegendDragging(true)}
                   onDragEnd={e => {
-                    setLegendDragging(false);
                     setLegendPos({ x: e.target.x(), y: e.target.y() });
                   }}
                 >

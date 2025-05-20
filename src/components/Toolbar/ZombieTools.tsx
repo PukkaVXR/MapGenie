@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Box, ToggleButton, ToggleButtonGroup, Typography, Stack, MenuItem, Select, FormControl, InputLabel, Slider } from '@mui/material';
 import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
