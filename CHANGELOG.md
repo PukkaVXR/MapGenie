@@ -1,3 +1,14 @@
+## [1.1.0] - Zombie Pathing Update
+### Added
+- Zombie Mode: Design zombie pathing overlays for Risk maps.
+- Zombie Toolbar: Select, Number, Arrow, and Key tools for specialized editing.
+- Number Tool: Place, edit, and format auto-incrementing numbers with a pop-up editor.
+- Arrow Tool: Draw, edit, and delete colored arrows with selectable thickness and color.
+- Select Tool: Only this tool allows editing or dragging numbers/arrows, preventing accidental moves during creation.
+- Key Tool: Draggable legend shows only the arrow colors in use, with pathing labels (Primary, Secondary, etc.).
+- Improved usability: Create numbers/arrows in close proximity without triggering pop-ups or dragging, unless Select is active.
+- Zombie Mode Flash: Animated overlay when entering zombie mode.
+
 ## [1.0.81] - Freehand Fix
 ### Fixed
 - Freehand connections no longer create an unwanted straight connection line.

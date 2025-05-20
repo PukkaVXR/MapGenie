@@ -42,6 +42,8 @@ export const UtilityToolbar: React.FC<{
   showTerritoryNames: boolean;
   showContinentColors: boolean;
   showConnections: boolean;
+  onZombieModeToggle: () => void;
+  isZombieMode: boolean;
 }> = ({
   onExportJSON,
   onImportJSON,
@@ -66,6 +68,8 @@ export const UtilityToolbar: React.FC<{
   showTerritoryNames,
   showContinentColors,
   showConnections,
+  onZombieModeToggle,
+  isZombieMode,
 }) => {
   const fileInputRef = React.useRef<HTMLInputElement>(null);
   const bgInputRef = React.useRef<HTMLInputElement>(null);
@@ -94,6 +98,15 @@ export const UtilityToolbar: React.FC<{
         alignItems: 'flex-start',
         minWidth: 180,
       }}>
+        {/* Zombie Mode Toggle Button */}
+        <Button
+          variant={isZombieMode ? 'contained' : 'outlined'}
+          color={isZombieMode ? 'error' : 'primary'}
+          onClick={onZombieModeToggle}
+          sx={{ width: '100%', mb: 1 }}
+        >
+          {isZombieMode ? 'Exit Zombie Mode' : 'Enter Zombie Mode'}
+        </Button>
         {/* Top row: small icon buttons */}
         <Box sx={{ display: 'flex', flexDirection: 'row', gap: 1, alignItems: 'center', width: '100%', justifyContent: 'flex-start' }}>
           <Tooltip title="Export JSON">

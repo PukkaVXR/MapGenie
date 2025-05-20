@@ -17,6 +17,16 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 
 ## Changelog
 
+### V1.1 (Zombie Pathing Update)
+- **Zombie Mode:** New mode for designing zombie pathing overlays on your Risk map.
+- **Zombie Toolbar:** Includes Select, Number, Arrow, and Key tools for specialized editing.
+- **Number Tool:** Place, edit, and format auto-incrementing numbers on the map. Pop-up editor for value, font, size, and color.
+- **Arrow Tool:** Draw colored arrows with selectable thickness and color. Edit or delete arrows via pop-up.
+- **Select Tool:** Only this tool allows editing or dragging numbers/arrows, preventing accidental moves during creation.
+- **Key Tool:** Draggable legend shows only the arrow colors in use, with pathing labels (Primary, Secondary, etc.).
+- **Improved Usability:** Numbers/arrows can be created in close proximity without triggering pop-ups or dragging, unless Select is active.
+- **Zombie Mode Flash:** Animated overlay when entering zombie mode.
+
 ### V1.0.81 (Freehand Fix)
 - Freehand connections no longer create an unwanted straight connection line.
 

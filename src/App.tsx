@@ -6,6 +6,8 @@ import { useState, useRef } from 'react';
 import { ConnectionManager } from './components/Sidebar/ConnectionManager';
 import { UtilityToolbar } from './components/Toolbar/UtilityToolbar';
 import React from 'react';
+import { MainTools } from './components/Toolbar/MainTools';
+import { ZombieTools } from './components/Toolbar/ZombieTools';
 
 function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; themeMode: 'light' | 'dark' }) {
   const { state, dispatch, canUndo, canRedo } = useMap();
@@ -14,6 +16,13 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
   const [continentOpen, setContinentOpen] = useState(true);
   const [connectionOpen, setConnectionOpen] = useState(true);
   const mapCanvasRef = useRef<any>(null);
+  const [isZombieMode, setIsZombieMode] = useState(false);
+  const [zombieTool, setZombieTool] = useState<'select' | 'number' | 'arrow' | 'key'>('select');
+  const [zombieArrowColor, setZombieArrowColor] = useState('#f44336');
+  const [zombieArrowSize, setZombieArrowSize] = useState(4);
+  const [zombieNumberFont, setZombieNumberFont] = useState('Arial');
+  const [zombieNumberFontSize, setZombieNumberFontSize] = useState(24);
+  const [zombieNumberColor, setZombieNumberColor] = useState('#fff');
 
   const PALETTES = {
     Classic: ['#f44336', '#2196f3', '#4caf50', '#ff9800', '#9c27b0', '#00bcd4', '#8bc34a', '#ffc107'],
@@ -198,8 +207,44 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
           showTerritoryNames={state.viewSettings.showTerritoryNames}
           showContinentColors={state.viewSettings.showContinentColors}
           showConnections={state.viewSettings.showConnections}
+          onZombieModeToggle={() => {
+            setIsZombieMode(z => {
+              const next = !z;
+              if (next) setZombieTool('select');
+              return next;
+            });
+          }}
+          isZombieMode={isZombieMode}
         />
-        <MapCanvas ref={mapCanvasRef} backgroundImage={backgroundImage} />
+        {isZombieMode ? (
+          <ZombieTools
+            selectedTool={zombieTool}
+            onToolChange={tool => setZombieTool(tool as 'select' | 'number' | 'arrow' | 'key')}
+            arrowColor={zombieArrowColor}
+            onArrowColorChange={setZombieArrowColor}
+            arrowSize={zombieArrowSize}
+            onArrowSizeChange={setZombieArrowSize}
+            numberFont={zombieNumberFont}
+            onNumberFontChange={setZombieNumberFont}
+            numberFontSize={zombieNumberFontSize}
+            onNumberFontSizeChange={setZombieNumberFontSize}
+            numberColor={zombieNumberColor}
+            onNumberColorChange={setZombieNumberColor}
+          />
+        ) : (
+          <MainTools />
+        )}
+        <MapCanvas
+          ref={mapCanvasRef}
+          backgroundImage={backgroundImage}
+          isZombieMode={isZombieMode}
+          zombieTool={zombieTool}
+          zombieNumberFont={zombieNumberFont}
+          zombieNumberFontSize={zombieNumberFontSize}
+          zombieNumberColor={zombieNumberColor}
+          zombieArrowColor={zombieArrowColor}
+          zombieArrowSize={zombieArrowSize}
+        />
       </Box>
     </Box>
   );
