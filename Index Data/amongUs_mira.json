@@ -1,0 +1,418 @@
+{
+    "1": {
+        "name": "Lookout",
+        "links": {
+            "18": "Reactor Vents",
+            "2": "Fuel Pump"
+        }
+    },
+    "2": {
+        "name": "Fuel Pump",
+        "links": {
+            "4": "Pad Vents",
+            "3": "Fuel Storage",
+            "1": "Lookout"
+        }
+    },
+    "3": {
+        "name": "Fuel Storage",
+        "links": {
+            "52": "Refuel Control",
+            "2": "Fuel Pump"
+        }
+    },
+    "4": {
+        "name": "Pad Vents",
+        "links": {
+            "5": "Pad Storage",
+            "6": "Diagnostics",
+            "52": "Refuel Control",
+            "2": "Fuel Pump"
+        }
+    },
+    "5": {
+        "name": "Pad Storage",
+        "links": {
+            "6": "Diagnostics",
+            "4": "Pad Vents"
+        }
+    },
+    "6": {
+        "name": "Diagnostics",
+        "links": {
+            "7": "Main Entrance",
+            "5": "Pad Storage",
+            "4": "Pad Vents",
+            "52": "Refuel Control"
+        }
+    },
+    "7": {
+        "name": "Main Entrance",
+        "links": {
+            "8": "Catwalk",
+            "6": "Diagnostics",
+            "52": "Refuel Control"
+        }
+    },
+    "8": {
+        "name": "Catwalk",
+        "links": {
+            "9": "Secondary 02",
+            "7": "Main Entrance"
+        }
+    },
+    "9": {
+        "name": "Secondary 02",
+        "links": {
+            "8": "Catwalk",
+            "10": "The Crew"
+        }
+    },
+    "10": {
+        "name": "The Crew",
+        "links": {
+            "11": "Observers post",
+            "9": "Secondary 02"
+        }
+    },
+    "11": {
+        "name": "Observers post",
+        "links": {
+            "26": "Medbay Vents",
+            "12": "Crossroads",
+            "25": "Scanner",
+            "10": "The Crew",
+            "23": "Comms",
+            "16": "Locker seating"
+        }
+    },
+    "12": {
+        "name": "Crossroads",
+        "links": {
+            "23": "Comms",
+            "50": "SW Sensor",
+            "17": "Lockers",
+            "16": "Locker seating",
+            "11": "Observers post"
+        }
+    },
+    "13": {
+        "name": "Lab Access",
+        "links": {
+            "14": "Venting",
+            "20": "Reactor Wires"
+        }
+    },
+    "14": {
+        "name": "Venting",
+        "links": {
+            "13": "Lab Access",
+            "15": "Locker Vents"
+        }
+    },
+    "15": {
+        "name": "Locker Vents",
+        "links": {
+            "16": "Locker seating",
+            "14": "Venting"
+        }
+    },
+    "16": {
+        "name": "Locker seating",
+        "links": {
+            "12": "Crossroads",
+            "17": "Lockers",
+            "15": "Locker Vents",
+            "11": "Observers post"
+        }
+    },
+    "17": {
+        "name": "Lockers",
+        "links": {
+            "12": "Crossroads",
+            "16": "Locker seating"
+        }
+    },
+    "18": {
+        "name": "Reactor Vents",
+        "links": {
+            "19": "Reactor Controls",
+            "1": "Lookout"
+        }
+    },
+    "19": {
+        "name": "Reactor Controls",
+        "links": {
+            "20": "Reactor Wires",
+            "18": "Reactor Vents"
+        }
+    },
+    "20": {
+        "name": "Reactor Wires",
+        "links": {
+            "21": "Artifact",
+            "22": "Samples",
+            "19": "Reactor Controls",
+            "13": "Lab Access"
+        }
+    },
+    "21": {
+        "name": "Artifact",
+        "links": {
+            "35": "02 Vents",
+            "20": "Reactor Wires",
+            "22": "Samples"
+        }
+    },
+    "22": {
+        "name": "Samples",
+        "links": {
+            "20": "Reactor Wires",
+            "21": "Artifact"
+        }
+    },
+    "23": {
+        "name": "Comms",
+        "links": {
+            "24": "Doorlog",
+            "25": "Scanner",
+            "12": "Crossroads",
+            "11": "Observers post"
+        }
+    },
+    "24": {
+        "name": "Doorlog",
+        "links": {
+            "25": "Scanner",
+            "23": "Comms"
+        }
+    },
+    "25": {
+        "name": "Scanner",
+        "links": {
+            "26": "Medbay Vents",
+            "24": "Doorlog",
+            "23": "Comms",
+            "11": "Observers post"
+        }
+    },
+    "26": {
+        "name": "Medbay Vents",
+        "links": {
+            "33": "Asteroids",
+            "11": "Observers post",
+            "25": "Scanner"
+        }
+    },
+    "27": {
+        "name": "Water Can",
+        "links": {
+            "29": "Garbage",
+            "30": "Emergency Button",
+            "28": "Storage"
+        }
+    },
+    "28": {
+        "name": "Storage",
+        "links": {
+            "30": "Emergency Button",
+            "27": "Water Can"
+        }
+    },
+    "29": {
+        "name": "Garbage",
+        "links": {
+            "51": "SE Sensor",
+            "31": "Vending Machine",
+            "32": "Meeting Table",
+            "30": "Emergency Button",
+            "27": "Water Can"
+        }
+    },
+    "30": {
+        "name": "Emergency Button",
+        "links": {
+            "29": "Garbage",
+            "32": "Meeting Table",
+            "28": "Storage",
+            "27": "Water Can",
+            "33": "Asteroids",
+            "34": "Weather Balloon"
+        }
+    },
+    "31": {
+        "name": "Vending Machine",
+        "links": {
+            "29": "Garbage",
+            "32": "Meeting Table"
+        }
+    },
+    "32": {
+        "name": "Meeting Table",
+        "links": {
+            "29": "Garbage",
+            "31": "Vending Machine",
+            "30": "Emergency Button",
+            "34": "Weather Balloon"
+        }
+    },
+    "33": {
+        "name": "Asteroids",
+        "links": {
+            "30": "Emergency Button",
+            "34": "Weather Balloon",
+            "26": "Medbay Vents"
+        }
+    },
+    "34": {
+        "name": "Weather Balloon",
+        "links": {
+            "32": "Meeting Table",
+            "33": "Asteroids",
+            "30": "Emergency Button"
+        }
+    },
+    "35": {
+        "name": "02 Vents",
+        "links": {
+            "37": "02 panel",
+            "36": "Filters",
+            "21": "Artifact"
+        }
+    },
+    "36": {
+        "name": "Filters",
+        "links": {
+            "35": "02 Vents",
+            "37": "02 panel"
+        }
+    },
+    "37": {
+        "name": "02 panel",
+        "links": {
+            "35": "02 Vents",
+            "36": "Filters",
+            "38": "Vines",
+            "39": "Thirsty Plants",
+            "46": "Hall Wires"
+        }
+    },
+    "38": {
+        "name": "Vines",
+        "links": {
+            "37": "02 panel",
+            "39": "Thirsty Plants"
+        }
+    },
+    "39": {
+        "name": "Thirsty Plants",
+        "links": {
+            "37": "02 panel",
+            "38": "Vines"
+        }
+    },
+    "40": {
+        "name": "Fix Lights",
+        "links": {
+            "42": "Upload",
+            "41": "Office Vents"
+        }
+    },
+    "41": {
+        "name": "Office Vents",
+        "links": {
+            "40": "Fix Lights",
+            "42": "Upload"
+        }
+    },
+    "42": {
+        "name": "Upload",
+        "links": {
+            "46": "Hall Wires",
+            "40": "Fix Lights",
+            "41": "Office Vents",
+            "47": "Hallway"
+        }
+    },
+    "43": {
+        "name": "ID Scan",
+        "links": {
+            "46": "Hall Wires",
+            "47": "Hallway",
+            "44": "Charts",
+            "45": "Shields"
+        }
+    },
+    "44": {
+        "name": "Charts",
+        "links": {
+            "43": "ID Scan",
+            "45": "Shields"
+        }
+    },
+    "45": {
+        "name": "Shields",
+        "links": {
+            "43": "ID Scan",
+            "44": "Charts",
+            "51": "SE Sensor"
+        }
+    },
+    "46": {
+        "name": "Hall Wires",
+        "links": {
+            "37": "02 panel",
+            "42": "Upload",
+            "47": "Hallway",
+            "43": "ID Scan"
+        }
+    },
+    "47": {
+        "name": "Hallway",
+        "links": {
+            "46": "Hall Wires",
+            "42": "Upload",
+            "43": "ID Scan",
+            "48": "N Sensor"
+        }
+    },
+    "48": {
+        "name": "N Sensor",
+        "links": {
+            "47": "Hallway",
+            "49": "Central Junction"
+        }
+    },
+    "49": {
+        "name": "Central Junction",
+        "links": {
+            "48": "N Sensor",
+            "51": "SE Sensor",
+            "50": "SW Sensor"
+        }
+    },
+    "50": {
+        "name": "SW Sensor",
+        "links": {
+            "49": "Central Junction",
+            "12": "Crossroads"
+        }
+    },
+    "51": {
+        "name": "SE Sensor",
+        "links": {
+            "49": "Central Junction",
+            "45": "Shields",
+            "29": "Garbage"
+        }
+    },
+    "52": {
+        "name": "Refuel Control",
+        "links": {
+            "7": "Main Entrance",
+            "4": "Pad Vents",
+            "3": "Fuel Storage",
+            "6": "Diagnostics"
+        }
+    }
+}

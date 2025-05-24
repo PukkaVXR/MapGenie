@@ -1,0 +1,314 @@
+{
+    "1": {
+        "name": "Cell S1",
+        "links": {
+            "41": "Solitary Confinment Corridor"
+        }
+    },
+    "2": {
+        "name": "Cell S2",
+        "links": {
+            "41": "Solitary Confinment Corridor"
+        }
+    },
+    "3": {
+        "name": "Cell S3",
+        "links": {
+            "41": "Solitary Confinment Corridor"
+        }
+    },
+    "4": {
+        "name": "Cell S4",
+        "links": {
+            "41": "Solitary Confinment Corridor"
+        }
+    },
+    "5": {
+        "name": "Cell S5",
+        "links": {
+            "41": "Solitary Confinment Corridor"
+        }
+    },
+    "6": {
+        "name": "Cell S6",
+        "links": {
+            "41": "Solitary Confinment Corridor"
+        }
+    },
+    "7": {
+        "name": "Admin Area",
+        "links": {
+            "34": "High Security Gate",
+            "37": "Low Security Gate",
+            "42": "Solitary Confinment Gate",
+            "40": "Max Security Gate",
+            "31": "General Population Gate",
+            "28": "Death Row Gate"
+        }
+    },
+    "8": {
+        "name": "Cell D1",
+        "links": {
+            "27": "Death Row Floor"
+        }
+    },
+    "9": {
+        "name": "Cell D2",
+        "links": {
+            "27": "Death Row Floor"
+        }
+    },
+    "10": {
+        "name": "Cell D3",
+        "links": {
+            "27": "Death Row Floor"
+        }
+    },
+    "11": {
+        "name": "Cell D4",
+        "links": {
+            "27": "Death Row Floor"
+        }
+    },
+    "12": {
+        "name": "Cell G1",
+        "links": {
+            "29": "General Population Corridor",
+            "30": "General Population Entrance"
+        }
+    },
+    "13": {
+        "name": "Cell G2",
+        "links": {
+            "30": "General Population Entrance",
+            "29": "General Population Corridor"
+        }
+    },
+    "14": {
+        "name": "Cell G3",
+        "links": {
+            "29": "General Population Corridor"
+        }
+    },
+    "15": {
+        "name": "Cell G4",
+        "links": {
+            "29": "General Population Corridor"
+        }
+    },
+    "16": {
+        "name": "Cell H1",
+        "links": {
+            "32": "High Security Corridor"
+        }
+    },
+    "17": {
+        "name": "Cell H2",
+        "links": {
+            "32": "High Security Corridor"
+        }
+    },
+    "18": {
+        "name": "Cell H3",
+        "links": {
+            "32": "High Security Corridor"
+        }
+    },
+    "19": {
+        "name": "Cell L1",
+        "links": {
+            "36": "Low Security Entrance",
+            "35": "Low Security Corridor"
+        }
+    },
+    "20": {
+        "name": "Cell L2",
+        "links": {
+            "35": "Low Security Corridor",
+            "36": "Low Security Entrance"
+        }
+    },
+    "21": {
+        "name": "Cell L3",
+        "links": {
+            "35": "Low Security Corridor"
+        }
+    },
+    "22": {
+        "name": "Cell M1",
+        "links": {
+            "38": "Max Security Corridor"
+        }
+    },
+    "23": {
+        "name": "Cell M2",
+        "links": {
+            "38": "Max Security Corridor"
+        }
+    },
+    "24": {
+        "name": "Cell M3",
+        "links": {
+            "38": "Max Security Corridor"
+        }
+    },
+    "25": {
+        "name": "Cell M4",
+        "links": {
+            "38": "Max Security Corridor"
+        }
+    },
+    "26": {
+        "name": "Death Row Entrance",
+        "links": {
+            "28": "Death Row Gate",
+            "27": "Death Row Floor"
+        }
+    },
+    "27": {
+        "name": "Death Row Floor",
+        "links": {
+            "26": "Death Row Entrance",
+            "8": "Cell D1",
+            "9": "Cell D2",
+            "10": "Cell D3",
+            "11": "Cell D4"
+        }
+    },
+    "28": {
+        "name": "Death Row Gate",
+        "links": {
+            "37": "Low Security Gate",
+            "40": "Max Security Gate",
+            "26": "Death Row Entrance",
+            "7": "Admin Area"
+        }
+    },
+    "29": {
+        "name": "General Population Corridor",
+        "links": {
+            "13": "Cell G2",
+            "15": "Cell G4",
+            "14": "Cell G3",
+            "12": "Cell G1",
+            "30": "General Population Entrance"
+        }
+    },
+    "30": {
+        "name": "General Population Entrance",
+        "links": {
+            "31": "General Population Gate",
+            "13": "Cell G2",
+            "12": "Cell G1",
+            "29": "General Population Corridor"
+        }
+    },
+    "31": {
+        "name": "General Population Gate",
+        "links": {
+            "40": "Max Security Gate",
+            "42": "Solitary Confinment Gate",
+            "7": "Admin Area",
+            "30": "General Population Entrance"
+        }
+    },
+    "32": {
+        "name": "High Security Corridor",
+        "links": {
+            "33": "High Security Entrance",
+            "17": "Cell H2",
+            "16": "Cell H1",
+            "18": "Cell H3"
+        }
+    },
+    "33": {
+        "name": "High Security Entrance",
+        "links": {
+            "34": "High Security Gate",
+            "32": "High Security Corridor"
+        }
+    },
+    "34": {
+        "name": "High Security Gate",
+        "links": {
+            "37": "Low Security Gate",
+            "7": "Admin Area",
+            "42": "Solitary Confinment Gate",
+            "33": "High Security Entrance"
+        }
+    },
+    "35": {
+        "name": "Low Security Corridor",
+        "links": {
+            "19": "Cell L1",
+            "20": "Cell L2",
+            "36": "Low Security Entrance",
+            "21": "Cell L3"
+        }
+    },
+    "36": {
+        "name": "Low Security Entrance",
+        "links": {
+            "37": "Low Security Gate",
+            "19": "Cell L1",
+            "20": "Cell L2",
+            "35": "Low Security Corridor"
+        }
+    },
+    "37": {
+        "name": "Low Security Gate",
+        "links": {
+            "34": "High Security Gate",
+            "7": "Admin Area",
+            "28": "Death Row Gate",
+            "36": "Low Security Entrance"
+        }
+    },
+    "38": {
+        "name": "Max Security Corridor",
+        "links": {
+            "39": "Max Security Entrance",
+            "23": "Cell M2",
+            "22": "Cell M1",
+            "25": "Cell M4",
+            "24": "Cell M3"
+        }
+    },
+    "39": {
+        "name": "Max Security Entrance",
+        "links": {
+            "40": "Max Security Gate",
+            "38": "Max Security Corridor"
+        }
+    },
+    "40": {
+        "name": "Max Security Gate",
+        "links": {
+            "31": "General Population Gate",
+            "28": "Death Row Gate",
+            "7": "Admin Area",
+            "39": "Max Security Entrance"
+        }
+    },
+    "41": {
+        "name": "Solitary Confinment Corridor",
+        "links": {
+            "3": "Cell S3",
+            "42": "Solitary Confinment Gate",
+            "1": "Cell S1",
+            "2": "Cell S2",
+            "6": "Cell S6",
+            "5": "Cell S5",
+            "4": "Cell S4"
+        }
+    },
+    "42": {
+        "name": "Solitary Confinment Gate",
+        "links": {
+            "41": "Solitary Confinment Corridor",
+            "34": "High Security Gate",
+            "7": "Admin Area",
+            "31": "General Population Gate"
+        }
+    }
+}

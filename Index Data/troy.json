@@ -1,0 +1,647 @@
+{
+    "1": {
+        "name": "Aaron",
+        "links": {
+            "20": "Crop Mill",
+            "60": "Trojan Horse",
+            "58": "Town Center",
+            "33": "New House"
+        }
+    },
+    "2": {
+        "name": "Alejandra",
+        "links": {
+            "49": "Saracen",
+            "46": "Roy",
+            "25": "Gem Stands",
+            "17": "Clothing",
+            "56": "Tools",
+            "53": "Statue"
+        }
+    },
+    "3": {
+        "name": "Armory",
+        "links": {
+            "55": "Terrace House",
+            "41": "Patio House",
+            "50": "Sculpter",
+            "37": "Painter",
+            "9": "Butcher"
+        }
+    },
+    "4": {
+        "name": "Astronomers",
+        "links": {
+            "19": "Court",
+            "36": "Observatory",
+            "42": "Physicians",
+            "31": "Mathematicians",
+            "24": "Gem House"
+        }
+    },
+    "5": {
+        "name": "Balkony",
+        "links": {
+            "60": "Trojan Horse",
+            "45": "Road House",
+            "55": "Terrace House",
+            "41": "Patio House"
+        }
+    },
+    "6": {
+        "name": "Beggars Corner",
+        "links": {
+            "12": "Carriages",
+            "54": "Tall House",
+            "22": "East Barracks"
+        }
+    },
+    "7": {
+        "name": "Blacksmith",
+        "links": {
+            "32": "Military Brewery",
+            "34": "North Barracks",
+            "23": "Food Market",
+            "52": "Speakers",
+            "30": "Mason"
+        }
+    },
+    "8": {
+        "name": "Bureaucrats",
+        "links": {
+            "57": "Town Brewery",
+            "31": "Mathematicians",
+            "67": "Yannik",
+            "50": "Sculpter",
+            "42": "Physicians",
+            "65": "Well House"
+        }
+    },
+    "9": {
+        "name": "Butcher",
+        "links": {
+            "3": "Armory",
+            "50": "Sculpter",
+            "28": "Library",
+            "15": "Chamber House",
+            "37": "Painter"
+        }
+    },
+    "10": {
+        "name": "Butcher Sam",
+        "links": {
+            "64": "Well",
+            "33": "New House",
+            "60": "Trojan Horse"
+        }
+    },
+    "11": {
+        "name": "Carpinter",
+        "links": {
+            "64": "Well",
+            "18": "Cobbler",
+            "58": "Town Center",
+            "23": "Food Market",
+            "27": "Leathercraft",
+            "16": "Citadel"
+        }
+    },
+    "12": {
+        "name": "Carriages",
+        "links": {
+            "60": "Trojan Horse",
+            "6": "Beggars Corner",
+            "22": "East Barracks",
+            "35": "North Inn"
+        }
+    },
+    "13": {
+        "name": "Castle Yard",
+        "links": {
+            "62": "Wall Garden",
+            "19": "Court",
+            "54": "Tall House"
+        }
+    },
+    "14": {
+        "name": "Chamber",
+        "links": {
+            "51": "Sofia",
+            "44": "River House",
+            "16": "Citadel",
+            "18": "Cobbler",
+            "37": "Painter",
+            "66": "Wine Inn"
+        }
+    },
+    "15": {
+        "name": "Chamber House",
+        "links": {
+            "28": "Library",
+            "51": "Sofia",
+            "9": "Butcher",
+            "37": "Painter"
+        }
+    },
+    "16": {
+        "name": "Citadel",
+        "links": {
+            "11": "Carpinter",
+            "18": "Cobbler",
+            "27": "Leathercraft",
+            "56": "Tools",
+            "66": "Wine Inn",
+            "14": "Chamber"
+        }
+    },
+    "17": {
+        "name": "Clothing",
+        "links": {
+            "48": "Rugs",
+            "27": "Leathercraft",
+            "25": "Gem Stands",
+            "2": "Alejandra",
+            "56": "Tools"
+        }
+    },
+    "18": {
+        "name": "Cobbler",
+        "links": {
+            "11": "Carpinter",
+            "64": "Well",
+            "16": "Citadel",
+            "37": "Painter",
+            "14": "Chamber"
+        }
+    },
+    "19": {
+        "name": "Court",
+        "links": {
+            "13": "Castle Yard",
+            "59": "Trojan Gate",
+            "61": "Upper Housing",
+            "4": "Astronomers"
+        }
+    },
+    "20": {
+        "name": "Crop Mill",
+        "links": {
+            "34": "North Barracks",
+            "1": "Aaron",
+            "30": "Mason",
+            "58": "Town Center"
+        }
+    },
+    "21": {
+        "name": "Crop Storage North",
+        "links": {
+            "63": "Weapons Repair",
+            "32": "Military Brewery"
+        }
+    },
+    "22": {
+        "name": "East Barracks",
+        "links": {
+            "45": "Road House",
+            "35": "North Inn",
+            "29": "Marbel House",
+            "12": "Carriages",
+            "24": "Gem House",
+            "6": "Beggars Corner",
+            "54": "Tall House"
+        }
+    },
+    "23": {
+        "name": "Food Market",
+        "links": {
+            "11": "Carpinter",
+            "27": "Leathercraft",
+            "7": "Blacksmith",
+            "30": "Mason",
+            "58": "Town Center"
+        }
+    },
+    "24": {
+        "name": "Gem House",
+        "links": {
+            "29": "Marbel House",
+            "22": "East Barracks",
+            "54": "Tall House",
+            "31": "Mathematicians",
+            "4": "Astronomers"
+        }
+    },
+    "25": {
+        "name": "Gem Stands",
+        "links": {
+            "46": "Roy",
+            "43": "Pottery",
+            "48": "Rugs",
+            "17": "Clothing",
+            "2": "Alejandra"
+        }
+    },
+    "26": {
+        "name": "Guards",
+        "links": {
+            "43": "Pottery",
+            "63": "Weapons Repair"
+        }
+    },
+    "27": {
+        "name": "Leathercraft",
+        "links": {
+            "23": "Food Market",
+            "11": "Carpinter",
+            "17": "Clothing",
+            "16": "Citadel",
+            "56": "Tools"
+        }
+    },
+    "28": {
+        "name": "Library",
+        "links": {
+            "67": "Yannik",
+            "15": "Chamber House",
+            "9": "Butcher",
+            "50": "Sculpter"
+        }
+    },
+    "29": {
+        "name": "Marbel House",
+        "links": {
+            "45": "Road House",
+            "22": "East Barracks",
+            "57": "Town Brewery",
+            "24": "Gem House",
+            "31": "Mathematicians"
+        }
+    },
+    "30": {
+        "name": "Mason",
+        "links": {
+            "34": "North Barracks",
+            "20": "Crop Mill",
+            "23": "Food Market",
+            "7": "Blacksmith",
+            "58": "Town Center"
+        }
+    },
+    "31": {
+        "name": "Mathematicians",
+        "links": {
+            "8": "Bureaucrats",
+            "29": "Marbel House",
+            "4": "Astronomers",
+            "42": "Physicians",
+            "24": "Gem House",
+            "57": "Town Brewery"
+        }
+    },
+    "32": {
+        "name": "Military Brewery",
+        "links": {
+            "21": "Crop Storage North",
+            "34": "North Barracks",
+            "63": "Weapons Repair",
+            "7": "Blacksmith",
+            "52": "Speakers"
+        }
+    },
+    "33": {
+        "name": "New House",
+        "links": {
+            "10": "Butcher Sam",
+            "58": "Town Center",
+            "1": "Aaron",
+            "60": "Trojan Horse"
+        }
+    },
+    "34": {
+        "name": "North Barracks",
+        "links": {
+            "32": "Military Brewery",
+            "20": "Crop Mill",
+            "7": "Blacksmith",
+            "30": "Mason"
+        }
+    },
+    "35": {
+        "name": "North Inn",
+        "links": {
+            "45": "Road House",
+            "22": "East Barracks",
+            "60": "Trojan Horse",
+            "12": "Carriages"
+        }
+    },
+    "36": {
+        "name": "Observatory",
+        "links": {
+            "4": "Astronomers",
+            "42": "Physicians"
+        }
+    },
+    "37": {
+        "name": "Painter",
+        "links": {
+            "64": "Well",
+            "41": "Patio House",
+            "18": "Cobbler",
+            "3": "Armory",
+            "15": "Chamber House",
+            "51": "Sofia",
+            "14": "Chamber",
+            "9": "Butcher"
+        }
+    },
+    "38": {
+        "name": "Palace",
+        "links": {
+            "39": "Palace Guards",
+            "61": "Upper Housing"
+        }
+    },
+    "39": {
+        "name": "Palace Guards",
+        "links": {
+            "47": "Royal Steps",
+            "38": "Palace"
+        }
+    },
+    "40": {
+        "name": "Paloma",
+        "links": {
+            "44": "River House",
+            "49": "Saracen",
+            "66": "Wine Inn",
+            "53": "Statue"
+        }
+    },
+    "41": {
+        "name": "Patio House",
+        "links": {
+            "55": "Terrace House",
+            "3": "Armory",
+            "5": "Balkony",
+            "64": "Well",
+            "37": "Painter",
+            "60": "Trojan Horse"
+        }
+    },
+    "42": {
+        "name": "Physicians",
+        "links": {
+            "36": "Observatory",
+            "65": "Well House",
+            "8": "Bureaucrats",
+            "4": "Astronomers",
+            "31": "Mathematicians"
+        }
+    },
+    "43": {
+        "name": "Pottery",
+        "links": {
+            "46": "Roy",
+            "26": "Guards",
+            "25": "Gem Stands",
+            "63": "Weapons Repair",
+            "48": "Rugs",
+            "52": "Speakers"
+        }
+    },
+    "44": {
+        "name": "River House",
+        "links": {
+            "51": "Sofia",
+            "40": "Paloma",
+            "14": "Chamber",
+            "66": "Wine Inn"
+        }
+    },
+    "45": {
+        "name": "Road House",
+        "links": {
+            "35": "North Inn",
+            "22": "East Barracks",
+            "60": "Trojan Horse",
+            "29": "Marbel House",
+            "5": "Balkony",
+            "57": "Town Brewery",
+            "55": "Terrace House"
+        }
+    },
+    "46": {
+        "name": "Roy",
+        "links": {
+            "49": "Saracen",
+            "43": "Pottery",
+            "2": "Alejandra",
+            "25": "Gem Stands"
+        }
+    },
+    "47": {
+        "name": "Royal Steps",
+        "links": {
+            "59": "Trojan Gate",
+            "39": "Palace Guards"
+        }
+    },
+    "48": {
+        "name": "Rugs",
+        "links": {
+            "52": "Speakers",
+            "17": "Clothing",
+            "25": "Gem Stands",
+            "43": "Pottery",
+            "63": "Weapons Repair"
+        }
+    },
+    "49": {
+        "name": "Saracen",
+        "links": {
+            "40": "Paloma",
+            "46": "Roy",
+            "53": "Statue",
+            "2": "Alejandra"
+        }
+    },
+    "50": {
+        "name": "Sculpter",
+        "links": {
+            "3": "Armory",
+            "55": "Terrace House",
+            "9": "Butcher",
+            "57": "Town Brewery",
+            "67": "Yannik",
+            "8": "Bureaucrats",
+            "28": "Library"
+        }
+    },
+    "51": {
+        "name": "Sofia",
+        "links": {
+            "15": "Chamber House",
+            "44": "River House",
+            "37": "Painter",
+            "14": "Chamber"
+        }
+    },
+    "52": {
+        "name": "Speakers",
+        "links": {
+            "7": "Blacksmith",
+            "48": "Rugs",
+            "63": "Weapons Repair",
+            "32": "Military Brewery",
+            "43": "Pottery"
+        }
+    },
+    "53": {
+        "name": "Statue",
+        "links": {
+            "40": "Paloma",
+            "49": "Saracen",
+            "56": "Tools",
+            "2": "Alejandra",
+            "66": "Wine Inn"
+        }
+    },
+    "54": {
+        "name": "Tall House",
+        "links": {
+            "6": "Beggars Corner",
+            "13": "Castle Yard",
+            "24": "Gem House",
+            "22": "East Barracks"
+        }
+    },
+    "55": {
+        "name": "Terrace House",
+        "links": {
+            "3": "Armory",
+            "41": "Patio House",
+            "50": "Sculpter",
+            "5": "Balkony",
+            "57": "Town Brewery",
+            "45": "Road House"
+        }
+    },
+    "56": {
+        "name": "Tools",
+        "links": {
+            "16": "Citadel",
+            "66": "Wine Inn",
+            "17": "Clothing",
+            "27": "Leathercraft",
+            "53": "Statue",
+            "2": "Alejandra"
+        }
+    },
+    "57": {
+        "name": "Town Brewery",
+        "links": {
+            "45": "Road House",
+            "29": "Marbel House",
+            "8": "Bureaucrats",
+            "50": "Sculpter",
+            "55": "Terrace House",
+            "31": "Mathematicians"
+        }
+    },
+    "58": {
+        "name": "Town Center",
+        "links": {
+            "33": "New House",
+            "11": "Carpinter",
+            "20": "Crop Mill",
+            "1": "Aaron",
+            "23": "Food Market",
+            "30": "Mason"
+        }
+    },
+    "59": {
+        "name": "Trojan Gate",
+        "links": {
+            "19": "Court",
+            "47": "Royal Steps"
+        }
+    },
+    "60": {
+        "name": "Trojan Horse",
+        "links": {
+            "1": "Aaron",
+            "12": "Carriages",
+            "35": "North Inn",
+            "45": "Road House",
+            "5": "Balkony",
+            "41": "Patio House",
+            "64": "Well",
+            "10": "Butcher Sam",
+            "33": "New House"
+        }
+    },
+    "61": {
+        "name": "Upper Housing",
+        "links": {
+            "38": "Palace",
+            "19": "Court"
+        }
+    },
+    "62": {
+        "name": "Wall Garden",
+        "links": {
+            "13": "Castle Yard"
+        }
+    },
+    "63": {
+        "name": "Weapons Repair",
+        "links": {
+            "26": "Guards",
+            "21": "Crop Storage North",
+            "43": "Pottery",
+            "32": "Military Brewery",
+            "48": "Rugs",
+            "52": "Speakers"
+        }
+    },
+    "64": {
+        "name": "Well",
+        "links": {
+            "41": "Patio House",
+            "37": "Painter",
+            "60": "Trojan Horse",
+            "11": "Carpinter",
+            "18": "Cobbler",
+            "10": "Butcher Sam"
+        }
+    },
+    "65": {
+        "name": "Well House",
+        "links": {
+            "42": "Physicians",
+            "67": "Yannik",
+            "8": "Bureaucrats"
+        }
+    },
+    "66": {
+        "name": "Wine Inn",
+        "links": {
+            "44": "River House",
+            "40": "Paloma",
+            "56": "Tools",
+            "16": "Citadel",
+            "53": "Statue",
+            "14": "Chamber"
+        }
+    },
+    "67": {
+        "name": "Yannik",
+        "links": {
+            "65": "Well House",
+            "28": "Library",
+            "50": "Sculpter",
+            "8": "Bureaucrats"
+        }
+    }
+}

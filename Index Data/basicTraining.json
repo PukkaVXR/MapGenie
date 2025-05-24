@@ -1,0 +1,28 @@
+{
+    "1": {
+        "name": "Fortdale",
+        "links": {
+            "4": "Beginner Bluff",
+            "3": "Attacktown"
+        }
+    },
+    "2": {
+        "name": "Draftville",
+        "links": {
+            "3": "Attacktown"
+        }
+    },
+    "3": {
+        "name": "Attacktown",
+        "links": {
+            "2": "Draftville",
+            "1": "Fortdale"
+        }
+    },
+    "4": {
+        "name": "Beginner Bluff",
+        "links": {
+            "1": "Fortdale"
+        }
+    }
+}

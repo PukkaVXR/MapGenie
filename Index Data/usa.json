@@ -1,0 +1,376 @@
+{
+    "1": {
+        "name": "Alabama",
+        "links": {
+            "35": "Tennessee",
+            "8": "Georgia",
+            "18": "Mississippi",
+            "7": "Florida"
+        }
+    },
+    "2": {
+        "name": "Arizona",
+        "links": {
+            "23": "New Mexico",
+            "4": "California",
+            "37": "Utah",
+            "22": "Nevada"
+        }
+    },
+    "3": {
+        "name": "Arkansas",
+        "links": {
+            "15": "Louisiana",
+            "36": "Texas",
+            "19": "Missouri",
+            "35": "Tennessee",
+            "29": "Oklahoma"
+        }
+    },
+    "4": {
+        "name": "California",
+        "links": {
+            "2": "Arizona",
+            "30": "Oregon",
+            "22": "Nevada"
+        }
+    },
+    "5": {
+        "name": "Central New England",
+        "links": {
+            "27": "North New England",
+            "33": "South New England",
+            "24": "New York"
+        }
+    },
+    "6": {
+        "name": "Colorado",
+        "links": {
+            "23": "New Mexico",
+            "42": "Wyoming",
+            "21": "Nebraska",
+            "13": "Kansas",
+            "29": "Oklahoma"
+        }
+    },
+    "7": {
+        "name": "Florida",
+        "links": {
+            "8": "Georgia",
+            "18": "Mississippi",
+            "1": "Alabama"
+        }
+    },
+    "8": {
+        "name": "Georgia",
+        "links": {
+            "31": "South Carolina",
+            "7": "Florida",
+            "1": "Alabama"
+        }
+    },
+    "9": {
+        "name": "Idaho",
+        "links": {
+            "20": "Montana",
+            "37": "Utah",
+            "39": "Washington",
+            "30": "Oregon",
+            "22": "Nevada"
+        }
+    },
+    "10": {
+        "name": "Illinois",
+        "links": {
+            "19": "Missouri",
+            "41": "Wisconsin",
+            "11": "Indiana",
+            "14": "Kentucky"
+        }
+    },
+    "11": {
+        "name": "Indiana",
+        "links": {
+            "14": "Kentucky",
+            "10": "Illinois",
+            "28": "Ohio",
+            "16": "Michigan"
+        }
+    },
+    "12": {
+        "name": "Iowa",
+        "links": {
+            "19": "Missouri",
+            "21": "Nebraska",
+            "17": "Minnesota",
+            "32": "South Dakota"
+        }
+    },
+    "13": {
+        "name": "Kansas",
+        "links": {
+            "19": "Missouri",
+            "29": "Oklahoma",
+            "21": "Nebraska",
+            "6": "Colorado"
+        }
+    },
+    "14": {
+        "name": "Kentucky",
+        "links": {
+            "11": "Indiana",
+            "10": "Illinois",
+            "28": "Ohio",
+            "40": "West Virginia",
+            "35": "Tennessee"
+        }
+    },
+    "15": {
+        "name": "Louisiana",
+        "links": {
+            "18": "Mississippi",
+            "36": "Texas",
+            "3": "Arkansas"
+        }
+    },
+    "16": {
+        "name": "Michigan",
+        "links": {
+            "41": "Wisconsin",
+            "28": "Ohio",
+            "11": "Indiana"
+        }
+    },
+    "17": {
+        "name": "Minnesota",
+        "links": {
+            "26": "North Dakota",
+            "41": "Wisconsin",
+            "12": "Iowa",
+            "32": "South Dakota"
+        }
+    },
+    "18": {
+        "name": "Mississippi",
+        "links": {
+            "7": "Florida",
+            "15": "Louisiana",
+            "35": "Tennessee",
+            "1": "Alabama"
+        }
+    },
+    "19": {
+        "name": "Missouri",
+        "links": {
+            "12": "Iowa",
+            "21": "Nebraska",
+            "13": "Kansas",
+            "29": "Oklahoma",
+            "10": "Illinois",
+            "3": "Arkansas"
+        }
+    },
+    "20": {
+        "name": "Montana",
+        "links": {
+            "39": "Washington",
+            "26": "North Dakota",
+            "42": "Wyoming",
+            "9": "Idaho",
+            "32": "South Dakota"
+        }
+    },
+    "21": {
+        "name": "Nebraska",
+        "links": {
+            "12": "Iowa",
+            "19": "Missouri",
+            "13": "Kansas",
+            "6": "Colorado",
+            "42": "Wyoming",
+            "32": "South Dakota"
+        }
+    },
+    "22": {
+        "name": "Nevada",
+        "links": {
+            "2": "Arizona",
+            "4": "California",
+            "30": "Oregon",
+            "9": "Idaho",
+            "37": "Utah"
+        }
+    },
+    "23": {
+        "name": "New Mexico",
+        "links": {
+            "36": "Texas",
+            "2": "Arizona",
+            "29": "Oklahoma",
+            "6": "Colorado"
+        }
+    },
+    "24": {
+        "name": "New York",
+        "links": {
+            "34": "Southern Mid-Atlantic States",
+            "5": "Central New England",
+            "33": "South New England"
+        }
+    },
+    "25": {
+        "name": "North Carolina",
+        "links": {
+            "31": "South Carolina",
+            "38": "Virginia",
+            "33": "South New England"
+        }
+    },
+    "26": {
+        "name": "North Dakota",
+        "links": {
+            "20": "Montana",
+            "17": "Minnesota",
+            "32": "South Dakota"
+        }
+    },
+    "27": {
+        "name": "North New England",
+        "links": {
+            "5": "Central New England"
+        }
+    },
+    "28": {
+        "name": "Ohio",
+        "links": {
+            "16": "Michigan",
+            "34": "Southern Mid-Atlantic States",
+            "14": "Kentucky",
+            "11": "Indiana",
+            "40": "West Virginia"
+        }
+    },
+    "29": {
+        "name": "Oklahoma",
+        "links": {
+            "13": "Kansas",
+            "19": "Missouri",
+            "36": "Texas",
+            "23": "New Mexico",
+            "6": "Colorado",
+            "3": "Arkansas"
+        }
+    },
+    "30": {
+        "name": "Oregon",
+        "links": {
+            "4": "California",
+            "39": "Washington",
+            "9": "Idaho",
+            "22": "Nevada"
+        }
+    },
+    "31": {
+        "name": "South Carolina",
+        "links": {
+            "25": "North Carolina",
+            "8": "Georgia"
+        }
+    },
+    "32": {
+        "name": "South Dakota",
+        "links": {
+            "17": "Minnesota",
+            "12": "Iowa",
+            "20": "Montana",
+            "26": "North Dakota",
+            "42": "Wyoming",
+            "21": "Nebraska"
+        }
+    },
+    "33": {
+        "name": "South New England",
+        "links": {
+            "5": "Central New England",
+            "24": "New York",
+            "25": "North Carolina"
+        }
+    },
+    "34": {
+        "name": "Southern Mid-Atlantic States",
+        "links": {
+            "28": "Ohio",
+            "24": "New York",
+            "38": "Virginia",
+            "40": "West Virginia"
+        }
+    },
+    "35": {
+        "name": "Tennessee",
+        "links": {
+            "14": "Kentucky",
+            "1": "Alabama",
+            "18": "Mississippi",
+            "3": "Arkansas"
+        }
+    },
+    "36": {
+        "name": "Texas",
+        "links": {
+            "15": "Louisiana",
+            "23": "New Mexico",
+            "3": "Arkansas",
+            "29": "Oklahoma"
+        }
+    },
+    "37": {
+        "name": "Utah",
+        "links": {
+            "9": "Idaho",
+            "2": "Arizona",
+            "22": "Nevada"
+        }
+    },
+    "38": {
+        "name": "Virginia",
+        "links": {
+            "34": "Southern Mid-Atlantic States",
+            "25": "North Carolina",
+            "40": "West Virginia"
+        }
+    },
+    "39": {
+        "name": "Washington",
+        "links": {
+            "30": "Oregon",
+            "20": "Montana",
+            "9": "Idaho"
+        }
+    },
+    "40": {
+        "name": "West Virginia",
+        "links": {
+            "38": "Virginia",
+            "14": "Kentucky",
+            "28": "Ohio",
+            "34": "Southern Mid-Atlantic States"
+        }
+    },
+    "41": {
+        "name": "Wisconsin",
+        "links": {
+            "17": "Minnesota",
+            "16": "Michigan",
+            "10": "Illinois"
+        }
+    },
+    "42": {
+        "name": "Wyoming",
+        "links": {
+            "6": "Colorado",
+            "20": "Montana",
+            "32": "South Dakota",
+            "21": "Nebraska"
+        }
+    }
+}

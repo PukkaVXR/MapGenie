@@ -1,0 +1,600 @@
+{
+    "1": {
+        "name": "Throne",
+        "links": {
+            "11": "Desert Goods",
+            "14": "Cheaper Carpets",
+            "3": "Hall"
+        }
+    },
+    "2": {
+        "name": "Treasure Chamber",
+        "links": {
+            "4": "Library",
+            "9": "Gutter",
+            "5": "Inner Alley"
+        }
+    },
+    "3": {
+        "name": "Hall",
+        "links": {
+            "4": "Library",
+            "1": "Throne"
+        }
+    },
+    "4": {
+        "name": "Library",
+        "links": {
+            "2": "Treasure Chamber",
+            "3": "Hall"
+        }
+    },
+    "5": {
+        "name": "Inner Alley",
+        "links": {
+            "2": "Treasure Chamber",
+            "6": "Cat Gold"
+        }
+    },
+    "6": {
+        "name": "Cat Gold",
+        "links": {
+            "19": "Old Stairs",
+            "7": "Old Housing",
+            "5": "Inner Alley"
+        }
+    },
+    "7": {
+        "name": "Old Housing",
+        "links": {
+            "8": "Inner Great Gate",
+            "6": "Cat Gold",
+            "21": "Thieves"
+        }
+    },
+    "8": {
+        "name": "Inner Great Gate",
+        "links": {
+            "9": "Gutter",
+            "7": "Old Housing",
+            "22": "Alleyway"
+        }
+    },
+    "9": {
+        "name": "Gutter",
+        "links": {
+            "16": "Blacksmith",
+            "8": "Inner Great Gate",
+            "2": "Treasure Chamber"
+        }
+    },
+    "10": {
+        "name": "Ghouls",
+        "links": {
+            "12": "Curiosities",
+            "11": "Desert Goods"
+        }
+    },
+    "11": {
+        "name": "Desert Goods",
+        "links": {
+            "1": "Throne",
+            "15": "Archway",
+            "10": "Ghouls"
+        }
+    },
+    "12": {
+        "name": "Curiosities",
+        "links": {
+            "10": "Ghouls",
+            "27": "Guard Tower",
+            "13": "Carpets"
+        }
+    },
+    "13": {
+        "name": "Carpets",
+        "links": {
+            "12": "Curiosities",
+            "14": "Cheaper Carpets"
+        }
+    },
+    "14": {
+        "name": "Cheaper Carpets",
+        "links": {
+            "18": "Sprigg's Weapons",
+            "1": "Throne",
+            "13": "Carpets"
+        }
+    },
+    "15": {
+        "name": "Archway",
+        "links": {
+            "25": "Pirate's Bay",
+            "17": "Potions",
+            "11": "Desert Goods"
+        }
+    },
+    "16": {
+        "name": "Blacksmith",
+        "links": {
+            "18": "Sprigg's Weapons",
+            "9": "Gutter",
+            "33": "Shady Place"
+        }
+    },
+    "17": {
+        "name": "Potions",
+        "links": {
+            "15": "Archway",
+            "31": "North Gate"
+        }
+    },
+    "18": {
+        "name": "Sprigg's Weapons",
+        "links": {
+            "16": "Blacksmith",
+            "32": "South Gate",
+            "14": "Cheaper Carpets"
+        }
+    },
+    "19": {
+        "name": "Old Stairs",
+        "links": {
+            "68": "Stolen Goods",
+            "6": "Cat Gold",
+            "20": "Couldron",
+            "21": "Thieves"
+        }
+    },
+    "20": {
+        "name": "Couldron",
+        "links": {
+            "19": "Old Stairs",
+            "31": "North Gate"
+        }
+    },
+    "21": {
+        "name": "Thieves",
+        "links": {
+            "71": "Grog's Order",
+            "19": "Old Stairs",
+            "22": "Alleyway",
+            "7": "Old Housing"
+        }
+    },
+    "22": {
+        "name": "Alleyway",
+        "links": {
+            "8": "Inner Great Gate",
+            "56": "Scrapyard",
+            "23": "Pottery",
+            "21": "Thieves"
+        }
+    },
+    "23": {
+        "name": "Pottery",
+        "links": {
+            "59": "Thieves Keep",
+            "33": "Shady Place",
+            "22": "Alleyway"
+        }
+    },
+    "24": {
+        "name": "Mason",
+        "links": {
+            "26": "Old Inn",
+            "25": "Pirate's Bay"
+        }
+    },
+    "25": {
+        "name": "Pirate's Bay",
+        "links": {
+            "24": "Mason",
+            "15": "Archway"
+        }
+    },
+    "26": {
+        "name": "Old Inn",
+        "links": {
+            "24": "Mason",
+            "35": "Port Guards",
+            "27": "Guard Tower"
+        }
+    },
+    "27": {
+        "name": "Guard Tower",
+        "links": {
+            "26": "Old Inn",
+            "12": "Curiosities",
+            "44": "Fresh Fish",
+            "28": "Outer Great Gate"
+        }
+    },
+    "28": {
+        "name": "Outer Great Gate",
+        "links": {
+            "27": "Guard Tower",
+            "29": "Sewer Hatch"
+        }
+    },
+    "29": {
+        "name": "Sewer Hatch",
+        "links": {
+            "46": "Daum's Gate",
+            "30": "Armoury",
+            "28": "Outer Great Gate"
+        }
+    },
+    "30": {
+        "name": "Armoury",
+        "links": {
+            "53": "Grog's Bridge",
+            "32": "South Gate",
+            "29": "Sewer Hatch"
+        }
+    },
+    "31": {
+        "name": "North Gate",
+        "links": {
+            "20": "Couldron",
+            "17": "Potions"
+        }
+    },
+    "32": {
+        "name": "South Gate",
+        "links": {
+            "30": "Armoury",
+            "18": "Sprigg's Weapons"
+        }
+    },
+    "33": {
+        "name": "Shady Place",
+        "links": {
+            "16": "Blacksmith",
+            "23": "Pottery"
+        }
+    },
+    "34": {
+        "name": "Warehouse",
+        "links": {
+            "35": "Port Guards",
+            "37": "Small Dock",
+            "67": "Diving Crew"
+        }
+    },
+    "35": {
+        "name": "Port Guards",
+        "links": {
+            "36": "Dock Tower",
+            "26": "Old Inn",
+            "34": "Warehouse",
+            "38": "Sailors Dock"
+        }
+    },
+    "36": {
+        "name": "Dock Tower",
+        "links": {
+            "35": "Port Guards",
+            "42": "Landing"
+        }
+    },
+    "37": {
+        "name": "Small Dock",
+        "links": {
+            "41": "Aiken's Dock",
+            "34": "Warehouse"
+        }
+    },
+    "38": {
+        "name": "Sailors Dock",
+        "links": {
+            "35": "Port Guards",
+            "39": "Hope Dock"
+        }
+    },
+    "39": {
+        "name": "Hope Dock",
+        "links": {
+            "41": "Aiken's Dock",
+            "38": "Sailors Dock"
+        }
+    },
+    "40": {
+        "name": "Pirate Dock",
+        "links": {
+            "49": "Palisade",
+            "42": "Landing"
+        }
+    },
+    "41": {
+        "name": "Aiken's Dock",
+        "links": {
+            "37": "Small Dock",
+            "39": "Hope Dock"
+        }
+    },
+    "42": {
+        "name": "Landing",
+        "links": {
+            "36": "Dock Tower",
+            "40": "Pirate Dock"
+        }
+    },
+    "43": {
+        "name": "Butcher",
+        "links": {
+            "44": "Fresh Fish",
+            "54": "Blue Bar"
+        }
+    },
+    "44": {
+        "name": "Fresh Fish",
+        "links": {
+            "45": "Fresher Fish",
+            "43": "Butcher",
+            "27": "Guard Tower",
+            "48": "Freshest Fish",
+            "54": "Blue Bar"
+        }
+    },
+    "45": {
+        "name": "Fresher Fish",
+        "links": {
+            "50": "Port House",
+            "46": "Daum's Gate",
+            "48": "Freshest Fish",
+            "44": "Fresh Fish"
+        }
+    },
+    "46": {
+        "name": "Daum's Gate",
+        "links": {
+            "50": "Port House",
+            "45": "Fresher Fish",
+            "47": "Port Pirates",
+            "29": "Sewer Hatch"
+        }
+    },
+    "47": {
+        "name": "Port Pirates",
+        "links": {
+            "53": "Grog's Bridge",
+            "46": "Daum's Gate",
+            "51": "Ocean Watch"
+        }
+    },
+    "48": {
+        "name": "Freshest Fish",
+        "links": {
+            "50": "Port House",
+            "45": "Fresher Fish",
+            "52": "Wharf",
+            "44": "Fresh Fish",
+            "54": "Blue Bar"
+        }
+    },
+    "49": {
+        "name": "Palisade",
+        "links": {
+            "40": "Pirate Dock",
+            "54": "Blue Bar"
+        }
+    },
+    "50": {
+        "name": "Port House",
+        "links": {
+            "45": "Fresher Fish",
+            "46": "Daum's Gate",
+            "48": "Freshest Fish"
+        }
+    },
+    "51": {
+        "name": "Ocean Watch",
+        "links": {
+            "47": "Port Pirates"
+        }
+    },
+    "52": {
+        "name": "Wharf",
+        "links": {
+            "48": "Freshest Fish"
+        }
+    },
+    "53": {
+        "name": "Grog's Bridge",
+        "links": {
+            "47": "Port Pirates",
+            "59": "Thieves Keep",
+            "30": "Armoury"
+        }
+    },
+    "54": {
+        "name": "Blue Bar",
+        "links": {
+            "49": "Palisade",
+            "43": "Butcher",
+            "48": "Freshest Fish",
+            "44": "Fresh Fish"
+        }
+    },
+    "55": {
+        "name": "Lawless Toll",
+        "links": {
+            "56": "Scrapyard"
+        }
+    },
+    "56": {
+        "name": "Scrapyard",
+        "links": {
+            "55": "Lawless Toll",
+            "62": "Hangman",
+            "22": "Alleyway",
+            "60": "Riches",
+            "57": "Chippie"
+        }
+    },
+    "57": {
+        "name": "Chippie",
+        "links": {
+            "58": "Road",
+            "56": "Scrapyard",
+            "61": "Stormy Houses",
+            "60": "Riches"
+        }
+    },
+    "58": {
+        "name": "Road",
+        "links": {
+            "59": "Thieves Keep",
+            "61": "Stormy Houses",
+            "57": "Chippie"
+        }
+    },
+    "59": {
+        "name": "Thieves Keep",
+        "links": {
+            "58": "Road",
+            "53": "Grog's Bridge",
+            "23": "Pottery"
+        }
+    },
+    "60": {
+        "name": "Riches",
+        "links": {
+            "65": "Archery",
+            "56": "Scrapyard",
+            "62": "Hangman",
+            "61": "Stormy Houses",
+            "57": "Chippie"
+        }
+    },
+    "61": {
+        "name": "Stormy Houses",
+        "links": {
+            "58": "Road",
+            "60": "Riches",
+            "57": "Chippie"
+        }
+    },
+    "62": {
+        "name": "Hangman",
+        "links": {
+            "65": "Archery",
+            "56": "Scrapyard",
+            "64": "Grim's Inn",
+            "60": "Riches",
+            "66": "Minor"
+        }
+    },
+    "63": {
+        "name": "Cloudy Outlook",
+        "links": {
+            "64": "Grim's Inn"
+        }
+    },
+    "64": {
+        "name": "Grim's Inn",
+        "links": {
+            "65": "Archery",
+            "62": "Hangman",
+            "63": "Cloudy Outlook"
+        }
+    },
+    "65": {
+        "name": "Archery",
+        "links": {
+            "64": "Grim's Inn",
+            "62": "Hangman",
+            "60": "Riches"
+        }
+    },
+    "66": {
+        "name": "Minor",
+        "links": {
+            "62": "Hangman",
+            "72": "Grog's Dock"
+        }
+    },
+    "67": {
+        "name": "Diving Crew",
+        "links": {
+            "68": "Stolen Goods",
+            "34": "Warehouse"
+        }
+    },
+    "68": {
+        "name": "Stolen Goods",
+        "links": {
+            "69": "Traders",
+            "75": "Ghost Watch",
+            "19": "Old Stairs",
+            "67": "Diving Crew",
+            "76": "Alley of Knives"
+        }
+    },
+    "69": {
+        "name": "Traders",
+        "links": {
+            "73": "Whale Watch",
+            "68": "Stolen Goods",
+            "70": "Robbers HQ",
+            "76": "Alley of Knives"
+        }
+    },
+    "70": {
+        "name": "Robbers HQ",
+        "links": {
+            "73": "Whale Watch",
+            "69": "Traders",
+            "71": "Grog's Order"
+        }
+    },
+    "71": {
+        "name": "Grog's Order",
+        "links": {
+            "72": "Grog's Dock",
+            "21": "Thieves",
+            "70": "Robbers HQ"
+        }
+    },
+    "72": {
+        "name": "Grog's Dock",
+        "links": {
+            "74": "Grog's Vessel",
+            "71": "Grog's Order",
+            "66": "Minor"
+        }
+    },
+    "73": {
+        "name": "Whale Watch",
+        "links": {
+            "69": "Traders",
+            "74": "Grog's Vessel",
+            "70": "Robbers HQ",
+            "76": "Alley of Knives"
+        }
+    },
+    "74": {
+        "name": "Grog's Vessel",
+        "links": {
+            "73": "Whale Watch",
+            "72": "Grog's Dock"
+        }
+    },
+    "75": {
+        "name": "Ghost Watch",
+        "links": {
+            "68": "Stolen Goods",
+            "76": "Alley of Knives"
+        }
+    },
+    "76": {
+        "name": "Alley of Knives",
+        "links": {
+            "73": "Whale Watch",
+            "69": "Traders",
+            "75": "Ghost Watch",
+            "68": "Stolen Goods"
+        }
+    }
+}

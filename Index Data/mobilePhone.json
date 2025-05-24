@@ -1,0 +1,430 @@
+{
+    "34": {
+        "name": "Global Resistors",
+        "links": {
+            "40": "32k Clock",
+            "50": "Audio VREF",
+            "47": "Antenna Pad",
+            "48": "Audio Processor"
+        }
+    },
+    "40": {
+        "name": "32k Clock",
+        "links": {
+            "34": "Global Resistors",
+            "48": "Audio Processor"
+        }
+    },
+    "43": {
+        "name": "Power VREF",
+        "links": {
+            "38": "C101",
+            "52": "Power IC",
+            "51": "Power Bridge",
+            "48": "Audio Processor"
+        }
+    },
+    "44": {
+        "name": "ADC Out",
+        "links": {
+            "42": "C105",
+            "51": "Power Bridge",
+            "49": "Contacts Storage",
+            "46": "SIM Transistor"
+        }
+    },
+    "45": {
+        "name": "Speaker Tip",
+        "links": {
+            "47": "Antenna Pad"
+        }
+    },
+    "46": {
+        "name": "SIM Transistor",
+        "links": {
+            "47": "Antenna Pad",
+            "49": "Contacts Storage",
+            "44": "ADC Out"
+        }
+    },
+    "47": {
+        "name": "Antenna Pad",
+        "links": {
+            "50": "Audio VREF",
+            "45": "Speaker Tip",
+            "34": "Global Resistors",
+            "49": "Contacts Storage",
+            "46": "SIM Transistor"
+        }
+    },
+    "48": {
+        "name": "Audio Processor",
+        "links": {
+            "40": "32k Clock",
+            "52": "Power IC",
+            "50": "Audio VREF",
+            "43": "Power VREF",
+            "34": "Global Resistors"
+        }
+    },
+    "49": {
+        "name": "Contacts Storage",
+        "links": {
+            "50": "Audio VREF",
+            "47": "Antenna Pad",
+            "51": "Power Bridge",
+            "46": "SIM Transistor",
+            "44": "ADC Out"
+        }
+    },
+    "50": {
+        "name": "Audio VREF",
+        "links": {
+            "52": "Power IC",
+            "34": "Global Resistors",
+            "47": "Antenna Pad",
+            "51": "Power Bridge",
+            "48": "Audio Processor",
+            "49": "Contacts Storage"
+        }
+    },
+    "51": {
+        "name": "Power Bridge",
+        "links": {
+            "52": "Power IC",
+            "50": "Audio VREF",
+            "43": "Power VREF",
+            "49": "Contacts Storage",
+            "31": "C103",
+            "44": "ADC Out"
+        }
+    },
+    "52": {
+        "name": "Power IC",
+        "links": {
+            "50": "Audio VREF",
+            "43": "Power VREF",
+            "51": "Power Bridge",
+            "48": "Audio Processor"
+        }
+    },
+    "31": {
+        "name": "C103",
+        "links": {
+            "39": "C104",
+            "51": "Power Bridge",
+            "36": "C102"
+        }
+    },
+    "36": {
+        "name": "C102",
+        "links": {
+            "38": "C101",
+            "33": "Haptic Interface",
+            "31": "C103"
+        }
+    },
+    "38": {
+        "name": "C101",
+        "links": {
+            "43": "Power VREF",
+            "7": "Game Logic",
+            "36": "C102"
+        }
+    },
+    "39": {
+        "name": "C104",
+        "links": {
+            "31": "C103",
+            "42": "C105"
+        }
+    },
+    "41": {
+        "name": "CUL8R",
+        "links": {
+            "42": "C105",
+            "37": "Battery +"
+        }
+    },
+    "42": {
+        "name": "C105",
+        "links": {
+            "39": "C104",
+            "41": "CUL8R",
+            "44": "ADC Out"
+        }
+    },
+    "28": {
+        "name": "Hz Donut",
+        "links": {
+            "32": "Boost Chip"
+        }
+    },
+    "32": {
+        "name": "Boost Chip",
+        "links": {
+            "29": "SIM Connector",
+            "28": "Hz Donut"
+        }
+    },
+    "33": {
+        "name": "Haptic Interface",
+        "links": {
+            "29": "SIM Connector",
+            "36": "C102"
+        }
+    },
+    "35": {
+        "name": "Battery -",
+        "links": {
+            "37": "Battery +",
+            "30": "SIM Bridge"
+        }
+    },
+    "37": {
+        "name": "Battery +",
+        "links": {
+            "35": "Battery -",
+            "41": "CUL8R"
+        }
+    },
+    "21": {
+        "name": "SIM Contact",
+        "links": {
+            "29": "SIM Connector",
+            "7": "Game Logic"
+        }
+    },
+    "29": {
+        "name": "SIM Connector",
+        "links": {
+            "32": "Boost Chip",
+            "21": "SIM Contact",
+            "30": "SIM Bridge",
+            "33": "Haptic Interface",
+            "4": "RF Power"
+        }
+    },
+    "30": {
+        "name": "SIM Bridge",
+        "links": {
+            "35": "Battery -",
+            "29": "SIM Connector"
+        }
+    },
+    "2": {
+        "name": "SFX Cache",
+        "links": {
+            "9": "Input Routing",
+            "19": "High Freq Filter",
+            "7": "Game Logic"
+        }
+    },
+    "7": {
+        "name": "Game Logic",
+        "links": {
+            "38": "C101",
+            "9": "Input Routing",
+            "2": "SFX Cache",
+            "21": "SIM Contact"
+        }
+    },
+    "9": {
+        "name": "Input Routing",
+        "links": {
+            "8": "Power Amplifier",
+            "7": "Game Logic",
+            "11": "Apple Generator",
+            "2": "SFX Cache",
+            "4": "RF Power"
+        }
+    },
+    "11": {
+        "name": "Apple Generator",
+        "links": {
+            "9": "Input Routing"
+        }
+    },
+    "1": {
+        "name": "Futile Resistors",
+        "links": {
+            "6": "Another RF Filter",
+            "3": "Radio Filter",
+            "8": "Power Amplifier",
+            "4": "RF Power",
+            "22": "Microwave Filter"
+        }
+    },
+    "3": {
+        "name": "Radio Filter",
+        "links": {
+            "4": "RF Power",
+            "1": "Futile Resistors"
+        }
+    },
+    "4": {
+        "name": "RF Power",
+        "links": {
+            "3": "Radio Filter",
+            "29": "SIM Connector",
+            "9": "Input Routing",
+            "1": "Futile Resistors"
+        }
+    },
+    "6": {
+        "name": "Another RF Filter",
+        "links": {
+            "1": "Futile Resistors"
+        }
+    },
+    "8": {
+        "name": "Power Amplifier",
+        "links": {
+            "9": "Input Routing",
+            "1": "Futile Resistors"
+        }
+    },
+    "5": {
+        "name": "IF Filter",
+        "links": {
+            "13": "Filter Bridge",
+            "12": "Spurious Signal Filter",
+            "14": "Charge Base"
+        }
+    },
+    "12": {
+        "name": "Spurious Signal Filter",
+        "links": {
+            "19": "High Freq Filter",
+            "13": "Filter Bridge",
+            "17": "Le Resistors",
+            "5": "IF Filter"
+        }
+    },
+    "13": {
+        "name": "Filter Bridge",
+        "links": {
+            "12": "Spurious Signal Filter",
+            "18": "IF Circuit",
+            "17": "Le Resistors",
+            "5": "IF Filter"
+        }
+    },
+    "15": {
+        "name": "MIX Amplifier",
+        "links": {
+            "10": "Mutual Inductor",
+            "19": "High Freq Filter",
+            "17": "Le Resistors"
+        }
+    },
+    "17": {
+        "name": "Le Resistors",
+        "links": {
+            "19": "High Freq Filter",
+            "13": "Filter Bridge",
+            "18": "IF Circuit",
+            "12": "Spurious Signal Filter",
+            "15": "MIX Amplifier"
+        }
+    },
+    "18": {
+        "name": "IF Circuit",
+        "links": {
+            "20": "Voltage Control",
+            "13": "Filter Bridge",
+            "17": "Le Resistors"
+        }
+    },
+    "19": {
+        "name": "High Freq Filter",
+        "links": {
+            "12": "Spurious Signal Filter",
+            "17": "Le Resistors",
+            "2": "SFX Cache",
+            "15": "MIX Amplifier"
+        }
+    },
+    "10": {
+        "name": "Mutual Inductor",
+        "links": {
+            "20": "Voltage Control",
+            "24": "Secondary Oscillator",
+            "22": "Microwave Filter",
+            "15": "MIX Amplifier"
+        }
+    },
+    "16": {
+        "name": "Primary Oscillator",
+        "links": {
+            "25": "Voltage Capacitor",
+            "14": "Charge Base",
+            "20": "Voltage Control"
+        }
+    },
+    "20": {
+        "name": "Voltage Control",
+        "links": {
+            "26": "Irregulator",
+            "25": "Voltage Capacitor",
+            "18": "IF Circuit",
+            "24": "Secondary Oscillator",
+            "16": "Primary Oscillator",
+            "10": "Mutual Inductor"
+        }
+    },
+    "22": {
+        "name": "Microwave Filter",
+        "links": {
+            "10": "Mutual Inductor",
+            "1": "Futile Resistors"
+        }
+    },
+    "24": {
+        "name": "Secondary Oscillator",
+        "links": {
+            "10": "Mutual Inductor",
+            "20": "Voltage Control"
+        }
+    },
+    "25": {
+        "name": "Voltage Capacitor",
+        "links": {
+            "20": "Voltage Control",
+            "16": "Primary Oscillator",
+            "26": "Irregulator"
+        }
+    },
+    "26": {
+        "name": "Irregulator",
+        "links": {
+            "25": "Voltage Capacitor",
+            "14": "Charge Base",
+            "20": "Voltage Control"
+        }
+    },
+    "14": {
+        "name": "Charge Base",
+        "links": {
+            "27": "Charge Ground",
+            "26": "Irregulator",
+            "23": "Charge Control",
+            "5": "IF Filter",
+            "16": "Primary Oscillator"
+        }
+    },
+    "23": {
+        "name": "Charge Control",
+        "links": {
+            "27": "Charge Ground",
+            "14": "Charge Base"
+        }
+    },
+    "27": {
+        "name": "Charge Ground",
+        "links": {
+            "14": "Charge Base",
+            "23": "Charge Control"
+        }
+    }
+}

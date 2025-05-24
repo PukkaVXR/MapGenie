@@ -1,0 +1,319 @@
+{
+    "1": {
+        "name": "Cryorta",
+        "links": {
+            "36": "The Stairs",
+            "4": "Freezarc",
+            "2": "Blizzford"
+        }
+    },
+    "2": {
+        "name": "Blizzford",
+        "links": {
+            "6": "Southron",
+            "1": "Cryorta",
+            "3": "Smallmania"
+        }
+    },
+    "3": {
+        "name": "Smallmania",
+        "links": {
+            "2": "Blizzford"
+        }
+    },
+    "4": {
+        "name": "Freezarc",
+        "links": {
+            "31": "Redece",
+            "1": "Cryorta"
+        }
+    },
+    "5": {
+        "name": "Nreon",
+        "links": {
+            "7": "Acrolissos",
+            "6": "Southron",
+            "13": "The Canyon"
+        }
+    },
+    "6": {
+        "name": "Southron",
+        "links": {
+            "5": "Nreon",
+            "7": "Acrolissos",
+            "8": "Edgern",
+            "2": "Blizzford"
+        }
+    },
+    "7": {
+        "name": "Acrolissos",
+        "links": {
+            "5": "Nreon",
+            "6": "Southron",
+            "8": "Edgern"
+        }
+    },
+    "8": {
+        "name": "Edgern",
+        "links": {
+            "7": "Acrolissos",
+            "6": "Southron"
+        }
+    },
+    "9": {
+        "name": "Emerdin",
+        "links": {
+            "13": "The Canyon",
+            "11": "Sin",
+            "12": "Romandos",
+            "21": "Arduba",
+            "33": "Passagia"
+        }
+    },
+    "10": {
+        "name": "Kororn",
+        "links": {
+            "11": "Sin",
+            "12": "Romandos"
+        }
+    },
+    "11": {
+        "name": "Sin",
+        "links": {
+            "12": "Romandos",
+            "10": "Kororn",
+            "9": "Emerdin",
+            "13": "The Canyon"
+        }
+    },
+    "12": {
+        "name": "Romandos",
+        "links": {
+            "11": "Sin",
+            "10": "Kororn",
+            "9": "Emerdin",
+            "17": "Dinaria"
+        }
+    },
+    "13": {
+        "name": "The Canyon",
+        "links": {
+            "5": "Nreon",
+            "11": "Sin",
+            "9": "Emerdin"
+        }
+    },
+    "14": {
+        "name": "Lezhe",
+        "links": {
+            "15": "Melika",
+            "16": "Ellitus",
+            "19": "Litra"
+        }
+    },
+    "15": {
+        "name": "Melika",
+        "links": {
+            "17": "Dinaria",
+            "14": "Lezhe",
+            "16": "Ellitus"
+        }
+    },
+    "16": {
+        "name": "Ellitus",
+        "links": {
+            "15": "Melika",
+            "14": "Lezhe",
+            "17": "Dinaria"
+        }
+    },
+    "17": {
+        "name": "Dinaria",
+        "links": {
+            "15": "Melika",
+            "16": "Ellitus",
+            "12": "Romandos"
+        }
+    },
+    "18": {
+        "name": "Pelion",
+        "links": {
+            "26": "Melux",
+            "19": "Litra",
+            "20": "Flanona",
+            "35": "Dimale"
+        }
+    },
+    "19": {
+        "name": "Litra",
+        "links": {
+            "20": "Flanona",
+            "14": "Lezhe",
+            "18": "Pelion",
+            "21": "Arduba"
+        }
+    },
+    "20": {
+        "name": "Flanona",
+        "links": {
+            "19": "Litra",
+            "26": "Melux",
+            "18": "Pelion"
+        }
+    },
+    "21": {
+        "name": "Arduba",
+        "links": {
+            "19": "Litra",
+            "9": "Emerdin"
+        }
+    },
+    "22": {
+        "name": "Sanja",
+        "links": {
+            "25": "Paave",
+            "27": "The Fortress"
+        }
+    },
+    "23": {
+        "name": "Halenevrum",
+        "links": {
+            "25": "Paave",
+            "26": "Melux",
+            "24": "Alamium"
+        }
+    },
+    "24": {
+        "name": "Alamium",
+        "links": {
+            "25": "Paave",
+            "23": "Halenevrum"
+        }
+    },
+    "25": {
+        "name": "Paave",
+        "links": {
+            "24": "Alamium",
+            "23": "Halenevrum",
+            "22": "Sanja"
+        }
+    },
+    "26": {
+        "name": "Melux",
+        "links": {
+            "20": "Flanona",
+            "23": "Halenevrum",
+            "18": "Pelion"
+        }
+    },
+    "27": {
+        "name": "The Fortress",
+        "links": {
+            "22": "Sanja",
+            "28": "Retor",
+            "29": "Shmox",
+            "31": "Redece"
+        }
+    },
+    "28": {
+        "name": "Retor",
+        "links": {
+            "29": "Shmox",
+            "31": "Redece",
+            "27": "The Fortress",
+            "30": "Kitta"
+        }
+    },
+    "29": {
+        "name": "Shmox",
+        "links": {
+            "27": "The Fortress",
+            "28": "Retor"
+        }
+    },
+    "30": {
+        "name": "Kitta",
+        "links": {
+            "31": "Redece",
+            "34": "Obelum",
+            "28": "Retor"
+        }
+    },
+    "31": {
+        "name": "Redece",
+        "links": {
+            "4": "Freezarc",
+            "27": "The Fortress",
+            "28": "Retor",
+            "30": "Kitta"
+        }
+    },
+    "32": {
+        "name": "Anagog",
+        "links": {
+            "34": "Obelum",
+            "35": "Dimale",
+            "38": "Rajvo",
+            "33": "Passagia"
+        }
+    },
+    "33": {
+        "name": "Passagia",
+        "links": {
+            "37": "Lamastion",
+            "9": "Emerdin",
+            "32": "Anagog"
+        }
+    },
+    "34": {
+        "name": "Obelum",
+        "links": {
+            "35": "Dimale",
+            "32": "Anagog",
+            "38": "Rajvo",
+            "30": "Kitta"
+        }
+    },
+    "35": {
+        "name": "Dimale",
+        "links": {
+            "34": "Obelum",
+            "18": "Pelion",
+            "32": "Anagog"
+        }
+    },
+    "36": {
+        "name": "The Stairs",
+        "links": {
+            "37": "Lamastion",
+            "1": "Cryorta",
+            "38": "Rajvo",
+            "39": "Rexiton"
+        }
+    },
+    "37": {
+        "name": "Lamastion",
+        "links": {
+            "33": "Passagia",
+            "38": "Rajvo",
+            "36": "The Stairs"
+        }
+    },
+    "38": {
+        "name": "Rajvo",
+        "links": {
+            "36": "The Stairs",
+            "34": "Obelum",
+            "37": "Lamastion",
+            "39": "Rexiton",
+            "32": "Anagog"
+        }
+    },
+    "39": {
+        "name": "Rexiton",
+        "links": {
+            "38": "Rajvo",
+            "36": "The Stairs"
+        }
+    }
+}

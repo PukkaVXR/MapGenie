@@ -1,0 +1,667 @@
+{
+    "1": {
+        "name": "Aeroport",
+        "links": {
+            "20": "Koptevo",
+            "57": "Timiryazevsky",
+            "45": "Presnensky",
+            "52": "Sokol",
+            "60": "Tverskoy",
+            "7": "Butyrsky"
+        }
+    },
+    "2": {
+        "name": "Akademichesky",
+        "links": {
+            "16": "Khamovniki",
+            "65": "Yakimanka",
+            "46": "Ramenki",
+            "10": "Danilovsky",
+            "69": "Zyuzino",
+            "9": "Cheryomushki",
+            "36": "Nagatino Sadovniki"
+        }
+    },
+    "3": {
+        "name": "Basmanny",
+        "links": {
+            "53": "Sokolniki",
+            "14": "Izmaylovo",
+            "60": "Tverskoy",
+            "56": "Tagansky",
+            "26": "Lefortovo"
+        }
+    },
+    "4": {
+        "name": "Bibirevo",
+        "links": {
+            "50": "Severny",
+            "27": "Losinoostrovsky",
+            "41": "Otradnoye",
+            "11": "Dmitrovsky"
+        }
+    },
+    "5": {
+        "name": "Biryulyovo Vostochnoye",
+        "links": {
+            "40": "Orekhovo Borisovo Yuzhenoye",
+            "6": "Biryulyovo Zapadnoye",
+            "59": "Tsaritsyno"
+        }
+    },
+    "6": {
+        "name": "Biryulyovo Zapadnoye",
+        "links": {
+            "5": "Biryulyovo Vostochnoye",
+            "48": "Severnoye Butovo",
+            "66": "Yasenevo",
+            "8": "Chertanovo Tsentralnoye"
+        }
+    },
+    "7": {
+        "name": "Butyrsky",
+        "links": {
+            "57": "Timiryazevsky",
+            "29": "Marfino",
+            "1": "Aeroport",
+            "60": "Tverskoy"
+        }
+    },
+    "8": {
+        "name": "Chertanovo Tsentralnoye",
+        "links": {
+            "36": "Nagatino Sadovniki",
+            "59": "Tsaritsyno",
+            "66": "Yasenevo",
+            "69": "Zyuzino",
+            "6": "Biryulyovo Zapadnoye"
+        }
+    },
+    "9": {
+        "name": "Cheryomushki",
+        "links": {
+            "69": "Zyuzino",
+            "2": "Akademichesky",
+            "19": "Konkovo",
+            "46": "Ramenki",
+            "58": "Troparyovo Nikulino"
+        }
+    },
+    "10": {
+        "name": "Danilovsky",
+        "links": {
+            "2": "Akademichesky",
+            "65": "Yakimanka",
+            "56": "Tagansky",
+            "36": "Nagatino Sadovniki",
+            "43": "Pechatniki"
+        }
+    },
+    "11": {
+        "name": "Dmitrovsky",
+        "links": {
+            "41": "Otradnoye",
+            "57": "Timiryazevsky",
+            "4": "Bibirevo",
+            "20": "Koptevo",
+            "18": "Khovrino"
+        }
+    },
+    "12": {
+        "name": "Dorogomilovo",
+        "links": {
+            "17": "Khoroshevo Mnevniki",
+            "45": "Presnensky",
+            "21": "Krylatskoye",
+            "16": "Khamovniki",
+            "35": "Mozhaysky",
+            "23": "Kuntsevo",
+            "39": "Ochakovo Matveyevskoye",
+            "46": "Ramenki"
+        }
+    },
+    "13": {
+        "name": "Golyanovo",
+        "links": {
+            "32": "Metrogorodok",
+            "63": "Vostochny",
+            "14": "Izmaylovo",
+            "53": "Sokolniki",
+            "62": "Veshnyaki"
+        }
+    },
+    "14": {
+        "name": "Izmaylovo",
+        "links": {
+            "3": "Basmanny",
+            "53": "Sokolniki",
+            "26": "Lefortovo",
+            "13": "Golyanovo",
+            "62": "Veshnyaki"
+        }
+    },
+    "15": {
+        "name": "Kapotnya",
+        "links": {
+            "28": "Lyublino",
+            "68": "Zyablikovo",
+            "30": "Maryino"
+        }
+    },
+    "16": {
+        "name": "Khamovniki",
+        "links": {
+            "12": "Dorogomilovo",
+            "45": "Presnensky",
+            "65": "Yakimanka",
+            "2": "Akademichesky",
+            "60": "Tverskoy",
+            "46": "Ramenki"
+        }
+    },
+    "17": {
+        "name": "Khoroshevo Mnevniki",
+        "links": {
+            "52": "Sokol",
+            "12": "Dorogomilovo",
+            "51": "Shchukino",
+            "55": "Strogino",
+            "21": "Krylatskoye"
+        }
+    },
+    "18": {
+        "name": "Khovrino",
+        "links": {
+            "20": "Koptevo",
+            "49": "Severnoye Tushino",
+            "11": "Dmitrovsky"
+        }
+    },
+    "19": {
+        "name": "Konkovo",
+        "links": {
+            "9": "Cheryomushki",
+            "69": "Zyuzino",
+            "61": "Tyoply Stan",
+            "66": "Yasenevo",
+            "58": "Troparyovo Nikulino"
+        }
+    },
+    "20": {
+        "name": "Koptevo",
+        "links": {
+            "57": "Timiryazevsky",
+            "18": "Khovrino",
+            "49": "Severnoye Tushino",
+            "1": "Aeroport",
+            "52": "Sokol",
+            "44": "Pokrovskoye",
+            "11": "Dmitrovsky"
+        }
+    },
+    "21": {
+        "name": "Krylatskoye",
+        "links": {
+            "17": "Khoroshevo Mnevniki",
+            "12": "Dorogomilovo",
+            "23": "Kuntsevo",
+            "55": "Strogino"
+        }
+    },
+    "22": {
+        "name": "Kryukovo",
+        "links": {
+            "33": "Mitino",
+            "42": "Panfilovsky"
+        }
+    },
+    "23": {
+        "name": "Kuntsevo",
+        "links": {
+            "35": "Mozhaysky",
+            "12": "Dorogomilovo",
+            "21": "Krylatskoye"
+        }
+    },
+    "24": {
+        "name": "Kurkino",
+        "links": {
+            "49": "Severnoye Tushino",
+            "34": "Molzhaninovskly"
+        }
+    },
+    "25": {
+        "name": "Kuzminki",
+        "links": {
+            "64": "Vykhino Zhulyobino",
+            "28": "Lyublino",
+            "26": "Lefortovo",
+            "43": "Pechatniki",
+            "62": "Veshnyaki"
+        }
+    },
+    "26": {
+        "name": "Lefortovo",
+        "links": {
+            "14": "Izmaylovo",
+            "56": "Tagansky",
+            "25": "Kuzminki",
+            "43": "Pechatniki",
+            "3": "Basmanny"
+        }
+    },
+    "27": {
+        "name": "Losinoostrovsky",
+        "links": {
+            "4": "Bibirevo",
+            "47": "Rostokino",
+            "41": "Otradnoye"
+        }
+    },
+    "28": {
+        "name": "Lyublino",
+        "links": {
+            "37": "Nekrasovka",
+            "15": "Kapotnya",
+            "25": "Kuzminki",
+            "64": "Vykhino Zhulyobino",
+            "43": "Pechatniki",
+            "30": "Maryino"
+        }
+    },
+    "29": {
+        "name": "Marfino",
+        "links": {
+            "47": "Rostokino",
+            "57": "Timiryazevsky",
+            "41": "Otradnoye",
+            "7": "Butyrsky",
+            "53": "Sokolniki",
+            "60": "Tverskoy"
+        }
+    },
+    "30": {
+        "name": "Maryino",
+        "links": {
+            "28": "Lyublino",
+            "15": "Kapotnya",
+            "59": "Tsaritsyno",
+            "68": "Zyablikovo",
+            "43": "Pechatniki"
+        }
+    },
+    "31": {
+        "name": "Matushkino",
+        "links": {
+            "42": "Panfilovsky",
+            "34": "Molzhaninovskly"
+        }
+    },
+    "32": {
+        "name": "Metrogorodok",
+        "links": {
+            "47": "Rostokino",
+            "13": "Golyanovo",
+            "53": "Sokolniki"
+        }
+    },
+    "33": {
+        "name": "Mitino",
+        "links": {
+            "35": "Mozhaysky",
+            "22": "Kryukovo",
+            "44": "Pokrovskoye",
+            "49": "Severnoye Tushino"
+        }
+    },
+    "34": {
+        "name": "Molzhaninovskly",
+        "links": {
+            "31": "Matushkino",
+            "50": "Severny",
+            "24": "Kurkino"
+        }
+    },
+    "35": {
+        "name": "Mozhaysky",
+        "links": {
+            "54": "Solntsevo",
+            "33": "Mitino",
+            "23": "Kuntsevo",
+            "12": "Dorogomilovo",
+            "39": "Ochakovo Matveyevskoye"
+        }
+    },
+    "36": {
+        "name": "Nagatino Sadovniki",
+        "links": {
+            "59": "Tsaritsyno",
+            "8": "Chertanovo Tsentralnoye",
+            "43": "Pechatniki",
+            "10": "Danilovsky",
+            "69": "Zyuzino",
+            "2": "Akademichesky"
+        }
+    },
+    "37": {
+        "name": "Nekrasovka",
+        "links": {
+            "63": "Vostochny",
+            "28": "Lyublino",
+            "38": "Novokosino",
+            "67": "Yuzhnoye Butovo"
+        }
+    },
+    "38": {
+        "name": "Novokosino",
+        "links": {
+            "64": "Vykhino Zhulyobino",
+            "62": "Veshnyaki",
+            "37": "Nekrasovka"
+        }
+    },
+    "39": {
+        "name": "Ochakovo Matveyevskoye",
+        "links": {
+            "58": "Troparyovo Nikulino",
+            "46": "Ramenki",
+            "12": "Dorogomilovo",
+            "54": "Solntsevo",
+            "35": "Mozhaysky"
+        }
+    },
+    "40": {
+        "name": "Orekhovo Borisovo Yuzhenoye",
+        "links": {
+            "68": "Zyablikovo",
+            "5": "Biryulyovo Vostochnoye",
+            "59": "Tsaritsyno"
+        }
+    },
+    "41": {
+        "name": "Otradnoye",
+        "links": {
+            "11": "Dmitrovsky",
+            "29": "Marfino",
+            "4": "Bibirevo",
+            "47": "Rostokino",
+            "27": "Losinoostrovsky"
+        }
+    },
+    "42": {
+        "name": "Panfilovsky",
+        "links": {
+            "22": "Kryukovo",
+            "31": "Matushkino"
+        }
+    },
+    "43": {
+        "name": "Pechatniki",
+        "links": {
+            "25": "Kuzminki",
+            "28": "Lyublino",
+            "56": "Tagansky",
+            "26": "Lefortovo",
+            "30": "Maryino",
+            "59": "Tsaritsyno",
+            "36": "Nagatino Sadovniki",
+            "10": "Danilovsky"
+        }
+    },
+    "44": {
+        "name": "Pokrovskoye",
+        "links": {
+            "20": "Koptevo",
+            "51": "Shchukino",
+            "55": "Strogino",
+            "33": "Mitino",
+            "49": "Severnoye Tushino"
+        }
+    },
+    "45": {
+        "name": "Presnensky",
+        "links": {
+            "52": "Sokol",
+            "1": "Aeroport",
+            "12": "Dorogomilovo",
+            "60": "Tverskoy",
+            "16": "Khamovniki"
+        }
+    },
+    "46": {
+        "name": "Ramenki",
+        "links": {
+            "16": "Khamovniki",
+            "2": "Akademichesky",
+            "58": "Troparyovo Nikulino",
+            "39": "Ochakovo Matveyevskoye",
+            "12": "Dorogomilovo",
+            "9": "Cheryomushki"
+        }
+    },
+    "47": {
+        "name": "Rostokino",
+        "links": {
+            "27": "Losinoostrovsky",
+            "32": "Metrogorodok",
+            "53": "Sokolniki",
+            "29": "Marfino",
+            "41": "Otradnoye"
+        }
+    },
+    "48": {
+        "name": "Severnoye Butovo",
+        "links": {
+            "6": "Biryulyovo Zapadnoye",
+            "67": "Yuzhnoye Butovo",
+            "66": "Yasenevo"
+        }
+    },
+    "49": {
+        "name": "Severnoye Tushino",
+        "links": {
+            "18": "Khovrino",
+            "20": "Koptevo",
+            "33": "Mitino",
+            "24": "Kurkino",
+            "44": "Pokrovskoye"
+        }
+    },
+    "50": {
+        "name": "Severny",
+        "links": {
+            "63": "Vostochny",
+            "34": "Molzhaninovskly",
+            "4": "Bibirevo"
+        }
+    },
+    "51": {
+        "name": "Shchukino",
+        "links": {
+            "44": "Pokrovskoye",
+            "52": "Sokol",
+            "17": "Khoroshevo Mnevniki",
+            "55": "Strogino"
+        }
+    },
+    "52": {
+        "name": "Sokol",
+        "links": {
+            "45": "Presnensky",
+            "1": "Aeroport",
+            "20": "Koptevo",
+            "51": "Shchukino",
+            "17": "Khoroshevo Mnevniki"
+        }
+    },
+    "53": {
+        "name": "Sokolniki",
+        "links": {
+            "47": "Rostokino",
+            "3": "Basmanny",
+            "14": "Izmaylovo",
+            "32": "Metrogorodok",
+            "13": "Golyanovo",
+            "29": "Marfino"
+        }
+    },
+    "54": {
+        "name": "Solntsevo",
+        "links": {
+            "67": "Yuzhnoye Butovo",
+            "35": "Mozhaysky",
+            "58": "Troparyovo Nikulino",
+            "39": "Ochakovo Matveyevskoye"
+        }
+    },
+    "55": {
+        "name": "Strogino",
+        "links": {
+            "51": "Shchukino",
+            "17": "Khoroshevo Mnevniki",
+            "21": "Krylatskoye",
+            "44": "Pokrovskoye"
+        }
+    },
+    "56": {
+        "name": "Tagansky",
+        "links": {
+            "60": "Tverskoy",
+            "3": "Basmanny",
+            "65": "Yakimanka",
+            "26": "Lefortovo",
+            "10": "Danilovsky",
+            "43": "Pechatniki"
+        }
+    },
+    "57": {
+        "name": "Timiryazevsky",
+        "links": {
+            "11": "Dmitrovsky",
+            "29": "Marfino",
+            "20": "Koptevo",
+            "7": "Butyrsky",
+            "1": "Aeroport"
+        }
+    },
+    "58": {
+        "name": "Troparyovo Nikulino",
+        "links": {
+            "19": "Konkovo",
+            "61": "Tyoply Stan",
+            "39": "Ochakovo Matveyevskoye",
+            "46": "Ramenki",
+            "9": "Cheryomushki",
+            "54": "Solntsevo"
+        }
+    },
+    "59": {
+        "name": "Tsaritsyno",
+        "links": {
+            "30": "Maryino",
+            "68": "Zyablikovo",
+            "43": "Pechatniki",
+            "36": "Nagatino Sadovniki",
+            "8": "Chertanovo Tsentralnoye",
+            "40": "Orekhovo Borisovo Yuzhenoye",
+            "5": "Biryulyovo Vostochnoye"
+        }
+    },
+    "60": {
+        "name": "Tverskoy",
+        "links": {
+            "3": "Basmanny",
+            "45": "Presnensky",
+            "1": "Aeroport",
+            "7": "Butyrsky",
+            "56": "Tagansky",
+            "65": "Yakimanka",
+            "16": "Khamovniki",
+            "29": "Marfino"
+        }
+    },
+    "61": {
+        "name": "Tyoply Stan",
+        "links": {
+            "19": "Konkovo",
+            "66": "Yasenevo",
+            "58": "Troparyovo Nikulino"
+        }
+    },
+    "62": {
+        "name": "Veshnyaki",
+        "links": {
+            "64": "Vykhino Zhulyobino",
+            "38": "Novokosino",
+            "13": "Golyanovo",
+            "14": "Izmaylovo",
+            "25": "Kuzminki"
+        }
+    },
+    "63": {
+        "name": "Vostochny",
+        "links": {
+            "50": "Severny",
+            "37": "Nekrasovka",
+            "13": "Golyanovo"
+        }
+    },
+    "64": {
+        "name": "Vykhino Zhulyobino",
+        "links": {
+            "25": "Kuzminki",
+            "62": "Veshnyaki",
+            "28": "Lyublino",
+            "38": "Novokosino"
+        }
+    },
+    "65": {
+        "name": "Yakimanka",
+        "links": {
+            "16": "Khamovniki",
+            "2": "Akademichesky",
+            "60": "Tverskoy",
+            "10": "Danilovsky",
+            "56": "Tagansky"
+        }
+    },
+    "66": {
+        "name": "Yasenevo",
+        "links": {
+            "61": "Tyoply Stan",
+            "19": "Konkovo",
+            "8": "Chertanovo Tsentralnoye",
+            "69": "Zyuzino",
+            "6": "Biryulyovo Zapadnoye",
+            "48": "Severnoye Butovo"
+        }
+    },
+    "67": {
+        "name": "Yuzhnoye Butovo",
+        "links": {
+            "48": "Severnoye Butovo",
+            "54": "Solntsevo",
+            "37": "Nekrasovka"
+        }
+    },
+    "68": {
+        "name": "Zyablikovo",
+        "links": {
+            "15": "Kapotnya",
+            "40": "Orekhovo Borisovo Yuzhenoye",
+            "59": "Tsaritsyno",
+            "30": "Maryino"
+        }
+    },
+    "69": {
+        "name": "Zyuzino",
+        "links": {
+            "9": "Cheryomushki",
+            "2": "Akademichesky",
+            "19": "Konkovo",
+            "36": "Nagatino Sadovniki",
+            "8": "Chertanovo Tsentralnoye",
+            "66": "Yasenevo"
+        }
+    }
+}

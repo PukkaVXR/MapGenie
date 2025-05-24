@@ -1,0 +1,464 @@
+{
+    "1": {
+        "name": "3D Printers",
+        "links": {
+            "9": "Circuit Engineers",
+            "32": "Material Engineers",
+            "37": "Meteor Path"
+        }
+    },
+    "2": {
+        "name": "Airlock",
+        "links": {
+            "3": "Apollo",
+            "44": "Quarantine",
+            "57": "Travel Equipment"
+        }
+    },
+    "3": {
+        "name": "Apollo",
+        "links": {
+            "58": "Tycho Path",
+            "2": "Airlock"
+        }
+    },
+    "4": {
+        "name": "Backup Generators",
+        "links": {
+            "16": "Elevator"
+        }
+    },
+    "5": {
+        "name": "Bathroom",
+        "links": {
+            "55": "Sleeping Quarters"
+        }
+    },
+    "6": {
+        "name": "Cafe",
+        "links": {
+            "48": "Recreation",
+            "31": "Lockers"
+        }
+    },
+    "7": {
+        "name": "Canteen",
+        "links": {
+            "34": "M-Bay",
+            "31": "Lockers",
+            "54": "Security Sector"
+        }
+    },
+    "8": {
+        "name": "Chemical Validation",
+        "links": {
+            "25": "Isotope Lab",
+            "40": "Packing Station"
+        }
+    },
+    "9": {
+        "name": "Circuit Engineers",
+        "links": {
+            "15": "Electricians",
+            "1": "3D Printers"
+        }
+    },
+    "10": {
+        "name": "Command",
+        "links": {
+            "24": "Intercom",
+            "54": "Security Sector",
+            "30": "Launch Controls"
+        }
+    },
+    "11": {
+        "name": "Data Storage",
+        "links": {
+            "26": "IT",
+            "46": "Radio Tower",
+            "18": "Experimentation plant",
+            "25": "Isotope Lab",
+            "16": "Elevator"
+        }
+    },
+    "12": {
+        "name": "Doctors",
+        "links": {
+            "46": "Radio Tower",
+            "35": "Medical Unit",
+            "57": "Travel Equipment"
+        }
+    },
+    "13": {
+        "name": "Drill A",
+        "links": {
+            "27": "Katakis Passage",
+            "14": "Drill B"
+        }
+    },
+    "14": {
+        "name": "Drill B",
+        "links": {
+            "13": "Drill A",
+            "38": "Moltke Path"
+        }
+    },
+    "15": {
+        "name": "Electricians",
+        "links": {
+            "59": "Ventilation",
+            "32": "Material Engineers",
+            "9": "Circuit Engineers"
+        }
+    },
+    "16": {
+        "name": "Elevator",
+        "links": {
+            "38": "Moltke Path",
+            "4": "Backup Generators",
+            "11": "Data Storage"
+        }
+    },
+    "17": {
+        "name": "Emergency Exit",
+        "links": {
+            "50": "Safety Gate",
+            "25": "Isotope Lab"
+        }
+    },
+    "18": {
+        "name": "Experimentation plant",
+        "links": {
+            "11": "Data Storage",
+            "51": "Sample Analysis"
+        }
+    },
+    "19": {
+        "name": "Gateway",
+        "links": {
+            "41": "Pad A",
+            "42": "Pad B",
+            "58": "Tycho Path"
+        }
+    },
+    "20": {
+        "name": "Generators",
+        "links": {
+            "21": "Heavy Machinery"
+        }
+    },
+    "21": {
+        "name": "Heavy Machinery",
+        "links": {
+            "51": "Sample Analysis",
+            "62": "Workbenches",
+            "20": "Generators",
+            "53": "Security",
+            "61": "Welding Sector"
+        }
+    },
+    "22": {
+        "name": "Helium-3 Extractor",
+        "links": {
+            "56": "Small Filter",
+            "25": "Isotope Lab"
+        }
+    },
+    "23": {
+        "name": "Helium-3 Storage",
+        "links": {
+            "53": "Security",
+            "28": "Labeling"
+        }
+    },
+    "24": {
+        "name": "Intercom",
+        "links": {
+            "34": "M-Bay",
+            "10": "Command",
+            "30": "Launch Controls"
+        }
+    },
+    "25": {
+        "name": "Isotope Lab",
+        "links": {
+            "22": "Helium-3 Extractor",
+            "11": "Data Storage",
+            "17": "Emergency Exit",
+            "8": "Chemical Validation"
+        }
+    },
+    "26": {
+        "name": "IT",
+        "links": {
+            "45": "Radar",
+            "46": "Radio Tower",
+            "11": "Data Storage"
+        }
+    },
+    "27": {
+        "name": "Katakis Passage",
+        "links": {
+            "29": "Large Filter",
+            "13": "Drill A"
+        }
+    },
+    "28": {
+        "name": "Labeling",
+        "links": {
+            "23": "Helium-3 Storage",
+            "39": "Ore Storage",
+            "47": "Radioactive Storage",
+            "50": "Safety Gate"
+        }
+    },
+    "29": {
+        "name": "Large Filter",
+        "links": {
+            "43": "Plant Administration",
+            "27": "Katakis Passage",
+            "36": "Medium Filter"
+        }
+    },
+    "30": {
+        "name": "Launch Controls",
+        "links": {
+            "10": "Command",
+            "24": "Intercom"
+        }
+    },
+    "31": {
+        "name": "Lockers",
+        "links": {
+            "7": "Canteen",
+            "55": "Sleeping Quarters",
+            "6": "Cafe"
+        }
+    },
+    "32": {
+        "name": "Material Engineers",
+        "links": {
+            "15": "Electricians",
+            "54": "Security Sector",
+            "1": "3D Printers"
+        }
+    },
+    "33": {
+        "name": "Material Science",
+        "links": {
+            "52": "Sample Storage",
+            "51": "Sample Analysis",
+            "46": "Radio Tower"
+        }
+    },
+    "34": {
+        "name": "M-Bay",
+        "links": {
+            "58": "Tycho Path",
+            "7": "Canteen",
+            "44": "Quarantine",
+            "24": "Intercom",
+            "49": "Registry"
+        }
+    },
+    "35": {
+        "name": "Medical Unit",
+        "links": {
+            "12": "Doctors"
+        }
+    },
+    "36": {
+        "name": "Medium Filter",
+        "links": {
+            "29": "Large Filter",
+            "56": "Small Filter"
+        }
+    },
+    "37": {
+        "name": "Meteor Path",
+        "links": {
+            "1": "3D Printers",
+            "48": "Recreation"
+        }
+    },
+    "38": {
+        "name": "Moltke Path",
+        "links": {
+            "14": "Drill B",
+            "16": "Elevator"
+        }
+    },
+    "39": {
+        "name": "Ore Storage",
+        "links": {
+            "28": "Labeling",
+            "60": "Webb Passage",
+            "47": "Radioactive Storage"
+        }
+    },
+    "40": {
+        "name": "Packing Station",
+        "links": {
+            "8": "Chemical Validation",
+            "43": "Plant Administration"
+        }
+    },
+    "41": {
+        "name": "Pad A",
+        "links": {
+            "19": "Gateway"
+        }
+    },
+    "42": {
+        "name": "Pad B",
+        "links": {
+            "19": "Gateway"
+        }
+    },
+    "43": {
+        "name": "Plant Administration",
+        "links": {
+            "60": "Webb Passage",
+            "29": "Large Filter",
+            "40": "Packing Station"
+        }
+    },
+    "44": {
+        "name": "Quarantine",
+        "links": {
+            "2": "Airlock",
+            "34": "M-Bay"
+        }
+    },
+    "45": {
+        "name": "Radar",
+        "links": {
+            "26": "IT"
+        }
+    },
+    "46": {
+        "name": "Radio Tower",
+        "links": {
+            "26": "IT",
+            "12": "Doctors",
+            "11": "Data Storage",
+            "33": "Material Science"
+        }
+    },
+    "47": {
+        "name": "Radioactive Storage",
+        "links": {
+            "39": "Ore Storage",
+            "28": "Labeling"
+        }
+    },
+    "48": {
+        "name": "Recreation",
+        "links": {
+            "37": "Meteor Path",
+            "6": "Cafe"
+        }
+    },
+    "49": {
+        "name": "Registry",
+        "links": {
+            "54": "Security Sector",
+            "34": "M-Bay"
+        }
+    },
+    "50": {
+        "name": "Safety Gate",
+        "links": {
+            "28": "Labeling",
+            "17": "Emergency Exit"
+        }
+    },
+    "51": {
+        "name": "Sample Analysis",
+        "links": {
+            "33": "Material Science",
+            "21": "Heavy Machinery",
+            "18": "Experimentation plant"
+        }
+    },
+    "52": {
+        "name": "Sample Storage",
+        "links": {
+            "33": "Material Science"
+        }
+    },
+    "53": {
+        "name": "Security",
+        "links": {
+            "21": "Heavy Machinery",
+            "23": "Helium-3 Storage"
+        }
+    },
+    "54": {
+        "name": "Security Sector",
+        "links": {
+            "10": "Command",
+            "7": "Canteen",
+            "32": "Material Engineers",
+            "49": "Registry"
+        }
+    },
+    "55": {
+        "name": "Sleeping Quarters",
+        "links": {
+            "31": "Lockers",
+            "5": "Bathroom"
+        }
+    },
+    "56": {
+        "name": "Small Filter",
+        "links": {
+            "36": "Medium Filter",
+            "22": "Helium-3 Extractor"
+        }
+    },
+    "57": {
+        "name": "Travel Equipment",
+        "links": {
+            "2": "Airlock",
+            "12": "Doctors"
+        }
+    },
+    "58": {
+        "name": "Tycho Path",
+        "links": {
+            "19": "Gateway",
+            "34": "M-Bay",
+            "3": "Apollo"
+        }
+    },
+    "59": {
+        "name": "Ventilation",
+        "links": {
+            "61": "Welding Sector",
+            "15": "Electricians"
+        }
+    },
+    "60": {
+        "name": "Webb Passage",
+        "links": {
+            "39": "Ore Storage",
+            "43": "Plant Administration"
+        }
+    },
+    "61": {
+        "name": "Welding Sector",
+        "links": {
+            "62": "Workbenches",
+            "59": "Ventilation",
+            "21": "Heavy Machinery"
+        }
+    },
+    "62": {
+        "name": "Workbenches",
+        "links": {
+            "21": "Heavy Machinery",
+            "61": "Welding Sector"
+        }
+    }
+}

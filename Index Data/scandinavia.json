@@ -1,0 +1,378 @@
+{
+    "1": {
+        "name": "Agder",
+        "links": {
+            "43": "Viken",
+            "20": "Midtjylland",
+            "42": "Vestland"
+        }
+    },
+    "2": {
+        "name": "\u00c5ngermanland",
+        "links": {
+            "40": "V\u00e4sterbotten",
+            "19": "Medelpad",
+            "16": "Lappland",
+            "11": "J\u00e4mtland"
+        }
+    },
+    "3": {
+        "name": "Avannaata",
+        "links": {
+            "29": "Sermersooq-South",
+            "28": "Sermersooq-North"
+        }
+    },
+    "4": {
+        "name": "Dalarna",
+        "links": {
+            "19": "Medelpad",
+            "38": "Uppland",
+            "9": "Innlandet",
+            "39": "V\u00e4rmland",
+            "37": "Tr\u00f8ndelag",
+            "8": "H\u00e4rjedalen"
+        }
+    },
+    "5": {
+        "name": "Eastern-Region",
+        "links": {
+            "23": "Northeastern-Region",
+            "37": "Tr\u00f8ndelag",
+            "34": "Southern-Region"
+        }
+    },
+    "6": {
+        "name": "Estonia",
+        "links": {
+            "7": "Etel\u00e4-Suomen l\u00e4\u00e4ni",
+            "17": "Latvia"
+        }
+    },
+    "7": {
+        "name": "Etel\u00e4-Suomen l\u00e4\u00e4ni",
+        "links": {
+            "10": "It\u00e4-Suomen l\u00e4\u00e4ni",
+            "6": "Estonia",
+            "14": "L\u00e4nsi-Suomen l\u00e4\u00e4ni"
+        }
+    },
+    "8": {
+        "name": "H\u00e4rjedalen",
+        "links": {
+            "37": "Tr\u00f8ndelag",
+            "11": "J\u00e4mtland",
+            "4": "Dalarna",
+            "19": "Medelpad"
+        }
+    },
+    "9": {
+        "name": "Innlandet",
+        "links": {
+            "4": "Dalarna",
+            "39": "V\u00e4rmland",
+            "37": "Tr\u00f8ndelag",
+            "21": "M\u00f8re og Romsdal",
+            "42": "Vestland",
+            "43": "Viken"
+        }
+    },
+    "10": {
+        "name": "It\u00e4-Suomen l\u00e4\u00e4ni",
+        "links": {
+            "25": "Oulun l\u00e4\u00e4ni",
+            "7": "Etel\u00e4-Suomen l\u00e4\u00e4ni",
+            "14": "L\u00e4nsi-Suomen l\u00e4\u00e4ni"
+        }
+    },
+    "11": {
+        "name": "J\u00e4mtland",
+        "links": {
+            "16": "Lappland",
+            "2": "\u00c5ngermanland",
+            "37": "Tr\u00f8ndelag",
+            "8": "H\u00e4rjedalen",
+            "36": "Troms og Finnmark",
+            "19": "Medelpad"
+        }
+    },
+    "12": {
+        "name": "Kaliningrad",
+        "links": {
+            "18": "Lithuania",
+            "31": "Sk\u00e5ne"
+        }
+    },
+    "13": {
+        "name": "Kujalleq",
+        "links": {
+            "26": "Scotland-North",
+            "29": "Sermersooq-South"
+        }
+    },
+    "14": {
+        "name": "L\u00e4nsi-Suomen l\u00e4\u00e4ni",
+        "links": {
+            "38": "Uppland",
+            "25": "Oulun l\u00e4\u00e4ni",
+            "10": "It\u00e4-Suomen l\u00e4\u00e4ni",
+            "7": "Etel\u00e4-Suomen l\u00e4\u00e4ni"
+        }
+    },
+    "15": {
+        "name": "Lapin l\u00e4\u00e4ni",
+        "links": {
+            "22": "Norrbotten",
+            "25": "Oulun l\u00e4\u00e4ni"
+        }
+    },
+    "16": {
+        "name": "Lappland",
+        "links": {
+            "36": "Troms og Finnmark",
+            "22": "Norrbotten",
+            "40": "V\u00e4sterbotten",
+            "2": "\u00c5ngermanland",
+            "11": "J\u00e4mtland"
+        }
+    },
+    "17": {
+        "name": "Latvia",
+        "links": {
+            "6": "Estonia",
+            "18": "Lithuania"
+        }
+    },
+    "18": {
+        "name": "Lithuania",
+        "links": {
+            "17": "Latvia",
+            "12": "Kaliningrad"
+        }
+    },
+    "19": {
+        "name": "Medelpad",
+        "links": {
+            "2": "\u00c5ngermanland",
+            "4": "Dalarna",
+            "8": "H\u00e4rjedalen",
+            "11": "J\u00e4mtland"
+        }
+    },
+    "20": {
+        "name": "Midtjylland",
+        "links": {
+            "35": "Syddanmark",
+            "27": "Scotland-South",
+            "1": "Agder"
+        }
+    },
+    "21": {
+        "name": "M\u00f8re og Romsdal",
+        "links": {
+            "9": "Innlandet",
+            "42": "Vestland",
+            "37": "Tr\u00f8ndelag"
+        }
+    },
+    "22": {
+        "name": "Norrbotten",
+        "links": {
+            "15": "Lapin l\u00e4\u00e4ni",
+            "16": "Lappland",
+            "40": "V\u00e4sterbotten"
+        }
+    },
+    "23": {
+        "name": "Northeastern-Region",
+        "links": {
+            "24": "Northwestern-Region",
+            "5": "Eastern-Region",
+            "34": "Southern-Region"
+        }
+    },
+    "24": {
+        "name": "Northwestern-Region",
+        "links": {
+            "44": "Western-Region",
+            "23": "Northeastern-Region",
+            "34": "Southern-Region"
+        }
+    },
+    "25": {
+        "name": "Oulun l\u00e4\u00e4ni",
+        "links": {
+            "15": "Lapin l\u00e4\u00e4ni",
+            "10": "It\u00e4-Suomen l\u00e4\u00e4ni",
+            "14": "L\u00e4nsi-Suomen l\u00e4\u00e4ni"
+        }
+    },
+    "26": {
+        "name": "Scotland-North",
+        "links": {
+            "27": "Scotland-South",
+            "13": "Kujalleq",
+            "34": "Southern-Region",
+            "42": "Vestland"
+        }
+    },
+    "27": {
+        "name": "Scotland-South",
+        "links": {
+            "20": "Midtjylland",
+            "26": "Scotland-North"
+        }
+    },
+    "28": {
+        "name": "Sermersooq-North",
+        "links": {
+            "3": "Avannaata",
+            "44": "Western-Region",
+            "29": "Sermersooq-South"
+        }
+    },
+    "29": {
+        "name": "Sermersooq-South",
+        "links": {
+            "13": "Kujalleq",
+            "3": "Avannaata",
+            "28": "Sermersooq-North"
+        }
+    },
+    "30": {
+        "name": "Sj\u00e6lland",
+        "links": {
+            "31": "Sk\u00e5ne",
+            "35": "Syddanmark"
+        }
+    },
+    "31": {
+        "name": "Sk\u00e5ne",
+        "links": {
+            "12": "Kaliningrad",
+            "30": "Sj\u00e6lland",
+            "32": "Sm\u00e5land",
+            "41": "V\u00e4sterg\u00f6tland"
+        }
+    },
+    "32": {
+        "name": "Sm\u00e5land",
+        "links": {
+            "33": "S\u00f6dermanland",
+            "31": "Sk\u00e5ne",
+            "41": "V\u00e4sterg\u00f6tland"
+        }
+    },
+    "33": {
+        "name": "S\u00f6dermanland",
+        "links": {
+            "38": "Uppland",
+            "32": "Sm\u00e5land",
+            "41": "V\u00e4sterg\u00f6tland",
+            "39": "V\u00e4rmland"
+        }
+    },
+    "34": {
+        "name": "Southern-Region",
+        "links": {
+            "24": "Northwestern-Region",
+            "23": "Northeastern-Region",
+            "44": "Western-Region",
+            "5": "Eastern-Region",
+            "26": "Scotland-North"
+        }
+    },
+    "35": {
+        "name": "Syddanmark",
+        "links": {
+            "30": "Sj\u00e6lland",
+            "20": "Midtjylland"
+        }
+    },
+    "36": {
+        "name": "Troms og Finnmark",
+        "links": {
+            "37": "Tr\u00f8ndelag",
+            "16": "Lappland",
+            "11": "J\u00e4mtland"
+        }
+    },
+    "37": {
+        "name": "Tr\u00f8ndelag",
+        "links": {
+            "5": "Eastern-Region",
+            "36": "Troms og Finnmark",
+            "11": "J\u00e4mtland",
+            "8": "H\u00e4rjedalen",
+            "4": "Dalarna",
+            "9": "Innlandet",
+            "21": "M\u00f8re og Romsdal"
+        }
+    },
+    "38": {
+        "name": "Uppland",
+        "links": {
+            "4": "Dalarna",
+            "14": "L\u00e4nsi-Suomen l\u00e4\u00e4ni",
+            "39": "V\u00e4rmland",
+            "33": "S\u00f6dermanland"
+        }
+    },
+    "39": {
+        "name": "V\u00e4rmland",
+        "links": {
+            "9": "Innlandet",
+            "4": "Dalarna",
+            "43": "Viken",
+            "38": "Uppland",
+            "41": "V\u00e4sterg\u00f6tland",
+            "33": "S\u00f6dermanland"
+        }
+    },
+    "40": {
+        "name": "V\u00e4sterbotten",
+        "links": {
+            "22": "Norrbotten",
+            "2": "\u00c5ngermanland",
+            "16": "Lappland"
+        }
+    },
+    "41": {
+        "name": "V\u00e4sterg\u00f6tland",
+        "links": {
+            "31": "Sk\u00e5ne",
+            "43": "Viken",
+            "39": "V\u00e4rmland",
+            "33": "S\u00f6dermanland",
+            "32": "Sm\u00e5land"
+        }
+    },
+    "42": {
+        "name": "Vestland",
+        "links": {
+            "21": "M\u00f8re og Romsdal",
+            "9": "Innlandet",
+            "43": "Viken",
+            "1": "Agder",
+            "26": "Scotland-North"
+        }
+    },
+    "43": {
+        "name": "Viken",
+        "links": {
+            "9": "Innlandet",
+            "39": "V\u00e4rmland",
+            "41": "V\u00e4sterg\u00f6tland",
+            "1": "Agder",
+            "42": "Vestland"
+        }
+    },
+    "44": {
+        "name": "Western-Region",
+        "links": {
+            "28": "Sermersooq-North",
+            "24": "Northwestern-Region",
+            "34": "Southern-Region"
+        }
+    }
+}

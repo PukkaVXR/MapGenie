@@ -1,0 +1,419 @@
+{
+    "1": {
+        "name": "Alaska",
+        "links": {
+            "47": "Yukon and Northwest",
+            "43": "Walrus rest"
+        }
+    },
+    "2": {
+        "name": "Arkhangelsk",
+        "links": {
+            "22": "Nenetsia",
+            "42": "Vologda",
+            "18": "Karelia",
+            "35": "St Petersburg"
+        }
+    },
+    "3": {
+        "name": "Baffin Island",
+        "links": {
+            "32": "South Greenland",
+            "33": "South Queen Elizabeth Islands"
+        }
+    },
+    "4": {
+        "name": "Banks Island",
+        "links": {
+            "21": "Nautilus Rocks",
+            "41": "Victoria Island"
+        }
+    },
+    "5": {
+        "name": "Central Greenland",
+        "links": {
+            "17": "Iceland",
+            "32": "South Greenland",
+            "11": "Greenland Sea",
+            "24": "North Greenland"
+        }
+    },
+    "6": {
+        "name": "Chukotka",
+        "links": {
+            "45": "Yakutia",
+            "29": "Peary"
+        }
+    },
+    "7": {
+        "name": "Cooks Colony",
+        "links": {
+            "8": "Fallen Cliffs",
+            "11": "Greenland Sea",
+            "25": "North Pole",
+            "30": "Plaisted Tundra",
+            "16": "Ice Fields"
+        }
+    },
+    "8": {
+        "name": "Fallen Cliffs",
+        "links": {
+            "36": "Svalbard",
+            "7": "Cooks Colony",
+            "30": "Plaisted Tundra",
+            "44": "Whales Sound"
+        }
+    },
+    "9": {
+        "name": "Finland",
+        "links": {
+            "35": "St Petersburg",
+            "37": "Sweden",
+            "18": "Karelia",
+            "27": "Norway",
+            "20": "Murmansk"
+        }
+    },
+    "10": {
+        "name": "Floeberg",
+        "links": {
+            "14": "Humpback Haven",
+            "19": "Krasnoyarsk Krai",
+            "30": "Plaisted Tundra",
+            "31": "Severnaya Zemlya"
+        }
+    },
+    "11": {
+        "name": "Greenland Sea",
+        "links": {
+            "7": "Cooks Colony",
+            "5": "Central Greenland",
+            "16": "Ice Fields",
+            "24": "North Greenland"
+        }
+    },
+    "12": {
+        "name": "Hendriks Berg",
+        "links": {
+            "40": "Tip of the Iceberg",
+            "23": "No Mans Land",
+            "39": "Thin Ice",
+            "16": "Ice Fields",
+            "26": "North Queen Elizabeth Islands"
+        }
+    },
+    "13": {
+        "name": "Hillarys Rest",
+        "links": {
+            "15": "Ice break Shelf",
+            "34": "Spitsberg",
+            "38": "The Blizzard",
+            "25": "North Pole",
+            "23": "No Mans Land",
+            "40": "Tip of the Iceberg"
+        }
+    },
+    "14": {
+        "name": "Humpback Haven",
+        "links": {
+            "29": "Peary",
+            "10": "Floeberg",
+            "38": "The Blizzard",
+            "30": "Plaisted Tundra"
+        }
+    },
+    "15": {
+        "name": "Ice break Shelf",
+        "links": {
+            "43": "Walrus rest",
+            "34": "Spitsberg",
+            "40": "Tip of the Iceberg",
+            "13": "Hillarys Rest"
+        }
+    },
+    "16": {
+        "name": "Ice Fields",
+        "links": {
+            "12": "Hendriks Berg",
+            "23": "No Mans Land",
+            "25": "North Pole",
+            "7": "Cooks Colony",
+            "26": "North Queen Elizabeth Islands",
+            "11": "Greenland Sea",
+            "24": "North Greenland"
+        }
+    },
+    "17": {
+        "name": "Iceland",
+        "links": {
+            "27": "Norway",
+            "5": "Central Greenland"
+        }
+    },
+    "18": {
+        "name": "Karelia",
+        "links": {
+            "20": "Murmansk",
+            "2": "Arkhangelsk",
+            "35": "St Petersburg",
+            "9": "Finland"
+        }
+    },
+    "19": {
+        "name": "Krasnoyarsk Krai",
+        "links": {
+            "45": "Yakutia",
+            "10": "Floeberg",
+            "46": "Yamalia",
+            "44": "Whales Sound",
+            "28": "Novaya Zemlya"
+        }
+    },
+    "20": {
+        "name": "Murmansk",
+        "links": {
+            "28": "Novaya Zemlya",
+            "18": "Karelia",
+            "9": "Finland",
+            "27": "Norway"
+        }
+    },
+    "21": {
+        "name": "Nautilus Rocks",
+        "links": {
+            "33": "South Queen Elizabeth Islands",
+            "4": "Banks Island",
+            "39": "Thin Ice",
+            "43": "Walrus rest"
+        }
+    },
+    "22": {
+        "name": "Nenetsia",
+        "links": {
+            "46": "Yamalia",
+            "2": "Arkhangelsk"
+        }
+    },
+    "23": {
+        "name": "No Mans Land",
+        "links": {
+            "40": "Tip of the Iceberg",
+            "12": "Hendriks Berg",
+            "13": "Hillarys Rest",
+            "16": "Ice Fields",
+            "25": "North Pole"
+        }
+    },
+    "24": {
+        "name": "North Greenland",
+        "links": {
+            "5": "Central Greenland",
+            "26": "North Queen Elizabeth Islands",
+            "11": "Greenland Sea",
+            "16": "Ice Fields"
+        }
+    },
+    "25": {
+        "name": "North Pole",
+        "links": {
+            "13": "Hillarys Rest",
+            "38": "The Blizzard",
+            "30": "Plaisted Tundra",
+            "7": "Cooks Colony",
+            "23": "No Mans Land",
+            "16": "Ice Fields"
+        }
+    },
+    "26": {
+        "name": "North Queen Elizabeth Islands",
+        "links": {
+            "24": "North Greenland",
+            "33": "South Queen Elizabeth Islands",
+            "12": "Hendriks Berg",
+            "16": "Ice Fields",
+            "39": "Thin Ice"
+        }
+    },
+    "27": {
+        "name": "Norway",
+        "links": {
+            "37": "Sweden",
+            "17": "Iceland",
+            "9": "Finland",
+            "36": "Svalbard",
+            "20": "Murmansk"
+        }
+    },
+    "28": {
+        "name": "Novaya Zemlya",
+        "links": {
+            "19": "Krasnoyarsk Krai",
+            "20": "Murmansk"
+        }
+    },
+    "29": {
+        "name": "Peary",
+        "links": {
+            "6": "Chukotka",
+            "14": "Humpback Haven",
+            "34": "Spitsberg",
+            "38": "The Blizzard"
+        }
+    },
+    "30": {
+        "name": "Plaisted Tundra",
+        "links": {
+            "14": "Humpback Haven",
+            "10": "Floeberg",
+            "38": "The Blizzard",
+            "25": "North Pole",
+            "7": "Cooks Colony",
+            "31": "Severnaya Zemlya",
+            "8": "Fallen Cliffs",
+            "44": "Whales Sound"
+        }
+    },
+    "31": {
+        "name": "Severnaya Zemlya",
+        "links": {
+            "10": "Floeberg",
+            "44": "Whales Sound",
+            "30": "Plaisted Tundra"
+        }
+    },
+    "32": {
+        "name": "South Greenland",
+        "links": {
+            "5": "Central Greenland",
+            "3": "Baffin Island"
+        }
+    },
+    "33": {
+        "name": "South Queen Elizabeth Islands",
+        "links": {
+            "3": "Baffin Island",
+            "21": "Nautilus Rocks",
+            "26": "North Queen Elizabeth Islands",
+            "39": "Thin Ice"
+        }
+    },
+    "34": {
+        "name": "Spitsberg",
+        "links": {
+            "15": "Ice break Shelf",
+            "29": "Peary",
+            "13": "Hillarys Rest",
+            "38": "The Blizzard"
+        }
+    },
+    "35": {
+        "name": "St Petersburg",
+        "links": {
+            "42": "Vologda",
+            "9": "Finland",
+            "2": "Arkhangelsk",
+            "18": "Karelia"
+        }
+    },
+    "36": {
+        "name": "Svalbard",
+        "links": {
+            "27": "Norway",
+            "8": "Fallen Cliffs"
+        }
+    },
+    "37": {
+        "name": "Sweden",
+        "links": {
+            "9": "Finland",
+            "27": "Norway"
+        }
+    },
+    "38": {
+        "name": "The Blizzard",
+        "links": {
+            "29": "Peary",
+            "14": "Humpback Haven",
+            "34": "Spitsberg",
+            "13": "Hillarys Rest",
+            "25": "North Pole",
+            "30": "Plaisted Tundra"
+        }
+    },
+    "39": {
+        "name": "Thin Ice",
+        "links": {
+            "33": "South Queen Elizabeth Islands",
+            "21": "Nautilus Rocks",
+            "40": "Tip of the Iceberg",
+            "12": "Hendriks Berg",
+            "26": "North Queen Elizabeth Islands",
+            "43": "Walrus rest"
+        }
+    },
+    "40": {
+        "name": "Tip of the Iceberg",
+        "links": {
+            "43": "Walrus rest",
+            "15": "Ice break Shelf",
+            "23": "No Mans Land",
+            "12": "Hendriks Berg",
+            "13": "Hillarys Rest",
+            "39": "Thin Ice"
+        }
+    },
+    "41": {
+        "name": "Victoria Island",
+        "links": {
+            "4": "Banks Island",
+            "47": "Yukon and Northwest"
+        }
+    },
+    "42": {
+        "name": "Vologda",
+        "links": {
+            "2": "Arkhangelsk",
+            "35": "St Petersburg"
+        }
+    },
+    "43": {
+        "name": "Walrus rest",
+        "links": {
+            "1": "Alaska",
+            "15": "Ice break Shelf",
+            "21": "Nautilus Rocks",
+            "40": "Tip of the Iceberg",
+            "39": "Thin Ice"
+        }
+    },
+    "44": {
+        "name": "Whales Sound",
+        "links": {
+            "31": "Severnaya Zemlya",
+            "19": "Krasnoyarsk Krai",
+            "8": "Fallen Cliffs",
+            "30": "Plaisted Tundra"
+        }
+    },
+    "45": {
+        "name": "Yakutia",
+        "links": {
+            "19": "Krasnoyarsk Krai",
+            "6": "Chukotka"
+        }
+    },
+    "46": {
+        "name": "Yamalia",
+        "links": {
+            "19": "Krasnoyarsk Krai",
+            "22": "Nenetsia"
+        }
+    },
+    "47": {
+        "name": "Yukon and Northwest",
+        "links": {
+            "41": "Victoria Island",
+            "1": "Alaska"
+        }
+    }
+}

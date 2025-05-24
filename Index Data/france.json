@@ -1,0 +1,240 @@
+{
+    "1": {
+        "name": "Alsace",
+        "links": {
+            "11": "Lorraine",
+            "7": "Franche Comte"
+        }
+    },
+    "2": {
+        "name": "Brittany",
+        "links": {
+            "26": "Western Loire Valley",
+            "12": "Lower Normandy"
+        }
+    },
+    "3": {
+        "name": "Burgundy",
+        "links": {
+            "5": "Champagne",
+            "7": "Franche Comte",
+            "20": "Rhone Alps",
+            "4": "Center Loire Valley",
+            "8": "Ile de France",
+            "15": "Northern Auvergne"
+        }
+    },
+    "4": {
+        "name": "Center Loire Valley",
+        "links": {
+            "8": "Ile de France",
+            "3": "Burgundy",
+            "15": "Northern Auvergne",
+            "10": "Limousin",
+            "26": "Western Loire Valley",
+            "12": "Lower Normandy",
+            "18": "Poitou Chanente",
+            "25": "Upper Normandy"
+        }
+    },
+    "5": {
+        "name": "Champagne",
+        "links": {
+            "17": "Picardie",
+            "11": "Lorraine",
+            "8": "Ile de France",
+            "7": "Franche Comte",
+            "3": "Burgundy"
+        }
+    },
+    "6": {
+        "name": "Corse",
+        "links": {
+            "21": "Riviera",
+            "9": "Languedoc Roussillon"
+        }
+    },
+    "7": {
+        "name": "Franche Comte",
+        "links": {
+            "1": "Alsace",
+            "20": "Rhone Alps",
+            "5": "Champagne",
+            "11": "Lorraine",
+            "3": "Burgundy"
+        }
+    },
+    "8": {
+        "name": "Ile de France",
+        "links": {
+            "17": "Picardie",
+            "5": "Champagne",
+            "25": "Upper Normandy",
+            "4": "Center Loire Valley",
+            "3": "Burgundy"
+        }
+    },
+    "9": {
+        "name": "Languedoc Roussillon",
+        "links": {
+            "6": "Corse",
+            "24": "Southern Midi Pyrenees",
+            "20": "Rhone Alps",
+            "19": "Provence",
+            "16": "Northern Midi Pyrenees",
+            "23": "Southern Auvergne"
+        }
+    },
+    "10": {
+        "name": "Limousin",
+        "links": {
+            "4": "Center Loire Valley",
+            "15": "Northern Auvergne",
+            "16": "Northern Midi Pyrenees",
+            "14": "Northern Aquitaine",
+            "23": "Southern Auvergne",
+            "18": "Poitou Chanente"
+        }
+    },
+    "11": {
+        "name": "Lorraine",
+        "links": {
+            "5": "Champagne",
+            "1": "Alsace",
+            "7": "Franche Comte"
+        }
+    },
+    "12": {
+        "name": "Lower Normandy",
+        "links": {
+            "2": "Brittany",
+            "25": "Upper Normandy",
+            "26": "Western Loire Valley",
+            "4": "Center Loire Valley"
+        }
+    },
+    "13": {
+        "name": "Nord Pas de Calais",
+        "links": {
+            "17": "Picardie"
+        }
+    },
+    "14": {
+        "name": "Northern Aquitaine",
+        "links": {
+            "22": "Southern Aquitaine",
+            "18": "Poitou Chanente",
+            "16": "Northern Midi Pyrenees",
+            "24": "Southern Midi Pyrenees",
+            "10": "Limousin"
+        }
+    },
+    "15": {
+        "name": "Northern Auvergne",
+        "links": {
+            "20": "Rhone Alps",
+            "23": "Southern Auvergne",
+            "4": "Center Loire Valley",
+            "10": "Limousin",
+            "3": "Burgundy"
+        }
+    },
+    "16": {
+        "name": "Northern Midi Pyrenees",
+        "links": {
+            "9": "Languedoc Roussillon",
+            "23": "Southern Auvergne",
+            "14": "Northern Aquitaine",
+            "24": "Southern Midi Pyrenees",
+            "10": "Limousin"
+        }
+    },
+    "17": {
+        "name": "Picardie",
+        "links": {
+            "13": "Nord Pas de Calais",
+            "5": "Champagne",
+            "25": "Upper Normandy",
+            "8": "Ile de France"
+        }
+    },
+    "18": {
+        "name": "Poitou Chanente",
+        "links": {
+            "14": "Northern Aquitaine",
+            "26": "Western Loire Valley",
+            "4": "Center Loire Valley",
+            "10": "Limousin"
+        }
+    },
+    "19": {
+        "name": "Provence",
+        "links": {
+            "20": "Rhone Alps",
+            "21": "Riviera",
+            "9": "Languedoc Roussillon"
+        }
+    },
+    "20": {
+        "name": "Rhone Alps",
+        "links": {
+            "7": "Franche Comte",
+            "19": "Provence",
+            "3": "Burgundy",
+            "15": "Northern Auvergne",
+            "23": "Southern Auvergne",
+            "9": "Languedoc Roussillon"
+        }
+    },
+    "21": {
+        "name": "Riviera",
+        "links": {
+            "19": "Provence",
+            "6": "Corse"
+        }
+    },
+    "22": {
+        "name": "Southern Aquitaine",
+        "links": {
+            "24": "Southern Midi Pyrenees",
+            "14": "Northern Aquitaine"
+        }
+    },
+    "23": {
+        "name": "Southern Auvergne",
+        "links": {
+            "15": "Northern Auvergne",
+            "20": "Rhone Alps",
+            "9": "Languedoc Roussillon",
+            "16": "Northern Midi Pyrenees",
+            "10": "Limousin"
+        }
+    },
+    "24": {
+        "name": "Southern Midi Pyrenees",
+        "links": {
+            "9": "Languedoc Roussillon",
+            "22": "Southern Aquitaine",
+            "14": "Northern Aquitaine",
+            "16": "Northern Midi Pyrenees"
+        }
+    },
+    "25": {
+        "name": "Upper Normandy",
+        "links": {
+            "12": "Lower Normandy",
+            "17": "Picardie",
+            "8": "Ile de France",
+            "4": "Center Loire Valley"
+        }
+    },
+    "26": {
+        "name": "Western Loire Valley",
+        "links": {
+            "18": "Poitou Chanente",
+            "2": "Brittany",
+            "12": "Lower Normandy",
+            "4": "Center Loire Valley"
+        }
+    }
+}

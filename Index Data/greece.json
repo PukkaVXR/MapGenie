@@ -1,0 +1,542 @@
+{
+    "1": {
+        "name": "Rodopi",
+        "links": {
+            "2": "Evros",
+            "3": "Xanthi"
+        }
+    },
+    "2": {
+        "name": "Evros",
+        "links": {
+            "1": "Rodopi",
+            "7": "Samothraki"
+        }
+    },
+    "3": {
+        "name": "Xanthi",
+        "links": {
+            "1": "Rodopi",
+            "6": "Thasos",
+            "5": "Drama",
+            "4": "Kavala"
+        }
+    },
+    "4": {
+        "name": "Kavala",
+        "links": {
+            "6": "Thasos",
+            "5": "Drama",
+            "3": "Xanthi",
+            "8": "Serres"
+        }
+    },
+    "5": {
+        "name": "Drama",
+        "links": {
+            "3": "Xanthi",
+            "4": "Kavala",
+            "8": "Serres"
+        }
+    },
+    "6": {
+        "name": "Thasos",
+        "links": {
+            "3": "Xanthi",
+            "4": "Kavala"
+        }
+    },
+    "7": {
+        "name": "Samothraki",
+        "links": {
+            "2": "Evros",
+            "16": "Lemnos"
+        }
+    },
+    "8": {
+        "name": "Serres",
+        "links": {
+            "14": "Kilkis",
+            "10": "Thessaloniki",
+            "5": "Drama",
+            "4": "Kavala"
+        }
+    },
+    "9": {
+        "name": "Halkidiki",
+        "links": {
+            "10": "Thessaloniki",
+            "43": "Sporades",
+            "15": "Mount Athos"
+        }
+    },
+    "10": {
+        "name": "Thessaloniki",
+        "links": {
+            "11": "Imathia",
+            "9": "Halkidiki",
+            "8": "Serres",
+            "14": "Kilkis",
+            "13": "Pella"
+        }
+    },
+    "11": {
+        "name": "Imathia",
+        "links": {
+            "12": "Pieria",
+            "52": "Kozania",
+            "10": "Thessaloniki",
+            "13": "Pella"
+        }
+    },
+    "12": {
+        "name": "Pieria",
+        "links": {
+            "11": "Imathia",
+            "52": "Kozania",
+            "41": "Larissa"
+        }
+    },
+    "13": {
+        "name": "Pella",
+        "links": {
+            "14": "Kilkis",
+            "51": "Florina",
+            "10": "Thessaloniki",
+            "11": "Imathia"
+        }
+    },
+    "14": {
+        "name": "Kilkis",
+        "links": {
+            "8": "Serres",
+            "13": "Pella",
+            "10": "Thessaloniki"
+        }
+    },
+    "15": {
+        "name": "Mount Athos",
+        "links": {
+            "9": "Halkidiki",
+            "16": "Lemnos"
+        }
+    },
+    "50": {
+        "name": "Kastoria",
+        "links": {
+            "52": "Kozania",
+            "51": "Florina",
+            "48": "Ioannina",
+            "53": "Grevena"
+        }
+    },
+    "51": {
+        "name": "Florina",
+        "links": {
+            "13": "Pella",
+            "50": "Kastoria",
+            "52": "Kozania"
+        }
+    },
+    "52": {
+        "name": "Kozania",
+        "links": {
+            "12": "Pieria",
+            "51": "Florina",
+            "53": "Grevena",
+            "41": "Larissa",
+            "11": "Imathia",
+            "50": "Kastoria"
+        }
+    },
+    "53": {
+        "name": "Grevena",
+        "links": {
+            "50": "Kastoria",
+            "52": "Kozania",
+            "48": "Ioannina",
+            "44": "Trikala",
+            "41": "Larissa"
+        }
+    },
+    "46": {
+        "name": "Messinia",
+        "links": {
+            "58": "Ilia",
+            "63": "Arcadia",
+            "64": "Laconia"
+        }
+    },
+    "47": {
+        "name": "Thesprotia",
+        "links": {
+            "55": "Corfu",
+            "48": "Ioannina",
+            "49": "Preveza and Arta"
+        }
+    },
+    "48": {
+        "name": "Ioannina",
+        "links": {
+            "44": "Trikala",
+            "49": "Preveza and Arta",
+            "47": "Thesprotia",
+            "53": "Grevena",
+            "50": "Kastoria"
+        }
+    },
+    "49": {
+        "name": "Preveza and Arta",
+        "links": {
+            "60": "Aetolio Acarnania",
+            "47": "Thesprotia",
+            "45": "Karditsa",
+            "48": "Ioannina",
+            "44": "Trikala"
+        }
+    },
+    "54": {
+        "name": "Lefkada",
+        "links": {
+            "60": "Aetolio Acarnania",
+            "56": "Kefalonia",
+            "55": "Corfu"
+        }
+    },
+    "55": {
+        "name": "Corfu",
+        "links": {
+            "47": "Thesprotia",
+            "54": "Lefkada"
+        }
+    },
+    "56": {
+        "name": "Kefalonia",
+        "links": {
+            "54": "Lefkada",
+            "57": "Zakynthos"
+        }
+    },
+    "57": {
+        "name": "Zakynthos",
+        "links": {
+            "56": "Kefalonia",
+            "58": "Ilia",
+            "33": "Kythira"
+        }
+    },
+    "61": {
+        "name": "Corinthia",
+        "links": {
+            "59": "Achaia",
+            "32": "Athens",
+            "63": "Arcadia",
+            "62": "Agrolis"
+        }
+    },
+    "62": {
+        "name": "Agrolis",
+        "links": {
+            "34": "Saronic Islands",
+            "61": "Corinthia",
+            "63": "Arcadia"
+        }
+    },
+    "63": {
+        "name": "Arcadia",
+        "links": {
+            "64": "Laconia",
+            "61": "Corinthia",
+            "59": "Achaia",
+            "58": "Ilia",
+            "62": "Agrolis",
+            "46": "Messinia"
+        }
+    },
+    "64": {
+        "name": "Laconia",
+        "links": {
+            "33": "Kythira",
+            "63": "Arcadia",
+            "46": "Messinia"
+        }
+    },
+    "32": {
+        "name": "Athens",
+        "links": {
+            "34": "Saronic Islands",
+            "61": "Corinthia",
+            "39": "Evia",
+            "28": "NW Cyclades",
+            "37": "Viotia"
+        }
+    },
+    "33": {
+        "name": "Kythira",
+        "links": {
+            "64": "Laconia",
+            "24": "Chania",
+            "57": "Zakynthos"
+        }
+    },
+    "34": {
+        "name": "Saronic Islands",
+        "links": {
+            "62": "Agrolis",
+            "32": "Athens"
+        }
+    },
+    "35": {
+        "name": "Skyros",
+        "links": {
+            "43": "Sporades",
+            "39": "Evia"
+        }
+    },
+    "36": {
+        "name": "Fokida",
+        "links": {
+            "40": "Fthiotida",
+            "60": "Aetolio Acarnania",
+            "37": "Viotia"
+        }
+    },
+    "37": {
+        "name": "Viotia",
+        "links": {
+            "39": "Evia",
+            "36": "Fokida",
+            "40": "Fthiotida",
+            "32": "Athens"
+        }
+    },
+    "38": {
+        "name": "Evrytania",
+        "links": {
+            "40": "Fthiotida",
+            "45": "Karditsa",
+            "60": "Aetolio Acarnania"
+        }
+    },
+    "39": {
+        "name": "Evia",
+        "links": {
+            "35": "Skyros",
+            "31": "NE Cyclades",
+            "32": "Athens",
+            "37": "Viotia",
+            "40": "Fthiotida"
+        }
+    },
+    "40": {
+        "name": "Fthiotida",
+        "links": {
+            "45": "Karditsa",
+            "41": "Larissa",
+            "39": "Evia",
+            "38": "Evrytania",
+            "37": "Viotia",
+            "42": "Magnesia",
+            "60": "Aetolio Acarnania",
+            "36": "Fokida"
+        }
+    },
+    "41": {
+        "name": "Larissa",
+        "links": {
+            "42": "Magnesia",
+            "52": "Kozania",
+            "44": "Trikala",
+            "45": "Karditsa",
+            "12": "Pieria",
+            "53": "Grevena",
+            "40": "Fthiotida"
+        }
+    },
+    "42": {
+        "name": "Magnesia",
+        "links": {
+            "41": "Larissa",
+            "43": "Sporades",
+            "40": "Fthiotida"
+        }
+    },
+    "43": {
+        "name": "Sporades",
+        "links": {
+            "35": "Skyros",
+            "9": "Halkidiki",
+            "42": "Magnesia"
+        }
+    },
+    "44": {
+        "name": "Trikala",
+        "links": {
+            "49": "Preveza and Arta",
+            "45": "Karditsa",
+            "48": "Ioannina",
+            "53": "Grevena",
+            "41": "Larissa"
+        }
+    },
+    "45": {
+        "name": "Karditsa",
+        "links": {
+            "49": "Preveza and Arta",
+            "44": "Trikala",
+            "41": "Larissa",
+            "38": "Evrytania",
+            "40": "Fthiotida"
+        }
+    },
+    "16": {
+        "name": "Lemnos",
+        "links": {
+            "7": "Samothraki",
+            "15": "Mount Athos",
+            "17": "Lesbos"
+        }
+    },
+    "17": {
+        "name": "Lesbos",
+        "links": {
+            "16": "Lemnos",
+            "18": "Chios"
+        }
+    },
+    "18": {
+        "name": "Chios",
+        "links": {
+            "20": "Samos",
+            "19": "Ikaria",
+            "17": "Lesbos"
+        }
+    },
+    "19": {
+        "name": "Ikaria",
+        "links": {
+            "18": "Chios",
+            "20": "Samos",
+            "31": "NE Cyclades",
+            "21": "N Dodecanese"
+        }
+    },
+    "20": {
+        "name": "Samos",
+        "links": {
+            "18": "Chios",
+            "21": "N Dodecanese",
+            "19": "Ikaria"
+        }
+    },
+    "21": {
+        "name": "N Dodecanese",
+        "links": {
+            "20": "Samos",
+            "22": "Rhodes",
+            "19": "Ikaria"
+        }
+    },
+    "22": {
+        "name": "Rhodes",
+        "links": {
+            "23": "Steno Kasou",
+            "21": "N Dodecanese"
+        }
+    },
+    "23": {
+        "name": "Steno Kasou",
+        "links": {
+            "27": "Lasithi",
+            "22": "Rhodes"
+        }
+    },
+    "24": {
+        "name": "Chania",
+        "links": {
+            "25": "Rethymno",
+            "33": "Kythira"
+        }
+    },
+    "25": {
+        "name": "Rethymno",
+        "links": {
+            "26": "Heraklion",
+            "24": "Chania"
+        }
+    },
+    "26": {
+        "name": "Heraklion",
+        "links": {
+            "27": "Lasithi",
+            "25": "Rethymno"
+        }
+    },
+    "27": {
+        "name": "Lasithi",
+        "links": {
+            "30": "S Cyclades",
+            "26": "Heraklion",
+            "23": "Steno Kasou"
+        }
+    },
+    "28": {
+        "name": "NW Cyclades",
+        "links": {
+            "32": "Athens",
+            "29": "C Cyclades"
+        }
+    },
+    "29": {
+        "name": "C Cyclades",
+        "links": {
+            "31": "NE Cyclades",
+            "30": "S Cyclades",
+            "28": "NW Cyclades"
+        }
+    },
+    "30": {
+        "name": "S Cyclades",
+        "links": {
+            "29": "C Cyclades",
+            "27": "Lasithi"
+        }
+    },
+    "31": {
+        "name": "NE Cyclades",
+        "links": {
+            "29": "C Cyclades",
+            "39": "Evia",
+            "19": "Ikaria"
+        }
+    },
+    "58": {
+        "name": "Ilia",
+        "links": {
+            "57": "Zakynthos",
+            "59": "Achaia",
+            "63": "Arcadia",
+            "46": "Messinia"
+        }
+    },
+    "59": {
+        "name": "Achaia",
+        "links": {
+            "61": "Corinthia",
+            "58": "Ilia",
+            "63": "Arcadia",
+            "60": "Aetolio Acarnania"
+        }
+    },
+    "60": {
+        "name": "Aetolio Acarnania",
+        "links": {
+            "49": "Preveza and Arta",
+            "38": "Evrytania",
+            "36": "Fokida",
+            "54": "Lefkada",
+            "40": "Fthiotida",
+            "59": "Achaia"
+        }
+    }
+}

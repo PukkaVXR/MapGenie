@@ -1,0 +1,327 @@
+{
+    "28": {
+        "name": "The Limit",
+        "links": {
+            "33": "Distortion Field",
+            "6": "Panic",
+            "34": "Inner Limits"
+        }
+    },
+    "29": {
+        "name": "Pale Blue Dot",
+        "links": {
+            "31": "Celestial Sector",
+            "30": "Gama Quadrant"
+        }
+    },
+    "30": {
+        "name": "Gama Quadrant",
+        "links": {
+            "31": "Celestial Sector",
+            "29": "Pale Blue Dot",
+            "33": "Distortion Field",
+            "34": "Inner Limits"
+        }
+    },
+    "31": {
+        "name": "Celestial Sector",
+        "links": {
+            "29": "Pale Blue Dot",
+            "33": "Distortion Field",
+            "32": "Gould Belt",
+            "8": "Time Dilation",
+            "30": "Gama Quadrant"
+        }
+    },
+    "32": {
+        "name": "Gould Belt",
+        "links": {
+            "31": "Celestial Sector"
+        }
+    },
+    "33": {
+        "name": "Distortion Field",
+        "links": {
+            "31": "Celestial Sector",
+            "6": "Panic",
+            "34": "Inner Limits",
+            "28": "The Limit",
+            "30": "Gama Quadrant"
+        }
+    },
+    "34": {
+        "name": "Inner Limits",
+        "links": {
+            "33": "Distortion Field",
+            "3": "Andromeda Pass",
+            "30": "Gama Quadrant",
+            "28": "The Limit"
+        }
+    },
+    "1": {
+        "name": "Beta Range",
+        "links": {
+            "2": "Delta-Clusters",
+            "3": "Andromeda Pass"
+        }
+    },
+    "2": {
+        "name": "Delta-Clusters",
+        "links": {
+            "1": "Beta Range",
+            "3": "Andromeda Pass",
+            "10": "Nebular Spur",
+            "4": "Unknown"
+        }
+    },
+    "3": {
+        "name": "Andromeda Pass",
+        "links": {
+            "1": "Beta Range",
+            "34": "Inner Limits",
+            "2": "Delta-Clusters",
+            "4": "Unknown"
+        }
+    },
+    "4": {
+        "name": "Unknown",
+        "links": {
+            "3": "Andromeda Pass",
+            "2": "Delta-Clusters"
+        }
+    },
+    "5": {
+        "name": "Wormhole Junction",
+        "links": {
+            "9": "Helix Rift",
+            "7": "Nebula Clouds",
+            "8": "Time Dilation"
+        }
+    },
+    "6": {
+        "name": "Panic",
+        "links": {
+            "33": "Distortion Field",
+            "9": "Helix Rift",
+            "8": "Time Dilation",
+            "28": "The Limit"
+        }
+    },
+    "7": {
+        "name": "Nebula Clouds",
+        "links": {
+            "13": "Stellar Zone",
+            "5": "Wormhole Junction",
+            "8": "Time Dilation"
+        }
+    },
+    "8": {
+        "name": "Time Dilation",
+        "links": {
+            "31": "Celestial Sector",
+            "6": "Panic",
+            "5": "Wormhole Junction",
+            "9": "Helix Rift",
+            "7": "Nebula Clouds"
+        }
+    },
+    "9": {
+        "name": "Helix Rift",
+        "links": {
+            "6": "Panic",
+            "5": "Wormhole Junction",
+            "11": "Great Rift",
+            "8": "Time Dilation"
+        }
+    },
+    "10": {
+        "name": "Nebular Spur",
+        "links": {
+            "12": "Taurus Flare",
+            "11": "Great Rift",
+            "2": "Delta-Clusters"
+        }
+    },
+    "11": {
+        "name": "Great Rift",
+        "links": {
+            "12": "Taurus Flare",
+            "9": "Helix Rift",
+            "10": "Nebular Spur"
+        }
+    },
+    "12": {
+        "name": "Taurus Flare",
+        "links": {
+            "11": "Great Rift",
+            "20": "Galactic Ridge Cluster",
+            "10": "Nebular Spur"
+        }
+    },
+    "13": {
+        "name": "Stellar Zone",
+        "links": {
+            "16": "Stardust Salon",
+            "17": "Astro Spa",
+            "7": "Nebula Clouds",
+            "15": "Meteor Cove"
+        }
+    },
+    "14": {
+        "name": "Light Zone",
+        "links": {
+            "39": "Oracle Domain",
+            "16": "Stardust Salon",
+            "17": "Astro Spa"
+        }
+    },
+    "15": {
+        "name": "Meteor Cove",
+        "links": {
+            "16": "Stardust Salon",
+            "13": "Stellar Zone",
+            "19": "Dark Matter Rift"
+        }
+    },
+    "16": {
+        "name": "Stardust Salon",
+        "links": {
+            "13": "Stellar Zone",
+            "14": "Light Zone",
+            "17": "Astro Spa",
+            "15": "Meteor Cove",
+            "19": "Dark Matter Rift"
+        }
+    },
+    "17": {
+        "name": "Astro Spa",
+        "links": {
+            "16": "Stardust Salon",
+            "13": "Stellar Zone",
+            "14": "Light Zone"
+        }
+    },
+    "18": {
+        "name": "CUE Continuum",
+        "links": {
+            "27": "Starlight Bar",
+            "20": "Galactic Ridge Cluster",
+            "19": "Dark Matter Rift"
+        }
+    },
+    "19": {
+        "name": "Dark Matter Rift",
+        "links": {
+            "16": "Stardust Salon",
+            "18": "CUE Continuum",
+            "15": "Meteor Cove"
+        }
+    },
+    "20": {
+        "name": "Galactic Ridge Cluster",
+        "links": {
+            "12": "Taurus Flare",
+            "18": "CUE Continuum"
+        }
+    },
+    "35": {
+        "name": "Aiken's Revenge",
+        "links": {
+            "38": "Astral Plane",
+            "36": "Constellation Prize",
+            "37": "Face 1"
+        }
+    },
+    "36": {
+        "name": "Constellation Prize",
+        "links": {
+            "35": "Aiken's Revenge",
+            "37": "Face 1",
+            "24": "End of the Line"
+        }
+    },
+    "37": {
+        "name": "Face 1",
+        "links": {
+            "35": "Aiken's Revenge",
+            "38": "Astral Plane",
+            "36": "Constellation Prize"
+        }
+    },
+    "38": {
+        "name": "Astral Plane",
+        "links": {
+            "39": "Oracle Domain",
+            "35": "Aiken's Revenge",
+            "37": "Face 1",
+            "22": "Orion's Pants"
+        }
+    },
+    "39": {
+        "name": "Oracle Domain",
+        "links": {
+            "38": "Astral Plane",
+            "14": "Light Zone"
+        }
+    },
+    "21": {
+        "name": "Nodda Moon",
+        "links": {
+            "26": "Delete",
+            "27": "Starlight Bar"
+        }
+    },
+    "22": {
+        "name": "Orion's Pants",
+        "links": {
+            "26": "Delete",
+            "38": "Astral Plane",
+            "27": "Starlight Bar",
+            "23": "The Belt"
+        }
+    },
+    "23": {
+        "name": "The Belt",
+        "links": {
+            "24": "End of the Line",
+            "25": "System 32",
+            "22": "Orion's Pants"
+        }
+    },
+    "24": {
+        "name": "End of the Line",
+        "links": {
+            "23": "The Belt",
+            "36": "Constellation Prize",
+            "25": "System 32",
+            "26": "Delete"
+        }
+    },
+    "25": {
+        "name": "System 32",
+        "links": {
+            "23": "The Belt",
+            "24": "End of the Line",
+            "26": "Delete"
+        }
+    },
+    "26": {
+        "name": "Delete",
+        "links": {
+            "27": "Starlight Bar",
+            "24": "End of the Line",
+            "25": "System 32",
+            "21": "Nodda Moon",
+            "22": "Orion's Pants"
+        }
+    },
+    "27": {
+        "name": "Starlight Bar",
+        "links": {
+            "18": "CUE Continuum",
+            "22": "Orion's Pants",
+            "26": "Delete",
+            "21": "Nodda Moon"
+        }
+    }
+}

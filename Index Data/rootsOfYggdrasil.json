@@ -1,0 +1,477 @@
+{
+    "1": {
+        "name": "Gymisgardar",
+        "links": {
+            "2": "Gjallarbr\u00fa",
+            "3": "Grj\u00f3tgar\u00f0r"
+        }
+    },
+    "2": {
+        "name": "Gjallarbr\u00fa",
+        "links": {
+            "5": "Thrymheim",
+            "3": "Grj\u00f3tgar\u00f0r",
+            "6": "Vimur River",
+            "1": "Gymisgardar",
+            "48": "Earth Brot I"
+        }
+    },
+    "3": {
+        "name": "Grj\u00f3tgar\u00f0r",
+        "links": {
+            "2": "Gjallarbr\u00fa",
+            "4": "Gastropnir",
+            "1": "Gymisgardar",
+            "6": "Vimur River"
+        }
+    },
+    "4": {
+        "name": "Gastropnir",
+        "links": {
+            "8": "\u00datgar\u00f0ar",
+            "3": "Grj\u00f3tgar\u00f0r",
+            "6": "Vimur River",
+            "54": "Ashen Brot I"
+        }
+    },
+    "5": {
+        "name": "Thrymheim",
+        "links": {
+            "2": "Gjallarbr\u00fa",
+            "7": "Mimisbrunnr",
+            "10": "J\u00f6tunn R\u00f3t IV",
+            "6": "Vimur River"
+        }
+    },
+    "6": {
+        "name": "Vimur River",
+        "links": {
+            "2": "Gjallarbr\u00fa",
+            "8": "\u00datgar\u00f0ar",
+            "7": "Mimisbrunnr",
+            "4": "Gastropnir",
+            "3": "Grj\u00f3tgar\u00f0r",
+            "5": "Thrymheim"
+        }
+    },
+    "7": {
+        "name": "Mimisbrunnr",
+        "links": {
+            "8": "\u00datgar\u00f0ar",
+            "10": "J\u00f6tunn R\u00f3t IV",
+            "9": "Gl\u00e6sisvellir",
+            "5": "Thrymheim",
+            "6": "Vimur River"
+        }
+    },
+    "8": {
+        "name": "\u00datgar\u00f0ar",
+        "links": {
+            "7": "Mimisbrunnr",
+            "4": "Gastropnir",
+            "9": "Gl\u00e6sisvellir",
+            "6": "Vimur River",
+            "40": "G\u00e1lgvi\u00f0r"
+        }
+    },
+    "9": {
+        "name": "Gl\u00e6sisvellir",
+        "links": {
+            "8": "\u00datgar\u00f0ar",
+            "7": "Mimisbrunnr",
+            "40": "G\u00e1lgvi\u00f0r"
+        }
+    },
+    "10": {
+        "name": "J\u00f6tunn R\u00f3t IV",
+        "links": {
+            "7": "Mimisbrunnr",
+            "11": "J\u00f6tunn R\u00f3t III",
+            "5": "Thrymheim"
+        }
+    },
+    "11": {
+        "name": "J\u00f6tunn R\u00f3t III",
+        "links": {
+            "12": "J\u00f6tunn R\u00f3t II",
+            "10": "J\u00f6tunn R\u00f3t IV"
+        }
+    },
+    "12": {
+        "name": "J\u00f6tunn R\u00f3t II",
+        "links": {
+            "11": "J\u00f6tunn R\u00f3t III",
+            "13": "J\u00f6tunn R\u00f3t I",
+            "14": "Nilfl R\u00f3t I",
+            "32": "I\u00f0av\u00f6llr"
+        }
+    },
+    "13": {
+        "name": "J\u00f6tunn R\u00f3t I",
+        "links": {
+            "12": "J\u00f6tunn R\u00f3t II",
+            "15": "Nilfl R\u00f3t II",
+            "18": "Stofn Lower I",
+            "14": "Nilfl R\u00f3t I"
+        }
+    },
+    "14": {
+        "name": "Nilfl R\u00f3t I",
+        "links": {
+            "12": "J\u00f6tunn R\u00f3t II",
+            "13": "J\u00f6tunn R\u00f3t I",
+            "16": "Nilfl R\u00f3t III",
+            "15": "Nilfl R\u00f3t II",
+            "51": "Godly Brot I"
+        }
+    },
+    "15": {
+        "name": "Nilfl R\u00f3t II",
+        "links": {
+            "18": "Stofn Lower I",
+            "13": "J\u00f6tunn R\u00f3t I",
+            "14": "Nilfl R\u00f3t I",
+            "16": "Nilfl R\u00f3t III"
+        }
+    },
+    "16": {
+        "name": "Nilfl R\u00f3t III",
+        "links": {
+            "14": "Nilfl R\u00f3t I",
+            "17": "Nilfl R\u00f3t IV",
+            "15": "Nilfl R\u00f3t II"
+        }
+    },
+    "17": {
+        "name": "Nilfl R\u00f3t IV",
+        "links": {
+            "21": "Hvergelmir",
+            "16": "Nilfl R\u00f3t III"
+        }
+    },
+    "18": {
+        "name": "Stofn Lower I",
+        "links": {
+            "13": "J\u00f6tunn R\u00f3t I",
+            "19": "Stofn Lower II",
+            "20": "Stofn Lower III",
+            "15": "Nilfl R\u00f3t II"
+        }
+    },
+    "19": {
+        "name": "Stofn Lower II",
+        "links": {
+            "42": "Stofn Lower IV",
+            "18": "Stofn Lower I",
+            "20": "Stofn Lower III"
+        }
+    },
+    "20": {
+        "name": "Stofn Lower III",
+        "links": {
+            "42": "Stofn Lower IV",
+            "18": "Stofn Lower I",
+            "43": "Stofn Lower V",
+            "19": "Stofn Lower II",
+            "41": "N\u00e1str\u00f6nd"
+        }
+    },
+    "21": {
+        "name": "Hvergelmir",
+        "links": {
+            "22": "Slidr",
+            "17": "Nilfl R\u00f3t IV",
+            "23": "J\u00f6kull",
+            "41": "N\u00e1str\u00f6nd"
+        }
+    },
+    "22": {
+        "name": "Slidr",
+        "links": {
+            "21": "Hvergelmir",
+            "23": "J\u00f6kull",
+            "41": "N\u00e1str\u00f6nd"
+        }
+    },
+    "23": {
+        "name": "J\u00f6kull",
+        "links": {
+            "25": "Gnipahellir",
+            "21": "Hvergelmir",
+            "24": "\u00c9lj\u00fa\u00f0nir",
+            "22": "Slidr",
+            "44": "Gjoll"
+        }
+    },
+    "24": {
+        "name": "\u00c9lj\u00fa\u00f0nir",
+        "links": {
+            "23": "J\u00f6kull",
+            "25": "Gnipahellir",
+            "44": "Gjoll"
+        }
+    },
+    "25": {
+        "name": "Gnipahellir",
+        "links": {
+            "24": "\u00c9lj\u00fa\u00f0nir",
+            "23": "J\u00f6kull"
+        }
+    },
+    "26": {
+        "name": "Thr\u00fadheim",
+        "links": {
+            "27": "Glitnir",
+            "28": "Breidablik",
+            "50": "Earth Brot III"
+        }
+    },
+    "27": {
+        "name": "Glitnir",
+        "links": {
+            "26": "Thr\u00fadheim",
+            "28": "Breidablik",
+            "29": "Ving\u00f3lf",
+            "45": "Stofn Asgard I"
+        }
+    },
+    "28": {
+        "name": "Breidablik",
+        "links": {
+            "29": "Ving\u00f3lf",
+            "30": "F\u00f3lkvangr",
+            "27": "Glitnir",
+            "26": "Thr\u00fadheim"
+        }
+    },
+    "29": {
+        "name": "Ving\u00f3lf",
+        "links": {
+            "31": "Valaskj\u00e1lf",
+            "30": "F\u00f3lkvangr",
+            "27": "Glitnir",
+            "28": "Breidablik",
+            "45": "Stofn Asgard I",
+            "46": "Stofn Asgard II"
+        }
+    },
+    "30": {
+        "name": "F\u00f3lkvangr",
+        "links": {
+            "31": "Valaskj\u00e1lf",
+            "32": "I\u00f0av\u00f6llr",
+            "28": "Breidablik",
+            "29": "Ving\u00f3lf"
+        }
+    },
+    "31": {
+        "name": "Valaskj\u00e1lf",
+        "links": {
+            "30": "F\u00f3lkvangr",
+            "34": "Himinbj\u00f6rg",
+            "32": "I\u00f0av\u00f6llr",
+            "33": "Gla\u00f0sheimr",
+            "29": "Ving\u00f3lf",
+            "46": "Stofn Asgard II"
+        }
+    },
+    "32": {
+        "name": "I\u00f0av\u00f6llr",
+        "links": {
+            "34": "Himinbj\u00f6rg",
+            "12": "J\u00f6tunn R\u00f3t II",
+            "30": "F\u00f3lkvangr",
+            "31": "Valaskj\u00e1lf"
+        }
+    },
+    "33": {
+        "name": "Gla\u00f0sheimr",
+        "links": {
+            "35": "V\u00edgr\u00ed\u00f0r",
+            "31": "Valaskj\u00e1lf",
+            "34": "Himinbj\u00f6rg",
+            "46": "Stofn Asgard II",
+            "47": "Stofn Asgard III"
+        }
+    },
+    "34": {
+        "name": "Himinbj\u00f6rg",
+        "links": {
+            "33": "Gla\u00f0sheimr",
+            "32": "I\u00f0av\u00f6llr",
+            "31": "Valaskj\u00e1lf"
+        }
+    },
+    "35": {
+        "name": "V\u00edgr\u00ed\u00f0r",
+        "links": {
+            "39": "Giml\u00e9",
+            "36": "Ur\u00f0arbrunnr",
+            "47": "Stofn Asgard III",
+            "33": "Gla\u00f0sheimr"
+        }
+    },
+    "36": {
+        "name": "Ur\u00f0arbrunnr",
+        "links": {
+            "38": "Valhalla",
+            "37": "Fensalir",
+            "35": "V\u00edgr\u00ed\u00f0r",
+            "47": "Stofn Asgard III",
+            "39": "Giml\u00e9"
+        }
+    },
+    "37": {
+        "name": "Fensalir",
+        "links": {
+            "36": "Ur\u00f0arbrunnr",
+            "38": "Valhalla",
+            "47": "Stofn Asgard III"
+        }
+    },
+    "38": {
+        "name": "Valhalla",
+        "links": {
+            "39": "Giml\u00e9",
+            "37": "Fensalir",
+            "36": "Ur\u00f0arbrunnr",
+            "52": "Godly Brot II"
+        }
+    },
+    "39": {
+        "name": "Giml\u00e9",
+        "links": {
+            "36": "Ur\u00f0arbrunnr",
+            "35": "V\u00edgr\u00ed\u00f0r",
+            "38": "Valhalla"
+        }
+    },
+    "40": {
+        "name": "G\u00e1lgvi\u00f0r",
+        "links": {
+            "8": "\u00datgar\u00f0ar",
+            "9": "Gl\u00e6sisvellir"
+        }
+    },
+    "41": {
+        "name": "N\u00e1str\u00f6nd",
+        "links": {
+            "20": "Stofn Lower III",
+            "21": "Hvergelmir",
+            "22": "Slidr"
+        }
+    },
+    "42": {
+        "name": "Stofn Lower IV",
+        "links": {
+            "55": "Ashen Brot II",
+            "43": "Stofn Lower V",
+            "20": "Stofn Lower III",
+            "19": "Stofn Lower II"
+        }
+    },
+    "43": {
+        "name": "Stofn Lower V",
+        "links": {
+            "42": "Stofn Lower IV",
+            "20": "Stofn Lower III"
+        }
+    },
+    "44": {
+        "name": "Gjoll",
+        "links": {
+            "53": "Godly Brot III",
+            "24": "\u00c9lj\u00fa\u00f0nir",
+            "23": "J\u00f6kull"
+        }
+    },
+    "45": {
+        "name": "Stofn Asgard I",
+        "links": {
+            "29": "Ving\u00f3lf",
+            "47": "Stofn Asgard III",
+            "46": "Stofn Asgard II",
+            "27": "Glitnir"
+        }
+    },
+    "46": {
+        "name": "Stofn Asgard II",
+        "links": {
+            "29": "Ving\u00f3lf",
+            "47": "Stofn Asgard III",
+            "33": "Gla\u00f0sheimr",
+            "45": "Stofn Asgard I",
+            "31": "Valaskj\u00e1lf"
+        }
+    },
+    "47": {
+        "name": "Stofn Asgard III",
+        "links": {
+            "37": "Fensalir",
+            "36": "Ur\u00f0arbrunnr",
+            "35": "V\u00edgr\u00ed\u00f0r",
+            "46": "Stofn Asgard II",
+            "33": "Gla\u00f0sheimr",
+            "45": "Stofn Asgard I"
+        }
+    },
+    "48": {
+        "name": "Earth Brot I",
+        "links": {
+            "2": "Gjallarbr\u00fa",
+            "49": "Earth Brot II"
+        }
+    },
+    "49": {
+        "name": "Earth Brot II",
+        "links": {
+            "50": "Earth Brot III",
+            "48": "Earth Brot I"
+        }
+    },
+    "50": {
+        "name": "Earth Brot III",
+        "links": {
+            "26": "Thr\u00fadheim",
+            "49": "Earth Brot II"
+        }
+    },
+    "51": {
+        "name": "Godly Brot I",
+        "links": {
+            "14": "Nilfl R\u00f3t I",
+            "52": "Godly Brot II",
+            "53": "Godly Brot III"
+        }
+    },
+    "52": {
+        "name": "Godly Brot II",
+        "links": {
+            "53": "Godly Brot III",
+            "51": "Godly Brot I",
+            "38": "Valhalla"
+        }
+    },
+    "53": {
+        "name": "Godly Brot III",
+        "links": {
+            "52": "Godly Brot II",
+            "44": "Gjoll",
+            "51": "Godly Brot I"
+        }
+    },
+    "54": {
+        "name": "Ashen Brot I",
+        "links": {
+            "55": "Ashen Brot II",
+            "4": "Gastropnir"
+        }
+    },
+    "55": {
+        "name": "Ashen Brot II",
+        "links": {
+            "42": "Stofn Lower IV",
+            "54": "Ashen Brot I"
+        }
+    }
+}

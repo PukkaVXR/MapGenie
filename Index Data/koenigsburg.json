@@ -1,0 +1,393 @@
+{
+    "1": {
+        "name": "Acker",
+        "links": {
+            "36": "Suden Rosengarten",
+            "16": "Kaserne Kronprinz"
+        }
+    },
+    "2": {
+        "name": "Anatomie volks schulen",
+        "links": {
+            "23": "Magasine",
+            "14": "Hollander Baum",
+            "30": "Schloss",
+            "38": "Union Giesserei",
+            "33": "Stadttheater",
+            "15": "Infanterie Kaserne"
+        }
+    },
+    "3": {
+        "name": "Armenhaus",
+        "links": {
+            "26": "Rathaust",
+            "24": "Marktplatz Osten",
+            "25": "Marktplatz Westen",
+            "18": "Kran strasse Osten"
+        }
+    },
+    "4": {
+        "name": "Artillerie wagenhaus",
+        "links": {
+            "33": "Stadttheater",
+            "15": "Infanterie Kaserne",
+            "27": "Riegerung",
+            "37": "Tragheimer Tor",
+            "38": "Union Giesserei"
+        }
+    },
+    "5": {
+        "name": "Ausfall Tor",
+        "links": {
+            "20": "Kugel Proviant",
+            "34": "Steindammer Tor",
+            "38": "Union Giesserei"
+        }
+    },
+    "6": {
+        "name": "Brandenburger Tor",
+        "links": {
+            "31": "St Georgs Hospital",
+            "42": "Wilhelm Park Sud"
+        }
+    },
+    "7": {
+        "name": "Festungsdamm",
+        "links": {
+            "13": "Hochmeister",
+            "40": "Wiesenwall",
+            "39": "Weidendamm"
+        }
+    },
+    "8": {
+        "name": "Garnisonslazarett",
+        "links": {
+            "22": "Lebenslicht",
+            "9": "Generalkommando",
+            "17": "Konigs Tor",
+            "28": "Sackheim Sud",
+            "36": "Suden Rosengarten"
+        }
+    },
+    "9": {
+        "name": "Generalkommando",
+        "links": {
+            "27": "Riegerung",
+            "36": "Suden Rosengarten",
+            "22": "Lebenslicht",
+            "8": "Garnisonslazarett",
+            "35": "Sud Altstadt",
+            "30": "Schloss"
+        }
+    },
+    "10": {
+        "name": "Grosse Dom",
+        "links": {
+            "26": "Rathaust",
+            "35": "Sud Altstadt",
+            "13": "Hochmeister"
+        }
+    },
+    "11": {
+        "name": "Haberberg Ost",
+        "links": {
+            "39": "Weidendamm",
+            "12": "Haberberg Westen",
+            "24": "Marktplatz Osten"
+        }
+    },
+    "12": {
+        "name": "Haberberg Westen",
+        "links": {
+            "11": "Haberberg Ost",
+            "31": "St Georgs Hospital",
+            "24": "Marktplatz Osten",
+            "25": "Marktplatz Westen"
+        }
+    },
+    "13": {
+        "name": "Hochmeister",
+        "links": {
+            "35": "Sud Altstadt",
+            "7": "Festungsdamm",
+            "39": "Weidendamm",
+            "10": "Grosse Dom"
+        }
+    },
+    "14": {
+        "name": "Hollander Baum",
+        "links": {
+            "2": "Anatomie volks schulen",
+            "23": "Magasine",
+            "38": "Union Giesserei",
+            "20": "Kugel Proviant",
+            "41": "Wilhelm Park Nord"
+        }
+    },
+    "15": {
+        "name": "Infanterie Kaserne",
+        "links": {
+            "4": "Artillerie wagenhaus",
+            "33": "Stadttheater",
+            "2": "Anatomie volks schulen",
+            "38": "Union Giesserei"
+        }
+    },
+    "16": {
+        "name": "Kaserne Kronprinz",
+        "links": {
+            "36": "Suden Rosengarten",
+            "32": "Stadtkrankenhause",
+            "1": "Acker"
+        }
+    },
+    "17": {
+        "name": "Konigs Tor",
+        "links": {
+            "29": "Sackheimer Tor",
+            "28": "Sackheim Sud",
+            "8": "Garnisonslazarett",
+            "36": "Suden Rosengarten"
+        }
+    },
+    "18": {
+        "name": "Kran strasse Osten",
+        "links": {
+            "19": "Kran strasse West",
+            "26": "Rathaust",
+            "25": "Marktplatz Westen",
+            "3": "Armenhaus",
+            "31": "St Georgs Hospital"
+        }
+    },
+    "19": {
+        "name": "Kran strasse West",
+        "links": {
+            "23": "Magasine",
+            "18": "Kran strasse Osten",
+            "31": "St Georgs Hospital",
+            "42": "Wilhelm Park Sud",
+            "41": "Wilhelm Park Nord"
+        }
+    },
+    "20": {
+        "name": "Kugel Proviant",
+        "links": {
+            "14": "Hollander Baum",
+            "5": "Ausfall Tor",
+            "38": "Union Giesserei"
+        }
+    },
+    "21": {
+        "name": "Kurassier Kaserne",
+        "links": {
+            "32": "Stadtkrankenhause",
+            "27": "Riegerung",
+            "37": "Tragheimer Tor"
+        }
+    },
+    "22": {
+        "name": "Lebenslicht",
+        "links": {
+            "28": "Sackheim Sud",
+            "35": "Sud Altstadt",
+            "9": "Generalkommando",
+            "8": "Garnisonslazarett"
+        }
+    },
+    "23": {
+        "name": "Magasine",
+        "links": {
+            "2": "Anatomie volks schulen",
+            "14": "Hollander Baum",
+            "30": "Schloss",
+            "26": "Rathaust",
+            "19": "Kran strasse West"
+        }
+    },
+    "24": {
+        "name": "Marktplatz Osten",
+        "links": {
+            "3": "Armenhaus",
+            "11": "Haberberg Ost",
+            "25": "Marktplatz Westen",
+            "12": "Haberberg Westen"
+        }
+    },
+    "25": {
+        "name": "Marktplatz Westen",
+        "links": {
+            "18": "Kran strasse Osten",
+            "3": "Armenhaus",
+            "31": "St Georgs Hospital",
+            "24": "Marktplatz Osten",
+            "12": "Haberberg Westen"
+        }
+    },
+    "26": {
+        "name": "Rathaust",
+        "links": {
+            "30": "Schloss",
+            "10": "Grosse Dom",
+            "23": "Magasine",
+            "18": "Kran strasse Osten",
+            "3": "Armenhaus"
+        }
+    },
+    "27": {
+        "name": "Riegerung",
+        "links": {
+            "21": "Kurassier Kaserne",
+            "9": "Generalkommando",
+            "33": "Stadttheater",
+            "4": "Artillerie wagenhaus",
+            "30": "Schloss",
+            "37": "Tragheimer Tor"
+        }
+    },
+    "28": {
+        "name": "Sackheim Sud",
+        "links": {
+            "29": "Sackheimer Tor",
+            "17": "Konigs Tor",
+            "22": "Lebenslicht",
+            "8": "Garnisonslazarett"
+        }
+    },
+    "29": {
+        "name": "Sackheimer Tor",
+        "links": {
+            "28": "Sackheim Sud",
+            "17": "Konigs Tor"
+        }
+    },
+    "30": {
+        "name": "Schloss",
+        "links": {
+            "35": "Sud Altstadt",
+            "26": "Rathaust",
+            "23": "Magasine",
+            "2": "Anatomie volks schulen",
+            "33": "Stadttheater",
+            "27": "Riegerung",
+            "9": "Generalkommando"
+        }
+    },
+    "31": {
+        "name": "St Georgs Hospital",
+        "links": {
+            "12": "Haberberg Westen",
+            "6": "Brandenburger Tor",
+            "18": "Kran strasse Osten",
+            "25": "Marktplatz Westen",
+            "19": "Kran strasse West",
+            "42": "Wilhelm Park Sud"
+        }
+    },
+    "32": {
+        "name": "Stadtkrankenhause",
+        "links": {
+            "36": "Suden Rosengarten",
+            "21": "Kurassier Kaserne",
+            "16": "Kaserne Kronprinz"
+        }
+    },
+    "33": {
+        "name": "Stadttheater",
+        "links": {
+            "4": "Artillerie wagenhaus",
+            "15": "Infanterie Kaserne",
+            "27": "Riegerung",
+            "30": "Schloss",
+            "2": "Anatomie volks schulen"
+        }
+    },
+    "34": {
+        "name": "Steindammer Tor",
+        "links": {
+            "5": "Ausfall Tor",
+            "38": "Union Giesserei"
+        }
+    },
+    "35": {
+        "name": "Sud Altstadt",
+        "links": {
+            "22": "Lebenslicht",
+            "13": "Hochmeister",
+            "9": "Generalkommando",
+            "30": "Schloss",
+            "10": "Grosse Dom"
+        }
+    },
+    "36": {
+        "name": "Suden Rosengarten",
+        "links": {
+            "32": "Stadtkrankenhause",
+            "9": "Generalkommando",
+            "16": "Kaserne Kronprinz",
+            "17": "Konigs Tor",
+            "8": "Garnisonslazarett",
+            "1": "Acker"
+        }
+    },
+    "37": {
+        "name": "Tragheimer Tor",
+        "links": {
+            "4": "Artillerie wagenhaus",
+            "21": "Kurassier Kaserne",
+            "27": "Riegerung"
+        }
+    },
+    "38": {
+        "name": "Union Giesserei",
+        "links": {
+            "2": "Anatomie volks schulen",
+            "14": "Hollander Baum",
+            "34": "Steindammer Tor",
+            "4": "Artillerie wagenhaus",
+            "15": "Infanterie Kaserne",
+            "5": "Ausfall Tor",
+            "20": "Kugel Proviant"
+        }
+    },
+    "39": {
+        "name": "Weidendamm",
+        "links": {
+            "40": "Wiesenwall",
+            "11": "Haberberg Ost",
+            "13": "Hochmeister",
+            "7": "Festungsdamm"
+        }
+    },
+    "40": {
+        "name": "Wiesenwall",
+        "links": {
+            "7": "Festungsdamm",
+            "39": "Weidendamm"
+        }
+    },
+    "41": {
+        "name": "Wilhelm Park Nord",
+        "links": {
+            "42": "Wilhelm Park Sud",
+            "43": "Zeughaus",
+            "14": "Hollander Baum",
+            "19": "Kran strasse West"
+        }
+    },
+    "42": {
+        "name": "Wilhelm Park Sud",
+        "links": {
+            "6": "Brandenburger Tor",
+            "41": "Wilhelm Park Nord",
+            "19": "Kran strasse West",
+            "31": "St Georgs Hospital"
+        }
+    },
+    "43": {
+        "name": "Zeughaus",
+        "links": {
+            "41": "Wilhelm Park Nord"
+        }
+    }
+}

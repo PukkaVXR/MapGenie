@@ -1,0 +1,647 @@
+{
+    "1": {
+        "name": "Alaska",
+        "links": {
+            "11": "Canada",
+            "21": "Far East Russia",
+            "46": "Nunavut"
+        }
+    },
+    "2": {
+        "name": "Algeria",
+        "links": {
+            "11": "Canada",
+            "37": "Mauritania",
+            "17": "Eastern US",
+            "33": "Libya",
+            "44": "Niger",
+            "29": "Italy",
+            "54": "Spain",
+            "35": "Mali"
+        }
+    },
+    "3": {
+        "name": "Angola",
+        "links": {
+            "65": "Zambia",
+            "9": "Botswana",
+            "16": "Congo",
+            "53": "South Africa",
+            "10": "Brazil"
+        }
+    },
+    "4": {
+        "name": "Antarctic Peninsula",
+        "links": {
+            "5": "Antarctica",
+            "6": "Argentina",
+            "53": "South Africa"
+        }
+    },
+    "5": {
+        "name": "Antarctica",
+        "links": {
+            "4": "Antarctic Peninsula",
+            "42": "New Zealand",
+            "40": "Mozambique",
+            "25": "India",
+            "53": "South Africa",
+            "7": "Australia"
+        }
+    },
+    "6": {
+        "name": "Argentina",
+        "links": {
+            "4": "Antarctic Peninsula",
+            "53": "South Africa",
+            "8": "Bolivia",
+            "49": "Paraguay",
+            "50": "Peru",
+            "10": "Brazil"
+        }
+    },
+    "7": {
+        "name": "Australia",
+        "links": {
+            "25": "India",
+            "41": "Nepal",
+            "48": "Papua New Guinea",
+            "42": "New Zealand",
+            "5": "Antarctica"
+        }
+    },
+    "8": {
+        "name": "Bolivia",
+        "links": {
+            "49": "Paraguay",
+            "6": "Argentina",
+            "10": "Brazil",
+            "50": "Peru"
+        }
+    },
+    "9": {
+        "name": "Botswana",
+        "links": {
+            "65": "Zambia",
+            "40": "Mozambique",
+            "3": "Angola",
+            "53": "South Africa"
+        }
+    },
+    "10": {
+        "name": "Brazil",
+        "links": {
+            "45": "Nigeria",
+            "24": "Guyana",
+            "30": "Ivory Coast",
+            "15": "Colombia",
+            "62": "Venezuela",
+            "8": "Bolivia",
+            "50": "Peru",
+            "49": "Paraguay",
+            "16": "Congo",
+            "3": "Angola",
+            "53": "South Africa",
+            "6": "Argentina"
+        }
+    },
+    "11": {
+        "name": "Canada",
+        "links": {
+            "64": "Western US",
+            "1": "Alaska",
+            "54": "Spain",
+            "2": "Algeria",
+            "46": "Nunavut",
+            "23": "Greenland",
+            "17": "Eastern US"
+        }
+    },
+    "12": {
+        "name": "Central Europe",
+        "links": {
+            "29": "Italy",
+            "60": "UK",
+            "61": "Ukraine",
+            "52": "Scandinavia"
+        }
+    },
+    "13": {
+        "name": "Chad",
+        "links": {
+            "16": "Congo",
+            "45": "Nigeria",
+            "55": "Sudan",
+            "33": "Libya",
+            "44": "Niger"
+        }
+    },
+    "14": {
+        "name": "China",
+        "links": {
+            "36": "Manchuria",
+            "63": "Vietnam",
+            "57": "Thailand",
+            "39": "Mongolia",
+            "58": "Tibet"
+        }
+    },
+    "15": {
+        "name": "Colombia",
+        "links": {
+            "62": "Venezuela",
+            "38": "Mexico",
+            "10": "Brazil",
+            "50": "Peru"
+        }
+    },
+    "16": {
+        "name": "Congo",
+        "links": {
+            "56": "Tanzania",
+            "65": "Zambia",
+            "19": "Ethiopia",
+            "13": "Chad",
+            "45": "Nigeria",
+            "55": "Sudan",
+            "3": "Angola",
+            "10": "Brazil"
+        }
+    },
+    "17": {
+        "name": "Eastern US",
+        "links": {
+            "62": "Venezuela",
+            "2": "Algeria",
+            "64": "Western US",
+            "30": "Ivory Coast",
+            "24": "Guyana",
+            "38": "Mexico",
+            "11": "Canada",
+            "37": "Mauritania"
+        }
+    },
+    "18": {
+        "name": "Egypt",
+        "links": {
+            "55": "Sudan",
+            "33": "Libya",
+            "51": "Saudi Arabia",
+            "59": "Turkey",
+            "28": "Iraq"
+        }
+    },
+    "19": {
+        "name": "Ethiopia",
+        "links": {
+            "56": "Tanzania",
+            "16": "Congo",
+            "47": "Pakistan",
+            "25": "India",
+            "51": "Saudi Arabia",
+            "34": "Madagascar",
+            "55": "Sudan"
+        }
+    },
+    "20": {
+        "name": "European Russia",
+        "links": {
+            "52": "Scandinavia",
+            "21": "Far East Russia",
+            "27": "Iran",
+            "61": "Ukraine",
+            "32": "Kazakhstan"
+        }
+    },
+    "21": {
+        "name": "Far East Russia",
+        "links": {
+            "1": "Alaska",
+            "36": "Manchuria",
+            "20": "European Russia",
+            "31": "Japan",
+            "39": "Mongolia",
+            "32": "Kazakhstan",
+            "23": "Greenland",
+            "46": "Nunavut"
+        }
+    },
+    "22": {
+        "name": "Greece",
+        "links": {
+            "33": "Libya",
+            "29": "Italy",
+            "59": "Turkey"
+        }
+    },
+    "23": {
+        "name": "Greenland",
+        "links": {
+            "52": "Scandinavia",
+            "46": "Nunavut",
+            "54": "Spain",
+            "21": "Far East Russia",
+            "11": "Canada",
+            "60": "UK"
+        }
+    },
+    "24": {
+        "name": "Guyana",
+        "links": {
+            "30": "Ivory Coast",
+            "17": "Eastern US",
+            "62": "Venezuela",
+            "10": "Brazil"
+        }
+    },
+    "25": {
+        "name": "India",
+        "links": {
+            "41": "Nepal",
+            "7": "Australia",
+            "5": "Antarctica",
+            "34": "Madagascar",
+            "19": "Ethiopia",
+            "47": "Pakistan"
+        }
+    },
+    "26": {
+        "name": "Indonesia",
+        "links": {
+            "63": "Vietnam",
+            "27": "Iran",
+            "57": "Thailand"
+        }
+    },
+    "27": {
+        "name": "Iran",
+        "links": {
+            "28": "Iraq",
+            "20": "European Russia",
+            "26": "Indonesia",
+            "32": "Kazakhstan"
+        }
+    },
+    "28": {
+        "name": "Iraq",
+        "links": {
+            "27": "Iran",
+            "51": "Saudi Arabia",
+            "59": "Turkey",
+            "18": "Egypt"
+        }
+    },
+    "29": {
+        "name": "Italy",
+        "links": {
+            "12": "Central Europe",
+            "22": "Greece",
+            "33": "Libya",
+            "60": "UK",
+            "2": "Algeria",
+            "54": "Spain"
+        }
+    },
+    "30": {
+        "name": "Ivory Coast",
+        "links": {
+            "44": "Niger",
+            "45": "Nigeria",
+            "24": "Guyana",
+            "17": "Eastern US",
+            "35": "Mali",
+            "37": "Mauritania",
+            "10": "Brazil"
+        }
+    },
+    "31": {
+        "name": "Japan",
+        "links": {
+            "36": "Manchuria",
+            "21": "Far East Russia"
+        }
+    },
+    "32": {
+        "name": "Kazakhstan",
+        "links": {
+            "57": "Thailand",
+            "20": "European Russia",
+            "58": "Tibet",
+            "21": "Far East Russia",
+            "39": "Mongolia",
+            "27": "Iran"
+        }
+    },
+    "33": {
+        "name": "Libya",
+        "links": {
+            "59": "Turkey",
+            "13": "Chad",
+            "44": "Niger",
+            "18": "Egypt",
+            "55": "Sudan",
+            "22": "Greece",
+            "29": "Italy",
+            "2": "Algeria"
+        }
+    },
+    "34": {
+        "name": "Madagascar",
+        "links": {
+            "25": "India",
+            "40": "Mozambique",
+            "19": "Ethiopia",
+            "56": "Tanzania"
+        }
+    },
+    "35": {
+        "name": "Mali",
+        "links": {
+            "30": "Ivory Coast",
+            "37": "Mauritania",
+            "2": "Algeria",
+            "44": "Niger"
+        }
+    },
+    "36": {
+        "name": "Manchuria",
+        "links": {
+            "31": "Japan",
+            "14": "China",
+            "21": "Far East Russia",
+            "39": "Mongolia"
+        }
+    },
+    "37": {
+        "name": "Mauritania",
+        "links": {
+            "2": "Algeria",
+            "35": "Mali",
+            "30": "Ivory Coast",
+            "17": "Eastern US"
+        }
+    },
+    "38": {
+        "name": "Mexico",
+        "links": {
+            "64": "Western US",
+            "62": "Venezuela",
+            "15": "Colombia",
+            "43": "Nicaragua",
+            "17": "Eastern US"
+        }
+    },
+    "39": {
+        "name": "Mongolia",
+        "links": {
+            "36": "Manchuria",
+            "58": "Tibet",
+            "14": "China",
+            "21": "Far East Russia",
+            "32": "Kazakhstan"
+        }
+    },
+    "40": {
+        "name": "Mozambique",
+        "links": {
+            "9": "Botswana",
+            "65": "Zambia",
+            "53": "South Africa",
+            "56": "Tanzania",
+            "5": "Antarctica",
+            "34": "Madagascar"
+        }
+    },
+    "41": {
+        "name": "Nepal",
+        "links": {
+            "25": "India",
+            "7": "Australia",
+            "48": "Papua New Guinea",
+            "51": "Saudi Arabia"
+        }
+    },
+    "42": {
+        "name": "New Zealand",
+        "links": {
+            "7": "Australia",
+            "5": "Antarctica"
+        }
+    },
+    "43": {
+        "name": "Nicaragua",
+        "links": {
+            "38": "Mexico",
+            "50": "Peru"
+        }
+    },
+    "44": {
+        "name": "Niger",
+        "links": {
+            "30": "Ivory Coast",
+            "33": "Libya",
+            "13": "Chad",
+            "45": "Nigeria",
+            "2": "Algeria",
+            "35": "Mali"
+        }
+    },
+    "45": {
+        "name": "Nigeria",
+        "links": {
+            "13": "Chad",
+            "16": "Congo",
+            "30": "Ivory Coast",
+            "44": "Niger",
+            "10": "Brazil"
+        }
+    },
+    "46": {
+        "name": "Nunavut",
+        "links": {
+            "23": "Greenland",
+            "1": "Alaska",
+            "21": "Far East Russia",
+            "11": "Canada"
+        }
+    },
+    "47": {
+        "name": "Pakistan",
+        "links": {
+            "19": "Ethiopia",
+            "25": "India",
+            "51": "Saudi Arabia"
+        }
+    },
+    "48": {
+        "name": "Papua New Guinea",
+        "links": {
+            "41": "Nepal",
+            "7": "Australia"
+        }
+    },
+    "49": {
+        "name": "Paraguay",
+        "links": {
+            "8": "Bolivia",
+            "6": "Argentina",
+            "10": "Brazil"
+        }
+    },
+    "50": {
+        "name": "Peru",
+        "links": {
+            "6": "Argentina",
+            "43": "Nicaragua",
+            "10": "Brazil",
+            "8": "Bolivia",
+            "15": "Colombia"
+        }
+    },
+    "51": {
+        "name": "Saudi Arabia",
+        "links": {
+            "28": "Iraq",
+            "41": "Nepal",
+            "47": "Pakistan",
+            "19": "Ethiopia",
+            "55": "Sudan",
+            "18": "Egypt"
+        }
+    },
+    "52": {
+        "name": "Scandinavia",
+        "links": {
+            "23": "Greenland",
+            "20": "European Russia",
+            "12": "Central Europe",
+            "60": "UK",
+            "61": "Ukraine"
+        }
+    },
+    "53": {
+        "name": "South Africa",
+        "links": {
+            "6": "Argentina",
+            "4": "Antarctic Peninsula",
+            "9": "Botswana",
+            "40": "Mozambique",
+            "3": "Angola",
+            "5": "Antarctica",
+            "10": "Brazil"
+        }
+    },
+    "54": {
+        "name": "Spain",
+        "links": {
+            "11": "Canada",
+            "23": "Greenland",
+            "2": "Algeria",
+            "60": "UK",
+            "29": "Italy"
+        }
+    },
+    "55": {
+        "name": "Sudan",
+        "links": {
+            "16": "Congo",
+            "13": "Chad",
+            "18": "Egypt",
+            "33": "Libya",
+            "51": "Saudi Arabia",
+            "19": "Ethiopia"
+        }
+    },
+    "56": {
+        "name": "Tanzania",
+        "links": {
+            "65": "Zambia",
+            "16": "Congo",
+            "40": "Mozambique",
+            "19": "Ethiopia",
+            "34": "Madagascar"
+        }
+    },
+    "57": {
+        "name": "Thailand",
+        "links": {
+            "32": "Kazakhstan",
+            "14": "China",
+            "63": "Vietnam",
+            "26": "Indonesia"
+        }
+    },
+    "58": {
+        "name": "Tibet",
+        "links": {
+            "39": "Mongolia",
+            "14": "China",
+            "32": "Kazakhstan"
+        }
+    },
+    "59": {
+        "name": "Turkey",
+        "links": {
+            "33": "Libya",
+            "18": "Egypt",
+            "28": "Iraq",
+            "22": "Greece",
+            "61": "Ukraine"
+        }
+    },
+    "60": {
+        "name": "UK",
+        "links": {
+            "12": "Central Europe",
+            "52": "Scandinavia",
+            "29": "Italy",
+            "54": "Spain",
+            "23": "Greenland"
+        }
+    },
+    "61": {
+        "name": "Ukraine",
+        "links": {
+            "20": "European Russia",
+            "12": "Central Europe",
+            "59": "Turkey",
+            "52": "Scandinavia"
+        }
+    },
+    "62": {
+        "name": "Venezuela",
+        "links": {
+            "15": "Colombia",
+            "17": "Eastern US",
+            "38": "Mexico",
+            "24": "Guyana",
+            "10": "Brazil"
+        }
+    },
+    "63": {
+        "name": "Vietnam",
+        "links": {
+            "14": "China",
+            "26": "Indonesia",
+            "57": "Thailand"
+        }
+    },
+    "64": {
+        "name": "Western US",
+        "links": {
+            "38": "Mexico",
+            "11": "Canada",
+            "17": "Eastern US"
+        }
+    },
+    "65": {
+        "name": "Zambia",
+        "links": {
+            "3": "Angola",
+            "9": "Botswana",
+            "40": "Mozambique",
+            "56": "Tanzania",
+            "16": "Congo"
+        }
+    }
+}

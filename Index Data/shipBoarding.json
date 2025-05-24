@@ -1,0 +1,371 @@
+{
+    "1": {
+        "name": "No Escape",
+        "links": {
+            "6": "Intruders",
+            "17": "Emergency Room",
+            "3": "Unexpected"
+        }
+    },
+    "3": {
+        "name": "Unexpected",
+        "links": {
+            "4": "Expected",
+            "38": "Sus Airlock",
+            "1": "No Escape"
+        }
+    },
+    "4": {
+        "name": "Expected",
+        "links": {
+            "22": "Captain's Quarters",
+            "3": "Unexpected",
+            "6": "Intruders"
+        }
+    },
+    "6": {
+        "name": "Intruders",
+        "links": {
+            "4": "Expected",
+            "1": "No Escape",
+            "11": "The Crossway"
+        }
+    },
+    "2": {
+        "name": "Shield Generator",
+        "links": {
+            "14": "Hallway",
+            "7": "Holo Halls",
+            "26": "Bicorder Bay",
+            "24": "Infirmary",
+            "8": "Deflectors",
+            "5": "Transit Tube"
+        }
+    },
+    "7": {
+        "name": "Holo Halls",
+        "links": {
+            "11": "The Crossway",
+            "2": "Shield Generator"
+        }
+    },
+    "8": {
+        "name": "Deflectors",
+        "links": {
+            "10": "Shield Beams",
+            "2": "Shield Generator"
+        }
+    },
+    "10": {
+        "name": "Shield Beams",
+        "links": {
+            "8": "Deflectors"
+        }
+    },
+    "5": {
+        "name": "Transit Tube",
+        "links": {
+            "14": "Hallway",
+            "24": "Infirmary",
+            "37": "Pickleball Courts",
+            "21": "L Junction",
+            "16": "Anti-Matter",
+            "2": "Shield Generator"
+        }
+    },
+    "11": {
+        "name": "The Crossway",
+        "links": {
+            "6": "Intruders",
+            "12": "Repair Drones",
+            "7": "Holo Halls"
+        }
+    },
+    "12": {
+        "name": "Repair Drones",
+        "links": {
+            "14": "Hallway",
+            "11": "The Crossway",
+            "15": "Ion Thrusters"
+        }
+    },
+    "14": {
+        "name": "Hallway",
+        "links": {
+            "5": "Transit Tube",
+            "12": "Repair Drones",
+            "2": "Shield Generator"
+        }
+    },
+    "9": {
+        "name": "Gravity Anchor",
+        "links": {
+            "15": "Ion Thrusters",
+            "16": "Anti-Matter"
+        }
+    },
+    "15": {
+        "name": "Ion Thrusters",
+        "links": {
+            "12": "Repair Drones",
+            "9": "Gravity Anchor",
+            "13": "Escape Pods"
+        }
+    },
+    "16": {
+        "name": "Anti-Matter",
+        "links": {
+            "5": "Transit Tube",
+            "9": "Gravity Anchor",
+            "21": "L Junction"
+        }
+    },
+    "13": {
+        "name": "Escape Pods",
+        "links": {
+            "18": "Disposable Red Shirts",
+            "15": "Ion Thrusters"
+        }
+    },
+    "18": {
+        "name": "Disposable Red Shirts",
+        "links": {
+            "17": "Emergency Room",
+            "13": "Escape Pods",
+            "19": "Crew Deck"
+        }
+    },
+    "19": {
+        "name": "Crew Deck",
+        "links": {
+            "18": "Disposable Red Shirts"
+        }
+    },
+    "17": {
+        "name": "Emergency Room",
+        "links": {
+            "1": "No Escape",
+            "21": "L Junction",
+            "18": "Disposable Red Shirts"
+        }
+    },
+    "21": {
+        "name": "L Junction",
+        "links": {
+            "5": "Transit Tube",
+            "17": "Emergency Room",
+            "16": "Anti-Matter"
+        }
+    },
+    "20": {
+        "name": "Junction",
+        "links": {
+            "22": "Captain's Quarters",
+            "28": "Transmission Deck",
+            "23": "LETs Phone Home"
+        }
+    },
+    "23": {
+        "name": "LETs Phone Home",
+        "links": {
+            "24": "Infirmary",
+            "20": "Junction",
+            "26": "Bicorder Bay",
+            "28": "Transmission Deck",
+            "25": "Shocking",
+            "37": "Pickleball Courts"
+        }
+    },
+    "24": {
+        "name": "Infirmary",
+        "links": {
+            "5": "Transit Tube",
+            "26": "Bicorder Bay",
+            "23": "LETs Phone Home",
+            "37": "Pickleball Courts",
+            "2": "Shield Generator"
+        }
+    },
+    "26": {
+        "name": "Bicorder Bay",
+        "links": {
+            "24": "Infirmary",
+            "29": "Receivers",
+            "28": "Transmission Deck",
+            "23": "LETs Phone Home",
+            "2": "Shield Generator"
+        }
+    },
+    "28": {
+        "name": "Transmission Deck",
+        "links": {
+            "20": "Junction",
+            "29": "Receivers",
+            "26": "Bicorder Bay",
+            "23": "LETs Phone Home"
+        }
+    },
+    "29": {
+        "name": "Receivers",
+        "links": {
+            "26": "Bicorder Bay",
+            "28": "Transmission Deck"
+        }
+    },
+    "22": {
+        "name": "Captain's Quarters",
+        "links": {
+            "20": "Junction",
+            "4": "Expected",
+            "27": "Control Room",
+            "32": "9 or 7 Pod",
+            "30": "Captain's Chair",
+            "35": "Head"
+        }
+    },
+    "27": {
+        "name": "Control Room",
+        "links": {
+            "45": "Wave Emitters",
+            "22": "Captain's Quarters",
+            "34": "Admin",
+            "30": "Captain's Chair",
+            "35": "Head"
+        }
+    },
+    "30": {
+        "name": "Captain's Chair",
+        "links": {
+            "22": "Captain's Quarters",
+            "27": "Control Room"
+        }
+    },
+    "32": {
+        "name": "9 or 7 Pod",
+        "links": {
+            "22": "Captain's Quarters",
+            "36": "Back Up Generators",
+            "35": "Head"
+        }
+    },
+    "34": {
+        "name": "Admin",
+        "links": {
+            "27": "Control Room",
+            "35": "Head"
+        }
+    },
+    "35": {
+        "name": "Head",
+        "links": {
+            "22": "Captain's Quarters",
+            "27": "Control Room",
+            "34": "Admin",
+            "32": "9 or 7 Pod"
+        }
+    },
+    "25": {
+        "name": "Shocking",
+        "links": {
+            "23": "LETs Phone Home",
+            "33": "Electrical"
+        }
+    },
+    "33": {
+        "name": "Electrical",
+        "links": {
+            "36": "Back Up Generators",
+            "31": "Central Booking",
+            "25": "Shocking"
+        }
+    },
+    "36": {
+        "name": "Back Up Generators",
+        "links": {
+            "33": "Electrical",
+            "32": "9 or 7 Pod"
+        }
+    },
+    "31": {
+        "name": "Central Booking",
+        "links": {
+            "33": "Electrical",
+            "42": "Scanners",
+            "39": "Brig",
+            "38": "Sus Airlock",
+            "40": "Mess Deck"
+        }
+    },
+    "38": {
+        "name": "Sus Airlock",
+        "links": {
+            "31": "Central Booking",
+            "39": "Brig",
+            "40": "Mess Deck",
+            "3": "Unexpected"
+        }
+    },
+    "39": {
+        "name": "Brig",
+        "links": {
+            "42": "Scanners",
+            "31": "Central Booking",
+            "38": "Sus Airlock"
+        }
+    },
+    "37": {
+        "name": "Pickleball Courts",
+        "links": {
+            "24": "Infirmary",
+            "23": "LETs Phone Home",
+            "40": "Mess Deck",
+            "5": "Transit Tube"
+        }
+    },
+    "40": {
+        "name": "Mess Deck",
+        "links": {
+            "31": "Central Booking",
+            "38": "Sus Airlock",
+            "37": "Pickleball Courts"
+        }
+    },
+    "41": {
+        "name": "BFG",
+        "links": {
+            "42": "Scanners"
+        }
+    },
+    "42": {
+        "name": "Scanners",
+        "links": {
+            "41": "BFG",
+            "31": "Central Booking",
+            "39": "Brig",
+            "43": "Armory",
+            "44": "Munitions"
+        }
+    },
+    "43": {
+        "name": "Armory",
+        "links": {
+            "42": "Scanners",
+            "44": "Munitions",
+            "45": "Wave Emitters"
+        }
+    },
+    "44": {
+        "name": "Munitions",
+        "links": {
+            "42": "Scanners",
+            "43": "Armory"
+        }
+    },
+    "45": {
+        "name": "Wave Emitters",
+        "links": {
+            "43": "Armory",
+            "27": "Control Room"
+        }
+    }
+}

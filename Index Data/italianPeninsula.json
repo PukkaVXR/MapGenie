@@ -1,0 +1,332 @@
+{
+    "1": {
+        "name": "Albania",
+        "links": {
+            "15": "Macedonia",
+            "17": "Northern Greece",
+            "26": "South Eastern Serbia",
+            "16": "Montenegro",
+            "28": "Southern Naples"
+        }
+    },
+    "2": {
+        "name": "Bosnia",
+        "links": {
+            "33": "Voivodship of Serbia",
+            "36": "Western Serbia",
+            "7": "Croatia",
+            "16": "Montenegro",
+            "8": "Dalmatia"
+        }
+    },
+    "3": {
+        "name": "Carinthia",
+        "links": {
+            "35": "Western Hungary",
+            "4": "Carniola",
+            "9": "Eastern Austria",
+            "34": "Western Austria",
+            "31": "Tyrol",
+            "32": "Venice"
+        }
+    },
+    "4": {
+        "name": "Carniola",
+        "links": {
+            "35": "Western Hungary",
+            "7": "Croatia",
+            "3": "Carinthia",
+            "13": "Istria",
+            "32": "Venice"
+        }
+    },
+    "5": {
+        "name": "Central Greece",
+        "links": {
+            "17": "Northern Greece",
+            "19": "Peloponnese"
+        }
+    },
+    "6": {
+        "name": "Corsica",
+        "links": {
+            "23": "Sardinia",
+            "14": "Languedoc Roussillon",
+            "30": "Tuscany",
+            "22": "Riviera",
+            "12": "Genoa"
+        }
+    },
+    "7": {
+        "name": "Croatia",
+        "links": {
+            "33": "Voivodship of Serbia",
+            "2": "Bosnia",
+            "35": "Western Hungary",
+            "4": "Carniola",
+            "8": "Dalmatia",
+            "13": "Istria",
+            "29": "The Papal States"
+        }
+    },
+    "8": {
+        "name": "Dalmatia",
+        "links": {
+            "7": "Croatia",
+            "2": "Bosnia",
+            "18": "Northern Naples"
+        }
+    },
+    "9": {
+        "name": "Eastern Austria",
+        "links": {
+            "3": "Carinthia",
+            "34": "Western Austria",
+            "35": "Western Hungary"
+        }
+    },
+    "10": {
+        "name": "Eastern Hungary",
+        "links": {
+            "33": "Voivodship of Serbia",
+            "35": "Western Hungary"
+        }
+    },
+    "11": {
+        "name": "Free States",
+        "links": {
+            "32": "Venice",
+            "31": "Tyrol"
+        }
+    },
+    "12": {
+        "name": "Genoa",
+        "links": {
+            "29": "The Papal States",
+            "30": "Tuscany",
+            "6": "Corsica",
+            "22": "Riviera",
+            "24": "Savoy",
+            "32": "Venice"
+        }
+    },
+    "13": {
+        "name": "Istria",
+        "links": {
+            "4": "Carniola",
+            "7": "Croatia",
+            "29": "The Papal States",
+            "32": "Venice"
+        }
+    },
+    "14": {
+        "name": "Languedoc Roussillon",
+        "links": {
+            "6": "Corsica",
+            "27": "Southern Auvergne",
+            "22": "Riviera",
+            "20": "Provence"
+        }
+    },
+    "15": {
+        "name": "Macedonia",
+        "links": {
+            "26": "South Eastern Serbia",
+            "17": "Northern Greece",
+            "1": "Albania"
+        }
+    },
+    "16": {
+        "name": "Montenegro",
+        "links": {
+            "2": "Bosnia",
+            "36": "Western Serbia",
+            "28": "Southern Naples",
+            "26": "South Eastern Serbia",
+            "1": "Albania"
+        }
+    },
+    "17": {
+        "name": "Northern Greece",
+        "links": {
+            "15": "Macedonia",
+            "5": "Central Greece",
+            "1": "Albania"
+        }
+    },
+    "18": {
+        "name": "Northern Naples",
+        "links": {
+            "29": "The Papal States",
+            "8": "Dalmatia",
+            "28": "Southern Naples"
+        }
+    },
+    "19": {
+        "name": "Peloponnese",
+        "links": {
+            "5": "Central Greece",
+            "28": "Southern Naples"
+        }
+    },
+    "20": {
+        "name": "Provence",
+        "links": {
+            "14": "Languedoc Roussillon",
+            "27": "Southern Auvergne",
+            "22": "Riviera",
+            "21": "Rhone Alps",
+            "24": "Savoy"
+        }
+    },
+    "21": {
+        "name": "Rhone Alps",
+        "links": {
+            "27": "Southern Auvergne",
+            "24": "Savoy",
+            "20": "Provence"
+        }
+    },
+    "22": {
+        "name": "Riviera",
+        "links": {
+            "6": "Corsica",
+            "14": "Languedoc Roussillon",
+            "12": "Genoa",
+            "20": "Provence",
+            "24": "Savoy"
+        }
+    },
+    "23": {
+        "name": "Sardinia",
+        "links": {
+            "25": "Sicily",
+            "6": "Corsica"
+        }
+    },
+    "24": {
+        "name": "Savoy",
+        "links": {
+            "21": "Rhone Alps",
+            "32": "Venice",
+            "12": "Genoa",
+            "22": "Riviera",
+            "20": "Provence"
+        }
+    },
+    "25": {
+        "name": "Sicily",
+        "links": {
+            "28": "Southern Naples",
+            "23": "Sardinia"
+        }
+    },
+    "26": {
+        "name": "South Eastern Serbia",
+        "links": {
+            "36": "Western Serbia",
+            "33": "Voivodship of Serbia",
+            "16": "Montenegro",
+            "15": "Macedonia",
+            "1": "Albania"
+        }
+    },
+    "27": {
+        "name": "Southern Auvergne",
+        "links": {
+            "14": "Languedoc Roussillon",
+            "21": "Rhone Alps",
+            "20": "Provence"
+        }
+    },
+    "28": {
+        "name": "Southern Naples",
+        "links": {
+            "18": "Northern Naples",
+            "16": "Montenegro",
+            "19": "Peloponnese",
+            "25": "Sicily",
+            "1": "Albania"
+        }
+    },
+    "29": {
+        "name": "The Papal States",
+        "links": {
+            "7": "Croatia",
+            "18": "Northern Naples",
+            "30": "Tuscany",
+            "12": "Genoa",
+            "32": "Venice",
+            "13": "Istria"
+        }
+    },
+    "30": {
+        "name": "Tuscany",
+        "links": {
+            "29": "The Papal States",
+            "12": "Genoa",
+            "6": "Corsica"
+        }
+    },
+    "31": {
+        "name": "Tyrol",
+        "links": {
+            "3": "Carinthia",
+            "32": "Venice",
+            "11": "Free States",
+            "34": "Western Austria"
+        }
+    },
+    "32": {
+        "name": "Venice",
+        "links": {
+            "31": "Tyrol",
+            "3": "Carinthia",
+            "24": "Savoy",
+            "11": "Free States",
+            "12": "Genoa",
+            "4": "Carniola",
+            "29": "The Papal States",
+            "13": "Istria"
+        }
+    },
+    "33": {
+        "name": "Voivodship of Serbia",
+        "links": {
+            "36": "Western Serbia",
+            "2": "Bosnia",
+            "26": "South Eastern Serbia",
+            "7": "Croatia",
+            "10": "Eastern Hungary",
+            "35": "Western Hungary"
+        }
+    },
+    "34": {
+        "name": "Western Austria",
+        "links": {
+            "9": "Eastern Austria",
+            "3": "Carinthia",
+            "31": "Tyrol"
+        }
+    },
+    "35": {
+        "name": "Western Hungary",
+        "links": {
+            "10": "Eastern Hungary",
+            "33": "Voivodship of Serbia",
+            "7": "Croatia",
+            "4": "Carniola",
+            "3": "Carinthia",
+            "9": "Eastern Austria"
+        }
+    },
+    "36": {
+        "name": "Western Serbia",
+        "links": {
+            "33": "Voivodship of Serbia",
+            "2": "Bosnia",
+            "26": "South Eastern Serbia",
+            "16": "Montenegro"
+        }
+    }
+}

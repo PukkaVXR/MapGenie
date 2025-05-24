@@ -1,0 +1,442 @@
+{
+    "15": {
+        "name": "8-Pin Power Connector",
+        "links": {
+            "19": "vBIOS Chip",
+            "14": "Faraway Faraday",
+            "21": "6-Pin Power Connector"
+        }
+    },
+    "19": {
+        "name": "vBIOS Chip",
+        "links": {
+            "36": "ML Deccelerator",
+            "15": "8-Pin Power Connector"
+        }
+    },
+    "21": {
+        "name": "6-Pin Power Connector",
+        "links": {
+            "22": "Explosive Fuse",
+            "15": "8-Pin Power Connector"
+        }
+    },
+    "22": {
+        "name": "Explosive Fuse",
+        "links": {
+            "21": "6-Pin Power Connector",
+            "31": "Circuit Breaker"
+        }
+    },
+    "14": {
+        "name": "Faraway Faraday",
+        "links": {
+            "15": "8-Pin Power Connector",
+            "18": "Power Stage",
+            "20": "VMem Inductor",
+            "16": "SMG Caps",
+            "7": "PL Controller"
+        }
+    },
+    "16": {
+        "name": "SMG Caps",
+        "links": {
+            "26": "Downloaded VRAM",
+            "14": "Faraway Faraday",
+            "20": "VMem Inductor"
+        }
+    },
+    "17": {
+        "name": "The \"ADAM Chip\"",
+        "links": {
+            "18": "Power Stage",
+            "36": "ML Deccelerator",
+            "20": "VMem Inductor"
+        }
+    },
+    "18": {
+        "name": "Power Stage",
+        "links": {
+            "14": "Faraway Faraday",
+            "20": "VMem Inductor",
+            "17": "The \"ADAM Chip\""
+        }
+    },
+    "20": {
+        "name": "VMem Inductor",
+        "links": {
+            "14": "Faraway Faraday",
+            "18": "Power Stage",
+            "16": "SMG Caps",
+            "17": "The \"ADAM Chip\""
+        }
+    },
+    "23": {
+        "name": "Dedicated pBuffer",
+        "links": {
+            "1": "Tesnor Cores",
+            "33": "Gateway to Cell",
+            "25": "Pro GDDR8x Max+",
+            "39": "PCI-Express Connector"
+        }
+    },
+    "24": {
+        "name": "Sequential Access Memory",
+        "links": {
+            "26": "Downloaded VRAM",
+            "25": "Pro GDDR8x Max+",
+            "50": "TR Cores"
+        }
+    },
+    "25": {
+        "name": "Pro GDDR8x Max+",
+        "links": {
+            "24": "Sequential Access Memory",
+            "23": "Dedicated pBuffer",
+            "37": "Debug LEDs"
+        }
+    },
+    "26": {
+        "name": "Downloaded VRAM",
+        "links": {
+            "27": "WTFRAM",
+            "24": "Sequential Access Memory",
+            "16": "SMG Caps"
+        }
+    },
+    "27": {
+        "name": "WTFRAM",
+        "links": {
+            "26": "Downloaded VRAM",
+            "28": "VIPRAM",
+            "50": "TR Cores"
+        }
+    },
+    "28": {
+        "name": "VIPRAM",
+        "links": {
+            "27": "WTFRAM",
+            "30": "VVRAM"
+        }
+    },
+    "29": {
+        "name": "VRAM",
+        "links": {
+            "30": "VVRAM",
+            "7": "PL Controller",
+            "50": "TR Cores"
+        }
+    },
+    "30": {
+        "name": "VVRAM",
+        "links": {
+            "28": "VIPRAM",
+            "50": "TR Cores",
+            "29": "VRAM"
+        }
+    },
+    "1": {
+        "name": "Tesnor Cores",
+        "links": {
+            "40": "Trace Highway",
+            "49": "GPU Cores",
+            "50": "TR Cores",
+            "23": "Dedicated pBuffer",
+            "39": "PCI-Express Connector"
+        }
+    },
+    "31": {
+        "name": "Circuit Breaker",
+        "links": {
+            "22": "Explosive Fuse",
+            "38": "Fan Headers"
+        }
+    },
+    "32": {
+        "name": "RGB Headers",
+        "links": {
+            "33": "Gateway to Cell",
+            "38": "Fan Headers",
+            "34": "PWM Controller"
+        }
+    },
+    "33": {
+        "name": "Gateway to Cell",
+        "links": {
+            "23": "Dedicated pBuffer",
+            "35": "Thermal Sensors",
+            "32": "RGB Headers",
+            "34": "PWM Controller",
+            "39": "PCI-Express Connector"
+        }
+    },
+    "34": {
+        "name": "PWM Controller",
+        "links": {
+            "32": "RGB Headers",
+            "35": "Thermal Sensors",
+            "33": "Gateway to Cell",
+            "38": "Fan Headers",
+            "36": "ML Deccelerator"
+        }
+    },
+    "35": {
+        "name": "Thermal Sensors",
+        "links": {
+            "33": "Gateway to Cell",
+            "36": "ML Deccelerator",
+            "37": "Debug LEDs",
+            "34": "PWM Controller"
+        }
+    },
+    "36": {
+        "name": "ML Deccelerator",
+        "links": {
+            "35": "Thermal Sensors",
+            "37": "Debug LEDs",
+            "34": "PWM Controller",
+            "17": "The \"ADAM Chip\"",
+            "19": "vBIOS Chip"
+        }
+    },
+    "37": {
+        "name": "Debug LEDs",
+        "links": {
+            "25": "Pro GDDR8x Max+",
+            "36": "ML Deccelerator",
+            "35": "Thermal Sensors"
+        }
+    },
+    "38": {
+        "name": "Fan Headers",
+        "links": {
+            "32": "RGB Headers",
+            "34": "PWM Controller",
+            "31": "Circuit Breaker"
+        }
+    },
+    "2": {
+        "name": "Variable Inductor",
+        "links": {
+            "48": "L-Side MOSFET",
+            "41": "No Cap Caps",
+            "42": "Voltage Doublers",
+            "3": "Faraday's Cage",
+            "44": "Tantalum Caps"
+        }
+    },
+    "3": {
+        "name": "Faraday's Cage",
+        "links": {
+            "47": "Shock Peak",
+            "48": "L-Side MOSFET",
+            "6": "Defective Choke",
+            "2": "Variable Inductor",
+            "44": "Tantalum Caps"
+        }
+    },
+    "4": {
+        "name": "Spiderweb Coil",
+        "links": {
+            "11": "Link Connector",
+            "46": "1.21 JW",
+            "7": "PL Controller",
+            "45": "H-Side MOSFET",
+            "43": "Electrolytic Caps",
+            "6": "Defective Choke"
+        }
+    },
+    "6": {
+        "name": "Defective Choke",
+        "links": {
+            "46": "1.21 JW",
+            "47": "Shock Peak",
+            "43": "Electrolytic Caps",
+            "4": "Spiderweb Coil",
+            "3": "Faraday's Cage",
+            "44": "Tantalum Caps"
+        }
+    },
+    "7": {
+        "name": "PL Controller",
+        "links": {
+            "14": "Faraway Faraday",
+            "11": "Link Connector",
+            "4": "Spiderweb Coil",
+            "29": "VRAM"
+        }
+    },
+    "11": {
+        "name": "Link Connector",
+        "links": {
+            "8": "Mid-Pass Filter",
+            "7": "PL Controller",
+            "45": "H-Side MOSFET",
+            "4": "Spiderweb Coil"
+        }
+    },
+    "42": {
+        "name": "Voltage Doublers",
+        "links": {
+            "48": "L-Side MOSFET",
+            "41": "No Cap Caps",
+            "5": "DVI Ports x2",
+            "39": "PCI-Express Connector",
+            "2": "Variable Inductor"
+        }
+    },
+    "45": {
+        "name": "H-Side MOSFET",
+        "links": {
+            "11": "Link Connector",
+            "10": "Pixel Province",
+            "46": "1.21 JW",
+            "8": "Mid-Pass Filter",
+            "4": "Spiderweb Coil"
+        }
+    },
+    "46": {
+        "name": "1.21 JW",
+        "links": {
+            "10": "Pixel Province",
+            "47": "Shock Peak",
+            "45": "H-Side MOSFET",
+            "4": "Spiderweb Coil",
+            "6": "Defective Choke"
+        }
+    },
+    "47": {
+        "name": "Shock Peak",
+        "links": {
+            "10": "Pixel Province",
+            "46": "1.21 JW",
+            "48": "L-Side MOSFET",
+            "5": "DVI Ports x2",
+            "6": "Defective Choke",
+            "3": "Faraday's Cage"
+        }
+    },
+    "48": {
+        "name": "L-Side MOSFET",
+        "links": {
+            "47": "Shock Peak",
+            "42": "Voltage Doublers",
+            "5": "DVI Ports x2",
+            "3": "Faraday's Cage",
+            "2": "Variable Inductor"
+        }
+    },
+    "5": {
+        "name": "DVI Ports x2",
+        "links": {
+            "10": "Pixel Province",
+            "47": "Shock Peak",
+            "48": "L-Side MOSFET",
+            "42": "Voltage Doublers"
+        }
+    },
+    "8": {
+        "name": "Mid-Pass Filter",
+        "links": {
+            "11": "Link Connector",
+            "10": "Pixel Province",
+            "45": "H-Side MOSFET"
+        }
+    },
+    "9": {
+        "name": "USB-C Port",
+        "links": {
+            "10": "Pixel Province"
+        }
+    },
+    "10": {
+        "name": "Pixel Province",
+        "links": {
+            "46": "1.21 JW",
+            "8": "Mid-Pass Filter",
+            "47": "Shock Peak",
+            "9": "USB-C Port",
+            "45": "H-Side MOSFET",
+            "5": "DVI Ports x2",
+            "12": "HDMI Port",
+            "13": "Mini DP"
+        }
+    },
+    "12": {
+        "name": "HDMI Port",
+        "links": {
+            "10": "Pixel Province"
+        }
+    },
+    "13": {
+        "name": "Mini DP",
+        "links": {
+            "10": "Pixel Province"
+        }
+    },
+    "39": {
+        "name": "PCI-Express Connector",
+        "links": {
+            "40": "Trace Highway",
+            "1": "Tesnor Cores",
+            "42": "Voltage Doublers",
+            "33": "Gateway to Cell",
+            "23": "Dedicated pBuffer",
+            "41": "No Cap Caps"
+        }
+    },
+    "40": {
+        "name": "Trace Highway",
+        "links": {
+            "1": "Tesnor Cores",
+            "41": "No Cap Caps",
+            "39": "PCI-Express Connector"
+        }
+    },
+    "41": {
+        "name": "No Cap Caps",
+        "links": {
+            "42": "Voltage Doublers",
+            "39": "PCI-Express Connector",
+            "2": "Variable Inductor",
+            "40": "Trace Highway",
+            "44": "Tantalum Caps"
+        }
+    },
+    "43": {
+        "name": "Electrolytic Caps",
+        "links": {
+            "4": "Spiderweb Coil",
+            "6": "Defective Choke",
+            "44": "Tantalum Caps"
+        }
+    },
+    "44": {
+        "name": "Tantalum Caps",
+        "links": {
+            "41": "No Cap Caps",
+            "43": "Electrolytic Caps",
+            "6": "Defective Choke",
+            "3": "Faraday's Cage",
+            "2": "Variable Inductor"
+        }
+    },
+    "49": {
+        "name": "GPU Cores",
+        "links": {
+            "50": "TR Cores",
+            "1": "Tesnor Cores"
+        }
+    },
+    "50": {
+        "name": "TR Cores",
+        "links": {
+            "24": "Sequential Access Memory",
+            "49": "GPU Cores",
+            "30": "VVRAM",
+            "27": "WTFRAM",
+            "1": "Tesnor Cores",
+            "29": "VRAM"
+        }
+    }
+}

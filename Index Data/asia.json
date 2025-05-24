@@ -1,0 +1,454 @@
+{
+    "1": {
+        "name": "Andaman Islands",
+        "links": {
+            "6": "Calcutta",
+            "5": "Burma",
+            "29": "Malaysia",
+            "10": "Ceylon",
+            "28": "Madras"
+        }
+    },
+    "2": {
+        "name": "Annam",
+        "links": {
+            "26": "Laos",
+            "7": "Cambodia",
+            "48": "Yunnan",
+            "8": "Canton"
+        }
+    },
+    "3": {
+        "name": "Bombay",
+        "links": {
+            "15": "Gujerat",
+            "36": "Punjab",
+            "12": "Delhi"
+        }
+    },
+    "4": {
+        "name": "Borneo",
+        "links": {
+            "9": "Celebes",
+            "20": "Java",
+            "7": "Cambodia",
+            "35": "Philippines",
+            "43": "Sumatra"
+        }
+    },
+    "5": {
+        "name": "Burma",
+        "links": {
+            "32": "Nepal",
+            "27": "Lhasa",
+            "6": "Calcutta",
+            "48": "Yunnan",
+            "1": "Andaman Islands",
+            "40": "Siam",
+            "29": "Malaysia"
+        }
+    },
+    "6": {
+        "name": "Calcutta",
+        "links": {
+            "32": "Nepal",
+            "5": "Burma",
+            "12": "Delhi",
+            "1": "Andaman Islands",
+            "18": "Hyderabad"
+        }
+    },
+    "7": {
+        "name": "Cambodia",
+        "links": {
+            "29": "Malaysia",
+            "40": "Siam",
+            "26": "Laos",
+            "2": "Annam",
+            "4": "Borneo"
+        }
+    },
+    "8": {
+        "name": "Canton",
+        "links": {
+            "48": "Yunnan",
+            "17": "Hunan",
+            "35": "Philippines",
+            "2": "Annam",
+            "13": "Formosa"
+        }
+    },
+    "9": {
+        "name": "Celebes",
+        "links": {
+            "46": "Timor",
+            "4": "Borneo",
+            "19": "Irian Jaya"
+        }
+    },
+    "10": {
+        "name": "Ceylon",
+        "links": {
+            "43": "Sumatra",
+            "28": "Madras",
+            "1": "Andaman Islands"
+        }
+    },
+    "11": {
+        "name": "Chang Tang",
+        "links": {
+            "41": "Sinkiang",
+            "22": "Kansu",
+            "27": "Lhasa",
+            "45": "Tibet",
+            "23": "Kashmir"
+        }
+    },
+    "12": {
+        "name": "Delhi",
+        "links": {
+            "23": "Kashmir",
+            "45": "Tibet",
+            "32": "Nepal",
+            "6": "Calcutta",
+            "18": "Hyderabad",
+            "15": "Gujerat",
+            "3": "Bombay",
+            "36": "Punjab"
+        }
+    },
+    "13": {
+        "name": "Formosa",
+        "links": {
+            "17": "Hunan",
+            "42": "South Korea",
+            "8": "Canton",
+            "37": "Rui-Kui Islands",
+            "35": "Philippines"
+        }
+    },
+    "14": {
+        "name": "Gobi Desert",
+        "links": {
+            "31": "Mongolia",
+            "34": "Peking",
+            "39": "Shensi",
+            "22": "Kansu",
+            "47": "Urumchi"
+        }
+    },
+    "15": {
+        "name": "Gujerat",
+        "links": {
+            "28": "Madras",
+            "3": "Bombay",
+            "12": "Delhi",
+            "18": "Hyderabad"
+        }
+    },
+    "16": {
+        "name": "Honshu",
+        "links": {
+            "25": "Kyushu"
+        }
+    },
+    "17": {
+        "name": "Hunan",
+        "links": {
+            "48": "Yunnan",
+            "44": "Szechwan",
+            "8": "Canton",
+            "39": "Shensi",
+            "38": "Shanghai",
+            "13": "Formosa"
+        }
+    },
+    "18": {
+        "name": "Hyderabad",
+        "links": {
+            "12": "Delhi",
+            "15": "Gujerat",
+            "6": "Calcutta",
+            "28": "Madras"
+        }
+    },
+    "19": {
+        "name": "Irian Jaya",
+        "links": {
+            "35": "Philippines",
+            "46": "Timor",
+            "9": "Celebes"
+        }
+    },
+    "20": {
+        "name": "Java",
+        "links": {
+            "46": "Timor",
+            "4": "Borneo",
+            "43": "Sumatra"
+        }
+    },
+    "21": {
+        "name": "Kabul",
+        "links": {
+            "36": "Punjab",
+            "24": "Kirghiz",
+            "23": "Kashmir",
+            "41": "Sinkiang"
+        }
+    },
+    "22": {
+        "name": "Kansu",
+        "links": {
+            "44": "Szechwan",
+            "27": "Lhasa",
+            "39": "Shensi",
+            "41": "Sinkiang",
+            "11": "Chang Tang",
+            "47": "Urumchi",
+            "14": "Gobi Desert"
+        }
+    },
+    "23": {
+        "name": "Kashmir",
+        "links": {
+            "45": "Tibet",
+            "12": "Delhi",
+            "36": "Punjab",
+            "21": "Kabul",
+            "41": "Sinkiang",
+            "11": "Chang Tang"
+        }
+    },
+    "24": {
+        "name": "Kirghiz",
+        "links": {
+            "21": "Kabul",
+            "47": "Urumchi",
+            "41": "Sinkiang"
+        }
+    },
+    "25": {
+        "name": "Kyushu",
+        "links": {
+            "42": "South Korea",
+            "16": "Honshu",
+            "37": "Rui-Kui Islands"
+        }
+    },
+    "26": {
+        "name": "Laos",
+        "links": {
+            "2": "Annam",
+            "7": "Cambodia",
+            "48": "Yunnan",
+            "40": "Siam"
+        }
+    },
+    "27": {
+        "name": "Lhasa",
+        "links": {
+            "48": "Yunnan",
+            "44": "Szechwan",
+            "32": "Nepal",
+            "5": "Burma",
+            "22": "Kansu",
+            "45": "Tibet",
+            "11": "Chang Tang"
+        }
+    },
+    "28": {
+        "name": "Madras",
+        "links": {
+            "10": "Ceylon",
+            "15": "Gujerat",
+            "18": "Hyderabad",
+            "1": "Andaman Islands"
+        }
+    },
+    "29": {
+        "name": "Malaysia",
+        "links": {
+            "7": "Cambodia",
+            "40": "Siam",
+            "5": "Burma",
+            "43": "Sumatra",
+            "1": "Andaman Islands"
+        }
+    },
+    "30": {
+        "name": "Manchuria",
+        "links": {
+            "34": "Peking",
+            "33": "North Korea"
+        }
+    },
+    "31": {
+        "name": "Mongolia",
+        "links": {
+            "47": "Urumchi",
+            "14": "Gobi Desert"
+        }
+    },
+    "32": {
+        "name": "Nepal",
+        "links": {
+            "27": "Lhasa",
+            "5": "Burma",
+            "45": "Tibet",
+            "6": "Calcutta",
+            "12": "Delhi"
+        }
+    },
+    "33": {
+        "name": "North Korea",
+        "links": {
+            "30": "Manchuria",
+            "42": "South Korea"
+        }
+    },
+    "34": {
+        "name": "Peking",
+        "links": {
+            "14": "Gobi Desert",
+            "30": "Manchuria",
+            "38": "Shanghai",
+            "39": "Shensi"
+        }
+    },
+    "35": {
+        "name": "Philippines",
+        "links": {
+            "37": "Rui-Kui Islands",
+            "19": "Irian Jaya",
+            "4": "Borneo",
+            "8": "Canton",
+            "13": "Formosa"
+        }
+    },
+    "36": {
+        "name": "Punjab",
+        "links": {
+            "3": "Bombay",
+            "21": "Kabul",
+            "23": "Kashmir",
+            "12": "Delhi"
+        }
+    },
+    "37": {
+        "name": "Rui-Kui Islands",
+        "links": {
+            "25": "Kyushu",
+            "35": "Philippines",
+            "13": "Formosa"
+        }
+    },
+    "38": {
+        "name": "Shanghai",
+        "links": {
+            "34": "Peking",
+            "17": "Hunan",
+            "39": "Shensi"
+        }
+    },
+    "39": {
+        "name": "Shensi",
+        "links": {
+            "44": "Szechwan",
+            "22": "Kansu",
+            "17": "Hunan",
+            "14": "Gobi Desert",
+            "38": "Shanghai",
+            "34": "Peking"
+        }
+    },
+    "40": {
+        "name": "Siam",
+        "links": {
+            "5": "Burma",
+            "48": "Yunnan",
+            "7": "Cambodia",
+            "29": "Malaysia",
+            "26": "Laos"
+        }
+    },
+    "41": {
+        "name": "Sinkiang",
+        "links": {
+            "22": "Kansu",
+            "11": "Chang Tang",
+            "47": "Urumchi",
+            "24": "Kirghiz",
+            "21": "Kabul",
+            "23": "Kashmir"
+        }
+    },
+    "42": {
+        "name": "South Korea",
+        "links": {
+            "33": "North Korea",
+            "25": "Kyushu",
+            "13": "Formosa"
+        }
+    },
+    "43": {
+        "name": "Sumatra",
+        "links": {
+            "20": "Java",
+            "10": "Ceylon",
+            "29": "Malaysia",
+            "4": "Borneo"
+        }
+    },
+    "44": {
+        "name": "Szechwan",
+        "links": {
+            "48": "Yunnan",
+            "27": "Lhasa",
+            "22": "Kansu",
+            "17": "Hunan",
+            "39": "Shensi"
+        }
+    },
+    "45": {
+        "name": "Tibet",
+        "links": {
+            "27": "Lhasa",
+            "32": "Nepal",
+            "11": "Chang Tang",
+            "23": "Kashmir",
+            "12": "Delhi"
+        }
+    },
+    "46": {
+        "name": "Timor",
+        "links": {
+            "20": "Java",
+            "9": "Celebes",
+            "19": "Irian Jaya"
+        }
+    },
+    "47": {
+        "name": "Urumchi",
+        "links": {
+            "24": "Kirghiz",
+            "31": "Mongolia",
+            "22": "Kansu",
+            "41": "Sinkiang",
+            "14": "Gobi Desert"
+        }
+    },
+    "48": {
+        "name": "Yunnan",
+        "links": {
+            "27": "Lhasa",
+            "44": "Szechwan",
+            "5": "Burma",
+            "17": "Hunan",
+            "40": "Siam",
+            "8": "Canton",
+            "2": "Annam",
+            "26": "Laos"
+        }
+    }
+}

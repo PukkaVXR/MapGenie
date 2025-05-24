@@ -1,0 +1,290 @@
+{
+    "1": {
+        "name": "Blessed Meadows",
+        "links": {
+            "21": "Sacred Graves",
+            "30": "Witchgrove",
+            "3": "Dragonwing",
+            "12": "Hall of Heroes",
+            "20": "River of Souls"
+        }
+    },
+    "2": {
+        "name": "Boneyard",
+        "links": {
+            "25": "Swamp of the Dead",
+            "9": "Ghost Town",
+            "10": "Ghoulania"
+        }
+    },
+    "3": {
+        "name": "Dragonwing",
+        "links": {
+            "21": "Sacred Graves",
+            "1": "Blessed Meadows",
+            "20": "River of Souls",
+            "8": "Eternal Hills"
+        }
+    },
+    "4": {
+        "name": "Druid",
+        "links": {
+            "6": "Elders Forest",
+            "28": "Vampire Day Care",
+            "29": "Warlocks Cave",
+            "10": "Ghoulania"
+        }
+    },
+    "5": {
+        "name": "Dwarf Mine",
+        "links": {
+            "11": "Goblin Circus",
+            "18": "Orc Raiders",
+            "7": "Elf Forest"
+        }
+    },
+    "6": {
+        "name": "Elders Forest",
+        "links": {
+            "30": "Witchgrove",
+            "4": "Druid",
+            "29": "Warlocks Cave"
+        }
+    },
+    "7": {
+        "name": "Elf Forest",
+        "links": {
+            "20": "River of Souls",
+            "14": "HELL",
+            "11": "Goblin Circus",
+            "5": "Dwarf Mine",
+            "8": "Eternal Hills",
+            "18": "Orc Raiders",
+            "24": "Spiritland"
+        }
+    },
+    "8": {
+        "name": "Eternal Hills",
+        "links": {
+            "24": "Spiritland",
+            "21": "Sacred Graves",
+            "20": "River of Souls",
+            "7": "Elf Forest",
+            "3": "Dragonwing"
+        }
+    },
+    "9": {
+        "name": "Ghost Town",
+        "links": {
+            "29": "Warlocks Cave",
+            "10": "Ghoulania",
+            "2": "Boneyard",
+            "19": "Pixieland",
+            "22": "Shaman Mountain",
+            "17": "Odins Throne"
+        }
+    },
+    "10": {
+        "name": "Ghoulania",
+        "links": {
+            "9": "Ghost Town",
+            "4": "Druid",
+            "25": "Swamp of the Dead",
+            "2": "Boneyard",
+            "28": "Vampire Day Care"
+        }
+    },
+    "11": {
+        "name": "Goblin Circus",
+        "links": {
+            "27": "Unicorn Meadows",
+            "5": "Dwarf Mine",
+            "14": "HELL",
+            "7": "Elf Forest"
+        }
+    },
+    "12": {
+        "name": "Hall of Heroes",
+        "links": {
+            "1": "Blessed Meadows",
+            "17": "Odins Throne",
+            "27": "Unicorn Meadows",
+            "14": "HELL",
+            "32": "Yeti Lair",
+            "20": "River of Souls"
+        }
+    },
+    "13": {
+        "name": "Hall of the Lych",
+        "links": {
+            "23": "Skullhaven",
+            "16": "Mount Dragon"
+        }
+    },
+    "14": {
+        "name": "HELL",
+        "links": {
+            "27": "Unicorn Meadows",
+            "12": "Hall of Heroes",
+            "20": "River of Souls",
+            "7": "Elf Forest",
+            "11": "Goblin Circus"
+        }
+    },
+    "15": {
+        "name": "Human Village",
+        "links": {
+            "16": "Mount Dragon",
+            "24": "Spiritland",
+            "18": "Orc Raiders"
+        }
+    },
+    "16": {
+        "name": "Mount Dragon",
+        "links": {
+            "13": "Hall of the Lych",
+            "15": "Human Village",
+            "19": "Pixieland"
+        }
+    },
+    "17": {
+        "name": "Odins Throne",
+        "links": {
+            "22": "Shaman Mountain",
+            "9": "Ghost Town",
+            "12": "Hall of Heroes",
+            "19": "Pixieland"
+        }
+    },
+    "18": {
+        "name": "Orc Raiders",
+        "links": {
+            "5": "Dwarf Mine",
+            "15": "Human Village",
+            "7": "Elf Forest",
+            "24": "Spiritland"
+        }
+    },
+    "19": {
+        "name": "Pixieland",
+        "links": {
+            "9": "Ghost Town",
+            "16": "Mount Dragon",
+            "17": "Odins Throne",
+            "26": "The Fairy Inn",
+            "32": "Yeti Lair"
+        }
+    },
+    "20": {
+        "name": "River of Souls",
+        "links": {
+            "14": "HELL",
+            "7": "Elf Forest",
+            "12": "Hall of Heroes",
+            "8": "Eternal Hills",
+            "3": "Dragonwing",
+            "1": "Blessed Meadows"
+        }
+    },
+    "21": {
+        "name": "Sacred Graves",
+        "links": {
+            "8": "Eternal Hills",
+            "30": "Witchgrove",
+            "1": "Blessed Meadows",
+            "3": "Dragonwing"
+        }
+    },
+    "22": {
+        "name": "Shaman Mountain",
+        "links": {
+            "31": "Wizards Castle",
+            "29": "Warlocks Cave",
+            "9": "Ghost Town",
+            "17": "Odins Throne"
+        }
+    },
+    "23": {
+        "name": "Skullhaven",
+        "links": {
+            "28": "Vampire Day Care",
+            "13": "Hall of the Lych",
+            "25": "Swamp of the Dead"
+        }
+    },
+    "24": {
+        "name": "Spiritland",
+        "links": {
+            "15": "Human Village",
+            "8": "Eternal Hills",
+            "7": "Elf Forest",
+            "18": "Orc Raiders"
+        }
+    },
+    "25": {
+        "name": "Swamp of the Dead",
+        "links": {
+            "28": "Vampire Day Care",
+            "23": "Skullhaven",
+            "2": "Boneyard",
+            "10": "Ghoulania"
+        }
+    },
+    "26": {
+        "name": "The Fairy Inn",
+        "links": {
+            "19": "Pixieland",
+            "32": "Yeti Lair"
+        }
+    },
+    "27": {
+        "name": "Unicorn Meadows",
+        "links": {
+            "32": "Yeti Lair",
+            "11": "Goblin Circus",
+            "14": "HELL",
+            "12": "Hall of Heroes"
+        }
+    },
+    "28": {
+        "name": "Vampire Day Care",
+        "links": {
+            "23": "Skullhaven",
+            "4": "Druid",
+            "25": "Swamp of the Dead",
+            "10": "Ghoulania"
+        }
+    },
+    "29": {
+        "name": "Warlocks Cave",
+        "links": {
+            "4": "Druid",
+            "9": "Ghost Town",
+            "22": "Shaman Mountain",
+            "6": "Elders Forest"
+        }
+    },
+    "30": {
+        "name": "Witchgrove",
+        "links": {
+            "21": "Sacred Graves",
+            "6": "Elders Forest",
+            "1": "Blessed Meadows"
+        }
+    },
+    "31": {
+        "name": "Wizards Castle",
+        "links": {
+            "22": "Shaman Mountain"
+        }
+    },
+    "32": {
+        "name": "Yeti Lair",
+        "links": {
+            "26": "The Fairy Inn",
+            "27": "Unicorn Meadows",
+            "12": "Hall of Heroes",
+            "19": "Pixieland"
+        }
+    }
+}

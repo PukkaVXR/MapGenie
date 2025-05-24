@@ -1,0 +1,450 @@
+{
+    "1": {
+        "name": "Aichi",
+        "links": {
+            "38": "Shizuoka",
+            "22": "Mie",
+            "26": "Nagano",
+            "10": "Gifu"
+        }
+    },
+    "2": {
+        "name": "Akita",
+        "links": {
+            "48": "Yamagata",
+            "4": "Aomori",
+            "16": "Iwate",
+            "23": "Miyagi",
+            "28": "Nigata"
+        }
+    },
+    "3": {
+        "name": "Amami Islands",
+        "links": {
+            "34": "Osumi Islands",
+            "32": "Okinawa Islands"
+        }
+    },
+    "4": {
+        "name": "Aomori",
+        "links": {
+            "2": "Akita",
+            "39": "Sorachi",
+            "16": "Iwate"
+        }
+    },
+    "5": {
+        "name": "Chiba",
+        "links": {
+            "14": "Ibaraki",
+            "43": "Tokyo",
+            "35": "Saitama",
+            "23": "Miyagi"
+        }
+    },
+    "6": {
+        "name": "Ehime",
+        "links": {
+            "19": "Kochi",
+            "29": "Oita",
+            "42": "Tokushima",
+            "12": "Hiroshima"
+        }
+    },
+    "7": {
+        "name": "Fukui",
+        "links": {
+            "21": "Kyoto",
+            "15": "Ishikawa",
+            "10": "Gifu",
+            "36": "Shiga"
+        }
+    },
+    "8": {
+        "name": "Fukuoka",
+        "links": {
+            "27": "Nagasaki",
+            "49": "Yamaguchi",
+            "20": "Kumamoto",
+            "29": "Oita"
+        }
+    },
+    "9": {
+        "name": "Fukushima",
+        "links": {
+            "23": "Miyagi",
+            "14": "Ibaraki",
+            "48": "Yamagata",
+            "28": "Nigata",
+            "11": "Gunma",
+            "40": "Tochigi"
+        }
+    },
+    "10": {
+        "name": "Gifu",
+        "links": {
+            "1": "Aichi",
+            "22": "Mie",
+            "45": "Toyama",
+            "26": "Nagano",
+            "15": "Ishikawa",
+            "7": "Fukui",
+            "36": "Shiga"
+        }
+    },
+    "11": {
+        "name": "Gunma",
+        "links": {
+            "28": "Nigata",
+            "9": "Fukushima",
+            "40": "Tochigi",
+            "35": "Saitama",
+            "26": "Nagano"
+        }
+    },
+    "12": {
+        "name": "Hiroshima",
+        "links": {
+            "6": "Ehime",
+            "49": "Yamaguchi",
+            "30": "Okayama",
+            "37": "Shimane",
+            "44": "Tottori"
+        }
+    },
+    "13": {
+        "name": "Hyogo",
+        "links": {
+            "44": "Tottori",
+            "21": "Kyoto",
+            "33": "Osaka",
+            "30": "Okayama"
+        }
+    },
+    "14": {
+        "name": "Ibaraki",
+        "links": {
+            "9": "Fukushima",
+            "5": "Chiba",
+            "40": "Tochigi",
+            "35": "Saitama"
+        }
+    },
+    "15": {
+        "name": "Ishikawa",
+        "links": {
+            "7": "Fukui",
+            "45": "Toyama",
+            "10": "Gifu"
+        }
+    },
+    "16": {
+        "name": "Iwate",
+        "links": {
+            "4": "Aomori",
+            "23": "Miyagi",
+            "2": "Akita"
+        }
+    },
+    "17": {
+        "name": "Kagoshima",
+        "links": {
+            "25": "Miyazaki",
+            "20": "Kumamoto",
+            "34": "Osumi Islands"
+        }
+    },
+    "18": {
+        "name": "Kamikawa",
+        "links": {
+            "41": "Tokachi",
+            "39": "Sorachi",
+            "31": "Okhotsk"
+        }
+    },
+    "19": {
+        "name": "Kochi",
+        "links": {
+            "42": "Tokushima",
+            "6": "Ehime"
+        }
+    },
+    "20": {
+        "name": "Kumamoto",
+        "links": {
+            "17": "Kagoshima",
+            "8": "Fukuoka",
+            "29": "Oita",
+            "25": "Miyazaki"
+        }
+    },
+    "21": {
+        "name": "Kyoto",
+        "links": {
+            "13": "Hyogo",
+            "7": "Fukui",
+            "33": "Osaka",
+            "36": "Shiga"
+        }
+    },
+    "22": {
+        "name": "Mie",
+        "links": {
+            "1": "Aichi",
+            "46": "Wakayama",
+            "10": "Gifu",
+            "33": "Osaka",
+            "36": "Shiga"
+        }
+    },
+    "23": {
+        "name": "Miyagi",
+        "links": {
+            "16": "Iwate",
+            "9": "Fukushima",
+            "2": "Akita",
+            "48": "Yamagata",
+            "5": "Chiba",
+            "41": "Tokachi"
+        }
+    },
+    "24": {
+        "name": "Miyako Islands",
+        "links": {
+            "32": "Okinawa Islands",
+            "47": "Yaeyama Islands"
+        }
+    },
+    "25": {
+        "name": "Miyazaki",
+        "links": {
+            "29": "Oita",
+            "17": "Kagoshima",
+            "20": "Kumamoto",
+            "46": "Wakayama"
+        }
+    },
+    "26": {
+        "name": "Nagano",
+        "links": {
+            "38": "Shizuoka",
+            "1": "Aichi",
+            "50": "Yamanashi",
+            "45": "Toyama",
+            "10": "Gifu",
+            "28": "Nigata",
+            "11": "Gunma"
+        }
+    },
+    "27": {
+        "name": "Nagasaki",
+        "links": {
+            "8": "Fukuoka",
+            "32": "Okinawa Islands"
+        }
+    },
+    "28": {
+        "name": "Nigata",
+        "links": {
+            "45": "Toyama",
+            "48": "Yamagata",
+            "9": "Fukushima",
+            "11": "Gunma",
+            "26": "Nagano",
+            "2": "Akita",
+            "39": "Sorachi"
+        }
+    },
+    "29": {
+        "name": "Oita",
+        "links": {
+            "6": "Ehime",
+            "25": "Miyazaki",
+            "8": "Fukuoka",
+            "20": "Kumamoto"
+        }
+    },
+    "30": {
+        "name": "Okayama",
+        "links": {
+            "13": "Hyogo",
+            "42": "Tokushima",
+            "44": "Tottori",
+            "12": "Hiroshima"
+        }
+    },
+    "31": {
+        "name": "Okhotsk",
+        "links": {
+            "41": "Tokachi",
+            "18": "Kamikawa"
+        }
+    },
+    "32": {
+        "name": "Okinawa Islands",
+        "links": {
+            "3": "Amami Islands",
+            "24": "Miyako Islands",
+            "27": "Nagasaki"
+        }
+    },
+    "33": {
+        "name": "Osaka",
+        "links": {
+            "22": "Mie",
+            "46": "Wakayama",
+            "13": "Hyogo",
+            "21": "Kyoto",
+            "36": "Shiga"
+        }
+    },
+    "34": {
+        "name": "Osumi Islands",
+        "links": {
+            "3": "Amami Islands",
+            "17": "Kagoshima"
+        }
+    },
+    "35": {
+        "name": "Saitama",
+        "links": {
+            "14": "Ibaraki",
+            "5": "Chiba",
+            "40": "Tochigi",
+            "11": "Gunma",
+            "43": "Tokyo",
+            "50": "Yamanashi"
+        }
+    },
+    "36": {
+        "name": "Shiga",
+        "links": {
+            "7": "Fukui",
+            "10": "Gifu",
+            "21": "Kyoto",
+            "22": "Mie",
+            "33": "Osaka"
+        }
+    },
+    "37": {
+        "name": "Shimane",
+        "links": {
+            "49": "Yamaguchi",
+            "44": "Tottori",
+            "12": "Hiroshima"
+        }
+    },
+    "38": {
+        "name": "Shizuoka",
+        "links": {
+            "43": "Tokyo",
+            "1": "Aichi",
+            "50": "Yamanashi",
+            "26": "Nagano"
+        }
+    },
+    "39": {
+        "name": "Sorachi",
+        "links": {
+            "18": "Kamikawa",
+            "41": "Tokachi",
+            "4": "Aomori",
+            "28": "Nigata"
+        }
+    },
+    "40": {
+        "name": "Tochigi",
+        "links": {
+            "9": "Fukushima",
+            "14": "Ibaraki",
+            "35": "Saitama",
+            "11": "Gunma"
+        }
+    },
+    "41": {
+        "name": "Tokachi",
+        "links": {
+            "18": "Kamikawa",
+            "39": "Sorachi",
+            "31": "Okhotsk",
+            "23": "Miyagi"
+        }
+    },
+    "42": {
+        "name": "Tokushima",
+        "links": {
+            "46": "Wakayama",
+            "19": "Kochi",
+            "30": "Okayama",
+            "6": "Ehime"
+        }
+    },
+    "43": {
+        "name": "Tokyo",
+        "links": {
+            "5": "Chiba",
+            "38": "Shizuoka",
+            "35": "Saitama",
+            "50": "Yamanashi"
+        }
+    },
+    "44": {
+        "name": "Tottori",
+        "links": {
+            "37": "Shimane",
+            "13": "Hyogo",
+            "30": "Okayama",
+            "12": "Hiroshima"
+        }
+    },
+    "45": {
+        "name": "Toyama",
+        "links": {
+            "15": "Ishikawa",
+            "28": "Nigata",
+            "26": "Nagano",
+            "10": "Gifu"
+        }
+    },
+    "46": {
+        "name": "Wakayama",
+        "links": {
+            "22": "Mie",
+            "42": "Tokushima",
+            "33": "Osaka",
+            "25": "Miyazaki"
+        }
+    },
+    "47": {
+        "name": "Yaeyama Islands",
+        "links": {
+            "24": "Miyako Islands"
+        }
+    },
+    "48": {
+        "name": "Yamagata",
+        "links": {
+            "28": "Nigata",
+            "2": "Akita",
+            "23": "Miyagi",
+            "9": "Fukushima"
+        }
+    },
+    "49": {
+        "name": "Yamaguchi",
+        "links": {
+            "8": "Fukuoka",
+            "37": "Shimane",
+            "12": "Hiroshima"
+        }
+    },
+    "50": {
+        "name": "Yamanashi",
+        "links": {
+            "43": "Tokyo",
+            "38": "Shizuoka",
+            "26": "Nagano",
+            "35": "Saitama"
+        }
+    }
+}

@@ -1,0 +1,509 @@
+{
+    "1": {
+        "name": "Alert",
+        "links": {
+            "35": "Quasuittuq National Park",
+            "20": "Iqaluit",
+            "33": "Prince of Wales Island",
+            "8": "Dawson City"
+        }
+    },
+    "2": {
+        "name": "Baker Lake",
+        "links": {
+            "23": "Kugluktuk",
+            "18": "Igloolik",
+            "7": "Churchill",
+            "42": "Stony Rapids",
+            "14": "Fort Smith"
+        }
+    },
+    "3": {
+        "name": "Brandon",
+        "links": {
+            "52": "Winnipeg",
+            "37": "Regina",
+            "47": "Town of The Pas",
+            "31": "Prince Albert"
+        }
+    },
+    "4": {
+        "name": "Calgary",
+        "links": {
+            "37": "Regina",
+            "50": "Vernon",
+            "41": "Saskatoon",
+            "21": "Jasper",
+            "9": "Edmonton"
+        }
+    },
+    "5": {
+        "name": "Cambridge Bay",
+        "links": {
+            "33": "Prince of Wales Island",
+            "23": "Kugluktuk",
+            "48": "Ulukhaktok"
+        }
+    },
+    "6": {
+        "name": "Cassiar",
+        "links": {
+            "34": "Prince Rupert",
+            "51": "Whitehorse",
+            "12": "Fort Nelson"
+        }
+    },
+    "7": {
+        "name": "Churchill",
+        "links": {
+            "44": "Thompson",
+            "47": "Town of The Pas",
+            "24": "Matagami",
+            "22": "Kenora",
+            "42": "Stony Rapids",
+            "14": "Fort Smith",
+            "2": "Baker Lake"
+        }
+    },
+    "8": {
+        "name": "Dawson City",
+        "links": {
+            "51": "Whitehorse",
+            "19": "Inuvik",
+            "10": "Fort Good Hope",
+            "1": "Alert"
+        }
+    },
+    "9": {
+        "name": "Edmonton",
+        "links": {
+            "11": "Fort McMurray",
+            "42": "Stony Rapids",
+            "31": "Prince Albert",
+            "41": "Saskatoon",
+            "4": "Calgary",
+            "21": "Jasper",
+            "36": "Rainbow Lake"
+        }
+    },
+    "10": {
+        "name": "Fort Good Hope",
+        "links": {
+            "53": "Yellowknife",
+            "13": "Fort Simpson",
+            "19": "Inuvik",
+            "23": "Kugluktuk",
+            "51": "Whitehorse",
+            "8": "Dawson City"
+        }
+    },
+    "11": {
+        "name": "Fort McMurray",
+        "links": {
+            "14": "Fort Smith",
+            "42": "Stony Rapids",
+            "53": "Yellowknife",
+            "9": "Edmonton",
+            "36": "Rainbow Lake"
+        }
+    },
+    "12": {
+        "name": "Fort Nelson",
+        "links": {
+            "51": "Whitehorse",
+            "13": "Fort Simpson",
+            "21": "Jasper",
+            "32": "Prince George",
+            "36": "Rainbow Lake",
+            "6": "Cassiar",
+            "34": "Prince Rupert"
+        }
+    },
+    "13": {
+        "name": "Fort Simpson",
+        "links": {
+            "53": "Yellowknife",
+            "36": "Rainbow Lake",
+            "10": "Fort Good Hope",
+            "51": "Whitehorse",
+            "12": "Fort Nelson"
+        }
+    },
+    "14": {
+        "name": "Fort Smith",
+        "links": {
+            "42": "Stony Rapids",
+            "11": "Fort McMurray",
+            "7": "Churchill",
+            "53": "Yellowknife",
+            "23": "Kugluktuk",
+            "2": "Baker Lake"
+        }
+    },
+    "15": {
+        "name": "Gander",
+        "links": {
+            "17": "Happy Valley Goose Bay",
+            "20": "Iqaluit",
+            "38": "Rimouski",
+            "30": "Nova Scotia"
+        }
+    },
+    "16": {
+        "name": "Greater Sudbury",
+        "links": {
+            "25": "Midland",
+            "45": "Thunder Bay",
+            "27": "Moosonee",
+            "40": "Saguenay"
+        }
+    },
+    "17": {
+        "name": "Happy Valley Goose Bay",
+        "links": {
+            "15": "Gander",
+            "28": "Nain",
+            "43": "Tete-a-la-Baleine",
+            "24": "Matagami"
+        }
+    },
+    "18": {
+        "name": "Igloolik",
+        "links": {
+            "23": "Kugluktuk",
+            "20": "Iqaluit",
+            "2": "Baker Lake"
+        }
+    },
+    "19": {
+        "name": "Inuvik",
+        "links": {
+            "8": "Dawson City",
+            "39": "Sachs Harbour",
+            "10": "Fort Good Hope",
+            "23": "Kugluktuk"
+        }
+    },
+    "20": {
+        "name": "Iqaluit",
+        "links": {
+            "15": "Gander",
+            "28": "Nain",
+            "1": "Alert",
+            "33": "Prince of Wales Island",
+            "18": "Igloolik"
+        }
+    },
+    "21": {
+        "name": "Jasper",
+        "links": {
+            "4": "Calgary",
+            "50": "Vernon",
+            "12": "Fort Nelson",
+            "32": "Prince George",
+            "36": "Rainbow Lake",
+            "9": "Edmonton"
+        }
+    },
+    "22": {
+        "name": "Kenora",
+        "links": {
+            "45": "Thunder Bay",
+            "52": "Winnipeg",
+            "27": "Moosonee",
+            "44": "Thompson",
+            "7": "Churchill"
+        }
+    },
+    "23": {
+        "name": "Kugluktuk",
+        "links": {
+            "5": "Cambridge Bay",
+            "18": "Igloolik",
+            "2": "Baker Lake",
+            "10": "Fort Good Hope",
+            "19": "Inuvik",
+            "14": "Fort Smith",
+            "53": "Yellowknife"
+        }
+    },
+    "24": {
+        "name": "Matagami",
+        "links": {
+            "40": "Saguenay",
+            "27": "Moosonee",
+            "43": "Tete-a-la-Baleine",
+            "28": "Nain",
+            "17": "Happy Valley Goose Bay",
+            "7": "Churchill"
+        }
+    },
+    "25": {
+        "name": "Midland",
+        "links": {
+            "40": "Saguenay",
+            "26": "Montreal",
+            "46": "Toronto",
+            "16": "Greater Sudbury"
+        }
+    },
+    "26": {
+        "name": "Montreal",
+        "links": {
+            "40": "Saguenay",
+            "25": "Midland",
+            "38": "Rimouski"
+        }
+    },
+    "27": {
+        "name": "Moosonee",
+        "links": {
+            "24": "Matagami",
+            "40": "Saguenay",
+            "45": "Thunder Bay",
+            "22": "Kenora",
+            "16": "Greater Sudbury"
+        }
+    },
+    "28": {
+        "name": "Nain",
+        "links": {
+            "20": "Iqaluit",
+            "17": "Happy Valley Goose Bay",
+            "24": "Matagami"
+        }
+    },
+    "29": {
+        "name": "New Brunswick",
+        "links": {
+            "38": "Rimouski",
+            "30": "Nova Scotia"
+        }
+    },
+    "30": {
+        "name": "Nova Scotia",
+        "links": {
+            "15": "Gander",
+            "46": "Toronto",
+            "29": "New Brunswick"
+        }
+    },
+    "31": {
+        "name": "Prince Albert",
+        "links": {
+            "3": "Brandon",
+            "37": "Regina",
+            "42": "Stony Rapids",
+            "47": "Town of The Pas",
+            "9": "Edmonton",
+            "41": "Saskatoon"
+        }
+    },
+    "32": {
+        "name": "Prince George",
+        "links": {
+            "50": "Vernon",
+            "49": "Vancouver",
+            "12": "Fort Nelson",
+            "21": "Jasper",
+            "34": "Prince Rupert"
+        }
+    },
+    "33": {
+        "name": "Prince of Wales Island",
+        "links": {
+            "20": "Iqaluit",
+            "5": "Cambridge Bay",
+            "48": "Ulukhaktok",
+            "35": "Quasuittuq National Park",
+            "1": "Alert"
+        }
+    },
+    "34": {
+        "name": "Prince Rupert",
+        "links": {
+            "49": "Vancouver",
+            "6": "Cassiar",
+            "12": "Fort Nelson",
+            "32": "Prince George"
+        }
+    },
+    "35": {
+        "name": "Quasuittuq National Park",
+        "links": {
+            "39": "Sachs Harbour",
+            "1": "Alert",
+            "33": "Prince of Wales Island"
+        }
+    },
+    "36": {
+        "name": "Rainbow Lake",
+        "links": {
+            "13": "Fort Simpson",
+            "53": "Yellowknife",
+            "21": "Jasper",
+            "12": "Fort Nelson",
+            "9": "Edmonton",
+            "11": "Fort McMurray"
+        }
+    },
+    "37": {
+        "name": "Regina",
+        "links": {
+            "3": "Brandon",
+            "4": "Calgary",
+            "31": "Prince Albert",
+            "41": "Saskatoon"
+        }
+    },
+    "38": {
+        "name": "Rimouski",
+        "links": {
+            "43": "Tete-a-la-Baleine",
+            "15": "Gander",
+            "26": "Montreal",
+            "29": "New Brunswick"
+        }
+    },
+    "39": {
+        "name": "Sachs Harbour",
+        "links": {
+            "19": "Inuvik",
+            "35": "Quasuittuq National Park",
+            "48": "Ulukhaktok"
+        }
+    },
+    "40": {
+        "name": "Saguenay",
+        "links": {
+            "26": "Montreal",
+            "25": "Midland",
+            "24": "Matagami",
+            "27": "Moosonee",
+            "43": "Tete-a-la-Baleine",
+            "16": "Greater Sudbury"
+        }
+    },
+    "41": {
+        "name": "Saskatoon",
+        "links": {
+            "37": "Regina",
+            "4": "Calgary",
+            "31": "Prince Albert",
+            "9": "Edmonton"
+        }
+    },
+    "42": {
+        "name": "Stony Rapids",
+        "links": {
+            "47": "Town of The Pas",
+            "31": "Prince Albert",
+            "14": "Fort Smith",
+            "11": "Fort McMurray",
+            "7": "Churchill",
+            "9": "Edmonton",
+            "2": "Baker Lake"
+        }
+    },
+    "43": {
+        "name": "Tete-a-la-Baleine",
+        "links": {
+            "17": "Happy Valley Goose Bay",
+            "38": "Rimouski",
+            "40": "Saguenay",
+            "24": "Matagami"
+        }
+    },
+    "44": {
+        "name": "Thompson",
+        "links": {
+            "52": "Winnipeg",
+            "47": "Town of The Pas",
+            "22": "Kenora",
+            "7": "Churchill"
+        }
+    },
+    "45": {
+        "name": "Thunder Bay",
+        "links": {
+            "16": "Greater Sudbury",
+            "22": "Kenora",
+            "27": "Moosonee"
+        }
+    },
+    "46": {
+        "name": "Toronto",
+        "links": {
+            "30": "Nova Scotia",
+            "52": "Winnipeg",
+            "25": "Midland",
+            "49": "Vancouver"
+        }
+    },
+    "47": {
+        "name": "Town of The Pas",
+        "links": {
+            "44": "Thompson",
+            "3": "Brandon",
+            "7": "Churchill",
+            "42": "Stony Rapids",
+            "31": "Prince Albert"
+        }
+    },
+    "48": {
+        "name": "Ulukhaktok",
+        "links": {
+            "39": "Sachs Harbour",
+            "33": "Prince of Wales Island",
+            "5": "Cambridge Bay"
+        }
+    },
+    "49": {
+        "name": "Vancouver",
+        "links": {
+            "50": "Vernon",
+            "34": "Prince Rupert",
+            "32": "Prince George",
+            "46": "Toronto"
+        }
+    },
+    "50": {
+        "name": "Vernon",
+        "links": {
+            "4": "Calgary",
+            "49": "Vancouver",
+            "21": "Jasper",
+            "32": "Prince George"
+        }
+    },
+    "51": {
+        "name": "Whitehorse",
+        "links": {
+            "6": "Cassiar",
+            "8": "Dawson City",
+            "13": "Fort Simpson",
+            "12": "Fort Nelson",
+            "10": "Fort Good Hope"
+        }
+    },
+    "52": {
+        "name": "Winnipeg",
+        "links": {
+            "46": "Toronto",
+            "3": "Brandon",
+            "22": "Kenora",
+            "44": "Thompson"
+        }
+    },
+    "53": {
+        "name": "Yellowknife",
+        "links": {
+            "13": "Fort Simpson",
+            "36": "Rainbow Lake",
+            "10": "Fort Good Hope",
+            "14": "Fort Smith",
+            "11": "Fort McMurray",
+            "23": "Kugluktuk"
+        }
+    }
+}

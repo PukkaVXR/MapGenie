@@ -1,0 +1,802 @@
+{
+    "1": {
+        "name": "Priceless Paintings",
+        "links": {
+            "5": "Polish Jewel",
+            "4": "Vault Camera",
+            "2": "Vault Vents"
+        }
+    },
+    "2": {
+        "name": "Vault Vents",
+        "links": {
+            "5": "Polish Jewel",
+            "1": "Priceless Paintings",
+            "3": "Vault Data",
+            "31": "Admin Panel"
+        }
+    },
+    "3": {
+        "name": "Vault Data",
+        "links": {
+            "5": "Polish Jewel",
+            "2": "Vault Vents",
+            "4": "Vault Camera"
+        }
+    },
+    "4": {
+        "name": "Vault Camera",
+        "links": {
+            "6": "Vault Entrance",
+            "5": "Polish Jewel",
+            "1": "Priceless Paintings",
+            "3": "Vault Data"
+        }
+    },
+    "5": {
+        "name": "Polish Jewel",
+        "links": {
+            "1": "Priceless Paintings",
+            "4": "Vault Camera",
+            "3": "Vault Data",
+            "2": "Vault Vents"
+        }
+    },
+    "6": {
+        "name": "Vault Entrance",
+        "links": {
+            "4": "Vault Camera",
+            "7": "Brig",
+            "44": "Engine Data"
+        }
+    },
+    "7": {
+        "name": "Brig",
+        "links": {
+            "8": "Gap Room Vents",
+            "6": "Vault Entrance"
+        }
+    },
+    "8": {
+        "name": "Gap Room Vents",
+        "links": {
+            "13": "Empty Garbage",
+            "7": "Brig",
+            "9": "Moving Platform"
+        }
+    },
+    "9": {
+        "name": "Moving Platform",
+        "links": {
+            "8": "Gap Room Vents",
+            "10": "Gap Room Data"
+        }
+    },
+    "10": {
+        "name": "Gap Room Data",
+        "links": {
+            "11": "Record Entrance",
+            "9": "Moving Platform",
+            "12": "Fix Lights"
+        }
+    },
+    "11": {
+        "name": "Record Entrance",
+        "links": {
+            "18": "Records Cam",
+            "10": "Gap Room Data"
+        }
+    },
+    "12": {
+        "name": "Fix Lights",
+        "links": {
+            "10": "Gap Room Data",
+            "50": "Main Hall Garbage"
+        }
+    },
+    "13": {
+        "name": "Empty Garbage",
+        "links": {
+            "14": "Meeting Table",
+            "8": "Gap Room Vents"
+        }
+    },
+    "14": {
+        "name": "Meeting Table",
+        "links": {
+            "13": "Empty Garbage",
+            "15": "Button"
+        }
+    },
+    "15": {
+        "name": "Button",
+        "links": {
+            "16": "ID Code",
+            "14": "Meeting Table"
+        }
+    },
+    "16": {
+        "name": "ID Code",
+        "links": {
+            "15": "Button"
+        }
+    },
+    "17": {
+        "name": "Admin",
+        "links": {
+            "20": "Record Vents",
+            "21": "Sort Records",
+            "18": "Records Cam"
+        }
+    },
+    "18": {
+        "name": "Records Cam",
+        "links": {
+            "21": "Sort Records",
+            "17": "Admin",
+            "19": "Steamy Door",
+            "11": "Record Entrance"
+        }
+    },
+    "19": {
+        "name": "Steamy Door",
+        "links": {
+            "20": "Record Vents",
+            "21": "Sort Records",
+            "18": "Records Cam",
+            "59": "Towel Pickup"
+        }
+    },
+    "20": {
+        "name": "Record Vents",
+        "links": {
+            "22": "Pool Cue",
+            "17": "Admin",
+            "21": "Sort Records",
+            "19": "Steamy Door"
+        }
+    },
+    "21": {
+        "name": "Sort Records",
+        "links": {
+            "20": "Record Vents",
+            "17": "Admin",
+            "18": "Records Cam",
+            "19": "Steamy Door"
+        }
+    },
+    "22": {
+        "name": "Pool Cue",
+        "links": {
+            "25": "Bathroom Door",
+            "23": "Lounge Wires",
+            "24": "Pool Table",
+            "20": "Record Vents"
+        }
+    },
+    "23": {
+        "name": "Lounge Wires",
+        "links": {
+            "25": "Bathroom Door",
+            "22": "Pool Cue"
+        }
+    },
+    "24": {
+        "name": "Pool Table",
+        "links": {
+            "25": "Bathroom Door",
+            "22": "Pool Cue"
+        }
+    },
+    "25": {
+        "name": "Bathroom Door",
+        "links": {
+            "24": "Pool Table",
+            "22": "Pool Cue",
+            "23": "Lounge Wires",
+            "26": "Stall A"
+        }
+    },
+    "26": {
+        "name": "Stall A",
+        "links": {
+            "25": "Bathroom Door",
+            "28": "Stall B"
+        }
+    },
+    "28": {
+        "name": "Stall B",
+        "links": {
+            "26": "Stall A",
+            "67": "Storage Wires"
+        }
+    },
+    "30": {
+        "name": "Cockpit Data",
+        "links": {
+            "31": "Admin Panel",
+            "32": "Cockpit Vents",
+            "33": "Scenic Views"
+        }
+    },
+    "31": {
+        "name": "Admin Panel",
+        "links": {
+            "2": "Vault Vents",
+            "34": "Panel Readouts",
+            "32": "Cockpit Vents",
+            "30": "Cockpit Data"
+        }
+    },
+    "32": {
+        "name": "Cockpit Vents",
+        "links": {
+            "31": "Admin Panel",
+            "34": "Panel Readouts",
+            "35": "Steering",
+            "33": "Scenic Views",
+            "30": "Cockpit Data"
+        }
+    },
+    "33": {
+        "name": "Scenic Views",
+        "links": {
+            "32": "Cockpit Vents",
+            "30": "Cockpit Data",
+            "35": "Steering",
+            "79": "Viewing Data"
+        }
+    },
+    "34": {
+        "name": "Panel Readouts",
+        "links": {
+            "31": "Admin Panel",
+            "32": "Cockpit Vents",
+            "37": "Cockpit Entrance",
+            "35": "Steering"
+        }
+    },
+    "35": {
+        "name": "Steering",
+        "links": {
+            "32": "Cockpit Vents",
+            "33": "Scenic Views",
+            "34": "Panel Readouts"
+        }
+    },
+    "36": {
+        "name": "Radio",
+        "links": {
+            "37": "Cockpit Entrance"
+        }
+    },
+    "37": {
+        "name": "Cockpit Entrance",
+        "links": {
+            "34": "Panel Readouts",
+            "36": "Radio",
+            "38": "Armoury Entrance"
+        }
+    },
+    "38": {
+        "name": "Armoury Entrance",
+        "links": {
+            "37": "Cockpit Entrance",
+            "39": "Engine Wires",
+            "40": "Valves",
+            "76": "Rifles"
+        }
+    },
+    "39": {
+        "name": "Engine Wires",
+        "links": {
+            "38": "Armoury Entrance",
+            "40": "Valves",
+            "41": "Engines"
+        }
+    },
+    "40": {
+        "name": "Valves",
+        "links": {
+            "38": "Armoury Entrance",
+            "39": "Engine Wires",
+            "41": "Engines"
+        }
+    },
+    "41": {
+        "name": "Engines",
+        "links": {
+            "40": "Valves",
+            "39": "Engine Wires",
+            "42": "Refuel Port"
+        }
+    },
+    "42": {
+        "name": "Refuel Port",
+        "links": {
+            "41": "Engines",
+            "43": "Crane",
+            "45": "Engine Vents",
+            "85": "Burger Creation"
+        }
+    },
+    "43": {
+        "name": "Crane",
+        "links": {
+            "44": "Engine Data",
+            "42": "Refuel Port"
+        }
+    },
+    "44": {
+        "name": "Engine Data",
+        "links": {
+            "6": "Vault Entrance",
+            "43": "Crane"
+        }
+    },
+    "45": {
+        "name": "Engine Vents",
+        "links": {
+            "42": "Refuel Port",
+            "46": "Fuel Piles",
+            "49": "Main Hall Vents"
+        }
+    },
+    "46": {
+        "name": "Fuel Piles",
+        "links": {
+            "48": "West Door",
+            "45": "Engine Vents"
+        }
+    },
+    "47": {
+        "name": "Treasure",
+        "links": {
+            "48": "West Door"
+        }
+    },
+    "48": {
+        "name": "West Door",
+        "links": {
+            "51": "The Hall",
+            "49": "Main Hall Vents",
+            "47": "Treasure",
+            "46": "Fuel Piles"
+        }
+    },
+    "49": {
+        "name": "Main Hall Vents",
+        "links": {
+            "48": "West Door",
+            "85": "Burger Creation",
+            "45": "Engine Vents"
+        }
+    },
+    "50": {
+        "name": "Main Hall Garbage",
+        "links": {
+            "51": "The Hall",
+            "12": "Fix Lights"
+        }
+    },
+    "51": {
+        "name": "The Hall",
+        "links": {
+            "53": "Food Scraps",
+            "50": "Main Hall Garbage",
+            "48": "West Door"
+        }
+    },
+    "52": {
+        "name": "Dark Room",
+        "links": {
+            "53": "Food Scraps"
+        }
+    },
+    "53": {
+        "name": "Food Scraps",
+        "links": {
+            "56": "East Door",
+            "52": "Dark Room",
+            "51": "The Hall",
+            "54": "Electrical Access"
+        }
+    },
+    "54": {
+        "name": "Electrical Access",
+        "links": {
+            "93": "Ladder",
+            "53": "Food Scraps"
+        }
+    },
+    "55": {
+        "name": "Decontaminate",
+        "links": {
+            "56": "East Door"
+        }
+    },
+    "56": {
+        "name": "East Door",
+        "links": {
+            "57": "Shower Power",
+            "55": "Decontaminate",
+            "53": "Food Scraps"
+        }
+    },
+    "57": {
+        "name": "Shower Power",
+        "links": {
+            "60": "Locker Room",
+            "58": "Sinks",
+            "56": "East Door"
+        }
+    },
+    "58": {
+        "name": "Sinks",
+        "links": {
+            "59": "Towel Pickup",
+            "57": "Shower Power"
+        }
+    },
+    "59": {
+        "name": "Towel Pickup",
+        "links": {
+            "19": "Steamy Door",
+            "58": "Sinks"
+        }
+    },
+    "60": {
+        "name": "Locker Room",
+        "links": {
+            "62": "Showers Entrance",
+            "57": "Shower Power",
+            "63": "Shower Vents"
+        }
+    },
+    "61": {
+        "name": "Fix Shower",
+        "links": {
+            "62": "Showers Entrance"
+        }
+    },
+    "62": {
+        "name": "Showers Entrance",
+        "links": {
+            "64": "High Fan Control",
+            "61": "Fix Shower",
+            "60": "Locker Room",
+            "63": "Shower Vents"
+        }
+    },
+    "63": {
+        "name": "Shower Vents",
+        "links": {
+            "62": "Showers Entrance",
+            "60": "Locker Room"
+        }
+    },
+    "64": {
+        "name": "High Fan Control",
+        "links": {
+            "65": "Low Fan Control",
+            "62": "Showers Entrance"
+        }
+    },
+    "65": {
+        "name": "Low Fan Control",
+        "links": {
+            "72": "Exit",
+            "64": "High Fan Control"
+        }
+    },
+    "66": {
+        "name": "Storage Lighting",
+        "links": {
+            "68": "Boxes",
+            "70": "Crates"
+        }
+    },
+    "67": {
+        "name": "Storage Wires",
+        "links": {
+            "68": "Boxes",
+            "28": "Stall B"
+        }
+    },
+    "68": {
+        "name": "Boxes",
+        "links": {
+            "67": "Storage Wires",
+            "66": "Storage Lighting",
+            "70": "Crates",
+            "69": "Fuel"
+        }
+    },
+    "69": {
+        "name": "Fuel",
+        "links": {
+            "71": "Fancy Hats",
+            "68": "Boxes"
+        }
+    },
+    "70": {
+        "name": "Crates",
+        "links": {
+            "73": "Storage Vents",
+            "72": "Exit",
+            "71": "Fancy Hats",
+            "68": "Boxes",
+            "66": "Storage Lighting"
+        }
+    },
+    "71": {
+        "name": "Fancy Hats",
+        "links": {
+            "74": "Unlock Safe",
+            "69": "Fuel",
+            "70": "Crates"
+        }
+    },
+    "72": {
+        "name": "Exit",
+        "links": {
+            "73": "Storage Vents",
+            "65": "Low Fan Control",
+            "70": "Crates"
+        }
+    },
+    "73": {
+        "name": "Storage Vents",
+        "links": {
+            "105": "Medical Garbage",
+            "72": "Exit",
+            "70": "Crates"
+        }
+    },
+    "74": {
+        "name": "Unlock Safe",
+        "links": {
+            "71": "Fancy Hats"
+        }
+    },
+    "75": {
+        "name": "Rifle Storage",
+        "links": {
+            "76": "Rifles"
+        }
+    },
+    "76": {
+        "name": "Rifles",
+        "links": {
+            "75": "Rifle Storage",
+            "38": "Armoury Entrance",
+            "77": "Pistols"
+        }
+    },
+    "77": {
+        "name": "Pistols",
+        "links": {
+            "76": "Rifles",
+            "82": "Trash Can",
+            "78": "Pistol Storage"
+        }
+    },
+    "78": {
+        "name": "Pistol Storage",
+        "links": {
+            "77": "Pistols"
+        }
+    },
+    "79": {
+        "name": "Viewing Data",
+        "links": {
+            "33": "Scenic Views",
+            "80": "Main Entrance"
+        }
+    },
+    "80": {
+        "name": "Main Entrance",
+        "links": {
+            "79": "Viewing Data",
+            "81": "Wire Panel",
+            "106": "Exterior Upload W"
+        }
+    },
+    "81": {
+        "name": "Wire Panel",
+        "links": {
+            "80": "Main Entrance",
+            "83": "The Sauce"
+        }
+    },
+    "82": {
+        "name": "Trash Can",
+        "links": {
+            "77": "Pistols",
+            "83": "The Sauce"
+        }
+    },
+    "83": {
+        "name": "The Sauce",
+        "links": {
+            "85": "Burger Creation",
+            "82": "Trash Can",
+            "86": "Stew Pot",
+            "81": "Wire Panel"
+        }
+    },
+    "85": {
+        "name": "Burger Creation",
+        "links": {
+            "42": "Refuel Port",
+            "83": "The Sauce",
+            "86": "Stew Pot",
+            "49": "Main Hall Vents"
+        }
+    },
+    "86": {
+        "name": "Stew Pot",
+        "links": {
+            "85": "Burger Creation",
+            "87": "Hall of Portraits",
+            "83": "The Sauce"
+        }
+    },
+    "87": {
+        "name": "Hall of Portraits",
+        "links": {
+            "86": "Stew Pot",
+            "88": "Security Cam"
+        }
+    },
+    "88": {
+        "name": "Security Cam",
+        "links": {
+            "87": "Hall of Portraits",
+            "89": "Tapes"
+        }
+    },
+    "89": {
+        "name": "Tapes",
+        "links": {
+            "107": "Exterior Upload E",
+            "88": "Security Cam",
+            "90": "Security Panel"
+        }
+    },
+    "90": {
+        "name": "Security Panel",
+        "links": {
+            "89": "Tapes",
+            "92": "Tool Box"
+        }
+    },
+    "91": {
+        "name": " Lockers",
+        "links": {
+            "92": "Tool Box",
+            "93": "Ladder"
+        }
+    },
+    "92": {
+        "name": "Tool Box",
+        "links": {
+            "90": "Security Panel",
+            "94": "W Cube",
+            "91": " Lockers"
+        }
+    },
+    "93": {
+        "name": "Ladder",
+        "links": {
+            "54": "Electrical Access",
+            "91": " Lockers",
+            "94": "W Cube",
+            "95": "Distributor"
+        }
+    },
+    "94": {
+        "name": "W Cube",
+        "links": {
+            "92": "Tool Box",
+            "93": "Ladder",
+            "96": "S Cube",
+            "95": "Distributor"
+        }
+    },
+    "95": {
+        "name": "Distributor",
+        "links": {
+            "93": "Ladder",
+            "96": "S Cube",
+            "98": "NE Cube",
+            "94": "W Cube"
+        }
+    },
+    "96": {
+        "name": "S Cube",
+        "links": {
+            "94": "W Cube",
+            "95": "Distributor",
+            "99": "SE Cube"
+        }
+    },
+    "97": {
+        "name": "Power Diversion",
+        "links": {
+            "98": "NE Cube"
+        }
+    },
+    "98": {
+        "name": "NE Cube",
+        "links": {
+            "95": "Distributor",
+            "99": "SE Cube",
+            "101": "Medical Beds",
+            "97": "Power Diversion"
+        }
+    },
+    "99": {
+        "name": "SE Cube",
+        "links": {
+            "96": "S Cube",
+            "98": "NE Cube"
+        }
+    },
+    "100": {
+        "name": "Scale",
+        "links": {
+            "101": "Medical Beds",
+            "102": "Medical Data"
+        }
+    },
+    "101": {
+        "name": "Medical Beds",
+        "links": {
+            "98": "NE Cube",
+            "103": "Vitals",
+            "100": "Scale"
+        }
+    },
+    "102": {
+        "name": "Medical Data",
+        "links": {
+            "100": "Scale",
+            "104": "Waiting Room"
+        }
+    },
+    "103": {
+        "name": "Vitals",
+        "links": {
+            "101": "Medical Beds"
+        }
+    },
+    "104": {
+        "name": "Waiting Room",
+        "links": {
+            "102": "Medical Data",
+            "105": "Medical Garbage"
+        }
+    },
+    "105": {
+        "name": "Medical Garbage",
+        "links": {
+            "104": "Waiting Room",
+            "73": "Storage Vents"
+        }
+    },
+    "106": {
+        "name": "Exterior Upload W",
+        "links": {
+            "80": "Main Entrance",
+            "107": "Exterior Upload E"
+        }
+    },
+    "107": {
+        "name": "Exterior Upload E",
+        "links": {
+            "106": "Exterior Upload W",
+            "89": "Tapes"
+        }
+    }
+}

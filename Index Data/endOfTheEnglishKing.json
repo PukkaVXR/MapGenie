@@ -1,0 +1,301 @@
+{
+    "1": {
+        "name": "Rampant Rampart",
+        "links": {
+            "5": "Armory",
+            "2": "Cloakroom",
+            "4": "Queen's Chamber"
+        }
+    },
+    "2": {
+        "name": "Cloakroom",
+        "links": {
+            "3": "Garderobe",
+            "1": "Rampant Rampart",
+            "4": "Queen's Chamber",
+            "7": "Bad Well ",
+            "26": "Queen's Tower"
+        }
+    },
+    "3": {
+        "name": "Garderobe",
+        "links": {
+            "6": "Docks",
+            "2": "Cloakroom"
+        }
+    },
+    "4": {
+        "name": "Queen's Chamber",
+        "links": {
+            "2": "Cloakroom",
+            "1": "Rampant Rampart",
+            "34": "Royal Court",
+            "26": "Queen's Tower"
+        }
+    },
+    "5": {
+        "name": "Armory",
+        "links": {
+            "7": "Bad Well ",
+            "10": "Training Yard",
+            "1": "Rampant Rampart"
+        }
+    },
+    "6": {
+        "name": "Docks",
+        "links": {
+            "3": "Garderobe",
+            "7": "Bad Well "
+        }
+    },
+    "7": {
+        "name": "Bad Well ",
+        "links": {
+            "2": "Cloakroom",
+            "6": "Docks",
+            "21": "Sea Raven",
+            "5": "Armory"
+        }
+    },
+    "8": {
+        "name": "Portcullis ",
+        "links": {
+            "13": "Foul Fissure",
+            "10": "Training Yard",
+            "20": "Dread Serpent",
+            "9": "Barbican",
+            "32": "Chapel"
+        }
+    },
+    "9": {
+        "name": "Barbican",
+        "links": {
+            "8": "Portcullis ",
+            "13": "Foul Fissure"
+        }
+    },
+    "10": {
+        "name": "Training Yard",
+        "links": {
+            "5": "Armory",
+            "34": "Royal Court",
+            "8": "Portcullis ",
+            "23": "Wolf Oar"
+        }
+    },
+    "11": {
+        "name": "Postern",
+        "links": {
+            "12": "Secret Stairs",
+            "15": "Good Well"
+        }
+    },
+    "12": {
+        "name": "Secret Stairs",
+        "links": {
+            "33": "Great Hall",
+            "13": "Foul Fissure",
+            "11": "Postern",
+            "18": "Wave Horse"
+        }
+    },
+    "13": {
+        "name": "Foul Fissure",
+        "links": {
+            "12": "Secret Stairs",
+            "9": "Barbican",
+            "8": "Portcullis "
+        }
+    },
+    "14": {
+        "name": "Stables",
+        "links": {
+            "15": "Good Well",
+            "17": "East Tower"
+        }
+    },
+    "15": {
+        "name": "Good Well",
+        "links": {
+            "11": "Postern",
+            "14": "Stables",
+            "28": "Kitchens"
+        }
+    },
+    "16": {
+        "name": "Chicken Coop",
+        "links": {
+            "29": "Alchemists Alcove",
+            "26": "Queen's Tower",
+            "28": "Kitchens",
+            "37": "Guard Robes",
+            "17": "East Tower"
+        }
+    },
+    "17": {
+        "name": "East Tower",
+        "links": {
+            "16": "Chicken Coop",
+            "14": "Stables",
+            "19": "Sail Hound"
+        }
+    },
+    "18": {
+        "name": "Wave Horse",
+        "links": {
+            "12": "Secret Stairs",
+            "19": "Sail Hound"
+        }
+    },
+    "19": {
+        "name": "Sail Hound",
+        "links": {
+            "17": "East Tower",
+            "18": "Wave Horse"
+        }
+    },
+    "20": {
+        "name": "Dread Serpent",
+        "links": {
+            "8": "Portcullis ",
+            "23": "Wolf Oar"
+        }
+    },
+    "21": {
+        "name": "Sea Raven",
+        "links": {
+            "7": "Bad Well ",
+            "22": "Oak Destroyer"
+        }
+    },
+    "22": {
+        "name": "Oak Destroyer",
+        "links": {
+            "21": "Sea Raven",
+            "25": "Ragnar Longboat"
+        }
+    },
+    "23": {
+        "name": "Wolf Oar",
+        "links": {
+            "10": "Training Yard",
+            "20": "Dread Serpent"
+        }
+    },
+    "24": {
+        "name": "Pine Serpent ",
+        "links": {
+            "25": "Ragnar Longboat",
+            "27": "West Tower"
+        }
+    },
+    "25": {
+        "name": "Ragnar Longboat",
+        "links": {
+            "22": "Oak Destroyer",
+            "24": "Pine Serpent "
+        }
+    },
+    "26": {
+        "name": "Queen's Tower",
+        "links": {
+            "27": "West Tower",
+            "4": "Queen's Chamber",
+            "2": "Cloakroom",
+            "35": "Edmund's Enclave",
+            "16": "Chicken Coop"
+        }
+    },
+    "27": {
+        "name": "West Tower",
+        "links": {
+            "26": "Queen's Tower",
+            "24": "Pine Serpent "
+        }
+    },
+    "28": {
+        "name": "Kitchens",
+        "links": {
+            "33": "Great Hall",
+            "15": "Good Well",
+            "31": "Round Table",
+            "29": "Alchemists Alcove",
+            "16": "Chicken Coop"
+        }
+    },
+    "29": {
+        "name": "Alchemists Alcove",
+        "links": {
+            "16": "Chicken Coop",
+            "28": "Kitchens",
+            "31": "Round Table"
+        }
+    },
+    "30": {
+        "name": "Treasury ",
+        "links": {
+            "33": "Great Hall",
+            "31": "Round Table"
+        }
+    },
+    "31": {
+        "name": "Round Table",
+        "links": {
+            "33": "Great Hall",
+            "29": "Alchemists Alcove",
+            "28": "Kitchens",
+            "30": "Treasury "
+        }
+    },
+    "32": {
+        "name": "Chapel",
+        "links": {
+            "33": "Great Hall",
+            "34": "Royal Court",
+            "8": "Portcullis "
+        }
+    },
+    "33": {
+        "name": "Great Hall",
+        "links": {
+            "32": "Chapel",
+            "31": "Round Table",
+            "30": "Treasury ",
+            "12": "Secret Stairs",
+            "28": "Kitchens"
+        }
+    },
+    "34": {
+        "name": "Royal Court",
+        "links": {
+            "10": "Training Yard",
+            "32": "Chapel",
+            "4": "Queen's Chamber",
+            "36": "Throne Room"
+        }
+    },
+    "35": {
+        "name": "Edmund's Enclave",
+        "links": {
+            "37": "Guard Robes",
+            "36": "Throne Room",
+            "26": "Queen's Tower"
+        }
+    },
+    "36": {
+        "name": "Throne Room",
+        "links": {
+            "35": "Edmund's Enclave",
+            "34": "Royal Court",
+            "37": "Guard Robes"
+        }
+    },
+    "37": {
+        "name": "Guard Robes",
+        "links": {
+            "35": "Edmund's Enclave",
+            "16": "Chicken Coop",
+            "36": "Throne Room"
+        }
+    }
+}

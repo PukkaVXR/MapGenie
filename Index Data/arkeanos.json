@@ -1,0 +1,529 @@
+{
+    "1": {
+        "name": "Armory",
+        "links": {
+            "20": "Entry"
+        }
+    },
+    "2": {
+        "name": "Arms Dealer",
+        "links": {
+            "60": "Sky Hall",
+            "58": "Ship District"
+        }
+    },
+    "3": {
+        "name": "Bank",
+        "links": {
+            "20": "Entry"
+        }
+    },
+    "4": {
+        "name": "Black Island",
+        "links": {
+            "36": "Left Wall",
+            "6": "Cacu Territory",
+            "20": "Entry"
+        }
+    },
+    "5": {
+        "name": "Cabin",
+        "links": {
+            "14": "Defence A",
+            "64": "Stables"
+        }
+    },
+    "6": {
+        "name": "Cacu Territory",
+        "links": {
+            "34": "Lady of the Lake",
+            "42": "Mine",
+            "4": "Black Island"
+        }
+    },
+    "7": {
+        "name": "Canteen",
+        "links": {
+            "20": "Entry"
+        }
+    },
+    "8": {
+        "name": "Cavern",
+        "links": {
+            "39": "Market Trail",
+            "50": "Outer Wall"
+        }
+    },
+    "9": {
+        "name": "Central Hall",
+        "links": {
+            "49": "Officer",
+            "28": "Guards",
+            "17": "East Wall"
+        }
+    },
+    "10": {
+        "name": "Chief",
+        "links": {
+            "63": "South Wall",
+            "49": "Officer"
+        }
+    },
+    "11": {
+        "name": "City Path",
+        "links": {
+            "17": "East Wall",
+            "22": "Field Trail",
+            "59": "Shore Trail",
+            "46": "North Market"
+        }
+    },
+    "12": {
+        "name": "Coloseum",
+        "links": {
+            "40": "Mejillon",
+            "60": "Sky Hall"
+        }
+    },
+    "13": {
+        "name": "Copernico",
+        "links": {
+            "35": "Laxxuz",
+            "26": "Fountain"
+        }
+    },
+    "14": {
+        "name": "Defence A",
+        "links": {
+            "64": "Stables",
+            "5": "Cabin"
+        }
+    },
+    "15": {
+        "name": "Defence B",
+        "links": {
+            "24": "Forest Lounge",
+            "64": "Stables"
+        }
+    },
+    "16": {
+        "name": "East Corridor",
+        "links": {
+            "22": "Field Trail",
+            "44": "Mountain Pass",
+            "21": "Entry Corridor"
+        }
+    },
+    "17": {
+        "name": "East Wall",
+        "links": {
+            "47": "North Wall",
+            "11": "City Path",
+            "63": "South Wall",
+            "9": "Central Hall"
+        }
+    },
+    "18": {
+        "name": "Engineers",
+        "links": {
+            "29": "Hallway",
+            "33": "Lab"
+        }
+    },
+    "19": {
+        "name": "Entrance",
+        "links": {
+            "61": "Sky Steps",
+            "60": "Sky Hall",
+            "31": "Hill Pass"
+        }
+    },
+    "20": {
+        "name": "Entry",
+        "links": {
+            "3": "Bank",
+            "27": "Graveyard",
+            "53": "Police",
+            "65": "Store",
+            "36": "Left Wall",
+            "4": "Black Island",
+            "1": "Armory",
+            "7": "Canteen",
+            "51": "Parking"
+        }
+    },
+    "21": {
+        "name": "Entry Corridor",
+        "links": {
+            "69": "West Corridor",
+            "22": "Field Trail",
+            "16": "East Corridor",
+            "29": "Hallway"
+        }
+    },
+    "22": {
+        "name": "Field Trail",
+        "links": {
+            "11": "City Path",
+            "16": "East Corridor",
+            "21": "Entry Corridor",
+            "39": "Market Trail"
+        }
+    },
+    "23": {
+        "name": "Flank",
+        "links": {
+            "30": "Harbour",
+            "68": "Turtle Bay",
+            "43": "Mountain",
+            "52": "Pirate Island"
+        }
+    },
+    "24": {
+        "name": "Forest Lounge",
+        "links": {
+            "64": "Stables",
+            "25": "Forest Wall",
+            "15": "Defence B"
+        }
+    },
+    "25": {
+        "name": "Forest Wall",
+        "links": {
+            "24": "Forest Lounge",
+            "47": "North Wall",
+            "36": "Left Wall"
+        }
+    },
+    "26": {
+        "name": "Fountain",
+        "links": {
+            "67": "Tunnel",
+            "35": "Laxxuz",
+            "13": "Copernico",
+            "40": "Mejillon",
+            "54": "Prison",
+            "66": "Town"
+        }
+    },
+    "27": {
+        "name": "Graveyard",
+        "links": {
+            "20": "Entry",
+            "64": "Stables"
+        }
+    },
+    "28": {
+        "name": "Guards",
+        "links": {
+            "9": "Central Hall",
+            "41": "Merchants"
+        }
+    },
+    "29": {
+        "name": "Hallway",
+        "links": {
+            "21": "Entry Corridor",
+            "48": "Office",
+            "18": "Engineers"
+        }
+    },
+    "30": {
+        "name": "Harbour",
+        "links": {
+            "59": "Shore Trail",
+            "23": "Flank"
+        }
+    },
+    "31": {
+        "name": "Hill Pass",
+        "links": {
+            "44": "Mountain Pass",
+            "69": "West Corridor",
+            "19": "Entrance"
+        }
+    },
+    "32": {
+        "name": "Kitchen",
+        "links": {
+            "48": "Office"
+        }
+    },
+    "33": {
+        "name": "Lab",
+        "links": {
+            "18": "Engineers",
+            "69": "West Corridor"
+        }
+    },
+    "34": {
+        "name": "Lady of the Lake",
+        "links": {
+            "37": "Market",
+            "6": "Cacu Territory",
+            "42": "Mine",
+            "52": "Pirate Island"
+        }
+    },
+    "35": {
+        "name": "Laxxuz",
+        "links": {
+            "26": "Fountain",
+            "13": "Copernico"
+        }
+    },
+    "36": {
+        "name": "Left Wall",
+        "links": {
+            "25": "Forest Wall",
+            "63": "South Wall",
+            "4": "Black Island",
+            "20": "Entry"
+        }
+    },
+    "37": {
+        "name": "Market",
+        "links": {
+            "34": "Lady of the Lake"
+        }
+    },
+    "38": {
+        "name": "Market District",
+        "links": {
+            "55": "Pyramid"
+        }
+    },
+    "39": {
+        "name": "Market Trail",
+        "links": {
+            "22": "Field Trail",
+            "61": "Sky Steps",
+            "8": "Cavern",
+            "62": "South Market",
+            "59": "Shore Trail"
+        }
+    },
+    "40": {
+        "name": "Mejillon",
+        "links": {
+            "26": "Fountain",
+            "12": "Coloseum"
+        }
+    },
+    "41": {
+        "name": "Merchants",
+        "links": {
+            "28": "Guards",
+            "47": "North Wall"
+        }
+    },
+    "42": {
+        "name": "Mine",
+        "links": {
+            "6": "Cacu Territory",
+            "34": "Lady of the Lake",
+            "45": "Nephite Iceberg"
+        }
+    },
+    "43": {
+        "name": "Mountain",
+        "links": {
+            "68": "Turtle Bay",
+            "56": "Rock Island",
+            "23": "Flank"
+        }
+    },
+    "44": {
+        "name": "Mountain Pass",
+        "links": {
+            "16": "East Corridor",
+            "31": "Hill Pass",
+            "48": "Office",
+            "47": "North Wall"
+        }
+    },
+    "45": {
+        "name": "Nephite Iceberg",
+        "links": {
+            "42": "Mine"
+        }
+    },
+    "46": {
+        "name": "North Market",
+        "links": {
+            "11": "City Path",
+            "62": "South Market"
+        }
+    },
+    "47": {
+        "name": "North Wall",
+        "links": {
+            "25": "Forest Wall",
+            "17": "East Wall",
+            "41": "Merchants",
+            "44": "Mountain Pass"
+        }
+    },
+    "48": {
+        "name": "Office",
+        "links": {
+            "29": "Hallway",
+            "32": "Kitchen",
+            "44": "Mountain Pass"
+        }
+    },
+    "49": {
+        "name": "Officer",
+        "links": {
+            "10": "Chief",
+            "9": "Central Hall"
+        }
+    },
+    "50": {
+        "name": "Outer Wall",
+        "links": {
+            "8": "Cavern",
+            "67": "Tunnel"
+        }
+    },
+    "51": {
+        "name": "Parking",
+        "links": {
+            "20": "Entry"
+        }
+    },
+    "52": {
+        "name": "Pirate Island",
+        "links": {
+            "34": "Lady of the Lake",
+            "23": "Flank"
+        }
+    },
+    "53": {
+        "name": "Police",
+        "links": {
+            "20": "Entry"
+        }
+    },
+    "54": {
+        "name": "Prison",
+        "links": {
+            "56": "Rock Island",
+            "26": "Fountain",
+            "66": "Town"
+        }
+    },
+    "55": {
+        "name": "Pyramid",
+        "links": {
+            "60": "Sky Hall",
+            "38": "Market District"
+        }
+    },
+    "56": {
+        "name": "Rock Island",
+        "links": {
+            "43": "Mountain",
+            "54": "Prison",
+            "57": "Sand Island"
+        }
+    },
+    "57": {
+        "name": "Sand Island",
+        "links": {
+            "56": "Rock Island"
+        }
+    },
+    "58": {
+        "name": "Ship District",
+        "links": {
+            "2": "Arms Dealer"
+        }
+    },
+    "59": {
+        "name": "Shore Trail",
+        "links": {
+            "39": "Market Trail",
+            "30": "Harbour",
+            "63": "South Wall",
+            "11": "City Path"
+        }
+    },
+    "60": {
+        "name": "Sky Hall",
+        "links": {
+            "19": "Entrance",
+            "55": "Pyramid",
+            "12": "Coloseum",
+            "2": "Arms Dealer"
+        }
+    },
+    "61": {
+        "name": "Sky Steps",
+        "links": {
+            "39": "Market Trail",
+            "19": "Entrance"
+        }
+    },
+    "62": {
+        "name": "South Market",
+        "links": {
+            "39": "Market Trail",
+            "46": "North Market"
+        }
+    },
+    "63": {
+        "name": "South Wall",
+        "links": {
+            "36": "Left Wall",
+            "10": "Chief",
+            "17": "East Wall",
+            "59": "Shore Trail"
+        }
+    },
+    "64": {
+        "name": "Stables",
+        "links": {
+            "27": "Graveyard",
+            "14": "Defence A",
+            "5": "Cabin",
+            "24": "Forest Lounge",
+            "15": "Defence B"
+        }
+    },
+    "65": {
+        "name": "Store",
+        "links": {
+            "20": "Entry"
+        }
+    },
+    "66": {
+        "name": "Town",
+        "links": {
+            "26": "Fountain",
+            "54": "Prison"
+        }
+    },
+    "67": {
+        "name": "Tunnel",
+        "links": {
+            "50": "Outer Wall",
+            "26": "Fountain"
+        }
+    },
+    "68": {
+        "name": "Turtle Bay",
+        "links": {
+            "23": "Flank",
+            "43": "Mountain"
+        }
+    },
+    "69": {
+        "name": "West Corridor",
+        "links": {
+            "31": "Hill Pass",
+            "21": "Entry Corridor",
+            "33": "Lab"
+        }
+    }
+}

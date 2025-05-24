@@ -1,0 +1,358 @@
+{
+    "1": {
+        "name": "Ash Remains",
+        "links": {
+            "10": "Hamilton Isle",
+            "21": "Pueblo De Oro",
+            "6": "Fort St Taylor"
+        }
+    },
+    "2": {
+        "name": "Bay of Fog",
+        "links": {
+            "20": "Port Regal",
+            "17": "Lost Souls",
+            "4": "El Derouin",
+            "36": "Sullivan Sands"
+        }
+    },
+    "3": {
+        "name": "Davey Jones' Locker",
+        "links": {
+            "23": "Redbeard's Rest",
+            "24": "Richard's Ruins",
+            "33": "St Sungaila"
+        }
+    },
+    "4": {
+        "name": "El Derouin",
+        "links": {
+            "33": "St Sungaila",
+            "24": "Richard's Ruins",
+            "28": "Scurvy Tooth",
+            "2": "Bay of Fog",
+            "36": "Sullivan Sands"
+        }
+    },
+    "5": {
+        "name": "Fennell's Folly",
+        "links": {
+            "29": "Siren Spriggs",
+            "42": "Van Leer Lagoon",
+            "7": "Golden Fleece"
+        }
+    },
+    "6": {
+        "name": "Fort St Taylor",
+        "links": {
+            "21": "Pueblo De Oro",
+            "10": "Hamilton Isle",
+            "1": "Ash Remains"
+        }
+    },
+    "7": {
+        "name": "Golden Fleece",
+        "links": {
+            "29": "Siren Spriggs",
+            "5": "Fennell's Folly",
+            "38": "The Nabahi Coast"
+        }
+    },
+    "8": {
+        "name": "Grafton's Drop",
+        "links": {
+            "41": "Two Palms",
+            "30": "Siren's Abyss"
+        }
+    },
+    "9": {
+        "name": "Grog Swamp",
+        "links": {
+            "16": "Kraken Island",
+            "19": "Old Vengeance",
+            "40": "Thunder Rocks",
+            "39": "The Pit"
+        }
+    },
+    "10": {
+        "name": "Hamilton Isle",
+        "links": {
+            "6": "Fort St Taylor",
+            "1": "Ash Remains"
+        }
+    },
+    "11": {
+        "name": "Hangman's Cove",
+        "links": {
+            "13": "Hoagland Harbour",
+            "18": "New Providence"
+        }
+    },
+    "12": {
+        "name": "Harpoon Hendrik",
+        "links": {
+            "22": "Ravens Peak",
+            "43": "West Fallen Cliffs",
+            "15": "Isle of Dogs"
+        }
+    },
+    "13": {
+        "name": "Hoagland Harbour",
+        "links": {
+            "21": "Pueblo De Oro",
+            "27": "San Valenzuela",
+            "11": "Hangman's Cove"
+        }
+    },
+    "14": {
+        "name": "Ilija's Bluff",
+        "links": {
+            "33": "St Sungaila",
+            "35": "Straits of Fire",
+            "31": "Skull Strait"
+        }
+    },
+    "15": {
+        "name": "Isle of Dogs",
+        "links": {
+            "43": "West Fallen Cliffs",
+            "12": "Harpoon Hendrik"
+        }
+    },
+    "16": {
+        "name": "Kraken Island",
+        "links": {
+            "9": "Grog Swamp",
+            "39": "The Pit"
+        }
+    },
+    "17": {
+        "name": "Lost Souls",
+        "links": {
+            "40": "Thunder Rocks",
+            "41": "Two Palms",
+            "20": "Port Regal",
+            "2": "Bay of Fog"
+        }
+    },
+    "18": {
+        "name": "New Providence",
+        "links": {
+            "31": "Skull Strait",
+            "21": "Pueblo De Oro",
+            "11": "Hangman's Cove"
+        }
+    },
+    "19": {
+        "name": "Old Vengeance",
+        "links": {
+            "39": "The Pit",
+            "9": "Grog Swamp"
+        }
+    },
+    "20": {
+        "name": "Port Regal",
+        "links": {
+            "17": "Lost Souls",
+            "2": "Bay of Fog",
+            "22": "Ravens Peak"
+        }
+    },
+    "21": {
+        "name": "Pueblo De Oro",
+        "links": {
+            "18": "New Providence",
+            "6": "Fort St Taylor",
+            "1": "Ash Remains",
+            "13": "Hoagland Harbour"
+        }
+    },
+    "22": {
+        "name": "Ravens Peak",
+        "links": {
+            "20": "Port Regal",
+            "28": "Scurvy Tooth",
+            "32": "Smuggler's Cove",
+            "12": "Harpoon Hendrik",
+            "34": "Stonham Falls"
+        }
+    },
+    "23": {
+        "name": "Redbeard's Rest",
+        "links": {
+            "42": "Van Leer Lagoon",
+            "24": "Richard's Ruins",
+            "3": "Davey Jones' Locker"
+        }
+    },
+    "24": {
+        "name": "Richard's Ruins",
+        "links": {
+            "23": "Redbeard's Rest",
+            "29": "Siren Spriggs",
+            "4": "El Derouin",
+            "3": "Davey Jones' Locker",
+            "28": "Scurvy Tooth"
+        }
+    },
+    "25": {
+        "name": "Rio Muerte",
+        "links": {
+            "27": "San Valenzuela",
+            "26": "Rolandine Reef",
+            "37": "The Elder Ridge"
+        }
+    },
+    "26": {
+        "name": "Rolandine Reef",
+        "links": {
+            "25": "Rio Muerte",
+            "44": "Whale Point",
+            "37": "The Elder Ridge"
+        }
+    },
+    "27": {
+        "name": "San Valenzuela",
+        "links": {
+            "13": "Hoagland Harbour",
+            "25": "Rio Muerte",
+            "42": "Van Leer Lagoon"
+        }
+    },
+    "28": {
+        "name": "Scurvy Tooth",
+        "links": {
+            "22": "Ravens Peak",
+            "4": "El Derouin",
+            "24": "Richard's Ruins"
+        }
+    },
+    "29": {
+        "name": "Siren Spriggs",
+        "links": {
+            "42": "Van Leer Lagoon",
+            "24": "Richard's Ruins",
+            "5": "Fennell's Folly",
+            "7": "Golden Fleece"
+        }
+    },
+    "30": {
+        "name": "Siren's Abyss",
+        "links": {
+            "8": "Grafton's Drop",
+            "33": "St Sungaila",
+            "36": "Sullivan Sands",
+            "41": "Two Palms"
+        }
+    },
+    "31": {
+        "name": "Skull Strait",
+        "links": {
+            "35": "Straits of Fire",
+            "18": "New Providence",
+            "14": "Ilija's Bluff"
+        }
+    },
+    "32": {
+        "name": "Smuggler's Cove",
+        "links": {
+            "38": "The Nabahi Coast",
+            "22": "Ravens Peak",
+            "34": "Stonham Falls"
+        }
+    },
+    "33": {
+        "name": "St Sungaila",
+        "links": {
+            "30": "Siren's Abyss",
+            "35": "Straits of Fire",
+            "14": "Ilija's Bluff",
+            "4": "El Derouin",
+            "3": "Davey Jones' Locker"
+        }
+    },
+    "34": {
+        "name": "Stonham Falls",
+        "links": {
+            "32": "Smuggler's Cove",
+            "22": "Ravens Peak"
+        }
+    },
+    "35": {
+        "name": "Straits of Fire",
+        "links": {
+            "33": "St Sungaila",
+            "31": "Skull Strait",
+            "14": "Ilija's Bluff"
+        }
+    },
+    "36": {
+        "name": "Sullivan Sands",
+        "links": {
+            "2": "Bay of Fog",
+            "30": "Siren's Abyss",
+            "4": "El Derouin"
+        }
+    },
+    "37": {
+        "name": "The Elder Ridge",
+        "links": {
+            "44": "Whale Point",
+            "25": "Rio Muerte",
+            "26": "Rolandine Reef"
+        }
+    },
+    "38": {
+        "name": "The Nabahi Coast",
+        "links": {
+            "7": "Golden Fleece",
+            "32": "Smuggler's Cove"
+        }
+    },
+    "39": {
+        "name": "The Pit",
+        "links": {
+            "16": "Kraken Island",
+            "19": "Old Vengeance",
+            "9": "Grog Swamp"
+        }
+    },
+    "40": {
+        "name": "Thunder Rocks",
+        "links": {
+            "9": "Grog Swamp",
+            "17": "Lost Souls"
+        }
+    },
+    "41": {
+        "name": "Two Palms",
+        "links": {
+            "17": "Lost Souls",
+            "8": "Grafton's Drop",
+            "30": "Siren's Abyss"
+        }
+    },
+    "42": {
+        "name": "Van Leer Lagoon",
+        "links": {
+            "29": "Siren Spriggs",
+            "23": "Redbeard's Rest",
+            "5": "Fennell's Folly",
+            "27": "San Valenzuela"
+        }
+    },
+    "43": {
+        "name": "West Fallen Cliffs",
+        "links": {
+            "12": "Harpoon Hendrik",
+            "15": "Isle of Dogs"
+        }
+    },
+    "44": {
+        "name": "Whale Point",
+        "links": {
+            "26": "Rolandine Reef",
+            "37": "The Elder Ridge"
+        }
+    }
+}

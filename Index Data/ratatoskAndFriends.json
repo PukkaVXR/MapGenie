@@ -1,0 +1,316 @@
+{
+    "1": {
+        "name": "Raven Feet",
+        "links": {
+            "4": "Munin's Wings",
+            "2": "Chest",
+            "40": "Wiskers"
+        }
+    },
+    "2": {
+        "name": "Chest",
+        "links": {
+            "4": "Munin's Wings",
+            "1": "Raven Feet",
+            "42": "Feathers"
+        }
+    },
+    "3": {
+        "name": "Beak",
+        "links": {
+            "5": "Nut Nibbler",
+            "42": "Feathers"
+        }
+    },
+    "4": {
+        "name": "Munin's Wings",
+        "links": {
+            "1": "Raven Feet",
+            "42": "Feathers",
+            "2": "Chest"
+        }
+    },
+    "5": {
+        "name": "Nut Nibbler",
+        "links": {
+            "3": "Beak",
+            "6": "Body"
+        }
+    },
+    "6": {
+        "name": "Body",
+        "links": {
+            "5": "Nut Nibbler",
+            "8": "Hindquarters"
+        }
+    },
+    "7": {
+        "name": "Floof Tail",
+        "links": {
+            "9": "The Floof",
+            "8": "Hindquarters"
+        }
+    },
+    "8": {
+        "name": "Hindquarters",
+        "links": {
+            "7": "Floof Tail",
+            "35": "Horse Tail",
+            "6": "Body"
+        }
+    },
+    "9": {
+        "name": "The Floof",
+        "links": {
+            "7": "Floof Tail",
+            "12": "Sickles"
+        }
+    },
+    "10": {
+        "name": "Breast",
+        "links": {
+            "26": "Antler Crown",
+            "11": "Wings",
+            "13": "Comb"
+        }
+    },
+    "11": {
+        "name": "Wings",
+        "links": {
+            "12": "Sickles",
+            "10": "Breast"
+        }
+    },
+    "12": {
+        "name": "Sickles",
+        "links": {
+            "11": "Wings",
+            "9": "The Floof",
+            "17": "Fenrir Legs"
+        }
+    },
+    "13": {
+        "name": "Comb",
+        "links": {
+            "10": "Breast",
+            "20": "Shoulder"
+        }
+    },
+    "14": {
+        "name": "Howler",
+        "links": {
+            "27": "Antler Tips",
+            "16": "Fenrir Paws"
+        }
+    },
+    "15": {
+        "name": "Wolf Tail",
+        "links": {
+            "17": "Fenrir Legs"
+        }
+    },
+    "16": {
+        "name": "Fenrir Paws",
+        "links": {
+            "14": "Howler",
+            "17": "Fenrir Legs"
+        }
+    },
+    "17": {
+        "name": "Fenrir Legs",
+        "links": {
+            "15": "Wolf Tail",
+            "12": "Sickles",
+            "16": "Fenrir Paws"
+        }
+    },
+    "18": {
+        "name": "Snout",
+        "links": {
+            "19": "Neck"
+        }
+    },
+    "19": {
+        "name": "Neck",
+        "links": {
+            "23": "Hock",
+            "20": "Shoulder",
+            "18": "Snout"
+        }
+    },
+    "20": {
+        "name": "Shoulder",
+        "links": {
+            "19": "Neck",
+            "23": "Hock",
+            "13": "Comb"
+        }
+    },
+    "21": {
+        "name": "Belly",
+        "links": {
+            "22": "Trotter",
+            "23": "Hock"
+        }
+    },
+    "22": {
+        "name": "Trotter",
+        "links": {
+            "21": "Belly",
+            "25": "Stag Head"
+        }
+    },
+    "23": {
+        "name": "Hock",
+        "links": {
+            "19": "Neck",
+            "21": "Belly",
+            "20": "Shoulder"
+        }
+    },
+    "24": {
+        "name": "Antler Base",
+        "links": {
+            "26": "Antler Crown",
+            "30": "Rump",
+            "25": "Stag Head"
+        }
+    },
+    "25": {
+        "name": "Stag Head",
+        "links": {
+            "24": "Antler Base",
+            "22": "Trotter",
+            "28": "Elk Camino"
+        }
+    },
+    "26": {
+        "name": "Antler Crown",
+        "links": {
+            "24": "Antler Base",
+            "27": "Antler Tips",
+            "10": "Breast"
+        }
+    },
+    "27": {
+        "name": "Antler Tips",
+        "links": {
+            "26": "Antler Crown",
+            "14": "Howler"
+        }
+    },
+    "28": {
+        "name": "Elk Camino",
+        "links": {
+            "29": "Einvald",
+            "30": "Rump",
+            "25": "Stag Head"
+        }
+    },
+    "29": {
+        "name": "Einvald",
+        "links": {
+            "28": "Elk Camino"
+        }
+    },
+    "30": {
+        "name": "Rump",
+        "links": {
+            "24": "Antler Base",
+            "28": "Elk Camino",
+            "32": "Gaskin"
+        }
+    },
+    "31": {
+        "name": "Golden Mane",
+        "links": {
+            "33": "Blaze"
+        }
+    },
+    "32": {
+        "name": "Gaskin",
+        "links": {
+            "37": "Forearms",
+            "36": "Flanks",
+            "30": "Rump"
+        }
+    },
+    "33": {
+        "name": "Blaze",
+        "links": {
+            "36": "Flanks",
+            "34": "Horso",
+            "31": "Golden Mane"
+        }
+    },
+    "34": {
+        "name": "Horso",
+        "links": {
+            "33": "Blaze",
+            "37": "Forearms",
+            "36": "Flanks"
+        }
+    },
+    "35": {
+        "name": "Horse Tail",
+        "links": {
+            "8": "Hindquarters",
+            "36": "Flanks"
+        }
+    },
+    "36": {
+        "name": "Flanks",
+        "links": {
+            "34": "Horso",
+            "33": "Blaze",
+            "37": "Forearms",
+            "32": "Gaskin",
+            "35": "Horse Tail"
+        }
+    },
+    "37": {
+        "name": "Forearms",
+        "links": {
+            "34": "Horso",
+            "32": "Gaskin",
+            "36": "Flanks",
+            "39": "Cat Tail"
+        }
+    },
+    "38": {
+        "name": "Claws",
+        "links": {
+            "41": "Murder Mittens",
+            "39": "Cat Tail"
+        }
+    },
+    "39": {
+        "name": "Cat Tail",
+        "links": {
+            "38": "Claws",
+            "37": "Forearms"
+        }
+    },
+    "40": {
+        "name": "Wiskers",
+        "links": {
+            "41": "Murder Mittens",
+            "1": "Raven Feet"
+        }
+    },
+    "41": {
+        "name": "Murder Mittens",
+        "links": {
+            "40": "Wiskers",
+            "38": "Claws"
+        }
+    },
+    "42": {
+        "name": "Feathers",
+        "links": {
+            "4": "Munin's Wings",
+            "3": "Beak",
+            "2": "Chest"
+        }
+    }
+}

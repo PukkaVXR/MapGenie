@@ -1,0 +1,543 @@
+{
+    "1": {
+        "name": "Reactor Vents",
+        "links": {
+            "12": "Upper Vents",
+            "2": "Mainfolds"
+        }
+    },
+    "2": {
+        "name": "Mainfolds",
+        "links": {
+            "1": "Reactor Vents",
+            "3": "Start Reactor"
+        }
+    },
+    "3": {
+        "name": "Start Reactor",
+        "links": {
+            "2": "Mainfolds",
+            "5": "West Cam",
+            "4": "Meltdown Pad"
+        }
+    },
+    "4": {
+        "name": "Meltdown Pad",
+        "links": {
+            "3": "Start Reactor",
+            "24": "Lower Vents"
+        }
+    },
+    "5": {
+        "name": "West Cam",
+        "links": {
+            "6": "Cams hall",
+            "3": "Start Reactor",
+            "7": "Cams Wires",
+            "8": "Cams Door"
+        }
+    },
+    "6": {
+        "name": "Cams hall",
+        "links": {
+            "14": "Engine door",
+            "5": "West Cam",
+            "7": "Cams Wires"
+        }
+    },
+    "7": {
+        "name": "Cams Wires",
+        "links": {
+            "6": "Cams hall",
+            "5": "West Cam",
+            "8": "Cams Door",
+            "9": "Kill box"
+        }
+    },
+    "8": {
+        "name": "Cams Door",
+        "links": {
+            "5": "West Cam",
+            "7": "Cams Wires",
+            "22": "Loose Cables"
+        }
+    },
+    "9": {
+        "name": "Kill box",
+        "links": {
+            "7": "Cams Wires",
+            "10": "Cams Vents"
+        }
+    },
+    "10": {
+        "name": "Cams Vents",
+        "links": {
+            "18": "Medbay Vents",
+            "26": "Electrical Vents",
+            "9": "Kill box"
+        }
+    },
+    "11": {
+        "name": "Alignment",
+        "links": {
+            "13": "Refuel",
+            "12": "Upper Vents",
+            "14": "Engine door"
+        }
+    },
+    "12": {
+        "name": "Upper Vents",
+        "links": {
+            "13": "Refuel",
+            "11": "Alignment",
+            "1": "Reactor Vents"
+        }
+    },
+    "13": {
+        "name": "Refuel",
+        "links": {
+            "15": "Upper Hall",
+            "12": "Upper Vents",
+            "11": "Alignment",
+            "14": "Engine door"
+        }
+    },
+    "14": {
+        "name": "Engine door",
+        "links": {
+            "13": "Refuel",
+            "11": "Alignment",
+            "6": "Cams hall"
+        }
+    },
+    "15": {
+        "name": "Upper Hall",
+        "links": {
+            "16": "Medbay cam",
+            "13": "Refuel"
+        }
+    },
+    "16": {
+        "name": "Medbay cam",
+        "links": {
+            "39": "Cafe Wires",
+            "15": "Upper Hall",
+            "17": "Comfy Beds"
+        }
+    },
+    "17": {
+        "name": "Comfy Beds",
+        "links": {
+            "16": "Medbay cam",
+            "18": "Medbay Vents",
+            "19": "Scanner"
+        }
+    },
+    "18": {
+        "name": "Medbay Vents",
+        "links": {
+            "17": "Comfy Beds",
+            "10": "Cams Vents",
+            "19": "Scanner",
+            "26": "Electrical Vents"
+        }
+    },
+    "19": {
+        "name": "Scanner",
+        "links": {
+            "17": "Comfy Beds",
+            "18": "Medbay Vents",
+            "20": "Samples"
+        }
+    },
+    "20": {
+        "name": "Samples",
+        "links": {
+            "19": "Scanner"
+        }
+    },
+    "21": {
+        "name": "Align Engine",
+        "links": {
+            "22": "Loose Cables",
+            "23": "Fuel Port",
+            "24": "Lower Vents"
+        }
+    },
+    "22": {
+        "name": "Loose Cables",
+        "links": {
+            "8": "Cams Door",
+            "21": "Align Engine",
+            "23": "Fuel Port"
+        }
+    },
+    "23": {
+        "name": "Fuel Port",
+        "links": {
+            "22": "Loose Cables",
+            "21": "Align Engine",
+            "25": "Lower Hall",
+            "24": "Lower Vents"
+        }
+    },
+    "24": {
+        "name": "Lower Vents",
+        "links": {
+            "4": "Meltdown Pad",
+            "21": "Align Engine",
+            "23": "Fuel Port"
+        }
+    },
+    "25": {
+        "name": "Lower Hall",
+        "links": {
+            "23": "Fuel Port",
+            "30": "Electrical Hallway"
+        }
+    },
+    "26": {
+        "name": "Electrical Vents",
+        "links": {
+            "18": "Medbay Vents",
+            "10": "Cams Vents",
+            "27": "Calibration"
+        }
+    },
+    "27": {
+        "name": "Calibration",
+        "links": {
+            "26": "Electrical Vents",
+            "28": "Observers post"
+        }
+    },
+    "28": {
+        "name": "Observers post",
+        "links": {
+            "29": "Fix Lights",
+            "27": "Calibration"
+        }
+    },
+    "29": {
+        "name": "Fix Lights",
+        "links": {
+            "30": "Electrical Hallway",
+            "28": "Observers post"
+        }
+    },
+    "30": {
+        "name": "Electrical Hallway",
+        "links": {
+            "25": "Lower Hall",
+            "29": "Fix Lights",
+            "31": "Storage Hall"
+        }
+    },
+    "31": {
+        "name": "Storage Hall",
+        "links": {
+            "30": "Electrical Hallway",
+            "32": "Jet fuel "
+        }
+    },
+    "32": {
+        "name": "Jet fuel ",
+        "links": {
+            "31": "Storage Hall",
+            "38": "Boxes",
+            "33": "Storage Wires"
+        }
+    },
+    "33": {
+        "name": "Storage Wires",
+        "links": {
+            "32": "Jet fuel ",
+            "34": "Trusty Bucket"
+        }
+    },
+    "34": {
+        "name": "Trusty Bucket",
+        "links": {
+            "33": "Storage Wires",
+            "35": "Storage Door",
+            "46": "Admin Cam"
+        }
+    },
+    "35": {
+        "name": "Storage Door",
+        "links": {
+            "36": "lights out",
+            "34": "Trusty Bucket",
+            "51": "Coms Hall"
+        }
+    },
+    "36": {
+        "name": "lights out",
+        "links": {
+            "38": "Boxes",
+            "37": "Empty Garbage",
+            "35": "Storage Door"
+        }
+    },
+    "37": {
+        "name": "Empty Garbage",
+        "links": {
+            "38": "Boxes",
+            "36": "lights out"
+        }
+    },
+    "38": {
+        "name": "Boxes",
+        "links": {
+            "32": "Jet fuel ",
+            "36": "lights out",
+            "37": "Empty Garbage"
+        }
+    },
+    "39": {
+        "name": "Cafe Wires",
+        "links": {
+            "41": "Meeting Table",
+            "40": "Viewing Deck",
+            "16": "Medbay cam",
+            "44": "Cafe entrance"
+        }
+    },
+    "40": {
+        "name": "Viewing Deck",
+        "links": {
+            "43": "Garbage Chute",
+            "42": "Emergency Button",
+            "41": "Meeting Table",
+            "39": "Cafe Wires"
+        }
+    },
+    "41": {
+        "name": "Meeting Table",
+        "links": {
+            "42": "Emergency Button",
+            "40": "Viewing Deck",
+            "39": "Cafe Wires",
+            "44": "Cafe entrance"
+        }
+    },
+    "42": {
+        "name": "Emergency Button",
+        "links": {
+            "43": "Garbage Chute",
+            "40": "Viewing Deck",
+            "41": "Meeting Table",
+            "44": "Cafe entrance"
+        }
+    },
+    "43": {
+        "name": "Garbage Chute",
+        "links": {
+            "45": "Cafe Hall",
+            "42": "Emergency Button",
+            "40": "Viewing Deck",
+            "44": "Cafe entrance"
+        }
+    },
+    "44": {
+        "name": "Cafe entrance",
+        "links": {
+            "43": "Garbage Chute",
+            "42": "Emergency Button",
+            "41": "Meeting Table",
+            "39": "Cafe Wires",
+            "46": "Admin Cam"
+        }
+    },
+    "45": {
+        "name": "Cafe Hall",
+        "links": {
+            "64": "Hallway",
+            "43": "Garbage Chute"
+        }
+    },
+    "46": {
+        "name": "Admin Cam",
+        "links": {
+            "44": "Cafe entrance",
+            "34": "Trusty Bucket",
+            "47": "Admin Wires"
+        }
+    },
+    "47": {
+        "name": "Admin Wires",
+        "links": {
+            "46": "Admin Cam",
+            "48": "Admin Vents",
+            "49": "02 Fix"
+        }
+    },
+    "48": {
+        "name": "Admin Vents",
+        "links": {
+            "47": "Admin Wires",
+            "50": "Swipe card",
+            "49": "02 Fix"
+        }
+    },
+    "49": {
+        "name": "02 Fix",
+        "links": {
+            "47": "Admin Wires",
+            "50": "Swipe card",
+            "48": "Admin Vents"
+        }
+    },
+    "50": {
+        "name": "Swipe card",
+        "links": {
+            "49": "02 Fix",
+            "48": "Admin Vents"
+        }
+    },
+    "51": {
+        "name": "Coms Hall",
+        "links": {
+            "35": "Storage Door",
+            "52": "Coms door"
+        }
+    },
+    "52": {
+        "name": "Coms door",
+        "links": {
+            "51": "Coms Hall",
+            "54": "Coms Sabotage",
+            "55": "Shield Gens"
+        }
+    },
+    "53": {
+        "name": "Coms Data",
+        "links": {
+            "54": "Coms Sabotage"
+        }
+    },
+    "54": {
+        "name": "Coms Sabotage",
+        "links": {
+            "53": "Coms Data",
+            "52": "Coms door"
+        }
+    },
+    "55": {
+        "name": "Shield Gens",
+        "links": {
+            "52": "Coms door",
+            "57": "Prime Shields ",
+            "56": "Power"
+        }
+    },
+    "56": {
+        "name": "Power",
+        "links": {
+            "57": "Prime Shields ",
+            "62": "Hall Vents",
+            "55": "Shield Gens"
+        }
+    },
+    "57": {
+        "name": "Prime Shields ",
+        "links": {
+            "68": "Nav Vents",
+            "55": "Shield Gens",
+            "56": "Power"
+        }
+    },
+    "58": {
+        "name": "02 Chute",
+        "links": {
+            "59": "02 Filters"
+        }
+    },
+    "59": {
+        "name": "02 Filters",
+        "links": {
+            "60": "02 Hall",
+            "58": "02 Chute"
+        }
+    },
+    "60": {
+        "name": "02 Hall",
+        "links": {
+            "66": "Asteroids",
+            "61": "East hall",
+            "59": "02 Filters"
+        }
+    },
+    "61": {
+        "name": "East hall",
+        "links": {
+            "62": "Hall Vents",
+            "60": "02 Hall",
+            "63": "East Cam"
+        }
+    },
+    "62": {
+        "name": "Hall Vents",
+        "links": {
+            "56": "Power",
+            "61": "East hall"
+        }
+    },
+    "63": {
+        "name": "East Cam",
+        "links": {
+            "68": "Nav Vents",
+            "67": "Nav data",
+            "61": "East hall"
+        }
+    },
+    "64": {
+        "name": "Hallway",
+        "links": {
+            "65": "Window",
+            "66": "Asteroids",
+            "45": "Cafe Hall"
+        }
+    },
+    "65": {
+        "name": "Window",
+        "links": {
+            "67": "Nav data",
+            "64": "Hallway",
+            "66": "Asteroids"
+        }
+    },
+    "66": {
+        "name": "Asteroids",
+        "links": {
+            "65": "Window",
+            "64": "Hallway",
+            "60": "02 Hall"
+        }
+    },
+    "67": {
+        "name": "Nav data",
+        "links": {
+            "69": "Steering",
+            "68": "Nav Vents",
+            "63": "East Cam",
+            "65": "Window"
+        }
+    },
+    "68": {
+        "name": "Nav Vents",
+        "links": {
+            "69": "Steering",
+            "67": "Nav data",
+            "63": "East Cam",
+            "57": "Prime Shields "
+        }
+    },
+    "69": {
+        "name": "Steering",
+        "links": {
+            "68": "Nav Vents",
+            "67": "Nav data"
+        }
+    }
+}

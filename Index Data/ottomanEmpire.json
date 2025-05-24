@@ -1,0 +1,342 @@
+{
+    "1": {
+        "name": "Abyssinia",
+        "links": {
+            "26": "Oman",
+            "30": "South Sudan",
+            "31": "Sudan",
+            "38": "Yemen"
+        }
+    },
+    "2": {
+        "name": "Anatolia",
+        "links": {
+            "21": "Kurdistan",
+            "32": "Syria",
+            "4": "Armenia",
+            "29": "South Rumelia",
+            "16": "Greece",
+            "13": "Egypt"
+        }
+    },
+    "3": {
+        "name": "Andalusia",
+        "links": {
+            "22": "Maghreb"
+        }
+    },
+    "4": {
+        "name": "Armenia",
+        "links": {
+            "21": "Kurdistan",
+            "2": "Anatolia",
+            "5": "Azerbaijan",
+            "8": "Caucasus"
+        }
+    },
+    "5": {
+        "name": "Azerbaijan",
+        "links": {
+            "27": "Persia",
+            "21": "Kurdistan",
+            "8": "Caucasus",
+            "4": "Armenia"
+        }
+    },
+    "6": {
+        "name": "Baluchistan",
+        "links": {
+            "27": "Persia",
+            "12": "Durrani"
+        }
+    },
+    "7": {
+        "name": "Caspian Districts",
+        "links": {
+            "8": "Caucasus",
+            "36": "Turkestan"
+        }
+    },
+    "8": {
+        "name": "Caucasus",
+        "links": {
+            "7": "Caspian Districts",
+            "5": "Azerbaijan",
+            "4": "Armenia",
+            "10": "Crimea"
+        }
+    },
+    "9": {
+        "name": "Corsica & Sardinia",
+        "links": {
+            "19": "Hungary",
+            "35": "Tuareg"
+        }
+    },
+    "10": {
+        "name": "Crimea",
+        "links": {
+            "8": "Caucasus",
+            "24": "North Rumelia"
+        }
+    },
+    "11": {
+        "name": "Cyrenaica",
+        "links": {
+            "16": "Greece",
+            "13": "Egypt",
+            "34": "Tripolitana",
+            "15": "Fezzan",
+            "31": "Sudan"
+        }
+    },
+    "12": {
+        "name": "Durrani",
+        "links": {
+            "6": "Baluchistan",
+            "27": "Persia",
+            "36": "Turkestan",
+            "14": "Far East"
+        }
+    },
+    "13": {
+        "name": "Egypt",
+        "links": {
+            "2": "Anatolia",
+            "33": "Trans-Jordan",
+            "11": "Cyrenaica",
+            "18": "Hedjaz",
+            "31": "Sudan"
+        }
+    },
+    "14": {
+        "name": "Far East",
+        "links": {
+            "36": "Turkestan",
+            "12": "Durrani"
+        }
+    },
+    "15": {
+        "name": "Fezzan",
+        "links": {
+            "11": "Cyrenaica",
+            "25": "North Sahel",
+            "22": "Maghreb",
+            "34": "Tripolitana"
+        }
+    },
+    "16": {
+        "name": "Greece",
+        "links": {
+            "29": "South Rumelia",
+            "2": "Anatolia",
+            "37": "West Rumelia",
+            "11": "Cyrenaica",
+            "34": "Tripolitana"
+        }
+    },
+    "17": {
+        "name": "Ha'il",
+        "links": {
+            "20": "Iraq",
+            "23": "Nejd",
+            "18": "Hedjaz",
+            "33": "Trans-Jordan"
+        }
+    },
+    "18": {
+        "name": "Hedjaz",
+        "links": {
+            "13": "Egypt",
+            "33": "Trans-Jordan",
+            "17": "Ha'il",
+            "23": "Nejd",
+            "38": "Yemen",
+            "31": "Sudan"
+        }
+    },
+    "19": {
+        "name": "Hungary",
+        "links": {
+            "37": "West Rumelia",
+            "24": "North Rumelia",
+            "9": "Corsica & Sardinia"
+        }
+    },
+    "20": {
+        "name": "Iraq",
+        "links": {
+            "21": "Kurdistan",
+            "27": "Persia",
+            "32": "Syria",
+            "17": "Ha'il",
+            "33": "Trans-Jordan"
+        }
+    },
+    "21": {
+        "name": "Kurdistan",
+        "links": {
+            "27": "Persia",
+            "20": "Iraq",
+            "5": "Azerbaijan",
+            "2": "Anatolia",
+            "32": "Syria",
+            "4": "Armenia"
+        }
+    },
+    "22": {
+        "name": "Maghreb",
+        "links": {
+            "35": "Tuareg",
+            "34": "Tripolitana",
+            "25": "North Sahel",
+            "3": "Andalusia",
+            "15": "Fezzan"
+        }
+    },
+    "23": {
+        "name": "Nejd",
+        "links": {
+            "17": "Ha'il",
+            "27": "Persia",
+            "18": "Hedjaz",
+            "26": "Oman",
+            "38": "Yemen"
+        }
+    },
+    "24": {
+        "name": "North Rumelia",
+        "links": {
+            "10": "Crimea",
+            "29": "South Rumelia",
+            "37": "West Rumelia",
+            "19": "Hungary"
+        }
+    },
+    "25": {
+        "name": "North Sahel",
+        "links": {
+            "15": "Fezzan",
+            "22": "Maghreb"
+        }
+    },
+    "26": {
+        "name": "Oman",
+        "links": {
+            "23": "Nejd",
+            "1": "Abyssinia",
+            "38": "Yemen"
+        }
+    },
+    "27": {
+        "name": "Persia",
+        "links": {
+            "6": "Baluchistan",
+            "12": "Durrani",
+            "21": "Kurdistan",
+            "20": "Iraq",
+            "5": "Azerbaijan",
+            "23": "Nejd",
+            "36": "Turkestan"
+        }
+    },
+    "28": {
+        "name": "Sicily",
+        "links": {
+            "37": "West Rumelia",
+            "35": "Tuareg"
+        }
+    },
+    "29": {
+        "name": "South Rumelia",
+        "links": {
+            "2": "Anatolia",
+            "16": "Greece",
+            "24": "North Rumelia",
+            "37": "West Rumelia"
+        }
+    },
+    "30": {
+        "name": "South Sudan",
+        "links": {
+            "1": "Abyssinia",
+            "31": "Sudan"
+        }
+    },
+    "31": {
+        "name": "Sudan",
+        "links": {
+            "30": "South Sudan",
+            "18": "Hedjaz",
+            "1": "Abyssinia",
+            "13": "Egypt",
+            "11": "Cyrenaica"
+        }
+    },
+    "32": {
+        "name": "Syria",
+        "links": {
+            "2": "Anatolia",
+            "21": "Kurdistan",
+            "33": "Trans-Jordan",
+            "20": "Iraq"
+        }
+    },
+    "33": {
+        "name": "Trans-Jordan",
+        "links": {
+            "13": "Egypt",
+            "32": "Syria",
+            "18": "Hedjaz",
+            "20": "Iraq",
+            "17": "Ha'il"
+        }
+    },
+    "34": {
+        "name": "Tripolitana",
+        "links": {
+            "35": "Tuareg",
+            "16": "Greece",
+            "22": "Maghreb",
+            "11": "Cyrenaica",
+            "15": "Fezzan"
+        }
+    },
+    "35": {
+        "name": "Tuareg",
+        "links": {
+            "28": "Sicily",
+            "34": "Tripolitana",
+            "9": "Corsica & Sardinia",
+            "22": "Maghreb"
+        }
+    },
+    "36": {
+        "name": "Turkestan",
+        "links": {
+            "27": "Persia",
+            "12": "Durrani",
+            "14": "Far East",
+            "7": "Caspian Districts"
+        }
+    },
+    "37": {
+        "name": "West Rumelia",
+        "links": {
+            "29": "South Rumelia",
+            "16": "Greece",
+            "28": "Sicily",
+            "19": "Hungary",
+            "24": "North Rumelia"
+        }
+    },
+    "38": {
+        "name": "Yemen",
+        "links": {
+            "18": "Hedjaz",
+            "26": "Oman",
+            "1": "Abyssinia",
+            "23": "Nejd"
+        }
+    }
+}

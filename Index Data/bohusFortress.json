@@ -1,0 +1,535 @@
+{
+    "5": {
+        "name": "Main Formation",
+        "links": {
+            "9": "Vanguard's Charge",
+            "6": "Daybreak March"
+        }
+    },
+    "6": {
+        "name": "Daybreak March",
+        "links": {
+            "5": "Main Formation",
+            "10": "Besieger's Camp",
+            "7": "Visir"
+        }
+    },
+    "7": {
+        "name": "Visir",
+        "links": {
+            "6": "Daybreak March",
+            "45": "Garden Entrance",
+            "10": "Besieger's Camp"
+        }
+    },
+    "8": {
+        "name": "Neutral Zone",
+        "links": {
+            "9": "Vanguard's Charge",
+            "2": "Defender's Camp"
+        }
+    },
+    "9": {
+        "name": "Vanguard's Charge",
+        "links": {
+            "8": "Neutral Zone",
+            "5": "Main Formation"
+        }
+    },
+    "10": {
+        "name": "Besieger's Camp",
+        "links": {
+            "6": "Daybreak March",
+            "7": "Visir"
+        }
+    },
+    "1": {
+        "name": "Merchant Way",
+        "links": {
+            "4": "Stables",
+            "3": "Lilla"
+        }
+    },
+    "2": {
+        "name": "Defender's Camp",
+        "links": {
+            "13": "Northern Entrance",
+            "8": "Neutral Zone",
+            "3": "Lilla"
+        }
+    },
+    "3": {
+        "name": "Lilla",
+        "links": {
+            "1": "Merchant Way",
+            "2": "Defender's Camp"
+        }
+    },
+    "4": {
+        "name": "Stables",
+        "links": {
+            "43": "Main Gate",
+            "1": "Merchant Way"
+        }
+    },
+    "37": {
+        "name": "Nordre Alv Outlook",
+        "links": {
+            "38": "Southern Handle",
+            "44": "Eastern Armory",
+            "42": "Patrol Grounds"
+        }
+    },
+    "38": {
+        "name": "Southern Handle",
+        "links": {
+            "37": "Nordre Alv Outlook",
+            "40": "Spear's Point",
+            "39": "Church Garden"
+        }
+    },
+    "39": {
+        "name": "Church Garden",
+        "links": {
+            "60": "Stairway",
+            "40": "Spear's Point",
+            "38": "Southern Handle"
+        }
+    },
+    "40": {
+        "name": "Spear's Point",
+        "links": {
+            "38": "Southern Handle",
+            "39": "Church Garden"
+        }
+    },
+    "41": {
+        "name": "Eastern Gate",
+        "links": {
+            "31": "Hidden Passage",
+            "42": "Patrol Grounds",
+            "44": "Eastern Armory"
+        }
+    },
+    "42": {
+        "name": "Patrol Grounds",
+        "links": {
+            "37": "Nordre Alv Outlook",
+            "43": "Main Gate",
+            "44": "Eastern Armory",
+            "41": "Eastern Gate"
+        }
+    },
+    "43": {
+        "name": "Main Gate",
+        "links": {
+            "42": "Patrol Grounds",
+            "4": "Stables",
+            "19": "Russian Vault"
+        }
+    },
+    "44": {
+        "name": "Eastern Armory",
+        "links": {
+            "37": "Nordre Alv Outlook",
+            "42": "Patrol Grounds",
+            "41": "Eastern Gate"
+        }
+    },
+    "60": {
+        "name": "Stairway",
+        "links": {
+            "63": "Western Overhang",
+            "64": "Western Overlook",
+            "61": "Warning Bell",
+            "62": "Sidedoor",
+            "39": "Church Garden",
+            "21": "Entryway "
+        }
+    },
+    "61": {
+        "name": "Warning Bell",
+        "links": {
+            "62": "Sidedoor",
+            "60": "Stairway",
+            "65": "Watch Guard"
+        }
+    },
+    "62": {
+        "name": "Sidedoor",
+        "links": {
+            "63": "Western Overhang",
+            "61": "Warning Bell",
+            "49": "Hidden Gardens",
+            "60": "Stairway"
+        }
+    },
+    "63": {
+        "name": "Western Overhang",
+        "links": {
+            "64": "Western Overlook",
+            "62": "Sidedoor",
+            "60": "Stairway"
+        }
+    },
+    "64": {
+        "name": "Western Overlook",
+        "links": {
+            "60": "Stairway",
+            "63": "Western Overhang"
+        }
+    },
+    "65": {
+        "name": "Watch Guard",
+        "links": {
+            "48": "Just Weeds",
+            "61": "Warning Bell"
+        }
+    },
+    "45": {
+        "name": "Garden Entrance",
+        "links": {
+            "7": "Visir",
+            "50": "Ar Corps de Garlic",
+            "46": "Grassy Stretch",
+            "47": "Flower Beds"
+        }
+    },
+    "46": {
+        "name": "Grassy Stretch",
+        "links": {
+            "48": "Just Weeds",
+            "45": "Garden Entrance",
+            "50": "Ar Corps de Garlic",
+            "49": "Hidden Gardens"
+        }
+    },
+    "47": {
+        "name": "Flower Beds",
+        "links": {
+            "48": "Just Weeds",
+            "45": "Garden Entrance",
+            "50": "Ar Corps de Garlic"
+        }
+    },
+    "48": {
+        "name": "Just Weeds",
+        "links": {
+            "50": "Ar Corps de Garlic",
+            "46": "Grassy Stretch",
+            "47": "Flower Beds",
+            "65": "Watch Guard"
+        }
+    },
+    "49": {
+        "name": "Hidden Gardens",
+        "links": {
+            "46": "Grassy Stretch",
+            "62": "Sidedoor"
+        }
+    },
+    "50": {
+        "name": "Ar Corps de Garlic",
+        "links": {
+            "46": "Grassy Stretch",
+            "48": "Just Weeds",
+            "45": "Garden Entrance",
+            "47": "Flower Beds"
+        }
+    },
+    "11": {
+        "name": "Pantry",
+        "links": {
+            "12": "Kitchen",
+            "17": "Barracks Entry"
+        }
+    },
+    "12": {
+        "name": "Kitchen",
+        "links": {
+            "11": "Pantry"
+        }
+    },
+    "13": {
+        "name": "Northern Entrance",
+        "links": {
+            "15": "Northern Tip",
+            "14": "Supply Lane",
+            "2": "Defender's Camp",
+            "18": "Weapon Store"
+        }
+    },
+    "14": {
+        "name": "Supply Lane",
+        "links": {
+            "18": "Weapon Store",
+            "13": "Northern Entrance",
+            "16": "Barracks",
+            "19": "Russian Vault",
+            "56": "Red Scrap"
+        }
+    },
+    "15": {
+        "name": "Northern Tip",
+        "links": {
+            "18": "Weapon Store",
+            "13": "Northern Entrance"
+        }
+    },
+    "16": {
+        "name": "Barracks",
+        "links": {
+            "14": "Supply Lane",
+            "17": "Barracks Entry"
+        }
+    },
+    "17": {
+        "name": "Barracks Entry",
+        "links": {
+            "16": "Barracks",
+            "11": "Pantry",
+            "51": "Northern Armory"
+        }
+    },
+    "18": {
+        "name": "Weapon Store",
+        "links": {
+            "13": "Northern Entrance",
+            "15": "Northern Tip",
+            "14": "Supply Lane"
+        }
+    },
+    "19": {
+        "name": "Russian Vault",
+        "links": {
+            "43": "Main Gate",
+            "14": "Supply Lane",
+            "57": "Vault Entrance"
+        }
+    },
+    "55": {
+        "name": "Fortress Lake",
+        "links": {
+            "58": "Rubble Field",
+            "56": "Red Scrap",
+            "57": "Vault Entrance",
+            "59": "Chicken Coop"
+        }
+    },
+    "56": {
+        "name": "Red Scrap",
+        "links": {
+            "55": "Fortress Lake",
+            "14": "Supply Lane",
+            "57": "Vault Entrance",
+            "59": "Chicken Coop"
+        }
+    },
+    "57": {
+        "name": "Vault Entrance",
+        "links": {
+            "19": "Russian Vault",
+            "55": "Fortress Lake",
+            "56": "Red Scrap",
+            "58": "Rubble Field"
+        }
+    },
+    "58": {
+        "name": "Rubble Field",
+        "links": {
+            "53": "Drawbridge",
+            "55": "Fortress Lake",
+            "57": "Vault Entrance",
+            "59": "Chicken Coop"
+        }
+    },
+    "59": {
+        "name": "Chicken Coop",
+        "links": {
+            "53": "Drawbridge",
+            "51": "Northern Armory",
+            "52": "Offering Grounds",
+            "58": "Rubble Field",
+            "55": "Fortress Lake",
+            "56": "Red Scrap"
+        }
+    },
+    "20": {
+        "name": "Fars Hatt",
+        "links": {
+            "22": "NW Courtyard"
+        }
+    },
+    "21": {
+        "name": "Entryway ",
+        "links": {
+            "23": "Cooking Quarters",
+            "22": "NW Courtyard",
+            "28": "Church Hall",
+            "27": "SW Courtyard",
+            "60": "Stairway"
+        }
+    },
+    "22": {
+        "name": "NW Courtyard",
+        "links": {
+            "23": "Cooking Quarters",
+            "26": "NE Courtyard",
+            "25": "Food Store",
+            "20": "Fars Hatt",
+            "27": "SW Courtyard",
+            "21": "Entryway ",
+            "24": "The Well"
+        }
+    },
+    "23": {
+        "name": "Cooking Quarters",
+        "links": {
+            "21": "Entryway ",
+            "22": "NW Courtyard"
+        }
+    },
+    "24": {
+        "name": "The Well",
+        "links": {
+            "29": "SE Courtyard",
+            "22": "NW Courtyard",
+            "26": "NE Courtyard",
+            "27": "SW Courtyard"
+        }
+    },
+    "25": {
+        "name": "Food Store",
+        "links": {
+            "26": "NE Courtyard",
+            "22": "NW Courtyard"
+        }
+    },
+    "26": {
+        "name": "NE Courtyard",
+        "links": {
+            "53": "Drawbridge",
+            "29": "SE Courtyard",
+            "31": "Hidden Passage",
+            "25": "Food Store",
+            "32": "R\u00f6de Torn",
+            "30": "Gate House",
+            "24": "The Well",
+            "22": "NW Courtyard"
+        }
+    },
+    "27": {
+        "name": "SW Courtyard",
+        "links": {
+            "28": "Church Hall",
+            "29": "SE Courtyard",
+            "24": "The Well",
+            "21": "Entryway ",
+            "22": "NW Courtyard"
+        }
+    },
+    "28": {
+        "name": "Church Hall",
+        "links": {
+            "36": "Mors M\u00f6ssa",
+            "33": "West Artillery",
+            "21": "Entryway ",
+            "27": "SW Courtyard"
+        }
+    },
+    "29": {
+        "name": "SE Courtyard",
+        "links": {
+            "30": "Gate House",
+            "24": "The Well",
+            "35": "Sven Halls tower",
+            "27": "SW Courtyard",
+            "26": "NE Courtyard"
+        }
+    },
+    "30": {
+        "name": "Gate House",
+        "links": {
+            "29": "SE Courtyard",
+            "26": "NE Courtyard",
+            "31": "Hidden Passage"
+        }
+    },
+    "31": {
+        "name": "Hidden Passage",
+        "links": {
+            "30": "Gate House",
+            "26": "NE Courtyard",
+            "41": "Eastern Gate"
+        }
+    },
+    "32": {
+        "name": "R\u00f6de Torn",
+        "links": {
+            "26": "NE Courtyard"
+        }
+    },
+    "33": {
+        "name": "West Artillery",
+        "links": {
+            "34": "East Artillery",
+            "36": "Mors M\u00f6ssa",
+            "28": "Church Hall"
+        }
+    },
+    "34": {
+        "name": "East Artillery",
+        "links": {
+            "33": "West Artillery",
+            "35": "Sven Halls tower"
+        }
+    },
+    "35": {
+        "name": "Sven Halls tower",
+        "links": {
+            "34": "East Artillery",
+            "29": "SE Courtyard"
+        }
+    },
+    "36": {
+        "name": "Mors M\u00f6ssa",
+        "links": {
+            "33": "West Artillery",
+            "28": "Church Hall"
+        }
+    },
+    "51": {
+        "name": "Northern Armory",
+        "links": {
+            "54": "Red Field",
+            "52": "Offering Grounds",
+            "17": "Barracks Entry",
+            "59": "Chicken Coop"
+        }
+    },
+    "52": {
+        "name": "Offering Grounds",
+        "links": {
+            "53": "Drawbridge",
+            "51": "Northern Armory",
+            "54": "Red Field",
+            "59": "Chicken Coop"
+        }
+    },
+    "53": {
+        "name": "Drawbridge",
+        "links": {
+            "52": "Offering Grounds",
+            "58": "Rubble Field",
+            "26": "NE Courtyard",
+            "59": "Chicken Coop"
+        }
+    },
+    "54": {
+        "name": "Red Field",
+        "links": {
+            "51": "Northern Armory",
+            "52": "Offering Grounds"
+        }
+    }
+}

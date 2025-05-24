@@ -1,0 +1,369 @@
+{
+    "39": {
+        "name": "Northern Light",
+        "links": {
+            "41": "Rangers Hut",
+            "40": "Southern Light"
+        }
+    },
+    "40": {
+        "name": "Southern Light",
+        "links": {
+            "39": "Northern Light"
+        }
+    },
+    "41": {
+        "name": "Rangers Hut",
+        "links": {
+            "44": "Owl's Call",
+            "39": "Northern Light",
+            "45": "West Bank"
+        }
+    },
+    "42": {
+        "name": "Finnies Stand",
+        "links": {
+            "47": "Longbows",
+            "43": "Crystal Shade",
+            "46": "Undergrowth"
+        }
+    },
+    "43": {
+        "name": "Crystal Shade",
+        "links": {
+            "44": "Owl's Call",
+            "42": "Finnies Stand"
+        }
+    },
+    "44": {
+        "name": "Owl's Call",
+        "links": {
+            "43": "Crystal Shade",
+            "19": "Vines",
+            "41": "Rangers Hut",
+            "45": "West Bank"
+        }
+    },
+    "45": {
+        "name": "West Bank",
+        "links": {
+            "44": "Owl's Call",
+            "41": "Rangers Hut"
+        }
+    },
+    "46": {
+        "name": "Undergrowth",
+        "links": {
+            "47": "Longbows",
+            "2": "Stone Lane",
+            "42": "Finnies Stand"
+        }
+    },
+    "47": {
+        "name": "Longbows",
+        "links": {
+            "46": "Undergrowth",
+            "42": "Finnies Stand"
+        }
+    },
+    "1": {
+        "name": "Elders",
+        "links": {
+            "4": "Statues",
+            "2": "Stone Lane",
+            "12": "Safe Passage",
+            "5": "Altar"
+        }
+    },
+    "2": {
+        "name": "Stone Lane",
+        "links": {
+            "46": "Undergrowth",
+            "1": "Elders",
+            "5": "Altar",
+            "3": "Guards Post"
+        }
+    },
+    "3": {
+        "name": "Guards Post",
+        "links": {
+            "4": "Statues",
+            "2": "Stone Lane",
+            "5": "Altar",
+            "21": "Golden Creek"
+        }
+    },
+    "4": {
+        "name": "Statues",
+        "links": {
+            "35": "Ladder",
+            "1": "Elders",
+            "5": "Altar",
+            "3": "Guards Post"
+        }
+    },
+    "5": {
+        "name": "Altar",
+        "links": {
+            "4": "Statues",
+            "2": "Stone Lane",
+            "1": "Elders",
+            "3": "Guards Post"
+        }
+    },
+    "31": {
+        "name": "Root Square",
+        "links": {
+            "35": "Ladder",
+            "38": "Leaf Cover",
+            "10": "Secret Station"
+        }
+    },
+    "35": {
+        "name": "Ladder",
+        "links": {
+            "4": "Statues",
+            "31": "Root Square"
+        }
+    },
+    "38": {
+        "name": "Leaf Cover",
+        "links": {
+            "34": "Passage",
+            "31": "Root Square"
+        }
+    },
+    "14": {
+        "name": "Spiders Lair",
+        "links": {
+            "17": "Clearing",
+            "19": "Vines",
+            "21": "Golden Creek"
+        }
+    },
+    "15": {
+        "name": "Creek",
+        "links": {
+            "17": "Clearing",
+            "16": "Root Passage"
+        }
+    },
+    "16": {
+        "name": "Root Passage",
+        "links": {
+            "17": "Clearing",
+            "15": "Creek",
+            "18": "Shrubs",
+            "20": "River Front"
+        }
+    },
+    "17": {
+        "name": "Clearing",
+        "links": {
+            "14": "Spiders Lair",
+            "19": "Vines",
+            "25": "Black Smith",
+            "15": "Creek",
+            "16": "Root Passage"
+        }
+    },
+    "18": {
+        "name": "Shrubs",
+        "links": {
+            "27": "Storage",
+            "16": "Root Passage",
+            "20": "River Front"
+        }
+    },
+    "19": {
+        "name": "Vines",
+        "links": {
+            "44": "Owl's Call",
+            "17": "Clearing",
+            "14": "Spiders Lair"
+        }
+    },
+    "20": {
+        "name": "River Front",
+        "links": {
+            "16": "Root Passage",
+            "18": "Shrubs"
+        }
+    },
+    "21": {
+        "name": "Golden Creek",
+        "links": {
+            "14": "Spiders Lair",
+            "23": "Berries",
+            "3": "Guards Post"
+        }
+    },
+    "23": {
+        "name": "Berries",
+        "links": {
+            "25": "Black Smith",
+            "21": "Golden Creek"
+        }
+    },
+    "22": {
+        "name": "Fox Hole",
+        "links": {
+            "24": "Elven Forge",
+            "29": "Moonstone Souvenirs",
+            "25": "Black Smith"
+        }
+    },
+    "24": {
+        "name": "Elven Forge",
+        "links": {
+            "22": "Fox Hole",
+            "25": "Black Smith"
+        }
+    },
+    "25": {
+        "name": "Black Smith",
+        "links": {
+            "24": "Elven Forge",
+            "17": "Clearing",
+            "22": "Fox Hole",
+            "23": "Berries"
+        }
+    },
+    "26": {
+        "name": "Market",
+        "links": {
+            "29": "Moonstone Souvenirs",
+            "27": "Storage",
+            "28": "Ellies Shop"
+        }
+    },
+    "27": {
+        "name": "Storage",
+        "links": {
+            "26": "Market",
+            "29": "Moonstone Souvenirs",
+            "18": "Shrubs"
+        }
+    },
+    "28": {
+        "name": "Ellies Shop",
+        "links": {
+            "26": "Market",
+            "29": "Moonstone Souvenirs",
+            "34": "Passage"
+        }
+    },
+    "29": {
+        "name": "Moonstone Souvenirs",
+        "links": {
+            "27": "Storage",
+            "26": "Market",
+            "28": "Ellies Shop",
+            "22": "Fox Hole"
+        }
+    },
+    "6": {
+        "name": "Legions",
+        "links": {
+            "13": "Autumn Lane",
+            "7": "Training Course"
+        }
+    },
+    "7": {
+        "name": "Training Course",
+        "links": {
+            "6": "Legions"
+        }
+    },
+    "8": {
+        "name": "Grove",
+        "links": {
+            "10": "Secret Station",
+            "9": "Cassies Outpost"
+        }
+    },
+    "9": {
+        "name": "Cassies Outpost",
+        "links": {
+            "12": "Safe Passage",
+            "11": "Archers Post",
+            "8": "Grove"
+        }
+    },
+    "10": {
+        "name": "Secret Station",
+        "links": {
+            "13": "Autumn Lane",
+            "31": "Root Square",
+            "8": "Grove"
+        }
+    },
+    "11": {
+        "name": "Archers Post",
+        "links": {
+            "12": "Safe Passage",
+            "9": "Cassies Outpost"
+        }
+    },
+    "12": {
+        "name": "Safe Passage",
+        "links": {
+            "1": "Elders",
+            "11": "Archers Post",
+            "9": "Cassies Outpost"
+        }
+    },
+    "13": {
+        "name": "Autumn Lane",
+        "links": {
+            "6": "Legions",
+            "10": "Secret Station"
+        }
+    },
+    "30": {
+        "name": "Alley",
+        "links": {
+            "34": "Passage",
+            "33": "Shop"
+        }
+    },
+    "32": {
+        "name": "Forest Bank",
+        "links": {
+            "36": "Fishermans Hut",
+            "37": "Root Cover",
+            "34": "Passage"
+        }
+    },
+    "33": {
+        "name": "Shop",
+        "links": {
+            "30": "Alley"
+        }
+    },
+    "34": {
+        "name": "Passage",
+        "links": {
+            "32": "Forest Bank",
+            "37": "Root Cover",
+            "28": "Ellies Shop",
+            "30": "Alley",
+            "38": "Leaf Cover"
+        }
+    },
+    "36": {
+        "name": "Fishermans Hut",
+        "links": {
+            "32": "Forest Bank",
+            "37": "Root Cover"
+        }
+    },
+    "37": {
+        "name": "Root Cover",
+        "links": {
+            "32": "Forest Bank",
+            "36": "Fishermans Hut",
+            "34": "Passage"
+        }
+    }
+}

@@ -1,0 +1,682 @@
+{
+    "1": {
+        "name": "Marlborough",
+        "links": {
+            "73": "West Coast",
+            "72": "Canterbury",
+            "3": "Taranaki"
+        }
+    },
+    "2": {
+        "name": "Wellington",
+        "links": {
+            "4": "Manawatu Wanganul"
+        }
+    },
+    "3": {
+        "name": "Taranaki",
+        "links": {
+            "5": "Waikato",
+            "1": "Marlborough",
+            "4": "Manawatu Wanganul"
+        }
+    },
+    "4": {
+        "name": "Manawatu Wanganul",
+        "links": {
+            "3": "Taranaki",
+            "5": "Waikato",
+            "8": "Hawke's Bay",
+            "2": "Wellington",
+            "74": "Otago"
+        }
+    },
+    "5": {
+        "name": "Waikato",
+        "links": {
+            "3": "Taranaki",
+            "6": "Auckland",
+            "4": "Manawatu Wanganul",
+            "8": "Hawke's Bay",
+            "9": "Bay of Plenty"
+        }
+    },
+    "6": {
+        "name": "Auckland",
+        "links": {
+            "7": "Northland",
+            "5": "Waikato",
+            "59": "Sydney",
+            "40": "Aurukun"
+        }
+    },
+    "7": {
+        "name": "Northland",
+        "links": {
+            "6": "Auckland"
+        }
+    },
+    "8": {
+        "name": "Hawke's Bay",
+        "links": {
+            "5": "Waikato",
+            "9": "Bay of Plenty",
+            "4": "Manawatu Wanganul"
+        }
+    },
+    "9": {
+        "name": "Bay of Plenty",
+        "links": {
+            "5": "Waikato",
+            "8": "Hawke's Bay"
+        }
+    },
+    "11": {
+        "name": "Hobart",
+        "links": {
+            "68": "Melbourne",
+            "71": "Southland"
+        }
+    },
+    "13": {
+        "name": "Kalkarindji",
+        "links": {
+            "17": "Nicholson",
+            "76": "Davenport",
+            "15": "Katherine",
+            "20": "Halls Creek",
+            "77": "Lake MacKay"
+        }
+    },
+    "14": {
+        "name": "Darwin",
+        "links": {
+            "16": "Borroloola",
+            "15": "Katherine",
+            "70": "Jabiru"
+        }
+    },
+    "15": {
+        "name": "Katherine",
+        "links": {
+            "17": "Nicholson",
+            "16": "Borroloola",
+            "14": "Darwin",
+            "13": "Kalkarindji",
+            "23": "Drysdale River",
+            "20": "Halls Creek"
+        }
+    },
+    "16": {
+        "name": "Borroloola",
+        "links": {
+            "69": "Nhulunbuy",
+            "17": "Nicholson",
+            "15": "Katherine",
+            "70": "Jabiru",
+            "14": "Darwin",
+            "43": "Dooadgee"
+        }
+    },
+    "17": {
+        "name": "Nicholson",
+        "links": {
+            "16": "Borroloola",
+            "15": "Katherine",
+            "13": "Kalkarindji",
+            "76": "Davenport",
+            "43": "Dooadgee"
+        }
+    },
+    "20": {
+        "name": "Halls Creek",
+        "links": {
+            "77": "Lake MacKay",
+            "25": "Port Hedland",
+            "22": "Derby",
+            "23": "Drysdale River",
+            "15": "Katherine",
+            "13": "Kalkarindji"
+        }
+    },
+    "21": {
+        "name": "Broome",
+        "links": {
+            "22": "Derby",
+            "25": "Port Hedland"
+        }
+    },
+    "22": {
+        "name": "Derby",
+        "links": {
+            "20": "Halls Creek",
+            "23": "Drysdale River",
+            "21": "Broome",
+            "25": "Port Hedland"
+        }
+    },
+    "23": {
+        "name": "Drysdale River",
+        "links": {
+            "20": "Halls Creek",
+            "22": "Derby",
+            "15": "Katherine"
+        }
+    },
+    "24": {
+        "name": "Margaret River",
+        "links": {
+            "68": "Melbourne",
+            "29": "Perth",
+            "31": "Esperance"
+        }
+    },
+    "25": {
+        "name": "Port Hedland",
+        "links": {
+            "77": "Lake MacKay",
+            "20": "Halls Creek",
+            "22": "Derby",
+            "21": "Broome",
+            "27": "Geraldton",
+            "26": "Warakurna",
+            "28": "Coral Bay",
+            "75": "Alice Springs"
+        }
+    },
+    "26": {
+        "name": "Warakurna",
+        "links": {
+            "25": "Port Hedland",
+            "30": "Kalgoorlie",
+            "27": "Geraldton",
+            "75": "Alice Springs",
+            "33": "Watarru"
+        }
+    },
+    "27": {
+        "name": "Geraldton",
+        "links": {
+            "25": "Port Hedland",
+            "28": "Coral Bay",
+            "29": "Perth",
+            "30": "Kalgoorlie",
+            "26": "Warakurna"
+        }
+    },
+    "28": {
+        "name": "Coral Bay",
+        "links": {
+            "25": "Port Hedland",
+            "27": "Geraldton"
+        }
+    },
+    "29": {
+        "name": "Perth",
+        "links": {
+            "24": "Margaret River",
+            "27": "Geraldton",
+            "31": "Esperance",
+            "30": "Kalgoorlie"
+        }
+    },
+    "30": {
+        "name": "Kalgoorlie",
+        "links": {
+            "31": "Esperance",
+            "27": "Geraldton",
+            "34": "Oak Valley",
+            "29": "Perth",
+            "33": "Watarru",
+            "26": "Warakurna"
+        }
+    },
+    "31": {
+        "name": "Esperance",
+        "links": {
+            "29": "Perth",
+            "34": "Oak Valley",
+            "30": "Kalgoorlie",
+            "24": "Margaret River",
+            "37": "Roxby Downs"
+        }
+    },
+    "32": {
+        "name": "Adelaide",
+        "links": {
+            "65": "Mildura",
+            "68": "Melbourne",
+            "67": "Hopetoun",
+            "37": "Roxby Downs"
+        }
+    },
+    "33": {
+        "name": "Watarru",
+        "links": {
+            "34": "Oak Valley",
+            "35": "Coober Pedy",
+            "30": "Kalgoorlie",
+            "26": "Warakurna",
+            "75": "Alice Springs"
+        }
+    },
+    "34": {
+        "name": "Oak Valley",
+        "links": {
+            "35": "Coober Pedy",
+            "37": "Roxby Downs",
+            "33": "Watarru",
+            "30": "Kalgoorlie",
+            "31": "Esperance"
+        }
+    },
+    "35": {
+        "name": "Coober Pedy",
+        "links": {
+            "36": "Innamincka",
+            "37": "Roxby Downs",
+            "33": "Watarru",
+            "34": "Oak Valley",
+            "75": "Alice Springs"
+        }
+    },
+    "36": {
+        "name": "Innamincka",
+        "links": {
+            "37": "Roxby Downs",
+            "48": "Bulloo Downs",
+            "35": "Coober Pedy",
+            "49": "Birdsville",
+            "56": "Quilpie"
+        }
+    },
+    "37": {
+        "name": "Roxby Downs",
+        "links": {
+            "38": "Lock",
+            "60": "Broken Hill",
+            "36": "Innamincka",
+            "35": "Coober Pedy",
+            "65": "Mildura",
+            "32": "Adelaide",
+            "31": "Esperance",
+            "34": "Oak Valley"
+        }
+    },
+    "38": {
+        "name": "Lock",
+        "links": {
+            "37": "Roxby Downs"
+        }
+    },
+    "39": {
+        "name": "Mounth Mulgrave",
+        "links": {
+            "40": "Aurukun",
+            "44": "Normanton",
+            "47": "Townsville",
+            "46": "Maxwelton"
+        }
+    },
+    "40": {
+        "name": "Aurukun",
+        "links": {
+            "69": "Nhulunbuy",
+            "6": "Auckland",
+            "39": "Mounth Mulgrave"
+        }
+    },
+    "42": {
+        "name": "Mackay",
+        "links": {
+            "47": "Townsville",
+            "51": "Emerald"
+        }
+    },
+    "43": {
+        "name": "Dooadgee",
+        "links": {
+            "44": "Normanton",
+            "76": "Davenport",
+            "17": "Nicholson",
+            "16": "Borroloola",
+            "45": "Mount Isa"
+        }
+    },
+    "44": {
+        "name": "Normanton",
+        "links": {
+            "46": "Maxwelton",
+            "45": "Mount Isa",
+            "39": "Mounth Mulgrave",
+            "43": "Dooadgee"
+        }
+    },
+    "45": {
+        "name": "Mount Isa",
+        "links": {
+            "46": "Maxwelton",
+            "44": "Normanton",
+            "43": "Dooadgee",
+            "77": "Lake MacKay",
+            "76": "Davenport",
+            "49": "Birdsville",
+            "50": "Opalton"
+        }
+    },
+    "46": {
+        "name": "Maxwelton",
+        "links": {
+            "44": "Normanton",
+            "47": "Townsville",
+            "45": "Mount Isa",
+            "39": "Mounth Mulgrave",
+            "50": "Opalton"
+        }
+    },
+    "47": {
+        "name": "Townsville",
+        "links": {
+            "46": "Maxwelton",
+            "42": "Mackay",
+            "39": "Mounth Mulgrave",
+            "50": "Opalton",
+            "51": "Emerald"
+        }
+    },
+    "48": {
+        "name": "Bulloo Downs",
+        "links": {
+            "60": "Broken Hill",
+            "36": "Innamincka",
+            "55": "Cunnamulla",
+            "56": "Quilpie"
+        }
+    },
+    "49": {
+        "name": "Birdsville",
+        "links": {
+            "45": "Mount Isa",
+            "77": "Lake MacKay",
+            "75": "Alice Springs",
+            "50": "Opalton",
+            "56": "Quilpie",
+            "36": "Innamincka"
+        }
+    },
+    "50": {
+        "name": "Opalton",
+        "links": {
+            "51": "Emerald",
+            "46": "Maxwelton",
+            "49": "Birdsville",
+            "55": "Cunnamulla",
+            "56": "Quilpie",
+            "47": "Townsville",
+            "45": "Mount Isa"
+        }
+    },
+    "51": {
+        "name": "Emerald",
+        "links": {
+            "55": "Cunnamulla",
+            "42": "Mackay",
+            "54": "St George",
+            "50": "Opalton",
+            "47": "Townsville",
+            "52": "Rockhampton City"
+        }
+    },
+    "52": {
+        "name": "Rockhampton City",
+        "links": {
+            "51": "Emerald",
+            "54": "St George",
+            "53": "Brisbane"
+        }
+    },
+    "53": {
+        "name": "Brisbane",
+        "links": {
+            "58": "Coff's Harbour",
+            "54": "St George",
+            "52": "Rockhampton City"
+        }
+    },
+    "54": {
+        "name": "St George",
+        "links": {
+            "51": "Emerald",
+            "52": "Rockhampton City",
+            "55": "Cunnamulla",
+            "53": "Brisbane",
+            "62": "Dubbo"
+        }
+    },
+    "55": {
+        "name": "Cunnamulla",
+        "links": {
+            "60": "Broken Hill",
+            "51": "Emerald",
+            "54": "St George",
+            "56": "Quilpie",
+            "50": "Opalton",
+            "48": "Bulloo Downs"
+        }
+    },
+    "56": {
+        "name": "Quilpie",
+        "links": {
+            "55": "Cunnamulla",
+            "50": "Opalton",
+            "49": "Birdsville",
+            "48": "Bulloo Downs",
+            "36": "Innamincka"
+        }
+    },
+    "57": {
+        "name": "Canberra",
+        "links": {
+            "66": "Gippsland",
+            "64": "Wagga Wagga",
+            "59": "Sydney",
+            "63": "Condobolin"
+        }
+    },
+    "58": {
+        "name": "Coff's Harbour",
+        "links": {
+            "59": "Sydney",
+            "62": "Dubbo",
+            "53": "Brisbane"
+        }
+    },
+    "59": {
+        "name": "Sydney",
+        "links": {
+            "73": "West Coast",
+            "58": "Coff's Harbour",
+            "6": "Auckland",
+            "57": "Canberra",
+            "62": "Dubbo",
+            "63": "Condobolin"
+        }
+    },
+    "60": {
+        "name": "Broken Hill",
+        "links": {
+            "61": "Wilcannia",
+            "65": "Mildura",
+            "62": "Dubbo",
+            "48": "Bulloo Downs",
+            "37": "Roxby Downs",
+            "55": "Cunnamulla"
+        }
+    },
+    "61": {
+        "name": "Wilcannia",
+        "links": {
+            "60": "Broken Hill",
+            "65": "Mildura",
+            "64": "Wagga Wagga",
+            "63": "Condobolin",
+            "62": "Dubbo"
+        }
+    },
+    "62": {
+        "name": "Dubbo",
+        "links": {
+            "60": "Broken Hill",
+            "58": "Coff's Harbour",
+            "61": "Wilcannia",
+            "54": "St George",
+            "59": "Sydney",
+            "63": "Condobolin"
+        }
+    },
+    "63": {
+        "name": "Condobolin",
+        "links": {
+            "61": "Wilcannia",
+            "62": "Dubbo",
+            "57": "Canberra",
+            "64": "Wagga Wagga",
+            "59": "Sydney"
+        }
+    },
+    "64": {
+        "name": "Wagga Wagga",
+        "links": {
+            "61": "Wilcannia",
+            "65": "Mildura",
+            "63": "Condobolin",
+            "66": "Gippsland",
+            "57": "Canberra"
+        }
+    },
+    "65": {
+        "name": "Mildura",
+        "links": {
+            "66": "Gippsland",
+            "60": "Broken Hill",
+            "67": "Hopetoun",
+            "37": "Roxby Downs",
+            "61": "Wilcannia",
+            "64": "Wagga Wagga",
+            "68": "Melbourne",
+            "32": "Adelaide"
+        }
+    },
+    "66": {
+        "name": "Gippsland",
+        "links": {
+            "65": "Mildura",
+            "57": "Canberra",
+            "64": "Wagga Wagga",
+            "68": "Melbourne"
+        }
+    },
+    "67": {
+        "name": "Hopetoun",
+        "links": {
+            "68": "Melbourne",
+            "65": "Mildura",
+            "32": "Adelaide"
+        }
+    },
+    "68": {
+        "name": "Melbourne",
+        "links": {
+            "24": "Margaret River",
+            "67": "Hopetoun",
+            "66": "Gippsland",
+            "11": "Hobart",
+            "65": "Mildura",
+            "32": "Adelaide"
+        }
+    },
+    "69": {
+        "name": "Nhulunbuy",
+        "links": {
+            "70": "Jabiru",
+            "40": "Aurukun",
+            "16": "Borroloola"
+        }
+    },
+    "70": {
+        "name": "Jabiru",
+        "links": {
+            "69": "Nhulunbuy",
+            "16": "Borroloola",
+            "14": "Darwin"
+        }
+    },
+    "71": {
+        "name": "Southland",
+        "links": {
+            "73": "West Coast",
+            "74": "Otago",
+            "11": "Hobart"
+        }
+    },
+    "72": {
+        "name": "Canterbury",
+        "links": {
+            "1": "Marlborough",
+            "73": "West Coast",
+            "74": "Otago"
+        }
+    },
+    "73": {
+        "name": "West Coast",
+        "links": {
+            "71": "Southland",
+            "1": "Marlborough",
+            "59": "Sydney",
+            "72": "Canterbury",
+            "74": "Otago"
+        }
+    },
+    "74": {
+        "name": "Otago",
+        "links": {
+            "71": "Southland",
+            "73": "West Coast",
+            "4": "Manawatu Wanganul",
+            "72": "Canterbury"
+        }
+    },
+    "75": {
+        "name": "Alice Springs",
+        "links": {
+            "35": "Coober Pedy",
+            "77": "Lake MacKay",
+            "25": "Port Hedland",
+            "26": "Warakurna",
+            "49": "Birdsville",
+            "33": "Watarru"
+        }
+    },
+    "76": {
+        "name": "Davenport",
+        "links": {
+            "77": "Lake MacKay",
+            "17": "Nicholson",
+            "13": "Kalkarindji",
+            "45": "Mount Isa",
+            "43": "Dooadgee"
+        }
+    },
+    "77": {
+        "name": "Lake MacKay",
+        "links": {
+            "25": "Port Hedland",
+            "20": "Halls Creek",
+            "76": "Davenport",
+            "45": "Mount Isa",
+            "75": "Alice Springs",
+            "13": "Kalkarindji",
+            "49": "Birdsville"
+        }
+    }
+}

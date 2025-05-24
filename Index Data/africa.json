@@ -1,0 +1,349 @@
+{
+    "1": {
+        "name": "Algeria",
+        "links": {
+            "25": "Niger",
+            "20": "Mali",
+            "22": "Morocco",
+            "32": "Tunisia",
+            "18": "Libya",
+            "21": "Mauritania",
+            "35": "Western Sahara"
+        }
+    },
+    "2": {
+        "name": "Angola",
+        "links": {
+            "36": "Zambia",
+            "3": "Botswana",
+            "8": "DR Congo",
+            "24": "Namibia"
+        }
+    },
+    "3": {
+        "name": "Botswana",
+        "links": {
+            "2": "Angola",
+            "36": "Zambia",
+            "24": "Namibia",
+            "37": "Zimbabwe",
+            "29": "South Africa"
+        }
+    },
+    "4": {
+        "name": "Burkina Faso",
+        "links": {
+            "25": "Niger",
+            "13": "Ghana",
+            "15": "Ivory Coast",
+            "20": "Mali"
+        }
+    },
+    "5": {
+        "name": "Cameroon",
+        "links": {
+            "26": "Nigeria",
+            "6": "Chad",
+            "7": "Congo",
+            "33": "Ubangishargi",
+            "12": "Gabon"
+        }
+    },
+    "6": {
+        "name": "Chad",
+        "links": {
+            "30": "Sudan",
+            "33": "Ubangishargi",
+            "9": "Egypt",
+            "25": "Niger",
+            "26": "Nigeria",
+            "18": "Libya",
+            "5": "Cameroon"
+        }
+    },
+    "7": {
+        "name": "Congo",
+        "links": {
+            "5": "Cameroon",
+            "33": "Ubangishargi",
+            "12": "Gabon",
+            "8": "DR Congo"
+        }
+    },
+    "8": {
+        "name": "DR Congo",
+        "links": {
+            "30": "Sudan",
+            "34": "Uganda",
+            "36": "Zambia",
+            "2": "Angola",
+            "7": "Congo",
+            "33": "Ubangishargi",
+            "31": "Tanzania"
+        }
+    },
+    "9": {
+        "name": "Egypt",
+        "links": {
+            "30": "Sudan",
+            "6": "Chad",
+            "18": "Libya"
+        }
+    },
+    "10": {
+        "name": "Eritrea",
+        "links": {
+            "11": "Ethiopia",
+            "28": "Somalia",
+            "30": "Sudan"
+        }
+    },
+    "11": {
+        "name": "Ethiopia",
+        "links": {
+            "16": "Kenya",
+            "30": "Sudan",
+            "10": "Eritrea",
+            "28": "Somalia"
+        }
+    },
+    "12": {
+        "name": "Gabon",
+        "links": {
+            "5": "Cameroon",
+            "7": "Congo"
+        }
+    },
+    "13": {
+        "name": "Ghana",
+        "links": {
+            "25": "Niger",
+            "26": "Nigeria",
+            "15": "Ivory Coast",
+            "4": "Burkina Faso"
+        }
+    },
+    "14": {
+        "name": "Guinea",
+        "links": {
+            "17": "Liberia",
+            "27": "Senegal",
+            "15": "Ivory Coast",
+            "20": "Mali"
+        }
+    },
+    "15": {
+        "name": "Ivory Coast",
+        "links": {
+            "13": "Ghana",
+            "17": "Liberia",
+            "4": "Burkina Faso",
+            "14": "Guinea",
+            "20": "Mali"
+        }
+    },
+    "16": {
+        "name": "Kenya",
+        "links": {
+            "34": "Uganda",
+            "30": "Sudan",
+            "31": "Tanzania",
+            "11": "Ethiopia",
+            "28": "Somalia"
+        }
+    },
+    "17": {
+        "name": "Liberia",
+        "links": {
+            "15": "Ivory Coast",
+            "14": "Guinea"
+        }
+    },
+    "18": {
+        "name": "Libya",
+        "links": {
+            "6": "Chad",
+            "25": "Niger",
+            "32": "Tunisia",
+            "9": "Egypt",
+            "1": "Algeria"
+        }
+    },
+    "19": {
+        "name": "Madagascar",
+        "links": {
+            "23": "Mozambique",
+            "29": "South Africa"
+        }
+    },
+    "20": {
+        "name": "Mali",
+        "links": {
+            "1": "Algeria",
+            "25": "Niger",
+            "14": "Guinea",
+            "27": "Senegal",
+            "4": "Burkina Faso",
+            "15": "Ivory Coast",
+            "21": "Mauritania"
+        }
+    },
+    "21": {
+        "name": "Mauritania",
+        "links": {
+            "27": "Senegal",
+            "35": "Western Sahara",
+            "1": "Algeria",
+            "20": "Mali"
+        }
+    },
+    "22": {
+        "name": "Morocco",
+        "links": {
+            "35": "Western Sahara",
+            "1": "Algeria"
+        }
+    },
+    "23": {
+        "name": "Mozambique",
+        "links": {
+            "37": "Zimbabwe",
+            "36": "Zambia",
+            "29": "South Africa",
+            "31": "Tanzania",
+            "19": "Madagascar"
+        }
+    },
+    "24": {
+        "name": "Namibia",
+        "links": {
+            "2": "Angola",
+            "3": "Botswana",
+            "29": "South Africa"
+        }
+    },
+    "25": {
+        "name": "Niger",
+        "links": {
+            "6": "Chad",
+            "26": "Nigeria",
+            "18": "Libya",
+            "1": "Algeria",
+            "20": "Mali",
+            "13": "Ghana",
+            "4": "Burkina Faso"
+        }
+    },
+    "26": {
+        "name": "Nigeria",
+        "links": {
+            "25": "Niger",
+            "6": "Chad",
+            "13": "Ghana",
+            "5": "Cameroon"
+        }
+    },
+    "27": {
+        "name": "Senegal",
+        "links": {
+            "14": "Guinea",
+            "21": "Mauritania",
+            "20": "Mali"
+        }
+    },
+    "28": {
+        "name": "Somalia",
+        "links": {
+            "11": "Ethiopia",
+            "10": "Eritrea",
+            "16": "Kenya"
+        }
+    },
+    "29": {
+        "name": "South Africa",
+        "links": {
+            "37": "Zimbabwe",
+            "23": "Mozambique",
+            "3": "Botswana",
+            "24": "Namibia",
+            "19": "Madagascar"
+        }
+    },
+    "30": {
+        "name": "Sudan",
+        "links": {
+            "16": "Kenya",
+            "34": "Uganda",
+            "11": "Ethiopia",
+            "6": "Chad",
+            "33": "Ubangishargi",
+            "9": "Egypt",
+            "10": "Eritrea",
+            "8": "DR Congo"
+        }
+    },
+    "31": {
+        "name": "Tanzania",
+        "links": {
+            "34": "Uganda",
+            "16": "Kenya",
+            "23": "Mozambique",
+            "36": "Zambia",
+            "8": "DR Congo"
+        }
+    },
+    "32": {
+        "name": "Tunisia",
+        "links": {
+            "1": "Algeria",
+            "18": "Libya"
+        }
+    },
+    "33": {
+        "name": "Ubangishargi",
+        "links": {
+            "6": "Chad",
+            "30": "Sudan",
+            "7": "Congo",
+            "5": "Cameroon",
+            "8": "DR Congo"
+        }
+    },
+    "34": {
+        "name": "Uganda",
+        "links": {
+            "16": "Kenya",
+            "30": "Sudan",
+            "31": "Tanzania",
+            "8": "DR Congo"
+        }
+    },
+    "35": {
+        "name": "Western Sahara",
+        "links": {
+            "21": "Mauritania",
+            "22": "Morocco",
+            "1": "Algeria"
+        }
+    },
+    "36": {
+        "name": "Zambia",
+        "links": {
+            "37": "Zimbabwe",
+            "23": "Mozambique",
+            "2": "Angola",
+            "3": "Botswana",
+            "8": "DR Congo",
+            "31": "Tanzania"
+        }
+    },
+    "37": {
+        "name": "Zimbabwe",
+        "links": {
+            "36": "Zambia",
+            "23": "Mozambique",
+            "3": "Botswana",
+            "29": "South Africa"
+        }
+    }
+}

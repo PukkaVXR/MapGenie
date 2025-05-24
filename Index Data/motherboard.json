@@ -1,0 +1,251 @@
+{
+    "1": {
+        "name": "Processing Unit",
+        "links": {
+            "3": "Power Manager",
+            "2": "SRam2",
+            "13": "Drive Port",
+            "8": "Compute Array",
+            "17": "Controller Board"
+        }
+    },
+    "3": {
+        "name": "Power Manager",
+        "links": {
+            "8": "Compute Array",
+            "6": "Bus Interface",
+            "1": "Processing Unit",
+            "25": "Security Hall"
+        }
+    },
+    "4": {
+        "name": "Core1",
+        "links": {
+            "7": "SRam1",
+            "8": "Compute Array",
+            "30": "Possible Shock",
+            "9": "Core2"
+        }
+    },
+    "6": {
+        "name": "Bus Interface",
+        "links": {
+            "3": "Power Manager",
+            "8": "Compute Array",
+            "26": "Transistor Lane",
+            "21": "Main Memory",
+            "9": "Core2"
+        }
+    },
+    "8": {
+        "name": "Compute Array",
+        "links": {
+            "3": "Power Manager",
+            "6": "Bus Interface",
+            "4": "Core1",
+            "1": "Processing Unit",
+            "9": "Core2"
+        }
+    },
+    "9": {
+        "name": "Core2",
+        "links": {
+            "8": "Compute Array",
+            "6": "Bus Interface",
+            "4": "Core1"
+        }
+    },
+    "21": {
+        "name": "Main Memory",
+        "links": {
+            "27": "Logic Unit",
+            "6": "Bus Interface",
+            "26": "Transistor Lane",
+            "28": "Cache"
+        }
+    },
+    "27": {
+        "name": "Logic Unit",
+        "links": {
+            "29": "Resistor Passage",
+            "28": "Cache",
+            "21": "Main Memory"
+        }
+    },
+    "28": {
+        "name": "Cache",
+        "links": {
+            "27": "Logic Unit",
+            "21": "Main Memory"
+        }
+    },
+    "18": {
+        "name": "Digital Output",
+        "links": {
+            "30": "Possible Shock",
+            "26": "Transistor Lane",
+            "12": "Bridge"
+        }
+    },
+    "23": {
+        "name": "Analog Ouput",
+        "links": {
+            "26": "Transistor Lane",
+            "24": "Blue Cylinder"
+        }
+    },
+    "24": {
+        "name": "Blue Cylinder",
+        "links": {
+            "23": "Analog Ouput",
+            "26": "Transistor Lane",
+            "31": "Microchip City"
+        }
+    },
+    "26": {
+        "name": "Transistor Lane",
+        "links": {
+            "15": "Power Pins",
+            "18": "Digital Output",
+            "6": "Bus Interface",
+            "21": "Main Memory",
+            "23": "Analog Ouput",
+            "24": "Blue Cylinder"
+        }
+    },
+    "15": {
+        "name": "Power Pins",
+        "links": {
+            "26": "Transistor Lane",
+            "25": "Security Hall"
+        }
+    },
+    "19": {
+        "name": "Serial Port1",
+        "links": {
+            "20": "Serial Port2",
+            "25": "Security Hall"
+        }
+    },
+    "20": {
+        "name": "Serial Port2",
+        "links": {
+            "19": "Serial Port1",
+            "29": "Resistor Passage"
+        }
+    },
+    "22": {
+        "name": "High Speed Port",
+        "links": {
+            "10": "SDRam"
+        }
+    },
+    "2": {
+        "name": "SRam2",
+        "links": {
+            "1": "Processing Unit",
+            "14": "Pins & Needles"
+        }
+    },
+    "7": {
+        "name": "SRam1",
+        "links": {
+            "4": "Core1",
+            "14": "Pins & Needles",
+            "10": "SDRam"
+        }
+    },
+    "10": {
+        "name": "SDRam",
+        "links": {
+            "30": "Possible Shock",
+            "12": "Bridge",
+            "22": "High Speed Port",
+            "7": "SRam1"
+        }
+    },
+    "12": {
+        "name": "Bridge",
+        "links": {
+            "18": "Digital Output",
+            "10": "SDRam"
+        }
+    },
+    "14": {
+        "name": "Pins & Needles",
+        "links": {
+            "7": "SRam1",
+            "2": "SRam2"
+        }
+    },
+    "5": {
+        "name": "Cereal Number",
+        "links": {
+            "13": "Drive Port"
+        }
+    },
+    "13": {
+        "name": "Drive Port",
+        "links": {
+            "1": "Processing Unit",
+            "16": "More Memory",
+            "5": "Cereal Number"
+        }
+    },
+    "11": {
+        "name": "Memory Slot",
+        "links": {
+            "17": "Controller Board"
+        }
+    },
+    "16": {
+        "name": "More Memory",
+        "links": {
+            "17": "Controller Board",
+            "13": "Drive Port"
+        }
+    },
+    "17": {
+        "name": "Controller Board",
+        "links": {
+            "16": "More Memory",
+            "11": "Memory Slot",
+            "1": "Processing Unit",
+            "25": "Security Hall"
+        }
+    },
+    "25": {
+        "name": "Security Hall",
+        "links": {
+            "15": "Power Pins",
+            "3": "Power Manager",
+            "19": "Serial Port1",
+            "29": "Resistor Passage",
+            "17": "Controller Board"
+        }
+    },
+    "29": {
+        "name": "Resistor Passage",
+        "links": {
+            "27": "Logic Unit",
+            "20": "Serial Port2",
+            "25": "Security Hall"
+        }
+    },
+    "30": {
+        "name": "Possible Shock",
+        "links": {
+            "31": "Microchip City",
+            "18": "Digital Output",
+            "4": "Core1",
+            "10": "SDRam"
+        }
+    },
+    "31": {
+        "name": "Microchip City",
+        "links": {
+            "30": "Possible Shock",
+            "24": "Blue Cylinder"
+        }
+    }
+}

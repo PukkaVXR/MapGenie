@@ -1,0 +1,633 @@
+{
+    "1": {
+        "name": "Adana",
+        "links": {
+            "31": "Hatay",
+            "48": "Mersin",
+            "40": "Kayseri",
+            "35": "Kahramanmara\u015f",
+            "51": "Ni\u011fde"
+        }
+    },
+    "2": {
+        "name": "Ad\u0131yaman",
+        "links": {
+            "54": "\u015eanl\u0131urfa",
+            "28": "Gaziantep",
+            "35": "Kahramanmara\u015f",
+            "45": "Malatya",
+            "22": "Diyarbak\u0131r"
+        }
+    },
+    "3": {
+        "name": "Afyonkarahisar",
+        "links": {
+            "43": "Konya",
+            "32": "Isparta",
+            "44": "K\u00fctahya",
+            "27": "Eski\u015fehir",
+            "61": "U\u015fak",
+            "16": "Burdur",
+            "21": "Denizli"
+        }
+    },
+    "4": {
+        "name": "A\u011fr\u0131",
+        "links": {
+            "38": "Kars",
+            "62": "Van",
+            "14": "Bitlis",
+            "50": "Mu\u015f",
+            "26": "Erzurum"
+        }
+    },
+    "5": {
+        "name": "Aksaray",
+        "links": {
+            "7": "Ankara",
+            "41": "K\u0131r\u015fehir",
+            "51": "Ni\u011fde",
+            "43": "Konya"
+        }
+    },
+    "6": {
+        "name": "Amasya",
+        "links": {
+            "58": "Sivas",
+            "63": "Yozgat",
+            "53": "Samsun",
+            "29": "Giresun",
+            "20": "\u00c7orum"
+        }
+    },
+    "7": {
+        "name": "Ankara",
+        "links": {
+            "19": "\u00c7ank\u0131r\u0131",
+            "20": "\u00c7orum",
+            "15": "Bolu",
+            "41": "K\u0131r\u015fehir",
+            "5": "Aksaray",
+            "43": "Konya",
+            "27": "Eski\u015fehir",
+            "63": "Yozgat"
+        }
+    },
+    "8": {
+        "name": "Antalya",
+        "links": {
+            "55": "Side",
+            "49": "Mu\u011fla",
+            "16": "Burdur",
+            "31": "Hatay"
+        }
+    },
+    "9": {
+        "name": "Artvin",
+        "links": {
+            "38": "Kars",
+            "57": "Sinop",
+            "26": "Erzurum",
+            "52": "Rize"
+        }
+    },
+    "10": {
+        "name": "Ayd\u0131n",
+        "links": {
+            "49": "Mu\u011fla",
+            "34": "\u0130zmir",
+            "21": "Denizli",
+            "46": "Manisa"
+        }
+    },
+    "11": {
+        "name": "Bal\u0131kesir",
+        "links": {
+            "34": "\u0130zmir",
+            "18": "\u00c7anakkale",
+            "17": "Bursa",
+            "44": "K\u00fctahya",
+            "46": "Manisa"
+        }
+    },
+    "12": {
+        "name": "Batman",
+        "links": {
+            "50": "Mu\u015f",
+            "14": "Bitlis",
+            "13": "Bing\u00f6l",
+            "24": "El\u00e2z\u0131\u011f",
+            "22": "Diyarbak\u0131r",
+            "56": "Siirt",
+            "47": "Mardin"
+        }
+    },
+    "13": {
+        "name": "Bing\u00f6l",
+        "links": {
+            "26": "Erzurum",
+            "50": "Mu\u015f",
+            "25": "Erzincan",
+            "12": "Batman",
+            "24": "El\u00e2z\u0131\u011f",
+            "22": "Diyarbak\u0131r"
+        }
+    },
+    "14": {
+        "name": "Bitlis",
+        "links": {
+            "50": "Mu\u015f",
+            "12": "Batman",
+            "4": "A\u011fr\u0131",
+            "56": "Siirt",
+            "62": "Van"
+        }
+    },
+    "15": {
+        "name": "Bolu",
+        "links": {
+            "19": "\u00c7ank\u0131r\u0131",
+            "7": "Ankara",
+            "42": "Kocaeli",
+            "36": "Karab\u00fck",
+            "27": "Eski\u015fehir",
+            "17": "Bursa"
+        }
+    },
+    "16": {
+        "name": "Burdur",
+        "links": {
+            "32": "Isparta",
+            "55": "Side",
+            "3": "Afyonkarahisar",
+            "21": "Denizli",
+            "49": "Mu\u011fla",
+            "8": "Antalya"
+        }
+    },
+    "17": {
+        "name": "Bursa",
+        "links": {
+            "44": "K\u00fctahya",
+            "27": "Eski\u015fehir",
+            "33": "\u0130stanbul",
+            "11": "Bal\u0131kesir",
+            "15": "Bolu",
+            "42": "Kocaeli"
+        }
+    },
+    "18": {
+        "name": "\u00c7anakkale",
+        "links": {
+            "11": "Bal\u0131kesir",
+            "59": "Tekirda\u011f"
+        }
+    },
+    "19": {
+        "name": "\u00c7ank\u0131r\u0131",
+        "links": {
+            "20": "\u00c7orum",
+            "7": "Ankara",
+            "39": "Kastamonu",
+            "15": "Bolu",
+            "36": "Karab\u00fck"
+        }
+    },
+    "20": {
+        "name": "\u00c7orum",
+        "links": {
+            "63": "Yozgat",
+            "41": "K\u0131r\u015fehir",
+            "57": "Sinop",
+            "53": "Samsun",
+            "6": "Amasya",
+            "19": "\u00c7ank\u0131r\u0131",
+            "7": "Ankara",
+            "39": "Kastamonu"
+        }
+    },
+    "21": {
+        "name": "Denizli",
+        "links": {
+            "16": "Burdur",
+            "49": "Mu\u011fla",
+            "61": "U\u015fak",
+            "3": "Afyonkarahisar",
+            "10": "Ayd\u0131n",
+            "46": "Manisa"
+        }
+    },
+    "22": {
+        "name": "Diyarbak\u0131r",
+        "links": {
+            "24": "El\u00e2z\u0131\u011f",
+            "12": "Batman",
+            "45": "Malatya",
+            "47": "Mardin",
+            "54": "\u015eanl\u0131urfa",
+            "2": "Ad\u0131yaman",
+            "13": "Bing\u00f6l"
+        }
+    },
+    "23": {
+        "name": "Edirne",
+        "links": {
+            "59": "Tekirda\u011f",
+            "33": "\u0130stanbul"
+        }
+    },
+    "24": {
+        "name": "El\u00e2z\u0131\u011f",
+        "links": {
+            "12": "Batman",
+            "22": "Diyarbak\u0131r",
+            "25": "Erzincan",
+            "13": "Bing\u00f6l",
+            "45": "Malatya"
+        }
+    },
+    "25": {
+        "name": "Erzincan",
+        "links": {
+            "60": "Trabzon",
+            "26": "Erzurum",
+            "29": "Giresun",
+            "58": "Sivas",
+            "45": "Malatya",
+            "13": "Bing\u00f6l",
+            "24": "El\u00e2z\u0131\u011f"
+        }
+    },
+    "26": {
+        "name": "Erzurum",
+        "links": {
+            "9": "Artvin",
+            "38": "Kars",
+            "50": "Mu\u015f",
+            "13": "Bing\u00f6l",
+            "4": "A\u011fr\u0131",
+            "60": "Trabzon",
+            "25": "Erzincan",
+            "52": "Rize"
+        }
+    },
+    "27": {
+        "name": "Eski\u015fehir",
+        "links": {
+            "44": "K\u00fctahya",
+            "17": "Bursa",
+            "3": "Afyonkarahisar",
+            "15": "Bolu",
+            "7": "Ankara",
+            "43": "Konya"
+        }
+    },
+    "28": {
+        "name": "Gaziantep",
+        "links": {
+            "54": "\u015eanl\u0131urfa",
+            "31": "Hatay",
+            "2": "Ad\u0131yaman",
+            "35": "Kahramanmara\u015f"
+        }
+    },
+    "29": {
+        "name": "Giresun",
+        "links": {
+            "60": "Trabzon",
+            "25": "Erzincan",
+            "58": "Sivas",
+            "6": "Amasya",
+            "53": "Samsun"
+        }
+    },
+    "30": {
+        "name": "Hakk\u00e2ri",
+        "links": {
+            "62": "Van",
+            "56": "Siirt"
+        }
+    },
+    "31": {
+        "name": "Hatay",
+        "links": {
+            "28": "Gaziantep",
+            "1": "Adana",
+            "35": "Kahramanmara\u015f",
+            "8": "Antalya"
+        }
+    },
+    "32": {
+        "name": "Isparta",
+        "links": {
+            "43": "Konya",
+            "55": "Side",
+            "3": "Afyonkarahisar",
+            "16": "Burdur"
+        }
+    },
+    "33": {
+        "name": "\u0130stanbul",
+        "links": {
+            "23": "Edirne",
+            "39": "Kastamonu",
+            "42": "Kocaeli",
+            "17": "Bursa",
+            "59": "Tekirda\u011f"
+        }
+    },
+    "34": {
+        "name": "\u0130zmir",
+        "links": {
+            "10": "Ayd\u0131n",
+            "11": "Bal\u0131kesir",
+            "46": "Manisa"
+        }
+    },
+    "35": {
+        "name": "Kahramanmara\u015f",
+        "links": {
+            "28": "Gaziantep",
+            "31": "Hatay",
+            "2": "Ad\u0131yaman",
+            "45": "Malatya",
+            "40": "Kayseri",
+            "1": "Adana",
+            "58": "Sivas"
+        }
+    },
+    "36": {
+        "name": "Karab\u00fck",
+        "links": {
+            "39": "Kastamonu",
+            "19": "\u00c7ank\u0131r\u0131",
+            "15": "Bolu"
+        }
+    },
+    "37": {
+        "name": "Karaman",
+        "links": {
+            "43": "Konya",
+            "48": "Mersin",
+            "55": "Side"
+        }
+    },
+    "38": {
+        "name": "Kars",
+        "links": {
+            "9": "Artvin",
+            "4": "A\u011fr\u0131",
+            "26": "Erzurum"
+        }
+    },
+    "39": {
+        "name": "Kastamonu",
+        "links": {
+            "33": "\u0130stanbul",
+            "57": "Sinop",
+            "20": "\u00c7orum",
+            "19": "\u00c7ank\u0131r\u0131",
+            "36": "Karab\u00fck"
+        }
+    },
+    "40": {
+        "name": "Kayseri",
+        "links": {
+            "63": "Yozgat",
+            "58": "Sivas",
+            "35": "Kahramanmara\u015f",
+            "1": "Adana",
+            "41": "K\u0131r\u015fehir",
+            "51": "Ni\u011fde"
+        }
+    },
+    "41": {
+        "name": "K\u0131r\u015fehir",
+        "links": {
+            "20": "\u00c7orum",
+            "63": "Yozgat",
+            "7": "Ankara",
+            "40": "Kayseri",
+            "5": "Aksaray",
+            "51": "Ni\u011fde"
+        }
+    },
+    "42": {
+        "name": "Kocaeli",
+        "links": {
+            "33": "\u0130stanbul",
+            "15": "Bolu",
+            "17": "Bursa"
+        }
+    },
+    "43": {
+        "name": "Konya",
+        "links": {
+            "51": "Ni\u011fde",
+            "37": "Karaman",
+            "5": "Aksaray",
+            "32": "Isparta",
+            "55": "Side",
+            "3": "Afyonkarahisar",
+            "7": "Ankara",
+            "27": "Eski\u015fehir",
+            "48": "Mersin"
+        }
+    },
+    "44": {
+        "name": "K\u00fctahya",
+        "links": {
+            "17": "Bursa",
+            "27": "Eski\u015fehir",
+            "11": "Bal\u0131kesir",
+            "3": "Afyonkarahisar",
+            "46": "Manisa",
+            "61": "U\u015fak"
+        }
+    },
+    "45": {
+        "name": "Malatya",
+        "links": {
+            "58": "Sivas",
+            "25": "Erzincan",
+            "24": "El\u00e2z\u0131\u011f",
+            "22": "Diyarbak\u0131r",
+            "2": "Ad\u0131yaman",
+            "35": "Kahramanmara\u015f"
+        }
+    },
+    "46": {
+        "name": "Manisa",
+        "links": {
+            "11": "Bal\u0131kesir",
+            "44": "K\u00fctahya",
+            "61": "U\u015fak",
+            "21": "Denizli",
+            "10": "Ayd\u0131n",
+            "34": "\u0130zmir"
+        }
+    },
+    "47": {
+        "name": "Mardin",
+        "links": {
+            "56": "Siirt",
+            "54": "\u015eanl\u0131urfa",
+            "22": "Diyarbak\u0131r",
+            "12": "Batman"
+        }
+    },
+    "48": {
+        "name": "Mersin",
+        "links": {
+            "1": "Adana",
+            "55": "Side",
+            "37": "Karaman",
+            "51": "Ni\u011fde",
+            "43": "Konya"
+        }
+    },
+    "49": {
+        "name": "Mu\u011fla",
+        "links": {
+            "8": "Antalya",
+            "10": "Ayd\u0131n",
+            "21": "Denizli",
+            "16": "Burdur"
+        }
+    },
+    "50": {
+        "name": "Mu\u015f",
+        "links": {
+            "14": "Bitlis",
+            "12": "Batman",
+            "4": "A\u011fr\u0131",
+            "26": "Erzurum",
+            "13": "Bing\u00f6l"
+        }
+    },
+    "51": {
+        "name": "Ni\u011fde",
+        "links": {
+            "40": "Kayseri",
+            "1": "Adana",
+            "41": "K\u0131r\u015fehir",
+            "43": "Konya",
+            "48": "Mersin",
+            "5": "Aksaray"
+        }
+    },
+    "52": {
+        "name": "Rize",
+        "links": {
+            "26": "Erzurum",
+            "60": "Trabzon",
+            "9": "Artvin"
+        }
+    },
+    "53": {
+        "name": "Samsun",
+        "links": {
+            "6": "Amasya",
+            "29": "Giresun",
+            "57": "Sinop",
+            "20": "\u00c7orum"
+        }
+    },
+    "54": {
+        "name": "\u015eanl\u0131urfa",
+        "links": {
+            "47": "Mardin",
+            "28": "Gaziantep",
+            "22": "Diyarbak\u0131r",
+            "2": "Ad\u0131yaman"
+        }
+    },
+    "55": {
+        "name": "Side",
+        "links": {
+            "48": "Mersin",
+            "8": "Antalya",
+            "32": "Isparta",
+            "43": "Konya",
+            "16": "Burdur",
+            "37": "Karaman"
+        }
+    },
+    "56": {
+        "name": "Siirt",
+        "links": {
+            "30": "Hakk\u00e2ri",
+            "47": "Mardin",
+            "12": "Batman",
+            "14": "Bitlis",
+            "62": "Van"
+        }
+    },
+    "57": {
+        "name": "Sinop",
+        "links": {
+            "39": "Kastamonu",
+            "9": "Artvin",
+            "53": "Samsun",
+            "20": "\u00c7orum"
+        }
+    },
+    "58": {
+        "name": "Sivas",
+        "links": {
+            "25": "Erzincan",
+            "45": "Malatya",
+            "29": "Giresun",
+            "63": "Yozgat",
+            "40": "Kayseri",
+            "6": "Amasya",
+            "35": "Kahramanmara\u015f"
+        }
+    },
+    "59": {
+        "name": "Tekirda\u011f",
+        "links": {
+            "18": "\u00c7anakkale",
+            "23": "Edirne",
+            "33": "\u0130stanbul"
+        }
+    },
+    "60": {
+        "name": "Trabzon",
+        "links": {
+            "26": "Erzurum",
+            "25": "Erzincan",
+            "52": "Rize",
+            "29": "Giresun"
+        }
+    },
+    "61": {
+        "name": "U\u015fak",
+        "links": {
+            "44": "K\u00fctahya",
+            "3": "Afyonkarahisar",
+            "46": "Manisa",
+            "21": "Denizli"
+        }
+    },
+    "62": {
+        "name": "Van",
+        "links": {
+            "4": "A\u011fr\u0131",
+            "30": "Hakk\u00e2ri",
+            "14": "Bitlis",
+            "56": "Siirt"
+        }
+    },
+    "63": {
+        "name": "Yozgat",
+        "links": {
+            "58": "Sivas",
+            "40": "Kayseri",
+            "6": "Amasya",
+            "20": "\u00c7orum",
+            "41": "K\u0131r\u015fehir",
+            "7": "Ankara"
+        }
+    }
+}

@@ -1,0 +1,536 @@
+{
+    "1": {
+        "name": "All Things Wood",
+        "links": {
+            "22": "East Promenade",
+            "39": "Loading Zone"
+        }
+    },
+    "2": {
+        "name": "Arcade",
+        "links": {
+            "43": "New Game Plus"
+        }
+    },
+    "3": {
+        "name": "Backroom",
+        "links": {
+            "33": "Initech Support"
+        }
+    },
+    "4": {
+        "name": "Barber Cuts",
+        "links": {
+            "49": "Rear Entrance",
+            "30": "Fountain Right"
+        }
+    },
+    "5": {
+        "name": "Beats n' Eats",
+        "links": {
+            "23": "Empire Records",
+            "21": "East Hallway"
+        }
+    },
+    "6": {
+        "name": "Big Time Books",
+        "links": {
+            "9": "Bottom Bridge",
+            "38": "Lil Cafe",
+            "48": "Reading Room"
+        }
+    },
+    "7": {
+        "name": "Bigness",
+        "links": {
+            "72": "West Promenade"
+        }
+    },
+    "8": {
+        "name": "Bluth And Sons",
+        "links": {
+            "52": "South Hallway"
+        }
+    },
+    "9": {
+        "name": "Bottom Bridge",
+        "links": {
+            "66": "Walkway Bottom 2",
+            "6": "Big Time Books",
+            "58": "Top Bridge",
+            "65": "Walkway Bottom 1"
+        }
+    },
+    "10": {
+        "name": "Bread Pitt",
+        "links": {
+            "27": "Food Court Right"
+        }
+    },
+    "11": {
+        "name": "Business Square",
+        "links": {
+            "65": "Walkway Bottom 1",
+            "52": "South Hallway",
+            "45": "North Hallway",
+            "68": "Walkway Top 1",
+            "19": "E Corp",
+            "61": "UGen",
+            "33": "Initech Support"
+        }
+    },
+    "12": {
+        "name": "Busty Beds",
+        "links": {
+            "22": "East Promenade"
+        }
+    },
+    "13": {
+        "name": "Championship Vinyl",
+        "links": {
+            "66": "Walkway Bottom 2"
+        }
+    },
+    "14": {
+        "name": "Changing Rooms",
+        "links": {
+            "50": "Sock It To Me",
+            "60": "Tunic Galore",
+            "15": "Cryin' Ape"
+        }
+    },
+    "15": {
+        "name": "Cryin' Ape",
+        "links": {
+            "14": "Changing Rooms",
+            "72": "West Promenade"
+        }
+    },
+    "16": {
+        "name": "Cyberdyne Shawarma",
+        "links": {
+            "27": "Food Court Right",
+            "35": "Kitchen"
+        }
+    },
+    "17": {
+        "name": "Desk City",
+        "links": {
+            "22": "East Promenade"
+        }
+    },
+    "18": {
+        "name": "Disc Boutique",
+        "links": {
+            "66": "Walkway Bottom 2"
+        }
+    },
+    "19": {
+        "name": "E Corp",
+        "links": {
+            "11": "Business Square",
+            "61": "UGen"
+        }
+    },
+    "20": {
+        "name": "East Escalators",
+        "links": {
+            "21": "East Hallway",
+            "22": "East Promenade"
+        }
+    },
+    "21": {
+        "name": "East Hallway",
+        "links": {
+            "20": "East Escalators",
+            "5": "Beats n' Eats",
+            "27": "Food Court Right"
+        }
+    },
+    "22": {
+        "name": "East Promenade",
+        "links": {
+            "31": "Hammock Hut",
+            "12": "Busty Beds",
+            "30": "Fountain Right",
+            "1": "All Things Wood",
+            "56": "Sweet Chariot",
+            "20": "East Escalators",
+            "17": "Desk City"
+        }
+    },
+    "23": {
+        "name": "Empire Records",
+        "links": {
+            "59": "TRAX",
+            "5": "Beats n' Eats"
+        }
+    },
+    "24": {
+        "name": "Farm Fresh",
+        "links": {
+            "69": "Walkway Top 2",
+            "70": "Walkway Top 3"
+        }
+    },
+    "25": {
+        "name": "Female Restroom",
+        "links": {
+            "71": "West Hallway"
+        }
+    },
+    "26": {
+        "name": "Food Court Bottom",
+        "links": {
+            "27": "Food Court Right",
+            "67": "Walkway Bottom 3",
+            "28": "Food Court Top"
+        }
+    },
+    "27": {
+        "name": "Food Court Right",
+        "links": {
+            "28": "Food Court Top",
+            "16": "Cyberdyne Shawarma",
+            "21": "East Hallway",
+            "26": "Food Court Bottom",
+            "46": "PHO REAL",
+            "10": "Bread Pitt"
+        }
+    },
+    "28": {
+        "name": "Food Court Top",
+        "links": {
+            "42": "McDowell's",
+            "27": "Food Court Right",
+            "70": "Walkway Top 3",
+            "47": "Pizza Planet",
+            "26": "Food Court Bottom"
+        }
+    },
+    "29": {
+        "name": "Fountain Left",
+        "links": {
+            "43": "New Game Plus",
+            "57": "Tooth Hurty",
+            "49": "Rear Entrance",
+            "40": "Main Entrance",
+            "50": "Sock It To Me",
+            "72": "West Promenade"
+        }
+    },
+    "30": {
+        "name": "Fountain Right",
+        "links": {
+            "4": "Barber Cuts",
+            "22": "East Promenade",
+            "40": "Main Entrance",
+            "49": "Rear Entrance"
+        }
+    },
+    "31": {
+        "name": "Hammock Hut",
+        "links": {
+            "22": "East Promenade"
+        }
+    },
+    "32": {
+        "name": "Heaven 17",
+        "links": {
+            "67": "Walkway Bottom 3"
+        }
+    },
+    "33": {
+        "name": "Initech Support",
+        "links": {
+            "11": "Business Square",
+            "3": "Backroom"
+        }
+    },
+    "34": {
+        "name": "John's Best",
+        "links": {
+            "69": "Walkway Top 2",
+            "54": "Stock Room"
+        }
+    },
+    "35": {
+        "name": "Kitchen",
+        "links": {
+            "16": "Cyberdyne Shawarma"
+        }
+    },
+    "36": {
+        "name": "Lady Belts",
+        "links": {
+            "72": "West Promenade"
+        }
+    },
+    "37": {
+        "name": "Leftorium",
+        "links": {
+            "45": "North Hallway",
+            "53": "Spectacular Optical"
+        }
+    },
+    "38": {
+        "name": "Lil Cafe",
+        "links": {
+            "6": "Big Time Books"
+        }
+    },
+    "39": {
+        "name": "Loading Zone",
+        "links": {
+            "1": "All Things Wood",
+            "56": "Sweet Chariot"
+        }
+    },
+    "40": {
+        "name": "Main Entrance",
+        "links": {
+            "29": "Fountain Left",
+            "30": "Fountain Right"
+        }
+    },
+    "41": {
+        "name": "Male Restroom",
+        "links": {
+            "71": "West Hallway"
+        }
+    },
+    "42": {
+        "name": "McDowell's",
+        "links": {
+            "28": "Food Court Top"
+        }
+    },
+    "43": {
+        "name": "New Game Plus",
+        "links": {
+            "2": "Arcade",
+            "29": "Fountain Left"
+        }
+    },
+    "44": {
+        "name": "North Escalators",
+        "links": {
+            "71": "West Hallway",
+            "45": "North Hallway"
+        }
+    },
+    "45": {
+        "name": "North Hallway",
+        "links": {
+            "44": "North Escalators",
+            "37": "Leftorium",
+            "11": "Business Square"
+        }
+    },
+    "46": {
+        "name": "PHO REAL",
+        "links": {
+            "27": "Food Court Right"
+        }
+    },
+    "47": {
+        "name": "Pizza Planet",
+        "links": {
+            "28": "Food Court Top"
+        }
+    },
+    "48": {
+        "name": "Reading Room",
+        "links": {
+            "6": "Big Time Books"
+        }
+    },
+    "49": {
+        "name": "Rear Entrance",
+        "links": {
+            "57": "Tooth Hurty",
+            "4": "Barber Cuts",
+            "29": "Fountain Left",
+            "30": "Fountain Right"
+        }
+    },
+    "50": {
+        "name": "Sock It To Me",
+        "links": {
+            "14": "Changing Rooms",
+            "29": "Fountain Left"
+        }
+    },
+    "51": {
+        "name": "South Escalators",
+        "links": {
+            "71": "West Hallway",
+            "52": "South Hallway"
+        }
+    },
+    "52": {
+        "name": "South Hallway",
+        "links": {
+            "11": "Business Square",
+            "8": "Bluth And Sons",
+            "51": "South Escalators"
+        }
+    },
+    "53": {
+        "name": "Spectacular Optical",
+        "links": {
+            "37": "Leftorium",
+            "58": "Top Bridge"
+        }
+    },
+    "54": {
+        "name": "Stock Room",
+        "links": {
+            "34": "John's Best",
+            "55": "Super Save Mart"
+        }
+    },
+    "55": {
+        "name": "Super Save Mart",
+        "links": {
+            "54": "Stock Room",
+            "70": "Walkway Top 3"
+        }
+    },
+    "56": {
+        "name": "Sweet Chariot",
+        "links": {
+            "39": "Loading Zone",
+            "22": "East Promenade"
+        }
+    },
+    "57": {
+        "name": "Tooth Hurty",
+        "links": {
+            "29": "Fountain Left",
+            "49": "Rear Entrance"
+        }
+    },
+    "58": {
+        "name": "Top Bridge",
+        "links": {
+            "53": "Spectacular Optical",
+            "69": "Walkway Top 2",
+            "68": "Walkway Top 1",
+            "62": "Vacation Creations",
+            "9": "Bottom Bridge"
+        }
+    },
+    "59": {
+        "name": "TRAX",
+        "links": {
+            "67": "Walkway Bottom 3",
+            "23": "Empire Records"
+        }
+    },
+    "60": {
+        "name": "Tunic Galore",
+        "links": {
+            "72": "West Promenade",
+            "14": "Changing Rooms"
+        }
+    },
+    "61": {
+        "name": "UGen",
+        "links": {
+            "19": "E Corp",
+            "11": "Business Square"
+        }
+    },
+    "62": {
+        "name": "Vacation Creations",
+        "links": {
+            "58": "Top Bridge"
+        }
+    },
+    "63": {
+        "name": "Vandelay Industries",
+        "links": {
+            "68": "Walkway Top 1"
+        }
+    },
+    "64": {
+        "name": "Vapid",
+        "links": {
+            "71": "West Hallway"
+        }
+    },
+    "65": {
+        "name": "Walkway Bottom 1",
+        "links": {
+            "9": "Bottom Bridge",
+            "11": "Business Square"
+        }
+    },
+    "66": {
+        "name": "Walkway Bottom 2",
+        "links": {
+            "67": "Walkway Bottom 3",
+            "13": "Championship Vinyl",
+            "18": "Disc Boutique",
+            "9": "Bottom Bridge"
+        }
+    },
+    "67": {
+        "name": "Walkway Bottom 3",
+        "links": {
+            "32": "Heaven 17",
+            "59": "TRAX",
+            "26": "Food Court Bottom",
+            "66": "Walkway Bottom 2"
+        }
+    },
+    "68": {
+        "name": "Walkway Top 1",
+        "links": {
+            "63": "Vandelay Industries",
+            "58": "Top Bridge",
+            "11": "Business Square"
+        }
+    },
+    "69": {
+        "name": "Walkway Top 2",
+        "links": {
+            "58": "Top Bridge",
+            "34": "John's Best",
+            "24": "Farm Fresh",
+            "70": "Walkway Top 3"
+        }
+    },
+    "70": {
+        "name": "Walkway Top 3",
+        "links": {
+            "55": "Super Save Mart",
+            "28": "Food Court Top",
+            "24": "Farm Fresh",
+            "69": "Walkway Top 2"
+        }
+    },
+    "71": {
+        "name": "West Hallway",
+        "links": {
+            "44": "North Escalators",
+            "51": "South Escalators",
+            "64": "Vapid",
+            "72": "West Promenade",
+            "25": "Female Restroom",
+            "41": "Male Restroom"
+        }
+    },
+    "72": {
+        "name": "West Promenade",
+        "links": {
+            "7": "Bigness",
+            "36": "Lady Belts",
+            "29": "Fountain Left",
+            "60": "Tunic Galore",
+            "15": "Cryin' Ape",
+            "71": "West Hallway"
+        }
+    }
+}

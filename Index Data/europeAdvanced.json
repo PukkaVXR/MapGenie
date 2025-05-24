@@ -1,0 +1,750 @@
+{
+    "1": {
+        "name": "Alps",
+        "links": {
+            "12": "Burgundy",
+            "6": "Bavaria",
+            "82": "Venice",
+            "46": "Marseille",
+            "83": "Vienna"
+        }
+    },
+    "2": {
+        "name": "Andalusia",
+        "links": {
+            "62": "Rabat",
+            "60": "Portugal",
+            "45": "Madrid"
+        }
+    },
+    "3": {
+        "name": "Ankara",
+        "links": {
+            "36": "Istanbul",
+            "26": "Gaziantep"
+        }
+    },
+    "4": {
+        "name": "Arabia",
+        "links": {
+            "33": "Iraq",
+            "48": "Mecca and Medina",
+            "124": "Jordan"
+        }
+    },
+    "5": {
+        "name": "Barcelona",
+        "links": {
+            "25": "Gascony",
+            "45": "Madrid",
+            "13": "Castile and Leon"
+        }
+    },
+    "6": {
+        "name": "Bavaria",
+        "links": {
+            "63": "Rhine",
+            "9": "Berlin",
+            "12": "Burgundy",
+            "55": "Netherlands",
+            "1": "Alps",
+            "61": "Prussia",
+            "83": "Vienna"
+        }
+    },
+    "7": {
+        "name": "Belarus",
+        "links": {
+            "44": "Lviv",
+            "40": "Kyiv",
+            "42": "Lithuania",
+            "59": "Poland",
+            "38": "Kharkiv"
+        }
+    },
+    "8": {
+        "name": "Benghazi",
+        "links": {
+            "78": "Tobruk",
+            "73": "Sirte",
+            "28": "Greece"
+        }
+    },
+    "9": {
+        "name": "Berlin",
+        "links": {
+            "63": "Rhine",
+            "61": "Prussia",
+            "6": "Bavaria"
+        }
+    },
+    "10": {
+        "name": "Brittany",
+        "links": {
+            "25": "Gascony",
+            "43": "London",
+            "57": "Paris",
+            "12": "Burgundy"
+        }
+    },
+    "11": {
+        "name": "Bulgaria",
+        "links": {
+            "64": "Romania",
+            "36": "Istanbul",
+            "28": "Greece",
+            "15": "Dinarides"
+        }
+    },
+    "12": {
+        "name": "Burgundy",
+        "links": {
+            "43": "London",
+            "55": "Netherlands",
+            "10": "Brittany",
+            "6": "Bavaria",
+            "46": "Marseille",
+            "57": "Paris",
+            "1": "Alps"
+        }
+    },
+    "13": {
+        "name": "Castile and Leon",
+        "links": {
+            "24": "Galicia",
+            "25": "Gascony",
+            "5": "Barcelona",
+            "45": "Madrid",
+            "60": "Portugal"
+        }
+    },
+    "14": {
+        "name": "Denmark",
+        "links": {
+            "76": "Stockholm",
+            "63": "Rhine",
+            "56": "Oslo"
+        }
+    },
+    "15": {
+        "name": "Dinarides",
+        "links": {
+            "79": "Trieste",
+            "29": "Hungary",
+            "11": "Bulgaria",
+            "28": "Greece",
+            "64": "Romania"
+        }
+    },
+    "16": {
+        "name": "Djelfa",
+        "links": {
+            "19": "El Bayadh",
+            "69": "Sahara Desert",
+            "47": "Mascara",
+            "20": "El Oued",
+            "37": "Jijel"
+        }
+    },
+    "17": {
+        "name": "Donetsk",
+        "links": {
+            "66": "Rostov",
+            "71": "Savastopol",
+            "40": "Kyiv",
+            "38": "Kharkiv"
+        }
+    },
+    "18": {
+        "name": "Egypt",
+        "links": {
+            "48": "Mecca and Medina",
+            "78": "Tobruk",
+            "35": "Israel"
+        }
+    },
+    "19": {
+        "name": "El Bayadh",
+        "links": {
+            "16": "Djelfa",
+            "69": "Sahara Desert",
+            "47": "Mascara",
+            "49": "Melilla"
+        }
+    },
+    "20": {
+        "name": "El Oued",
+        "links": {
+            "69": "Sahara Desert",
+            "16": "Djelfa",
+            "81": "Tunisia",
+            "37": "Jijel"
+        }
+    },
+    "21": {
+        "name": "Erzurum",
+        "links": {
+            "27": "Georgia",
+            "33": "Iraq",
+            "26": "Gaziantep",
+            "41": "Lebanon"
+        }
+    },
+    "22": {
+        "name": "Estonia and Latvia",
+        "links": {
+            "61": "Prussia",
+            "75": "St Petersburg",
+            "42": "Lithuania",
+            "38": "Kharkiv"
+        }
+    },
+    "23": {
+        "name": "Finland",
+        "links": {
+            "67": "Ruskeala",
+            "76": "Stockholm"
+        }
+    },
+    "24": {
+        "name": "Galicia",
+        "links": {
+            "60": "Portugal",
+            "13": "Castile and Leon"
+        }
+    },
+    "25": {
+        "name": "Gascony",
+        "links": {
+            "13": "Castile and Leon",
+            "10": "Brittany",
+            "57": "Paris",
+            "46": "Marseille",
+            "5": "Barcelona"
+        }
+    },
+    "26": {
+        "name": "Gaziantep",
+        "links": {
+            "3": "Ankara",
+            "21": "Erzurum",
+            "41": "Lebanon"
+        }
+    },
+    "27": {
+        "name": "Georgia",
+        "links": {
+            "74": "South Russia",
+            "21": "Erzurum"
+        }
+    },
+    "28": {
+        "name": "Greece",
+        "links": {
+            "11": "Bulgaria",
+            "15": "Dinarides",
+            "36": "Istanbul",
+            "8": "Benghazi"
+        }
+    },
+    "29": {
+        "name": "Hungary",
+        "links": {
+            "79": "Trieste",
+            "83": "Vienna",
+            "15": "Dinarides",
+            "61": "Prussia",
+            "44": "Lviv",
+            "59": "Poland",
+            "64": "Romania"
+        }
+    },
+    "30": {
+        "name": "Iceland NE",
+        "links": {
+            "31": "Iceland NW",
+            "72": "Scotland",
+            "32": "Iceland South"
+        }
+    },
+    "31": {
+        "name": "Iceland NW",
+        "links": {
+            "32": "Iceland South",
+            "30": "Iceland NE"
+        }
+    },
+    "32": {
+        "name": "Iceland South",
+        "links": {
+            "34": "Ireland",
+            "31": "Iceland NW",
+            "30": "Iceland NE"
+        }
+    },
+    "33": {
+        "name": "Iraq",
+        "links": {
+            "21": "Erzurum",
+            "4": "Arabia",
+            "41": "Lebanon",
+            "124": "Jordan"
+        }
+    },
+    "34": {
+        "name": "Ireland",
+        "links": {
+            "50": "Mercia",
+            "32": "Iceland South",
+            "72": "Scotland"
+        }
+    },
+    "35": {
+        "name": "Israel",
+        "links": {
+            "18": "Egypt",
+            "41": "Lebanon",
+            "124": "Jordan",
+            "48": "Mecca and Medina"
+        }
+    },
+    "36": {
+        "name": "Istanbul",
+        "links": {
+            "11": "Bulgaria",
+            "3": "Ankara",
+            "28": "Greece"
+        }
+    },
+    "37": {
+        "name": "Jijel",
+        "links": {
+            "47": "Mascara",
+            "70": "Sardinia",
+            "16": "Djelfa",
+            "81": "Tunisia",
+            "20": "El Oued"
+        }
+    },
+    "124": {
+        "name": "Jordan",
+        "links": {
+            "33": "Iraq",
+            "4": "Arabia",
+            "48": "Mecca and Medina",
+            "35": "Israel",
+            "41": "Lebanon"
+        }
+    },
+    "38": {
+        "name": "Kharkiv",
+        "links": {
+            "22": "Estonia and Latvia",
+            "75": "St Petersburg",
+            "7": "Belarus",
+            "42": "Lithuania",
+            "17": "Donetsk",
+            "40": "Kyiv",
+            "66": "Rostov",
+            "52": "Moscow"
+        }
+    },
+    "39": {
+        "name": "Krasnodar",
+        "links": {
+            "68": "Russia",
+            "74": "South Russia",
+            "66": "Rostov"
+        }
+    },
+    "40": {
+        "name": "Kyiv",
+        "links": {
+            "44": "Lviv",
+            "7": "Belarus",
+            "17": "Donetsk",
+            "38": "Kharkiv",
+            "64": "Romania"
+        }
+    },
+    "41": {
+        "name": "Lebanon",
+        "links": {
+            "21": "Erzurum",
+            "33": "Iraq",
+            "35": "Israel",
+            "26": "Gaziantep",
+            "124": "Jordan"
+        }
+    },
+    "42": {
+        "name": "Lithuania",
+        "links": {
+            "61": "Prussia",
+            "22": "Estonia and Latvia",
+            "7": "Belarus",
+            "59": "Poland",
+            "38": "Kharkiv"
+        }
+    },
+    "43": {
+        "name": "London",
+        "links": {
+            "10": "Brittany",
+            "50": "Mercia",
+            "12": "Burgundy"
+        }
+    },
+    "44": {
+        "name": "Lviv",
+        "links": {
+            "7": "Belarus",
+            "40": "Kyiv",
+            "29": "Hungary",
+            "59": "Poland",
+            "64": "Romania"
+        }
+    },
+    "45": {
+        "name": "Madrid",
+        "links": {
+            "5": "Barcelona",
+            "2": "Andalusia",
+            "13": "Castile and Leon",
+            "60": "Portugal"
+        }
+    },
+    "46": {
+        "name": "Marseille",
+        "links": {
+            "12": "Burgundy",
+            "57": "Paris",
+            "25": "Gascony",
+            "1": "Alps"
+        }
+    },
+    "47": {
+        "name": "Mascara",
+        "links": {
+            "49": "Melilla",
+            "37": "Jijel",
+            "16": "Djelfa",
+            "19": "El Bayadh"
+        }
+    },
+    "48": {
+        "name": "Mecca and Medina",
+        "links": {
+            "4": "Arabia",
+            "18": "Egypt",
+            "124": "Jordan",
+            "35": "Israel"
+        }
+    },
+    "49": {
+        "name": "Melilla",
+        "links": {
+            "62": "Rabat",
+            "47": "Mascara",
+            "19": "El Bayadh",
+            "69": "Sahara Desert"
+        }
+    },
+    "50": {
+        "name": "Mercia",
+        "links": {
+            "43": "London",
+            "34": "Ireland",
+            "72": "Scotland"
+        }
+    },
+    "51": {
+        "name": "Morocco",
+        "links": {
+            "69": "Sahara Desert",
+            "62": "Rabat"
+        }
+    },
+    "52": {
+        "name": "Moscow",
+        "links": {
+            "66": "Rostov",
+            "68": "Russia",
+            "75": "St Petersburg",
+            "38": "Kharkiv"
+        }
+    },
+    "53": {
+        "name": "Nalut",
+        "links": {
+            "73": "Sirte",
+            "69": "Sahara Desert",
+            "81": "Tunisia"
+        }
+    },
+    "54": {
+        "name": "Naples",
+        "links": {
+            "70": "Sardinia",
+            "65": "Rome"
+        }
+    },
+    "55": {
+        "name": "Netherlands",
+        "links": {
+            "12": "Burgundy",
+            "63": "Rhine",
+            "6": "Bavaria"
+        }
+    },
+    "56": {
+        "name": "Oslo",
+        "links": {
+            "72": "Scotland",
+            "80": "Trondheim",
+            "76": "Stockholm",
+            "14": "Denmark",
+            "77": "Sundsvall"
+        }
+    },
+    "57": {
+        "name": "Paris",
+        "links": {
+            "25": "Gascony",
+            "10": "Brittany",
+            "12": "Burgundy",
+            "46": "Marseille"
+        }
+    },
+    "58": {
+        "name": "Petrozavosdk",
+        "links": {
+            "67": "Ruskeala",
+            "75": "St Petersburg",
+            "68": "Russia"
+        }
+    },
+    "59": {
+        "name": "Poland",
+        "links": {
+            "42": "Lithuania",
+            "7": "Belarus",
+            "44": "Lviv",
+            "29": "Hungary",
+            "61": "Prussia"
+        }
+    },
+    "60": {
+        "name": "Portugal",
+        "links": {
+            "2": "Andalusia",
+            "24": "Galicia",
+            "45": "Madrid",
+            "13": "Castile and Leon"
+        }
+    },
+    "61": {
+        "name": "Prussia",
+        "links": {
+            "9": "Berlin",
+            "22": "Estonia and Latvia",
+            "6": "Bavaria",
+            "42": "Lithuania",
+            "29": "Hungary",
+            "83": "Vienna",
+            "59": "Poland"
+        }
+    },
+    "62": {
+        "name": "Rabat",
+        "links": {
+            "51": "Morocco",
+            "2": "Andalusia",
+            "49": "Melilla",
+            "69": "Sahara Desert"
+        }
+    },
+    "63": {
+        "name": "Rhine",
+        "links": {
+            "14": "Denmark",
+            "9": "Berlin",
+            "55": "Netherlands",
+            "6": "Bavaria"
+        }
+    },
+    "64": {
+        "name": "Romania",
+        "links": {
+            "29": "Hungary",
+            "44": "Lviv",
+            "40": "Kyiv",
+            "11": "Bulgaria",
+            "15": "Dinarides"
+        }
+    },
+    "65": {
+        "name": "Rome",
+        "links": {
+            "54": "Naples",
+            "82": "Venice"
+        }
+    },
+    "66": {
+        "name": "Rostov",
+        "links": {
+            "39": "Krasnodar",
+            "17": "Donetsk",
+            "52": "Moscow",
+            "68": "Russia",
+            "38": "Kharkiv"
+        }
+    },
+    "67": {
+        "name": "Ruskeala",
+        "links": {
+            "58": "Petrozavosdk",
+            "23": "Finland"
+        }
+    },
+    "68": {
+        "name": "Russia",
+        "links": {
+            "58": "Petrozavosdk",
+            "74": "South Russia",
+            "75": "St Petersburg",
+            "39": "Krasnodar",
+            "66": "Rostov",
+            "52": "Moscow"
+        }
+    },
+    "69": {
+        "name": "Sahara Desert",
+        "links": {
+            "53": "Nalut",
+            "51": "Morocco",
+            "19": "El Bayadh",
+            "16": "Djelfa",
+            "49": "Melilla",
+            "62": "Rabat",
+            "20": "El Oued",
+            "81": "Tunisia"
+        }
+    },
+    "70": {
+        "name": "Sardinia",
+        "links": {
+            "37": "Jijel",
+            "54": "Naples"
+        }
+    },
+    "71": {
+        "name": "Savastopol",
+        "links": {
+            "17": "Donetsk"
+        }
+    },
+    "72": {
+        "name": "Scotland",
+        "links": {
+            "30": "Iceland NE",
+            "56": "Oslo",
+            "50": "Mercia",
+            "34": "Ireland"
+        }
+    },
+    "73": {
+        "name": "Sirte",
+        "links": {
+            "8": "Benghazi",
+            "53": "Nalut"
+        }
+    },
+    "74": {
+        "name": "South Russia",
+        "links": {
+            "68": "Russia",
+            "27": "Georgia",
+            "39": "Krasnodar"
+        }
+    },
+    "75": {
+        "name": "St Petersburg",
+        "links": {
+            "22": "Estonia and Latvia",
+            "58": "Petrozavosdk",
+            "38": "Kharkiv",
+            "68": "Russia",
+            "52": "Moscow"
+        }
+    },
+    "76": {
+        "name": "Stockholm",
+        "links": {
+            "23": "Finland",
+            "14": "Denmark",
+            "77": "Sundsvall",
+            "56": "Oslo"
+        }
+    },
+    "77": {
+        "name": "Sundsvall",
+        "links": {
+            "80": "Trondheim",
+            "76": "Stockholm",
+            "56": "Oslo"
+        }
+    },
+    "78": {
+        "name": "Tobruk",
+        "links": {
+            "18": "Egypt",
+            "8": "Benghazi"
+        }
+    },
+    "79": {
+        "name": "Trieste",
+        "links": {
+            "83": "Vienna",
+            "29": "Hungary",
+            "82": "Venice",
+            "15": "Dinarides"
+        }
+    },
+    "80": {
+        "name": "Trondheim",
+        "links": {
+            "56": "Oslo",
+            "77": "Sundsvall"
+        }
+    },
+    "81": {
+        "name": "Tunisia",
+        "links": {
+            "37": "Jijel",
+            "53": "Nalut",
+            "69": "Sahara Desert",
+            "20": "El Oued"
+        }
+    },
+    "82": {
+        "name": "Venice",
+        "links": {
+            "65": "Rome",
+            "1": "Alps",
+            "83": "Vienna",
+            "79": "Trieste"
+        }
+    },
+    "83": {
+        "name": "Vienna",
+        "links": {
+            "79": "Trieste",
+            "29": "Hungary",
+            "6": "Bavaria",
+            "82": "Venice",
+            "61": "Prussia",
+            "1": "Alps"
+        }
+    }
+}

@@ -1,0 +1,707 @@
+{
+    "1": {
+        "name": "A Pirate's Rest",
+        "links": {
+            "12": "Captain's Retreat",
+            "70": "The Royal Port",
+            "51": "The Angry Shores"
+        }
+    },
+    "2": {
+        "name": "A Plunderer's Greed",
+        "links": {
+            "17": "Davy Jones' Bow",
+            "7": "Black Calypso",
+            "19": "Devil's Nightmare"
+        }
+    },
+    "3": {
+        "name": "A Stone's Throw",
+        "links": {
+            "26": "Harbour's Entrance",
+            "34": "Nugget Island"
+        }
+    },
+    "4": {
+        "name": "Ahoy Me Hearty Inn",
+        "links": {
+            "74": "The Sea Shanty",
+            "36": "Peasant's Plunder",
+            "14": "Crusoe's Island S",
+            "76": "The Tavern",
+            "77": "The Township",
+            "53": "The Blessed Point"
+        }
+    },
+    "5": {
+        "name": "Black Beard's Cove",
+        "links": {
+            "16": "Dangerous Hills",
+            "35": "Parrot Beach",
+            "54": "The Breakwall"
+        }
+    },
+    "6": {
+        "name": "Black Beard's Head",
+        "links": {
+            "28": "Lightning Cove",
+            "16": "Dangerous Hills",
+            "68": "The Pirate's Cry"
+        }
+    },
+    "7": {
+        "name": "Black Calypso",
+        "links": {
+            "2": "A Plunderer's Greed",
+            "80": "Treasure Island",
+            "19": "Devil's Nightmare"
+        }
+    },
+    "8": {
+        "name": "Buccaneer's Blight",
+        "links": {
+            "69": "The River's Mouth",
+            "26": "Harbour's Entrance",
+            "19": "Devil's Nightmare"
+        }
+    },
+    "9": {
+        "name": "Buccaneer's Rage",
+        "links": {
+            "73": "The Sea Dragon",
+            "27": "Hopscotch Head",
+            "82": "Widow's Wharf",
+            "29": "Lunatic's Landing"
+        }
+    },
+    "10": {
+        "name": "Butcher",
+        "links": {
+            "79": "The Trench Hotel",
+            "23": "Fruit Market",
+            "46": "Shields 'n' More",
+            "81": "Trev's Sword Emporium"
+        }
+    },
+    "11": {
+        "name": "Captain's Poison",
+        "links": {
+            "31": "Neptune's Plunder",
+            "73": "The Sea Dragon",
+            "57": "The Fallen Barnacle"
+        }
+    },
+    "12": {
+        "name": "Captain's Retreat",
+        "links": {
+            "59": "The Foul Hills",
+            "1": "A Pirate's Rest",
+            "51": "The Angry Shores",
+            "43": "Rocky Beach",
+            "71": "The Rusty Anchor"
+        }
+    },
+    "13": {
+        "name": "Crusoe's Island N",
+        "links": {
+            "47": "Silver Doubloon Inn",
+            "15": "Crusoe's Treasure",
+            "14": "Crusoe's Island S"
+        }
+    },
+    "14": {
+        "name": "Crusoe's Island S",
+        "links": {
+            "15": "Crusoe's Treasure",
+            "4": "Ahoy Me Hearty Inn",
+            "13": "Crusoe's Island N"
+        }
+    },
+    "15": {
+        "name": "Crusoe's Treasure",
+        "links": {
+            "13": "Crusoe's Island N",
+            "14": "Crusoe's Island S"
+        }
+    },
+    "16": {
+        "name": "Dangerous Hills",
+        "links": {
+            "28": "Lightning Cove",
+            "5": "Black Beard's Cove",
+            "6": "Black Beard's Head"
+        }
+    },
+    "17": {
+        "name": "Davy Jones' Bow",
+        "links": {
+            "18": "Davy Jones' Stern",
+            "2": "A Plunderer's Greed",
+            "83": "X Marks The Spot"
+        }
+    },
+    "18": {
+        "name": "Davy Jones' Stern",
+        "links": {
+            "24": "Golden Dockyard",
+            "55": "The Cursed Jewel",
+            "17": "Davy Jones' Bow"
+        }
+    },
+    "19": {
+        "name": "Devil's Nightmare",
+        "links": {
+            "7": "Black Calypso",
+            "22": "Fortune's Bluff",
+            "8": "Buccaneer's Blight",
+            "2": "A Plunderer's Greed"
+        }
+    },
+    "20": {
+        "name": "Farmer's Bluff",
+        "links": {
+            "66": "The Outskirts",
+            "39": "Quiet Hills",
+            "72": "The Rusty Cow"
+        }
+    },
+    "21": {
+        "name": "Fish Market",
+        "links": {
+            "67": "The Pearly Gates",
+            "61": "The Gallows",
+            "82": "Widow's Wharf",
+            "81": "Trev's Sword Emporium",
+            "66": "The Outskirts"
+        }
+    },
+    "22": {
+        "name": "Fortune's Bluff",
+        "links": {
+            "49": "Solitude Island",
+            "45": "Servant's Quarters",
+            "19": "Devil's Nightmare"
+        }
+    },
+    "23": {
+        "name": "Fruit Market",
+        "links": {
+            "10": "Butcher",
+            "67": "The Pearly Gates",
+            "81": "Trev's Sword Emporium",
+            "46": "Shields 'n' More"
+        }
+    },
+    "24": {
+        "name": "Golden Dockyard",
+        "links": {
+            "18": "Davy Jones' Stern",
+            "55": "The Cursed Jewel",
+            "80": "Treasure Island",
+            "68": "The Pirate's Cry"
+        }
+    },
+    "25": {
+        "name": "Hades' Curse",
+        "links": {
+            "68": "The Pirate's Cry",
+            "54": "The Breakwall"
+        }
+    },
+    "26": {
+        "name": "Harbour's Entrance",
+        "links": {
+            "8": "Buccaneer's Blight",
+            "3": "A Stone's Throw"
+        }
+    },
+    "27": {
+        "name": "Hopscotch Head",
+        "links": {
+            "41": "Reef of Rage",
+            "42": "River's Edge",
+            "9": "Buccaneer's Rage",
+            "33": "North Landing"
+        }
+    },
+    "28": {
+        "name": "Lightning Cove",
+        "links": {
+            "40": "Red Beards Rage",
+            "16": "Dangerous Hills",
+            "53": "The Blessed Point",
+            "6": "Black Beard's Head"
+        }
+    },
+    "29": {
+        "name": "Lunatic's Landing",
+        "links": {
+            "33": "North Landing",
+            "79": "The Trench Hotel",
+            "38": "Pirate's Pier",
+            "9": "Buccaneer's Rage"
+        }
+    },
+    "30": {
+        "name": "Marauder's Rest",
+        "links": {
+            "45": "Servant's Quarters",
+            "69": "The River's Mouth"
+        }
+    },
+    "31": {
+        "name": "Neptune's Plunder",
+        "links": {
+            "62": "The Greedy Cutlass",
+            "11": "Captain's Poison",
+            "34": "Nugget Island",
+            "65": "The Northern Star"
+        }
+    },
+    "32": {
+        "name": "New Libertalia",
+        "links": {
+            "48": "Skippers Rock",
+            "64": "The Isle of Madness"
+        }
+    },
+    "33": {
+        "name": "North Landing",
+        "links": {
+            "42": "River's Edge",
+            "79": "The Trench Hotel",
+            "27": "Hopscotch Head",
+            "29": "Lunatic's Landing"
+        }
+    },
+    "34": {
+        "name": "Nugget Island",
+        "links": {
+            "3": "A Stone's Throw",
+            "48": "Skippers Rock",
+            "62": "The Greedy Cutlass",
+            "31": "Neptune's Plunder"
+        }
+    },
+    "35": {
+        "name": "Parrot Beach",
+        "links": {
+            "5": "Black Beard's Cove",
+            "37": "Peg Leg Landing",
+            "54": "The Breakwall"
+        }
+    },
+    "36": {
+        "name": "Peasant's Plunder",
+        "links": {
+            "78": "The Traveller's Rest",
+            "76": "The Tavern",
+            "74": "The Sea Shanty",
+            "4": "Ahoy Me Hearty Inn"
+        }
+    },
+    "37": {
+        "name": "Peg Leg Landing",
+        "links": {
+            "35": "Parrot Beach",
+            "59": "The Foul Hills",
+            "71": "The Rusty Anchor"
+        }
+    },
+    "38": {
+        "name": "Pirate's Pier",
+        "links": {
+            "29": "Lunatic's Landing",
+            "46": "Shields 'n' More",
+            "81": "Trev's Sword Emporium",
+            "82": "Widow's Wharf"
+        }
+    },
+    "39": {
+        "name": "Quiet Hills",
+        "links": {
+            "20": "Farmer's Bluff",
+            "78": "The Traveller's Rest",
+            "72": "The Rusty Cow"
+        }
+    },
+    "40": {
+        "name": "Red Beards Rage",
+        "links": {
+            "76": "The Tavern",
+            "28": "Lightning Cove",
+            "77": "The Township",
+            "53": "The Blessed Point"
+        }
+    },
+    "41": {
+        "name": "Reef of Rage",
+        "links": {
+            "64": "The Isle of Madness",
+            "27": "Hopscotch Head",
+            "63": "The Harpy's Song"
+        }
+    },
+    "42": {
+        "name": "River's Edge",
+        "links": {
+            "27": "Hopscotch Head",
+            "33": "North Landing"
+        }
+    },
+    "43": {
+        "name": "Rocky Beach",
+        "links": {
+            "51": "The Angry Shores",
+            "71": "The Rusty Anchor",
+            "12": "Captain's Retreat"
+        }
+    },
+    "44": {
+        "name": "Rusty Cutlass Inn",
+        "links": {
+            "75": "The Swamplands",
+            "52": "The Armory",
+            "50": "Swashbuckler's Landing"
+        }
+    },
+    "45": {
+        "name": "Servant's Quarters",
+        "links": {
+            "60": "The Galley",
+            "30": "Marauder's Rest",
+            "22": "Fortune's Bluff"
+        }
+    },
+    "46": {
+        "name": "Shields 'n' More",
+        "links": {
+            "79": "The Trench Hotel",
+            "10": "Butcher",
+            "38": "Pirate's Pier",
+            "81": "Trev's Sword Emporium",
+            "23": "Fruit Market"
+        }
+    },
+    "47": {
+        "name": "Silver Doubloon Inn",
+        "links": {
+            "73": "The Sea Dragon",
+            "13": "Crusoe's Island N",
+            "83": "X Marks The Spot",
+            "57": "The Fallen Barnacle",
+            "55": "The Cursed Jewel"
+        }
+    },
+    "48": {
+        "name": "Skippers Rock",
+        "links": {
+            "34": "Nugget Island",
+            "32": "New Libertalia",
+            "63": "The Harpy's Song",
+            "62": "The Greedy Cutlass"
+        }
+    },
+    "49": {
+        "name": "Solitude Island",
+        "links": {
+            "58": "The Fort",
+            "22": "Fortune's Bluff",
+            "50": "Swashbuckler's Landing"
+        }
+    },
+    "50": {
+        "name": "Swashbuckler's Landing",
+        "links": {
+            "70": "The Royal Port",
+            "75": "The Swamplands",
+            "44": "Rusty Cutlass Inn",
+            "58": "The Fort",
+            "49": "Solitude Island",
+            "52": "The Armory"
+        }
+    },
+    "51": {
+        "name": "The Angry Shores",
+        "links": {
+            "80": "Treasure Island",
+            "43": "Rocky Beach",
+            "12": "Captain's Retreat",
+            "1": "A Pirate's Rest"
+        }
+    },
+    "52": {
+        "name": "The Armory",
+        "links": {
+            "75": "The Swamplands",
+            "58": "The Fort",
+            "44": "Rusty Cutlass Inn",
+            "50": "Swashbuckler's Landing"
+        }
+    },
+    "53": {
+        "name": "The Blessed Point",
+        "links": {
+            "40": "Red Beards Rage",
+            "28": "Lightning Cove",
+            "77": "The Township",
+            "4": "Ahoy Me Hearty Inn"
+        }
+    },
+    "54": {
+        "name": "The Breakwall",
+        "links": {
+            "25": "Hades' Curse",
+            "5": "Black Beard's Cove",
+            "35": "Parrot Beach"
+        }
+    },
+    "55": {
+        "name": "The Cursed Jewel",
+        "links": {
+            "24": "Golden Dockyard",
+            "18": "Davy Jones' Stern",
+            "83": "X Marks The Spot",
+            "47": "Silver Doubloon Inn"
+        }
+    },
+    "56": {
+        "name": "The Dungeon",
+        "links": {
+            "67": "The Pearly Gates"
+        }
+    },
+    "57": {
+        "name": "The Fallen Barnacle",
+        "links": {
+            "65": "The Northern Star",
+            "11": "Captain's Poison",
+            "47": "Silver Doubloon Inn",
+            "83": "X Marks The Spot",
+            "73": "The Sea Dragon"
+        }
+    },
+    "58": {
+        "name": "The Fort",
+        "links": {
+            "52": "The Armory",
+            "60": "The Galley",
+            "50": "Swashbuckler's Landing",
+            "49": "Solitude Island"
+        }
+    },
+    "59": {
+        "name": "The Foul Hills",
+        "links": {
+            "37": "Peg Leg Landing",
+            "12": "Captain's Retreat",
+            "71": "The Rusty Anchor"
+        }
+    },
+    "60": {
+        "name": "The Galley",
+        "links": {
+            "58": "The Fort",
+            "45": "Servant's Quarters"
+        }
+    },
+    "61": {
+        "name": "The Gallows",
+        "links": {
+            "67": "The Pearly Gates",
+            "66": "The Outskirts",
+            "21": "Fish Market"
+        }
+    },
+    "62": {
+        "name": "The Greedy Cutlass",
+        "links": {
+            "48": "Skippers Rock",
+            "31": "Neptune's Plunder",
+            "34": "Nugget Island"
+        }
+    },
+    "63": {
+        "name": "The Harpy's Song",
+        "links": {
+            "48": "Skippers Rock",
+            "41": "Reef of Rage"
+        }
+    },
+    "64": {
+        "name": "The Isle of Madness",
+        "links": {
+            "32": "New Libertalia",
+            "41": "Reef of Rage"
+        }
+    },
+    "65": {
+        "name": "The Northern Star",
+        "links": {
+            "31": "Neptune's Plunder",
+            "57": "The Fallen Barnacle",
+            "83": "X Marks The Spot"
+        }
+    },
+    "66": {
+        "name": "The Outskirts",
+        "links": {
+            "61": "The Gallows",
+            "20": "Farmer's Bluff",
+            "82": "Widow's Wharf",
+            "21": "Fish Market"
+        }
+    },
+    "67": {
+        "name": "The Pearly Gates",
+        "links": {
+            "56": "The Dungeon",
+            "61": "The Gallows",
+            "23": "Fruit Market",
+            "21": "Fish Market",
+            "81": "Trev's Sword Emporium"
+        }
+    },
+    "68": {
+        "name": "The Pirate's Cry",
+        "links": {
+            "24": "Golden Dockyard",
+            "6": "Black Beard's Head",
+            "71": "The Rusty Anchor",
+            "25": "Hades' Curse"
+        }
+    },
+    "69": {
+        "name": "The River's Mouth",
+        "links": {
+            "30": "Marauder's Rest",
+            "8": "Buccaneer's Blight"
+        }
+    },
+    "70": {
+        "name": "The Royal Port",
+        "links": {
+            "1": "A Pirate's Rest",
+            "75": "The Swamplands",
+            "50": "Swashbuckler's Landing"
+        }
+    },
+    "71": {
+        "name": "The Rusty Anchor",
+        "links": {
+            "43": "Rocky Beach",
+            "68": "The Pirate's Cry",
+            "37": "Peg Leg Landing",
+            "59": "The Foul Hills",
+            "12": "Captain's Retreat"
+        }
+    },
+    "72": {
+        "name": "The Rusty Cow",
+        "links": {
+            "78": "The Traveller's Rest",
+            "20": "Farmer's Bluff",
+            "39": "Quiet Hills"
+        }
+    },
+    "73": {
+        "name": "The Sea Dragon",
+        "links": {
+            "11": "Captain's Poison",
+            "9": "Buccaneer's Rage",
+            "47": "Silver Doubloon Inn",
+            "57": "The Fallen Barnacle"
+        }
+    },
+    "74": {
+        "name": "The Sea Shanty",
+        "links": {
+            "36": "Peasant's Plunder",
+            "4": "Ahoy Me Hearty Inn"
+        }
+    },
+    "75": {
+        "name": "The Swamplands",
+        "links": {
+            "70": "The Royal Port",
+            "52": "The Armory",
+            "50": "Swashbuckler's Landing",
+            "44": "Rusty Cutlass Inn"
+        }
+    },
+    "76": {
+        "name": "The Tavern",
+        "links": {
+            "78": "The Traveller's Rest",
+            "40": "Red Beards Rage",
+            "36": "Peasant's Plunder",
+            "77": "The Township",
+            "4": "Ahoy Me Hearty Inn"
+        }
+    },
+    "77": {
+        "name": "The Township",
+        "links": {
+            "76": "The Tavern",
+            "40": "Red Beards Rage",
+            "4": "Ahoy Me Hearty Inn",
+            "53": "The Blessed Point"
+        }
+    },
+    "78": {
+        "name": "The Traveller's Rest",
+        "links": {
+            "39": "Quiet Hills",
+            "76": "The Tavern",
+            "36": "Peasant's Plunder",
+            "72": "The Rusty Cow"
+        }
+    },
+    "79": {
+        "name": "The Trench Hotel",
+        "links": {
+            "33": "North Landing",
+            "10": "Butcher",
+            "29": "Lunatic's Landing",
+            "46": "Shields 'n' More"
+        }
+    },
+    "80": {
+        "name": "Treasure Island",
+        "links": {
+            "7": "Black Calypso",
+            "24": "Golden Dockyard",
+            "51": "The Angry Shores"
+        }
+    },
+    "81": {
+        "name": "Trev's Sword Emporium",
+        "links": {
+            "10": "Butcher",
+            "23": "Fruit Market",
+            "46": "Shields 'n' More",
+            "38": "Pirate's Pier",
+            "21": "Fish Market",
+            "67": "The Pearly Gates"
+        }
+    },
+    "82": {
+        "name": "Widow's Wharf",
+        "links": {
+            "38": "Pirate's Pier",
+            "21": "Fish Market",
+            "66": "The Outskirts",
+            "9": "Buccaneer's Rage"
+        }
+    },
+    "83": {
+        "name": "X Marks The Spot",
+        "links": {
+            "17": "Davy Jones' Bow",
+            "65": "The Northern Star",
+            "47": "Silver Doubloon Inn",
+            "57": "The Fallen Barnacle",
+            "55": "The Cursed Jewel"
+        }
+    }
+}

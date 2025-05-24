@@ -1,0 +1,398 @@
+{
+    "1": {
+        "name": "Balloon Road",
+        "links": {
+            "10": "Fen",
+            "25": "Port Balloon",
+            "4": "Corral Road",
+            "13": "Glycerine Creek",
+            "11": "Floatsam Point",
+            "12": "Geese Swamp"
+        }
+    },
+    "2": {
+        "name": "Cape Claw",
+        "links": {
+            "7": "East Cliff",
+            "10": "Fen"
+        }
+    },
+    "3": {
+        "name": "Coal Beds",
+        "links": {
+            "6": "Dunes",
+            "15": "Iron Beds",
+            "20": "Lava Rock",
+            "27": "Red Creek",
+            "26": "Pottery"
+        }
+    },
+    "4": {
+        "name": "Corral Road",
+        "links": {
+            "30": "Road",
+            "9": "Falls River",
+            "41": "West Forest",
+            "21": "Mercy River",
+            "26": "Pottery",
+            "13": "Glycerine Creek",
+            "1": "Balloon Road",
+            "25": "Port Balloon",
+            "39": "Steep Cliffs",
+            "42": "West Road"
+        }
+    },
+    "5": {
+        "name": "Dark Forest",
+        "links": {
+            "17": "Jaguars Hollow",
+            "24": "Pacific Forest",
+            "38": "Spring Forest",
+            "37": "Spider Forest",
+            "29": "River Creek"
+        }
+    },
+    "6": {
+        "name": "Dunes",
+        "links": {
+            "36": "South Mandible Cape",
+            "20": "Lava Rock",
+            "3": "Coal Beds",
+            "15": "Iron Beds",
+            "31": "Safe Island",
+            "14": "Granite House"
+        }
+    },
+    "7": {
+        "name": "East Cliff",
+        "links": {
+            "12": "Geese Swamp",
+            "2": "Cape Claw",
+            "10": "Fen"
+        }
+    },
+    "8": {
+        "name": "Falls Forest",
+        "links": {
+            "40": "Washington Forest",
+            "35": "Snake Cliffs",
+            "41": "West Forest",
+            "21": "Mercy River",
+            "42": "West Road",
+            "9": "Falls River",
+            "24": "Pacific Forest",
+            "28": "Reptile Promontory"
+        }
+    },
+    "9": {
+        "name": "Falls River",
+        "links": {
+            "30": "Road",
+            "4": "Corral Road",
+            "22": "Mount Franklin",
+            "16": "Jacamar",
+            "41": "West Forest",
+            "8": "Falls Forest"
+        }
+    },
+    "10": {
+        "name": "Fen",
+        "links": {
+            "2": "Cape Claw",
+            "1": "Balloon Road",
+            "12": "Geese Swamp",
+            "7": "East Cliff",
+            "33": "Serpents"
+        }
+    },
+    "11": {
+        "name": "Floatsam Point",
+        "links": {
+            "31": "Safe Island",
+            "12": "Geese Swamp",
+            "13": "Glycerine Creek",
+            "1": "Balloon Road",
+            "23": "North Mandible Cape"
+        }
+    },
+    "12": {
+        "name": "Geese Swamp",
+        "links": {
+            "11": "Floatsam Point",
+            "7": "East Cliff",
+            "1": "Balloon Road",
+            "10": "Fen"
+        }
+    },
+    "13": {
+        "name": "Glycerine Creek",
+        "links": {
+            "26": "Pottery",
+            "14": "Granite House",
+            "4": "Corral Road",
+            "1": "Balloon Road",
+            "11": "Floatsam Point"
+        }
+    },
+    "14": {
+        "name": "Granite House",
+        "links": {
+            "15": "Iron Beds",
+            "6": "Dunes",
+            "13": "Glycerine Creek"
+        }
+    },
+    "15": {
+        "name": "Iron Beds",
+        "links": {
+            "3": "Coal Beds",
+            "6": "Dunes",
+            "26": "Pottery",
+            "14": "Granite House"
+        }
+    },
+    "16": {
+        "name": "Jacamar",
+        "links": {
+            "26": "Pottery",
+            "30": "Road",
+            "18": "Lava",
+            "27": "Red Creek",
+            "22": "Mount Franklin",
+            "9": "Falls River",
+            "34": "Slope"
+        }
+    },
+    "17": {
+        "name": "Jaguars Hollow",
+        "links": {
+            "29": "River Creek",
+            "28": "Reptile Promontory",
+            "5": "Dark Forest"
+        }
+    },
+    "18": {
+        "name": "Lava",
+        "links": {
+            "20": "Lava Rock",
+            "27": "Red Creek",
+            "32": "Sand",
+            "16": "Jacamar",
+            "34": "Slope"
+        }
+    },
+    "19": {
+        "name": "Lava Field",
+        "links": {
+            "20": "Lava Rock",
+            "32": "Sand",
+            "23": "North Mandible Cape"
+        }
+    },
+    "20": {
+        "name": "Lava Rock",
+        "links": {
+            "36": "South Mandible Cape",
+            "6": "Dunes",
+            "3": "Coal Beds",
+            "27": "Red Creek",
+            "19": "Lava Field",
+            "32": "Sand",
+            "18": "Lava",
+            "23": "North Mandible Cape"
+        }
+    },
+    "21": {
+        "name": "Mercy River",
+        "links": {
+            "41": "West Forest",
+            "4": "Corral Road",
+            "8": "Falls Forest",
+            "42": "West Road"
+        }
+    },
+    "22": {
+        "name": "Mount Franklin",
+        "links": {
+            "16": "Jacamar",
+            "9": "Falls River",
+            "34": "Slope"
+        }
+    },
+    "23": {
+        "name": "North Mandible Cape",
+        "links": {
+            "20": "Lava Rock",
+            "19": "Lava Field",
+            "11": "Floatsam Point"
+        }
+    },
+    "24": {
+        "name": "Pacific Forest",
+        "links": {
+            "35": "Snake Cliffs",
+            "38": "Spring Forest",
+            "5": "Dark Forest",
+            "8": "Falls Forest"
+        }
+    },
+    "25": {
+        "name": "Port Balloon",
+        "links": {
+            "1": "Balloon Road",
+            "39": "Steep Cliffs",
+            "4": "Corral Road"
+        }
+    },
+    "26": {
+        "name": "Pottery",
+        "links": {
+            "3": "Coal Beds",
+            "15": "Iron Beds",
+            "27": "Red Creek",
+            "16": "Jacamar",
+            "30": "Road",
+            "13": "Glycerine Creek",
+            "4": "Corral Road"
+        }
+    },
+    "27": {
+        "name": "Red Creek",
+        "links": {
+            "20": "Lava Rock",
+            "3": "Coal Beds",
+            "18": "Lava",
+            "26": "Pottery",
+            "16": "Jacamar"
+        }
+    },
+    "28": {
+        "name": "Reptile Promontory",
+        "links": {
+            "17": "Jaguars Hollow",
+            "8": "Falls Forest"
+        }
+    },
+    "29": {
+        "name": "River Creek",
+        "links": {
+            "33": "Serpents",
+            "17": "Jaguars Hollow",
+            "5": "Dark Forest",
+            "37": "Spider Forest"
+        }
+    },
+    "30": {
+        "name": "Road",
+        "links": {
+            "16": "Jacamar",
+            "26": "Pottery",
+            "4": "Corral Road",
+            "9": "Falls River"
+        }
+    },
+    "31": {
+        "name": "Safe Island",
+        "links": {
+            "6": "Dunes",
+            "11": "Floatsam Point"
+        }
+    },
+    "32": {
+        "name": "Sand",
+        "links": {
+            "19": "Lava Field",
+            "20": "Lava Rock",
+            "18": "Lava"
+        }
+    },
+    "33": {
+        "name": "Serpents",
+        "links": {
+            "37": "Spider Forest",
+            "29": "River Creek",
+            "10": "Fen"
+        }
+    },
+    "34": {
+        "name": "Slope",
+        "links": {
+            "16": "Jacamar",
+            "22": "Mount Franklin",
+            "18": "Lava"
+        }
+    },
+    "35": {
+        "name": "Snake Cliffs",
+        "links": {
+            "40": "Washington Forest",
+            "37": "Spider Forest",
+            "8": "Falls Forest",
+            "24": "Pacific Forest",
+            "38": "Spring Forest"
+        }
+    },
+    "36": {
+        "name": "South Mandible Cape",
+        "links": {
+            "6": "Dunes",
+            "20": "Lava Rock"
+        }
+    },
+    "37": {
+        "name": "Spider Forest",
+        "links": {
+            "35": "Snake Cliffs",
+            "33": "Serpents",
+            "38": "Spring Forest",
+            "5": "Dark Forest",
+            "29": "River Creek"
+        }
+    },
+    "38": {
+        "name": "Spring Forest",
+        "links": {
+            "24": "Pacific Forest",
+            "35": "Snake Cliffs",
+            "5": "Dark Forest",
+            "37": "Spider Forest"
+        }
+    },
+    "39": {
+        "name": "Steep Cliffs",
+        "links": {
+            "25": "Port Balloon",
+            "40": "Washington Forest",
+            "4": "Corral Road",
+            "42": "West Road"
+        }
+    },
+    "40": {
+        "name": "Washington Forest",
+        "links": {
+            "39": "Steep Cliffs",
+            "35": "Snake Cliffs",
+            "42": "West Road",
+            "8": "Falls Forest"
+        }
+    },
+    "41": {
+        "name": "West Forest",
+        "links": {
+            "4": "Corral Road",
+            "21": "Mercy River",
+            "9": "Falls River",
+            "8": "Falls Forest"
+        }
+    },
+    "42": {
+        "name": "West Road",
+        "links": {
+            "39": "Steep Cliffs",
+            "40": "Washington Forest",
+            "21": "Mercy River",
+            "4": "Corral Road",
+            "8": "Falls Forest"
+        }
+    }
+}

@@ -1,0 +1,750 @@
+{
+    "1": {
+        "name": "Administration",
+        "links": {
+            "64": "Offices",
+            "46": "Intercom E"
+        }
+    },
+    "2": {
+        "name": "Air Filter",
+        "links": {
+            "5": "Air Pumps A",
+            "3": "Air lock A"
+        }
+    },
+    "3": {
+        "name": "Air lock A",
+        "links": {
+            "63": "North WC",
+            "84": "Sector A Vents",
+            "2": "Air Filter",
+            "86": "Servers"
+        }
+    },
+    "4": {
+        "name": "Air lock D",
+        "links": {
+            "12": "Basin Elevator",
+            "6": "Air Pumps B",
+            "69": "Plateau Canteen",
+            "66": "Outlook"
+        }
+    },
+    "5": {
+        "name": "Air Pumps A",
+        "links": {
+            "31": "East Cross",
+            "2": "Air Filter",
+            "23": "Clearance Check"
+        }
+    },
+    "6": {
+        "name": "Air Pumps B",
+        "links": {
+            "4": "Air lock D",
+            "48": "Intercom G",
+            "71": "Printers"
+        }
+    },
+    "7": {
+        "name": "Anodizers",
+        "links": {
+            "33": "Engineering Bay",
+            "67": "Oven facility"
+        }
+    },
+    "8": {
+        "name": "Armoury",
+        "links": {
+            "9": "Army Lockers",
+            "58": "Military Gate A",
+            "39": "Guards"
+        }
+    },
+    "9": {
+        "name": "Army Lockers",
+        "links": {
+            "59": "Military Gate B",
+            "8": "Armoury"
+        }
+    },
+    "10": {
+        "name": "Bar",
+        "links": {
+            "13": "Basin Lounge",
+            "74": "Reception B",
+            "18": "Canteen"
+        }
+    },
+    "11": {
+        "name": "Barracks",
+        "links": {
+            "30": "Defence"
+        }
+    },
+    "12": {
+        "name": "Basin Elevator",
+        "links": {
+            "4": "Air lock D"
+        }
+    },
+    "13": {
+        "name": "Basin Lounge",
+        "links": {
+            "96": "Tourist Quarters",
+            "10": "Bar"
+        }
+    },
+    "14": {
+        "name": "Bay Cafe",
+        "links": {
+            "51": "Ladders",
+            "90": "Storage A"
+        }
+    },
+    "15": {
+        "name": "Bay Operators",
+        "links": {
+            "34": "Engineers",
+            "100": "Workshop",
+            "32": "Electricians"
+        }
+    },
+    "16": {
+        "name": "Bio research A",
+        "links": {
+            "35": "Experimental Plant",
+            "43": "Intercom B"
+        }
+    },
+    "17": {
+        "name": "Cafe",
+        "links": {
+            "50": "Kitchen",
+            "88": "Space Hotel Lounge",
+            "73": "Reception A"
+        }
+    },
+    "18": {
+        "name": "Canteen",
+        "links": {
+            "10": "Bar",
+            "50": "Kitchen"
+        }
+    },
+    "19": {
+        "name": "Cargo Bay",
+        "links": {
+            "20": "Cargo Clearance"
+        }
+    },
+    "20": {
+        "name": "Cargo Clearance",
+        "links": {
+            "94": "Surface Scanner",
+            "19": "Cargo Bay"
+        }
+    },
+    "21": {
+        "name": "Central Command",
+        "links": {
+            "89": "Starship Command",
+            "31": "East Cross",
+            "72": "Radio"
+        }
+    },
+    "22": {
+        "name": "Central Vents",
+        "links": {
+            "85": "Sector D Vents",
+            "37": "Fire Exit",
+            "31": "East Cross"
+        }
+    },
+    "23": {
+        "name": "Clearance Check",
+        "links": {
+            "42": "Intercom A",
+            "79": "Rock Samples",
+            "5": "Air Pumps A"
+        }
+    },
+    "24": {
+        "name": "Com Tower",
+        "links": {
+            "33": "Engineering Bay",
+            "25": "Command Deck"
+        }
+    },
+    "25": {
+        "name": "Command Deck",
+        "links": {
+            "24": "Com Tower",
+            "26": "Deck"
+        }
+    },
+    "26": {
+        "name": "Deck",
+        "links": {
+            "25": "Command Deck",
+            "27": "Deck Stairs"
+        }
+    },
+    "27": {
+        "name": "Deck Stairs",
+        "links": {
+            "26": "Deck",
+            "35": "Experimental Plant"
+        }
+    },
+    "28": {
+        "name": "Decomp A",
+        "links": {
+            "91": "Suit Station A"
+        }
+    },
+    "29": {
+        "name": "Decomp B",
+        "links": {
+            "92": "Suit Station B"
+        }
+    },
+    "30": {
+        "name": "Defence",
+        "links": {
+            "65": "Optical Observatory",
+            "44": "Intercom C",
+            "11": "Barracks"
+        }
+    },
+    "31": {
+        "name": "East Cross",
+        "links": {
+            "21": "Central Command",
+            "86": "Servers",
+            "5": "Air Pumps A",
+            "57": "Medical supply",
+            "46": "Intercom E",
+            "22": "Central Vents"
+        }
+    },
+    "32": {
+        "name": "Electricians",
+        "links": {
+            "15": "Bay Operators",
+            "56": "Mechanics"
+        }
+    },
+    "33": {
+        "name": "Engineering Bay",
+        "links": {
+            "24": "Com Tower",
+            "80": "Roosevelt Bay",
+            "7": "Anodizers"
+        }
+    },
+    "34": {
+        "name": "Engineers",
+        "links": {
+            "95": "Switch boards",
+            "15": "Bay Operators"
+        }
+    },
+    "35": {
+        "name": "Experimental Plant",
+        "links": {
+            "27": "Deck Stairs",
+            "82": "Samples",
+            "16": "Bio research A"
+        }
+    },
+    "36": {
+        "name": "External Equipment",
+        "links": {
+            "41": "Heavy Machinery",
+            "98": "Vehicle Bay B"
+        }
+    },
+    "37": {
+        "name": "Fire Exit",
+        "links": {
+            "87": "South Cross",
+            "72": "Radio",
+            "22": "Central Vents"
+        }
+    },
+    "38": {
+        "name": "Gazer Passage",
+        "links": {
+            "57": "Medical supply",
+            "44": "Intercom C"
+        }
+    },
+    "39": {
+        "name": "Guards",
+        "links": {
+            "8": "Armoury",
+            "58": "Military Gate A"
+        }
+    },
+    "40": {
+        "name": "Gym",
+        "links": {
+            "85": "Sector D Vents",
+            "48": "Intercom G"
+        }
+    },
+    "41": {
+        "name": "Heavy Machinery",
+        "links": {
+            "91": "Suit Station A",
+            "36": "External Equipment",
+            "90": "Storage A"
+        }
+    },
+    "42": {
+        "name": "Intercom A",
+        "links": {
+            "67": "Oven facility",
+            "78": "Rock Filter",
+            "23": "Clearance Check"
+        }
+    },
+    "43": {
+        "name": "Intercom B",
+        "links": {
+            "16": "Bio research A",
+            "75": "Robot Bay A",
+            "95": "Switch boards",
+            "62": "North Storage"
+        }
+    },
+    "44": {
+        "name": "Intercom C",
+        "links": {
+            "38": "Gazer Passage",
+            "94": "Surface Scanner",
+            "58": "Military Gate A",
+            "30": "Defence"
+        }
+    },
+    "45": {
+        "name": "Intercom D",
+        "links": {
+            "49": "IR Observatory",
+            "53": "Lockers East",
+            "71": "Printers"
+        }
+    },
+    "46": {
+        "name": "Intercom E",
+        "links": {
+            "1": "Administration",
+            "85": "Sector D Vents",
+            "31": "East Cross"
+        }
+    },
+    "47": {
+        "name": "Intercom F",
+        "links": {
+            "74": "Reception B",
+            "76": "Robot Bay B",
+            "87": "South Cross"
+        }
+    },
+    "48": {
+        "name": "Intercom G",
+        "links": {
+            "6": "Air Pumps B",
+            "73": "Reception A",
+            "40": "Gym"
+        }
+    },
+    "49": {
+        "name": "IR Observatory",
+        "links": {
+            "65": "Optical Observatory",
+            "45": "Intercom D"
+        }
+    },
+    "50": {
+        "name": "Kitchen",
+        "links": {
+            "18": "Canteen",
+            "17": "Cafe"
+        }
+    },
+    "51": {
+        "name": "Ladders",
+        "links": {
+            "76": "Robot Bay B",
+            "14": "Bay Cafe"
+        }
+    },
+    "52": {
+        "name": "Lockers",
+        "links": {
+            "75": "Robot Bay A",
+            "63": "North WC",
+            "61": "North Cross"
+        }
+    },
+    "53": {
+        "name": "Lockers East",
+        "links": {
+            "45": "Intercom D",
+            "70": "Plateau Lounge",
+            "60": "Mining Quarters"
+        }
+    },
+    "54": {
+        "name": "Lockers North",
+        "links": {
+            "83": "Science Quarters",
+            "63": "North WC",
+            "75": "Robot Bay A"
+        }
+    },
+    "55": {
+        "name": "Management",
+        "links": {
+            "100": "Workshop"
+        }
+    },
+    "56": {
+        "name": "Mechanics",
+        "links": {
+            "32": "Electricians",
+            "90": "Storage A"
+        }
+    },
+    "57": {
+        "name": "Medical supply",
+        "links": {
+            "31": "East Cross",
+            "38": "Gazer Passage"
+        }
+    },
+    "58": {
+        "name": "Military Gate A",
+        "links": {
+            "8": "Armoury",
+            "44": "Intercom C",
+            "39": "Guards"
+        }
+    },
+    "59": {
+        "name": "Military Gate B",
+        "links": {
+            "70": "Plateau Lounge",
+            "9": "Army Lockers"
+        }
+    },
+    "60": {
+        "name": "Mining Quarters",
+        "links": {
+            "53": "Lockers East"
+        }
+    },
+    "61": {
+        "name": "North Cross",
+        "links": {
+            "86": "Servers",
+            "89": "Starship Command",
+            "52": "Lockers",
+            "87": "South Cross"
+        }
+    },
+    "62": {
+        "name": "North Storage",
+        "links": {
+            "43": "Intercom B"
+        }
+    },
+    "63": {
+        "name": "North WC",
+        "links": {
+            "54": "Lockers North",
+            "3": "Air lock A",
+            "52": "Lockers"
+        }
+    },
+    "64": {
+        "name": "Offices",
+        "links": {
+            "71": "Printers",
+            "1": "Administration"
+        }
+    },
+    "65": {
+        "name": "Optical Observatory",
+        "links": {
+            "30": "Defence",
+            "49": "IR Observatory"
+        }
+    },
+    "66": {
+        "name": "Outlook",
+        "links": {
+            "4": "Air lock D",
+            "69": "Plateau Canteen"
+        }
+    },
+    "67": {
+        "name": "Oven facility",
+        "links": {
+            "7": "Anodizers",
+            "42": "Intercom A"
+        }
+    },
+    "68": {
+        "name": "Packing station",
+        "links": {
+            "94": "Surface Scanner",
+            "78": "Rock Filter"
+        }
+    },
+    "69": {
+        "name": "Plateau Canteen",
+        "links": {
+            "4": "Air lock D",
+            "70": "Plateau Lounge",
+            "66": "Outlook"
+        }
+    },
+    "70": {
+        "name": "Plateau Lounge",
+        "links": {
+            "53": "Lockers East",
+            "59": "Military Gate B",
+            "69": "Plateau Canteen"
+        }
+    },
+    "71": {
+        "name": "Printers",
+        "links": {
+            "6": "Air Pumps B",
+            "64": "Offices",
+            "45": "Intercom D"
+        }
+    },
+    "72": {
+        "name": "Radio",
+        "links": {
+            "89": "Starship Command",
+            "21": "Central Command",
+            "37": "Fire Exit"
+        }
+    },
+    "73": {
+        "name": "Reception A",
+        "links": {
+            "48": "Intercom G",
+            "93": "Sun Lounge",
+            "17": "Cafe"
+        }
+    },
+    "74": {
+        "name": "Reception B",
+        "links": {
+            "10": "Bar",
+            "47": "Intercom F",
+            "88": "Space Hotel Lounge"
+        }
+    },
+    "75": {
+        "name": "Robot Bay A",
+        "links": {
+            "43": "Intercom B",
+            "54": "Lockers North",
+            "52": "Lockers"
+        }
+    },
+    "76": {
+        "name": "Robot Bay B",
+        "links": {
+            "47": "Intercom F",
+            "51": "Ladders",
+            "100": "Workshop"
+        }
+    },
+    "77": {
+        "name": "Rock Crusher",
+        "links": {
+            "78": "Rock Filter"
+        }
+    },
+    "78": {
+        "name": "Rock Filter",
+        "links": {
+            "42": "Intercom A",
+            "77": "Rock Crusher",
+            "68": "Packing station"
+        }
+    },
+    "79": {
+        "name": "Rock Samples",
+        "links": {
+            "23": "Clearance Check",
+            "81": "Sample Lab"
+        }
+    },
+    "80": {
+        "name": "Roosevelt Bay",
+        "links": {
+            "82": "Samples",
+            "33": "Engineering Bay",
+            "84": "Sector A Vents"
+        }
+    },
+    "81": {
+        "name": "Sample Lab",
+        "links": {
+            "79": "Rock Samples"
+        }
+    },
+    "82": {
+        "name": "Samples",
+        "links": {
+            "35": "Experimental Plant",
+            "80": "Roosevelt Bay"
+        }
+    },
+    "83": {
+        "name": "Science Quarters",
+        "links": {
+            "54": "Lockers North"
+        }
+    },
+    "84": {
+        "name": "Sector A Vents",
+        "links": {
+            "3": "Air lock A",
+            "80": "Roosevelt Bay"
+        }
+    },
+    "85": {
+        "name": "Sector D Vents",
+        "links": {
+            "46": "Intercom E",
+            "40": "Gym",
+            "88": "Space Hotel Lounge",
+            "22": "Central Vents"
+        }
+    },
+    "86": {
+        "name": "Servers",
+        "links": {
+            "31": "East Cross",
+            "61": "North Cross",
+            "3": "Air lock A"
+        }
+    },
+    "87": {
+        "name": "South Cross",
+        "links": {
+            "61": "North Cross",
+            "37": "Fire Exit",
+            "47": "Intercom F"
+        }
+    },
+    "88": {
+        "name": "Space Hotel Lounge",
+        "links": {
+            "17": "Cafe",
+            "74": "Reception B",
+            "85": "Sector D Vents"
+        }
+    },
+    "89": {
+        "name": "Starship Command",
+        "links": {
+            "21": "Central Command",
+            "61": "North Cross",
+            "72": "Radio"
+        }
+    },
+    "90": {
+        "name": "Storage A",
+        "links": {
+            "14": "Bay Cafe",
+            "41": "Heavy Machinery",
+            "56": "Mechanics"
+        }
+    },
+    "91": {
+        "name": "Suit Station A",
+        "links": {
+            "28": "Decomp A",
+            "41": "Heavy Machinery"
+        }
+    },
+    "92": {
+        "name": "Suit Station B",
+        "links": {
+            "98": "Vehicle Bay B",
+            "29": "Decomp B"
+        }
+    },
+    "93": {
+        "name": "Sun Lounge",
+        "links": {
+            "73": "Reception A",
+            "99": "VIP Quarters"
+        }
+    },
+    "94": {
+        "name": "Surface Scanner",
+        "links": {
+            "44": "Intercom C",
+            "68": "Packing station",
+            "20": "Cargo Clearance"
+        }
+    },
+    "95": {
+        "name": "Switch boards",
+        "links": {
+            "43": "Intercom B",
+            "34": "Engineers",
+            "97": "Vehicle Bay A"
+        }
+    },
+    "96": {
+        "name": "Tourist Quarters",
+        "links": {
+            "99": "VIP Quarters",
+            "13": "Basin Lounge"
+        }
+    },
+    "97": {
+        "name": "Vehicle Bay A",
+        "links": {
+            "98": "Vehicle Bay B",
+            "95": "Switch boards"
+        }
+    },
+    "98": {
+        "name": "Vehicle Bay B",
+        "links": {
+            "36": "External Equipment",
+            "92": "Suit Station B",
+            "97": "Vehicle Bay A"
+        }
+    },
+    "99": {
+        "name": "VIP Quarters",
+        "links": {
+            "93": "Sun Lounge",
+            "96": "Tourist Quarters"
+        }
+    },
+    "100": {
+        "name": "Workshop",
+        "links": {
+            "15": "Bay Operators",
+            "55": "Management",
+            "76": "Robot Bay B"
+        }
+    }
+}

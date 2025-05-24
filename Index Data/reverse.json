@@ -1,0 +1,580 @@
+{
+    "1": {
+        "name": "Aden",
+        "links": {
+            "57": "Red Land",
+            "56": "Point Arabia",
+            "27": "Great Seychelles"
+        }
+    },
+    "2": {
+        "name": "Aegea",
+        "links": {
+            "65": "Tyrrhenia",
+            "56": "Point Arabia",
+            "57": "Red Land"
+        }
+    },
+    "3": {
+        "name": "Baffin Province",
+        "links": {
+            "45": "Nunavut-By-The-Sea",
+            "14": "Central Arctic Plains",
+            "32": "Hudson Peninsula"
+        }
+    },
+    "4": {
+        "name": "Baltic Land",
+        "links": {
+            "35": "Kara",
+            "43": "North Land",
+            "5": "Barents"
+        }
+    },
+    "5": {
+        "name": "Barents",
+        "links": {
+            "14": "Central Arctic Plains",
+            "35": "Kara",
+            "4": "Baltic Land"
+        }
+    },
+    "6": {
+        "name": "Beaufort",
+        "links": {
+            "16": "Chukchi",
+            "45": "Nunavut-By-The-Sea"
+        }
+    },
+    "7": {
+        "name": "Bengal Region",
+        "links": {
+            "56": "Point Arabia",
+            "46": "Okhotsk",
+            "34": "Java Valley",
+            "12": "Celebes"
+        }
+    },
+    "8": {
+        "name": "Bering Plains",
+        "links": {
+            "40": "Mariana Province",
+            "22": "Eastern Edge",
+            "46": "Okhotsk"
+        }
+    },
+    "9": {
+        "name": "Bermuda Quadrate",
+        "links": {
+            "28": "Greater Canaria",
+            "15": "Central Atlantica",
+            "52": "Pacific East",
+            "11": "Caribbea",
+            "44": "Nova Labrador"
+        }
+    },
+    "10": {
+        "name": "Cape Britain",
+        "links": {
+            "36": "Labrador Headland",
+            "33": "Ice Shores",
+            "43": "North Land",
+            "13": "Celtic Territories"
+        }
+    },
+    "11": {
+        "name": "Caribbea",
+        "links": {
+            "50": "Pacific Divide North",
+            "44": "Nova Labrador",
+            "9": "Bermuda Quadrate"
+        }
+    },
+    "12": {
+        "name": "Celebes",
+        "links": {
+            "7": "Bengal Region",
+            "60": "South China Land",
+            "18": "Coralia",
+            "34": "Java Valley"
+        }
+    },
+    "13": {
+        "name": "Celtic Territories",
+        "links": {
+            "43": "North Land",
+            "28": "Greater Canaria",
+            "10": "Cape Britain",
+            "36": "Labrador Headland",
+            "44": "Nova Labrador"
+        }
+    },
+    "14": {
+        "name": "Central Arctic Plains",
+        "links": {
+            "3": "Baffin Province",
+            "35": "Kara",
+            "33": "Ice Shores",
+            "5": "Barents",
+            "43": "North Land"
+        }
+    },
+    "15": {
+        "name": "Central Atlantica",
+        "links": {
+            "28": "Greater Canaria",
+            "39": "Mallorcaland",
+            "9": "Bermuda Quadrate",
+            "42": "Mid Atlantica"
+        }
+    },
+    "16": {
+        "name": "Chukchi",
+        "links": {
+            "53": "Pacific Edge",
+            "6": "Beaufort",
+            "66": "Yukon Rim"
+        }
+    },
+    "17": {
+        "name": "Cocos Land",
+        "links": {
+            "56": "Point Arabia",
+            "34": "Java Valley",
+            "55": "Perthlandia",
+            "27": "Great Seychelles"
+        }
+    },
+    "18": {
+        "name": "Coralia",
+        "links": {
+            "40": "Mariana Province",
+            "23": "Fiji Locality",
+            "60": "South China Land",
+            "12": "Celebes",
+            "26": "Great Australian Bight",
+            "63": "Tasmanland"
+        }
+    },
+    "19": {
+        "name": "East Atlantica",
+        "links": {
+            "25": "Good Hope",
+            "59": "South Atlantica",
+            "24": "Georgetown",
+            "29": "Guinea Expanse"
+        }
+    },
+    "20": {
+        "name": "East Siberian Province",
+        "links": {
+            "37": "Laptev Province",
+            "22": "Eastern Edge"
+        }
+    },
+    "21": {
+        "name": "Easter Land",
+        "links": {
+            "51": "Pacific Divide South",
+            "52": "Pacific East",
+            "54": "Pacific South",
+            "41": "McMurdo"
+        }
+    },
+    "22": {
+        "name": "Eastern Edge",
+        "links": {
+            "20": "East Siberian Province",
+            "8": "Bering Plains",
+            "46": "Okhotsk"
+        }
+    },
+    "23": {
+        "name": "Fiji Locality",
+        "links": {
+            "40": "Mariana Province",
+            "48": "Outer Rim East",
+            "18": "Coralia"
+        }
+    },
+    "24": {
+        "name": "Georgetown",
+        "links": {
+            "42": "Mid Atlantica",
+            "29": "Guinea Expanse",
+            "62": "State of Janiero",
+            "19": "East Atlantica",
+            "59": "South Atlantica",
+            "31": "Horn Province"
+        }
+    },
+    "25": {
+        "name": "Good Hope",
+        "links": {
+            "38": "Madagascar Territories",
+            "19": "East Atlantica"
+        }
+    },
+    "26": {
+        "name": "Great Australian Bight",
+        "links": {
+            "63": "Tasmanland",
+            "64": "Terre-Aux-Francais",
+            "34": "Java Valley",
+            "18": "Coralia",
+            "55": "Perthlandia"
+        }
+    },
+    "27": {
+        "name": "Great Seychelles",
+        "links": {
+            "38": "Madagascar Territories",
+            "1": "Aden",
+            "64": "Terre-Aux-Francais",
+            "55": "Perthlandia",
+            "56": "Point Arabia",
+            "17": "Cocos Land"
+        }
+    },
+    "28": {
+        "name": "Greater Canaria",
+        "links": {
+            "13": "Celtic Territories",
+            "15": "Central Atlantica",
+            "9": "Bermuda Quadrate",
+            "44": "Nova Labrador"
+        }
+    },
+    "29": {
+        "name": "Guinea Expanse",
+        "links": {
+            "24": "Georgetown",
+            "42": "Mid Atlantica",
+            "19": "East Atlantica",
+            "57": "Red Land"
+        }
+    },
+    "30": {
+        "name": "Hawaiiland",
+        "links": {
+            "61": "South Pacific Lands",
+            "53": "Pacific Edge",
+            "50": "Pacific Divide North"
+        }
+    },
+    "31": {
+        "name": "Horn Province",
+        "links": {
+            "59": "South Atlantica",
+            "54": "Pacific South",
+            "62": "State of Janiero",
+            "24": "Georgetown"
+        }
+    },
+    "32": {
+        "name": "Hudson Peninsula",
+        "links": {
+            "3": "Baffin Province",
+            "36": "Labrador Headland",
+            "44": "Nova Labrador"
+        }
+    },
+    "33": {
+        "name": "Ice Shores",
+        "links": {
+            "10": "Cape Britain",
+            "14": "Central Arctic Plains"
+        }
+    },
+    "34": {
+        "name": "Java Valley",
+        "links": {
+            "17": "Cocos Land",
+            "7": "Bengal Region",
+            "12": "Celebes",
+            "26": "Great Australian Bight"
+        }
+    },
+    "35": {
+        "name": "Kara",
+        "links": {
+            "14": "Central Arctic Plains",
+            "58": "Severnaya",
+            "5": "Barents",
+            "4": "Baltic Land"
+        }
+    },
+    "36": {
+        "name": "Labrador Headland",
+        "links": {
+            "32": "Hudson Peninsula",
+            "10": "Cape Britain",
+            "13": "Celtic Territories"
+        }
+    },
+    "37": {
+        "name": "Laptev Province",
+        "links": {
+            "58": "Severnaya",
+            "20": "East Siberian Province",
+            "46": "Okhotsk"
+        }
+    },
+    "38": {
+        "name": "Madagascar Territories",
+        "links": {
+            "64": "Terre-Aux-Francais",
+            "25": "Good Hope",
+            "27": "Great Seychelles"
+        }
+    },
+    "39": {
+        "name": "Mallorcaland",
+        "links": {
+            "15": "Central Atlantica",
+            "65": "Tyrrhenia",
+            "42": "Mid Atlantica"
+        }
+    },
+    "40": {
+        "name": "Mariana Province",
+        "links": {
+            "8": "Bering Plains",
+            "23": "Fiji Locality",
+            "60": "South China Land",
+            "18": "Coralia"
+        }
+    },
+    "41": {
+        "name": "McMurdo",
+        "links": {
+            "54": "Pacific South",
+            "49": "Outer Rim West",
+            "21": "Easter Land",
+            "61": "South Pacific Lands",
+            "51": "Pacific Divide South"
+        }
+    },
+    "42": {
+        "name": "Mid Atlantica",
+        "links": {
+            "15": "Central Atlantica",
+            "39": "Mallorcaland",
+            "24": "Georgetown",
+            "29": "Guinea Expanse",
+            "62": "State of Janiero"
+        }
+    },
+    "43": {
+        "name": "North Land",
+        "links": {
+            "4": "Baltic Land",
+            "13": "Celtic Territories",
+            "10": "Cape Britain",
+            "14": "Central Arctic Plains"
+        }
+    },
+    "44": {
+        "name": "Nova Labrador",
+        "links": {
+            "11": "Caribbea",
+            "66": "Yukon Rim",
+            "9": "Bermuda Quadrate",
+            "32": "Hudson Peninsula",
+            "28": "Greater Canaria",
+            "13": "Celtic Territories"
+        }
+    },
+    "45": {
+        "name": "Nunavut-By-The-Sea",
+        "links": {
+            "6": "Beaufort",
+            "3": "Baffin Province",
+            "66": "Yukon Rim"
+        }
+    },
+    "46": {
+        "name": "Okhotsk",
+        "links": {
+            "8": "Bering Plains",
+            "60": "South China Land",
+            "7": "Bengal Region",
+            "37": "Laptev Province",
+            "22": "Eastern Edge"
+        }
+    },
+    "47": {
+        "name": "Outer California",
+        "links": {
+            "50": "Pacific Divide North",
+            "66": "Yukon Rim",
+            "53": "Pacific Edge"
+        }
+    },
+    "48": {
+        "name": "Outer Rim East",
+        "links": {
+            "23": "Fiji Locality",
+            "63": "Tasmanland"
+        }
+    },
+    "49": {
+        "name": "Outer Rim West",
+        "links": {
+            "41": "McMurdo",
+            "61": "South Pacific Lands"
+        }
+    },
+    "50": {
+        "name": "Pacific Divide North",
+        "links": {
+            "47": "Outer California",
+            "11": "Caribbea",
+            "53": "Pacific Edge",
+            "51": "Pacific Divide South",
+            "61": "South Pacific Lands",
+            "30": "Hawaiiland"
+        }
+    },
+    "51": {
+        "name": "Pacific Divide South",
+        "links": {
+            "50": "Pacific Divide North",
+            "52": "Pacific East",
+            "21": "Easter Land",
+            "61": "South Pacific Lands",
+            "41": "McMurdo"
+        }
+    },
+    "52": {
+        "name": "Pacific East",
+        "links": {
+            "51": "Pacific Divide South",
+            "9": "Bermuda Quadrate",
+            "21": "Easter Land",
+            "54": "Pacific South"
+        }
+    },
+    "53": {
+        "name": "Pacific Edge",
+        "links": {
+            "30": "Hawaiiland",
+            "16": "Chukchi",
+            "47": "Outer California",
+            "50": "Pacific Divide North",
+            "66": "Yukon Rim"
+        }
+    },
+    "54": {
+        "name": "Pacific South",
+        "links": {
+            "31": "Horn Province",
+            "41": "McMurdo",
+            "52": "Pacific East",
+            "21": "Easter Land"
+        }
+    },
+    "55": {
+        "name": "Perthlandia",
+        "links": {
+            "64": "Terre-Aux-Francais",
+            "27": "Great Seychelles",
+            "26": "Great Australian Bight",
+            "17": "Cocos Land"
+        }
+    },
+    "56": {
+        "name": "Point Arabia",
+        "links": {
+            "2": "Aegea",
+            "7": "Bengal Region",
+            "1": "Aden",
+            "17": "Cocos Land",
+            "27": "Great Seychelles"
+        }
+    },
+    "57": {
+        "name": "Red Land",
+        "links": {
+            "2": "Aegea",
+            "1": "Aden",
+            "29": "Guinea Expanse"
+        }
+    },
+    "58": {
+        "name": "Severnaya",
+        "links": {
+            "35": "Kara",
+            "37": "Laptev Province"
+        }
+    },
+    "59": {
+        "name": "South Atlantica",
+        "links": {
+            "19": "East Atlantica",
+            "31": "Horn Province",
+            "24": "Georgetown"
+        }
+    },
+    "60": {
+        "name": "South China Land",
+        "links": {
+            "46": "Okhotsk",
+            "40": "Mariana Province",
+            "12": "Celebes",
+            "18": "Coralia"
+        }
+    },
+    "61": {
+        "name": "South Pacific Lands",
+        "links": {
+            "49": "Outer Rim West",
+            "30": "Hawaiiland",
+            "41": "McMurdo",
+            "50": "Pacific Divide North",
+            "51": "Pacific Divide South"
+        }
+    },
+    "62": {
+        "name": "State of Janiero",
+        "links": {
+            "42": "Mid Atlantica",
+            "24": "Georgetown",
+            "31": "Horn Province"
+        }
+    },
+    "63": {
+        "name": "Tasmanland",
+        "links": {
+            "48": "Outer Rim East",
+            "26": "Great Australian Bight",
+            "18": "Coralia"
+        }
+    },
+    "64": {
+        "name": "Terre-Aux-Francais",
+        "links": {
+            "26": "Great Australian Bight",
+            "38": "Madagascar Territories",
+            "27": "Great Seychelles",
+            "55": "Perthlandia"
+        }
+    },
+    "65": {
+        "name": "Tyrrhenia",
+        "links": {
+            "39": "Mallorcaland",
+            "2": "Aegea"
+        }
+    },
+    "66": {
+        "name": "Yukon Rim",
+        "links": {
+            "44": "Nova Labrador",
+            "47": "Outer California",
+            "53": "Pacific Edge",
+            "16": "Chukchi",
+            "45": "Nunavut-By-The-Sea"
+        }
+    }
+}

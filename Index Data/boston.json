@@ -1,0 +1,382 @@
+{
+    "1": {
+        "name": "Allston",
+        "links": {
+            "6": "Brighton",
+            "19": "Fenway Kenmore"
+        }
+    },
+    "2": {
+        "name": "Andrew Square",
+        "links": {
+            "11": "Central South Boston",
+            "12": "City Point",
+            "33": "Seaport District",
+            "34": "South End",
+            "40": "Uphams Corner",
+            "17": "East Boston City",
+            "14": "Dorchester Bay"
+        }
+    },
+    "3": {
+        "name": "Ashmount",
+        "links": {
+            "31": "Port Norfolk",
+            "9": "Cedar Grove",
+            "10": "Central Dorchester",
+            "13": "Codman Square"
+        }
+    },
+    "4": {
+        "name": "Back Bay",
+        "links": {
+            "19": "Fenway Kenmore",
+            "42": "West Boston City",
+            "34": "South End"
+        }
+    },
+    "5": {
+        "name": "Brewster Islands",
+        "links": {
+            "37": "The Narrows"
+        }
+    },
+    "6": {
+        "name": "Brighton",
+        "links": {
+            "1": "Allston"
+        }
+    },
+    "7": {
+        "name": "Brook Farm",
+        "links": {
+            "36": "Stonybrook",
+            "32": "Roslindale",
+            "24": "Jamaica Hills",
+            "22": "Hyde Park"
+        }
+    },
+    "8": {
+        "name": "Bunker Hill",
+        "links": {
+            "17": "East Boston City",
+            "38": "The Neck"
+        }
+    },
+    "9": {
+        "name": "Cedar Grove",
+        "links": {
+            "3": "Ashmount",
+            "31": "Port Norfolk",
+            "13": "Codman Square",
+            "28": "Mattapan"
+        }
+    },
+    "10": {
+        "name": "Central Dorchester",
+        "links": {
+            "15": "Dudley",
+            "20": "Franklin Field North",
+            "40": "Uphams Corner",
+            "31": "Port Norfolk",
+            "3": "Ashmount",
+            "13": "Codman Square",
+            "14": "Dorchester Bay"
+        }
+    },
+    "11": {
+        "name": "Central South Boston",
+        "links": {
+            "2": "Andrew Square",
+            "12": "City Point",
+            "33": "Seaport District"
+        }
+    },
+    "12": {
+        "name": "City Point",
+        "links": {
+            "2": "Andrew Square",
+            "11": "Central South Boston",
+            "33": "Seaport District",
+            "39": "Thompson Island"
+        }
+    },
+    "13": {
+        "name": "Codman Square",
+        "links": {
+            "3": "Ashmount",
+            "9": "Cedar Grove",
+            "21": "Franklin Field South",
+            "28": "Mattapan",
+            "20": "Franklin Field North",
+            "10": "Central Dorchester"
+        }
+    },
+    "14": {
+        "name": "Dorchester Bay",
+        "links": {
+            "40": "Uphams Corner",
+            "2": "Andrew Square",
+            "31": "Port Norfolk",
+            "10": "Central Dorchester"
+        }
+    },
+    "15": {
+        "name": "Dudley",
+        "links": {
+            "41": "Washington Park",
+            "27": "Lower Roxbury",
+            "40": "Uphams Corner",
+            "10": "Central Dorchester",
+            "20": "Franklin Field North"
+        }
+    },
+    "16": {
+        "name": "Eagle Hill",
+        "links": {
+            "30": "Paris Street"
+        }
+    },
+    "17": {
+        "name": "East Boston City",
+        "links": {
+            "42": "West Boston City",
+            "8": "Bunker Hill",
+            "2": "Andrew Square",
+            "30": "Paris Street",
+            "34": "South End",
+            "33": "Seaport District"
+        }
+    },
+    "18": {
+        "name": "Egleston Square",
+        "links": {
+            "36": "Stonybrook",
+            "24": "Jamaica Hills",
+            "20": "Franklin Field North",
+            "23": "Hyde Square",
+            "41": "Washington Park"
+        }
+    },
+    "19": {
+        "name": "Fenway Kenmore",
+        "links": {
+            "1": "Allston",
+            "4": "Back Bay",
+            "29": "Mission Hill",
+            "34": "South End"
+        }
+    },
+    "20": {
+        "name": "Franklin Field North",
+        "links": {
+            "36": "Stonybrook",
+            "18": "Egleston Square",
+            "32": "Roslindale",
+            "41": "Washington Park",
+            "15": "Dudley",
+            "10": "Central Dorchester",
+            "13": "Codman Square",
+            "21": "Franklin Field South"
+        }
+    },
+    "21": {
+        "name": "Franklin Field South",
+        "links": {
+            "13": "Codman Square",
+            "28": "Mattapan",
+            "20": "Franklin Field North",
+            "32": "Roslindale"
+        }
+    },
+    "22": {
+        "name": "Hyde Park",
+        "links": {
+            "7": "Brook Farm",
+            "32": "Roslindale",
+            "28": "Mattapan"
+        }
+    },
+    "23": {
+        "name": "Hyde Square",
+        "links": {
+            "18": "Egleston Square",
+            "24": "Jamaica Hills",
+            "41": "Washington Park",
+            "29": "Mission Hill"
+        }
+    },
+    "24": {
+        "name": "Jamaica Hills",
+        "links": {
+            "18": "Egleston Square",
+            "36": "Stonybrook",
+            "23": "Hyde Square",
+            "7": "Brook Farm"
+        }
+    },
+    "25": {
+        "name": "Jeffries Point",
+        "links": {
+            "30": "Paris Street",
+            "33": "Seaport District"
+        }
+    },
+    "26": {
+        "name": "Long Island",
+        "links": {
+            "35": "Spectacle Island",
+            "37": "The Narrows"
+        }
+    },
+    "27": {
+        "name": "Lower Roxbury",
+        "links": {
+            "41": "Washington Park",
+            "15": "Dudley",
+            "29": "Mission Hill",
+            "40": "Uphams Corner",
+            "34": "South End"
+        }
+    },
+    "28": {
+        "name": "Mattapan",
+        "links": {
+            "9": "Cedar Grove",
+            "22": "Hyde Park",
+            "21": "Franklin Field South",
+            "13": "Codman Square",
+            "32": "Roslindale"
+        }
+    },
+    "29": {
+        "name": "Mission Hill",
+        "links": {
+            "27": "Lower Roxbury",
+            "41": "Washington Park",
+            "23": "Hyde Square",
+            "19": "Fenway Kenmore",
+            "34": "South End"
+        }
+    },
+    "30": {
+        "name": "Paris Street",
+        "links": {
+            "17": "East Boston City",
+            "16": "Eagle Hill",
+            "25": "Jeffries Point"
+        }
+    },
+    "31": {
+        "name": "Port Norfolk",
+        "links": {
+            "3": "Ashmount",
+            "9": "Cedar Grove",
+            "10": "Central Dorchester",
+            "14": "Dorchester Bay",
+            "35": "Spectacle Island"
+        }
+    },
+    "32": {
+        "name": "Roslindale",
+        "links": {
+            "7": "Brook Farm",
+            "36": "Stonybrook",
+            "22": "Hyde Park",
+            "20": "Franklin Field North",
+            "21": "Franklin Field South",
+            "28": "Mattapan"
+        }
+    },
+    "33": {
+        "name": "Seaport District",
+        "links": {
+            "11": "Central South Boston",
+            "2": "Andrew Square",
+            "17": "East Boston City",
+            "25": "Jeffries Point",
+            "12": "City Point"
+        }
+    },
+    "34": {
+        "name": "South End",
+        "links": {
+            "4": "Back Bay",
+            "42": "West Boston City",
+            "2": "Andrew Square",
+            "40": "Uphams Corner",
+            "17": "East Boston City",
+            "19": "Fenway Kenmore",
+            "27": "Lower Roxbury",
+            "29": "Mission Hill"
+        }
+    },
+    "35": {
+        "name": "Spectacle Island",
+        "links": {
+            "39": "Thompson Island",
+            "26": "Long Island",
+            "31": "Port Norfolk"
+        }
+    },
+    "36": {
+        "name": "Stonybrook",
+        "links": {
+            "18": "Egleston Square",
+            "24": "Jamaica Hills",
+            "7": "Brook Farm",
+            "32": "Roslindale",
+            "20": "Franklin Field North"
+        }
+    },
+    "37": {
+        "name": "The Narrows",
+        "links": {
+            "26": "Long Island",
+            "5": "Brewster Islands"
+        }
+    },
+    "38": {
+        "name": "The Neck",
+        "links": {
+            "8": "Bunker Hill"
+        }
+    },
+    "39": {
+        "name": "Thompson Island",
+        "links": {
+            "12": "City Point",
+            "35": "Spectacle Island"
+        }
+    },
+    "40": {
+        "name": "Uphams Corner",
+        "links": {
+            "34": "South End",
+            "2": "Andrew Square",
+            "14": "Dorchester Bay",
+            "15": "Dudley",
+            "27": "Lower Roxbury",
+            "10": "Central Dorchester"
+        }
+    },
+    "41": {
+        "name": "Washington Park",
+        "links": {
+            "20": "Franklin Field North",
+            "18": "Egleston Square",
+            "27": "Lower Roxbury",
+            "15": "Dudley",
+            "29": "Mission Hill",
+            "23": "Hyde Square"
+        }
+    },
+    "42": {
+        "name": "West Boston City",
+        "links": {
+            "4": "Back Bay",
+            "17": "East Boston City",
+            "34": "South End"
+        }
+    }
+}

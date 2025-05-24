@@ -1,0 +1,691 @@
+{
+    "65": {
+        "name": "Horse Field Stables",
+        "links": {
+            "66": "Goat Meadow",
+            "68": "Cow Farm Yards",
+            "67": "Sheep Pasture"
+        }
+    },
+    "66": {
+        "name": "Goat Meadow",
+        "links": {
+            "72": "Fletcher's Alley",
+            "68": "Cow Farm Yards",
+            "67": "Sheep Pasture",
+            "65": "Horse Field Stables"
+        }
+    },
+    "67": {
+        "name": "Sheep Pasture",
+        "links": {
+            "72": "Fletcher's Alley",
+            "69": "Pea Field",
+            "66": "Goat Meadow",
+            "65": "Horse Field Stables",
+            "71": "Broad Beans Field"
+        }
+    },
+    "68": {
+        "name": "Cow Farm Yards",
+        "links": {
+            "70": "Northern Dock",
+            "72": "Fletcher's Alley",
+            "73": "Stonemason",
+            "66": "Goat Meadow",
+            "65": "Horse Field Stables"
+        }
+    },
+    "69": {
+        "name": "Pea Field",
+        "links": {
+            "67": "Sheep Pasture",
+            "71": "Broad Beans Field"
+        }
+    },
+    "70": {
+        "name": "Northern Dock",
+        "links": {
+            "59": "Castle North Wing",
+            "73": "Stonemason",
+            "68": "Cow Farm Yards"
+        }
+    },
+    "71": {
+        "name": "Broad Beans Field",
+        "links": {
+            "72": "Fletcher's Alley",
+            "69": "Pea Field",
+            "67": "Sheep Pasture"
+        }
+    },
+    "72": {
+        "name": "Fletcher's Alley",
+        "links": {
+            "73": "Stonemason",
+            "68": "Cow Farm Yards",
+            "67": "Sheep Pasture",
+            "63": "Outskirt Villages",
+            "66": "Goat Meadow",
+            "71": "Broad Beans Field"
+        }
+    },
+    "73": {
+        "name": "Stonemason",
+        "links": {
+            "70": "Northern Dock",
+            "68": "Cow Farm Yards",
+            "72": "Fletcher's Alley"
+        }
+    },
+    "61": {
+        "name": "West Gate Tower",
+        "links": {
+            "62": "City Gate",
+            "59": "Castle North Wing"
+        }
+    },
+    "62": {
+        "name": "City Gate",
+        "links": {
+            "44": "Church Gardens",
+            "64": "East Gate Tower",
+            "63": "Outskirt Villages",
+            "61": "West Gate Tower"
+        }
+    },
+    "63": {
+        "name": "Outskirt Villages",
+        "links": {
+            "72": "Fletcher's Alley",
+            "62": "City Gate"
+        }
+    },
+    "64": {
+        "name": "East Gate Tower",
+        "links": {
+            "62": "City Gate",
+            "19": "Masons hall"
+        }
+    },
+    "58": {
+        "name": "Castle South Wing",
+        "links": {
+            "59": "Castle North Wing",
+            "41": "The Great Church",
+            "60": "Castle Grounds",
+            "57": "Crown Gardens"
+        }
+    },
+    "59": {
+        "name": "Castle North Wing",
+        "links": {
+            "70": "Northern Dock",
+            "45": "Castle Gardens",
+            "60": "Castle Grounds",
+            "58": "Castle South Wing",
+            "61": "West Gate Tower"
+        }
+    },
+    "60": {
+        "name": "Castle Grounds",
+        "links": {
+            "59": "Castle North Wing",
+            "41": "The Great Church",
+            "45": "Castle Gardens",
+            "58": "Castle South Wing"
+        }
+    },
+    "53": {
+        "name": "Knick Knack Shop",
+        "links": {
+            "55": "Saltsj\u00f6n Port",
+            "54": "Residential Ward",
+            "48": "Butchers",
+            "56": "Outer markets",
+            "47": "Merchant's square"
+        }
+    },
+    "54": {
+        "name": "Residential Ward",
+        "links": {
+            "46": "The German Church",
+            "55": "Saltsj\u00f6n Port",
+            "9": "Stadsholmen Landing",
+            "10": "Saltsj\u00f6n Outlook",
+            "48": "Butchers",
+            "53": "Knick Knack Shop",
+            "11": "Fisheries"
+        }
+    },
+    "55": {
+        "name": "Saltsj\u00f6n Port",
+        "links": {
+            "12": "First Port",
+            "54": "Residential Ward",
+            "53": "Knick Knack Shop",
+            "56": "Outer markets",
+            "57": "Crown Gardens"
+        }
+    },
+    "56": {
+        "name": "Outer markets",
+        "links": {
+            "55": "Saltsj\u00f6n Port",
+            "57": "Crown Gardens",
+            "47": "Merchant's square",
+            "53": "Knick Knack Shop",
+            "35": "Royal Kitchen Garden"
+        }
+    },
+    "57": {
+        "name": "Crown Gardens",
+        "links": {
+            "55": "Saltsj\u00f6n Port",
+            "41": "The Great Church",
+            "56": "Outer markets",
+            "58": "Castle South Wing",
+            "35": "Royal Kitchen Garden"
+        }
+    },
+    "8": {
+        "name": "Red Bridge",
+        "links": {
+            "9": "Stadsholmen Landing",
+            "5": "Rye Field"
+        }
+    },
+    "9": {
+        "name": "Stadsholmen Landing",
+        "links": {
+            "46": "The German Church",
+            "54": "Residential Ward",
+            "30": "Tavern",
+            "12": "First Port",
+            "8": "Red Bridge",
+            "13": "Bakery",
+            "11": "Fisheries"
+        }
+    },
+    "10": {
+        "name": "Saltsj\u00f6n Outlook",
+        "links": {
+            "54": "Residential Ward",
+            "11": "Fisheries"
+        }
+    },
+    "11": {
+        "name": "Fisheries",
+        "links": {
+            "54": "Residential Ward",
+            "12": "First Port",
+            "9": "Stadsholmen Landing",
+            "10": "Saltsj\u00f6n Outlook"
+        }
+    },
+    "12": {
+        "name": "First Port",
+        "links": {
+            "55": "Saltsj\u00f6n Port",
+            "9": "Stadsholmen Landing",
+            "11": "Fisheries"
+        }
+    },
+    "1": {
+        "name": "Fields of Ceres",
+        "links": {
+            "7": "Potato Farms",
+            "2": "Lentil Field"
+        }
+    },
+    "2": {
+        "name": "Lentil Field",
+        "links": {
+            "7": "Potato Farms",
+            "6": "Wheat Field",
+            "4": "Mills",
+            "1": "Fields of Ceres"
+        }
+    },
+    "3": {
+        "name": "Barley Field",
+        "links": {
+            "6": "Wheat Field",
+            "7": "Potato Farms"
+        }
+    },
+    "4": {
+        "name": "Mills",
+        "links": {
+            "6": "Wheat Field",
+            "2": "Lentil Field",
+            "5": "Rye Field"
+        }
+    },
+    "5": {
+        "name": "Rye Field",
+        "links": {
+            "6": "Wheat Field",
+            "8": "Red Bridge",
+            "4": "Mills"
+        }
+    },
+    "6": {
+        "name": "Wheat Field",
+        "links": {
+            "7": "Potato Farms",
+            "5": "Rye Field",
+            "2": "Lentil Field",
+            "16": "Knights' Islet Church",
+            "4": "Mills",
+            "3": "Barley Field"
+        }
+    },
+    "7": {
+        "name": "Potato Farms",
+        "links": {
+            "2": "Lentil Field",
+            "6": "Wheat Field",
+            "1": "Fields of Ceres",
+            "3": "Barley Field"
+        }
+    },
+    "13": {
+        "name": "Bakery",
+        "links": {
+            "30": "Tavern",
+            "9": "Stadsholmen Landing",
+            "15": "Sunken Overlook"
+        }
+    },
+    "14": {
+        "name": "Fisherman's Dock",
+        "links": {
+            "24": "Dock Warehouse",
+            "33": "Potters",
+            "29": "Inn Keeper Way",
+            "15": "Sunken Overlook"
+        }
+    },
+    "15": {
+        "name": "Sunken Overlook",
+        "links": {
+            "29": "Inn Keeper Way",
+            "30": "Tavern",
+            "14": "Fisherman's Dock",
+            "13": "Bakery"
+        }
+    },
+    "24": {
+        "name": "Dock Warehouse",
+        "links": {
+            "33": "Potters",
+            "28": "Dock Market",
+            "14": "Fisherman's Dock"
+        }
+    },
+    "25": {
+        "name": "Guard outpost",
+        "links": {
+            "44": "Church Gardens",
+            "31": "Weavers Outlook",
+            "26": "Townmaster hall"
+        }
+    },
+    "26": {
+        "name": "Townmaster hall",
+        "links": {
+            "25": "Guard outpost",
+            "31": "Weavers Outlook",
+            "27": "West Bridge"
+        }
+    },
+    "27": {
+        "name": "West Bridge",
+        "links": {
+            "31": "Weavers Outlook",
+            "32": "Blacksmiths",
+            "26": "Townmaster hall",
+            "28": "Dock Market",
+            "16": "Knights' Islet Church"
+        }
+    },
+    "28": {
+        "name": "Dock Market",
+        "links": {
+            "24": "Dock Warehouse",
+            "33": "Potters",
+            "32": "Blacksmiths",
+            "27": "West Bridge"
+        }
+    },
+    "16": {
+        "name": "Knights' Islet Church",
+        "links": {
+            "27": "West Bridge",
+            "22": "Knight's Islet Outlook",
+            "18": "Ancient Library",
+            "21": "Renovation Hall",
+            "23": "Greyfriars Monastery",
+            "6": "Wheat Field"
+        }
+    },
+    "17": {
+        "name": "Islet's Residence",
+        "links": {
+            "20": "Birger Jarls Tower",
+            "19": "Masons hall",
+            "21": "Renovation Hall",
+            "23": "Greyfriars Monastery",
+            "18": "Ancient Library"
+        }
+    },
+    "18": {
+        "name": "Ancient Library",
+        "links": {
+            "19": "Masons hall",
+            "17": "Islet's Residence",
+            "23": "Greyfriars Monastery",
+            "16": "Knights' Islet Church"
+        }
+    },
+    "19": {
+        "name": "Masons hall",
+        "links": {
+            "20": "Birger Jarls Tower",
+            "64": "East Gate Tower",
+            "18": "Ancient Library",
+            "17": "Islet's Residence"
+        }
+    },
+    "20": {
+        "name": "Birger Jarls Tower",
+        "links": {
+            "19": "Masons hall",
+            "17": "Islet's Residence"
+        }
+    },
+    "21": {
+        "name": "Renovation Hall",
+        "links": {
+            "17": "Islet's Residence",
+            "23": "Greyfriars Monastery",
+            "16": "Knights' Islet Church"
+        }
+    },
+    "22": {
+        "name": "Knight's Islet Outlook",
+        "links": {
+            "16": "Knights' Islet Church"
+        }
+    },
+    "23": {
+        "name": "Greyfriars Monastery",
+        "links": {
+            "21": "Renovation Hall",
+            "16": "Knights' Islet Church",
+            "17": "Islet's Residence",
+            "18": "Ancient Library"
+        }
+    },
+    "41": {
+        "name": "The Great Church",
+        "links": {
+            "44": "Church Gardens",
+            "45": "Castle Gardens",
+            "60": "Castle Grounds",
+            "57": "Crown Gardens",
+            "58": "Castle South Wing",
+            "40": "Not So Great Church",
+            "35": "Royal Kitchen Garden",
+            "43": "Great Church Cemetery"
+        }
+    },
+    "42": {
+        "name": "Griever's Respite",
+        "links": {
+            "37": "Artisan Way",
+            "34": "Groundkeeper's Quarters",
+            "39": "Tombstone Carvers",
+            "38": "Pygmalion Square",
+            "40": "Not So Great Church",
+            "43": "Great Church Cemetery",
+            "36": "K\u00f6pmangatan street"
+        }
+    },
+    "43": {
+        "name": "Great Church Cemetery",
+        "links": {
+            "41": "The Great Church",
+            "38": "Pygmalion Square",
+            "42": "Griever's Respite",
+            "40": "Not So Great Church",
+            "35": "Royal Kitchen Garden"
+        }
+    },
+    "44": {
+        "name": "Church Gardens",
+        "links": {
+            "25": "Guard outpost",
+            "41": "The Great Church",
+            "62": "City Gate",
+            "45": "Castle Gardens",
+            "40": "Not So Great Church",
+            "31": "Weavers Outlook"
+        }
+    },
+    "45": {
+        "name": "Castle Gardens",
+        "links": {
+            "59": "Castle North Wing",
+            "44": "Church Gardens",
+            "41": "The Great Church",
+            "60": "Castle Grounds"
+        }
+    },
+    "29": {
+        "name": "Inn Keeper Way",
+        "links": {
+            "33": "Potters",
+            "30": "Tavern",
+            "15": "Sunken Overlook",
+            "14": "Fisherman's Dock",
+            "49": "Ports Reprieve"
+        }
+    },
+    "30": {
+        "name": "Tavern",
+        "links": {
+            "46": "The German Church",
+            "9": "Stadsholmen Landing",
+            "29": "Inn Keeper Way",
+            "15": "Sunken Overlook",
+            "13": "Bakery",
+            "49": "Ports Reprieve"
+        }
+    },
+    "31": {
+        "name": "Weavers Outlook",
+        "links": {
+            "25": "Guard outpost",
+            "44": "Church Gardens",
+            "32": "Blacksmiths",
+            "26": "Townmaster hall",
+            "40": "Not So Great Church",
+            "27": "West Bridge"
+        }
+    },
+    "32": {
+        "name": "Blacksmiths",
+        "links": {
+            "28": "Dock Market",
+            "34": "Groundkeeper's Quarters",
+            "33": "Potters",
+            "40": "Not So Great Church",
+            "31": "Weavers Outlook",
+            "27": "West Bridge"
+        }
+    },
+    "33": {
+        "name": "Potters",
+        "links": {
+            "28": "Dock Market",
+            "24": "Dock Warehouse",
+            "34": "Groundkeeper's Quarters",
+            "29": "Inn Keeper Way",
+            "14": "Fisherman's Dock",
+            "32": "Blacksmiths",
+            "49": "Ports Reprieve"
+        }
+    },
+    "34": {
+        "name": "Groundkeeper's Quarters",
+        "links": {
+            "39": "Tombstone Carvers",
+            "33": "Potters",
+            "42": "Griever's Respite",
+            "32": "Blacksmiths",
+            "40": "Not So Great Church",
+            "49": "Ports Reprieve"
+        }
+    },
+    "35": {
+        "name": "Royal Kitchen Garden",
+        "links": {
+            "41": "The Great Church",
+            "38": "Pygmalion Square",
+            "56": "Outer markets",
+            "57": "Crown Gardens",
+            "47": "Merchant's square",
+            "43": "Great Church Cemetery",
+            "36": "K\u00f6pmangatan street"
+        }
+    },
+    "36": {
+        "name": "K\u00f6pmangatan street",
+        "links": {
+            "37": "Artisan Way",
+            "38": "Pygmalion Square",
+            "42": "Griever's Respite",
+            "50": "Cloak Keeper",
+            "47": "Merchant's square",
+            "35": "Royal Kitchen Garden"
+        }
+    },
+    "37": {
+        "name": "Artisan Way",
+        "links": {
+            "36": "K\u00f6pmangatan street",
+            "50": "Cloak Keeper",
+            "51": "Woodworker Residence",
+            "39": "Tombstone Carvers",
+            "42": "Griever's Respite"
+        }
+    },
+    "38": {
+        "name": "Pygmalion Square",
+        "links": {
+            "42": "Griever's Respite",
+            "35": "Royal Kitchen Garden",
+            "43": "Great Church Cemetery",
+            "36": "K\u00f6pmangatan street"
+        }
+    },
+    "39": {
+        "name": "Tombstone Carvers",
+        "links": {
+            "37": "Artisan Way",
+            "34": "Groundkeeper's Quarters",
+            "42": "Griever's Respite",
+            "51": "Woodworker Residence"
+        }
+    },
+    "40": {
+        "name": "Not So Great Church",
+        "links": {
+            "44": "Church Gardens",
+            "34": "Groundkeeper's Quarters",
+            "41": "The Great Church",
+            "42": "Griever's Respite",
+            "32": "Blacksmiths",
+            "31": "Weavers Outlook",
+            "43": "Great Church Cemetery"
+        }
+    },
+    "46": {
+        "name": "The German Church",
+        "links": {
+            "52": "Candlestick Maker",
+            "54": "Residential Ward",
+            "30": "Tavern",
+            "9": "Stadsholmen Landing",
+            "48": "Butchers",
+            "49": "Ports Reprieve"
+        }
+    },
+    "47": {
+        "name": "Merchant's square",
+        "links": {
+            "48": "Butchers",
+            "56": "Outer markets",
+            "50": "Cloak Keeper",
+            "53": "Knick Knack Shop",
+            "35": "Royal Kitchen Garden",
+            "36": "K\u00f6pmangatan street"
+        }
+    },
+    "48": {
+        "name": "Butchers",
+        "links": {
+            "52": "Candlestick Maker",
+            "46": "The German Church",
+            "54": "Residential Ward",
+            "50": "Cloak Keeper",
+            "47": "Merchant's square",
+            "53": "Knick Knack Shop"
+        }
+    },
+    "49": {
+        "name": "Ports Reprieve",
+        "links": {
+            "52": "Candlestick Maker",
+            "46": "The German Church",
+            "34": "Groundkeeper's Quarters",
+            "33": "Potters",
+            "30": "Tavern",
+            "29": "Inn Keeper Way",
+            "51": "Woodworker Residence"
+        }
+    },
+    "50": {
+        "name": "Cloak Keeper",
+        "links": {
+            "37": "Artisan Way",
+            "52": "Candlestick Maker",
+            "48": "Butchers",
+            "51": "Woodworker Residence",
+            "47": "Merchant's square",
+            "36": "K\u00f6pmangatan street"
+        }
+    },
+    "51": {
+        "name": "Woodworker Residence",
+        "links": {
+            "37": "Artisan Way",
+            "52": "Candlestick Maker",
+            "39": "Tombstone Carvers",
+            "50": "Cloak Keeper",
+            "49": "Ports Reprieve"
+        }
+    },
+    "52": {
+        "name": "Candlestick Maker",
+        "links": {
+            "48": "Butchers",
+            "46": "The German Church",
+            "49": "Ports Reprieve",
+            "50": "Cloak Keeper",
+            "51": "Woodworker Residence"
+        }
+    }
+}

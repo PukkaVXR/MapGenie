@@ -1,0 +1,396 @@
+{
+    "1": {
+        "name": "Admantria",
+        "links": {
+            "35": "Silver Mountain",
+            "42": "Underrock",
+            "7": "Calvinia",
+            "4": "Brewery"
+        }
+    },
+    "2": {
+        "name": "Alraun",
+        "links": {
+            "9": "Dolomitia",
+            "31": "Oklorosh",
+            "3": "Black Forest",
+            "43": "Waveraider Territory",
+            "24": "Kaptorga"
+        }
+    },
+    "3": {
+        "name": "Black Forest",
+        "links": {
+            "28": "Mount Greg",
+            "24": "Kaptorga",
+            "2": "Alraun",
+            "9": "Dolomitia",
+            "29": "Mount Skull",
+            "33": "Rioch"
+        }
+    },
+    "4": {
+        "name": "Brewery",
+        "links": {
+            "8": "Coal Reserves",
+            "7": "Calvinia",
+            "42": "Underrock",
+            "27": "Mount Gold",
+            "1": "Admantria"
+        }
+    },
+    "5": {
+        "name": "Bringvale",
+        "links": {
+            "23": "Ivansong",
+            "12": "Eternal Towers",
+            "13": "Fairywood",
+            "15": "Forest of Flutes"
+        }
+    },
+    "6": {
+        "name": "Burning Sulphur",
+        "links": {
+            "12": "Eternal Towers",
+            "34": "Saltwash",
+            "11": "Enslaved lands",
+            "26": "Molten Pit"
+        }
+    },
+    "7": {
+        "name": "Calvinia",
+        "links": {
+            "8": "Coal Reserves",
+            "32": "Prosheros",
+            "4": "Brewery",
+            "35": "Silver Mountain",
+            "1": "Admantria"
+        }
+    },
+    "8": {
+        "name": "Coal Reserves",
+        "links": {
+            "37": "Sirouilis",
+            "7": "Calvinia",
+            "18": "Graphine Mill",
+            "4": "Brewery"
+        }
+    },
+    "9": {
+        "name": "Dolomitia",
+        "links": {
+            "2": "Alraun",
+            "32": "Prosheros",
+            "3": "Black Forest",
+            "29": "Mount Skull"
+        }
+    },
+    "10": {
+        "name": "Dragons Lair",
+        "links": {
+            "14": "Firestorm",
+            "16": "Frontier of Ice"
+        }
+    },
+    "11": {
+        "name": "Enslaved lands",
+        "links": {
+            "34": "Saltwash",
+            "6": "Burning Sulphur",
+            "43": "Waveraider Territory"
+        }
+    },
+    "12": {
+        "name": "Eternal Towers",
+        "links": {
+            "5": "Bringvale",
+            "6": "Burning Sulphur",
+            "26": "Molten Pit"
+        }
+    },
+    "13": {
+        "name": "Fairywood",
+        "links": {
+            "19": "Greenhaven",
+            "23": "Ivansong",
+            "5": "Bringvale",
+            "15": "Forest of Flutes"
+        }
+    },
+    "14": {
+        "name": "Firestorm",
+        "links": {
+            "10": "Dragons Lair",
+            "15": "Forest of Flutes",
+            "26": "Molten Pit"
+        }
+    },
+    "15": {
+        "name": "Forest of Flutes",
+        "links": {
+            "13": "Fairywood",
+            "5": "Bringvale",
+            "14": "Firestorm",
+            "17": "Golden Hills"
+        }
+    },
+    "16": {
+        "name": "Frontier of Ice",
+        "links": {
+            "45": "Windguard",
+            "10": "Dragons Lair"
+        }
+    },
+    "17": {
+        "name": "Golden Hills",
+        "links": {
+            "15": "Forest of Flutes"
+        }
+    },
+    "18": {
+        "name": "Graphine Mill",
+        "links": {
+            "22": "Ironsource",
+            "8": "Coal Reserves",
+            "27": "Mount Gold"
+        }
+    },
+    "19": {
+        "name": "Greenhaven",
+        "links": {
+            "37": "Sirouilis",
+            "13": "Fairywood",
+            "39": "Summerleaf"
+        }
+    },
+    "20": {
+        "name": "Gryvak",
+        "links": {
+            "32": "Prosheros",
+            "40": "Teshkharia",
+            "35": "Silver Mountain"
+        }
+    },
+    "21": {
+        "name": "Haunted Mines",
+        "links": {
+            "27": "Mount Gold",
+            "41": "Trading Council",
+            "36": "Silvergrave"
+        }
+    },
+    "22": {
+        "name": "Ironsource",
+        "links": {
+            "23": "Ivansong",
+            "18": "Graphine Mill",
+            "36": "Silvergrave"
+        }
+    },
+    "23": {
+        "name": "Ivansong",
+        "links": {
+            "13": "Fairywood",
+            "22": "Ironsource",
+            "5": "Bringvale"
+        }
+    },
+    "24": {
+        "name": "Kaptorga",
+        "links": {
+            "28": "Mount Greg",
+            "3": "Black Forest",
+            "45": "Windguard",
+            "2": "Alraun"
+        }
+    },
+    "25": {
+        "name": "Kingdom of Mages",
+        "links": {
+            "41": "Trading Council",
+            "34": "Saltwash",
+            "30": "Ogre Retreat"
+        }
+    },
+    "26": {
+        "name": "Molten Pit",
+        "links": {
+            "14": "Firestorm",
+            "12": "Eternal Towers",
+            "6": "Burning Sulphur"
+        }
+    },
+    "27": {
+        "name": "Mount Gold",
+        "links": {
+            "42": "Underrock",
+            "21": "Haunted Mines",
+            "4": "Brewery",
+            "36": "Silvergrave",
+            "18": "Graphine Mill"
+        }
+    },
+    "28": {
+        "name": "Mount Greg",
+        "links": {
+            "24": "Kaptorga",
+            "3": "Black Forest",
+            "45": "Windguard",
+            "38": "Springwood",
+            "33": "Rioch"
+        }
+    },
+    "29": {
+        "name": "Mount Skull",
+        "links": {
+            "9": "Dolomitia",
+            "33": "Rioch",
+            "3": "Black Forest"
+        }
+    },
+    "30": {
+        "name": "Ogre Retreat",
+        "links": {
+            "34": "Saltwash",
+            "41": "Trading Council",
+            "25": "Kingdom of Mages"
+        }
+    },
+    "31": {
+        "name": "Oklorosh",
+        "links": {
+            "40": "Teshkharia",
+            "2": "Alraun"
+        }
+    },
+    "32": {
+        "name": "Prosheros",
+        "links": {
+            "9": "Dolomitia",
+            "20": "Gryvak",
+            "7": "Calvinia",
+            "35": "Silver Mountain"
+        }
+    },
+    "33": {
+        "name": "Rioch",
+        "links": {
+            "38": "Springwood",
+            "28": "Mount Greg",
+            "29": "Mount Skull",
+            "44": "Wieselburg",
+            "3": "Black Forest"
+        }
+    },
+    "34": {
+        "name": "Saltwash",
+        "links": {
+            "25": "Kingdom of Mages",
+            "11": "Enslaved lands",
+            "6": "Burning Sulphur",
+            "30": "Ogre Retreat"
+        }
+    },
+    "35": {
+        "name": "Silver Mountain",
+        "links": {
+            "32": "Prosheros",
+            "20": "Gryvak",
+            "7": "Calvinia",
+            "1": "Admantria"
+        }
+    },
+    "36": {
+        "name": "Silvergrave",
+        "links": {
+            "27": "Mount Gold",
+            "21": "Haunted Mines",
+            "22": "Ironsource"
+        }
+    },
+    "37": {
+        "name": "Sirouilis",
+        "links": {
+            "44": "Wieselburg",
+            "8": "Coal Reserves",
+            "39": "Summerleaf",
+            "19": "Greenhaven"
+        }
+    },
+    "38": {
+        "name": "Springwood",
+        "links": {
+            "28": "Mount Greg",
+            "33": "Rioch",
+            "45": "Windguard",
+            "39": "Summerleaf",
+            "44": "Wieselburg"
+        }
+    },
+    "39": {
+        "name": "Summerleaf",
+        "links": {
+            "46": "Winterbreeze",
+            "38": "Springwood",
+            "44": "Wieselburg",
+            "37": "Sirouilis",
+            "19": "Greenhaven"
+        }
+    },
+    "40": {
+        "name": "Teshkharia",
+        "links": {
+            "20": "Gryvak",
+            "31": "Oklorosh"
+        }
+    },
+    "41": {
+        "name": "Trading Council",
+        "links": {
+            "21": "Haunted Mines",
+            "25": "Kingdom of Mages",
+            "30": "Ogre Retreat"
+        }
+    },
+    "42": {
+        "name": "Underrock",
+        "links": {
+            "1": "Admantria",
+            "27": "Mount Gold",
+            "4": "Brewery"
+        }
+    },
+    "43": {
+        "name": "Waveraider Territory",
+        "links": {
+            "2": "Alraun",
+            "11": "Enslaved lands"
+        }
+    },
+    "44": {
+        "name": "Wieselburg",
+        "links": {
+            "33": "Rioch",
+            "37": "Sirouilis",
+            "38": "Springwood",
+            "39": "Summerleaf"
+        }
+    },
+    "45": {
+        "name": "Windguard",
+        "links": {
+            "24": "Kaptorga",
+            "28": "Mount Greg",
+            "38": "Springwood",
+            "46": "Winterbreeze",
+            "16": "Frontier of Ice"
+        }
+    },
+    "46": {
+        "name": "Winterbreeze",
+        "links": {
+            "45": "Windguard",
+            "39": "Summerleaf"
+        }
+    }
+}

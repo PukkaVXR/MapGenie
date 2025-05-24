@@ -1,0 +1,176 @@
+{
+    "1": {
+        "name": "Ailech",
+        "links": {
+            "5": "Connachta",
+            "6": "Dal Riata",
+            "2": "Alt Clut",
+            "13": "Laigin"
+        }
+    },
+    "2": {
+        "name": "Alt Clut",
+        "links": {
+            "10": "Fotla",
+            "16": "Nordanhymbra",
+            "6": "Dal Riata",
+            "1": "Ailech"
+        }
+    },
+    "3": {
+        "name": "Cat",
+        "links": {
+            "4": "Ce",
+            "10": "Fotla",
+            "6": "Dal Riata"
+        }
+    },
+    "4": {
+        "name": "Ce",
+        "links": {
+            "3": "Cat",
+            "10": "Fotla"
+        }
+    },
+    "5": {
+        "name": "Connachta",
+        "links": {
+            "15": "Mumu",
+            "1": "Ailech",
+            "13": "Laigin"
+        }
+    },
+    "6": {
+        "name": "Dal Riata",
+        "links": {
+            "1": "Ailech",
+            "10": "Fotla",
+            "2": "Alt Clut",
+            "3": "Cat"
+        }
+    },
+    "7": {
+        "name": "Dumnonia",
+        "links": {
+            "20": "West Seaxe",
+            "19": "West Cymry"
+        }
+    },
+    "8": {
+        "name": "East Engle",
+        "links": {
+            "16": "Nordanhymbra",
+            "9": "East Seaxe",
+            "14": "Mercna"
+        }
+    },
+    "9": {
+        "name": "East Seaxe",
+        "links": {
+            "8": "East Engle",
+            "18": "Suth Seaxe",
+            "14": "Mercna",
+            "20": "West Seaxe"
+        }
+    },
+    "10": {
+        "name": "Fotla",
+        "links": {
+            "4": "Ce",
+            "2": "Alt Clut",
+            "3": "Cat",
+            "6": "Dal Riata"
+        }
+    },
+    "11": {
+        "name": "Gwent",
+        "links": {
+            "17": "Powys",
+            "14": "Mercna",
+            "20": "West Seaxe",
+            "19": "West Cymry"
+        }
+    },
+    "12": {
+        "name": "Gwynedd",
+        "links": {
+            "19": "West Cymry",
+            "13": "Laigin",
+            "17": "Powys",
+            "16": "Nordanhymbra"
+        }
+    },
+    "13": {
+        "name": "Laigin",
+        "links": {
+            "12": "Gwynedd",
+            "15": "Mumu",
+            "1": "Ailech",
+            "5": "Connachta"
+        }
+    },
+    "14": {
+        "name": "Mercna",
+        "links": {
+            "11": "Gwent",
+            "17": "Powys",
+            "16": "Nordanhymbra",
+            "8": "East Engle",
+            "9": "East Seaxe",
+            "20": "West Seaxe"
+        }
+    },
+    "15": {
+        "name": "Mumu",
+        "links": {
+            "13": "Laigin",
+            "5": "Connachta"
+        }
+    },
+    "16": {
+        "name": "Nordanhymbra",
+        "links": {
+            "2": "Alt Clut",
+            "8": "East Engle",
+            "12": "Gwynedd",
+            "14": "Mercna",
+            "17": "Powys"
+        }
+    },
+    "17": {
+        "name": "Powys",
+        "links": {
+            "11": "Gwent",
+            "14": "Mercna",
+            "12": "Gwynedd",
+            "19": "West Cymry",
+            "16": "Nordanhymbra"
+        }
+    },
+    "18": {
+        "name": "Suth Seaxe",
+        "links": {
+            "9": "East Seaxe",
+            "20": "West Seaxe"
+        }
+    },
+    "19": {
+        "name": "West Cymry",
+        "links": {
+            "7": "Dumnonia",
+            "12": "Gwynedd",
+            "11": "Gwent",
+            "17": "Powys"
+        }
+    },
+    "20": {
+        "name": "West Seaxe",
+        "links": {
+            "18": "Suth Seaxe",
+            "7": "Dumnonia",
+            "9": "East Seaxe",
+            "11": "Gwent",
+            "14": "Mercna"
+        }
+    }
+}

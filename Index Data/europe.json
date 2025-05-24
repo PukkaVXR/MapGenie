@@ -1,0 +1,406 @@
+{
+    "1": {
+        "name": "Barcelona",
+        "links": {
+            "17": "Madrid",
+            "26": "Portugal",
+            "11": "Gascony"
+        }
+    },
+    "2": {
+        "name": "Bavaria",
+        "links": {
+            "4": "Bohemia",
+            "42": "Vienna",
+            "31": "Saxony",
+            "22": "Netherlands",
+            "7": "Burgundy",
+            "28": "Rhine",
+            "3": "Berlin",
+            "37": "Switzerland"
+        }
+    },
+    "3": {
+        "name": "Berlin",
+        "links": {
+            "31": "Saxony",
+            "2": "Bavaria",
+            "28": "Rhine",
+            "27": "Prussia"
+        }
+    },
+    "4": {
+        "name": "Bohemia",
+        "links": {
+            "42": "Vienna",
+            "2": "Bavaria",
+            "10": "Galicia",
+            "31": "Saxony"
+        }
+    },
+    "5": {
+        "name": "Brittany",
+        "links": {
+            "11": "Gascony",
+            "16": "London",
+            "24": "Paris",
+            "7": "Burgundy"
+        }
+    },
+    "6": {
+        "name": "Bulgaria",
+        "links": {
+            "29": "Romania",
+            "39": "Turkey",
+            "12": "Greece",
+            "33": "Serbia"
+        }
+    },
+    "7": {
+        "name": "Burgundy",
+        "links": {
+            "5": "Brittany",
+            "16": "London",
+            "22": "Netherlands",
+            "2": "Bavaria",
+            "24": "Paris",
+            "37": "Switzerland",
+            "18": "Marseille"
+        }
+    },
+    "8": {
+        "name": "Denmark",
+        "links": {
+            "23": "Norway",
+            "36": "Sweden",
+            "28": "Rhine"
+        }
+    },
+    "9": {
+        "name": "Finland",
+        "links": {
+            "36": "Sweden",
+            "35": "St Petersburg",
+            "15": "Livona"
+        }
+    },
+    "10": {
+        "name": "Galicia",
+        "links": {
+            "42": "Vienna",
+            "4": "Bohemia",
+            "31": "Saxony",
+            "13": "Hungary",
+            "25": "Poland",
+            "40": "Ukraine",
+            "29": "Romania"
+        }
+    },
+    "11": {
+        "name": "Gascony",
+        "links": {
+            "1": "Barcelona",
+            "5": "Brittany",
+            "18": "Marseille",
+            "24": "Paris"
+        }
+    },
+    "12": {
+        "name": "Greece",
+        "links": {
+            "39": "Turkey",
+            "19": "Montenegro",
+            "33": "Serbia",
+            "6": "Bulgaria"
+        }
+    },
+    "13": {
+        "name": "Hungary",
+        "links": {
+            "42": "Vienna",
+            "10": "Galicia",
+            "29": "Romania",
+            "33": "Serbia",
+            "38": "Trieste"
+        }
+    },
+    "14": {
+        "name": "Ireland",
+        "links": {
+            "43": "Wales",
+            "32": "Scotland"
+        }
+    },
+    "15": {
+        "name": "Livona",
+        "links": {
+            "27": "Prussia",
+            "9": "Finland",
+            "25": "Poland",
+            "35": "St Petersburg",
+            "34": "Smolensk"
+        }
+    },
+    "16": {
+        "name": "London",
+        "links": {
+            "5": "Brittany",
+            "43": "Wales",
+            "7": "Burgundy",
+            "44": "Yorkshire"
+        }
+    },
+    "17": {
+        "name": "Madrid",
+        "links": {
+            "1": "Barcelona",
+            "26": "Portugal"
+        }
+    },
+    "18": {
+        "name": "Marseille",
+        "links": {
+            "41": "Venice",
+            "11": "Gascony",
+            "37": "Switzerland",
+            "24": "Paris",
+            "7": "Burgundy"
+        }
+    },
+    "19": {
+        "name": "Montenegro",
+        "links": {
+            "12": "Greece",
+            "21": "Naples",
+            "33": "Serbia",
+            "38": "Trieste"
+        }
+    },
+    "20": {
+        "name": "Moscow",
+        "links": {
+            "35": "St Petersburg",
+            "40": "Ukraine",
+            "34": "Smolensk"
+        }
+    },
+    "21": {
+        "name": "Naples",
+        "links": {
+            "19": "Montenegro",
+            "30": "Rome",
+            "38": "Trieste"
+        }
+    },
+    "22": {
+        "name": "Netherlands",
+        "links": {
+            "2": "Bavaria",
+            "7": "Burgundy",
+            "28": "Rhine"
+        }
+    },
+    "23": {
+        "name": "Norway",
+        "links": {
+            "32": "Scotland",
+            "36": "Sweden",
+            "8": "Denmark"
+        }
+    },
+    "24": {
+        "name": "Paris",
+        "links": {
+            "11": "Gascony",
+            "5": "Brittany",
+            "7": "Burgundy",
+            "18": "Marseille"
+        }
+    },
+    "25": {
+        "name": "Poland",
+        "links": {
+            "31": "Saxony",
+            "27": "Prussia",
+            "10": "Galicia",
+            "15": "Livona",
+            "34": "Smolensk",
+            "40": "Ukraine"
+        }
+    },
+    "26": {
+        "name": "Portugal",
+        "links": {
+            "17": "Madrid",
+            "1": "Barcelona"
+        }
+    },
+    "27": {
+        "name": "Prussia",
+        "links": {
+            "31": "Saxony",
+            "25": "Poland",
+            "15": "Livona",
+            "3": "Berlin"
+        }
+    },
+    "28": {
+        "name": "Rhine",
+        "links": {
+            "2": "Bavaria",
+            "22": "Netherlands",
+            "8": "Denmark",
+            "3": "Berlin"
+        }
+    },
+    "29": {
+        "name": "Romania",
+        "links": {
+            "40": "Ukraine",
+            "6": "Bulgaria",
+            "33": "Serbia",
+            "13": "Hungary",
+            "10": "Galicia"
+        }
+    },
+    "30": {
+        "name": "Rome",
+        "links": {
+            "21": "Naples",
+            "41": "Venice"
+        }
+    },
+    "31": {
+        "name": "Saxony",
+        "links": {
+            "27": "Prussia",
+            "25": "Poland",
+            "4": "Bohemia",
+            "2": "Bavaria",
+            "10": "Galicia",
+            "3": "Berlin"
+        }
+    },
+    "32": {
+        "name": "Scotland",
+        "links": {
+            "14": "Ireland",
+            "23": "Norway",
+            "44": "Yorkshire"
+        }
+    },
+    "33": {
+        "name": "Serbia",
+        "links": {
+            "12": "Greece",
+            "19": "Montenegro",
+            "29": "Romania",
+            "13": "Hungary",
+            "38": "Trieste",
+            "6": "Bulgaria"
+        }
+    },
+    "34": {
+        "name": "Smolensk",
+        "links": {
+            "35": "St Petersburg",
+            "20": "Moscow",
+            "25": "Poland",
+            "40": "Ukraine",
+            "15": "Livona"
+        }
+    },
+    "35": {
+        "name": "St Petersburg",
+        "links": {
+            "9": "Finland",
+            "20": "Moscow",
+            "15": "Livona",
+            "34": "Smolensk"
+        }
+    },
+    "36": {
+        "name": "Sweden",
+        "links": {
+            "23": "Norway",
+            "9": "Finland",
+            "8": "Denmark"
+        }
+    },
+    "37": {
+        "name": "Switzerland",
+        "links": {
+            "2": "Bavaria",
+            "42": "Vienna",
+            "7": "Burgundy",
+            "41": "Venice",
+            "18": "Marseille"
+        }
+    },
+    "38": {
+        "name": "Trieste",
+        "links": {
+            "19": "Montenegro",
+            "21": "Naples",
+            "33": "Serbia",
+            "42": "Vienna",
+            "41": "Venice",
+            "13": "Hungary"
+        }
+    },
+    "39": {
+        "name": "Turkey",
+        "links": {
+            "6": "Bulgaria",
+            "12": "Greece"
+        }
+    },
+    "40": {
+        "name": "Ukraine",
+        "links": {
+            "20": "Moscow",
+            "29": "Romania",
+            "25": "Poland",
+            "34": "Smolensk",
+            "10": "Galicia"
+        }
+    },
+    "41": {
+        "name": "Venice",
+        "links": {
+            "30": "Rome",
+            "18": "Marseille",
+            "42": "Vienna",
+            "38": "Trieste",
+            "37": "Switzerland"
+        }
+    },
+    "42": {
+        "name": "Vienna",
+        "links": {
+            "4": "Bohemia",
+            "2": "Bavaria",
+            "10": "Galicia",
+            "37": "Switzerland",
+            "13": "Hungary",
+            "38": "Trieste",
+            "41": "Venice"
+        }
+    },
+    "43": {
+        "name": "Wales",
+        "links": {
+            "16": "London",
+            "14": "Ireland",
+            "44": "Yorkshire"
+        }
+    },
+    "44": {
+        "name": "Yorkshire",
+        "links": {
+            "16": "London",
+            "43": "Wales",
+            "32": "Scotland"
+        }
+    }
+}

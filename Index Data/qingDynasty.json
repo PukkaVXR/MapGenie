@@ -1,0 +1,337 @@
+{
+    "1": {
+        "name": "Alxa League",
+        "links": {
+            "22": "Outer Mongolia",
+            "13": "Inner Mongolia",
+            "4": "Gansu",
+            "29": "Tianshan Beilu"
+        }
+    },
+    "2": {
+        "name": "Annhui",
+        "links": {
+            "14": "Jiang-Su",
+            "34": "Zhe-Jiang",
+            "9": "Henan",
+            "10": "Hubei",
+            "15": "Jiangxi"
+        }
+    },
+    "3": {
+        "name": "Fujian",
+        "links": {
+            "34": "Zhe-Jiang",
+            "28": "Taiwan",
+            "15": "Jiangxi",
+            "5": "Guangdong"
+        }
+    },
+    "4": {
+        "name": "Gansu",
+        "links": {
+            "23": "Qinghai",
+            "29": "Tianshan Beilu",
+            "24": "Shaanxi",
+            "1": "Alxa League",
+            "13": "Inner Mongolia"
+        }
+    },
+    "5": {
+        "name": "Guangdong",
+        "links": {
+            "11": "Huinan Island",
+            "6": "Guangxi",
+            "3": "Fujian",
+            "28": "Taiwan",
+            "12": "Hunan",
+            "15": "Jiangxi"
+        }
+    },
+    "6": {
+        "name": "Guangxi",
+        "links": {
+            "5": "Guangdong",
+            "33": "Yunnan",
+            "7": "Guizhou",
+            "12": "Hunan"
+        }
+    },
+    "7": {
+        "name": "Guizhou",
+        "links": {
+            "6": "Guangxi",
+            "12": "Hunan",
+            "27": "Sichuan",
+            "33": "Yunnan"
+        }
+    },
+    "8": {
+        "name": "Heilongjiang",
+        "links": {
+            "22": "Outer Mongolia",
+            "16": "Jilin",
+            "13": "Inner Mongolia"
+        }
+    },
+    "9": {
+        "name": "Henan",
+        "links": {
+            "26": "Shanxi",
+            "35": "Zhili",
+            "24": "Shaanxi",
+            "10": "Hubei",
+            "25": "Shandong",
+            "2": "Annhui",
+            "14": "Jiang-Su"
+        }
+    },
+    "10": {
+        "name": "Hubei",
+        "links": {
+            "24": "Shaanxi",
+            "9": "Henan",
+            "2": "Annhui",
+            "15": "Jiangxi",
+            "12": "Hunan",
+            "27": "Sichuan"
+        }
+    },
+    "11": {
+        "name": "Huinan Island",
+        "links": {
+            "5": "Guangdong"
+        }
+    },
+    "12": {
+        "name": "Hunan",
+        "links": {
+            "6": "Guangxi",
+            "7": "Guizhou",
+            "5": "Guangdong",
+            "27": "Sichuan",
+            "15": "Jiangxi",
+            "10": "Hubei"
+        }
+    },
+    "13": {
+        "name": "Inner Mongolia",
+        "links": {
+            "26": "Shanxi",
+            "24": "Shaanxi",
+            "35": "Zhili",
+            "22": "Outer Mongolia",
+            "1": "Alxa League",
+            "8": "Heilongjiang",
+            "20": "Liao-Dong",
+            "16": "Jilin",
+            "4": "Gansu"
+        }
+    },
+    "14": {
+        "name": "Jiang-Su",
+        "links": {
+            "2": "Annhui",
+            "34": "Zhe-Jiang",
+            "25": "Shandong",
+            "9": "Henan"
+        }
+    },
+    "15": {
+        "name": "Jiangxi",
+        "links": {
+            "10": "Hubei",
+            "2": "Annhui",
+            "34": "Zhe-Jiang",
+            "3": "Fujian",
+            "5": "Guangdong",
+            "12": "Hunan"
+        }
+    },
+    "16": {
+        "name": "Jilin",
+        "links": {
+            "8": "Heilongjiang",
+            "17": "Kaye Island",
+            "13": "Inner Mongolia",
+            "20": "Liao-Dong"
+        }
+    },
+    "17": {
+        "name": "Kaye Island",
+        "links": {
+            "16": "Jilin"
+        }
+    },
+    "18": {
+        "name": "Kham",
+        "links": {
+            "33": "Yunnan",
+            "21": "Middle Tibet",
+            "27": "Sichuan",
+            "23": "Qinghai"
+        }
+    },
+    "19": {
+        "name": "Ladakh",
+        "links": {
+            "32": "Upper Tibet",
+            "30": "Tianshan Nanlu"
+        }
+    },
+    "20": {
+        "name": "Liao-Dong",
+        "links": {
+            "25": "Shandong",
+            "35": "Zhili",
+            "13": "Inner Mongolia",
+            "16": "Jilin"
+        }
+    },
+    "21": {
+        "name": "Middle Tibet",
+        "links": {
+            "18": "Kham",
+            "32": "Upper Tibet",
+            "23": "Qinghai",
+            "30": "Tianshan Nanlu"
+        }
+    },
+    "22": {
+        "name": "Outer Mongolia",
+        "links": {
+            "31": "Uliastai",
+            "8": "Heilongjiang",
+            "13": "Inner Mongolia",
+            "1": "Alxa League",
+            "29": "Tianshan Beilu"
+        }
+    },
+    "23": {
+        "name": "Qinghai",
+        "links": {
+            "18": "Kham",
+            "21": "Middle Tibet",
+            "27": "Sichuan",
+            "30": "Tianshan Nanlu",
+            "4": "Gansu",
+            "24": "Shaanxi",
+            "29": "Tianshan Beilu"
+        }
+    },
+    "24": {
+        "name": "Shaanxi",
+        "links": {
+            "13": "Inner Mongolia",
+            "26": "Shanxi",
+            "9": "Henan",
+            "10": "Hubei",
+            "27": "Sichuan",
+            "23": "Qinghai",
+            "4": "Gansu"
+        }
+    },
+    "25": {
+        "name": "Shandong",
+        "links": {
+            "9": "Henan",
+            "35": "Zhili",
+            "20": "Liao-Dong",
+            "14": "Jiang-Su"
+        }
+    },
+    "26": {
+        "name": "Shanxi",
+        "links": {
+            "9": "Henan",
+            "35": "Zhili",
+            "13": "Inner Mongolia",
+            "24": "Shaanxi"
+        }
+    },
+    "27": {
+        "name": "Sichuan",
+        "links": {
+            "7": "Guizhou",
+            "33": "Yunnan",
+            "12": "Hunan",
+            "18": "Kham",
+            "23": "Qinghai",
+            "24": "Shaanxi",
+            "10": "Hubei"
+        }
+    },
+    "28": {
+        "name": "Taiwan",
+        "links": {
+            "3": "Fujian",
+            "34": "Zhe-Jiang",
+            "5": "Guangdong"
+        }
+    },
+    "29": {
+        "name": "Tianshan Beilu",
+        "links": {
+            "30": "Tianshan Nanlu",
+            "31": "Uliastai",
+            "4": "Gansu",
+            "1": "Alxa League",
+            "22": "Outer Mongolia",
+            "23": "Qinghai"
+        }
+    },
+    "30": {
+        "name": "Tianshan Nanlu",
+        "links": {
+            "19": "Ladakh",
+            "29": "Tianshan Beilu",
+            "21": "Middle Tibet",
+            "32": "Upper Tibet",
+            "23": "Qinghai"
+        }
+    },
+    "31": {
+        "name": "Uliastai",
+        "links": {
+            "29": "Tianshan Beilu",
+            "22": "Outer Mongolia"
+        }
+    },
+    "32": {
+        "name": "Upper Tibet",
+        "links": {
+            "21": "Middle Tibet",
+            "19": "Ladakh",
+            "30": "Tianshan Nanlu"
+        }
+    },
+    "33": {
+        "name": "Yunnan",
+        "links": {
+            "6": "Guangxi",
+            "18": "Kham",
+            "27": "Sichuan",
+            "7": "Guizhou"
+        }
+    },
+    "34": {
+        "name": "Zhe-Jiang",
+        "links": {
+            "2": "Annhui",
+            "14": "Jiang-Su",
+            "3": "Fujian",
+            "28": "Taiwan",
+            "15": "Jiangxi"
+        }
+    },
+    "35": {
+        "name": "Zhili",
+        "links": {
+            "9": "Henan",
+            "26": "Shanxi",
+            "25": "Shandong",
+            "13": "Inner Mongolia",
+            "20": "Liao-Dong"
+        }
+    }
+}

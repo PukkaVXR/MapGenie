@@ -1,0 +1,253 @@
+{
+    "1": {
+        "name": "Archery Range",
+        "links": {
+            "20": "North Wing",
+            "2": "Armory",
+            "7": "Courtyard"
+        }
+    },
+    "2": {
+        "name": "Armory",
+        "links": {
+            "1": "Archery Range",
+            "9": "Dormitory",
+            "3": "Barracks"
+        }
+    },
+    "3": {
+        "name": "Barracks",
+        "links": {
+            "9": "Dormitory",
+            "11": "Eastern Ramparts",
+            "17": "Main Bailey",
+            "2": "Armory",
+            "18": "Marketplace"
+        }
+    },
+    "4": {
+        "name": "Bastion",
+        "links": {
+            "27": "South Wing"
+        }
+    },
+    "5": {
+        "name": "Battlements",
+        "links": {
+            "28": "Southern Ramparts",
+            "11": "Eastern Ramparts"
+        }
+    },
+    "6": {
+        "name": "Blacksmith",
+        "links": {
+            "29": "Stable",
+            "17": "Main Bailey"
+        }
+    },
+    "7": {
+        "name": "Courtyard",
+        "links": {
+            "1": "Archery Range",
+            "17": "Main Bailey",
+            "30": "Steps",
+            "14": "Inner Garden"
+        }
+    },
+    "8": {
+        "name": "Dining Hall",
+        "links": {
+            "16": "Kitchen",
+            "27": "South Wing",
+            "13": "Grand Hall"
+        }
+    },
+    "9": {
+        "name": "Dormitory",
+        "links": {
+            "2": "Armory",
+            "3": "Barracks"
+        }
+    },
+    "10": {
+        "name": "Draw Bridge",
+        "links": {
+            "12": "Gate",
+            "19": "North Bank",
+            "26": "South Bank",
+            "23": "Siege Encampment"
+        }
+    },
+    "11": {
+        "name": "Eastern Ramparts",
+        "links": {
+            "3": "Barracks",
+            "25": "Siege Tower",
+            "5": "Battlements"
+        }
+    },
+    "12": {
+        "name": "Gate",
+        "links": {
+            "18": "Marketplace",
+            "17": "Main Bailey",
+            "10": "Draw Bridge",
+            "29": "Stable"
+        }
+    },
+    "13": {
+        "name": "Grand Hall",
+        "links": {
+            "20": "North Wing",
+            "30": "Steps",
+            "31": "The Throne",
+            "22": "Royal Quarters",
+            "8": "Dining Hall",
+            "16": "Kitchen"
+        }
+    },
+    "14": {
+        "name": "Inner Garden",
+        "links": {
+            "7": "Courtyard",
+            "27": "South Wing",
+            "30": "Steps"
+        }
+    },
+    "15": {
+        "name": "Keep",
+        "links": {
+            "20": "North Wing"
+        }
+    },
+    "16": {
+        "name": "Kitchen",
+        "links": {
+            "8": "Dining Hall",
+            "27": "South Wing",
+            "13": "Grand Hall"
+        }
+    },
+    "17": {
+        "name": "Main Bailey",
+        "links": {
+            "7": "Courtyard",
+            "3": "Barracks",
+            "18": "Marketplace",
+            "12": "Gate",
+            "6": "Blacksmith",
+            "29": "Stable"
+        }
+    },
+    "18": {
+        "name": "Marketplace",
+        "links": {
+            "12": "Gate",
+            "17": "Main Bailey",
+            "3": "Barracks"
+        }
+    },
+    "19": {
+        "name": "North Bank",
+        "links": {
+            "25": "Siege Tower",
+            "23": "Siege Encampment",
+            "10": "Draw Bridge"
+        }
+    },
+    "20": {
+        "name": "North Wing",
+        "links": {
+            "15": "Keep",
+            "1": "Archery Range",
+            "13": "Grand Hall",
+            "22": "Royal Quarters"
+        }
+    },
+    "21": {
+        "name": "Postern",
+        "links": {
+            "26": "South Bank",
+            "27": "South Wing"
+        }
+    },
+    "22": {
+        "name": "Royal Quarters",
+        "links": {
+            "13": "Grand Hall",
+            "20": "North Wing"
+        }
+    },
+    "23": {
+        "name": "Siege Encampment",
+        "links": {
+            "19": "North Bank",
+            "24": "Siege Headquarters",
+            "10": "Draw Bridge",
+            "26": "South Bank"
+        }
+    },
+    "24": {
+        "name": "Siege Headquarters",
+        "links": {
+            "23": "Siege Encampment",
+            "26": "South Bank"
+        }
+    },
+    "25": {
+        "name": "Siege Tower",
+        "links": {
+            "11": "Eastern Ramparts",
+            "19": "North Bank"
+        }
+    },
+    "26": {
+        "name": "South Bank",
+        "links": {
+            "24": "Siege Headquarters",
+            "21": "Postern",
+            "10": "Draw Bridge",
+            "23": "Siege Encampment"
+        }
+    },
+    "27": {
+        "name": "South Wing",
+        "links": {
+            "21": "Postern",
+            "4": "Bastion",
+            "14": "Inner Garden",
+            "28": "Southern Ramparts",
+            "16": "Kitchen",
+            "8": "Dining Hall"
+        }
+    },
+    "28": {
+        "name": "Southern Ramparts",
+        "links": {
+            "5": "Battlements",
+            "27": "South Wing"
+        }
+    },
+    "29": {
+        "name": "Stable",
+        "links": {
+            "12": "Gate",
+            "6": "Blacksmith",
+            "17": "Main Bailey"
+        }
+    },
+    "30": {
+        "name": "Steps",
+        "links": {
+            "13": "Grand Hall",
+            "7": "Courtyard",
+            "14": "Inner Garden"
+        }
+    },
+    "31": {
+        "name": "The Throne",
+        "links": {
+            "13": "Grand Hall"
+        }
+    }
+}

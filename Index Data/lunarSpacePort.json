@@ -1,0 +1,798 @@
+{
+    "1": {
+        "name": "Access Bay",
+        "links": {
+            "75": "Rare Lunar Minerals",
+            "11": "Commercial Bay A",
+            "46": "Helium Bay",
+            "12": "Commercial Bay B",
+            "62": "Meteor Samples",
+            "13": "Common Minerals"
+        }
+    },
+    "2": {
+        "name": "Arcade",
+        "links": {
+            "90": "Terra Lounge",
+            "69": "Port Authority",
+            "63": "Middle Bay",
+            "16": "Customs"
+        }
+    },
+    "3": {
+        "name": "Astronomy",
+        "links": {
+            "74": "Radio Center",
+            "59": "Lunar Offices",
+            "25": "Gateway AB",
+            "64": "Observation Deck",
+            "49": "IR Based Telescope",
+            "73": "Radio Antenna"
+        }
+    },
+    "4": {
+        "name": "Canteen",
+        "links": {
+            "93": "Vaporium Quarters",
+            "48": "Imbrium Quarters",
+            "51": "Kitchen",
+            "58": "Lunar Lobby"
+        }
+    },
+    "5": {
+        "name": "Cantina",
+        "links": {
+            "65": "Orbit Management",
+            "80": "Solar Array",
+            "52": "Launch Cafe",
+            "24": "Gateway AA",
+            "44": "Hawkin's Observatory"
+        }
+    },
+    "6": {
+        "name": "Captains Deck",
+        "links": {
+            "21": "Escape Pods",
+            "9": "Command Deck",
+            "10": "Command Hub",
+            "19": "Emergency Generators"
+        }
+    },
+    "7": {
+        "name": "Carbon Samples",
+        "links": {
+            "57": "Lunar Glass",
+            "50": "Iron Bay",
+            "43": "Hardware",
+            "79": "Silicon Bay",
+            "32": "Gateway BC"
+        }
+    },
+    "8": {
+        "name": "Comet Tracking",
+        "links": {
+            "72": "Radiation Tracking",
+            "81": "Solar Flare Warning"
+        }
+    },
+    "9": {
+        "name": "Command Deck",
+        "links": {
+            "6": "Captains Deck",
+            "77": "Satellite Com",
+            "71": "Radar",
+            "10": "Command Hub"
+        }
+    },
+    "10": {
+        "name": "Command Hub",
+        "links": {
+            "71": "Radar",
+            "19": "Emergency Generators",
+            "9": "Command Deck",
+            "6": "Captains Deck"
+        }
+    },
+    "11": {
+        "name": "Commercial Bay A",
+        "links": {
+            "1": "Access Bay",
+            "12": "Commercial Bay B"
+        }
+    },
+    "12": {
+        "name": "Commercial Bay B",
+        "links": {
+            "11": "Commercial Bay A",
+            "13": "Common Minerals",
+            "1": "Access Bay"
+        }
+    },
+    "13": {
+        "name": "Common Minerals",
+        "links": {
+            "12": "Commercial Bay B",
+            "27": "Gateway AD",
+            "1": "Access Bay",
+            "62": "Meteor Samples"
+        }
+    },
+    "14": {
+        "name": "Crater Bay",
+        "links": {
+            "28": "Gateway AE",
+            "87": "Terminal Control",
+            "92": "Transport Offices",
+            "90": "Terra Lounge"
+        }
+    },
+    "15": {
+        "name": "Crater View",
+        "links": {
+            "19": "Emergency Generators",
+            "84": "Surface Vehicles"
+        }
+    },
+    "16": {
+        "name": "Customs",
+        "links": {
+            "2": "Arcade",
+            "69": "Port Authority",
+            "88": "Terminal Lobby",
+            "30": "Gateway BA",
+            "63": "Middle Bay"
+        }
+    },
+    "17": {
+        "name": "Digital Technology",
+        "links": {
+            "67": "Passenger Storage",
+            "43": "Hardware"
+        }
+    },
+    "18": {
+        "name": "Elon's Office",
+        "links": {
+            "68": "Pathology",
+            "61": "Medical Station"
+        }
+    },
+    "19": {
+        "name": "Emergency Generators",
+        "links": {
+            "20": "EMF Shield",
+            "15": "Crater View",
+            "10": "Command Hub",
+            "71": "Radar",
+            "6": "Captains Deck",
+            "84": "Surface Vehicles",
+            "21": "Escape Pods"
+        }
+    },
+    "20": {
+        "name": "EMF Shield",
+        "links": {
+            "71": "Radar",
+            "19": "Emergency Generators"
+        }
+    },
+    "21": {
+        "name": "Escape Pods",
+        "links": {
+            "84": "Surface Vehicles",
+            "6": "Captains Deck",
+            "19": "Emergency Generators"
+        }
+    },
+    "22": {
+        "name": "Expedition Planning",
+        "links": {
+            "94": "Vehicle Garage",
+            "95": "Vehicle Repair",
+            "47": "Hubbles Lounge",
+            "70": "Quarantine",
+            "61": "Medical Station"
+        }
+    },
+    "23": {
+        "name": "FRB Detector",
+        "links": {
+            "83": "Strong Radio Antenna",
+            "49": "IR Based Telescope",
+            "73": "Radio Antenna"
+        }
+    },
+    "24": {
+        "name": "Gateway AA",
+        "links": {
+            "5": "Cantina",
+            "53": "LP A"
+        }
+    },
+    "25": {
+        "name": "Gateway AB",
+        "links": {
+            "53": "LP A",
+            "3": "Astronomy"
+        }
+    },
+    "26": {
+        "name": "Gateway AC",
+        "links": {
+            "53": "LP A",
+            "83": "Strong Radio Antenna"
+        }
+    },
+    "27": {
+        "name": "Gateway AD",
+        "links": {
+            "13": "Common Minerals",
+            "53": "LP A"
+        }
+    },
+    "28": {
+        "name": "Gateway AE",
+        "links": {
+            "53": "LP A",
+            "14": "Crater Bay"
+        }
+    },
+    "29": {
+        "name": "Gateway AF",
+        "links": {
+            "53": "LP A",
+            "87": "Terminal Control"
+        }
+    },
+    "30": {
+        "name": "Gateway BA",
+        "links": {
+            "16": "Customs",
+            "54": "LP B"
+        }
+    },
+    "31": {
+        "name": "Gateway BB",
+        "links": {
+            "54": "LP B",
+            "96": "Water Ice Bay"
+        }
+    },
+    "32": {
+        "name": "Gateway BC",
+        "links": {
+            "54": "LP B",
+            "7": "Carbon Samples"
+        }
+    },
+    "33": {
+        "name": "Gateway BD",
+        "links": {
+            "58": "Lunar Lobby",
+            "54": "LP B"
+        }
+    },
+    "34": {
+        "name": "Gateway BE",
+        "links": {
+            "54": "LP B",
+            "60": "Maintenance"
+        }
+    },
+    "35": {
+        "name": "Gateway BF",
+        "links": {
+            "77": "Satellite Com",
+            "54": "LP B"
+        }
+    },
+    "36": {
+        "name": "Gateway CA",
+        "links": {
+            "76": "Registry Office",
+            "55": "LP C"
+        }
+    },
+    "37": {
+        "name": "Gateway CB",
+        "links": {
+            "55": "LP C",
+            "91": "Tourism Board"
+        }
+    },
+    "38": {
+        "name": "Gateway CC",
+        "links": {
+            "56": "Luggage Port",
+            "55": "LP C"
+        }
+    },
+    "39": {
+        "name": "Gateway CD",
+        "links": {
+            "55": "LP C",
+            "71": "Radar"
+        }
+    },
+    "40": {
+        "name": "Gateway CE",
+        "links": {
+            "81": "Solar Flare Warning",
+            "55": "LP C"
+        }
+    },
+    "41": {
+        "name": "Gateway CF",
+        "links": {
+            "55": "LP C",
+            "70": "Quarantine"
+        }
+    },
+    "42": {
+        "name": "Geology Samples",
+        "links": {
+            "50": "Iron Bay",
+            "46": "Helium Bay",
+            "79": "Silicon Bay",
+            "96": "Water Ice Bay"
+        }
+    },
+    "43": {
+        "name": "Hardware",
+        "links": {
+            "67": "Passenger Storage",
+            "17": "Digital Technology",
+            "57": "Lunar Glass",
+            "7": "Carbon Samples"
+        }
+    },
+    "44": {
+        "name": "Hawkin's Observatory",
+        "links": {
+            "80": "Solar Array",
+            "52": "Launch Cafe",
+            "5": "Cantina"
+        }
+    },
+    "45": {
+        "name": "Head Office",
+        "links": {
+            "89": "Terminal Offices"
+        }
+    },
+    "46": {
+        "name": "Helium Bay",
+        "links": {
+            "42": "Geology Samples",
+            "1": "Access Bay",
+            "96": "Water Ice Bay",
+            "62": "Meteor Samples"
+        }
+    },
+    "47": {
+        "name": "Hubbles Lounge",
+        "links": {
+            "81": "Solar Flare Warning",
+            "70": "Quarantine",
+            "22": "Expedition Planning",
+            "95": "Vehicle Repair",
+            "72": "Radiation Tracking"
+        }
+    },
+    "48": {
+        "name": "Imbrium Quarters",
+        "links": {
+            "4": "Canteen",
+            "58": "Lunar Lobby"
+        }
+    },
+    "49": {
+        "name": "IR Based Telescope",
+        "links": {
+            "23": "FRB Detector",
+            "74": "Radio Center",
+            "73": "Radio Antenna",
+            "3": "Astronomy"
+        }
+    },
+    "50": {
+        "name": "Iron Bay",
+        "links": {
+            "7": "Carbon Samples",
+            "57": "Lunar Glass",
+            "79": "Silicon Bay",
+            "42": "Geology Samples"
+        }
+    },
+    "51": {
+        "name": "Kitchen",
+        "links": {
+            "93": "Vaporium Quarters",
+            "4": "Canteen",
+            "58": "Lunar Lobby",
+            "60": "Maintenance"
+        }
+    },
+    "52": {
+        "name": "Launch Cafe",
+        "links": {
+            "44": "Hawkin's Observatory",
+            "5": "Cantina"
+        }
+    },
+    "53": {
+        "name": "LP A",
+        "links": {
+            "27": "Gateway AD",
+            "26": "Gateway AC",
+            "24": "Gateway AA",
+            "29": "Gateway AF",
+            "25": "Gateway AB",
+            "28": "Gateway AE"
+        }
+    },
+    "54": {
+        "name": "LP B",
+        "links": {
+            "35": "Gateway BF",
+            "34": "Gateway BE",
+            "33": "Gateway BD",
+            "32": "Gateway BC",
+            "31": "Gateway BB",
+            "30": "Gateway BA"
+        }
+    },
+    "55": {
+        "name": "LP C",
+        "links": {
+            "36": "Gateway CA",
+            "41": "Gateway CF",
+            "40": "Gateway CE",
+            "39": "Gateway CD",
+            "38": "Gateway CC",
+            "37": "Gateway CB"
+        }
+    },
+    "56": {
+        "name": "Luggage Port",
+        "links": {
+            "88": "Terminal Lobby",
+            "66": "Parker Check Ins",
+            "38": "Gateway CC"
+        }
+    },
+    "57": {
+        "name": "Lunar Glass",
+        "links": {
+            "43": "Hardware",
+            "67": "Passenger Storage",
+            "7": "Carbon Samples",
+            "50": "Iron Bay"
+        }
+    },
+    "58": {
+        "name": "Lunar Lobby",
+        "links": {
+            "48": "Imbrium Quarters",
+            "33": "Gateway BD",
+            "4": "Canteen",
+            "51": "Kitchen",
+            "60": "Maintenance"
+        }
+    },
+    "59": {
+        "name": "Lunar Offices",
+        "links": {
+            "3": "Astronomy",
+            "65": "Orbit Management"
+        }
+    },
+    "60": {
+        "name": "Maintenance",
+        "links": {
+            "34": "Gateway BE",
+            "93": "Vaporium Quarters",
+            "51": "Kitchen",
+            "58": "Lunar Lobby"
+        }
+    },
+    "61": {
+        "name": "Medical Station",
+        "links": {
+            "18": "Elon's Office",
+            "94": "Vehicle Garage",
+            "70": "Quarantine",
+            "85": "Surgery",
+            "22": "Expedition Planning",
+            "68": "Pathology"
+        }
+    },
+    "62": {
+        "name": "Meteor Samples",
+        "links": {
+            "46": "Helium Bay",
+            "1": "Access Bay",
+            "13": "Common Minerals"
+        }
+    },
+    "63": {
+        "name": "Middle Bay",
+        "links": {
+            "90": "Terra Lounge",
+            "2": "Arcade",
+            "16": "Customs"
+        }
+    },
+    "64": {
+        "name": "Observation Deck",
+        "links": {
+            "3": "Astronomy",
+            "83": "Strong Radio Antenna",
+            "73": "Radio Antenna"
+        }
+    },
+    "65": {
+        "name": "Orbit Management",
+        "links": {
+            "59": "Lunar Offices",
+            "5": "Cantina"
+        }
+    },
+    "66": {
+        "name": "Parker Check Ins",
+        "links": {
+            "88": "Terminal Lobby",
+            "91": "Tourism Board",
+            "56": "Luggage Port"
+        }
+    },
+    "67": {
+        "name": "Passenger Storage",
+        "links": {
+            "43": "Hardware",
+            "17": "Digital Technology",
+            "57": "Lunar Glass"
+        }
+    },
+    "68": {
+        "name": "Pathology",
+        "links": {
+            "85": "Surgery",
+            "18": "Elon's Office",
+            "61": "Medical Station"
+        }
+    },
+    "69": {
+        "name": "Port Authority",
+        "links": {
+            "2": "Arcade",
+            "88": "Terminal Lobby",
+            "16": "Customs"
+        }
+    },
+    "70": {
+        "name": "Quarantine",
+        "links": {
+            "41": "Gateway CF",
+            "85": "Surgery",
+            "47": "Hubbles Lounge",
+            "61": "Medical Station",
+            "22": "Expedition Planning"
+        }
+    },
+    "71": {
+        "name": "Radar",
+        "links": {
+            "39": "Gateway CD",
+            "20": "EMF Shield",
+            "10": "Command Hub",
+            "19": "Emergency Generators",
+            "9": "Command Deck"
+        }
+    },
+    "72": {
+        "name": "Radiation Tracking",
+        "links": {
+            "95": "Vehicle Repair",
+            "8": "Comet Tracking",
+            "81": "Solar Flare Warning",
+            "47": "Hubbles Lounge"
+        }
+    },
+    "73": {
+        "name": "Radio Antenna",
+        "links": {
+            "83": "Strong Radio Antenna",
+            "23": "FRB Detector",
+            "49": "IR Based Telescope",
+            "3": "Astronomy",
+            "64": "Observation Deck"
+        }
+    },
+    "74": {
+        "name": "Radio Center",
+        "links": {
+            "49": "IR Based Telescope",
+            "3": "Astronomy"
+        }
+    },
+    "75": {
+        "name": "Rare Lunar Minerals",
+        "links": {
+            "1": "Access Bay"
+        }
+    },
+    "76": {
+        "name": "Registry Office",
+        "links": {
+            "86": "Terminal Cafe",
+            "36": "Gateway CA",
+            "78": "Security"
+        }
+    },
+    "77": {
+        "name": "Satellite Com",
+        "links": {
+            "9": "Command Deck",
+            "35": "Gateway BF"
+        }
+    },
+    "78": {
+        "name": "Security",
+        "links": {
+            "82": "Star Shops",
+            "86": "Terminal Cafe",
+            "76": "Registry Office"
+        }
+    },
+    "79": {
+        "name": "Silicon Bay",
+        "links": {
+            "7": "Carbon Samples",
+            "50": "Iron Bay",
+            "42": "Geology Samples",
+            "96": "Water Ice Bay"
+        }
+    },
+    "80": {
+        "name": "Solar Array",
+        "links": {
+            "5": "Cantina",
+            "44": "Hawkin's Observatory"
+        }
+    },
+    "81": {
+        "name": "Solar Flare Warning",
+        "links": {
+            "8": "Comet Tracking",
+            "40": "Gateway CE",
+            "72": "Radiation Tracking",
+            "47": "Hubbles Lounge"
+        }
+    },
+    "82": {
+        "name": "Star Shops",
+        "links": {
+            "91": "Tourism Board",
+            "86": "Terminal Cafe",
+            "78": "Security"
+        }
+    },
+    "83": {
+        "name": "Strong Radio Antenna",
+        "links": {
+            "26": "Gateway AC",
+            "23": "FRB Detector",
+            "64": "Observation Deck",
+            "73": "Radio Antenna"
+        }
+    },
+    "84": {
+        "name": "Surface Vehicles",
+        "links": {
+            "15": "Crater View",
+            "21": "Escape Pods",
+            "19": "Emergency Generators"
+        }
+    },
+    "85": {
+        "name": "Surgery",
+        "links": {
+            "70": "Quarantine",
+            "68": "Pathology",
+            "61": "Medical Station"
+        }
+    },
+    "86": {
+        "name": "Terminal Cafe",
+        "links": {
+            "82": "Star Shops",
+            "76": "Registry Office",
+            "78": "Security"
+        }
+    },
+    "87": {
+        "name": "Terminal Control",
+        "links": {
+            "29": "Gateway AF",
+            "89": "Terminal Offices",
+            "14": "Crater Bay",
+            "92": "Transport Offices"
+        }
+    },
+    "88": {
+        "name": "Terminal Lobby",
+        "links": {
+            "69": "Port Authority",
+            "66": "Parker Check Ins",
+            "56": "Luggage Port",
+            "16": "Customs"
+        }
+    },
+    "89": {
+        "name": "Terminal Offices",
+        "links": {
+            "87": "Terminal Control",
+            "45": "Head Office",
+            "92": "Transport Offices"
+        }
+    },
+    "90": {
+        "name": "Terra Lounge",
+        "links": {
+            "92": "Transport Offices",
+            "2": "Arcade",
+            "14": "Crater Bay",
+            "63": "Middle Bay"
+        }
+    },
+    "91": {
+        "name": "Tourism Board",
+        "links": {
+            "66": "Parker Check Ins",
+            "82": "Star Shops",
+            "37": "Gateway CB"
+        }
+    },
+    "92": {
+        "name": "Transport Offices",
+        "links": {
+            "89": "Terminal Offices",
+            "90": "Terra Lounge",
+            "87": "Terminal Control",
+            "14": "Crater Bay"
+        }
+    },
+    "93": {
+        "name": "Vaporium Quarters",
+        "links": {
+            "60": "Maintenance",
+            "4": "Canteen",
+            "51": "Kitchen"
+        }
+    },
+    "94": {
+        "name": "Vehicle Garage",
+        "links": {
+            "61": "Medical Station",
+            "22": "Expedition Planning"
+        }
+    },
+    "95": {
+        "name": "Vehicle Repair",
+        "links": {
+            "22": "Expedition Planning",
+            "72": "Radiation Tracking",
+            "47": "Hubbles Lounge"
+        }
+    },
+    "96": {
+        "name": "Water Ice Bay",
+        "links": {
+            "79": "Silicon Bay",
+            "42": "Geology Samples",
+            "31": "Gateway BB",
+            "46": "Helium Bay"
+        }
+    }
+}

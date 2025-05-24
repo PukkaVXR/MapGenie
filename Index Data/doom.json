@@ -1,0 +1,398 @@
+{
+    "1": {
+        "name": "Albatross Estate",
+        "links": {
+            "34": "Shipwreck Coast",
+            "14": "Golden Jib",
+            "9": "Dog-leg Cave"
+        }
+    },
+    "2": {
+        "name": "Blackbeard's Wrath",
+        "links": {
+            "7": "Cutlass Rocks",
+            "38": "Smuggler's Harbor",
+            "13": "Ghost Bay",
+            "23": "Pearls Point"
+        }
+    },
+    "3": {
+        "name": "Blue Helm",
+        "links": {
+            "32": "Salty Sands",
+            "16": "Iron Fist",
+            "6": "Crow's Nest"
+        }
+    },
+    "4": {
+        "name": "Boneyard Bayou",
+        "links": {
+            "27": "Prawn Peak",
+            "39": "Tentacle Cliffs",
+            "8": "Dead Man Falls"
+        }
+    },
+    "5": {
+        "name": "Cannon Bluff",
+        "links": {
+            "11": "Emerald Cove",
+            "10": "Dolphin Dive",
+            "26": "Plunder Isle"
+        }
+    },
+    "6": {
+        "name": "Crow's Nest",
+        "links": {
+            "24": "Plankwalk Point",
+            "35": "Shipwreck Cove",
+            "32": "Salty Sands",
+            "3": "Blue Helm",
+            "16": "Iron Fist",
+            "39": "Tentacle Cliffs"
+        }
+    },
+    "7": {
+        "name": "Cutlass Rocks",
+        "links": {
+            "40": "The Lookout",
+            "2": "Blackbeard's Wrath",
+            "13": "Ghost Bay"
+        }
+    },
+    "8": {
+        "name": "Dead Man Falls",
+        "links": {
+            "40": "The Lookout",
+            "27": "Prawn Peak",
+            "4": "Boneyard Bayou",
+            "39": "Tentacle Cliffs"
+        }
+    },
+    "9": {
+        "name": "Dog-leg Cave",
+        "links": {
+            "18": "Long Tooth Cliffs",
+            "25": "Plunder Chasm",
+            "34": "Shipwreck Coast",
+            "1": "Albatross Estate",
+            "14": "Golden Jib"
+        }
+    },
+    "10": {
+        "name": "Dolphin Dive",
+        "links": {
+            "5": "Cannon Bluff",
+            "36": "Sirens Point",
+            "26": "Plunder Isle"
+        }
+    },
+    "11": {
+        "name": "Emerald Cove",
+        "links": {
+            "28": "Red Cliffs",
+            "5": "Cannon Bluff",
+            "26": "Plunder Isle"
+        }
+    },
+    "12": {
+        "name": "Flint Lock",
+        "links": {
+            "29": "Redbeard's Rest",
+            "37": "Skeleton Fingers",
+            "20": "Mutiny Wharf"
+        }
+    },
+    "13": {
+        "name": "Ghost Bay",
+        "links": {
+            "36": "Sirens Point",
+            "27": "Prawn Peak",
+            "40": "The Lookout",
+            "7": "Cutlass Rocks",
+            "23": "Pearls Point",
+            "2": "Blackbeard's Wrath"
+        }
+    },
+    "14": {
+        "name": "Golden Jib",
+        "links": {
+            "1": "Albatross Estate",
+            "18": "Long Tooth Cliffs",
+            "9": "Dog-leg Cave"
+        }
+    },
+    "15": {
+        "name": "Harpoon Cay",
+        "links": {
+            "43": "Toothy Cliffs",
+            "22": "Nikhil Point",
+            "17": "Landlubber Lagoon"
+        }
+    },
+    "16": {
+        "name": "Iron Fist",
+        "links": {
+            "3": "Blue Helm",
+            "40": "The Lookout",
+            "6": "Crow's Nest",
+            "39": "Tentacle Cliffs"
+        }
+    },
+    "17": {
+        "name": "Landlubber Lagoon",
+        "links": {
+            "22": "Nikhil Point",
+            "42": "Thunder Reef",
+            "44": "Willams Cove",
+            "30": "Rogue's Paradise",
+            "43": "Toothy Cliffs",
+            "15": "Harpoon Cay"
+        }
+    },
+    "18": {
+        "name": "Long Tooth Cliffs",
+        "links": {
+            "14": "Golden Jib",
+            "9": "Dog-leg Cave"
+        }
+    },
+    "19": {
+        "name": "Mutiny Bay",
+        "links": {
+            "41": "The Trident",
+            "36": "Sirens Point",
+            "23": "Pearls Point"
+        }
+    },
+    "20": {
+        "name": "Mutiny Wharf",
+        "links": {
+            "37": "Skeleton Fingers",
+            "34": "Shipwreck Coast",
+            "33": "Shallow Bayou",
+            "29": "Redbeard's Rest",
+            "31": "Sailor's Rest",
+            "12": "Flint Lock"
+        }
+    },
+    "21": {
+        "name": "New Rackham",
+        "links": {
+            "25": "Plunder Chasm",
+            "28": "Red Cliffs",
+            "33": "Shallow Bayou",
+            "31": "Sailor's Rest"
+        }
+    },
+    "22": {
+        "name": "Nikhil Point",
+        "links": {
+            "32": "Salty Sands",
+            "42": "Thunder Reef",
+            "15": "Harpoon Cay",
+            "17": "Landlubber Lagoon"
+        }
+    },
+    "23": {
+        "name": "Pearls Point",
+        "links": {
+            "36": "Sirens Point",
+            "13": "Ghost Bay",
+            "2": "Blackbeard's Wrath",
+            "38": "Smuggler's Harbor",
+            "41": "The Trident",
+            "19": "Mutiny Bay"
+        }
+    },
+    "24": {
+        "name": "Plankwalk Point",
+        "links": {
+            "39": "Tentacle Cliffs",
+            "35": "Shipwreck Cove",
+            "6": "Crow's Nest"
+        }
+    },
+    "25": {
+        "name": "Plunder Chasm",
+        "links": {
+            "9": "Dog-leg Cave",
+            "21": "New Rackham",
+            "31": "Sailor's Rest",
+            "34": "Shipwreck Coast"
+        }
+    },
+    "26": {
+        "name": "Plunder Isle",
+        "links": {
+            "11": "Emerald Cove",
+            "5": "Cannon Bluff",
+            "10": "Dolphin Dive"
+        }
+    },
+    "27": {
+        "name": "Prawn Peak",
+        "links": {
+            "13": "Ghost Bay",
+            "4": "Boneyard Bayou",
+            "8": "Dead Man Falls",
+            "40": "The Lookout"
+        }
+    },
+    "28": {
+        "name": "Red Cliffs",
+        "links": {
+            "21": "New Rackham",
+            "11": "Emerald Cove",
+            "44": "Willams Cove",
+            "33": "Shallow Bayou"
+        }
+    },
+    "29": {
+        "name": "Redbeard's Rest",
+        "links": {
+            "33": "Shallow Bayou",
+            "12": "Flint Lock",
+            "20": "Mutiny Wharf"
+        }
+    },
+    "30": {
+        "name": "Rogue's Paradise",
+        "links": {
+            "44": "Willams Cove",
+            "17": "Landlubber Lagoon",
+            "43": "Toothy Cliffs",
+            "38": "Smuggler's Harbor",
+            "41": "The Trident"
+        }
+    },
+    "31": {
+        "name": "Sailor's Rest",
+        "links": {
+            "34": "Shipwreck Coast",
+            "25": "Plunder Chasm",
+            "33": "Shallow Bayou",
+            "20": "Mutiny Wharf",
+            "21": "New Rackham"
+        }
+    },
+    "32": {
+        "name": "Salty Sands",
+        "links": {
+            "35": "Shipwreck Cove",
+            "22": "Nikhil Point",
+            "3": "Blue Helm",
+            "6": "Crow's Nest"
+        }
+    },
+    "33": {
+        "name": "Shallow Bayou",
+        "links": {
+            "29": "Redbeard's Rest",
+            "28": "Red Cliffs",
+            "20": "Mutiny Wharf",
+            "31": "Sailor's Rest",
+            "21": "New Rackham"
+        }
+    },
+    "34": {
+        "name": "Shipwreck Coast",
+        "links": {
+            "20": "Mutiny Wharf",
+            "1": "Albatross Estate",
+            "31": "Sailor's Rest",
+            "25": "Plunder Chasm",
+            "9": "Dog-leg Cave"
+        }
+    },
+    "35": {
+        "name": "Shipwreck Cove",
+        "links": {
+            "24": "Plankwalk Point",
+            "32": "Salty Sands",
+            "6": "Crow's Nest"
+        }
+    },
+    "36": {
+        "name": "Sirens Point",
+        "links": {
+            "10": "Dolphin Dive",
+            "13": "Ghost Bay",
+            "19": "Mutiny Bay",
+            "23": "Pearls Point"
+        }
+    },
+    "37": {
+        "name": "Skeleton Fingers",
+        "links": {
+            "12": "Flint Lock",
+            "20": "Mutiny Wharf"
+        }
+    },
+    "38": {
+        "name": "Smuggler's Harbor",
+        "links": {
+            "2": "Blackbeard's Wrath",
+            "43": "Toothy Cliffs",
+            "30": "Rogue's Paradise",
+            "23": "Pearls Point",
+            "41": "The Trident"
+        }
+    },
+    "39": {
+        "name": "Tentacle Cliffs",
+        "links": {
+            "4": "Boneyard Bayou",
+            "24": "Plankwalk Point",
+            "16": "Iron Fist",
+            "40": "The Lookout",
+            "8": "Dead Man Falls",
+            "6": "Crow's Nest"
+        }
+    },
+    "40": {
+        "name": "The Lookout",
+        "links": {
+            "16": "Iron Fist",
+            "7": "Cutlass Rocks",
+            "39": "Tentacle Cliffs",
+            "8": "Dead Man Falls",
+            "27": "Prawn Peak",
+            "13": "Ghost Bay"
+        }
+    },
+    "41": {
+        "name": "The Trident",
+        "links": {
+            "30": "Rogue's Paradise",
+            "19": "Mutiny Bay",
+            "38": "Smuggler's Harbor",
+            "23": "Pearls Point"
+        }
+    },
+    "42": {
+        "name": "Thunder Reef",
+        "links": {
+            "22": "Nikhil Point",
+            "44": "Willams Cove",
+            "17": "Landlubber Lagoon"
+        }
+    },
+    "43": {
+        "name": "Toothy Cliffs",
+        "links": {
+            "38": "Smuggler's Harbor",
+            "15": "Harpoon Cay",
+            "30": "Rogue's Paradise",
+            "17": "Landlubber Lagoon"
+        }
+    },
+    "44": {
+        "name": "Willams Cove",
+        "links": {
+            "42": "Thunder Reef",
+            "28": "Red Cliffs",
+            "30": "Rogue's Paradise",
+            "17": "Landlubber Lagoon"
+        }
+    }
+}

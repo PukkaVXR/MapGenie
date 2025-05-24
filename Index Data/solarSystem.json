@@ -1,0 +1,457 @@
+{
+    "15": {
+        "name": "Aqueducts",
+        "links": {
+            "25": "Greenery",
+            "18": "The Dam",
+            "19": "Market Hub"
+        }
+    },
+    "18": {
+        "name": "The Dam",
+        "links": {
+            "15": "Aqueducts",
+            "33": "Ruins",
+            "19": "Market Hub",
+            "21": "Neptune's Realm"
+        }
+    },
+    "19": {
+        "name": "Market Hub",
+        "links": {
+            "18": "The Dam",
+            "42": "Boiling Bay",
+            "15": "Aqueducts",
+            "21": "Neptune's Realm"
+        }
+    },
+    "21": {
+        "name": "Neptune's Realm",
+        "links": {
+            "18": "The Dam",
+            "58": "Pallas",
+            "19": "Market Hub"
+        }
+    },
+    "17": {
+        "name": "Volcanic Terra",
+        "links": {
+            "23": "Observatory",
+            "25": "Greenery",
+            "22": "Olympus Prime",
+            "24": "Equitorial Port"
+        }
+    },
+    "22": {
+        "name": "Olympus Prime",
+        "links": {
+            "17": "Volcanic Terra",
+            "23": "Observatory",
+            "26": "Battle Ruins"
+        }
+    },
+    "23": {
+        "name": "Observatory",
+        "links": {
+            "17": "Volcanic Terra",
+            "25": "Greenery",
+            "22": "Olympus Prime",
+            "36": "Lava Landing"
+        }
+    },
+    "25": {
+        "name": "Greenery",
+        "links": {
+            "17": "Volcanic Terra",
+            "23": "Observatory",
+            "15": "Aqueducts"
+        }
+    },
+    "5": {
+        "name": "Citadel Defence",
+        "links": {
+            "14": "Citadel",
+            "13": "Artillary Gates",
+            "47": "Space Station East",
+            "10": "RC LAB",
+            "39": "Piquante Peak"
+        }
+    },
+    "10": {
+        "name": "RC LAB",
+        "links": {
+            "5": "Citadel Defence",
+            "14": "Citadel",
+            "12": "Worm Hole",
+            "11": "Borders"
+        }
+    },
+    "11": {
+        "name": "Borders",
+        "links": {
+            "13": "Artillary Gates",
+            "10": "RC LAB",
+            "14": "Citadel"
+        }
+    },
+    "13": {
+        "name": "Artillary Gates",
+        "links": {
+            "52": "Cheddaron",
+            "59": "Cealum",
+            "14": "Citadel",
+            "11": "Borders",
+            "5": "Citadel Defence"
+        }
+    },
+    "14": {
+        "name": "Citadel",
+        "links": {
+            "13": "Artillary Gates",
+            "5": "Citadel Defence",
+            "10": "RC LAB",
+            "11": "Borders"
+        }
+    },
+    "20": {
+        "name": "Refinery",
+        "links": {
+            "29": "Zantho",
+            "26": "Battle Ruins",
+            "27": "Spice Grounds"
+        }
+    },
+    "26": {
+        "name": "Battle Ruins",
+        "links": {
+            "29": "Zantho",
+            "31": "El Dorado",
+            "22": "Olympus Prime",
+            "20": "Refinery",
+            "27": "Spice Grounds"
+        }
+    },
+    "27": {
+        "name": "Spice Grounds",
+        "links": {
+            "29": "Zantho",
+            "20": "Refinery",
+            "26": "Battle Ruins",
+            "50": "Voyager 1"
+        }
+    },
+    "29": {
+        "name": "Zantho",
+        "links": {
+            "20": "Refinery",
+            "27": "Spice Grounds",
+            "26": "Battle Ruins"
+        }
+    },
+    "7": {
+        "name": "Chuckle Cluster",
+        "links": {
+            "53": "Ganymede",
+            "8": "Horizon",
+            "1": "Belt of Jovian"
+        }
+    },
+    "8": {
+        "name": "Horizon",
+        "links": {
+            "59": "Cealum",
+            "40": "Very Hot Spring",
+            "7": "Chuckle Cluster"
+        }
+    },
+    "59": {
+        "name": "Cealum",
+        "links": {
+            "13": "Artillary Gates",
+            "8": "Horizon"
+        }
+    },
+    "1": {
+        "name": "Belt of Jovian",
+        "links": {
+            "3": "Temple of Jovian",
+            "7": "Chuckle Cluster",
+            "6": "The Nexus"
+        }
+    },
+    "3": {
+        "name": "Temple of Jovian",
+        "links": {
+            "55": "Ceres",
+            "1": "Belt of Jovian",
+            "6": "The Nexus"
+        }
+    },
+    "6": {
+        "name": "The Nexus",
+        "links": {
+            "3": "Temple of Jovian",
+            "1": "Belt of Jovian"
+        }
+    },
+    "24": {
+        "name": "Equitorial Port",
+        "links": {
+            "17": "Volcanic Terra",
+            "34": "Northern Oceania",
+            "32": "New Utopia",
+            "31": "El Dorado",
+            "30": "Wealth Port"
+        }
+    },
+    "30": {
+        "name": "Wealth Port",
+        "links": {
+            "32": "New Utopia",
+            "31": "El Dorado",
+            "24": "Equitorial Port"
+        }
+    },
+    "31": {
+        "name": "El Dorado",
+        "links": {
+            "24": "Equitorial Port",
+            "26": "Battle Ruins",
+            "30": "Wealth Port"
+        }
+    },
+    "32": {
+        "name": "New Utopia",
+        "links": {
+            "24": "Equitorial Port",
+            "30": "Wealth Port"
+        }
+    },
+    "34": {
+        "name": "Northern Oceania",
+        "links": {
+            "28": "Dust haven",
+            "24": "Equitorial Port"
+        }
+    },
+    "12": {
+        "name": "Worm Hole",
+        "links": {
+            "10": "RC LAB",
+            "16": "Unsanctioned Zone"
+        }
+    },
+    "16": {
+        "name": "Unsanctioned Zone",
+        "links": {
+            "51": "Dwarf Sanctuary",
+            "12": "Worm Hole"
+        }
+    },
+    "28": {
+        "name": "Dust haven",
+        "links": {
+            "34": "Northern Oceania",
+            "33": "Ruins"
+        }
+    },
+    "33": {
+        "name": "Ruins",
+        "links": {
+            "28": "Dust haven",
+            "18": "The Dam"
+        }
+    },
+    "36": {
+        "name": "Lava Landing",
+        "links": {
+            "23": "Observatory",
+            "37": "Powerstation",
+            "45": "Chromosphere",
+            "43": "Convection Zone"
+        }
+    },
+    "37": {
+        "name": "Powerstation",
+        "links": {
+            "44": "Photosphere",
+            "38": "Solar Flare",
+            "45": "Chromosphere",
+            "49": "Hubble",
+            "36": "Lava Landing"
+        }
+    },
+    "38": {
+        "name": "Solar Flare",
+        "links": {
+            "37": "Powerstation",
+            "39": "Piquante Peak",
+            "44": "Photosphere"
+        }
+    },
+    "39": {
+        "name": "Piquante Peak",
+        "links": {
+            "5": "Citadel Defence",
+            "38": "Solar Flare",
+            "44": "Photosphere",
+            "46": "Core",
+            "40": "Very Hot Spring"
+        }
+    },
+    "40": {
+        "name": "Very Hot Spring",
+        "links": {
+            "39": "Piquante Peak",
+            "8": "Horizon",
+            "46": "Core",
+            "41": "Pelzer Project"
+        }
+    },
+    "41": {
+        "name": "Pelzer Project",
+        "links": {
+            "40": "Very Hot Spring",
+            "46": "Core",
+            "45": "Chromosphere",
+            "42": "Boiling Bay"
+        }
+    },
+    "42": {
+        "name": "Boiling Bay",
+        "links": {
+            "45": "Chromosphere",
+            "41": "Pelzer Project",
+            "19": "Market Hub",
+            "43": "Convection Zone"
+        }
+    },
+    "43": {
+        "name": "Convection Zone",
+        "links": {
+            "45": "Chromosphere",
+            "42": "Boiling Bay",
+            "36": "Lava Landing"
+        }
+    },
+    "44": {
+        "name": "Photosphere",
+        "links": {
+            "37": "Powerstation",
+            "39": "Piquante Peak",
+            "38": "Solar Flare",
+            "46": "Core",
+            "45": "Chromosphere"
+        }
+    },
+    "45": {
+        "name": "Chromosphere",
+        "links": {
+            "37": "Powerstation",
+            "44": "Photosphere",
+            "46": "Core",
+            "41": "Pelzer Project",
+            "42": "Boiling Bay",
+            "36": "Lava Landing",
+            "43": "Convection Zone"
+        }
+    },
+    "46": {
+        "name": "Core",
+        "links": {
+            "39": "Piquante Peak",
+            "40": "Very Hot Spring",
+            "44": "Photosphere",
+            "45": "Chromosphere",
+            "41": "Pelzer Project"
+        }
+    },
+    "47": {
+        "name": "Space Station East",
+        "links": {
+            "48": "Space Station West",
+            "5": "Citadel Defence"
+        }
+    },
+    "48": {
+        "name": "Space Station West",
+        "links": {
+            "47": "Space Station East",
+            "49": "Hubble"
+        }
+    },
+    "49": {
+        "name": "Hubble",
+        "links": {
+            "37": "Powerstation",
+            "48": "Space Station West",
+            "50": "Voyager 1"
+        }
+    },
+    "50": {
+        "name": "Voyager 1",
+        "links": {
+            "27": "Spice Grounds",
+            "49": "Hubble"
+        }
+    },
+    "51": {
+        "name": "Dwarf Sanctuary",
+        "links": {
+            "53": "Ganymede",
+            "16": "Unsanctioned Zone"
+        }
+    },
+    "52": {
+        "name": "Cheddaron",
+        "links": {
+            "13": "Artillary Gates",
+            "54": "Titan"
+        }
+    },
+    "53": {
+        "name": "Ganymede",
+        "links": {
+            "51": "Dwarf Sanctuary",
+            "7": "Chuckle Cluster",
+            "54": "Titan"
+        }
+    },
+    "54": {
+        "name": "Titan",
+        "links": {
+            "52": "Cheddaron",
+            "53": "Ganymede"
+        }
+    },
+    "55": {
+        "name": "Ceres",
+        "links": {
+            "56": "Vesta",
+            "57": "Hygiea",
+            "3": "Temple of Jovian"
+        }
+    },
+    "56": {
+        "name": "Vesta",
+        "links": {
+            "58": "Pallas",
+            "55": "Ceres"
+        }
+    },
+    "57": {
+        "name": "Hygiea",
+        "links": {
+            "58": "Pallas",
+            "55": "Ceres"
+        }
+    },
+    "58": {
+        "name": "Pallas",
+        "links": {
+            "56": "Vesta",
+            "57": "Hygiea",
+            "21": "Neptune's Realm"
+        }
+    }
+}

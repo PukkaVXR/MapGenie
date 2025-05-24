@@ -1,0 +1,483 @@
+{
+    "1": {
+        "name": "Alchemists",
+        "links": {
+            "38": "Port",
+            "25": "Main Library",
+            "11": "Doctors"
+        }
+    },
+    "2": {
+        "name": "Aqueduct",
+        "links": {
+            "47": "South Tower",
+            "46": "South Gate",
+            "48": "Spring Road"
+        }
+    },
+    "3": {
+        "name": "Archers",
+        "links": {
+            "57": "Winter Garden",
+            "8": "Brewery",
+            "10": "City Gates",
+            "33": "Observatory"
+        }
+    },
+    "4": {
+        "name": "Arena",
+        "links": {
+            "26": "Market",
+            "53": "Training School",
+            "45": "Soldiers"
+        }
+    },
+    "5": {
+        "name": "Art Gallery",
+        "links": {
+            "41": "River Tower",
+            "31": "Minor Library",
+            "43": "Sacret Well"
+        }
+    },
+    "6": {
+        "name": "Bastion",
+        "links": {
+            "42": "Sacret Gates",
+            "19": "Kings Chamber",
+            "20": "Kings Tower",
+            "24": "Mage Tower"
+        }
+    },
+    "7": {
+        "name": "Botanist",
+        "links": {
+            "22": "Land Guardian",
+            "48": "Spring Road",
+            "17": "Gardens"
+        }
+    },
+    "8": {
+        "name": "Brewery",
+        "links": {
+            "57": "Winter Garden",
+            "10": "City Gates",
+            "3": "Archers"
+        }
+    },
+    "9": {
+        "name": "Carpenters",
+        "links": {
+            "12": "East Gates",
+            "45": "Soldiers",
+            "27": "Masons"
+        }
+    },
+    "10": {
+        "name": "City Gates",
+        "links": {
+            "8": "Brewery",
+            "12": "East Gates",
+            "3": "Archers",
+            "52": "Town Hall",
+            "24": "Mage Tower"
+        }
+    },
+    "11": {
+        "name": "Doctors",
+        "links": {
+            "25": "Main Library",
+            "37": "Philosophers",
+            "31": "Minor Library",
+            "41": "River Tower",
+            "1": "Alchemists"
+        }
+    },
+    "12": {
+        "name": "East Gates",
+        "links": {
+            "10": "City Gates",
+            "9": "Carpenters",
+            "27": "Masons",
+            "16": "Garden Passage",
+            "22": "Land Guardian"
+        }
+    },
+    "13": {
+        "name": "Food Hall",
+        "links": {
+            "39": "Quarters",
+            "38": "Port"
+        }
+    },
+    "14": {
+        "name": "Food Market",
+        "links": {
+            "21": "Knights Market",
+            "30": "Merchants",
+            "29": "Merchant Tower",
+            "36": "Park Tower"
+        }
+    },
+    "15": {
+        "name": "Forest Garden",
+        "links": {
+            "38": "Port",
+            "28": "Meditation",
+            "33": "Observatory",
+            "21": "Knights Market",
+            "36": "Park Tower",
+            "23": "Mage Garden"
+        }
+    },
+    "16": {
+        "name": "Garden Passage",
+        "links": {
+            "12": "East Gates",
+            "54": "Tree Garden",
+            "44": "Sanctuary"
+        }
+    },
+    "17": {
+        "name": "Gardens",
+        "links": {
+            "7": "Botanist",
+            "48": "Spring Road",
+            "22": "Land Guardian"
+        }
+    },
+    "18": {
+        "name": "Gate Housing",
+        "links": {
+            "49": "Temple Gates",
+            "50": "Temple Housing",
+            "24": "Mage Tower"
+        }
+    },
+    "19": {
+        "name": "Kings Chamber",
+        "links": {
+            "6": "Bastion",
+            "24": "Mage Tower",
+            "20": "Kings Tower"
+        }
+    },
+    "20": {
+        "name": "Kings Tower",
+        "links": {
+            "6": "Bastion",
+            "19": "Kings Chamber",
+            "24": "Mage Tower"
+        }
+    },
+    "21": {
+        "name": "Knights Market",
+        "links": {
+            "23": "Mage Garden",
+            "14": "Food Market",
+            "36": "Park Tower",
+            "15": "Forest Garden"
+        }
+    },
+    "22": {
+        "name": "Land Guardian",
+        "links": {
+            "54": "Tree Garden",
+            "7": "Botanist",
+            "49": "Temple Gates",
+            "44": "Sanctuary",
+            "17": "Gardens",
+            "12": "East Gates"
+        }
+    },
+    "23": {
+        "name": "Mage Garden",
+        "links": {
+            "33": "Observatory",
+            "21": "Knights Market",
+            "15": "Forest Garden"
+        }
+    },
+    "24": {
+        "name": "Mage Tower",
+        "links": {
+            "19": "Kings Chamber",
+            "10": "City Gates",
+            "20": "Kings Tower",
+            "6": "Bastion",
+            "18": "Gate Housing"
+        }
+    },
+    "25": {
+        "name": "Main Library",
+        "links": {
+            "38": "Port",
+            "1": "Alchemists",
+            "11": "Doctors",
+            "37": "Philosophers"
+        }
+    },
+    "26": {
+        "name": "Market",
+        "links": {
+            "4": "Arena",
+            "53": "Training School",
+            "45": "Soldiers"
+        }
+    },
+    "27": {
+        "name": "Masons",
+        "links": {
+            "45": "Soldiers",
+            "12": "East Gates",
+            "9": "Carpenters"
+        }
+    },
+    "28": {
+        "name": "Meditation",
+        "links": {
+            "15": "Forest Garden",
+            "57": "Winter Garden",
+            "33": "Observatory"
+        }
+    },
+    "29": {
+        "name": "Merchant Tower",
+        "links": {
+            "14": "Food Market",
+            "30": "Merchants",
+            "50": "Temple Housing"
+        }
+    },
+    "30": {
+        "name": "Merchants",
+        "links": {
+            "14": "Food Market",
+            "42": "Sacret Gates",
+            "29": "Merchant Tower"
+        }
+    },
+    "31": {
+        "name": "Minor Library",
+        "links": {
+            "41": "River Tower",
+            "11": "Doctors",
+            "5": "Art Gallery",
+            "37": "Philosophers"
+        }
+    },
+    "32": {
+        "name": "Night Passage",
+        "links": {
+            "55": "West Gate",
+            "56": "West Tower",
+            "40": "Retreat",
+            "35": "Offerings",
+            "43": "Sacret Well"
+        }
+    },
+    "33": {
+        "name": "Observatory",
+        "links": {
+            "57": "Winter Garden",
+            "3": "Archers",
+            "23": "Mage Garden",
+            "15": "Forest Garden",
+            "28": "Meditation"
+        }
+    },
+    "34": {
+        "name": "Ocean Guardian",
+        "links": {
+            "46": "South Gate",
+            "55": "West Gate",
+            "42": "Sacret Gates"
+        }
+    },
+    "35": {
+        "name": "Offerings",
+        "links": {
+            "32": "Night Passage",
+            "55": "West Gate"
+        }
+    },
+    "36": {
+        "name": "Park Tower",
+        "links": {
+            "21": "Knights Market",
+            "14": "Food Market",
+            "15": "Forest Garden",
+            "37": "Philosophers"
+        }
+    },
+    "37": {
+        "name": "Philosophers",
+        "links": {
+            "11": "Doctors",
+            "25": "Main Library",
+            "31": "Minor Library",
+            "36": "Park Tower"
+        }
+    },
+    "38": {
+        "name": "Port",
+        "links": {
+            "13": "Food Hall",
+            "15": "Forest Garden",
+            "25": "Main Library",
+            "1": "Alchemists",
+            "41": "River Tower"
+        }
+    },
+    "39": {
+        "name": "Quarters",
+        "links": {
+            "53": "Training School",
+            "13": "Food Hall",
+            "57": "Winter Garden"
+        }
+    },
+    "40": {
+        "name": "Retreat",
+        "links": {
+            "43": "Sacret Well",
+            "32": "Night Passage"
+        }
+    },
+    "41": {
+        "name": "River Tower",
+        "links": {
+            "31": "Minor Library",
+            "11": "Doctors",
+            "5": "Art Gallery",
+            "38": "Port"
+        }
+    },
+    "42": {
+        "name": "Sacret Gates",
+        "links": {
+            "30": "Merchants",
+            "6": "Bastion",
+            "51": "Temple Market",
+            "34": "Ocean Guardian"
+        }
+    },
+    "43": {
+        "name": "Sacret Well",
+        "links": {
+            "5": "Art Gallery",
+            "40": "Retreat",
+            "32": "Night Passage"
+        }
+    },
+    "44": {
+        "name": "Sanctuary",
+        "links": {
+            "22": "Land Guardian",
+            "16": "Garden Passage",
+            "54": "Tree Garden"
+        }
+    },
+    "45": {
+        "name": "Soldiers",
+        "links": {
+            "4": "Arena",
+            "26": "Market",
+            "9": "Carpenters",
+            "27": "Masons"
+        }
+    },
+    "46": {
+        "name": "South Gate",
+        "links": {
+            "2": "Aqueduct",
+            "34": "Ocean Guardian"
+        }
+    },
+    "47": {
+        "name": "South Tower",
+        "links": {
+            "48": "Spring Road",
+            "2": "Aqueduct"
+        }
+    },
+    "48": {
+        "name": "Spring Road",
+        "links": {
+            "7": "Botanist",
+            "47": "South Tower",
+            "17": "Gardens",
+            "2": "Aqueduct"
+        }
+    },
+    "49": {
+        "name": "Temple Gates",
+        "links": {
+            "52": "Town Hall",
+            "22": "Land Guardian",
+            "18": "Gate Housing"
+        }
+    },
+    "50": {
+        "name": "Temple Housing",
+        "links": {
+            "18": "Gate Housing",
+            "51": "Temple Market",
+            "29": "Merchant Tower"
+        }
+    },
+    "51": {
+        "name": "Temple Market",
+        "links": {
+            "50": "Temple Housing",
+            "42": "Sacret Gates"
+        }
+    },
+    "52": {
+        "name": "Town Hall",
+        "links": {
+            "10": "City Gates",
+            "49": "Temple Gates"
+        }
+    },
+    "53": {
+        "name": "Training School",
+        "links": {
+            "26": "Market",
+            "4": "Arena",
+            "39": "Quarters"
+        }
+    },
+    "54": {
+        "name": "Tree Garden",
+        "links": {
+            "16": "Garden Passage",
+            "22": "Land Guardian",
+            "44": "Sanctuary"
+        }
+    },
+    "55": {
+        "name": "West Gate",
+        "links": {
+            "34": "Ocean Guardian",
+            "32": "Night Passage",
+            "35": "Offerings"
+        }
+    },
+    "56": {
+        "name": "West Tower",
+        "links": {
+            "32": "Night Passage"
+        }
+    },
+    "57": {
+        "name": "Winter Garden",
+        "links": {
+            "28": "Meditation",
+            "8": "Brewery",
+            "3": "Archers",
+            "33": "Observatory",
+            "39": "Quarters"
+        }
+    }
+}

@@ -1,0 +1,595 @@
+{
+    "1": {
+        "name": "Nose",
+        "links": {
+            "2": "Eyes",
+            "44": "Tail"
+        }
+    },
+    "2": {
+        "name": "Eyes",
+        "links": {
+            "4": "Eidunn",
+            "3": "Gull",
+            "1": "Nose"
+        }
+    },
+    "3": {
+        "name": "Gull",
+        "links": {
+            "2": "Eyes",
+            "4": "Eidunn",
+            "5": "Eirunn"
+        }
+    },
+    "4": {
+        "name": "Eidunn",
+        "links": {
+            "2": "Eyes",
+            "46": "Living Shore",
+            "3": "Gull",
+            "5": "Eirunn"
+        }
+    },
+    "5": {
+        "name": "Eirunn",
+        "links": {
+            "4": "Eidunn",
+            "6": "Hella",
+            "3": "Gull",
+            "7": "Snorri"
+        }
+    },
+    "6": {
+        "name": "Hella",
+        "links": {
+            "8": "Skal",
+            "5": "Eirunn",
+            "7": "Snorri"
+        }
+    },
+    "7": {
+        "name": "Snorri",
+        "links": {
+            "5": "Eirunn",
+            "8": "Skal",
+            "6": "Hella",
+            "9": "Aki"
+        }
+    },
+    "8": {
+        "name": "Skal",
+        "links": {
+            "6": "Hella",
+            "9": "Aki",
+            "7": "Snorri"
+        }
+    },
+    "9": {
+        "name": "Aki",
+        "links": {
+            "10": "Hel",
+            "8": "Skal",
+            "11": "Haldor",
+            "7": "Snorri"
+        }
+    },
+    "10": {
+        "name": "Hel",
+        "links": {
+            "11": "Haldor",
+            "9": "Aki"
+        }
+    },
+    "11": {
+        "name": "Haldor",
+        "links": {
+            "10": "Hel",
+            "13": "Brynja",
+            "9": "Aki",
+            "49": "Vetarhall",
+            "12": "Gudridr"
+        }
+    },
+    "12": {
+        "name": "Gudridr",
+        "links": {
+            "13": "Brynja",
+            "14": "Alfhild",
+            "11": "Haldor"
+        }
+    },
+    "13": {
+        "name": "Brynja",
+        "links": {
+            "14": "Alfhild",
+            "11": "Haldor",
+            "12": "Gudridr"
+        }
+    },
+    "14": {
+        "name": "Alfhild",
+        "links": {
+            "13": "Brynja",
+            "15": "Ivor",
+            "12": "Gudridr"
+        }
+    },
+    "15": {
+        "name": "Ivor",
+        "links": {
+            "51": "Breidablik",
+            "14": "Alfhild",
+            "58": "Thr\u00fadheim"
+        }
+    },
+    "16": {
+        "name": "Agnar",
+        "links": {
+            "59": "Bilskirnir",
+            "17": "Ragnar",
+            "18": "Einar"
+        }
+    },
+    "17": {
+        "name": "Ragnar",
+        "links": {
+            "16": "Agnar",
+            "20": "Olaf",
+            "18": "Einar"
+        }
+    },
+    "18": {
+        "name": "Einar",
+        "links": {
+            "16": "Agnar",
+            "17": "Ragnar",
+            "19": "Saga",
+            "20": "Olaf"
+        }
+    },
+    "19": {
+        "name": "Saga",
+        "links": {
+            "21": "Erling",
+            "20": "Olaf",
+            "63": "Amsvartnir",
+            "18": "Einar"
+        }
+    },
+    "20": {
+        "name": "Olaf",
+        "links": {
+            "21": "Erling",
+            "17": "Ragnar",
+            "18": "Einar",
+            "19": "Saga"
+        }
+    },
+    "21": {
+        "name": "Erling",
+        "links": {
+            "22": "Ylva",
+            "23": "Torkel",
+            "20": "Olaf",
+            "19": "Saga"
+        }
+    },
+    "22": {
+        "name": "Ylva",
+        "links": {
+            "21": "Erling",
+            "23": "Torkel",
+            "24": "Gudrun",
+            "68": "\u00dddalir"
+        }
+    },
+    "23": {
+        "name": "Torkel",
+        "links": {
+            "22": "Ylva",
+            "21": "Erling",
+            "24": "Gudrun"
+        }
+    },
+    "24": {
+        "name": "Gudrun",
+        "links": {
+            "22": "Ylva",
+            "23": "Torkel",
+            "25": "Oda"
+        }
+    },
+    "25": {
+        "name": "Oda",
+        "links": {
+            "26": "Nerthus",
+            "24": "Gudrun",
+            "27": "Erland"
+        }
+    },
+    "26": {
+        "name": "Nerthus",
+        "links": {
+            "28": "Astridr",
+            "27": "Erland",
+            "25": "Oda"
+        }
+    },
+    "27": {
+        "name": "Erland",
+        "links": {
+            "25": "Oda",
+            "26": "Nerthus",
+            "28": "Astridr"
+        }
+    },
+    "28": {
+        "name": "Astridr",
+        "links": {
+            "69": "Valhalla",
+            "26": "Nerthus",
+            "30": "Magnhild",
+            "29": "Randi",
+            "27": "Erland"
+        }
+    },
+    "29": {
+        "name": "Randi",
+        "links": {
+            "28": "Astridr",
+            "30": "Magnhild",
+            "32": "Hakon",
+            "31": "Bo"
+        }
+    },
+    "30": {
+        "name": "Magnhild",
+        "links": {
+            "28": "Astridr",
+            "29": "Randi",
+            "32": "Hakon"
+        }
+    },
+    "31": {
+        "name": "Bo",
+        "links": {
+            "34": "Asdis",
+            "29": "Randi",
+            "33": "Vigdis",
+            "32": "Hakon"
+        }
+    },
+    "32": {
+        "name": "Hakon",
+        "links": {
+            "34": "Asdis",
+            "30": "Magnhild",
+            "29": "Randi",
+            "31": "Bo"
+        }
+    },
+    "33": {
+        "name": "Vigdis",
+        "links": {
+            "31": "Bo",
+            "34": "Asdis",
+            "35": "Bergljot"
+        }
+    },
+    "34": {
+        "name": "Asdis",
+        "links": {
+            "35": "Bergljot",
+            "33": "Vigdis",
+            "32": "Hakon",
+            "31": "Bo"
+        }
+    },
+    "35": {
+        "name": "Bergljot",
+        "links": {
+            "36": "Ove",
+            "67": "Ur\u00f0arbrunnr",
+            "34": "Asdis",
+            "33": "Vigdis"
+        }
+    },
+    "36": {
+        "name": "Ove",
+        "links": {
+            "64": "V\u00edgr\u00ed\u00f0r",
+            "38": "Runar",
+            "35": "Bergljot",
+            "37": "Aslaug"
+        }
+    },
+    "37": {
+        "name": "Aslaug",
+        "links": {
+            "39": "Sigmund",
+            "36": "Ove",
+            "38": "Runar"
+        }
+    },
+    "38": {
+        "name": "Runar",
+        "links": {
+            "39": "Sigmund",
+            "40": "Sindri",
+            "36": "Ove",
+            "37": "Aslaug"
+        }
+    },
+    "39": {
+        "name": "Sigmund",
+        "links": {
+            "40": "Sindri",
+            "56": "Himinbj\u00f6rg",
+            "38": "Runar",
+            "37": "Aslaug"
+        }
+    },
+    "40": {
+        "name": "Sindri",
+        "links": {
+            "39": "Sigmund",
+            "41": "Borghild",
+            "42": "Stigr",
+            "38": "Runar"
+        }
+    },
+    "41": {
+        "name": "Borghild",
+        "links": {
+            "40": "Sindri",
+            "42": "Stigr"
+        }
+    },
+    "42": {
+        "name": "Stigr",
+        "links": {
+            "41": "Borghild",
+            "40": "Sindri",
+            "43": "Torhild",
+            "48": "Su\u00f0ri Fields"
+        }
+    },
+    "43": {
+        "name": "Torhild",
+        "links": {
+            "42": "Stigr",
+            "44": "Tail"
+        }
+    },
+    "44": {
+        "name": "Tail",
+        "links": {
+            "1": "Nose",
+            "43": "Torhild"
+        }
+    },
+    "45": {
+        "name": "V\u00ed\u00f0arr",
+        "links": {
+            "47": "Nor\u00f0ri Fields",
+            "46": "Living Shore",
+            "48": "Su\u00f0ri Fields"
+        }
+    },
+    "46": {
+        "name": "Living Shore",
+        "links": {
+            "4": "Eidunn",
+            "48": "Su\u00f0ri Fields",
+            "47": "Nor\u00f0ri Fields",
+            "45": "V\u00ed\u00f0arr"
+        }
+    },
+    "47": {
+        "name": "Nor\u00f0ri Fields",
+        "links": {
+            "45": "V\u00ed\u00f0arr",
+            "52": "F\u00f3lkvangr",
+            "48": "Su\u00f0ri Fields",
+            "49": "Vetarhall",
+            "46": "Living Shore"
+        }
+    },
+    "48": {
+        "name": "Su\u00f0ri Fields",
+        "links": {
+            "47": "Nor\u00f0ri Fields",
+            "45": "V\u00ed\u00f0arr",
+            "52": "F\u00f3lkvangr",
+            "46": "Living Shore",
+            "42": "Stigr",
+            "54": "I\u00f0av\u00f6llr"
+        }
+    },
+    "49": {
+        "name": "Vetarhall",
+        "links": {
+            "47": "Nor\u00f0ri Fields",
+            "50": "Sessrumnir",
+            "52": "F\u00f3lkvangr",
+            "11": "Haldor"
+        }
+    },
+    "50": {
+        "name": "Sessrumnir",
+        "links": {
+            "51": "Breidablik",
+            "52": "F\u00f3lkvangr",
+            "49": "Vetarhall"
+        }
+    },
+    "51": {
+        "name": "Breidablik",
+        "links": {
+            "50": "Sessrumnir",
+            "52": "F\u00f3lkvangr",
+            "15": "Ivor",
+            "53": "Ving\u00f3lf"
+        }
+    },
+    "52": {
+        "name": "F\u00f3lkvangr",
+        "links": {
+            "51": "Breidablik",
+            "47": "Nor\u00f0ri Fields",
+            "50": "Sessrumnir",
+            "54": "I\u00f0av\u00f6llr",
+            "55": "Valaskj\u00e1lf",
+            "48": "Su\u00f0ri Fields",
+            "53": "Ving\u00f3lf",
+            "49": "Vetarhall"
+        }
+    },
+    "53": {
+        "name": "Ving\u00f3lf",
+        "links": {
+            "51": "Breidablik",
+            "52": "F\u00f3lkvangr",
+            "60": "Glitner",
+            "55": "Valaskj\u00e1lf"
+        }
+    },
+    "54": {
+        "name": "I\u00f0av\u00f6llr",
+        "links": {
+            "52": "F\u00f3lkvangr",
+            "56": "Himinbj\u00f6rg",
+            "55": "Valaskj\u00e1lf",
+            "48": "Su\u00f0ri Fields"
+        }
+    },
+    "55": {
+        "name": "Valaskj\u00e1lf",
+        "links": {
+            "57": "Gla\u00f0sheimr",
+            "52": "F\u00f3lkvangr",
+            "54": "I\u00f0av\u00f6llr",
+            "53": "Ving\u00f3lf"
+        }
+    },
+    "56": {
+        "name": "Himinbj\u00f6rg",
+        "links": {
+            "39": "Sigmund",
+            "54": "I\u00f0av\u00f6llr",
+            "57": "Gla\u00f0sheimr"
+        }
+    },
+    "57": {
+        "name": "Gla\u00f0sheimr",
+        "links": {
+            "56": "Himinbj\u00f6rg",
+            "55": "Valaskj\u00e1lf"
+        }
+    },
+    "58": {
+        "name": "Thr\u00fadheim",
+        "links": {
+            "15": "Ivor",
+            "60": "Glitner",
+            "59": "Bilskirnir"
+        }
+    },
+    "59": {
+        "name": "Bilskirnir",
+        "links": {
+            "62": "N\u00f3at\u00fan",
+            "60": "Glitner",
+            "16": "Agnar",
+            "58": "Thr\u00fadheim",
+            "63": "Amsvartnir"
+        }
+    },
+    "60": {
+        "name": "Glitner",
+        "links": {
+            "59": "Bilskirnir",
+            "61": "S\u00f3lbr\u00e1\u00f0",
+            "62": "N\u00f3at\u00fan",
+            "58": "Thr\u00fadheim",
+            "53": "Ving\u00f3lf"
+        }
+    },
+    "61": {
+        "name": "S\u00f3lbr\u00e1\u00f0",
+        "links": {
+            "62": "N\u00f3at\u00fan",
+            "60": "Glitner",
+            "65": "Fensalir"
+        }
+    },
+    "62": {
+        "name": "N\u00f3at\u00fan",
+        "links": {
+            "59": "Bilskirnir",
+            "61": "S\u00f3lbr\u00e1\u00f0",
+            "60": "Glitner",
+            "63": "Amsvartnir"
+        }
+    },
+    "63": {
+        "name": "Amsvartnir",
+        "links": {
+            "59": "Bilskirnir",
+            "66": "S\u00f6kkvabekkr",
+            "62": "N\u00f3at\u00fan",
+            "19": "Saga"
+        }
+    },
+    "64": {
+        "name": "V\u00edgr\u00ed\u00f0r",
+        "links": {
+            "36": "Ove",
+            "67": "Ur\u00f0arbrunnr",
+            "65": "Fensalir"
+        }
+    },
+    "65": {
+        "name": "Fensalir",
+        "links": {
+            "61": "S\u00f3lbr\u00e1\u00f0",
+            "66": "S\u00f6kkvabekkr",
+            "64": "V\u00edgr\u00ed\u00f0r"
+        }
+    },
+    "66": {
+        "name": "S\u00f6kkvabekkr",
+        "links": {
+            "69": "Valhalla",
+            "68": "\u00dddalir",
+            "63": "Amsvartnir",
+            "65": "Fensalir"
+        }
+    },
+    "67": {
+        "name": "Ur\u00f0arbrunnr",
+        "links": {
+            "69": "Valhalla",
+            "64": "V\u00edgr\u00ed\u00f0r",
+            "35": "Bergljot"
+        }
+    },
+    "68": {
+        "name": "\u00dddalir",
+        "links": {
+            "69": "Valhalla",
+            "66": "S\u00f6kkvabekkr",
+            "22": "Ylva"
+        }
+    },
+    "69": {
+        "name": "Valhalla",
+        "links": {
+            "66": "S\u00f6kkvabekkr",
+            "67": "Ur\u00f0arbrunnr",
+            "28": "Astridr",
+            "68": "\u00dddalir"
+        }
+    }
+}

@@ -1,0 +1,357 @@
+{
+    "1": {
+        "name": "Found Books",
+        "links": {
+            "2": "Bound Books",
+            "5": "Lost Books",
+            "37": "Dino Barracks"
+        }
+    },
+    "2": {
+        "name": "Bound Books",
+        "links": {
+            "5": "Lost Books",
+            "1": "Found Books",
+            "4": "History Of Torn Land",
+            "3": "Open Books"
+        }
+    },
+    "3": {
+        "name": "Open Books",
+        "links": {
+            "2": "Bound Books",
+            "4": "History Of Torn Land",
+            "25": "Picture Books"
+        }
+    },
+    "4": {
+        "name": "History Of Torn Land",
+        "links": {
+            "3": "Open Books",
+            "2": "Bound Books",
+            "38": "Dino Sentry",
+            "5": "Lost Books"
+        }
+    },
+    "5": {
+        "name": "Lost Books",
+        "links": {
+            "2": "Bound Books",
+            "4": "History Of Torn Land",
+            "38": "Dino Sentry",
+            "1": "Found Books",
+            "37": "Dino Barracks"
+        }
+    },
+    "36": {
+        "name": "Watchtower",
+        "links": {
+            "39": "Forbidden Books",
+            "6": "Braille Books",
+            "28": "Important Books"
+        }
+    },
+    "37": {
+        "name": "Dino Barracks",
+        "links": {
+            "39": "Forbidden Books",
+            "5": "Lost Books",
+            "1": "Found Books",
+            "38": "Dino Sentry"
+        }
+    },
+    "38": {
+        "name": "Dino Sentry",
+        "links": {
+            "39": "Forbidden Books",
+            "4": "History Of Torn Land",
+            "5": "Lost Books",
+            "37": "Dino Barracks"
+        }
+    },
+    "39": {
+        "name": "Forbidden Books",
+        "links": {
+            "38": "Dino Sentry",
+            "36": "Watchtower",
+            "37": "Dino Barracks"
+        }
+    },
+    "6": {
+        "name": "Braille Books",
+        "links": {
+            "8": "Alarm Bells",
+            "7": "Butterfly Room",
+            "36": "Watchtower",
+            "11": "Wide Books"
+        }
+    },
+    "7": {
+        "name": "Butterfly Room",
+        "links": {
+            "12": "Villa",
+            "6": "Braille Books",
+            "11": "Wide Books"
+        }
+    },
+    "8": {
+        "name": "Alarm Bells",
+        "links": {
+            "11": "Wide Books",
+            "10": "Tall Books",
+            "6": "Braille Books"
+        }
+    },
+    "9": {
+        "name": "Scribes",
+        "links": {
+            "14": "Courtyard",
+            "13": "Storytellers Den",
+            "10": "Tall Books"
+        }
+    },
+    "10": {
+        "name": "Tall Books",
+        "links": {
+            "8": "Alarm Bells",
+            "14": "Courtyard",
+            "9": "Scribes",
+            "11": "Wide Books"
+        }
+    },
+    "11": {
+        "name": "Wide Books",
+        "links": {
+            "8": "Alarm Bells",
+            "7": "Butterfly Room",
+            "12": "Villa",
+            "14": "Courtyard",
+            "6": "Braille Books",
+            "10": "Tall Books"
+        }
+    },
+    "12": {
+        "name": "Villa",
+        "links": {
+            "40": "Really Scary Books",
+            "14": "Courtyard",
+            "11": "Wide Books",
+            "13": "Storytellers Den",
+            "7": "Butterfly Room"
+        }
+    },
+    "13": {
+        "name": "Storytellers Den",
+        "links": {
+            "12": "Villa",
+            "14": "Courtyard",
+            "9": "Scribes"
+        }
+    },
+    "14": {
+        "name": "Courtyard",
+        "links": {
+            "13": "Storytellers Den",
+            "12": "Villa",
+            "9": "Scribes",
+            "10": "Tall Books",
+            "11": "Wide Books"
+        }
+    },
+    "40": {
+        "name": "Really Scary Books",
+        "links": {
+            "12": "Villa",
+            "30": "Lavatories",
+            "41": "Scary Books"
+        }
+    },
+    "41": {
+        "name": "Scary Books",
+        "links": {
+            "40": "Really Scary Books",
+            "34": "Source Material"
+        }
+    },
+    "33": {
+        "name": "Sauce Recipes",
+        "links": {
+            "35": "Study Room",
+            "19": "Flying Books",
+            "15": "Collections",
+            "34": "Source Material"
+        }
+    },
+    "34": {
+        "name": "Source Material",
+        "links": {
+            "35": "Study Room",
+            "17": "Farming Books",
+            "33": "Sauce Recipes",
+            "41": "Scary Books"
+        }
+    },
+    "35": {
+        "name": "Study Room",
+        "links": {
+            "19": "Flying Books",
+            "33": "Sauce Recipes",
+            "34": "Source Material",
+            "17": "Farming Books"
+        }
+    },
+    "15": {
+        "name": "Collections",
+        "links": {
+            "19": "Flying Books",
+            "16": "Returns",
+            "33": "Sauce Recipes"
+        }
+    },
+    "16": {
+        "name": "Returns",
+        "links": {
+            "18": "Books About Flying",
+            "19": "Flying Books",
+            "15": "Collections",
+            "21": "Decryptors"
+        }
+    },
+    "17": {
+        "name": "Farming Books",
+        "links": {
+            "18": "Books About Flying",
+            "35": "Study Room",
+            "19": "Flying Books",
+            "34": "Source Material"
+        }
+    },
+    "18": {
+        "name": "Books About Flying",
+        "links": {
+            "19": "Flying Books",
+            "16": "Returns",
+            "17": "Farming Books"
+        }
+    },
+    "19": {
+        "name": "Flying Books",
+        "links": {
+            "16": "Returns",
+            "18": "Books About Flying",
+            "35": "Study Room",
+            "15": "Collections",
+            "33": "Sauce Recipes",
+            "17": "Farming Books"
+        }
+    },
+    "20": {
+        "name": "Secret Books",
+        "links": {
+            "22": "Encryptors",
+            "21": "Decryptors",
+            "23": "Eastern Gate"
+        }
+    },
+    "21": {
+        "name": "Decryptors",
+        "links": {
+            "16": "Returns",
+            "22": "Encryptors",
+            "20": "Secret Books"
+        }
+    },
+    "22": {
+        "name": "Encryptors",
+        "links": {
+            "20": "Secret Books",
+            "21": "Decryptors",
+            "31": "Lava Research"
+        }
+    },
+    "23": {
+        "name": "Eastern Gate",
+        "links": {
+            "20": "Secret Books",
+            "25": "Picture Books",
+            "24": "Archway"
+        }
+    },
+    "24": {
+        "name": "Archway",
+        "links": {
+            "26": "Lockpicking Guides",
+            "25": "Picture Books",
+            "23": "Eastern Gate"
+        }
+    },
+    "25": {
+        "name": "Picture Books",
+        "links": {
+            "3": "Open Books",
+            "24": "Archway",
+            "23": "Eastern Gate"
+        }
+    },
+    "30": {
+        "name": "Lavatories",
+        "links": {
+            "27": "Lava Pumps",
+            "29": "Metal Smith",
+            "40": "Really Scary Books",
+            "32": "Lava Refinement",
+            "31": "Lava Research"
+        }
+    },
+    "31": {
+        "name": "Lava Research",
+        "links": {
+            "22": "Encryptors",
+            "27": "Lava Pumps",
+            "32": "Lava Refinement",
+            "30": "Lavatories"
+        }
+    },
+    "32": {
+        "name": "Lava Refinement",
+        "links": {
+            "31": "Lava Research",
+            "30": "Lavatories"
+        }
+    },
+    "26": {
+        "name": "Lockpicking Guides",
+        "links": {
+            "27": "Lava Pumps",
+            "29": "Metal Smith",
+            "28": "Important Books",
+            "24": "Archway"
+        }
+    },
+    "27": {
+        "name": "Lava Pumps",
+        "links": {
+            "31": "Lava Research",
+            "30": "Lavatories",
+            "26": "Lockpicking Guides",
+            "29": "Metal Smith"
+        }
+    },
+    "28": {
+        "name": "Important Books",
+        "links": {
+            "36": "Watchtower",
+            "26": "Lockpicking Guides",
+            "29": "Metal Smith"
+        }
+    },
+    "29": {
+        "name": "Metal Smith",
+        "links": {
+            "26": "Lockpicking Guides",
+            "27": "Lava Pumps",
+            "28": "Important Books",
+            "30": "Lavatories"
+        }
+    }
+}
