@@ -64,6 +64,17 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 - All arrow types (straight, bidirectional) are now draggable in select mode.
 - Improved pathing and arrow editing stability.
 
+## Version
+
+**Current Version:** v1.1.2 (Curved Arrows)
+
+## What's New in v1.1.2
+
+- Support for curved arrows (one-way and bidirectional)
+- Bidirectional arrows now render as a single curve with arrowheads at both ends
+- One-way arrows support curvature and always show a single arrowhead
+- All arrowheads now have a black outline for better visibility
+
 ## Getting Started
 
 1. Visit https://pukkavxr.github.io/MapGenie/

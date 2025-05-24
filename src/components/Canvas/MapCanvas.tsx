@@ -8,7 +8,7 @@ import useImage from 'use-image';
 import { v4 as uuidv4 } from 'uuid';
 import { useTheme } from '@mui/material/styles';
 import zombiemodeImg from '../../../public/Zombiemode.png';
-import { getArrow } from 'curved-arrows';
+import bezier from 'adaptive-bezier-curve';
 
 const CANVAS_INITIAL_WIDTH = 1200;
 const CANVAS_INITIAL_HEIGHT = 800;
@@ -36,10 +36,9 @@ const ZOMBIE_ARROW_ORDER_COLORS = [
   '#e040fb', // Octonary
 ];
 
-/* Insert type declaration for curved-arrows (since it does not ship with its own types) */
-declare module 'curved-arrows' {
-  export function getArrow(x0: number, y0: number, x1: number, y1: number, options?: { padStart?: number; padEnd?: number; controlPointStretch?: number; }): [number, number, number, number, number, number, number, number, number, number];
-}
+const ZOMBIE_ARROW_COLORS = [
+  '#f44336', '#ff9800', '#ffeb3b', '#4caf50', '#00bcd4', '#3f51b5', '#9c27b0', '#e040fb', '#222', '#fff'
+];
 
 const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMode: boolean, zombieTool: string, zombieNumberFont: string, zombieNumberFontSize: number, zombieNumberColor: string, zombieArrowColor: string, zombieArrowSize: number }>(
   ({ backgroundImage, isZombieMode, zombieTool, zombieNumberFont, zombieNumberFontSize, zombieNumberColor, zombieArrowColor, zombieArrowSize }, ref) => {
@@ -599,7 +598,6 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       autoPathFromJson: (json: any) => {
         console.log('autoPathFromJson called with:', json);
         console.log('Current zombieNumbers:', zombieNumbers);
-        const ARROW_SHORTEN = 28; // px to trim from each end
         const numMap = new Map(zombieNumbers.map(n => [n.value, n]));
         const newArrows: any[] = [];
         // --- Improved offset logic with bidirectional support ---
@@ -949,6 +947,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       length: number; // new
       midX: number; // new
       midY: number; // new
+      curvature: number;
     }[]>([]);
     const [drawingZombieArrow, setDrawingZombieArrow] = useState<null | { x1: number; y1: number; x2: number; y2: number; color: string; strokeWidth: number }>(null);
 
@@ -988,6 +987,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
             length,
             midX,
             midY,
+            curvature: 0,
           }
         ]);
         setDrawingZombieArrow(null);
@@ -996,17 +996,11 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
 
     // Add to MapCanvas component state:
     const [selectedZombieArrowId, setSelectedZombieArrowId] = useState<string | null>(null);
-    const [zombieArrowEditorPos, setZombieArrowEditorPos] = useState<{ x: number; y: number } | null>(null);
-    const ZOMBIE_ARROW_COLORS = [
-      '#f44336', '#ff9800', '#ffeb3b', '#4caf50', '#00bcd4', '#3f51b5', '#9c27b0', '#e040fb', '#222', '#fff'
-    ];
 
     // Arrow click handler
     const handleZombieArrowClick = (arrow: any) => {
       if (zombieTool === 'select') {
         setSelectedZombieArrowId(arrow.id);
-        // Editor at midpoint
-        setZombieArrowEditorPos({ x: (arrow.x1 + arrow.x2) / 2, y: (arrow.y1 + arrow.y2) / 2 });
       }
     };
     // Arrow edit handler
@@ -1017,7 +1011,6 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
     const handleZombieArrowDelete = (id: string) => {
       setZombieArrows(arrows => arrows.filter(a => a.id !== id));
       setSelectedZombieArrowId(null);
-      setZombieArrowEditorPos(null);
     };
 
     // Deselect on canvas click (if not clicking an arrow)
@@ -1026,14 +1019,12 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       const pointer = getCanvasPointer(stage);
       if (isZombieMode && zombieTool === 'arrow') {
         setSelectedZombieArrowId(null);
-        setZombieArrowEditorPos(null);
         // Always start drawing a new arrow, even if clicking near an existing arrow
         handleZombieArrowMouseDown(pointer);
         return;
       }
       if (isZombieMode && zombieTool === 'number') {
         setSelectedZombieNumberId(null);
-        setZombieEditorPos(null);
         // Always place a new number, even if clicking near an existing number
         handleZombieNumberPlace(pointer);
         return;
@@ -1041,7 +1032,6 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
       // Only clear selection if clicking on empty canvas (Stage)
       if (e && e.target && e.target === e.target.getStage()) {
         setSelectedZombieArrowId(null);
-        setZombieArrowEditorPos(null);
       }
     };
     const handleStageMouseMoveZombie = () => {
@@ -1257,7 +1247,6 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
         setSelectedZombieNumberId(null);
         setZombieEditorPos(null);
         setSelectedZombieArrowId(null);
-        setZombieArrowEditorPos(null);
       }
     }, [zombieTool, isZombieMode]);
 
@@ -1386,44 +1375,27 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
     // Add state for draggable arrow editor panel position
     const [arrowEditorPanelPos, setArrowEditorPanelPos] = useState<{ right: number; bottom: number }>({ right: 32, bottom: 32 });
 
-    // Curved arrow support
-    function getCurvedPoints(x1: number, y1: number, x2: number, y2: number, mx: number, my: number, curvature: number) {
-      if (!curvature) return [x1 - mx, y1 - my, x2 - mx, y2 - my];
-      // Calculate control point for quadratic Bezier
-      const cx = (x1 + x2) / 2 + (curvature * (y2 - y1)) / Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
-      const cy = (y1 + y2) / 2 - (curvature * (x2 - x1)) / Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
-      return [x1 - mx, y1 - my, cx - mx, cy - my, x2 - mx, y2 - my];
-    }
-
-    // Replace getCurvedPoints with a new function for quadratic Bezier
-    function getQuadraticCurvePoints(x1: number, y1: number, x2: number, y2: number, curvature: number): number[] {
-      // Midpoint
-      const mx = (x1 + x2) / 2;
-      const my = (y1 + y2) / 2;
-      // Perpendicular vector
-      const dx = x2 - x1;
-      const dy = y2 - y1;
-      const len = Math.sqrt(dx * dx + dy * dy) || 1;
-      const perpX = -dy / len;
-      const perpY = dx / len;
-      // Control point offset by curvature
-      const cx = mx + perpX * curvature;
-      const cy = my + perpY * curvature;
-      return [x1, y1, cx, cy, x2, y2];
-    }
-    // Helper: get tangent angle at t (0=start, 1=end) for quadratic Bezier
-    function getQuadraticTangentAngle(x1: number, y1: number, cx: number, cy: number, x2: number, y2: number, t: number): number {
-      const dx = 2 * (1 - t) * (cx - x1) + 2 * t * (x2 - cx);
-      const dy = 2 * (1 - t) * (cy - y1) + 2 * t * (y2 - cy);
-      return Math.atan2(dy, dx);
-    }
-
     // Add this utility function near the other utilities:
     function getArrowSizes(strokeWidth: number) {
       const pointerLength = Math.max(16, strokeWidth * 3);
       const pointerWidth = Math.max(12, strokeWidth * 2.2);
       const outlineStrokeWidth = strokeWidth + 2;
       return { pointerLength, pointerWidth, outlineStrokeWidth };
+    }
+
+    // Improved control point calculation for visible curve
+    function getCubicControlPoints(x1: number, y1: number, x2: number, y2: number, curvature: number) {
+      const mx = (x1 + x2) / 2;
+      const my = (y1 + y2) / 2;
+      const dx = x2 - x1;
+      const dy = y2 - y1;
+      const len = Math.sqrt(dx * dx + dy * dy) || 1;
+      const perpX = -dy / len;
+      const perpY = dx / len;
+      // Offset c1 closer to start, c2 closer to end
+      const c1 = [x1 + (mx - x1) * 0.7 + perpX * curvature, y1 + (my - y1) * 0.7 + perpY * curvature];
+      const c2 = [x2 + (mx - x2) * 0.7 + perpX * curvature, y2 + (my - y2) * 0.7 + perpY * curvature];
+      return [c1, c2];
     }
 
     return (
@@ -1889,131 +1861,162 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
                   const y1 = my - halfLen * sinA;
                   const x2 = mx + halfLen * cosA;
                   const y2 = my + halfLen * sinA;
-                  // For straight arrows, use [x1, y1, x2, y2] (with mx/my offset)
-                  const linePoints = [x1, y1, x2, y2];
                   // Calculate arrowhead size based on thickness (using getArrowSizes)
                   const { pointerLength, pointerWidth, outlineStrokeWidth } = getArrowSizes(arrow.strokeWidth || 2);
                   if (arrow.bidirectional) {
-                    // Straight bidirectional arrow (render two Arrow components (outline and colored) in opposite directions) (using mx/my offset)
-                    const mx = (x1 + x2) / 2;
-                    const my = (y1 + y2) / 2;
-                    return (
-                      <Group
-                        key={arrow.id}
-                        draggable={isZombieMode && zombieTool === 'select'}
-                        onDragEnd={e => {
-                          const dx = e.target.x();
-                          const dy = e.target.y();
-                          handleZombieArrowEdit(arrow.id, {
-                            x1: arrow.x1 + dx,
-                            y1: arrow.y1 + dy,
-                            x2: arrow.x2 + dx,
-                            y2: arrow.y2 + dy,
-                            midX: arrow.midX + dx,
-                            midY: arrow.midY + dy,
-                          });
-                          e.target.x(0);
-                          e.target.y(0);
-                        }}
-                        onClick={() => handleZombieArrowClick(arrow)}
-                        onMouseEnter={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'pointer'; }}
-                        onMouseLeave={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'default'; }}
-                        listening={true}
-                      >
-                        {/* OUTLINE: Arrow (x1 -> x2) (using mx/my offset) */}
-                        <Arrow
-                          x={mx}
-                          y={my}
-                          points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
-                          stroke="#000"
-                          fill="#000"
-                          strokeWidth={outlineStrokeWidth}
-                          pointerLength={pointerLength}
-                          pointerWidth={pointerWidth}
-                          lineCap="round"
-                          lineJoin="round"
-                          perfectDrawEnabled={false}
+                    if (arrow.curvature) {
+                      // Single curved shaft from start to end
+                      const [c1, c2] = getCubicControlPoints(x1, y1, x2, y2, arrow.curvature) as [[number, number], [number, number]];
+                      const points = bezier([x1, y1], c1, c2, [x2, y2], 1);
+                      const flatPoints = points.flat();
+                      // Arrowhead angles
+                      const n = points.length;
+                      const [xA1, yA1] = points[n - 2];
+                      const [xB1, yB1] = points[n - 1];
+                      const angle1 = Math.atan2(yB1 - yA1, xB1 - xA1) * 180 / Math.PI;
+                      const [xA2, yA2] = points[1];
+                      const [xB2, yB2] = points[0];
+                      const angle2 = Math.atan2(yB2 - yA2, xB2 - xA2) * 180 / Math.PI;
+                      return (
+                        <Group
+                          key={arrow.id}
+                          draggable={isZombieMode && zombieTool === 'select'}
+                          onDragEnd={e => {
+                            const dx = e.target.x();
+                            const dy = e.target.y();
+                            handleZombieArrowEdit(arrow.id, {
+                              x1: arrow.x1 + dx,
+                              y1: arrow.y1 + dy,
+                              x2: arrow.x2 + dx,
+                              y2: arrow.y2 + dy,
+                              midX: arrow.midX + dx,
+                              midY: arrow.midY + dy,
+                            });
+                            e.target.x(0);
+                            e.target.y(0);
+                          }}
+                          onClick={() => handleZombieArrowClick(arrow)}
+                          onMouseEnter={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'pointer'; }}
+                          onMouseLeave={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'default'; }}
                           listening={true}
-                        />
-                        {/* OUTLINE: Arrow (x2 -> x1) (for bidirectional) (using mx/my offset) */}
-                        <Arrow
-                              x={mx}
-                              y={my}
-                          points={[x2 - mx, y2 - my, x1 - mx, y1 - my]}
-                          stroke="#000"
-                          fill="#000"
-                          strokeWidth={outlineStrokeWidth}
-                          pointerLength={pointerLength}
-                          pointerWidth={pointerWidth}
-                          lineCap="round"
-                          lineJoin="round"
-                          perfectDrawEnabled={false}
-                          listening={true}
-                        />
-                        {/* Colored Arrow (x1 -> x2) (using mx/my offset) */}
-                        <Arrow
-                          x={mx}
-                          y={my}
-                            points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
-                          stroke={arrow.color}
-                          fill={arrow.color}
-                          strokeWidth={arrow.strokeWidth}
-                            pointerLength={pointerLength}
-                            pointerWidth={pointerWidth}
-                          lineCap="round"
-                          lineJoin="round"
-                          perfectDrawEnabled={false}
+                        >
+                          {/* OUTLINE: Curved shaft (single) */}
+                          <Line
+                            points={flatPoints}
+                            stroke="#000"
+                            strokeWidth={outlineStrokeWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
                             listening={true}
                           />
-                        {/* Colored Arrow (x2 -> x1) (for bidirectional) (using mx/my offset) */}
-                        <Arrow
-                          x={mx}
-                          y={my}
-                            points={[x2 - mx, y2 - my, x1 - mx, y1 - my]}
-                          stroke={arrow.color}
-                          fill={arrow.color}
-                          strokeWidth={arrow.strokeWidth}
-                            pointerLength={pointerLength}
-                            pointerWidth={pointerWidth}
-                          lineCap="round"
-                          lineJoin="round"
-                          perfectDrawEnabled={false}
+                          {/* Colored curved shaft (single) */}
+                          <Line
+                            points={flatPoints}
+                            stroke={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
                             listening={true}
                           />
-                      </Group>
-                    );
-                  } else {
-                    // Non-bidirectional (one-way) arrow (with or without curvature)
-                    // Straight one-way arrow (render one Arrow (outline and colored) from x1 to x2) (using mx/my offset)
-                    const mx = (x1 + x2) / 2;
-                    const my = (y1 + y2) / 2;
-                    return (
-                      <Group
-                        key={arrow.id}
-                        draggable={isZombieMode && zombieTool === 'select'}
-                        onDragEnd={e => {
-                          const dx = e.target.x();
-                          const dy = e.target.y();
-                          handleZombieArrowEdit(arrow.id, {
-                            x1: arrow.x1 + dx,
-                            y1: arrow.y1 + dy,
-                            x2: arrow.x2 + dx,
-                            y2: arrow.y2 + dy,
-                            midX: arrow.midX + dx,
-                            midY: arrow.midY + dy,
-                          });
-                          e.target.x(0);
-                          e.target.y(0);
-                        }}
-                        onClick={() => handleZombieArrowClick(arrow)}
-                        onMouseEnter={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'pointer'; }}
-                        onMouseLeave={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'default'; }}
-                        listening={true}
-                      >
-                        {/* OUTLINE: Arrow (x1 -> x2) (using mx/my offset) */}
-                        <Arrow
-                          x={mx}
-                          y={my}
+                          {/* OUTLINE: Arrowhead at end (start to end) */}
+                          <Arrow
+                            x={xB1}
+                            y={yB1}
+                            points={[0, 0, pointerLength, 0]}
+                            rotation={angle1}
+                            stroke="#000"
+                            fill="#000"
+                            strokeWidth={outlineStrokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={false}
+                          />
+                          {/* Colored Arrowhead at end (start to end) */}
+                          <Arrow
+                            x={xB1}
+                            y={yB1}
+                            points={[0, 0, pointerLength, 0]}
+                            rotation={angle1}
+                            stroke={arrow.color}
+                            fill={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={false}
+                          />
+                          {/* OUTLINE: Arrowhead at start (end to start) */}
+                          <Arrow
+                            x={xB2}
+                            y={yB2}
+                            points={[0, 0, pointerLength, 0]}
+                            rotation={angle2}
+                            stroke="#000"
+                            fill="#000"
+                            strokeWidth={outlineStrokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={false}
+                          />
+                          {/* Colored Arrowhead at start (end to start) */}
+                          <Arrow
+                            x={xB2}
+                            y={yB2}
+                            points={[0, 0, pointerLength, 0]}
+                            rotation={angle2}
+                            stroke={arrow.color}
+                            fill={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={false}
+                          />
+                        </Group>
+                      );
+                    } else {
+                      // Straight bidirectional: two straight arrows (one in each direction)
+                      const mx = (x1 + x2) / 2;
+                      const my = (y1 + y2) / 2;
+                      return (
+                        <Group
+                          key={arrow.id}
+                          draggable={isZombieMode && zombieTool === 'select'}
+                          onDragEnd={e => {
+                            const dx = e.target.x();
+                            const dy = e.target.y();
+                            handleZombieArrowEdit(arrow.id, {
+                              x1: arrow.x1 + dx,
+                              y1: arrow.y1 + dy,
+                              x2: arrow.x2 + dx,
+                              y2: arrow.y2 + dy,
+                              midX: arrow.midX + dx,
+                              midY: arrow.midY + dy,
+                            });
+                            e.target.x(0);
+                            e.target.y(0);
+                          }}
+                          onClick={() => handleZombieArrowClick(arrow)}
+                          onMouseEnter={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'pointer'; }}
+                          onMouseLeave={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'default'; }}
+                          listening={true}
+                        >
+                          {/* OUTLINE: Arrow (x1 -> x2) */}
+                          <Arrow
+                            x={mx}
+                            y={my}
                             points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
                             stroke="#000"
                             fill="#000"
@@ -2025,23 +2028,203 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
                             perfectDrawEnabled={false}
                             listening={true}
                           />
-                        {/* Colored Arrow (x1 -> x2) (using mx/my offset) */}
-                        <Arrow
-                          x={mx}
-                          y={my}
-                            points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
-                        stroke={arrow.color}
-                        fill={arrow.color}
-                        strokeWidth={arrow.strokeWidth}
+                          {/* OUTLINE: Arrow (x2 -> x1) */}
+                          <Arrow
+                            x={mx}
+                            y={my}
+                            points={[x2 - mx, y2 - my, x1 - mx, y1 - my]}
+                            stroke="#000"
+                            fill="#000"
+                            strokeWidth={outlineStrokeWidth}
                             pointerLength={pointerLength}
                             pointerWidth={pointerWidth}
-                        lineCap="round"
-                        lineJoin="round"
-                        perfectDrawEnabled={false}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
                             listening={true}
                           />
-                      </Group>
-                    );
+                          {/* Colored Arrow (x1 -> x2) */}
+                          <Arrow
+                            x={mx}
+                            y={my}
+                            points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
+                            stroke={arrow.color}
+                            fill={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={true}
+                          />
+                          {/* Colored Arrow (x2 -> x1) */}
+                          <Arrow
+                            x={mx}
+                            y={my}
+                            points={[x2 - mx, y2 - my, x1 - mx, y1 - my]}
+                            stroke={arrow.color}
+                            fill={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={true}
+                          />
+                        </Group>
+                      );
+                    }
+                  } else {
+                    // Non-bidirectional (one-way) arrow (with or without curvature)
+                    if (arrow.curvature) {
+                      // Curved one-way arrow
+                      const [c1, c2] = getCubicControlPoints(x1, y1, x2, y2, arrow.curvature) as [[number, number], [number, number]];
+                      const points = bezier([x1, y1], c1, c2, [x2, y2], 1);
+                      const flatPoints = points.flat();
+                      // Arrowhead angle at the end
+                      const n = points.length;
+                      const [xA, yA] = points[n - 2];
+                      const [xB, yB] = points[n - 1];
+                      const angle = Math.atan2(yB - yA, xB - xA) * 180 / Math.PI;
+                      return (
+                        <Group
+                          key={arrow.id}
+                          draggable={isZombieMode && zombieTool === 'select'}
+                          onDragEnd={e => {
+                            const dx = e.target.x();
+                            const dy = e.target.y();
+                            handleZombieArrowEdit(arrow.id, {
+                              x1: arrow.x1 + dx,
+                              y1: arrow.y1 + dy,
+                              x2: arrow.x2 + dx,
+                              y2: arrow.y2 + dy,
+                              midX: arrow.midX + dx,
+                              midY: arrow.midY + dy,
+                            });
+                            e.target.x(0);
+                            e.target.y(0);
+                          }}
+                          onClick={() => handleZombieArrowClick(arrow)}
+                          onMouseEnter={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'pointer'; }}
+                          onMouseLeave={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'default'; }}
+                          listening={true}
+                        >
+                          {/* OUTLINE: Curved shaft */}
+                          <Line
+                            points={flatPoints}
+                            stroke="#000"
+                            strokeWidth={outlineStrokeWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={true}
+                          />
+                          {/* Colored curved shaft */}
+                          <Line
+                            points={flatPoints}
+                            stroke={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={true}
+                          />
+                          {/* OUTLINE: Arrowhead at end */}
+                          <Arrow
+                            x={xB}
+                            y={yB}
+                            points={[0, 0, pointerLength, 0]}
+                            rotation={angle}
+                            stroke="#000"
+                            fill="#000"
+                            strokeWidth={outlineStrokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={false}
+                          />
+                          {/* Colored Arrowhead at end */}
+                          <Arrow
+                            x={xB}
+                            y={yB}
+                            points={[0, 0, pointerLength, 0]}
+                            rotation={angle}
+                            stroke={arrow.color}
+                            fill={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={false}
+                          />
+                        </Group>
+                      );
+                    } else {
+                      // Straight one-way arrow
+                      const mx = (x1 + x2) / 2;
+                      const my = (y1 + y2) / 2;
+                      return (
+                        <Group
+                          key={arrow.id}
+                          draggable={isZombieMode && zombieTool === 'select'}
+                          onDragEnd={e => {
+                            const dx = e.target.x();
+                            const dy = e.target.y();
+                            handleZombieArrowEdit(arrow.id, {
+                              x1: arrow.x1 + dx,
+                              y1: arrow.y1 + dy,
+                              x2: arrow.x2 + dx,
+                              y2: arrow.y2 + dy,
+                              midX: arrow.midX + dx,
+                              midY: arrow.midY + dy,
+                            });
+                            e.target.x(0);
+                            e.target.y(0);
+                          }}
+                          onClick={() => handleZombieArrowClick(arrow)}
+                          onMouseEnter={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'pointer'; }}
+                          onMouseLeave={e => { const stage = e.target.getStage(); if (stage) stage.container().style.cursor = 'default'; }}
+                          listening={true}
+                        >
+                          {/* OUTLINE: Arrow (x1 -> x2) */}
+                          <Arrow
+                            x={mx}
+                            y={my}
+                            points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
+                            stroke="#000"
+                            fill="#000"
+                            strokeWidth={outlineStrokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={true}
+                          />
+                          {/* Colored Arrow (x1 -> x2) */}
+                          <Arrow
+                            x={mx}
+                            y={my}
+                            points={[x1 - mx, y1 - my, x2 - mx, y2 - my]}
+                            stroke={arrow.color}
+                            fill={arrow.color}
+                            strokeWidth={arrow.strokeWidth}
+                            pointerLength={pointerLength}
+                            pointerWidth={pointerWidth}
+                            lineCap="round"
+                            lineJoin="round"
+                            perfectDrawEnabled={false}
+                            listening={true}
+                          />
+                        </Group>
+                      );
+                    }
                   }
                 })}
                 {/* Render drawing arrow and legend as before */}
@@ -2326,7 +2509,7 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
                         label="Color"
                         onChange={e => handleZombieArrowEdit(arrow.id, { color: e.target.value })}
                       >
-                        {ZOMBIE_ARROW_COLORS.map(color => (
+                        {ZOMBIE_ARROW_COLORS.map((color: string) => (
                           <MenuItem key={color} value={color}>
                             <Box sx={{ display: 'inline-block', width: 16, height: 16, bgcolor: color, borderRadius: '50%', mr: 1, border: '1px solid #ccc' }} />
                             {color}
@@ -2375,6 +2558,17 @@ const MapCanvas = forwardRef<any, { backgroundImage?: string | null, isZombieMod
                         sx={{ width: 100 }}
                       />
                       <Typography variant="caption">{Math.round(arrow.length || 0)}</Typography>
+                    </Stack>
+                    <Stack direction="row" spacing={2} alignItems="center">
+                      <Typography variant="caption">Curvature</Typography>
+                      <Slider
+                        min={-100}
+                        max={100}
+                        value={arrow.curvature || 0}
+                        onChange={(_, value) => handleZombieArrowEdit(arrow.id, { curvature: value as number })}
+                        sx={{ width: 100 }}
+                      />
+                      <Typography variant="caption">{Math.round(arrow.curvature || 0)}</Typography>
                     </Stack>
                     <Button color="error" variant="outlined" onClick={() => handleZombieArrowDelete(arrow.id)}>Delete</Button>
                   </Stack>

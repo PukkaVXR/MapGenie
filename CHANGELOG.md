@@ -28,3 +28,9 @@
 - Removed curvature editing for arrows (all arrows are now straight)
 - All arrow types are now draggable in select mode
 - Improved pathing and arrow editing stability 
+
+## [v1.1.2] - Curved Arrows
+- Added support for curved arrows (both one-way and bidirectional)
+- Bidirectional arrows now render as a single curve with arrowheads at both ends
+- One-way arrows support curvature and always show a single arrowhead
+- All arrowheads now have a black outline for better visibility 
