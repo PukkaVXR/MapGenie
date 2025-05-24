@@ -1,0 +1,296 @@
+{
+    "1": {
+        "name": "Sarduakar Tabernacle",
+        "links": {
+            "4": "Imperial Prison",
+            "27": "Atreides Flagship L",
+            "2": "Opal Palace",
+            "3": "Imperial Garden"
+        }
+    },
+    "2": {
+        "name": "Opal Palace",
+        "links": {
+            "1": "Sarduakar Tabernacle",
+            "4": "Imperial Prison",
+            "3": "Imperial Garden"
+        }
+    },
+    "3": {
+        "name": "Imperial Garden",
+        "links": {
+            "1": "Sarduakar Tabernacle",
+            "4": "Imperial Prison",
+            "5": "Harkonnen Transport I",
+            "2": "Opal Palace"
+        }
+    },
+    "4": {
+        "name": "Imperial Prison",
+        "links": {
+            "1": "Sarduakar Tabernacle",
+            "2": "Opal Palace",
+            "3": "Imperial Garden",
+            "20": "The Funeral Plain"
+        }
+    },
+    "5": {
+        "name": "Harkonnen Transport I",
+        "links": {
+            "3": "Imperial Garden",
+            "6": "Harkonnen Transport II"
+        }
+    },
+    "6": {
+        "name": "Harkonnen Transport II",
+        "links": {
+            "7": "Exterior",
+            "5": "Harkonnen Transport I"
+        }
+    },
+    "7": {
+        "name": "Exterior",
+        "links": {
+            "6": "Harkonnen Transport II",
+            "18": "Hand of God",
+            "8": "Tarmac",
+            "9": "Sacrificial Area"
+        }
+    },
+    "8": {
+        "name": "Tarmac",
+        "links": {
+            "9": "Sacrificial Area",
+            "7": "Exterior"
+        }
+    },
+    "9": {
+        "name": "Sacrificial Area",
+        "links": {
+            "8": "Tarmac",
+            "7": "Exterior",
+            "10": "Stealth Scouts"
+        }
+    },
+    "10": {
+        "name": "Stealth Scouts",
+        "links": {
+            "13": "CHOAM's Navigator",
+            "9": "Sacrificial Area"
+        }
+    },
+    "13": {
+        "name": "CHOAM's Navigator",
+        "links": {
+            "10": "Stealth Scouts",
+            "14": "Heighliner Rear"
+        }
+    },
+    "14": {
+        "name": "Heighliner Rear",
+        "links": {
+            "13": "CHOAM's Navigator",
+            "15": "Stealth Armada"
+        }
+    },
+    "15": {
+        "name": "Stealth Armada",
+        "links": {
+            "14": "Heighliner Rear",
+            "38": "Guest Area"
+        }
+    },
+    "18": {
+        "name": "Hand of God",
+        "links": {
+            "7": "Exterior",
+            "19": "The Great Flat"
+        }
+    },
+    "19": {
+        "name": "The Great Flat",
+        "links": {
+            "23": "South Mesa",
+            "20": "The Funeral Plain",
+            "24": "Polar Sink",
+            "18": "Hand of God",
+            "25": "Shield Wall"
+        }
+    },
+    "20": {
+        "name": "The Funeral Plain",
+        "links": {
+            "4": "Imperial Prison",
+            "25": "Shield Wall",
+            "19": "The Great Flat",
+            "21": "Sihaya"
+        }
+    },
+    "21": {
+        "name": "Sihaya",
+        "links": {
+            "22": "Red Chasm",
+            "20": "The Funeral Plain",
+            "26": "Muad'Dib",
+            "25": "Shield Wall"
+        }
+    },
+    "22": {
+        "name": "Red Chasm",
+        "links": {
+            "23": "South Mesa",
+            "25": "Shield Wall",
+            "37": "Arena",
+            "21": "Sihaya"
+        }
+    },
+    "23": {
+        "name": "South Mesa",
+        "links": {
+            "22": "Red Chasm",
+            "24": "Polar Sink",
+            "25": "Shield Wall",
+            "19": "The Great Flat"
+        }
+    },
+    "24": {
+        "name": "Polar Sink",
+        "links": {
+            "23": "South Mesa",
+            "25": "Shield Wall",
+            "19": "The Great Flat"
+        }
+    },
+    "25": {
+        "name": "Shield Wall",
+        "links": {
+            "23": "South Mesa",
+            "22": "Red Chasm",
+            "20": "The Funeral Plain",
+            "24": "Polar Sink",
+            "19": "The Great Flat",
+            "21": "Sihaya"
+        }
+    },
+    "26": {
+        "name": "Muad'Dib",
+        "links": {
+            "21": "Sihaya",
+            "29": "Barren Left"
+        }
+    },
+    "27": {
+        "name": "Atreides Flagship L",
+        "links": {
+            "1": "Sarduakar Tabernacle",
+            "28": "Atreides Flagship R"
+        }
+    },
+    "28": {
+        "name": "Atreides Flagship R",
+        "links": {
+            "27": "Atreides Flagship L",
+            "30": "Heighliner Debris"
+        }
+    },
+    "29": {
+        "name": "Barren Left",
+        "links": {
+            "30": "Heighliner Debris",
+            "32": "Uninhabitable Lands",
+            "26": "Muad'Dib"
+        }
+    },
+    "30": {
+        "name": "Heighliner Debris",
+        "links": {
+            "31": "Gesserit School",
+            "28": "Atreides Flagship R",
+            "29": "Barren Left",
+            "33": "Barren Right",
+            "32": "Uninhabitable Lands"
+        }
+    },
+    "31": {
+        "name": "Gesserit School",
+        "links": {
+            "32": "Uninhabitable Lands",
+            "30": "Heighliner Debris"
+        }
+    },
+    "32": {
+        "name": "Uninhabitable Lands",
+        "links": {
+            "29": "Barren Left",
+            "33": "Barren Right",
+            "35": "Harkonnen Frigate I",
+            "30": "Heighliner Debris",
+            "31": "Gesserit School"
+        }
+    },
+    "33": {
+        "name": "Barren Right",
+        "links": {
+            "30": "Heighliner Debris",
+            "32": "Uninhabitable Lands"
+        }
+    },
+    "34": {
+        "name": "Harkonnen Frigate II",
+        "links": {
+            "36": "Ceremony Tower",
+            "35": "Harkonnen Frigate I"
+        }
+    },
+    "35": {
+        "name": "Harkonnen Frigate I",
+        "links": {
+            "32": "Uninhabitable Lands",
+            "34": "Harkonnen Frigate II"
+        }
+    },
+    "36": {
+        "name": "Ceremony Tower",
+        "links": {
+            "34": "Harkonnen Frigate II",
+            "39": "External",
+            "40": "Harkonnen Castle",
+            "37": "Arena"
+        }
+    },
+    "37": {
+        "name": "Arena",
+        "links": {
+            "38": "Guest Area",
+            "40": "Harkonnen Castle",
+            "36": "Ceremony Tower",
+            "22": "Red Chasm"
+        }
+    },
+    "38": {
+        "name": "Guest Area",
+        "links": {
+            "39": "External",
+            "40": "Harkonnen Castle",
+            "37": "Arena",
+            "15": "Stealth Armada"
+        }
+    },
+    "39": {
+        "name": "External",
+        "links": {
+            "38": "Guest Area",
+            "40": "Harkonnen Castle",
+            "36": "Ceremony Tower"
+        }
+    },
+    "40": {
+        "name": "Harkonnen Castle",
+        "links": {
+            "39": "External",
+            "36": "Ceremony Tower",
+            "38": "Guest Area",
+            "37": "Arena"
+        }
+    }
+}

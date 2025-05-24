@@ -1,0 +1,478 @@
+{
+    "1": {
+        "name": "Banks",
+        "links": {
+            "30": "Lawyers",
+            "51": "Suits"
+        }
+    },
+    "2": {
+        "name": "BarbeQ",
+        "links": {
+            "48": "Silo B",
+            "24": "Grid",
+            "14": "City Pier",
+            "37": "Power Plant",
+            "49": "Silo Pier"
+        }
+    },
+    "3": {
+        "name": "Barracks",
+        "links": {
+            "56": "Warehouse",
+            "58": "Werlyb Station",
+            "52": "Tank Bay"
+        }
+    },
+    "4": {
+        "name": "Block A",
+        "links": {
+            "39": "Prison Junktion"
+        }
+    },
+    "5": {
+        "name": "Block B",
+        "links": {
+            "39": "Prison Junktion"
+        }
+    },
+    "6": {
+        "name": "Block C",
+        "links": {
+            "15": "Coal Cargo",
+            "39": "Prison Junktion"
+        }
+    },
+    "7": {
+        "name": "Bore A",
+        "links": {
+            "34": "Office",
+            "38": "Prison"
+        }
+    },
+    "8": {
+        "name": "Bore B",
+        "links": {
+            "41": "Quarters",
+            "50": "Storage Bay",
+            "32": "Maintenance"
+        }
+    },
+    "9": {
+        "name": "Cargo Bay",
+        "links": {
+            "24": "Grid",
+            "16": "Control Deck",
+            "21": "Filter Bay",
+            "49": "Silo Pier"
+        }
+    },
+    "10": {
+        "name": "Carrier Aft",
+        "links": {
+            "11": "Carrier Fore"
+        }
+    },
+    "11": {
+        "name": "Carrier Fore",
+        "links": {
+            "29": "Landing",
+            "10": "Carrier Aft"
+        }
+    },
+    "12": {
+        "name": "Chimneys",
+        "links": {
+            "22": "Forge",
+            "43": "Recycle Tower B",
+            "53": "Tech Plant",
+            "28": "Industrial Pier"
+        }
+    },
+    "13": {
+        "name": "Christinini",
+        "links": {
+            "46": "Shops",
+            "41": "Quarters",
+            "53": "Tech Plant",
+            "55": "Villas"
+        }
+    },
+    "14": {
+        "name": "City Pier",
+        "links": {
+            "51": "Suits",
+            "42": "Recycle Tower A",
+            "54": "Trader",
+            "2": "BarbeQ"
+        }
+    },
+    "15": {
+        "name": "Coal Cargo",
+        "links": {
+            "16": "Control Deck",
+            "6": "Block C",
+            "29": "Landing",
+            "21": "Filter Bay"
+        }
+    },
+    "16": {
+        "name": "Control Deck",
+        "links": {
+            "9": "Cargo Bay",
+            "15": "Coal Cargo"
+        }
+    },
+    "17": {
+        "name": "Cranes",
+        "links": {
+            "36": "Platform",
+            "23": "Gravel",
+            "43": "Recycle Tower B"
+        }
+    },
+    "18": {
+        "name": "Disposal Cargo",
+        "links": {
+            "33": "Mounds",
+            "26": "Hull"
+        }
+    },
+    "19": {
+        "name": "Docks",
+        "links": {
+            "58": "Werlyb Station",
+            "20": "Down Town",
+            "54": "Trader"
+        }
+    },
+    "20": {
+        "name": "Down Town",
+        "links": {
+            "51": "Suits",
+            "54": "Trader",
+            "30": "Lawyers",
+            "58": "Werlyb Station",
+            "19": "Docks"
+        }
+    },
+    "21": {
+        "name": "Filter Bay",
+        "links": {
+            "49": "Silo Pier",
+            "9": "Cargo Bay",
+            "15": "Coal Cargo"
+        }
+    },
+    "22": {
+        "name": "Forge",
+        "links": {
+            "32": "Maintenance",
+            "12": "Chimneys",
+            "53": "Tech Plant"
+        }
+    },
+    "23": {
+        "name": "Gravel",
+        "links": {
+            "17": "Cranes",
+            "33": "Mounds",
+            "42": "Recycle Tower A"
+        }
+    },
+    "24": {
+        "name": "Grid",
+        "links": {
+            "37": "Power Plant",
+            "9": "Cargo Bay",
+            "47": "Silo A",
+            "49": "Silo Pier",
+            "48": "Silo B",
+            "2": "BarbeQ"
+        }
+    },
+    "25": {
+        "name": "Housing",
+        "links": {
+            "55": "Villas",
+            "46": "Shops",
+            "35": "Park"
+        }
+    },
+    "26": {
+        "name": "Hull",
+        "links": {
+            "18": "Disposal Cargo",
+            "37": "Power Plant",
+            "42": "Recycle Tower A"
+        }
+    },
+    "27": {
+        "name": "Industrial Cargo",
+        "links": {
+            "28": "Industrial Pier",
+            "51": "Suits",
+            "53": "Tech Plant"
+        }
+    },
+    "28": {
+        "name": "Industrial Pier",
+        "links": {
+            "12": "Chimneys",
+            "27": "Industrial Cargo",
+            "53": "Tech Plant"
+        }
+    },
+    "29": {
+        "name": "Landing",
+        "links": {
+            "15": "Coal Cargo",
+            "52": "Tank Bay",
+            "11": "Carrier Fore"
+        }
+    },
+    "30": {
+        "name": "Lawyers",
+        "links": {
+            "58": "Werlyb Station",
+            "1": "Banks",
+            "51": "Suits",
+            "20": "Down Town"
+        }
+    },
+    "31": {
+        "name": "Loading Dock",
+        "links": {
+            "50": "Storage Bay",
+            "40": "Processing Plant"
+        }
+    },
+    "32": {
+        "name": "Maintenance",
+        "links": {
+            "8": "Bore B",
+            "22": "Forge"
+        }
+    },
+    "33": {
+        "name": "Mounds",
+        "links": {
+            "23": "Gravel",
+            "18": "Disposal Cargo",
+            "42": "Recycle Tower A"
+        }
+    },
+    "34": {
+        "name": "Office",
+        "links": {
+            "41": "Quarters",
+            "7": "Bore A"
+        }
+    },
+    "35": {
+        "name": "Park",
+        "links": {
+            "25": "Housing",
+            "45": "Restaurants",
+            "46": "Shops"
+        }
+    },
+    "36": {
+        "name": "Platform",
+        "links": {
+            "57": "Waste Pier",
+            "17": "Cranes",
+            "43": "Recycle Tower B"
+        }
+    },
+    "37": {
+        "name": "Power Plant",
+        "links": {
+            "26": "Hull",
+            "24": "Grid",
+            "2": "BarbeQ",
+            "48": "Silo B"
+        }
+    },
+    "38": {
+        "name": "Prison",
+        "links": {
+            "39": "Prison Junktion",
+            "52": "Tank Bay",
+            "7": "Bore A"
+        }
+    },
+    "39": {
+        "name": "Prison Junktion",
+        "links": {
+            "6": "Block C",
+            "38": "Prison",
+            "4": "Block A",
+            "5": "Block B"
+        }
+    },
+    "40": {
+        "name": "Processing Plant",
+        "links": {
+            "31": "Loading Dock",
+            "41": "Quarters",
+            "44": "Refinery"
+        }
+    },
+    "41": {
+        "name": "Quarters",
+        "links": {
+            "40": "Processing Plant",
+            "8": "Bore B",
+            "13": "Christinini",
+            "34": "Office"
+        }
+    },
+    "42": {
+        "name": "Recycle Tower A",
+        "links": {
+            "14": "City Pier",
+            "23": "Gravel",
+            "33": "Mounds",
+            "26": "Hull"
+        }
+    },
+    "43": {
+        "name": "Recycle Tower B",
+        "links": {
+            "12": "Chimneys",
+            "57": "Waste Pier",
+            "36": "Platform",
+            "17": "Cranes"
+        }
+    },
+    "44": {
+        "name": "Refinery",
+        "links": {
+            "40": "Processing Plant"
+        }
+    },
+    "45": {
+        "name": "Restaurants",
+        "links": {
+            "56": "Warehouse",
+            "46": "Shops",
+            "35": "Park"
+        }
+    },
+    "46": {
+        "name": "Shops",
+        "links": {
+            "45": "Restaurants",
+            "13": "Christinini",
+            "55": "Villas",
+            "25": "Housing",
+            "35": "Park"
+        }
+    },
+    "47": {
+        "name": "Silo A",
+        "links": {
+            "49": "Silo Pier",
+            "24": "Grid"
+        }
+    },
+    "48": {
+        "name": "Silo B",
+        "links": {
+            "24": "Grid",
+            "2": "BarbeQ",
+            "37": "Power Plant"
+        }
+    },
+    "49": {
+        "name": "Silo Pier",
+        "links": {
+            "47": "Silo A",
+            "24": "Grid",
+            "21": "Filter Bay",
+            "2": "BarbeQ",
+            "9": "Cargo Bay"
+        }
+    },
+    "50": {
+        "name": "Storage Bay",
+        "links": {
+            "31": "Loading Dock",
+            "8": "Bore B",
+            "57": "Waste Pier"
+        }
+    },
+    "51": {
+        "name": "Suits",
+        "links": {
+            "27": "Industrial Cargo",
+            "14": "City Pier",
+            "1": "Banks",
+            "20": "Down Town",
+            "54": "Trader",
+            "30": "Lawyers"
+        }
+    },
+    "52": {
+        "name": "Tank Bay",
+        "links": {
+            "29": "Landing",
+            "56": "Warehouse",
+            "3": "Barracks",
+            "38": "Prison"
+        }
+    },
+    "53": {
+        "name": "Tech Plant",
+        "links": {
+            "22": "Forge",
+            "12": "Chimneys",
+            "27": "Industrial Cargo",
+            "13": "Christinini",
+            "28": "Industrial Pier"
+        }
+    },
+    "54": {
+        "name": "Trader",
+        "links": {
+            "20": "Down Town",
+            "51": "Suits",
+            "14": "City Pier",
+            "19": "Docks"
+        }
+    },
+    "55": {
+        "name": "Villas",
+        "links": {
+            "25": "Housing",
+            "46": "Shops",
+            "13": "Christinini"
+        }
+    },
+    "56": {
+        "name": "Warehouse",
+        "links": {
+            "52": "Tank Bay",
+            "45": "Restaurants",
+            "3": "Barracks"
+        }
+    },
+    "57": {
+        "name": "Waste Pier",
+        "links": {
+            "50": "Storage Bay",
+            "36": "Platform",
+            "43": "Recycle Tower B"
+        }
+    },
+    "58": {
+        "name": "Werlyb Station",
+        "links": {
+            "3": "Barracks",
+            "30": "Lawyers",
+            "20": "Down Town",
+            "19": "Docks"
+        }
+    }
+}

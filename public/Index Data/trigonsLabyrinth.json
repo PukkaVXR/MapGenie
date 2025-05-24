@@ -1,0 +1,632 @@
+{
+    "29": {
+        "name": "Voidstone",
+        "links": {
+            "32": "Void Altar"
+        }
+    },
+    "30": {
+        "name": "Moostone",
+        "links": {
+            "32": "Void Altar"
+        }
+    },
+    "31": {
+        "name": "Bloodstone",
+        "links": {
+            "32": "Void Altar"
+        }
+    },
+    "32": {
+        "name": "Void Altar",
+        "links": {
+            "30": "Moostone",
+            "29": "Voidstone",
+            "31": "Bloodstone",
+            "28": "Void Warrior",
+            "26": "Dead Archer",
+            "19": "Empty Hall"
+        }
+    },
+    "33": {
+        "name": "Soulstone",
+        "links": {
+            "36": "Soul Altar",
+            "37": "Soul Hall"
+        }
+    },
+    "34": {
+        "name": "Firestone",
+        "links": {
+            "36": "Soul Altar",
+            "37": "Soul Hall",
+            "43": "Reaper"
+        }
+    },
+    "35": {
+        "name": "Starstone",
+        "links": {
+            "36": "Soul Altar",
+            "39": "Gloomy Hall"
+        }
+    },
+    "36": {
+        "name": "Soul Altar",
+        "links": {
+            "35": "Starstone",
+            "33": "Soulstone",
+            "44": "Red Stairs",
+            "34": "Firestone"
+        }
+    },
+    "1": {
+        "name": "Skull Hedge",
+        "links": {
+            "8": "Red Ruby",
+            "2": "Misty Path"
+        }
+    },
+    "2": {
+        "name": "Misty Path",
+        "links": {
+            "7": "Dark Flower",
+            "1": "Skull Hedge",
+            "26": "Dead Archer"
+        }
+    },
+    "3": {
+        "name": "Fungal Path",
+        "links": {
+            "6": "Grave Digger",
+            "4": "Dead Garden"
+        }
+    },
+    "4": {
+        "name": "Dead Garden",
+        "links": {
+            "16": "No Return",
+            "3": "Fungal Path"
+        }
+    },
+    "5": {
+        "name": "Deadly Vines",
+        "links": {
+            "7": "Dark Flower",
+            "6": "Grave Digger"
+        }
+    },
+    "6": {
+        "name": "Grave Digger",
+        "links": {
+            "5": "Deadly Vines",
+            "3": "Fungal Path",
+            "27": "Bone Pit"
+        }
+    },
+    "7": {
+        "name": "Dark Flower",
+        "links": {
+            "8": "Red Ruby",
+            "5": "Deadly Vines",
+            "9": "Blade Grass",
+            "10": "Endless Well",
+            "2": "Misty Path"
+        }
+    },
+    "8": {
+        "name": "Red Ruby",
+        "links": {
+            "9": "Blade Grass",
+            "10": "Endless Well",
+            "7": "Dark Flower",
+            "1": "Skull Hedge"
+        }
+    },
+    "9": {
+        "name": "Blade Grass",
+        "links": {
+            "8": "Red Ruby",
+            "10": "Endless Well",
+            "7": "Dark Flower"
+        }
+    },
+    "10": {
+        "name": "Endless Well",
+        "links": {
+            "8": "Red Ruby",
+            "9": "Blade Grass",
+            "7": "Dark Flower"
+        }
+    },
+    "37": {
+        "name": "Soul Hall",
+        "links": {
+            "77": "Ice Blades",
+            "43": "Reaper",
+            "33": "Soulstone",
+            "40": "Moon Door",
+            "42": "Dark Door",
+            "34": "Firestone"
+        }
+    },
+    "38": {
+        "name": "Eerie Voices",
+        "links": {
+            "41": "Emptiness",
+            "39": "Gloomy Hall"
+        }
+    },
+    "39": {
+        "name": "Gloomy Hall",
+        "links": {
+            "46": "Beast",
+            "35": "Starstone",
+            "41": "Emptiness",
+            "38": "Eerie Voices"
+        }
+    },
+    "40": {
+        "name": "Moon Door",
+        "links": {
+            "72": "Burning Water",
+            "45": "Graves",
+            "37": "Soul Hall"
+        }
+    },
+    "41": {
+        "name": "Emptiness",
+        "links": {
+            "44": "Red Stairs",
+            "39": "Gloomy Hall",
+            "38": "Eerie Voices"
+        }
+    },
+    "42": {
+        "name": "Dark Door",
+        "links": {
+            "43": "Reaper",
+            "80": "Floating Blades",
+            "37": "Soul Hall"
+        }
+    },
+    "43": {
+        "name": "Reaper",
+        "links": {
+            "37": "Soul Hall",
+            "42": "Dark Door",
+            "34": "Firestone",
+            "46": "Beast"
+        }
+    },
+    "44": {
+        "name": "Red Stairs",
+        "links": {
+            "36": "Soul Altar",
+            "41": "Emptiness",
+            "48": "Ominous Pillar",
+            "45": "Graves"
+        }
+    },
+    "45": {
+        "name": "Graves",
+        "links": {
+            "40": "Moon Door",
+            "44": "Red Stairs",
+            "51": "Empty Grave"
+        }
+    },
+    "46": {
+        "name": "Beast",
+        "links": {
+            "43": "Reaper",
+            "39": "Gloomy Hall"
+        }
+    },
+    "19": {
+        "name": "Empty Hall",
+        "links": {
+            "25": "Stary Stairs",
+            "22": "Red Door",
+            "32": "Void Altar",
+            "24": "Crimson Door",
+            "79": "Cold Passage"
+        }
+    },
+    "20": {
+        "name": "Hopeless Corner",
+        "links": {
+            "23": "Valley Path",
+            "21": "Void Room"
+        }
+    },
+    "21": {
+        "name": "Void Room",
+        "links": {
+            "20": "Hopeless Corner",
+            "28": "Void Warrior",
+            "23": "Valley Path"
+        }
+    },
+    "22": {
+        "name": "Red Door",
+        "links": {
+            "19": "Empty Hall",
+            "27": "Bone Pit",
+            "14": "Chain Room"
+        }
+    },
+    "23": {
+        "name": "Valley Path",
+        "links": {
+            "21": "Void Room",
+            "20": "Hopeless Corner",
+            "26": "Dead Archer"
+        }
+    },
+    "24": {
+        "name": "Crimson Door",
+        "links": {
+            "25": "Stary Stairs",
+            "19": "Empty Hall",
+            "75": "Blue Fire"
+        }
+    },
+    "25": {
+        "name": "Stary Stairs",
+        "links": {
+            "28": "Void Warrior",
+            "19": "Empty Hall",
+            "24": "Crimson Door"
+        }
+    },
+    "26": {
+        "name": "Dead Archer",
+        "links": {
+            "23": "Valley Path",
+            "32": "Void Altar",
+            "27": "Bone Pit",
+            "2": "Misty Path"
+        }
+    },
+    "27": {
+        "name": "Bone Pit",
+        "links": {
+            "6": "Grave Digger",
+            "26": "Dead Archer",
+            "22": "Red Door"
+        }
+    },
+    "28": {
+        "name": "Void Warrior",
+        "links": {
+            "25": "Stary Stairs",
+            "32": "Void Altar",
+            "21": "Void Room"
+        }
+    },
+    "73": {
+        "name": "Frost Troll",
+        "links": {
+            "74": "Ice Cave",
+            "76": "Water Pit"
+        }
+    },
+    "74": {
+        "name": "Ice Cave",
+        "links": {
+            "80": "Floating Blades",
+            "76": "Water Pit",
+            "75": "Blue Fire",
+            "73": "Frost Troll"
+        }
+    },
+    "75": {
+        "name": "Blue Fire",
+        "links": {
+            "80": "Floating Blades",
+            "74": "Ice Cave",
+            "24": "Crimson Door"
+        }
+    },
+    "76": {
+        "name": "Water Pit",
+        "links": {
+            "74": "Ice Cave",
+            "73": "Frost Troll",
+            "62": "Trigons Guard",
+            "77": "Ice Blades"
+        }
+    },
+    "77": {
+        "name": "Ice Blades",
+        "links": {
+            "76": "Water Pit",
+            "62": "Trigons Guard",
+            "37": "Soul Hall"
+        }
+    },
+    "78": {
+        "name": "Frosty Witch",
+        "links": {
+            "79": "Cold Passage",
+            "58": "Cah"
+        }
+    },
+    "79": {
+        "name": "Cold Passage",
+        "links": {
+            "19": "Empty Hall",
+            "78": "Frosty Witch",
+            "58": "Cah"
+        }
+    },
+    "80": {
+        "name": "Floating Blades",
+        "links": {
+            "74": "Ice Cave",
+            "75": "Blue Fire",
+            "42": "Dark Door"
+        }
+    },
+    "57": {
+        "name": "Soh",
+        "links": {
+            "63": "Remains",
+            "68": "Inverted Room"
+        }
+    },
+    "58": {
+        "name": "Cah",
+        "links": {
+            "78": "Frosty Witch",
+            "59": "Heavy Gate",
+            "60": "Trap Door",
+            "79": "Cold Passage"
+        }
+    },
+    "59": {
+        "name": "Heavy Gate",
+        "links": {
+            "13": "Pit",
+            "58": "Cah",
+            "60": "Trap Door"
+        }
+    },
+    "60": {
+        "name": "Trap Door",
+        "links": {
+            "63": "Remains",
+            "64": "Portal",
+            "59": "Heavy Gate",
+            "58": "Cah"
+        }
+    },
+    "61": {
+        "name": "Toa",
+        "links": {
+            "71": "Blade Whip",
+            "64": "Portal",
+            "62": "Trigons Guard"
+        }
+    },
+    "62": {
+        "name": "Trigons Guard",
+        "links": {
+            "77": "Ice Blades",
+            "76": "Water Pit",
+            "64": "Portal",
+            "61": "Toa"
+        }
+    },
+    "63": {
+        "name": "Remains",
+        "links": {
+            "68": "Inverted Room",
+            "64": "Portal",
+            "57": "Soh",
+            "60": "Trap Door"
+        }
+    },
+    "64": {
+        "name": "Portal",
+        "links": {
+            "63": "Remains",
+            "60": "Trap Door",
+            "62": "Trigons Guard",
+            "61": "Toa"
+        }
+    },
+    "65": {
+        "name": "Treasure",
+        "links": {
+            "70": "Talking Skull",
+            "66": "Serpents",
+            "69": "Dead Salesman"
+        }
+    },
+    "66": {
+        "name": "Serpents",
+        "links": {
+            "67": "Mirror Room",
+            "65": "Treasure"
+        }
+    },
+    "67": {
+        "name": "Mirror Room",
+        "links": {
+            "68": "Inverted Room",
+            "66": "Serpents"
+        }
+    },
+    "68": {
+        "name": "Inverted Room",
+        "links": {
+            "63": "Remains",
+            "57": "Soh",
+            "67": "Mirror Room"
+        }
+    },
+    "69": {
+        "name": "Dead Salesman",
+        "links": {
+            "65": "Treasure",
+            "70": "Talking Skull"
+        }
+    },
+    "70": {
+        "name": "Talking Skull",
+        "links": {
+            "50": "Adams Despair",
+            "65": "Treasure",
+            "69": "Dead Salesman"
+        }
+    },
+    "71": {
+        "name": "Blade Whip",
+        "links": {
+            "61": "Toa",
+            "72": "Burning Water"
+        }
+    },
+    "72": {
+        "name": "Burning Water",
+        "links": {
+            "71": "Blade Whip",
+            "40": "Moon Door"
+        }
+    },
+    "11": {
+        "name": "Chamber",
+        "links": {
+            "17": "Ghouls Nest",
+            "18": "Soul Stairs",
+            "12": "Corridor",
+            "15": "Crypt"
+        }
+    },
+    "12": {
+        "name": "Corridor",
+        "links": {
+            "11": "Chamber",
+            "13": "Pit",
+            "14": "Chain Room",
+            "15": "Crypt"
+        }
+    },
+    "13": {
+        "name": "Pit",
+        "links": {
+            "12": "Corridor",
+            "59": "Heavy Gate",
+            "14": "Chain Room"
+        }
+    },
+    "14": {
+        "name": "Chain Room",
+        "links": {
+            "22": "Red Door",
+            "12": "Corridor",
+            "13": "Pit"
+        }
+    },
+    "15": {
+        "name": "Crypt",
+        "links": {
+            "16": "No Return",
+            "11": "Chamber",
+            "12": "Corridor"
+        }
+    },
+    "16": {
+        "name": "No Return",
+        "links": {
+            "4": "Dead Garden",
+            "15": "Crypt"
+        }
+    },
+    "17": {
+        "name": "Ghouls Nest",
+        "links": {
+            "11": "Chamber",
+            "18": "Soul Stairs"
+        }
+    },
+    "18": {
+        "name": "Soul Stairs",
+        "links": {
+            "11": "Chamber",
+            "17": "Ghouls Nest"
+        }
+    },
+    "47": {
+        "name": "Sanctum",
+        "links": {
+            "54": "Odd Statue",
+            "48": "Ominous Pillar"
+        }
+    },
+    "48": {
+        "name": "Ominous Pillar",
+        "links": {
+            "47": "Sanctum",
+            "44": "Red Stairs"
+        }
+    },
+    "49": {
+        "name": "Arcane Stone",
+        "links": {
+            "50": "Adams Despair",
+            "51": "Empty Grave"
+        }
+    },
+    "50": {
+        "name": "Adams Despair",
+        "links": {
+            "70": "Talking Skull",
+            "49": "Arcane Stone"
+        }
+    },
+    "51": {
+        "name": "Empty Grave",
+        "links": {
+            "49": "Arcane Stone",
+            "52": "Old Hut",
+            "45": "Graves"
+        }
+    },
+    "52": {
+        "name": "Old Hut",
+        "links": {
+            "54": "Odd Statue",
+            "51": "Empty Grave"
+        }
+    },
+    "53": {
+        "name": "Dead End",
+        "links": {
+            "54": "Odd Statue"
+        }
+    },
+    "54": {
+        "name": "Odd Statue",
+        "links": {
+            "52": "Old Hut",
+            "56": "Couldron",
+            "47": "Sanctum",
+            "55": "Platform",
+            "53": "Dead End"
+        }
+    },
+    "55": {
+        "name": "Platform",
+        "links": {
+            "54": "Odd Statue"
+        }
+    },
+    "56": {
+        "name": "Couldron",
+        "links": {
+            "54": "Odd Statue"
+        }
+    }
+}

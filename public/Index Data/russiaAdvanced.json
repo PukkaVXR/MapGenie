@@ -1,0 +1,563 @@
+{
+    "1": {
+        "name": "Abyiskii",
+        "links": {
+            "29": "Magadan",
+            "11": "Chukotka"
+        }
+    },
+    "2": {
+        "name": "Aldanskii",
+        "links": {
+            "34": "Neryungrinskii",
+            "37": "Oleminskii",
+            "46": "Sakha South",
+            "29": "Magadan",
+            "47": "Sakhalin",
+            "18": "Khabarovsk South"
+        }
+    },
+    "3": {
+        "name": "Altai",
+        "links": {
+            "53": "Tuva",
+            "4": "Altai Krai",
+            "19": "Khakassia"
+        }
+    },
+    "4": {
+        "name": "Altai Krai",
+        "links": {
+            "3": "Altai",
+            "36": "Novosibirsk",
+            "19": "Khakassia"
+        }
+    },
+    "5": {
+        "name": "Amur",
+        "links": {
+            "18": "Khabarovsk South",
+            "61": "Zabaykalsky"
+        }
+    },
+    "6": {
+        "name": "Arkhangelsk",
+        "links": {
+            "33": "Nenets",
+            "22": "Komi",
+            "17": "Karelia",
+            "21": "Kirov",
+            "58": "Vologda"
+        }
+    },
+    "7": {
+        "name": "Astrakahn",
+        "links": {
+            "57": "Volgograd",
+            "10": "Chechen",
+            "45": "Rostov",
+            "49": "Stavropol"
+        }
+    },
+    "8": {
+        "name": "Bashkortostan",
+        "links": {
+            "42": "Perm Krai",
+            "26": "Kurgan",
+            "56": "Ulyanovsk",
+            "21": "Kirov",
+            "40": "Orenburg"
+        }
+    },
+    "9": {
+        "name": "Buryatia",
+        "links": {
+            "61": "Zabaykalsky",
+            "53": "Tuva",
+            "13": "Irkutsk North",
+            "14": "Irkutsk South"
+        }
+    },
+    "10": {
+        "name": "Chechen",
+        "links": {
+            "40": "Orenburg",
+            "49": "Stavropol",
+            "7": "Astrakahn"
+        }
+    },
+    "11": {
+        "name": "Chukotka",
+        "links": {
+            "35": "New Ground",
+            "16": "Kamchatka",
+            "1": "Abyiskii"
+        }
+    },
+    "12": {
+        "name": "Eastern Siberia",
+        "links": {
+            "25": "Krasnoyarsk Kai",
+            "38": "Olenekskii",
+            "13": "Irkutsk North",
+            "59": "Western Siberia",
+            "30": "Mirninskii"
+        }
+    },
+    "13": {
+        "name": "Irkutsk North",
+        "links": {
+            "34": "Neryungrinskii",
+            "9": "Buryatia",
+            "14": "Irkutsk South",
+            "59": "Western Siberia",
+            "12": "Eastern Siberia",
+            "28": "Lenskii",
+            "30": "Mirninskii",
+            "37": "Oleminskii"
+        }
+    },
+    "14": {
+        "name": "Irkutsk South",
+        "links": {
+            "9": "Buryatia",
+            "53": "Tuva",
+            "13": "Irkutsk North",
+            "59": "Western Siberia"
+        }
+    },
+    "15": {
+        "name": "Kaliningrad",
+        "links": {
+            "24": "Krasnodar",
+            "27": "Leningrad"
+        }
+    },
+    "16": {
+        "name": "Kamchatka",
+        "links": {
+            "11": "Chukotka",
+            "47": "Sakhalin"
+        }
+    },
+    "17": {
+        "name": "Karelia",
+        "links": {
+            "27": "Leningrad",
+            "32": "Murmansk",
+            "58": "Vologda",
+            "6": "Arkhangelsk"
+        }
+    },
+    "18": {
+        "name": "Khabarovsk South",
+        "links": {
+            "5": "Amur",
+            "43": "Primorsky",
+            "2": "Aldanskii"
+        }
+    },
+    "19": {
+        "name": "Khakassia",
+        "links": {
+            "53": "Tuva",
+            "3": "Altai",
+            "52": "Tomsk",
+            "59": "Western Siberia",
+            "36": "Novosibirsk",
+            "4": "Altai Krai"
+        }
+    },
+    "20": {
+        "name": "Khanty Mansi",
+        "links": {
+            "59": "Western Siberia",
+            "52": "Tomsk",
+            "60": "Yamalo Nenets",
+            "55": "Tyumen",
+            "50": "Sverdlovsk"
+        }
+    },
+    "21": {
+        "name": "Kirov",
+        "links": {
+            "6": "Arkhangelsk",
+            "22": "Komi",
+            "56": "Ulyanovsk",
+            "41": "Penza",
+            "8": "Bashkortostan",
+            "23": "Kostroma",
+            "42": "Perm Krai",
+            "58": "Vologda"
+        }
+    },
+    "22": {
+        "name": "Komi",
+        "links": {
+            "33": "Nenets",
+            "6": "Arkhangelsk",
+            "42": "Perm Krai",
+            "21": "Kirov"
+        }
+    },
+    "23": {
+        "name": "Kostroma",
+        "links": {
+            "31": "Moscow",
+            "54": "Tver",
+            "58": "Vologda",
+            "41": "Penza",
+            "51": "Tambov",
+            "21": "Kirov"
+        }
+    },
+    "24": {
+        "name": "Krasnodar",
+        "links": {
+            "49": "Stavropol",
+            "15": "Kaliningrad",
+            "45": "Rostov"
+        }
+    },
+    "25": {
+        "name": "Krasnoyarsk Kai",
+        "links": {
+            "38": "Olenekskii",
+            "12": "Eastern Siberia",
+            "59": "Western Siberia",
+            "35": "New Ground",
+            "60": "Yamalo Nenets"
+        }
+    },
+    "26": {
+        "name": "Kurgan",
+        "links": {
+            "55": "Tyumen",
+            "40": "Orenburg",
+            "8": "Bashkortostan",
+            "50": "Sverdlovsk"
+        }
+    },
+    "27": {
+        "name": "Leningrad",
+        "links": {
+            "15": "Kaliningrad",
+            "17": "Karelia",
+            "44": "Psko",
+            "58": "Vologda",
+            "54": "Tver"
+        }
+    },
+    "28": {
+        "name": "Lenskii",
+        "links": {
+            "13": "Irkutsk North",
+            "30": "Mirninskii",
+            "37": "Oleminskii",
+            "46": "Sakha South"
+        }
+    },
+    "29": {
+        "name": "Magadan",
+        "links": {
+            "2": "Aldanskii",
+            "1": "Abyiskii"
+        }
+    },
+    "30": {
+        "name": "Mirninskii",
+        "links": {
+            "38": "Olenekskii",
+            "46": "Sakha South",
+            "28": "Lenskii",
+            "13": "Irkutsk North",
+            "12": "Eastern Siberia"
+        }
+    },
+    "31": {
+        "name": "Moscow",
+        "links": {
+            "54": "Tver",
+            "23": "Kostroma",
+            "51": "Tambov"
+        }
+    },
+    "32": {
+        "name": "Murmansk",
+        "links": {
+            "17": "Karelia",
+            "35": "New Ground"
+        }
+    },
+    "33": {
+        "name": "Nenets",
+        "links": {
+            "22": "Komi",
+            "6": "Arkhangelsk",
+            "35": "New Ground"
+        }
+    },
+    "34": {
+        "name": "Neryungrinskii",
+        "links": {
+            "2": "Aldanskii",
+            "13": "Irkutsk North",
+            "37": "Oleminskii"
+        }
+    },
+    "35": {
+        "name": "New Ground",
+        "links": {
+            "32": "Murmansk",
+            "11": "Chukotka",
+            "25": "Krasnoyarsk Kai",
+            "60": "Yamalo Nenets",
+            "33": "Nenets"
+        }
+    },
+    "36": {
+        "name": "Novosibirsk",
+        "links": {
+            "4": "Altai Krai",
+            "39": "Omsk",
+            "52": "Tomsk",
+            "19": "Khakassia"
+        }
+    },
+    "37": {
+        "name": "Oleminskii",
+        "links": {
+            "2": "Aldanskii",
+            "34": "Neryungrinskii",
+            "13": "Irkutsk North",
+            "28": "Lenskii",
+            "46": "Sakha South"
+        }
+    },
+    "38": {
+        "name": "Olenekskii",
+        "links": {
+            "30": "Mirninskii",
+            "46": "Sakha South",
+            "25": "Krasnoyarsk Kai",
+            "12": "Eastern Siberia"
+        }
+    },
+    "39": {
+        "name": "Omsk",
+        "links": {
+            "36": "Novosibirsk",
+            "55": "Tyumen",
+            "52": "Tomsk"
+        }
+    },
+    "40": {
+        "name": "Orenburg",
+        "links": {
+            "26": "Kurgan",
+            "10": "Chechen",
+            "48": "Saratov",
+            "56": "Ulyanovsk",
+            "8": "Bashkortostan"
+        }
+    },
+    "41": {
+        "name": "Penza",
+        "links": {
+            "56": "Ulyanovsk",
+            "21": "Kirov",
+            "23": "Kostroma",
+            "51": "Tambov",
+            "48": "Saratov"
+        }
+    },
+    "42": {
+        "name": "Perm Krai",
+        "links": {
+            "22": "Komi",
+            "8": "Bashkortostan",
+            "21": "Kirov"
+        }
+    },
+    "43": {
+        "name": "Primorsky",
+        "links": {
+            "47": "Sakhalin",
+            "18": "Khabarovsk South"
+        }
+    },
+    "44": {
+        "name": "Psko",
+        "links": {
+            "54": "Tver",
+            "27": "Leningrad"
+        }
+    },
+    "45": {
+        "name": "Rostov",
+        "links": {
+            "24": "Krasnodar",
+            "51": "Tambov",
+            "49": "Stavropol",
+            "57": "Volgograd",
+            "7": "Astrakahn"
+        }
+    },
+    "46": {
+        "name": "Sakha South",
+        "links": {
+            "30": "Mirninskii",
+            "38": "Olenekskii",
+            "28": "Lenskii",
+            "2": "Aldanskii",
+            "37": "Oleminskii"
+        }
+    },
+    "47": {
+        "name": "Sakhalin",
+        "links": {
+            "16": "Kamchatka",
+            "43": "Primorsky",
+            "2": "Aldanskii"
+        }
+    },
+    "48": {
+        "name": "Saratov",
+        "links": {
+            "41": "Penza",
+            "56": "Ulyanovsk",
+            "40": "Orenburg",
+            "57": "Volgograd",
+            "51": "Tambov"
+        }
+    },
+    "49": {
+        "name": "Stavropol",
+        "links": {
+            "10": "Chechen",
+            "24": "Krasnodar",
+            "45": "Rostov",
+            "7": "Astrakahn"
+        }
+    },
+    "50": {
+        "name": "Sverdlovsk",
+        "links": {
+            "26": "Kurgan",
+            "20": "Khanty Mansi",
+            "55": "Tyumen"
+        }
+    },
+    "51": {
+        "name": "Tambov",
+        "links": {
+            "45": "Rostov",
+            "31": "Moscow",
+            "23": "Kostroma",
+            "41": "Penza",
+            "57": "Volgograd",
+            "48": "Saratov"
+        }
+    },
+    "52": {
+        "name": "Tomsk",
+        "links": {
+            "20": "Khanty Mansi",
+            "59": "Western Siberia",
+            "55": "Tyumen",
+            "19": "Khakassia",
+            "39": "Omsk",
+            "36": "Novosibirsk"
+        }
+    },
+    "53": {
+        "name": "Tuva",
+        "links": {
+            "9": "Buryatia",
+            "3": "Altai",
+            "14": "Irkutsk South",
+            "19": "Khakassia",
+            "59": "Western Siberia"
+        }
+    },
+    "54": {
+        "name": "Tver",
+        "links": {
+            "31": "Moscow",
+            "23": "Kostroma",
+            "44": "Psko",
+            "58": "Vologda",
+            "27": "Leningrad"
+        }
+    },
+    "55": {
+        "name": "Tyumen",
+        "links": {
+            "39": "Omsk",
+            "26": "Kurgan",
+            "20": "Khanty Mansi",
+            "52": "Tomsk",
+            "50": "Sverdlovsk"
+        }
+    },
+    "56": {
+        "name": "Ulyanovsk",
+        "links": {
+            "41": "Penza",
+            "21": "Kirov",
+            "48": "Saratov",
+            "8": "Bashkortostan",
+            "40": "Orenburg"
+        }
+    },
+    "57": {
+        "name": "Volgograd",
+        "links": {
+            "48": "Saratov",
+            "7": "Astrakahn",
+            "45": "Rostov",
+            "51": "Tambov"
+        }
+    },
+    "58": {
+        "name": "Vologda",
+        "links": {
+            "27": "Leningrad",
+            "17": "Karelia",
+            "23": "Kostroma",
+            "54": "Tver",
+            "6": "Arkhangelsk",
+            "21": "Kirov"
+        }
+    },
+    "59": {
+        "name": "Western Siberia",
+        "links": {
+            "13": "Irkutsk North",
+            "14": "Irkutsk South",
+            "12": "Eastern Siberia",
+            "20": "Khanty Mansi",
+            "52": "Tomsk",
+            "60": "Yamalo Nenets",
+            "19": "Khakassia",
+            "25": "Krasnoyarsk Kai",
+            "53": "Tuva"
+        }
+    },
+    "60": {
+        "name": "Yamalo Nenets",
+        "links": {
+            "59": "Western Siberia",
+            "20": "Khanty Mansi",
+            "35": "New Ground",
+            "25": "Krasnoyarsk Kai"
+        }
+    },
+    "61": {
+        "name": "Zabaykalsky",
+        "links": {
+            "5": "Amur",
+            "9": "Buryatia"
+        }
+    }
+}

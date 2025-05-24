@@ -1,0 +1,352 @@
+{
+    "1": {
+        "name": "Asgard gates",
+        "links": {
+            "4": "F\u00f3lkvangr",
+            "37": "Bifr\u00f6st",
+            "2": "Himinbj\u00f6rg"
+        }
+    },
+    "2": {
+        "name": "Himinbj\u00f6rg",
+        "links": {
+            "4": "F\u00f3lkvangr",
+            "1": "Asgard gates",
+            "5": "Thr\u00fadheim",
+            "3": "Valhalla"
+        }
+    },
+    "3": {
+        "name": "Valhalla",
+        "links": {
+            "36": "Jormungandr Lookout",
+            "5": "Thr\u00fadheim",
+            "2": "Himinbj\u00f6rg"
+        }
+    },
+    "4": {
+        "name": "F\u00f3lkvangr",
+        "links": {
+            "1": "Asgard gates",
+            "5": "Thr\u00fadheim",
+            "2": "Himinbj\u00f6rg"
+        }
+    },
+    "5": {
+        "name": "Thr\u00fadheim",
+        "links": {
+            "4": "F\u00f3lkvangr",
+            "2": "Himinbj\u00f6rg",
+            "3": "Valhalla"
+        }
+    },
+    "6": {
+        "name": "Sealed Passage",
+        "links": {
+            "36": "Jormungandr Lookout",
+            "7": "D\u00f6kk\u00e1lfar",
+            "9": "Myrk\u00e1lfar"
+        }
+    },
+    "7": {
+        "name": "D\u00f6kk\u00e1lfar",
+        "links": {
+            "10": "Dvalinn",
+            "6": "Sealed Passage",
+            "8": "Svart\u00e1lfar",
+            "9": "Myrk\u00e1lfar"
+        }
+    },
+    "8": {
+        "name": "Svart\u00e1lfar",
+        "links": {
+            "10": "Dvalinn",
+            "7": "D\u00f6kk\u00e1lfar"
+        }
+    },
+    "9": {
+        "name": "Myrk\u00e1lfar",
+        "links": {
+            "10": "Dvalinn",
+            "6": "Sealed Passage",
+            "7": "D\u00f6kk\u00e1lfar"
+        }
+    },
+    "10": {
+        "name": "Dvalinn",
+        "links": {
+            "11": "\u00c6sir",
+            "7": "D\u00f6kk\u00e1lfar",
+            "8": "Svart\u00e1lfar",
+            "9": "Myrk\u00e1lfar"
+        }
+    },
+    "11": {
+        "name": "\u00c6sir",
+        "links": {
+            "10": "Dvalinn",
+            "12": "Elven City",
+            "14": "Gr\u00edmnism\u00e1l",
+            "13": "Lush Garden"
+        }
+    },
+    "12": {
+        "name": "Elven City",
+        "links": {
+            "11": "\u00c6sir",
+            "13": "Lush Garden",
+            "14": "Gr\u00edmnism\u00e1l"
+        }
+    },
+    "13": {
+        "name": "Lush Garden",
+        "links": {
+            "41": "Desert Hammer",
+            "14": "Gr\u00edmnism\u00e1l",
+            "11": "\u00c6sir",
+            "12": "Elven City"
+        }
+    },
+    "14": {
+        "name": "Gr\u00edmnism\u00e1l",
+        "links": {
+            "11": "\u00c6sir",
+            "12": "Elven City",
+            "13": "Lush Garden"
+        }
+    },
+    "15": {
+        "name": "Ymir",
+        "links": {
+            "17": "Ginnungagap",
+            "18": "Surtr"
+        }
+    },
+    "16": {
+        "name": "Au\u00f0umbla",
+        "links": {
+            "22": "Ganglati",
+            "18": "Surtr"
+        }
+    },
+    "17": {
+        "name": "Ginnungagap",
+        "links": {
+            "15": "Ymir",
+            "41": "Desert Hammer"
+        }
+    },
+    "18": {
+        "name": "Surtr",
+        "links": {
+            "15": "Ymir",
+            "16": "Au\u00f0umbla"
+        }
+    },
+    "19": {
+        "name": "Hel's Throne",
+        "links": {
+            "22": "Ganglati",
+            "21": "\u00c9lj\u00fa\u00f0nir",
+            "20": "Niflhel"
+        }
+    },
+    "20": {
+        "name": "Niflhel",
+        "links": {
+            "19": "Hel's Throne",
+            "40": "Mid of Midgard"
+        }
+    },
+    "21": {
+        "name": "\u00c9lj\u00fa\u00f0nir",
+        "links": {
+            "22": "Ganglati",
+            "19": "Hel's Throne"
+        }
+    },
+    "22": {
+        "name": "Ganglati",
+        "links": {
+            "19": "Hel's Throne",
+            "26": "V\u00f6lusp\u00e1",
+            "21": "\u00c9lj\u00fa\u00f0nir",
+            "16": "Au\u00f0umbla"
+        }
+    },
+    "23": {
+        "name": "Golden Hall",
+        "links": {
+            "42": "Sindri",
+            "25": "Svartalfheim"
+        }
+    },
+    "24": {
+        "name": "Sindri\u2019s Clan",
+        "links": {
+            "39": "Yimir's Brows",
+            "26": "V\u00f6lusp\u00e1",
+            "25": "Svartalfheim",
+            "42": "Sindri"
+        }
+    },
+    "25": {
+        "name": "Svartalfheim",
+        "links": {
+            "24": "Sindri\u2019s Clan",
+            "23": "Golden Hall",
+            "26": "V\u00f6lusp\u00e1",
+            "42": "Sindri"
+        }
+    },
+    "26": {
+        "name": "V\u00f6lusp\u00e1",
+        "links": {
+            "22": "Ganglati",
+            "24": "Sindri\u2019s Clan",
+            "25": "Svartalfheim",
+            "42": "Sindri"
+        }
+    },
+    "27": {
+        "name": "J\u00f6tnar",
+        "links": {
+            "35": "Vanir",
+            "31": "\u00datgar\u00f0ar",
+            "28": "Vimur",
+            "29": "\u00cdfingr"
+        }
+    },
+    "28": {
+        "name": "Vimur",
+        "links": {
+            "27": "J\u00f6tnar",
+            "29": "\u00cdfingr"
+        }
+    },
+    "29": {
+        "name": "\u00cdfingr",
+        "links": {
+            "27": "J\u00f6tnar",
+            "31": "\u00datgar\u00f0ar",
+            "28": "Vimur",
+            "30": "Midgard Portal"
+        }
+    },
+    "30": {
+        "name": "Midgard Portal",
+        "links": {
+            "39": "Yimir's Brows",
+            "31": "\u00datgar\u00f0ar",
+            "29": "\u00cdfingr"
+        }
+    },
+    "31": {
+        "name": "\u00datgar\u00f0ar",
+        "links": {
+            "27": "J\u00f6tnar",
+            "29": "\u00cdfingr",
+            "30": "Midgard Portal"
+        }
+    },
+    "32": {
+        "name": "Don River",
+        "links": {
+            "34": "Nj\u00f6r\u00f0r ",
+            "35": "Vanir",
+            "33": "Vaf\u00fer\u00fa\u00f0nir."
+        }
+    },
+    "33": {
+        "name": "Vaf\u00fer\u00fa\u00f0nir.",
+        "links": {
+            "34": "Nj\u00f6r\u00f0r ",
+            "32": "Don River",
+            "38": "Ancient Battleground ",
+            "35": "Vanir"
+        }
+    },
+    "34": {
+        "name": "Nj\u00f6r\u00f0r ",
+        "links": {
+            "35": "Vanir",
+            "33": "Vaf\u00fer\u00fa\u00f0nir.",
+            "32": "Don River"
+        }
+    },
+    "35": {
+        "name": "Vanir",
+        "links": {
+            "27": "J\u00f6tnar",
+            "33": "Vaf\u00fer\u00fa\u00f0nir.",
+            "32": "Don River",
+            "34": "Nj\u00f6r\u00f0r "
+        }
+    },
+    "36": {
+        "name": "Jormungandr Lookout",
+        "links": {
+            "37": "Bifr\u00f6st",
+            "6": "Sealed Passage",
+            "3": "Valhalla",
+            "41": "Desert Hammer"
+        }
+    },
+    "37": {
+        "name": "Bifr\u00f6st",
+        "links": {
+            "1": "Asgard gates",
+            "38": "Ancient Battleground ",
+            "40": "Mid of Midgard",
+            "41": "Desert Hammer",
+            "36": "Jormungandr Lookout"
+        }
+    },
+    "38": {
+        "name": "Ancient Battleground ",
+        "links": {
+            "39": "Yimir's Brows",
+            "40": "Mid of Midgard",
+            "33": "Vaf\u00fer\u00fa\u00f0nir.",
+            "37": "Bifr\u00f6st"
+        }
+    },
+    "39": {
+        "name": "Yimir's Brows",
+        "links": {
+            "24": "Sindri\u2019s Clan",
+            "40": "Mid of Midgard",
+            "38": "Ancient Battleground ",
+            "30": "Midgard Portal"
+        }
+    },
+    "40": {
+        "name": "Mid of Midgard",
+        "links": {
+            "39": "Yimir's Brows",
+            "41": "Desert Hammer",
+            "38": "Ancient Battleground ",
+            "20": "Niflhel",
+            "37": "Bifr\u00f6st"
+        }
+    },
+    "41": {
+        "name": "Desert Hammer",
+        "links": {
+            "36": "Jormungandr Lookout",
+            "40": "Mid of Midgard",
+            "17": "Ginnungagap",
+            "37": "Bifr\u00f6st",
+            "13": "Lush Garden"
+        }
+    },
+    "42": {
+        "name": "Sindri",
+        "links": {
+            "24": "Sindri\u2019s Clan",
+            "25": "Svartalfheim",
+            "26": "V\u00f6lusp\u00e1",
+            "23": "Golden Hall"
+        }
+    }
+}

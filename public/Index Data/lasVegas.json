@@ -1,0 +1,594 @@
+{
+    "1": {
+        "name": "Amber Hills",
+        "links": {
+            "36": "Northern Red Rock",
+            "31": "Lone Mountain",
+            "45": "Rock Springs Vista",
+            "41": "Red Rock Canyon",
+            "37": "Painted Desert"
+        }
+    },
+    "2": {
+        "name": "Arden",
+        "links": {
+            "50": "Sloan Canyon",
+            "6": "Buffalo & Windmill",
+            "4": "Blue Diamond",
+            "29": "Las Vegas South"
+        }
+    },
+    "3": {
+        "name": "Black Mountain",
+        "links": {
+            "38": "Paradise Hills",
+            "33": "McCullogh Hills",
+            "17": "Foot Hills",
+            "39": "Pittman"
+        }
+    },
+    "4": {
+        "name": "Blue Diamond",
+        "links": {
+            "47": "S Las Vegas Blvd W",
+            "46": "S Las Vegas Blvd E",
+            "43": "Rhodes Ranch G. C.",
+            "51": "Sovana",
+            "2": "Arden",
+            "6": "Buffalo & Windmill",
+            "29": "Las Vegas South"
+        }
+    },
+    "5": {
+        "name": "Bonanza Village",
+        "links": {
+            "13": "E Bonanza Rd",
+            "12": "Downtown",
+            "35": "N. Las Vegas Airport",
+            "25": "Las Vegas Blvd N",
+            "34": "Meadows",
+            "27": "Las Vegas G. C."
+        }
+    },
+    "6": {
+        "name": "Buffalo & Windmill",
+        "links": {
+            "2": "Arden",
+            "43": "Rhodes Ranch G. C.",
+            "4": "Blue Diamond"
+        }
+    },
+    "7": {
+        "name": "Central Whitney",
+        "links": {
+            "39": "Pittman",
+            "56": "Upper Whitney",
+            "54": "UNLV",
+            "52": "Sunset Park",
+            "16": "Eldorado",
+            "58": "Whitney Ranch"
+        }
+    },
+    "8": {
+        "name": "Colorado River",
+        "links": {
+            "14": "E Nellis AFB",
+            "21": "Hoover Dam",
+            "24": "Las Vegas Bay"
+        }
+    },
+    "9": {
+        "name": "Copper Crest",
+        "links": {
+            "35": "N. Las Vegas Airport",
+            "27": "Las Vegas G. C.",
+            "36": "Northern Red Rock",
+            "10": "Corn Creek",
+            "11": "Craig Ranch",
+            "37": "Painted Desert",
+            "19": "Gass Peak View"
+        }
+    },
+    "10": {
+        "name": "Corn Creek",
+        "links": {
+            "36": "Northern Red Rock",
+            "19": "Gass Peak View",
+            "11": "Craig Ranch",
+            "9": "Copper Crest",
+            "37": "Painted Desert"
+        }
+    },
+    "11": {
+        "name": "Craig Ranch",
+        "links": {
+            "25": "Las Vegas Blvd N",
+            "35": "N. Las Vegas Airport",
+            "10": "Corn Creek",
+            "19": "Gass Peak View",
+            "9": "Copper Crest",
+            "26": "Las Vegas Fwy N"
+        }
+    },
+    "12": {
+        "name": "Downtown",
+        "links": {
+            "5": "Bonanza Village",
+            "13": "E Bonanza Rd",
+            "54": "UNLV",
+            "46": "S Las Vegas Blvd E",
+            "15": "East Downtown",
+            "34": "Meadows",
+            "53": "The Lakes",
+            "47": "S Las Vegas Blvd W"
+        }
+    },
+    "13": {
+        "name": "E Bonanza Rd",
+        "links": {
+            "16": "Eldorado",
+            "15": "East Downtown",
+            "25": "Las Vegas Blvd N",
+            "5": "Bonanza Village",
+            "12": "Downtown"
+        }
+    },
+    "14": {
+        "name": "E Nellis AFB",
+        "links": {
+            "30": "Las Vegas Speedway",
+            "8": "Colorado River",
+            "18": "Frenchman Range",
+            "57": "W Nellis AFB",
+            "24": "Las Vegas Bay"
+        }
+    },
+    "15": {
+        "name": "East Downtown",
+        "links": {
+            "13": "E Bonanza Rd",
+            "16": "Eldorado",
+            "54": "UNLV",
+            "12": "Downtown",
+            "46": "S Las Vegas Blvd E"
+        }
+    },
+    "16": {
+        "name": "Eldorado",
+        "links": {
+            "56": "Upper Whitney",
+            "18": "Frenchman Range",
+            "13": "E Bonanza Rd",
+            "15": "East Downtown",
+            "25": "Las Vegas Blvd N",
+            "57": "W Nellis AFB",
+            "28": "Las Vegas North",
+            "7": "Central Whitney",
+            "54": "UNLV"
+        }
+    },
+    "17": {
+        "name": "Foot Hills",
+        "links": {
+            "55": "Upper Boulder",
+            "38": "Paradise Hills",
+            "3": "Black Mountain",
+            "39": "Pittman",
+            "44": "River Mountain",
+            "22": "Lake Las Vegas"
+        }
+    },
+    "18": {
+        "name": "Frenchman Range",
+        "links": {
+            "56": "Upper Whitney",
+            "16": "Eldorado",
+            "40": "Rainbow Gardens",
+            "57": "W Nellis AFB",
+            "14": "E Nellis AFB"
+        }
+    },
+    "19": {
+        "name": "Gass Peak View",
+        "links": {
+            "10": "Corn Creek",
+            "26": "Las Vegas Fwy N",
+            "11": "Craig Ranch",
+            "9": "Copper Crest"
+        }
+    },
+    "20": {
+        "name": "Green Valley South",
+        "links": {
+            "33": "McCullogh Hills",
+            "32": "MacDonald Ranch",
+            "58": "Whitney Ranch",
+            "39": "Pittman",
+            "52": "Sunset Park"
+        }
+    },
+    "21": {
+        "name": "Hoover Dam",
+        "links": {
+            "8": "Colorado River",
+            "23": "Lake Mead Rec. Area"
+        }
+    },
+    "22": {
+        "name": "Lake Las Vegas",
+        "links": {
+            "40": "Rainbow Gardens",
+            "56": "Upper Whitney",
+            "24": "Las Vegas Bay",
+            "17": "Foot Hills",
+            "39": "Pittman",
+            "44": "River Mountain"
+        }
+    },
+    "23": {
+        "name": "Lake Mead Rec. Area",
+        "links": {
+            "21": "Hoover Dam",
+            "55": "Upper Boulder",
+            "44": "River Mountain",
+            "24": "Las Vegas Bay"
+        }
+    },
+    "24": {
+        "name": "Las Vegas Bay",
+        "links": {
+            "22": "Lake Las Vegas",
+            "40": "Rainbow Gardens",
+            "14": "E Nellis AFB",
+            "8": "Colorado River",
+            "23": "Lake Mead Rec. Area",
+            "44": "River Mountain"
+        }
+    },
+    "25": {
+        "name": "Las Vegas Blvd N",
+        "links": {
+            "16": "Eldorado",
+            "13": "E Bonanza Rd",
+            "28": "Las Vegas North",
+            "35": "N. Las Vegas Airport",
+            "5": "Bonanza Village",
+            "11": "Craig Ranch",
+            "57": "W Nellis AFB",
+            "26": "Las Vegas Fwy N"
+        }
+    },
+    "26": {
+        "name": "Las Vegas Fwy N",
+        "links": {
+            "30": "Las Vegas Speedway",
+            "19": "Gass Peak View",
+            "57": "W Nellis AFB",
+            "11": "Craig Ranch",
+            "25": "Las Vegas Blvd N"
+        }
+    },
+    "27": {
+        "name": "Las Vegas G. C.",
+        "links": {
+            "9": "Copper Crest",
+            "35": "N. Las Vegas Airport",
+            "5": "Bonanza Village",
+            "34": "Meadows",
+            "45": "Rock Springs Vista",
+            "37": "Painted Desert"
+        }
+    },
+    "28": {
+        "name": "Las Vegas North",
+        "links": {
+            "16": "Eldorado",
+            "25": "Las Vegas Blvd N",
+            "57": "W Nellis AFB"
+        }
+    },
+    "29": {
+        "name": "Las Vegas South",
+        "links": {
+            "4": "Blue Diamond",
+            "46": "S Las Vegas Blvd E",
+            "2": "Arden",
+            "49": "Silverado Ranch",
+            "50": "Sloan Canyon",
+            "47": "S Las Vegas Blvd W"
+        }
+    },
+    "30": {
+        "name": "Las Vegas Speedway",
+        "links": {
+            "26": "Las Vegas Fwy N",
+            "14": "E Nellis AFB",
+            "57": "W Nellis AFB"
+        }
+    },
+    "31": {
+        "name": "Lone Mountain",
+        "links": {
+            "36": "Northern Red Rock",
+            "1": "Amber Hills",
+            "37": "Painted Desert"
+        }
+    },
+    "32": {
+        "name": "MacDonald Ranch",
+        "links": {
+            "33": "McCullogh Hills",
+            "48": "Seven Hills",
+            "20": "Green Valley South",
+            "49": "Silverado Ranch",
+            "52": "Sunset Park"
+        }
+    },
+    "33": {
+        "name": "McCullogh Hills",
+        "links": {
+            "38": "Paradise Hills",
+            "32": "MacDonald Ranch",
+            "3": "Black Mountain",
+            "20": "Green Valley South",
+            "39": "Pittman"
+        }
+    },
+    "34": {
+        "name": "Meadows",
+        "links": {
+            "12": "Downtown",
+            "53": "The Lakes",
+            "5": "Bonanza Village",
+            "27": "Las Vegas G. C.",
+            "45": "Rock Springs Vista"
+        }
+    },
+    "35": {
+        "name": "N. Las Vegas Airport",
+        "links": {
+            "25": "Las Vegas Blvd N",
+            "5": "Bonanza Village",
+            "11": "Craig Ranch",
+            "9": "Copper Crest",
+            "27": "Las Vegas G. C."
+        }
+    },
+    "36": {
+        "name": "Northern Red Rock",
+        "links": {
+            "41": "Red Rock Canyon",
+            "10": "Corn Creek",
+            "9": "Copper Crest",
+            "31": "Lone Mountain",
+            "1": "Amber Hills",
+            "37": "Painted Desert"
+        }
+    },
+    "37": {
+        "name": "Painted Desert",
+        "links": {
+            "31": "Lone Mountain",
+            "36": "Northern Red Rock",
+            "45": "Rock Springs Vista",
+            "1": "Amber Hills",
+            "27": "Las Vegas G. C.",
+            "9": "Copper Crest",
+            "10": "Corn Creek"
+        }
+    },
+    "38": {
+        "name": "Paradise Hills",
+        "links": {
+            "55": "Upper Boulder",
+            "33": "McCullogh Hills",
+            "17": "Foot Hills",
+            "3": "Black Mountain"
+        }
+    },
+    "39": {
+        "name": "Pittman",
+        "links": {
+            "7": "Central Whitney",
+            "56": "Upper Whitney",
+            "17": "Foot Hills",
+            "3": "Black Mountain",
+            "33": "McCullogh Hills",
+            "22": "Lake Las Vegas",
+            "58": "Whitney Ranch",
+            "20": "Green Valley South"
+        }
+    },
+    "40": {
+        "name": "Rainbow Gardens",
+        "links": {
+            "22": "Lake Las Vegas",
+            "56": "Upper Whitney",
+            "24": "Las Vegas Bay",
+            "18": "Frenchman Range"
+        }
+    },
+    "41": {
+        "name": "Red Rock Canyon",
+        "links": {
+            "42": "Rhodes Ranch",
+            "36": "Northern Red Rock",
+            "1": "Amber Hills"
+        }
+    },
+    "42": {
+        "name": "Rhodes Ranch",
+        "links": {
+            "43": "Rhodes Ranch G. C.",
+            "41": "Red Rock Canyon",
+            "51": "Sovana",
+            "53": "The Lakes"
+        }
+    },
+    "43": {
+        "name": "Rhodes Ranch G. C.",
+        "links": {
+            "6": "Buffalo & Windmill",
+            "42": "Rhodes Ranch",
+            "51": "Sovana",
+            "4": "Blue Diamond"
+        }
+    },
+    "44": {
+        "name": "River Mountain",
+        "links": {
+            "23": "Lake Mead Rec. Area",
+            "55": "Upper Boulder",
+            "17": "Foot Hills",
+            "22": "Lake Las Vegas",
+            "24": "Las Vegas Bay"
+        }
+    },
+    "45": {
+        "name": "Rock Springs Vista",
+        "links": {
+            "34": "Meadows",
+            "53": "The Lakes",
+            "1": "Amber Hills",
+            "37": "Painted Desert",
+            "27": "Las Vegas G. C."
+        }
+    },
+    "46": {
+        "name": "S Las Vegas Blvd E",
+        "links": {
+            "12": "Downtown",
+            "54": "UNLV",
+            "47": "S Las Vegas Blvd W",
+            "52": "Sunset Park",
+            "4": "Blue Diamond",
+            "49": "Silverado Ranch",
+            "29": "Las Vegas South",
+            "15": "East Downtown"
+        }
+    },
+    "47": {
+        "name": "S Las Vegas Blvd W",
+        "links": {
+            "12": "Downtown",
+            "46": "S Las Vegas Blvd E",
+            "53": "The Lakes",
+            "4": "Blue Diamond",
+            "51": "Sovana",
+            "29": "Las Vegas South"
+        }
+    },
+    "48": {
+        "name": "Seven Hills",
+        "links": {
+            "32": "MacDonald Ranch",
+            "50": "Sloan Canyon",
+            "49": "Silverado Ranch"
+        }
+    },
+    "49": {
+        "name": "Silverado Ranch",
+        "links": {
+            "32": "MacDonald Ranch",
+            "48": "Seven Hills",
+            "46": "S Las Vegas Blvd E",
+            "52": "Sunset Park",
+            "29": "Las Vegas South",
+            "50": "Sloan Canyon"
+        }
+    },
+    "50": {
+        "name": "Sloan Canyon",
+        "links": {
+            "48": "Seven Hills",
+            "2": "Arden",
+            "49": "Silverado Ranch",
+            "29": "Las Vegas South"
+        }
+    },
+    "51": {
+        "name": "Sovana",
+        "links": {
+            "43": "Rhodes Ranch G. C.",
+            "4": "Blue Diamond",
+            "42": "Rhodes Ranch",
+            "53": "The Lakes",
+            "47": "S Las Vegas Blvd W"
+        }
+    },
+    "52": {
+        "name": "Sunset Park",
+        "links": {
+            "54": "UNLV",
+            "7": "Central Whitney",
+            "46": "S Las Vegas Blvd E",
+            "58": "Whitney Ranch",
+            "49": "Silverado Ranch",
+            "20": "Green Valley South",
+            "32": "MacDonald Ranch"
+        }
+    },
+    "53": {
+        "name": "The Lakes",
+        "links": {
+            "34": "Meadows",
+            "12": "Downtown",
+            "45": "Rock Springs Vista",
+            "47": "S Las Vegas Blvd W",
+            "42": "Rhodes Ranch",
+            "51": "Sovana"
+        }
+    },
+    "54": {
+        "name": "UNLV",
+        "links": {
+            "7": "Central Whitney",
+            "52": "Sunset Park",
+            "16": "Eldorado",
+            "12": "Downtown",
+            "46": "S Las Vegas Blvd E",
+            "15": "East Downtown"
+        }
+    },
+    "55": {
+        "name": "Upper Boulder",
+        "links": {
+            "23": "Lake Mead Rec. Area",
+            "38": "Paradise Hills",
+            "44": "River Mountain",
+            "17": "Foot Hills"
+        }
+    },
+    "56": {
+        "name": "Upper Whitney",
+        "links": {
+            "16": "Eldorado",
+            "18": "Frenchman Range",
+            "40": "Rainbow Gardens",
+            "22": "Lake Las Vegas",
+            "39": "Pittman",
+            "7": "Central Whitney"
+        }
+    },
+    "57": {
+        "name": "W Nellis AFB",
+        "links": {
+            "26": "Las Vegas Fwy N",
+            "30": "Las Vegas Speedway",
+            "18": "Frenchman Range",
+            "16": "Eldorado",
+            "14": "E Nellis AFB",
+            "28": "Las Vegas North",
+            "25": "Las Vegas Blvd N"
+        }
+    },
+    "58": {
+        "name": "Whitney Ranch",
+        "links": {
+            "52": "Sunset Park",
+            "7": "Central Whitney",
+            "39": "Pittman",
+            "20": "Green Valley South"
+        }
+    }
+}

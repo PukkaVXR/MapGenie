@@ -1,0 +1,474 @@
+{
+    "1": {
+        "name": "CT Beds",
+        "links": {
+            "2": "CT Central",
+            "4": "CT Radar",
+            "46": "GTN - CT"
+        }
+    },
+    "2": {
+        "name": "CT Central",
+        "links": {
+            "6": "CT WC",
+            "1": "CT Beds",
+            "5": "CT Tactical",
+            "3": "CT Flak",
+            "55": "GTW - CT"
+        }
+    },
+    "3": {
+        "name": "CT Flak",
+        "links": {
+            "2": "CT Central"
+        }
+    },
+    "4": {
+        "name": "CT Radar",
+        "links": {
+            "1": "CT Beds"
+        }
+    },
+    "5": {
+        "name": "CT Tactical",
+        "links": {
+            "54": "GTS - CT",
+            "2": "CT Central"
+        }
+    },
+    "6": {
+        "name": "CT WC",
+        "links": {
+            "2": "CT Central"
+        }
+    },
+    "7": {
+        "name": "GTA Beds",
+        "links": {
+            "16": "GTA Storage"
+        }
+    },
+    "8": {
+        "name": "GTA Bridge",
+        "links": {
+            "16": "GTA Storage"
+        }
+    },
+    "9": {
+        "name": "GTA Canteen",
+        "links": {
+            "13": "GTA Kitchen",
+            "15": "GTA South",
+            "10": "GTA Command"
+        }
+    },
+    "10": {
+        "name": "GTA Command",
+        "links": {
+            "9": "GTA Canteen"
+        }
+    },
+    "11": {
+        "name": "GTA East",
+        "links": {
+            "25": "GTC South",
+            "15": "GTA South",
+            "14": "GTA North"
+        }
+    },
+    "12": {
+        "name": "GTA Flak",
+        "links": {
+            "16": "GTA Storage"
+        }
+    },
+    "13": {
+        "name": "GTA Kitchen",
+        "links": {
+            "9": "GTA Canteen"
+        }
+    },
+    "14": {
+        "name": "GTA North",
+        "links": {
+            "15": "GTA South",
+            "11": "GTA East",
+            "16": "GTA Storage",
+            "54": "GTS - CT"
+        }
+    },
+    "15": {
+        "name": "GTA South",
+        "links": {
+            "14": "GTA North",
+            "9": "GTA Canteen",
+            "11": "GTA East"
+        }
+    },
+    "16": {
+        "name": "GTA Storage",
+        "links": {
+            "14": "GTA North",
+            "12": "GTA Flak",
+            "7": "GTA Beds",
+            "8": "GTA Bridge",
+            "17": "GTA WC"
+        }
+    },
+    "17": {
+        "name": "GTA WC",
+        "links": {
+            "16": "GTA Storage"
+        }
+    },
+    "18": {
+        "name": "GTC Bridge",
+        "links": {
+            "20": "GTC Command"
+        }
+    },
+    "19": {
+        "name": "GTC Canteen",
+        "links": {
+            "23": "GTC Kitchen",
+            "26": "GTC Storage"
+        }
+    },
+    "20": {
+        "name": "GTC Command",
+        "links": {
+            "26": "GTC Storage",
+            "18": "GTC Bridge"
+        }
+    },
+    "21": {
+        "name": "GTC East",
+        "links": {
+            "30": "GTE East",
+            "25": "GTC South",
+            "24": "GTC North"
+        }
+    },
+    "22": {
+        "name": "GTC Flak",
+        "links": {
+            "26": "GTC Storage",
+            "25": "GTC South"
+        }
+    },
+    "23": {
+        "name": "GTC Kitchen",
+        "links": {
+            "19": "GTC Canteen"
+        }
+    },
+    "24": {
+        "name": "GTC North",
+        "links": {
+            "21": "GTC East",
+            "26": "GTC Storage",
+            "54": "GTS - CT"
+        }
+    },
+    "25": {
+        "name": "GTC South",
+        "links": {
+            "11": "GTA East",
+            "22": "GTC Flak",
+            "21": "GTC East"
+        }
+    },
+    "26": {
+        "name": "GTC Storage",
+        "links": {
+            "19": "GTC Canteen",
+            "22": "GTC Flak",
+            "24": "GTC North",
+            "20": "GTC Command"
+        }
+    },
+    "27": {
+        "name": "GTE Beds",
+        "links": {
+            "34": "GTE WC",
+            "29": "GTE Command"
+        }
+    },
+    "28": {
+        "name": "GTE Bridge",
+        "links": {
+            "29": "GTE Command",
+            "31": "GTE Flak"
+        }
+    },
+    "29": {
+        "name": "GTE Command",
+        "links": {
+            "27": "GTE Beds",
+            "28": "GTE Bridge",
+            "33": "GTE Storage"
+        }
+    },
+    "30": {
+        "name": "GTE East",
+        "links": {
+            "35": "GTE West",
+            "21": "GTC East",
+            "32": "GTE North"
+        }
+    },
+    "31": {
+        "name": "GTE Flak",
+        "links": {
+            "28": "GTE Bridge"
+        }
+    },
+    "32": {
+        "name": "GTE North",
+        "links": {
+            "30": "GTE East",
+            "35": "GTE West"
+        }
+    },
+    "33": {
+        "name": "GTE Storage",
+        "links": {
+            "35": "GTE West",
+            "29": "GTE Command"
+        }
+    },
+    "34": {
+        "name": "GTE WC",
+        "links": {
+            "27": "GTE Beds"
+        }
+    },
+    "35": {
+        "name": "GTE West",
+        "links": {
+            "30": "GTE East",
+            "32": "GTE North",
+            "33": "GTE Storage",
+            "37": "GTM - GTE"
+        }
+    },
+    "36": {
+        "name": "GTI - CT",
+        "links": {
+            "46": "GTN - CT",
+            "45": "GTM West",
+            "54": "GTS - CT"
+        }
+    },
+    "37": {
+        "name": "GTM - GTE",
+        "links": {
+            "35": "GTE West",
+            "43": "GTM Recreation",
+            "42": "GTM North"
+        }
+    },
+    "38": {
+        "name": "GTM Beds",
+        "links": {
+            "43": "GTM Recreation",
+            "40": "GTM Central"
+        }
+    },
+    "39": {
+        "name": "GTM Canteen",
+        "links": {
+            "40": "GTM Central"
+        }
+    },
+    "40": {
+        "name": "GTM Central",
+        "links": {
+            "41": "GTM Flak",
+            "45": "GTM West",
+            "38": "GTM Beds",
+            "39": "GTM Canteen",
+            "44": "GTM WC"
+        }
+    },
+    "41": {
+        "name": "GTM Flak",
+        "links": {
+            "40": "GTM Central"
+        }
+    },
+    "42": {
+        "name": "GTM North",
+        "links": {
+            "45": "GTM West",
+            "51": "GTN South",
+            "37": "GTM - GTE"
+        }
+    },
+    "43": {
+        "name": "GTM Recreation",
+        "links": {
+            "37": "GTM - GTE",
+            "38": "GTM Beds"
+        }
+    },
+    "44": {
+        "name": "GTM WC",
+        "links": {
+            "40": "GTM Central"
+        }
+    },
+    "45": {
+        "name": "GTM West",
+        "links": {
+            "36": "GTI - CT",
+            "42": "GTM North",
+            "40": "GTM Central"
+        }
+    },
+    "46": {
+        "name": "GTN - CT",
+        "links": {
+            "55": "GTW - CT",
+            "51": "GTN South",
+            "36": "GTI - CT",
+            "1": "CT Beds"
+        }
+    },
+    "47": {
+        "name": "GTN Beds",
+        "links": {
+            "49": "GTN Command",
+            "52": "GTN WC"
+        }
+    },
+    "48": {
+        "name": "GTN Bridge",
+        "links": {
+            "53": "GTN West",
+            "49": "GTN Command",
+            "50": "GTN Flak"
+        }
+    },
+    "49": {
+        "name": "GTN Command",
+        "links": {
+            "48": "GTN Bridge",
+            "47": "GTN Beds"
+        }
+    },
+    "50": {
+        "name": "GTN Flak",
+        "links": {
+            "48": "GTN Bridge"
+        }
+    },
+    "51": {
+        "name": "GTN South",
+        "links": {
+            "46": "GTN - CT",
+            "53": "GTN West",
+            "42": "GTM North"
+        }
+    },
+    "52": {
+        "name": "GTN WC",
+        "links": {
+            "47": "GTN Beds"
+        }
+    },
+    "53": {
+        "name": "GTN West",
+        "links": {
+            "56": "GTW Beds",
+            "51": "GTN South",
+            "48": "GTN Bridge"
+        }
+    },
+    "54": {
+        "name": "GTS - CT",
+        "links": {
+            "5": "CT Tactical",
+            "14": "GTA North",
+            "55": "GTW - CT",
+            "36": "GTI - CT",
+            "24": "GTC North"
+        }
+    },
+    "55": {
+        "name": "GTW - CT",
+        "links": {
+            "2": "CT Central",
+            "59": "GTW East",
+            "46": "GTN - CT",
+            "54": "GTS - CT"
+        }
+    },
+    "56": {
+        "name": "GTW Beds",
+        "links": {
+            "53": "GTN West",
+            "58": "GTW Command",
+            "62": "GTW Storage"
+        }
+    },
+    "57": {
+        "name": "GTW Bridge",
+        "links": {
+            "58": "GTW Command",
+            "62": "GTW Storage"
+        }
+    },
+    "58": {
+        "name": "GTW Command",
+        "links": {
+            "64": "GTW West",
+            "56": "GTW Beds",
+            "57": "GTW Bridge"
+        }
+    },
+    "59": {
+        "name": "GTW East",
+        "links": {
+            "62": "GTW Storage",
+            "55": "GTW - CT",
+            "61": "GTW South"
+        }
+    },
+    "60": {
+        "name": "GTW Flak",
+        "links": {
+            "62": "GTW Storage"
+        }
+    },
+    "61": {
+        "name": "GTW South",
+        "links": {
+            "59": "GTW East",
+            "64": "GTW West"
+        }
+    },
+    "62": {
+        "name": "GTW Storage",
+        "links": {
+            "63": "GTW WC",
+            "59": "GTW East",
+            "56": "GTW Beds",
+            "60": "GTW Flak",
+            "57": "GTW Bridge"
+        }
+    },
+    "63": {
+        "name": "GTW WC",
+        "links": {
+            "62": "GTW Storage"
+        }
+    },
+    "64": {
+        "name": "GTW West",
+        "links": {
+            "61": "GTW South",
+            "58": "GTW Command"
+        }
+    }
+}

@@ -1,0 +1,340 @@
+{
+    "1": {
+        "name": "Archery",
+        "links": {
+            "8": "Forest Gate",
+            "15": "Junction",
+            "9": "Games Plaza"
+        }
+    },
+    "2": {
+        "name": "City Gate",
+        "links": {
+            "38": "Wheat",
+            "22": "Quarry",
+            "19": "Nusta's Bedroom"
+        }
+    },
+    "3": {
+        "name": "Cliffs",
+        "links": {
+            "32": "Temple Passage",
+            "29": "Stairs",
+            "20": "Prisoners"
+        }
+    },
+    "4": {
+        "name": "Condor Temple",
+        "links": {
+            "24": "Royal Tomb",
+            "23": "Royal Palace",
+            "35": "Three Window Plaza",
+            "27": "Sacrifices",
+            "29": "Stairs",
+            "37": "Visitors"
+        }
+    },
+    "5": {
+        "name": "Crop",
+        "links": {
+            "28": "Sir Barclay's Bend",
+            "11": "Guard Houses",
+            "7": "Farm Road",
+            "18": "Mill"
+        }
+    },
+    "6": {
+        "name": "Eastern Gate",
+        "links": {
+            "12": "High Group",
+            "32": "Temple Passage",
+            "13": "Housing"
+        }
+    },
+    "7": {
+        "name": "Farm Road",
+        "links": {
+            "16": "Livestock",
+            "28": "Sir Barclay's Bend",
+            "5": "Crop",
+            "18": "Mill",
+            "33": "Terrace"
+        }
+    },
+    "8": {
+        "name": "Forest Gate",
+        "links": {
+            "1": "Archery",
+            "15": "Junction",
+            "25": "Sacred Rock",
+            "36": "Usmo"
+        }
+    },
+    "9": {
+        "name": "Games Plaza",
+        "links": {
+            "35": "Three Window Plaza",
+            "1": "Archery",
+            "10": "Grass Plaza",
+            "15": "Junction"
+        }
+    },
+    "10": {
+        "name": "Grass Plaza",
+        "links": {
+            "15": "Junction",
+            "14": "Inner Housing",
+            "35": "Three Window Plaza",
+            "9": "Games Plaza"
+        }
+    },
+    "11": {
+        "name": "Guard Houses",
+        "links": {
+            "5": "Crop",
+            "33": "Terrace",
+            "18": "Mill"
+        }
+    },
+    "12": {
+        "name": "High Group",
+        "links": {
+            "34": "Three Doorways",
+            "6": "Eastern Gate",
+            "14": "Inner Housing",
+            "13": "Housing",
+            "30": "Steps",
+            "31": "Tall Wall"
+        }
+    },
+    "13": {
+        "name": "Housing",
+        "links": {
+            "12": "High Group",
+            "6": "Eastern Gate",
+            "31": "Tall Wall",
+            "32": "Temple Passage"
+        }
+    },
+    "14": {
+        "name": "Inner Housing",
+        "links": {
+            "36": "Usmo",
+            "34": "Three Doorways",
+            "10": "Grass Plaza",
+            "12": "High Group",
+            "30": "Steps"
+        }
+    },
+    "15": {
+        "name": "Junction",
+        "links": {
+            "1": "Archery",
+            "8": "Forest Gate",
+            "36": "Usmo",
+            "10": "Grass Plaza",
+            "9": "Games Plaza"
+        }
+    },
+    "16": {
+        "name": "Livestock",
+        "links": {
+            "38": "Wheat",
+            "7": "Farm Road",
+            "33": "Terrace"
+        }
+    },
+    "17": {
+        "name": "Main Temple",
+        "links": {
+            "23": "Royal Palace",
+            "35": "Three Window Plaza",
+            "22": "Quarry",
+            "19": "Nusta's Bedroom",
+            "26": "Sacred Plaza",
+            "24": "Royal Tomb"
+        }
+    },
+    "18": {
+        "name": "Mill",
+        "links": {
+            "7": "Farm Road",
+            "5": "Crop",
+            "11": "Guard Houses",
+            "33": "Terrace"
+        }
+    },
+    "19": {
+        "name": "Nusta's Bedroom",
+        "links": {
+            "22": "Quarry",
+            "17": "Main Temple",
+            "24": "Royal Tomb",
+            "2": "City Gate"
+        }
+    },
+    "20": {
+        "name": "Prisoners",
+        "links": {
+            "32": "Temple Passage",
+            "3": "Cliffs",
+            "29": "Stairs"
+        }
+    },
+    "21": {
+        "name": "Production",
+        "links": {
+            "30": "Steps",
+            "31": "Tall Wall",
+            "27": "Sacrifices"
+        }
+    },
+    "22": {
+        "name": "Quarry",
+        "links": {
+            "2": "City Gate",
+            "26": "Sacred Plaza",
+            "17": "Main Temple",
+            "19": "Nusta's Bedroom"
+        }
+    },
+    "23": {
+        "name": "Royal Palace",
+        "links": {
+            "17": "Main Temple",
+            "35": "Three Window Plaza",
+            "24": "Royal Tomb",
+            "4": "Condor Temple"
+        }
+    },
+    "24": {
+        "name": "Royal Tomb",
+        "links": {
+            "23": "Royal Palace",
+            "4": "Condor Temple",
+            "17": "Main Temple",
+            "19": "Nusta's Bedroom"
+        }
+    },
+    "25": {
+        "name": "Sacred Rock",
+        "links": {
+            "8": "Forest Gate",
+            "36": "Usmo"
+        }
+    },
+    "26": {
+        "name": "Sacred Plaza",
+        "links": {
+            "22": "Quarry",
+            "35": "Three Window Plaza",
+            "17": "Main Temple"
+        }
+    },
+    "27": {
+        "name": "Sacrifices",
+        "links": {
+            "4": "Condor Temple",
+            "21": "Production",
+            "29": "Stairs"
+        }
+    },
+    "28": {
+        "name": "Sir Barclay's Bend",
+        "links": {
+            "37": "Visitors",
+            "5": "Crop",
+            "7": "Farm Road"
+        }
+    },
+    "29": {
+        "name": "Stairs",
+        "links": {
+            "3": "Cliffs",
+            "37": "Visitors",
+            "27": "Sacrifices",
+            "20": "Prisoners",
+            "4": "Condor Temple"
+        }
+    },
+    "30": {
+        "name": "Steps",
+        "links": {
+            "12": "High Group",
+            "31": "Tall Wall",
+            "14": "Inner Housing",
+            "21": "Production"
+        }
+    },
+    "31": {
+        "name": "Tall Wall",
+        "links": {
+            "30": "Steps",
+            "12": "High Group",
+            "21": "Production",
+            "13": "Housing"
+        }
+    },
+    "32": {
+        "name": "Temple Passage",
+        "links": {
+            "6": "Eastern Gate",
+            "3": "Cliffs",
+            "13": "Housing",
+            "20": "Prisoners"
+        }
+    },
+    "33": {
+        "name": "Terrace",
+        "links": {
+            "11": "Guard Houses",
+            "38": "Wheat",
+            "18": "Mill",
+            "16": "Livestock",
+            "7": "Farm Road"
+        }
+    },
+    "34": {
+        "name": "Three Doorways",
+        "links": {
+            "14": "Inner Housing",
+            "12": "High Group"
+        }
+    },
+    "35": {
+        "name": "Three Window Plaza",
+        "links": {
+            "26": "Sacred Plaza",
+            "9": "Games Plaza",
+            "10": "Grass Plaza",
+            "23": "Royal Palace",
+            "17": "Main Temple",
+            "4": "Condor Temple"
+        }
+    },
+    "36": {
+        "name": "Usmo",
+        "links": {
+            "25": "Sacred Rock",
+            "14": "Inner Housing",
+            "15": "Junction",
+            "8": "Forest Gate"
+        }
+    },
+    "37": {
+        "name": "Visitors",
+        "links": {
+            "29": "Stairs",
+            "28": "Sir Barclay's Bend",
+            "4": "Condor Temple"
+        }
+    },
+    "38": {
+        "name": "Wheat",
+        "links": {
+            "33": "Terrace",
+            "2": "City Gate",
+            "16": "Livestock"
+        }
+    }
+}

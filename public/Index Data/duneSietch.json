@@ -1,0 +1,481 @@
+{
+    "1": {
+        "name": "Camp Tent 1",
+        "links": {
+            "3": "Camp Tent 3",
+            "2": "Camp Tent 2"
+        }
+    },
+    "2": {
+        "name": "Camp Tent 2",
+        "links": {
+            "1": "Camp Tent 1",
+            "4": "Camp Tent 4"
+        }
+    },
+    "3": {
+        "name": "Camp Tent 3",
+        "links": {
+            "4": "Camp Tent 4",
+            "1": "Camp Tent 1",
+            "12": "Reservoir NW"
+        }
+    },
+    "4": {
+        "name": "Camp Tent 4",
+        "links": {
+            "3": "Camp Tent 3",
+            "2": "Camp Tent 2",
+            "5": "Camp Tent 5"
+        }
+    },
+    "5": {
+        "name": "Camp Tent 5",
+        "links": {
+            "6": "Camp Tent 6",
+            "4": "Camp Tent 4",
+            "12": "Reservoir NW",
+            "7": "Camp Tent 7"
+        }
+    },
+    "6": {
+        "name": "Camp Tent 6",
+        "links": {
+            "8": "Camp Tent 8",
+            "5": "Camp Tent 5"
+        }
+    },
+    "7": {
+        "name": "Camp Tent 7",
+        "links": {
+            "8": "Camp Tent 8",
+            "5": "Camp Tent 5",
+            "9": "Camp Tent 9"
+        }
+    },
+    "8": {
+        "name": "Camp Tent 8",
+        "links": {
+            "6": "Camp Tent 6",
+            "7": "Camp Tent 7",
+            "9": "Camp Tent 9"
+        }
+    },
+    "9": {
+        "name": "Camp Tent 9",
+        "links": {
+            "8": "Camp Tent 8",
+            "20": "Den Entry",
+            "7": "Camp Tent 7"
+        }
+    },
+    "10": {
+        "name": "Reservoir NE",
+        "links": {
+            "12": "Reservoir NW",
+            "11": "Reservoir SE"
+        }
+    },
+    "11": {
+        "name": "Reservoir SE",
+        "links": {
+            "13": "Reservoir SW",
+            "10": "Reservoir NE"
+        }
+    },
+    "12": {
+        "name": "Reservoir NW",
+        "links": {
+            "10": "Reservoir NE",
+            "3": "Camp Tent 3",
+            "5": "Camp Tent 5",
+            "14": "Cistern of Souls Deck",
+            "13": "Reservoir SW"
+        }
+    },
+    "13": {
+        "name": "Reservoir SW",
+        "links": {
+            "16": "Cistern Entry",
+            "12": "Reservoir NW",
+            "11": "Reservoir SE",
+            "14": "Cistern of Souls Deck"
+        }
+    },
+    "14": {
+        "name": "Cistern of Souls Deck",
+        "links": {
+            "16": "Cistern Entry",
+            "12": "Reservoir NW",
+            "13": "Reservoir SW"
+        }
+    },
+    "15": {
+        "name": "Yali Entry",
+        "links": {
+            "16": "Cistern Entry",
+            "17": "Rear Entry Hall",
+            "25": "Jessica's Yalis"
+        }
+    },
+    "16": {
+        "name": "Cistern Entry",
+        "links": {
+            "18": "Resting Passage",
+            "15": "Yali Entry",
+            "14": "Cistern of Souls Deck",
+            "13": "Reservoir SW"
+        }
+    },
+    "17": {
+        "name": "Rear Entry Hall",
+        "links": {
+            "18": "Resting Passage",
+            "15": "Yali Entry",
+            "35": "Loop Exit"
+        }
+    },
+    "18": {
+        "name": "Resting Passage",
+        "links": {
+            "17": "Rear Entry Hall",
+            "16": "Cistern Entry"
+        }
+    },
+    "19": {
+        "name": "East Den",
+        "links": {
+            "20": "Den Entry",
+            "21": "West Den",
+            "22": "Rear Den"
+        }
+    },
+    "20": {
+        "name": "Den Entry",
+        "links": {
+            "19": "East Den",
+            "9": "Camp Tent 9",
+            "21": "West Den",
+            "22": "Rear Den"
+        }
+    },
+    "21": {
+        "name": "West Den",
+        "links": {
+            "22": "Rear Den",
+            "20": "Den Entry",
+            "31": "Chapel NW",
+            "19": "East Den"
+        }
+    },
+    "22": {
+        "name": "Rear Den",
+        "links": {
+            "19": "East Den",
+            "21": "West Den",
+            "20": "Den Entry"
+        }
+    },
+    "23": {
+        "name": "Rear Yalis",
+        "links": {
+            "38": "Dome Room",
+            "24": "Chani's Yalis"
+        }
+    },
+    "24": {
+        "name": "Chani's Yalis",
+        "links": {
+            "23": "Rear Yalis",
+            "25": "Jessica's Yalis"
+        }
+    },
+    "25": {
+        "name": "Jessica's Yalis",
+        "links": {
+            "24": "Chani's Yalis",
+            "15": "Yali Entry"
+        }
+    },
+    "26": {
+        "name": "Council Entry",
+        "links": {
+            "36": "Community Loop W",
+            "37": "Loop Entry W",
+            "27": "Council Room"
+        }
+    },
+    "27": {
+        "name": "Council Room",
+        "links": {
+            "28": "Chapel Entry",
+            "26": "Council Entry",
+            "54": "Gallery Exit"
+        }
+    },
+    "28": {
+        "name": "Chapel Entry",
+        "links": {
+            "29": "Chapel SE",
+            "32": "Chapel SW",
+            "27": "Council Room"
+        }
+    },
+    "29": {
+        "name": "Chapel SE",
+        "links": {
+            "30": "Chapel NE",
+            "28": "Chapel Entry",
+            "32": "Chapel SW",
+            "31": "Chapel NW"
+        }
+    },
+    "30": {
+        "name": "Chapel NE",
+        "links": {
+            "32": "Chapel SW",
+            "31": "Chapel NW",
+            "29": "Chapel SE"
+        }
+    },
+    "31": {
+        "name": "Chapel NW",
+        "links": {
+            "32": "Chapel SW",
+            "29": "Chapel SE",
+            "21": "West Den",
+            "30": "Chapel NE"
+        }
+    },
+    "32": {
+        "name": "Chapel SW",
+        "links": {
+            "31": "Chapel NW",
+            "29": "Chapel SE",
+            "28": "Chapel Entry",
+            "30": "Chapel NE"
+        }
+    },
+    "33": {
+        "name": "Community Loop E",
+        "links": {
+            "34": "Loop Entry E",
+            "35": "Loop Exit",
+            "39": "Dome Entrance"
+        }
+    },
+    "34": {
+        "name": "Loop Entry E",
+        "links": {
+            "33": "Community Loop E",
+            "45": "Statue E",
+            "37": "Loop Entry W",
+            "50": "Statue W",
+            "39": "Dome Entrance"
+        }
+    },
+    "35": {
+        "name": "Loop Exit",
+        "links": {
+            "36": "Community Loop W",
+            "33": "Community Loop E",
+            "17": "Rear Entry Hall"
+        }
+    },
+    "36": {
+        "name": "Community Loop W",
+        "links": {
+            "35": "Loop Exit",
+            "37": "Loop Entry W",
+            "26": "Council Entry"
+        }
+    },
+    "37": {
+        "name": "Loop Entry W",
+        "links": {
+            "26": "Council Entry",
+            "50": "Statue W",
+            "36": "Community Loop W",
+            "34": "Loop Entry E",
+            "45": "Statue E"
+        }
+    },
+    "38": {
+        "name": "Dome Room",
+        "links": {
+            "23": "Rear Yalis",
+            "39": "Dome Entrance"
+        }
+    },
+    "39": {
+        "name": "Dome Entrance",
+        "links": {
+            "34": "Loop Entry E",
+            "33": "Community Loop E",
+            "38": "Dome Room"
+        }
+    },
+    "40": {
+        "name": "Dead Gallery E",
+        "links": {
+            "43": "Dead Entry",
+            "41": "Central Dead Gallery"
+        }
+    },
+    "41": {
+        "name": "Central Dead Gallery",
+        "links": {
+            "42": "Dead Gallery W",
+            "40": "Dead Gallery E",
+            "43": "Dead Entry"
+        }
+    },
+    "42": {
+        "name": "Dead Gallery W",
+        "links": {
+            "45": "Statue E",
+            "43": "Dead Entry",
+            "46": "Wide Gallery E",
+            "41": "Central Dead Gallery"
+        }
+    },
+    "43": {
+        "name": "Dead Entry",
+        "links": {
+            "40": "Dead Gallery E",
+            "41": "Central Dead Gallery",
+            "44": "Room of The Dead",
+            "42": "Dead Gallery W"
+        }
+    },
+    "44": {
+        "name": "Room of The Dead",
+        "links": {
+            "59": "Sietch Entrance",
+            "43": "Dead Entry"
+        }
+    },
+    "45": {
+        "name": "Statue E",
+        "links": {
+            "34": "Loop Entry E",
+            "46": "Wide Gallery E",
+            "37": "Loop Entry W",
+            "50": "Statue W",
+            "42": "Dead Gallery W"
+        }
+    },
+    "46": {
+        "name": "Wide Gallery E",
+        "links": {
+            "47": "Entry E",
+            "45": "Statue E",
+            "42": "Dead Gallery W"
+        }
+    },
+    "47": {
+        "name": "Entry E",
+        "links": {
+            "46": "Wide Gallery E",
+            "57": "Alcove Locker",
+            "48": "Entry W"
+        }
+    },
+    "48": {
+        "name": "Entry W",
+        "links": {
+            "57": "Alcove Locker",
+            "49": "Wide Gallery W",
+            "47": "Entry E"
+        }
+    },
+    "49": {
+        "name": "Wide Gallery W",
+        "links": {
+            "51": "Council Gallery E",
+            "50": "Statue W",
+            "48": "Entry W"
+        }
+    },
+    "50": {
+        "name": "Statue W",
+        "links": {
+            "45": "Statue E",
+            "49": "Wide Gallery W",
+            "37": "Loop Entry W",
+            "51": "Council Gallery E",
+            "34": "Loop Entry E"
+        }
+    },
+    "51": {
+        "name": "Council Gallery E",
+        "links": {
+            "54": "Gallery Exit",
+            "52": "Council Gallery SE",
+            "49": "Wide Gallery W",
+            "50": "Statue W"
+        }
+    },
+    "52": {
+        "name": "Council Gallery SE",
+        "links": {
+            "53": "Council Gallery S",
+            "51": "Council Gallery E"
+        }
+    },
+    "53": {
+        "name": "Council Gallery S",
+        "links": {
+            "54": "Gallery Exit",
+            "52": "Council Gallery SE",
+            "56": "Council Gallery SW",
+            "59": "Sietch Entrance"
+        }
+    },
+    "54": {
+        "name": "Gallery Exit",
+        "links": {
+            "53": "Council Gallery S",
+            "55": "Council Gallery W",
+            "51": "Council Gallery E",
+            "27": "Council Room"
+        }
+    },
+    "55": {
+        "name": "Council Gallery W",
+        "links": {
+            "54": "Gallery Exit",
+            "56": "Council Gallery SW"
+        }
+    },
+    "56": {
+        "name": "Council Gallery SW",
+        "links": {
+            "53": "Council Gallery S",
+            "55": "Council Gallery W"
+        }
+    },
+    "57": {
+        "name": "Alcove Locker",
+        "links": {
+            "58": "Entrance Hall",
+            "47": "Entry E",
+            "48": "Entry W"
+        }
+    },
+    "58": {
+        "name": "Entrance Hall",
+        "links": {
+            "59": "Sietch Entrance",
+            "57": "Alcove Locker"
+        }
+    },
+    "59": {
+        "name": "Sietch Entrance",
+        "links": {
+            "58": "Entrance Hall",
+            "53": "Council Gallery S",
+            "44": "Room of The Dead"
+        }
+    }
+}

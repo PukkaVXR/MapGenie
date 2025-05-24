@@ -57,6 +57,13 @@ A web-based Risk Map Design Tool built with React, TypeScript, and Vite.
 - Toggles for territory names and continent colors in toolbar
 - Improved professional export options
 
+### V1.1.1 (Pathing Fixes)
+
+#### What's New
+- Curvature editing for arrows has been removed for stability. All arrows are now straight.
+- All arrow types (straight, bidirectional) are now draggable in select mode.
+- Improved pathing and arrow editing stability.
+
 ## Getting Started
 
 1. Visit https://pukkavxr.github.io/MapGenie/

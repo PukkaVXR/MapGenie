@@ -1,0 +1,438 @@
+{
+    "1": {
+        "name": "Basaltia",
+        "links": {
+            "52": "Angel",
+            "7": "> 2 metres",
+            "2": "Cobaltic States"
+        }
+    },
+    "2": {
+        "name": "Cobaltic States",
+        "links": {
+            "3": "Siliconia",
+            "7": "> 2 metres",
+            "4": "Uranium Valley",
+            "1": "Basaltia",
+            "6": "Iodos"
+        }
+    },
+    "3": {
+        "name": "Siliconia",
+        "links": {
+            "2": "Cobaltic States"
+        }
+    },
+    "4": {
+        "name": "Uranium Valley",
+        "links": {
+            "2": "Cobaltic States",
+            "5": "Kosche Station",
+            "6": "Iodos"
+        }
+    },
+    "5": {
+        "name": "Kosche Station",
+        "links": {
+            "4": "Uranium Valley"
+        }
+    },
+    "6": {
+        "name": "Iodos",
+        "links": {
+            "29": "Nothern Isotrop",
+            "7": "> 2 metres",
+            "2": "Cobaltic States",
+            "4": "Uranium Valley",
+            "34": "Trynicia"
+        }
+    },
+    "7": {
+        "name": "> 2 metres",
+        "links": {
+            "2": "Cobaltic States",
+            "1": "Basaltia",
+            "6": "Iodos",
+            "29": "Nothern Isotrop"
+        }
+    },
+    "29": {
+        "name": "Nothern Isotrop",
+        "links": {
+            "63": "Planetoid destroyer",
+            "7": "> 2 metres",
+            "30": "Trigotopia",
+            "6": "Iodos"
+        }
+    },
+    "30": {
+        "name": "Trigotopia",
+        "links": {
+            "32": "Isotropic Region",
+            "34": "Trynicia",
+            "31": "Alkalia",
+            "29": "Nothern Isotrop"
+        }
+    },
+    "31": {
+        "name": "Alkalia",
+        "links": {
+            "55": "Dumbbell",
+            "30": "Trigotopia",
+            "32": "Isotropic Region"
+        }
+    },
+    "32": {
+        "name": "Isotropic Region",
+        "links": {
+            "30": "Trigotopia",
+            "34": "Trynicia",
+            "31": "Alkalia"
+        }
+    },
+    "34": {
+        "name": "Trynicia",
+        "links": {
+            "32": "Isotropic Region",
+            "35": "Donicia",
+            "30": "Trigotopia",
+            "6": "Iodos"
+        }
+    },
+    "35": {
+        "name": "Donicia",
+        "links": {
+            "37": "Alluminia",
+            "39": "Tung-State",
+            "34": "Trynicia"
+        }
+    },
+    "37": {
+        "name": "Alluminia",
+        "links": {
+            "35": "Donicia",
+            "41": "East Tungstania"
+        }
+    },
+    "39": {
+        "name": "Tung-State",
+        "links": {
+            "42": "Tungsten Cube",
+            "35": "Donicia",
+            "41": "East Tungstania",
+            "43": "Tungsten",
+            "44": "Tungstigenia"
+        }
+    },
+    "40": {
+        "name": "Lungsten",
+        "links": {
+            "48": "Liquisticia",
+            "43": "Tungsten",
+            "44": "Tungstigenia"
+        }
+    },
+    "41": {
+        "name": "East Tungstania",
+        "links": {
+            "45": "Magnagascar",
+            "39": "Tung-State",
+            "42": "Tungsten Cube",
+            "48": "Liquisticia",
+            "37": "Alluminia",
+            "44": "Tungstigenia",
+            "50": "Enomalustria",
+            "56": "Bell Tower"
+        }
+    },
+    "42": {
+        "name": "Tungsten Cube",
+        "links": {
+            "39": "Tung-State",
+            "41": "East Tungstania"
+        }
+    },
+    "43": {
+        "name": "Tungsten",
+        "links": {
+            "40": "Lungsten",
+            "39": "Tung-State",
+            "44": "Tungstigenia"
+        }
+    },
+    "44": {
+        "name": "Tungstigenia",
+        "links": {
+            "39": "Tung-State",
+            "40": "Lungsten",
+            "41": "East Tungstania",
+            "48": "Liquisticia",
+            "43": "Tungsten"
+        }
+    },
+    "45": {
+        "name": "Magnagascar",
+        "links": {
+            "41": "East Tungstania",
+            "66": "Boom Stick"
+        }
+    },
+    "46": {
+        "name": "Metalicia",
+        "links": {
+            "58": "Grand Old Lady",
+            "48": "Liquisticia",
+            "50": "Enomalustria"
+        }
+    },
+    "48": {
+        "name": "Liquisticia",
+        "links": {
+            "46": "Metalicia",
+            "41": "East Tungstania",
+            "44": "Tungstigenia",
+            "40": "Lungsten",
+            "50": "Enomalustria"
+        }
+    },
+    "50": {
+        "name": "Enomalustria",
+        "links": {
+            "46": "Metalicia",
+            "48": "Liquisticia",
+            "41": "East Tungstania"
+        }
+    },
+    "51": {
+        "name": "Gooseneck",
+        "links": {
+            "52": "Angel",
+            "62": "Sitting Duck",
+            "53": "Big Bird"
+        }
+    },
+    "52": {
+        "name": "Angel",
+        "links": {
+            "51": "Gooseneck",
+            "53": "Big Bird",
+            "1": "Basaltia"
+        }
+    },
+    "53": {
+        "name": "Big Bird",
+        "links": {
+            "9": "Vastitas Borealis",
+            "51": "Gooseneck",
+            "52": "Angel"
+        }
+    },
+    "54": {
+        "name": "Cowbell",
+        "links": {
+            "18": "Rover Graveyard",
+            "56": "Bell Tower",
+            "55": "Dumbbell"
+        }
+    },
+    "55": {
+        "name": "Dumbbell",
+        "links": {
+            "31": "Alkalia",
+            "54": "Cowbell"
+        }
+    },
+    "56": {
+        "name": "Bell Tower",
+        "links": {
+            "41": "East Tungstania",
+            "54": "Cowbell"
+        }
+    },
+    "57": {
+        "name": "Potatoe",
+        "links": {
+            "58": "Grand Old Lady",
+            "60": "Eggbeater"
+        }
+    },
+    "58": {
+        "name": "Grand Old Lady",
+        "links": {
+            "46": "Metalicia",
+            "57": "Potatoe",
+            "59": "Flying Bathtub"
+        }
+    },
+    "59": {
+        "name": "Flying Bathtub",
+        "links": {
+            "58": "Grand Old Lady",
+            "60": "Eggbeater",
+            "24": "Promethei Planum"
+        }
+    },
+    "60": {
+        "name": "Eggbeater",
+        "links": {
+            "64": "Pie-Fighter",
+            "59": "Flying Bathtub",
+            "57": "Potatoe"
+        }
+    },
+    "61": {
+        "name": "Quixote\u2019s horse",
+        "links": {
+            "62": "Sitting Duck",
+            "63": "Planetoid destroyer"
+        }
+    },
+    "62": {
+        "name": "Sitting Duck",
+        "links": {
+            "51": "Gooseneck",
+            "12": "Perepelkin",
+            "61": "Quixote\u2019s horse"
+        }
+    },
+    "63": {
+        "name": "Planetoid destroyer",
+        "links": {
+            "29": "Nothern Isotrop",
+            "61": "Quixote\u2019s horse"
+        }
+    },
+    "64": {
+        "name": "Pie-Fighter",
+        "links": {
+            "60": "Eggbeater",
+            "67": "Nicola Landau"
+        }
+    },
+    "65": {
+        "name": "Tranquility",
+        "links": {
+            "66": "Boom Stick",
+            "18": "Rover Graveyard"
+        }
+    },
+    "66": {
+        "name": "Boom Stick",
+        "links": {
+            "45": "Magnagascar",
+            "67": "Nicola Landau",
+            "65": "Tranquility"
+        }
+    },
+    "67": {
+        "name": "Nicola Landau",
+        "links": {
+            "66": "Boom Stick",
+            "64": "Pie-Fighter",
+            "25": "Malea Planum"
+        }
+    },
+    "9": {
+        "name": "Vastitas Borealis",
+        "links": {
+            "53": "Big Bird",
+            "11": "Birthday Canyon",
+            "13": "Nepenthes Mensae"
+        }
+    },
+    "11": {
+        "name": "Birthday Canyon",
+        "links": {
+            "9": "Vastitas Borealis",
+            "13": "Nepenthes Mensae",
+            "12": "Perepelkin",
+            "19": "Indus Vallis"
+        }
+    },
+    "12": {
+        "name": "Perepelkin",
+        "links": {
+            "19": "Indus Vallis",
+            "11": "Birthday Canyon",
+            "62": "Sitting Duck"
+        }
+    },
+    "13": {
+        "name": "Nepenthes Mensae",
+        "links": {
+            "9": "Vastitas Borealis",
+            "15": "Hesperia Planum",
+            "11": "Birthday Canyon",
+            "27": "Eridania Planitia",
+            "20": "Hellas Planitia",
+            "19": "Indus Vallis"
+        }
+    },
+    "15": {
+        "name": "Hesperia Planum",
+        "links": {
+            "24": "Promethei Planum",
+            "27": "Eridania Planitia",
+            "13": "Nepenthes Mensae"
+        }
+    },
+    "18": {
+        "name": "Rover Graveyard",
+        "links": {
+            "65": "Tranquility",
+            "25": "Malea Planum",
+            "20": "Hellas Planitia",
+            "54": "Cowbell",
+            "19": "Indus Vallis"
+        }
+    },
+    "19": {
+        "name": "Indus Vallis",
+        "links": {
+            "11": "Birthday Canyon",
+            "18": "Rover Graveyard",
+            "13": "Nepenthes Mensae",
+            "20": "Hellas Planitia",
+            "12": "Perepelkin"
+        }
+    },
+    "20": {
+        "name": "Hellas Planitia",
+        "links": {
+            "18": "Rover Graveyard",
+            "27": "Eridania Planitia",
+            "13": "Nepenthes Mensae",
+            "25": "Malea Planum",
+            "24": "Promethei Planum",
+            "19": "Indus Vallis"
+        }
+    },
+    "24": {
+        "name": "Promethei Planum",
+        "links": {
+            "59": "Flying Bathtub",
+            "15": "Hesperia Planum",
+            "27": "Eridania Planitia",
+            "25": "Malea Planum",
+            "20": "Hellas Planitia"
+        }
+    },
+    "25": {
+        "name": "Malea Planum",
+        "links": {
+            "67": "Nicola Landau",
+            "24": "Promethei Planum",
+            "20": "Hellas Planitia",
+            "18": "Rover Graveyard"
+        }
+    },
+    "27": {
+        "name": "Eridania Planitia",
+        "links": {
+            "15": "Hesperia Planum",
+            "13": "Nepenthes Mensae",
+            "20": "Hellas Planitia",
+            "24": "Promethei Planum"
+        }
+    }
+}

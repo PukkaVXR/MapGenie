@@ -1,0 +1,548 @@
+{
+    "1": {
+        "name": "Armorer",
+        "links": {
+            "3": "Blacksmith",
+            "18": "Fletcher",
+            "57": "The Broken Mace Inn",
+            "2": "Artisan Guild"
+        }
+    },
+    "2": {
+        "name": "Artisan Guild",
+        "links": {
+            "20": "General Apothecary",
+            "43": "Outfitters",
+            "3": "Blacksmith",
+            "1": "Armorer"
+        }
+    },
+    "3": {
+        "name": "Blacksmith",
+        "links": {
+            "66": "Traveler's Inn",
+            "1": "Armorer",
+            "2": "Artisan Guild",
+            "43": "Outfitters"
+        }
+    },
+    "4": {
+        "name": "Broken Quay",
+        "links": {
+            "7": "Desolation Grove"
+        }
+    },
+    "5": {
+        "name": "Crown Court",
+        "links": {
+            "47": "Ruler Road",
+            "19": "Gaol",
+            "46": "River Town Archive",
+            "48": "Sage Tower"
+        }
+    },
+    "6": {
+        "name": "Derelict Manor",
+        "links": {
+            "22": "Gold Avenue",
+            "7": "Desolation Grove",
+            "60": "The Ruins"
+        }
+    },
+    "7": {
+        "name": "Desolation Grove",
+        "links": {
+            "6": "Derelict Manor",
+            "4": "Broken Quay",
+            "68": "Western Watchtower",
+            "26": "Hermit's Hole",
+            "60": "The Ruins"
+        }
+    },
+    "8": {
+        "name": "Dungeoneers",
+        "links": {
+            "21": "General Markets",
+            "66": "Traveler's Inn",
+            "20": "General Apothecary"
+        }
+    },
+    "9": {
+        "name": "East Bickering",
+        "links": {
+            "34": "Mariner Towers",
+            "13": "Eastern Watchtower",
+            "10": "East End Mansions"
+        }
+    },
+    "10": {
+        "name": "East End Mansions",
+        "links": {
+            "13": "Eastern Watchtower",
+            "12": "East Watch Barracks",
+            "11": "East Slums",
+            "9": "East Bickering"
+        }
+    },
+    "11": {
+        "name": "East Slums",
+        "links": {
+            "10": "East End Mansions",
+            "62": "The Stench"
+        }
+    },
+    "12": {
+        "name": "East Watch Barracks",
+        "links": {
+            "10": "East End Mansions",
+            "62": "The Stench"
+        }
+    },
+    "13": {
+        "name": "Eastern Watchtower",
+        "links": {
+            "23": "Great East Road",
+            "10": "East End Mansions",
+            "9": "East Bickering"
+        }
+    },
+    "14": {
+        "name": "Exotic Warehouse",
+        "links": {
+            "67": "Vault House",
+            "65": "Trading Pier"
+        }
+    },
+    "15": {
+        "name": "Fish Market",
+        "links": {
+            "53": "Storage Hut",
+            "35": "Market Street",
+            "16": "Fish Storage"
+        }
+    },
+    "16": {
+        "name": "Fish Storage",
+        "links": {
+            "51": "Shipyard",
+            "15": "Fish Market"
+        }
+    },
+    "17": {
+        "name": "Fishing Dock",
+        "links": {
+            "44": "Press Gangers' Inn",
+            "49": "Sailing Guild"
+        }
+    },
+    "18": {
+        "name": "Fletcher",
+        "links": {
+            "1": "Armorer",
+            "57": "The Broken Mace Inn"
+        }
+    },
+    "19": {
+        "name": "Gaol",
+        "links": {
+            "5": "Crown Court",
+            "46": "River Town Archive"
+        }
+    },
+    "20": {
+        "name": "General Apothecary",
+        "links": {
+            "64": "Town Plaza",
+            "21": "General Markets",
+            "8": "Dungeoneers",
+            "2": "Artisan Guild",
+            "55": "Temple Road"
+        }
+    },
+    "21": {
+        "name": "General Markets",
+        "links": {
+            "35": "Market Street",
+            "8": "Dungeoneers",
+            "20": "General Apothecary"
+        }
+    },
+    "22": {
+        "name": "Gold Avenue",
+        "links": {
+            "65": "Trading Pier",
+            "6": "Derelict Manor",
+            "47": "Ruler Road",
+            "33": "Main Street"
+        }
+    },
+    "23": {
+        "name": "Great East Road",
+        "links": {
+            "59": "The Mitre Tavern",
+            "13": "Eastern Watchtower",
+            "34": "Mariner Towers",
+            "64": "Town Plaza",
+            "55": "Temple Road"
+        }
+    },
+    "24": {
+        "name": "Guard Post East",
+        "links": {
+            "25": "Guard Post West",
+            "35": "Market Street"
+        }
+    },
+    "25": {
+        "name": "Guard Post West",
+        "links": {
+            "33": "Main Street",
+            "24": "Guard Post East"
+        }
+    },
+    "26": {
+        "name": "Hermit's Hole",
+        "links": {
+            "68": "Western Watchtower",
+            "7": "Desolation Grove"
+        }
+    },
+    "27": {
+        "name": "High Cleric Palace",
+        "links": {
+            "55": "Temple Road",
+            "40": "Monastery",
+            "28": "High Temple",
+            "31": "Lower Orders"
+        }
+    },
+    "28": {
+        "name": "High Temple",
+        "links": {
+            "27": "High Cleric Palace",
+            "31": "Lower Orders",
+            "54": "Temple Guards",
+            "59": "The Mitre Tavern"
+        }
+    },
+    "29": {
+        "name": "Inn of the North",
+        "links": {
+            "30": "Lonely Posting",
+            "56": "Thaumaturgist",
+            "42": "Northern Passage"
+        }
+    },
+    "30": {
+        "name": "Lonely Posting",
+        "links": {
+            "41": "North Watch Barracks",
+            "29": "Inn of the North"
+        }
+    },
+    "31": {
+        "name": "Lower Orders",
+        "links": {
+            "28": "High Temple",
+            "27": "High Cleric Palace",
+            "40": "Monastery",
+            "54": "Temple Guards"
+        }
+    },
+    "32": {
+        "name": "Mage Road",
+        "links": {
+            "56": "Thaumaturgist",
+            "47": "Ruler Road"
+        }
+    },
+    "33": {
+        "name": "Main Street",
+        "links": {
+            "63": "Town Hall",
+            "25": "Guard Post West",
+            "47": "Ruler Road",
+            "39": "Merchant Guild",
+            "22": "Gold Avenue"
+        }
+    },
+    "34": {
+        "name": "Mariner Towers",
+        "links": {
+            "62": "The Stench",
+            "23": "Great East Road",
+            "9": "East Bickering"
+        }
+    },
+    "35": {
+        "name": "Market Street",
+        "links": {
+            "24": "Guard Post East",
+            "21": "General Markets",
+            "15": "Fish Market",
+            "64": "Town Plaza"
+        }
+    },
+    "36": {
+        "name": "Mayoral Guard",
+        "links": {
+            "63": "Town Hall",
+            "45": "River Boat Quay"
+        }
+    },
+    "37": {
+        "name": "Mayor's Manor",
+        "links": {
+            "47": "Ruler Road",
+            "63": "Town Hall",
+            "38": "Mayor's Park"
+        }
+    },
+    "38": {
+        "name": "Mayor's Park",
+        "links": {
+            "37": "Mayor's Manor",
+            "63": "Town Hall"
+        }
+    },
+    "39": {
+        "name": "Merchant Guild",
+        "links": {
+            "33": "Main Street",
+            "67": "Vault House",
+            "52": "State Bank"
+        }
+    },
+    "40": {
+        "name": "Monastery",
+        "links": {
+            "27": "High Cleric Palace",
+            "58": "The Friar's Inn",
+            "31": "Lower Orders"
+        }
+    },
+    "41": {
+        "name": "North Watch Barracks",
+        "links": {
+            "30": "Lonely Posting"
+        }
+    },
+    "42": {
+        "name": "Northern Passage",
+        "links": {
+            "29": "Inn of the North",
+            "47": "Ruler Road",
+            "48": "Sage Tower"
+        }
+    },
+    "43": {
+        "name": "Outfitters",
+        "links": {
+            "2": "Artisan Guild",
+            "66": "Traveler's Inn",
+            "3": "Blacksmith"
+        }
+    },
+    "44": {
+        "name": "Press Gangers' Inn",
+        "links": {
+            "50": "Shippers Lane",
+            "17": "Fishing Dock",
+            "61": "The Salty Dog Tavern"
+        }
+    },
+    "45": {
+        "name": "River Boat Quay",
+        "links": {
+            "36": "Mayoral Guard",
+            "63": "Town Hall"
+        }
+    },
+    "46": {
+        "name": "River Town Archive",
+        "links": {
+            "19": "Gaol",
+            "48": "Sage Tower",
+            "5": "Crown Court"
+        }
+    },
+    "47": {
+        "name": "Ruler Road",
+        "links": {
+            "32": "Mage Road",
+            "37": "Mayor's Manor",
+            "42": "Northern Passage",
+            "33": "Main Street",
+            "22": "Gold Avenue",
+            "5": "Crown Court"
+        }
+    },
+    "48": {
+        "name": "Sage Tower",
+        "links": {
+            "46": "River Town Archive",
+            "42": "Northern Passage",
+            "5": "Crown Court"
+        }
+    },
+    "49": {
+        "name": "Sailing Guild",
+        "links": {
+            "17": "Fishing Dock",
+            "53": "Storage Hut",
+            "51": "Shipyard"
+        }
+    },
+    "50": {
+        "name": "Shippers Lane",
+        "links": {
+            "62": "The Stench",
+            "44": "Press Gangers' Inn",
+            "64": "Town Plaza"
+        }
+    },
+    "51": {
+        "name": "Shipyard",
+        "links": {
+            "61": "The Salty Dog Tavern",
+            "49": "Sailing Guild",
+            "53": "Storage Hut",
+            "16": "Fish Storage"
+        }
+    },
+    "52": {
+        "name": "State Bank",
+        "links": {
+            "65": "Trading Pier",
+            "39": "Merchant Guild",
+            "67": "Vault House"
+        }
+    },
+    "53": {
+        "name": "Storage Hut",
+        "links": {
+            "49": "Sailing Guild",
+            "15": "Fish Market",
+            "51": "Shipyard"
+        }
+    },
+    "54": {
+        "name": "Temple Guards",
+        "links": {
+            "31": "Lower Orders",
+            "59": "The Mitre Tavern",
+            "28": "High Temple"
+        }
+    },
+    "55": {
+        "name": "Temple Road",
+        "links": {
+            "57": "The Broken Mace Inn",
+            "27": "High Cleric Palace",
+            "23": "Great East Road",
+            "20": "General Apothecary"
+        }
+    },
+    "56": {
+        "name": "Thaumaturgist",
+        "links": {
+            "29": "Inn of the North",
+            "32": "Mage Road"
+        }
+    },
+    "57": {
+        "name": "The Broken Mace Inn",
+        "links": {
+            "18": "Fletcher",
+            "55": "Temple Road",
+            "1": "Armorer"
+        }
+    },
+    "58": {
+        "name": "The Friar's Inn",
+        "links": {
+            "40": "Monastery"
+        }
+    },
+    "59": {
+        "name": "The Mitre Tavern",
+        "links": {
+            "54": "Temple Guards",
+            "23": "Great East Road",
+            "28": "High Temple"
+        }
+    },
+    "60": {
+        "name": "The Ruins",
+        "links": {
+            "7": "Desolation Grove",
+            "6": "Derelict Manor"
+        }
+    },
+    "61": {
+        "name": "The Salty Dog Tavern",
+        "links": {
+            "44": "Press Gangers' Inn",
+            "51": "Shipyard"
+        }
+    },
+    "62": {
+        "name": "The Stench",
+        "links": {
+            "12": "East Watch Barracks",
+            "50": "Shippers Lane",
+            "11": "East Slums",
+            "34": "Mariner Towers"
+        }
+    },
+    "63": {
+        "name": "Town Hall",
+        "links": {
+            "37": "Mayor's Manor",
+            "36": "Mayoral Guard",
+            "45": "River Boat Quay",
+            "33": "Main Street",
+            "38": "Mayor's Park"
+        }
+    },
+    "64": {
+        "name": "Town Plaza",
+        "links": {
+            "35": "Market Street",
+            "20": "General Apothecary",
+            "23": "Great East Road",
+            "50": "Shippers Lane"
+        }
+    },
+    "65": {
+        "name": "Trading Pier",
+        "links": {
+            "14": "Exotic Warehouse",
+            "22": "Gold Avenue",
+            "52": "State Bank"
+        }
+    },
+    "66": {
+        "name": "Traveler's Inn",
+        "links": {
+            "8": "Dungeoneers",
+            "3": "Blacksmith",
+            "43": "Outfitters"
+        }
+    },
+    "67": {
+        "name": "Vault House",
+        "links": {
+            "39": "Merchant Guild",
+            "14": "Exotic Warehouse",
+            "52": "State Bank"
+        }
+    },
+    "68": {
+        "name": "Western Watchtower",
+        "links": {
+            "7": "Desolation Grove",
+            "26": "Hermit's Hole"
+        }
+    }
+}

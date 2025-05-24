@@ -1,0 +1,352 @@
+{
+    "37": {
+        "name": "Tea Room",
+        "links": {
+            "41": "Sky King's Throne",
+            "34": "Dino's Stairs",
+            "38": "The Great Hall",
+            "40": "The Solar"
+        }
+    },
+    "38": {
+        "name": "The Great Hall",
+        "links": {
+            "41": "Sky King's Throne",
+            "37": "Tea Room",
+            "39": "Bed Chambers"
+        }
+    },
+    "39": {
+        "name": "Bed Chambers",
+        "links": {
+            "41": "Sky King's Throne",
+            "38": "The Great Hall",
+            "16": "Aiken's Outlook",
+            "40": "The Solar"
+        }
+    },
+    "40": {
+        "name": "The Solar",
+        "links": {
+            "41": "Sky King's Throne",
+            "39": "Bed Chambers",
+            "37": "Tea Room"
+        }
+    },
+    "41": {
+        "name": "Sky King's Throne",
+        "links": {
+            "38": "The Great Hall",
+            "37": "Tea Room",
+            "40": "The Solar",
+            "39": "Bed Chambers"
+        }
+    },
+    "33": {
+        "name": "Workshop",
+        "links": {
+            "36": "Secret Passage",
+            "2": "Eastern Watchtower"
+        }
+    },
+    "34": {
+        "name": "Dino's Stairs",
+        "links": {
+            "37": "Tea Room",
+            "35": "Paavn's Perch"
+        }
+    },
+    "35": {
+        "name": "Paavn's Perch",
+        "links": {
+            "34": "Dino's Stairs",
+            "36": "Secret Passage",
+            "19": "Cabinet"
+        }
+    },
+    "36": {
+        "name": "Secret Passage",
+        "links": {
+            "35": "Paavn's Perch",
+            "33": "Workshop",
+            "14": "Oriental Gallery"
+        }
+    },
+    "18": {
+        "name": "Cellars",
+        "links": {
+            "21": "Hospital",
+            "16": "Aiken's Outlook"
+        }
+    },
+    "19": {
+        "name": "Cabinet",
+        "links": {
+            "20": "Regimental Museum",
+            "35": "Paavn's Perch",
+            "32": "Barracks"
+        }
+    },
+    "20": {
+        "name": "Regimental Museum",
+        "links": {
+            "19": "Cabinet",
+            "22": "Casemate"
+        }
+    },
+    "21": {
+        "name": "Hospital",
+        "links": {
+            "22": "Casemate",
+            "24": "Place of Arms",
+            "18": "Cellars"
+        }
+    },
+    "22": {
+        "name": "Casemate",
+        "links": {
+            "20": "Regimental Museum",
+            "21": "Hospital",
+            "25": "Stairs to Knowledge"
+        }
+    },
+    "23": {
+        "name": "Gareth's Hideaway",
+        "links": {
+            "26": "Gardens of Knowledge",
+            "24": "Place of Arms",
+            "25": "Stairs to Knowledge"
+        }
+    },
+    "24": {
+        "name": "Place of Arms",
+        "links": {
+            "21": "Hospital",
+            "14": "Oriental Gallery",
+            "25": "Stairs to Knowledge",
+            "23": "Gareth's Hideaway"
+        }
+    },
+    "25": {
+        "name": "Stairs to Knowledge",
+        "links": {
+            "22": "Casemate",
+            "26": "Gardens of Knowledge",
+            "24": "Place of Arms",
+            "23": "Gareth's Hideaway",
+            "27": "Lyon's Rest",
+            "28": "Undercrofts"
+        }
+    },
+    "26": {
+        "name": "Gardens of Knowledge",
+        "links": {
+            "23": "Gareth's Hideaway",
+            "25": "Stairs to Knowledge",
+            "28": "Undercrofts"
+        }
+    },
+    "27": {
+        "name": "Lyon's Rest",
+        "links": {
+            "32": "Barracks",
+            "25": "Stairs to Knowledge",
+            "28": "Undercrofts",
+            "31": "Daum's Dormitory"
+        }
+    },
+    "28": {
+        "name": "Undercrofts",
+        "links": {
+            "26": "Gardens of Knowledge",
+            "44": "Reece's Residence",
+            "27": "Lyon's Rest",
+            "25": "Stairs to Knowledge"
+        }
+    },
+    "29": {
+        "name": "Gatehouse",
+        "links": {
+            "3": "Night Watch",
+            "30": "Guard's Chambers",
+            "32": "Barracks",
+            "31": "Daum's Dormitory"
+        }
+    },
+    "30": {
+        "name": "Guard's Chambers",
+        "links": {
+            "29": "Gatehouse",
+            "32": "Barracks"
+        }
+    },
+    "31": {
+        "name": "Daum's Dormitory",
+        "links": {
+            "43": "Larder",
+            "29": "Gatehouse",
+            "27": "Lyon's Rest",
+            "32": "Barracks"
+        }
+    },
+    "32": {
+        "name": "Barracks",
+        "links": {
+            "27": "Lyon's Rest",
+            "29": "Gatehouse",
+            "30": "Guard's Chambers",
+            "19": "Cabinet",
+            "31": "Daum's Dormitory"
+        }
+    },
+    "7": {
+        "name": "Hatchery Entrance",
+        "links": {
+            "8": "Southern Lookout",
+            "6": "Pteranodon Hatchery"
+        }
+    },
+    "8": {
+        "name": "Southern Lookout",
+        "links": {
+            "9": "Queen\u2019s Stairs",
+            "7": "Hatchery Entrance"
+        }
+    },
+    "9": {
+        "name": "Queen\u2019s Stairs",
+        "links": {
+            "8": "Southern Lookout",
+            "12": "Training Room"
+        }
+    },
+    "10": {
+        "name": "Pterodactyl Aviary",
+        "links": {
+            "5": "Pteranodon Aviary",
+            "11": "Pterodactyl Hatchery",
+            "12": "Training Room"
+        }
+    },
+    "11": {
+        "name": "Pterodactyl Hatchery",
+        "links": {
+            "13": "Adam's Apartments",
+            "12": "Training Room",
+            "10": "Pterodactyl Aviary"
+        }
+    },
+    "12": {
+        "name": "Training Room",
+        "links": {
+            "11": "Pterodactyl Hatchery",
+            "10": "Pterodactyl Aviary",
+            "9": "Queen\u2019s Stairs"
+        }
+    },
+    "13": {
+        "name": "Adam's Apartments",
+        "links": {
+            "14": "Oriental Gallery",
+            "11": "Pterodactyl Hatchery"
+        }
+    },
+    "14": {
+        "name": "Oriental Gallery",
+        "links": {
+            "36": "Secret Passage",
+            "13": "Adam's Apartments",
+            "15": "Halen's Hallway",
+            "24": "Place of Arms"
+        }
+    },
+    "15": {
+        "name": "Halen's Hallway",
+        "links": {
+            "17": "Dracon Tower",
+            "14": "Oriental Gallery"
+        }
+    },
+    "16": {
+        "name": "Aiken's Outlook",
+        "links": {
+            "39": "Bed Chambers",
+            "17": "Dracon Tower",
+            "18": "Cellars"
+        }
+    },
+    "17": {
+        "name": "Dracon Tower",
+        "links": {
+            "16": "Aiken's Outlook",
+            "15": "Halen's Hallway"
+        }
+    },
+    "5": {
+        "name": "Pteranodon Aviary",
+        "links": {
+            "10": "Pterodactyl Aviary",
+            "6": "Pteranodon Hatchery"
+        }
+    },
+    "6": {
+        "name": "Pteranodon Hatchery",
+        "links": {
+            "5": "Pteranodon Aviary",
+            "3": "Night Watch",
+            "7": "Hatchery Entrance"
+        }
+    },
+    "3": {
+        "name": "Night Watch",
+        "links": {
+            "6": "Pteranodon Hatchery",
+            "4": "Dovecotes",
+            "29": "Gatehouse"
+        }
+    },
+    "4": {
+        "name": "Dovecotes",
+        "links": {
+            "3": "Night Watch",
+            "2": "Eastern Watchtower"
+        }
+    },
+    "1": {
+        "name": "Armory",
+        "links": {
+            "2": "Eastern Watchtower"
+        }
+    },
+    "2": {
+        "name": "Eastern Watchtower",
+        "links": {
+            "33": "Workshop",
+            "4": "Dovecotes",
+            "1": "Armory"
+        }
+    },
+    "42": {
+        "name": "Ice House",
+        "links": {
+            "43": "Larder",
+            "44": "Reece's Residence"
+        }
+    },
+    "43": {
+        "name": "Larder",
+        "links": {
+            "31": "Daum's Dormitory",
+            "42": "Ice House",
+            "44": "Reece's Residence"
+        }
+    },
+    "44": {
+        "name": "Reece's Residence",
+        "links": {
+            "43": "Larder",
+            "42": "Ice House",
+            "28": "Undercrofts"
+        }
+    }
+}

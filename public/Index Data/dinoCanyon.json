@@ -1,0 +1,410 @@
+{
+    "1": {
+        "name": "Crisp Ferns",
+        "links": {
+            "2": "Toothy Caverns",
+            "24": "Pottery",
+            "3": "Fishery",
+            "11": "Vineway"
+        }
+    },
+    "2": {
+        "name": "Toothy Caverns",
+        "links": {
+            "1": "Crisp Ferns",
+            "3": "Fishery",
+            "4": "Feeding Grounds",
+            "11": "Vineway",
+            "10": "Small Ferns"
+        }
+    },
+    "3": {
+        "name": "Fishery",
+        "links": {
+            "4": "Feeding Grounds",
+            "2": "Toothy Caverns",
+            "1": "Crisp Ferns"
+        }
+    },
+    "4": {
+        "name": "Feeding Grounds",
+        "links": {
+            "2": "Toothy Caverns",
+            "5": "Flight Training",
+            "6": "Nesting Ground",
+            "3": "Fishery",
+            "12": "Big Ferns",
+            "10": "Small Ferns"
+        }
+    },
+    "5": {
+        "name": "Flight Training",
+        "links": {
+            "4": "Feeding Grounds",
+            "7": "Saddler",
+            "12": "Big Ferns",
+            "6": "Nesting Ground"
+        }
+    },
+    "6": {
+        "name": "Nesting Ground",
+        "links": {
+            "5": "Flight Training",
+            "4": "Feeding Grounds",
+            "7": "Saddler"
+        }
+    },
+    "7": {
+        "name": "Saddler",
+        "links": {
+            "8": "Launching Pads",
+            "5": "Flight Training",
+            "6": "Nesting Ground",
+            "9": "Bronto\u2019s Stretch",
+            "12": "Big Ferns"
+        }
+    },
+    "8": {
+        "name": "Launching Pads",
+        "links": {
+            "7": "Saddler",
+            "9": "Bronto\u2019s Stretch",
+            "44": "Winged cape"
+        }
+    },
+    "9": {
+        "name": "Bronto\u2019s Stretch",
+        "links": {
+            "12": "Big Ferns",
+            "8": "Launching Pads",
+            "7": "Saddler",
+            "16": "Craglands",
+            "35": "Bone Barrens"
+        }
+    },
+    "10": {
+        "name": "Small Ferns",
+        "links": {
+            "14": "Green Springs",
+            "11": "Vineway",
+            "4": "Feeding Grounds",
+            "2": "Toothy Caverns",
+            "12": "Big Ferns"
+        }
+    },
+    "11": {
+        "name": "Vineway",
+        "links": {
+            "14": "Green Springs",
+            "2": "Toothy Caverns",
+            "1": "Crisp Ferns",
+            "26": "Lava Stacks",
+            "10": "Small Ferns"
+        }
+    },
+    "12": {
+        "name": "Big Ferns",
+        "links": {
+            "5": "Flight Training",
+            "14": "Green Springs",
+            "4": "Feeding Grounds",
+            "7": "Saddler",
+            "13": "Connecting Grounds",
+            "16": "Craglands",
+            "9": "Bronto\u2019s Stretch",
+            "10": "Small Ferns"
+        }
+    },
+    "13": {
+        "name": "Connecting Grounds",
+        "links": {
+            "12": "Big Ferns",
+            "17": "Balcony",
+            "15": "Steam Fields",
+            "16": "Craglands",
+            "14": "Green Springs"
+        }
+    },
+    "14": {
+        "name": "Green Springs",
+        "links": {
+            "13": "Connecting Grounds",
+            "12": "Big Ferns",
+            "17": "Balcony",
+            "11": "Vineway",
+            "10": "Small Ferns"
+        }
+    },
+    "15": {
+        "name": "Steam Fields",
+        "links": {
+            "13": "Connecting Grounds",
+            "16": "Craglands"
+        }
+    },
+    "16": {
+        "name": "Craglands",
+        "links": {
+            "13": "Connecting Grounds",
+            "12": "Big Ferns",
+            "15": "Steam Fields",
+            "9": "Bronto\u2019s Stretch"
+        }
+    },
+    "17": {
+        "name": "Balcony",
+        "links": {
+            "14": "Green Springs",
+            "13": "Connecting Grounds"
+        }
+    },
+    "18": {
+        "name": "Stomping Grounds",
+        "links": {
+            "21": "Outer Bob",
+            "20": "Charred Forest",
+            "27": "Boulder Farm",
+            "25": "Lava River",
+            "30": "Main Chamber",
+            "19": "Lava Berries"
+        }
+    },
+    "19": {
+        "name": "Lava Berries",
+        "links": {
+            "22": "Stone Huts",
+            "18": "Stomping Grounds",
+            "20": "Charred Forest",
+            "29": "Wobbling Ground",
+            "25": "Lava River"
+        }
+    },
+    "20": {
+        "name": "Charred Forest",
+        "links": {
+            "21": "Outer Bob",
+            "18": "Stomping Grounds",
+            "19": "Lava Berries"
+        }
+    },
+    "21": {
+        "name": "Outer Bob",
+        "links": {
+            "18": "Stomping Grounds",
+            "20": "Charred Forest",
+            "30": "Main Chamber"
+        }
+    },
+    "22": {
+        "name": "Stone Huts",
+        "links": {
+            "23": "Hunting Grounds",
+            "29": "Wobbling Ground",
+            "19": "Lava Berries"
+        }
+    },
+    "23": {
+        "name": "Hunting Grounds",
+        "links": {
+            "22": "Stone Huts",
+            "26": "Lava Stacks",
+            "24": "Pottery",
+            "29": "Wobbling Ground",
+            "25": "Lava River"
+        }
+    },
+    "24": {
+        "name": "Pottery",
+        "links": {
+            "1": "Crisp Ferns",
+            "26": "Lava Stacks",
+            "23": "Hunting Grounds"
+        }
+    },
+    "25": {
+        "name": "Lava River",
+        "links": {
+            "26": "Lava Stacks",
+            "23": "Hunting Grounds",
+            "29": "Wobbling Ground",
+            "19": "Lava Berries",
+            "18": "Stomping Grounds",
+            "27": "Boulder Farm"
+        }
+    },
+    "26": {
+        "name": "Lava Stacks",
+        "links": {
+            "24": "Pottery",
+            "23": "Hunting Grounds",
+            "25": "Lava River",
+            "11": "Vineway"
+        }
+    },
+    "27": {
+        "name": "Boulder Farm",
+        "links": {
+            "25": "Lava River",
+            "28": "Kindling Garden",
+            "18": "Stomping Grounds",
+            "30": "Main Chamber"
+        }
+    },
+    "28": {
+        "name": "Kindling Garden",
+        "links": {
+            "27": "Boulder Farm",
+            "31": "Bob\u2019s Garden",
+            "30": "Main Chamber"
+        }
+    },
+    "29": {
+        "name": "Wobbling Ground",
+        "links": {
+            "22": "Stone Huts",
+            "23": "Hunting Grounds",
+            "25": "Lava River",
+            "19": "Lava Berries"
+        }
+    },
+    "30": {
+        "name": "Main Chamber",
+        "links": {
+            "18": "Stomping Grounds",
+            "21": "Outer Bob",
+            "28": "Kindling Garden",
+            "32": "Bob\u2019s Path",
+            "31": "Bob\u2019s Garden",
+            "27": "Boulder Farm"
+        }
+    },
+    "31": {
+        "name": "Bob\u2019s Garden",
+        "links": {
+            "32": "Bob\u2019s Path",
+            "30": "Main Chamber",
+            "28": "Kindling Garden"
+        }
+    },
+    "32": {
+        "name": "Bob\u2019s Path",
+        "links": {
+            "33": "Dining Tables",
+            "31": "Bob\u2019s Garden",
+            "38": "Raptor Ridge",
+            "34": "Temple Kitchen",
+            "30": "Main Chamber"
+        }
+    },
+    "33": {
+        "name": "Dining Tables",
+        "links": {
+            "32": "Bob\u2019s Path",
+            "38": "Raptor Ridge",
+            "36": "Stoneplate Armory",
+            "34": "Temple Kitchen",
+            "42": "Nest Boxes"
+        }
+    },
+    "34": {
+        "name": "Temple Kitchen",
+        "links": {
+            "32": "Bob\u2019s Path",
+            "33": "Dining Tables",
+            "42": "Nest Boxes"
+        }
+    },
+    "35": {
+        "name": "Bone Barrens",
+        "links": {
+            "39": "Red Fields",
+            "9": "Bronto\u2019s Stretch",
+            "37": "T-Rex Town",
+            "41": "Feather Plume",
+            "44": "Winged cape"
+        }
+    },
+    "36": {
+        "name": "Stoneplate Armory",
+        "links": {
+            "33": "Dining Tables",
+            "38": "Raptor Ridge",
+            "39": "Red Fields",
+            "37": "T-Rex Town",
+            "42": "Nest Boxes",
+            "40": "Chickens"
+        }
+    },
+    "37": {
+        "name": "T-Rex Town",
+        "links": {
+            "36": "Stoneplate Armory",
+            "35": "Bone Barrens",
+            "41": "Feather Plume",
+            "39": "Red Fields",
+            "40": "Chickens"
+        }
+    },
+    "38": {
+        "name": "Raptor Ridge",
+        "links": {
+            "32": "Bob\u2019s Path",
+            "36": "Stoneplate Armory",
+            "39": "Red Fields",
+            "33": "Dining Tables"
+        }
+    },
+    "39": {
+        "name": "Red Fields",
+        "links": {
+            "35": "Bone Barrens",
+            "38": "Raptor Ridge",
+            "36": "Stoneplate Armory",
+            "37": "T-Rex Town"
+        }
+    },
+    "40": {
+        "name": "Chickens",
+        "links": {
+            "36": "Stoneplate Armory",
+            "37": "T-Rex Town",
+            "42": "Nest Boxes",
+            "43": "First Flight",
+            "41": "Feather Plume"
+        }
+    },
+    "41": {
+        "name": "Feather Plume",
+        "links": {
+            "35": "Bone Barrens",
+            "37": "T-Rex Town",
+            "43": "First Flight",
+            "40": "Chickens",
+            "44": "Winged cape"
+        }
+    },
+    "42": {
+        "name": "Nest Boxes",
+        "links": {
+            "36": "Stoneplate Armory",
+            "34": "Temple Kitchen",
+            "33": "Dining Tables",
+            "40": "Chickens"
+        }
+    },
+    "43": {
+        "name": "First Flight",
+        "links": {
+            "40": "Chickens",
+            "41": "Feather Plume"
+        }
+    },
+    "44": {
+        "name": "Winged cape",
+        "links": {
+            "35": "Bone Barrens",
+            "41": "Feather Plume",
+            "8": "Launching Pads"
+        }
+    }
+}

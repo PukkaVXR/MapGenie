@@ -1,0 +1,483 @@
+{
+    "1": {
+        "name": "Alley",
+        "links": {
+            "26": "Inner Ward"
+        }
+    },
+    "2": {
+        "name": "Ante-room",
+        "links": {
+            "42": "Porch West"
+        }
+    },
+    "3": {
+        "name": "Archers",
+        "links": {
+            "12": "City View",
+            "58": "Stockhouse Tower",
+            "57": "Stockhouse"
+        }
+    },
+    "4": {
+        "name": "Bakehouse Passage",
+        "links": {
+            "26": "Inner Ward",
+            "6": "Bakehouse Wall",
+            "53": "South Wall",
+            "57": "Stockhouse"
+        }
+    },
+    "5": {
+        "name": "Bakehouse Tower",
+        "links": {
+            "6": "Bakehouse Wall",
+            "53": "South Wall"
+        }
+    },
+    "6": {
+        "name": "Bakehouse Wall",
+        "links": {
+            "4": "Bakehouse Passage",
+            "31": "Kings Wall",
+            "5": "Bakehouse Tower"
+        }
+    },
+    "7": {
+        "name": "Butcher",
+        "links": {
+            "51": "Small Hall",
+            "50": "Side Road"
+        }
+    },
+    "8": {
+        "name": "Chapel",
+        "links": {
+            "41": "Porch East",
+            "25": "Hall Passage"
+        }
+    },
+    "9": {
+        "name": "Chapel Tower",
+        "links": {
+            "10": "Chapel View",
+            "17": "East River"
+        }
+    },
+    "10": {
+        "name": "Chapel View",
+        "links": {
+            "49": "Rocks",
+            "9": "Chapel Tower",
+            "11": "Chapel Wall"
+        }
+    },
+    "11": {
+        "name": "Chapel Wall",
+        "links": {
+            "59": "Tower Access",
+            "10": "Chapel View",
+            "28": "Kings Passage"
+        }
+    },
+    "12": {
+        "name": "City View",
+        "links": {
+            "33": "Kitchen Tower",
+            "3": "Archers",
+            "32": "Kitchen"
+        }
+    },
+    "13": {
+        "name": "Draw Bridge",
+        "links": {
+            "62": "West Gate",
+            "37": "North-West Tower"
+        }
+    },
+    "14": {
+        "name": "East Barbican",
+        "links": {
+            "18": "East Riverwatch",
+            "15": "East Barbican Gate",
+            "17": "East River",
+            "16": "East Portwatch"
+        }
+    },
+    "15": {
+        "name": "East Barbican Gate",
+        "links": {
+            "14": "East Barbican",
+            "29": "Kings Quarter",
+            "26": "Inner Ward"
+        }
+    },
+    "16": {
+        "name": "East Portwatch",
+        "links": {
+            "19": "East Watch",
+            "18": "East Riverwatch",
+            "17": "East River",
+            "14": "East Barbican"
+        }
+    },
+    "17": {
+        "name": "East River",
+        "links": {
+            "9": "Chapel Tower",
+            "19": "East Watch",
+            "16": "East Portwatch",
+            "14": "East Barbican"
+        }
+    },
+    "18": {
+        "name": "East Riverwatch",
+        "links": {
+            "16": "East Portwatch",
+            "14": "East Barbican"
+        }
+    },
+    "19": {
+        "name": "East Watch",
+        "links": {
+            "17": "East River",
+            "16": "East Portwatch"
+        }
+    },
+    "20": {
+        "name": "Gate Passage",
+        "links": {
+            "62": "West Gate",
+            "56": "Stairs",
+            "42": "Porch West"
+        }
+    },
+    "21": {
+        "name": "Granary",
+        "links": {
+            "26": "Inner Ward",
+            "59": "Tower Access"
+        }
+    },
+    "22": {
+        "name": "Great Hall",
+        "links": {
+            "25": "Hall Passage",
+            "45": "Prison Wall",
+            "24": "Hall Entry"
+        }
+    },
+    "23": {
+        "name": "Guards",
+        "links": {
+            "26": "Inner Ward"
+        }
+    },
+    "24": {
+        "name": "Hall Entry",
+        "links": {
+            "40": "Porch Center",
+            "22": "Great Hall"
+        }
+    },
+    "25": {
+        "name": "Hall Passage",
+        "links": {
+            "8": "Chapel",
+            "22": "Great Hall",
+            "38": "Nursery"
+        }
+    },
+    "26": {
+        "name": "Inner Ward",
+        "links": {
+            "1": "Alley",
+            "21": "Granary",
+            "61": "Well",
+            "15": "East Barbican Gate",
+            "23": "Guards",
+            "4": "Bakehouse Passage"
+        }
+    },
+    "27": {
+        "name": "King Stables",
+        "links": {
+            "32": "Kitchen",
+            "55": "Stables"
+        }
+    },
+    "28": {
+        "name": "Kings Passage",
+        "links": {
+            "31": "Kings Wall",
+            "11": "Chapel Wall"
+        }
+    },
+    "29": {
+        "name": "Kings Quarter",
+        "links": {
+            "15": "East Barbican Gate"
+        }
+    },
+    "30": {
+        "name": "Kings Tower",
+        "links": {
+            "31": "Kings Wall"
+        }
+    },
+    "31": {
+        "name": "Kings Wall",
+        "links": {
+            "28": "Kings Passage",
+            "30": "Kings Tower",
+            "6": "Bakehouse Wall"
+        }
+    },
+    "32": {
+        "name": "Kitchen",
+        "links": {
+            "12": "City View",
+            "51": "Small Hall",
+            "39": "Peasants",
+            "27": "King Stables"
+        }
+    },
+    "33": {
+        "name": "Kitchen Tower",
+        "links": {
+            "34": "Kitchen Wall",
+            "12": "City View"
+        }
+    },
+    "34": {
+        "name": "Kitchen Wall",
+        "links": {
+            "60": "Town Wall",
+            "33": "Kitchen Tower"
+        }
+    },
+    "35": {
+        "name": "Lesser Hall",
+        "links": {
+            "42": "Porch West"
+        }
+    },
+    "36": {
+        "name": "Market",
+        "links": {
+            "42": "Porch West"
+        }
+    },
+    "37": {
+        "name": "North-West Tower",
+        "links": {
+            "13": "Draw Bridge",
+            "63": "West Wall"
+        }
+    },
+    "38": {
+        "name": "Nursery",
+        "links": {
+            "40": "Porch Center",
+            "25": "Hall Passage"
+        }
+    },
+    "39": {
+        "name": "Peasants",
+        "links": {
+            "55": "Stables",
+            "32": "Kitchen",
+            "51": "Small Hall"
+        }
+    },
+    "40": {
+        "name": "Porch Center",
+        "links": {
+            "42": "Porch West",
+            "41": "Porch East",
+            "38": "Nursery",
+            "24": "Hall Entry"
+        }
+    },
+    "41": {
+        "name": "Porch East",
+        "links": {
+            "40": "Porch Center",
+            "61": "Well",
+            "8": "Chapel"
+        }
+    },
+    "42": {
+        "name": "Porch West",
+        "links": {
+            "55": "Stables",
+            "40": "Porch Center",
+            "2": "Ante-room",
+            "35": "Lesser Hall",
+            "46": "River Access",
+            "20": "Gate Passage",
+            "36": "Market"
+        }
+    },
+    "43": {
+        "name": "Prison Passage",
+        "links": {
+            "44": "Prison Tower",
+            "45": "Prison Wall",
+            "53": "South Wall"
+        }
+    },
+    "44": {
+        "name": "Prison Tower",
+        "links": {
+            "43": "Prison Passage"
+        }
+    },
+    "45": {
+        "name": "Prison Wall",
+        "links": {
+            "43": "Prison Passage",
+            "52": "South Passage",
+            "22": "Great Hall"
+        }
+    },
+    "46": {
+        "name": "River Access",
+        "links": {
+            "42": "Porch West",
+            "47": "River Wall"
+        }
+    },
+    "47": {
+        "name": "River Wall",
+        "links": {
+            "52": "South Passage",
+            "54": "South-West Tower",
+            "46": "River Access",
+            "63": "West Wall"
+        }
+    },
+    "48": {
+        "name": "Riverwatch",
+        "links": {
+            "54": "South-West Tower",
+            "62": "West Gate"
+        }
+    },
+    "49": {
+        "name": "Rocks",
+        "links": {
+            "58": "Stockhouse Tower",
+            "10": "Chapel View",
+            "57": "Stockhouse"
+        }
+    },
+    "50": {
+        "name": "Side Road",
+        "links": {
+            "57": "Stockhouse",
+            "61": "Well",
+            "7": "Butcher"
+        }
+    },
+    "51": {
+        "name": "Small Hall",
+        "links": {
+            "32": "Kitchen",
+            "7": "Butcher",
+            "39": "Peasants"
+        }
+    },
+    "52": {
+        "name": "South Passage",
+        "links": {
+            "45": "Prison Wall",
+            "47": "River Wall"
+        }
+    },
+    "53": {
+        "name": "South Wall",
+        "links": {
+            "5": "Bakehouse Tower",
+            "43": "Prison Passage",
+            "4": "Bakehouse Passage"
+        }
+    },
+    "54": {
+        "name": "South-West Tower",
+        "links": {
+            "47": "River Wall",
+            "48": "Riverwatch"
+        }
+    },
+    "55": {
+        "name": "Stables",
+        "links": {
+            "39": "Peasants",
+            "27": "King Stables",
+            "42": "Porch West"
+        }
+    },
+    "56": {
+        "name": "Stairs",
+        "links": {
+            "20": "Gate Passage",
+            "63": "West Wall"
+        }
+    },
+    "57": {
+        "name": "Stockhouse",
+        "links": {
+            "49": "Rocks",
+            "50": "Side Road",
+            "3": "Archers",
+            "4": "Bakehouse Passage"
+        }
+    },
+    "58": {
+        "name": "Stockhouse Tower",
+        "links": {
+            "3": "Archers",
+            "49": "Rocks"
+        }
+    },
+    "59": {
+        "name": "Tower Access",
+        "links": {
+            "21": "Granary",
+            "11": "Chapel Wall"
+        }
+    },
+    "60": {
+        "name": "Town Wall",
+        "links": {
+            "63": "West Wall",
+            "34": "Kitchen Wall"
+        }
+    },
+    "61": {
+        "name": "Well",
+        "links": {
+            "50": "Side Road",
+            "26": "Inner Ward",
+            "41": "Porch East"
+        }
+    },
+    "62": {
+        "name": "West Gate",
+        "links": {
+            "48": "Riverwatch",
+            "13": "Draw Bridge",
+            "20": "Gate Passage"
+        }
+    },
+    "63": {
+        "name": "West Wall",
+        "links": {
+            "37": "North-West Tower",
+            "60": "Town Wall",
+            "56": "Stairs",
+            "47": "River Wall"
+        }
+    }
+}

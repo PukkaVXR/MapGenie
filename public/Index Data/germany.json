@@ -1,0 +1,565 @@
+{
+    "1": {
+        "name": "Barnim",
+        "links": {
+            "37": "Neubrandenburg",
+            "13": "Eisenhuettenstadt",
+            "2": "Berlin",
+            "21": "Havelland"
+        }
+    },
+    "2": {
+        "name": "Berlin",
+        "links": {
+            "1": "Barnim",
+            "13": "Eisenhuettenstadt",
+            "44": "Potsdam",
+            "21": "Havelland"
+        }
+    },
+    "3": {
+        "name": "Braunschweig",
+        "links": {
+            "55": "Uelzen",
+            "31": "Madgeburg",
+            "20": "Hannover",
+            "17": "G\u00f6ttingen"
+        }
+    },
+    "4": {
+        "name": "Bremen",
+        "links": {
+            "55": "Uelzen",
+            "8": "Diepholz",
+            "51": "Stade",
+            "42": "Oldenburg"
+        }
+    },
+    "5": {
+        "name": "Cottbus",
+        "links": {
+            "13": "Eisenhuettenstadt",
+            "16": "G\u00f6rlitz",
+            "44": "Potsdam",
+            "10": "Dresden",
+            "18": "Halle",
+            "29": "Leipzig"
+        }
+    },
+    "6": {
+        "name": "Darmstadt",
+        "links": {
+            "56": "Unterfranken",
+            "36": "Neckar-Odenwald-Kreis",
+            "25": "Kassel",
+            "27": "Koblenz",
+            "53": "Trier",
+            "15": "Gie\u00dfen",
+            "23": "Kaiserslautern"
+        }
+    },
+    "7": {
+        "name": "Detmold",
+        "links": {
+            "25": "Kassel",
+            "9": "Dortmund",
+            "35": "M\u00fcnster",
+            "43": "Osnabr\u00fcck",
+            "8": "Diepholz",
+            "20": "Hannover",
+            "17": "G\u00f6ttingen"
+        }
+    },
+    "8": {
+        "name": "Diepholz",
+        "links": {
+            "4": "Bremen",
+            "55": "Uelzen",
+            "42": "Oldenburg",
+            "20": "Hannover",
+            "43": "Osnabr\u00fcck",
+            "7": "Detmold"
+        }
+    },
+    "9": {
+        "name": "Dortmund",
+        "links": {
+            "28": "K\u00f6ln",
+            "11": "D\u00fcsseldorf",
+            "25": "Kassel",
+            "15": "Gie\u00dfen",
+            "7": "Detmold",
+            "35": "M\u00fcnster",
+            "27": "Koblenz"
+        }
+    },
+    "10": {
+        "name": "Dresden",
+        "links": {
+            "16": "G\u00f6rlitz",
+            "33": "Mittelsachsen",
+            "5": "Cottbus",
+            "29": "Leipzig"
+        }
+    },
+    "11": {
+        "name": "D\u00fcsseldorf",
+        "links": {
+            "28": "K\u00f6ln",
+            "35": "M\u00fcnster",
+            "9": "Dortmund"
+        }
+    },
+    "12": {
+        "name": "Eisenach",
+        "links": {
+            "40": "Oberfranken",
+            "56": "Unterfranken",
+            "18": "Halle",
+            "57": "Weimar",
+            "31": "Madgeburg",
+            "25": "Kassel",
+            "17": "G\u00f6ttingen"
+        }
+    },
+    "13": {
+        "name": "Eisenhuettenstadt",
+        "links": {
+            "1": "Barnim",
+            "5": "Cottbus",
+            "2": "Berlin",
+            "44": "Potsdam"
+        }
+    },
+    "14": {
+        "name": "Freiburg",
+        "links": {
+            "54": "T\u00fcbingen",
+            "24": "Karlsruhe"
+        }
+    },
+    "15": {
+        "name": "Gie\u00dfen",
+        "links": {
+            "6": "Darmstadt",
+            "27": "Koblenz",
+            "9": "Dortmund",
+            "25": "Kassel"
+        }
+    },
+    "16": {
+        "name": "G\u00f6rlitz",
+        "links": {
+            "5": "Cottbus",
+            "10": "Dresden"
+        }
+    },
+    "17": {
+        "name": "G\u00f6ttingen",
+        "links": {
+            "3": "Braunschweig",
+            "31": "Madgeburg",
+            "7": "Detmold",
+            "20": "Hannover",
+            "12": "Eisenach",
+            "25": "Kassel"
+        }
+    },
+    "18": {
+        "name": "Halle",
+        "links": {
+            "31": "Madgeburg",
+            "44": "Potsdam",
+            "12": "Eisenach",
+            "57": "Weimar",
+            "5": "Cottbus",
+            "29": "Leipzig"
+        }
+    },
+    "19": {
+        "name": "Hamburg",
+        "links": {
+            "30": "L\u00fcbeck",
+            "50": "Schwerin",
+            "46": "Rostock",
+            "26": "Kiel",
+            "51": "Stade"
+        }
+    },
+    "20": {
+        "name": "Hannover",
+        "links": {
+            "8": "Diepholz",
+            "55": "Uelzen",
+            "7": "Detmold",
+            "3": "Braunschweig",
+            "17": "G\u00f6ttingen"
+        }
+    },
+    "21": {
+        "name": "Havelland",
+        "links": {
+            "31": "Madgeburg",
+            "55": "Uelzen",
+            "44": "Potsdam",
+            "50": "Schwerin",
+            "2": "Berlin",
+            "37": "Neubrandenburg",
+            "1": "Barnim"
+        }
+    },
+    "22": {
+        "name": "Ingolstadt",
+        "links": {
+            "32": "Mittelfranken",
+            "41": "Oberpfalz",
+            "49": "Schwaben",
+            "38": "Niederbayern",
+            "39": "Oberbayern",
+            "34": "M\u00fcnchen"
+        }
+    },
+    "23": {
+        "name": "Kaiserslautern",
+        "links": {
+            "24": "Karlsruhe",
+            "47": "Saarland",
+            "53": "Trier",
+            "6": "Darmstadt",
+            "36": "Neckar-Odenwald-Kreis"
+        }
+    },
+    "24": {
+        "name": "Karlsruhe",
+        "links": {
+            "14": "Freiburg",
+            "23": "Kaiserslautern",
+            "54": "T\u00fcbingen",
+            "52": "Stuttgart",
+            "36": "Neckar-Odenwald-Kreis"
+        }
+    },
+    "25": {
+        "name": "Kassel",
+        "links": {
+            "56": "Unterfranken",
+            "6": "Darmstadt",
+            "12": "Eisenach",
+            "9": "Dortmund",
+            "15": "Gie\u00dfen",
+            "7": "Detmold",
+            "17": "G\u00f6ttingen"
+        }
+    },
+    "26": {
+        "name": "Kiel",
+        "links": {
+            "48": "Schleswig-Flensburg",
+            "30": "L\u00fcbeck",
+            "51": "Stade",
+            "19": "Hamburg"
+        }
+    },
+    "27": {
+        "name": "Koblenz",
+        "links": {
+            "6": "Darmstadt",
+            "53": "Trier",
+            "15": "Gie\u00dfen",
+            "28": "K\u00f6ln",
+            "9": "Dortmund"
+        }
+    },
+    "28": {
+        "name": "K\u00f6ln",
+        "links": {
+            "53": "Trier",
+            "11": "D\u00fcsseldorf",
+            "27": "Koblenz",
+            "9": "Dortmund"
+        }
+    },
+    "29": {
+        "name": "Leipzig",
+        "links": {
+            "10": "Dresden",
+            "33": "Mittelsachsen",
+            "5": "Cottbus",
+            "18": "Halle",
+            "57": "Weimar"
+        }
+    },
+    "30": {
+        "name": "L\u00fcbeck",
+        "links": {
+            "26": "Kiel",
+            "46": "Rostock",
+            "19": "Hamburg"
+        }
+    },
+    "31": {
+        "name": "Madgeburg",
+        "links": {
+            "21": "Havelland",
+            "55": "Uelzen",
+            "44": "Potsdam",
+            "3": "Braunschweig",
+            "18": "Halle",
+            "12": "Eisenach",
+            "17": "G\u00f6ttingen"
+        }
+    },
+    "32": {
+        "name": "Mittelfranken",
+        "links": {
+            "56": "Unterfranken",
+            "40": "Oberfranken",
+            "22": "Ingolstadt",
+            "41": "Oberpfalz",
+            "49": "Schwaben",
+            "52": "Stuttgart"
+        }
+    },
+    "33": {
+        "name": "Mittelsachsen",
+        "links": {
+            "10": "Dresden",
+            "40": "Oberfranken",
+            "29": "Leipzig",
+            "57": "Weimar"
+        }
+    },
+    "34": {
+        "name": "M\u00fcnchen",
+        "links": {
+            "39": "Oberbayern",
+            "49": "Schwaben",
+            "22": "Ingolstadt"
+        }
+    },
+    "35": {
+        "name": "M\u00fcnster",
+        "links": {
+            "11": "D\u00fcsseldorf",
+            "43": "Osnabr\u00fcck",
+            "9": "Dortmund",
+            "7": "Detmold"
+        }
+    },
+    "36": {
+        "name": "Neckar-Odenwald-Kreis",
+        "links": {
+            "6": "Darmstadt",
+            "56": "Unterfranken",
+            "52": "Stuttgart",
+            "24": "Karlsruhe",
+            "23": "Kaiserslautern"
+        }
+    },
+    "37": {
+        "name": "Neubrandenburg",
+        "links": {
+            "46": "Rostock",
+            "1": "Barnim",
+            "21": "Havelland",
+            "50": "Schwerin"
+        }
+    },
+    "38": {
+        "name": "Niederbayern",
+        "links": {
+            "41": "Oberpfalz",
+            "39": "Oberbayern",
+            "22": "Ingolstadt"
+        }
+    },
+    "39": {
+        "name": "Oberbayern",
+        "links": {
+            "38": "Niederbayern",
+            "49": "Schwaben",
+            "34": "M\u00fcnchen",
+            "22": "Ingolstadt"
+        }
+    },
+    "40": {
+        "name": "Oberfranken",
+        "links": {
+            "33": "Mittelsachsen",
+            "41": "Oberpfalz",
+            "57": "Weimar",
+            "56": "Unterfranken",
+            "32": "Mittelfranken",
+            "12": "Eisenach"
+        }
+    },
+    "41": {
+        "name": "Oberpfalz",
+        "links": {
+            "40": "Oberfranken",
+            "38": "Niederbayern",
+            "22": "Ingolstadt",
+            "32": "Mittelfranken"
+        }
+    },
+    "42": {
+        "name": "Oldenburg",
+        "links": {
+            "43": "Osnabr\u00fcck",
+            "4": "Bremen",
+            "8": "Diepholz",
+            "48": "Schleswig-Flensburg"
+        }
+    },
+    "43": {
+        "name": "Osnabr\u00fcck",
+        "links": {
+            "35": "M\u00fcnster",
+            "42": "Oldenburg",
+            "7": "Detmold",
+            "8": "Diepholz"
+        }
+    },
+    "44": {
+        "name": "Potsdam",
+        "links": {
+            "13": "Eisenhuettenstadt",
+            "5": "Cottbus",
+            "31": "Madgeburg",
+            "21": "Havelland",
+            "18": "Halle",
+            "2": "Berlin"
+        }
+    },
+    "45": {
+        "name": "Ravensburg",
+        "links": {
+            "49": "Schwaben",
+            "54": "T\u00fcbingen"
+        }
+    },
+    "46": {
+        "name": "Rostock",
+        "links": {
+            "30": "L\u00fcbeck",
+            "37": "Neubrandenburg",
+            "50": "Schwerin",
+            "19": "Hamburg"
+        }
+    },
+    "47": {
+        "name": "Saarland",
+        "links": {
+            "23": "Kaiserslautern",
+            "53": "Trier"
+        }
+    },
+    "48": {
+        "name": "Schleswig-Flensburg",
+        "links": {
+            "26": "Kiel",
+            "42": "Oldenburg",
+            "51": "Stade"
+        }
+    },
+    "49": {
+        "name": "Schwaben",
+        "links": {
+            "39": "Oberbayern",
+            "45": "Ravensburg",
+            "32": "Mittelfranken",
+            "22": "Ingolstadt",
+            "34": "M\u00fcnchen",
+            "54": "T\u00fcbingen",
+            "52": "Stuttgart"
+        }
+    },
+    "50": {
+        "name": "Schwerin",
+        "links": {
+            "21": "Havelland",
+            "55": "Uelzen",
+            "37": "Neubrandenburg",
+            "19": "Hamburg",
+            "46": "Rostock",
+            "51": "Stade"
+        }
+    },
+    "51": {
+        "name": "Stade",
+        "links": {
+            "55": "Uelzen",
+            "4": "Bremen",
+            "48": "Schleswig-Flensburg",
+            "26": "Kiel",
+            "19": "Hamburg",
+            "50": "Schwerin"
+        }
+    },
+    "52": {
+        "name": "Stuttgart",
+        "links": {
+            "36": "Neckar-Odenwald-Kreis",
+            "56": "Unterfranken",
+            "24": "Karlsruhe",
+            "32": "Mittelfranken",
+            "49": "Schwaben",
+            "54": "T\u00fcbingen"
+        }
+    },
+    "53": {
+        "name": "Trier",
+        "links": {
+            "47": "Saarland",
+            "28": "K\u00f6ln",
+            "27": "Koblenz",
+            "6": "Darmstadt",
+            "23": "Kaiserslautern"
+        }
+    },
+    "54": {
+        "name": "T\u00fcbingen",
+        "links": {
+            "45": "Ravensburg",
+            "14": "Freiburg",
+            "49": "Schwaben",
+            "24": "Karlsruhe",
+            "52": "Stuttgart"
+        }
+    },
+    "55": {
+        "name": "Uelzen",
+        "links": {
+            "21": "Havelland",
+            "31": "Madgeburg",
+            "50": "Schwerin",
+            "4": "Bremen",
+            "8": "Diepholz",
+            "51": "Stade",
+            "20": "Hannover",
+            "3": "Braunschweig"
+        }
+    },
+    "56": {
+        "name": "Unterfranken",
+        "links": {
+            "40": "Oberfranken",
+            "32": "Mittelfranken",
+            "12": "Eisenach",
+            "6": "Darmstadt",
+            "36": "Neckar-Odenwald-Kreis",
+            "25": "Kassel",
+            "52": "Stuttgart"
+        }
+    },
+    "57": {
+        "name": "Weimar",
+        "links": {
+            "33": "Mittelsachsen",
+            "40": "Oberfranken",
+            "12": "Eisenach",
+            "18": "Halle",
+            "29": "Leipzig"
+        }
+    }
+}

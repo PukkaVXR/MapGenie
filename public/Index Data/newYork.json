@@ -1,0 +1,310 @@
+{
+    "1": {
+        "name": "Bay Ridge",
+        "links": {
+            "31": "West New Brighton",
+            "25": "Sunset Park",
+            "7": "Dyker Heights"
+        }
+    },
+    "2": {
+        "name": "Bay Side",
+        "links": {
+            "8": "East Bronx",
+            "21": "Queens Village",
+            "33": "Whitestone"
+        }
+    },
+    "3": {
+        "name": "Brooklyn Heights",
+        "links": {
+            "25": "Sunset Park",
+            "16": "Lower Manhattan",
+            "34": "Williamsburg",
+            "26": "Upper Central Brooklyn",
+            "15": "Lower Central Brooklyn"
+        }
+    },
+    "4": {
+        "name": "Bushwick",
+        "links": {
+            "10": "East New York",
+            "19": "Ozone Park",
+            "34": "Williamsburg",
+            "26": "Upper Central Brooklyn",
+            "22": "Ridgewood"
+        }
+    },
+    "5": {
+        "name": "Central Staten Island",
+        "links": {
+            "20": "Pleasant Plains",
+            "31": "West New Brighton"
+        }
+    },
+    "6": {
+        "name": "Coney Island Peninsula",
+        "links": {
+            "23": "Sheepshead Bay",
+            "12": "Gravesend"
+        }
+    },
+    "7": {
+        "name": "Dyker Heights",
+        "links": {
+            "25": "Sunset Park",
+            "15": "Lower Central Brooklyn",
+            "12": "Gravesend",
+            "1": "Bay Ridge"
+        }
+    },
+    "8": {
+        "name": "East Bronx",
+        "links": {
+            "30": "West Bronx",
+            "2": "Bay Side",
+            "33": "Whitestone"
+        }
+    },
+    "9": {
+        "name": "East Elmhurst",
+        "links": {
+            "30": "West Bronx",
+            "33": "Whitestone",
+            "24": "Sunny Side",
+            "14": "Long Island City"
+        }
+    },
+    "10": {
+        "name": "East New York",
+        "links": {
+            "4": "Bushwick",
+            "19": "Ozone Park",
+            "15": "Lower Central Brooklyn",
+            "26": "Upper Central Brooklyn",
+            "11": "East Rockaway Peninsula",
+            "17": "Marine Park"
+        }
+    },
+    "11": {
+        "name": "East Rockaway Peninsula",
+        "links": {
+            "13": "Jamaica",
+            "32": "West Rockaway Peninsula",
+            "10": "East New York"
+        }
+    },
+    "12": {
+        "name": "Gravesend",
+        "links": {
+            "6": "Coney Island Peninsula",
+            "7": "Dyker Heights",
+            "23": "Sheepshead Bay",
+            "15": "Lower Central Brooklyn"
+        }
+    },
+    "13": {
+        "name": "Jamaica",
+        "links": {
+            "21": "Queens Village",
+            "11": "East Rockaway Peninsula",
+            "19": "Ozone Park",
+            "33": "Whitestone"
+        }
+    },
+    "14": {
+        "name": "Long Island City",
+        "links": {
+            "34": "Williamsburg",
+            "18": "Midtown",
+            "24": "Sunny Side",
+            "27": "Upper East Side",
+            "9": "East Elmhurst"
+        }
+    },
+    "15": {
+        "name": "Lower Central Brooklyn",
+        "links": {
+            "26": "Upper Central Brooklyn",
+            "3": "Brooklyn Heights",
+            "25": "Sunset Park",
+            "7": "Dyker Heights",
+            "10": "East New York",
+            "17": "Marine Park",
+            "23": "Sheepshead Bay",
+            "12": "Gravesend"
+        }
+    },
+    "16": {
+        "name": "Lower Manhattan",
+        "links": {
+            "3": "Brooklyn Heights",
+            "18": "Midtown",
+            "34": "Williamsburg"
+        }
+    },
+    "17": {
+        "name": "Marine Park",
+        "links": {
+            "32": "West Rockaway Peninsula",
+            "23": "Sheepshead Bay",
+            "15": "Lower Central Brooklyn",
+            "10": "East New York"
+        }
+    },
+    "18": {
+        "name": "Midtown",
+        "links": {
+            "16": "Lower Manhattan",
+            "29": "Upper West Side",
+            "27": "Upper East Side",
+            "14": "Long Island City"
+        }
+    },
+    "19": {
+        "name": "Ozone Park",
+        "links": {
+            "10": "East New York",
+            "4": "Bushwick",
+            "22": "Ridgewood",
+            "33": "Whitestone",
+            "13": "Jamaica"
+        }
+    },
+    "20": {
+        "name": "Pleasant Plains",
+        "links": {
+            "32": "West Rockaway Peninsula",
+            "5": "Central Staten Island"
+        }
+    },
+    "21": {
+        "name": "Queens Village",
+        "links": {
+            "2": "Bay Side",
+            "13": "Jamaica",
+            "33": "Whitestone"
+        }
+    },
+    "22": {
+        "name": "Ridgewood",
+        "links": {
+            "34": "Williamsburg",
+            "24": "Sunny Side",
+            "4": "Bushwick",
+            "33": "Whitestone",
+            "19": "Ozone Park"
+        }
+    },
+    "23": {
+        "name": "Sheepshead Bay",
+        "links": {
+            "17": "Marine Park",
+            "6": "Coney Island Peninsula",
+            "15": "Lower Central Brooklyn",
+            "12": "Gravesend"
+        }
+    },
+    "24": {
+        "name": "Sunny Side",
+        "links": {
+            "34": "Williamsburg",
+            "14": "Long Island City",
+            "22": "Ridgewood",
+            "9": "East Elmhurst",
+            "33": "Whitestone"
+        }
+    },
+    "25": {
+        "name": "Sunset Park",
+        "links": {
+            "1": "Bay Ridge",
+            "3": "Brooklyn Heights",
+            "15": "Lower Central Brooklyn",
+            "7": "Dyker Heights"
+        }
+    },
+    "26": {
+        "name": "Upper Central Brooklyn",
+        "links": {
+            "34": "Williamsburg",
+            "4": "Bushwick",
+            "15": "Lower Central Brooklyn",
+            "3": "Brooklyn Heights",
+            "10": "East New York"
+        }
+    },
+    "27": {
+        "name": "Upper East Side",
+        "links": {
+            "18": "Midtown",
+            "29": "Upper West Side",
+            "14": "Long Island City",
+            "28": "Upper Manhattan"
+        }
+    },
+    "28": {
+        "name": "Upper Manhattan",
+        "links": {
+            "29": "Upper West Side",
+            "30": "West Bronx",
+            "27": "Upper East Side"
+        }
+    },
+    "29": {
+        "name": "Upper West Side",
+        "links": {
+            "18": "Midtown",
+            "28": "Upper Manhattan",
+            "27": "Upper East Side"
+        }
+    },
+    "30": {
+        "name": "West Bronx",
+        "links": {
+            "8": "East Bronx",
+            "28": "Upper Manhattan",
+            "9": "East Elmhurst"
+        }
+    },
+    "31": {
+        "name": "West New Brighton",
+        "links": {
+            "5": "Central Staten Island",
+            "1": "Bay Ridge"
+        }
+    },
+    "32": {
+        "name": "West Rockaway Peninsula",
+        "links": {
+            "11": "East Rockaway Peninsula",
+            "20": "Pleasant Plains",
+            "17": "Marine Park"
+        }
+    },
+    "33": {
+        "name": "Whitestone",
+        "links": {
+            "9": "East Elmhurst",
+            "8": "East Bronx",
+            "2": "Bay Side",
+            "21": "Queens Village",
+            "22": "Ridgewood",
+            "24": "Sunny Side",
+            "19": "Ozone Park",
+            "13": "Jamaica"
+        }
+    },
+    "34": {
+        "name": "Williamsburg",
+        "links": {
+            "16": "Lower Manhattan",
+            "14": "Long Island City",
+            "3": "Brooklyn Heights",
+            "24": "Sunny Side",
+            "22": "Ridgewood",
+            "4": "Bushwick",
+            "26": "Upper Central Brooklyn"
+        }
+    }
+}

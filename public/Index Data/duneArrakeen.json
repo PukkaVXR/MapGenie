@@ -1,0 +1,317 @@
+{
+    "1": {
+        "name": "Lower Residence",
+        "links": {
+            "2": "Kyne's Home",
+            "4": "Palace Backing"
+        }
+    },
+    "2": {
+        "name": "Kyne's Home",
+        "links": {
+            "3": "Palace Palms",
+            "1": "Lower Residence",
+            "4": "Palace Backing"
+        }
+    },
+    "3": {
+        "name": "Palace Palms",
+        "links": {
+            "2": "Kyne's Home",
+            "11": "Back Streets"
+        }
+    },
+    "4": {
+        "name": "Palace Backing",
+        "links": {
+            "2": "Kyne's Home",
+            "1": "Lower Residence",
+            "5": "Atreides Residency"
+        }
+    },
+    "5": {
+        "name": "Atreides Residency",
+        "links": {
+            "6": "Main Streets",
+            "4": "Palace Backing",
+            "7": "High Residency"
+        }
+    },
+    "6": {
+        "name": "Main Streets",
+        "links": {
+            "10": "Central Entrance",
+            "9": "Spice Refinery",
+            "5": "Atreides Residency",
+            "7": "High Residency"
+        }
+    },
+    "7": {
+        "name": "High Residency",
+        "links": {
+            "9": "Spice Refinery",
+            "5": "Atreides Residency",
+            "6": "Main Streets",
+            "8": "Military Barracks"
+        }
+    },
+    "8": {
+        "name": "Military Barracks",
+        "links": {
+            "17": "Atreides Troop Ship II",
+            "9": "Spice Refinery",
+            "7": "High Residency"
+        }
+    },
+    "9": {
+        "name": "Spice Refinery",
+        "links": {
+            "10": "Central Entrance",
+            "6": "Main Streets",
+            "8": "Military Barracks",
+            "7": "High Residency"
+        }
+    },
+    "10": {
+        "name": "Central Entrance",
+        "links": {
+            "20": "Assault Tanks II",
+            "16": "Marketplace",
+            "9": "Spice Refinery",
+            "15": "Market Road",
+            "6": "Main Streets"
+        }
+    },
+    "11": {
+        "name": "Back Streets",
+        "links": {
+            "3": "Palace Palms",
+            "12": "Upper Housing"
+        }
+    },
+    "12": {
+        "name": "Upper Housing",
+        "links": {
+            "13": "East Entrance",
+            "14": "Lower Housing",
+            "11": "Back Streets"
+        }
+    },
+    "13": {
+        "name": "East Entrance",
+        "links": {
+            "12": "Upper Housing",
+            "24": "Atreides Troop Ship I",
+            "14": "Lower Housing"
+        }
+    },
+    "14": {
+        "name": "Lower Housing",
+        "links": {
+            "12": "Upper Housing",
+            "13": "East Entrance",
+            "16": "Marketplace",
+            "15": "Market Road"
+        }
+    },
+    "15": {
+        "name": "Market Road",
+        "links": {
+            "16": "Marketplace",
+            "10": "Central Entrance",
+            "14": "Lower Housing"
+        }
+    },
+    "16": {
+        "name": "Marketplace",
+        "links": {
+            "10": "Central Entrance",
+            "14": "Lower Housing",
+            "15": "Market Road"
+        }
+    },
+    "17": {
+        "name": "Atreides Troop Ship II",
+        "links": {
+            "8": "Military Barracks",
+            "18": "Assault Tanks III",
+            "19": "Troop Skiff I",
+            "20": "Assault Tanks II"
+        }
+    },
+    "18": {
+        "name": "Assault Tanks III",
+        "links": {
+            "19": "Troop Skiff I",
+            "17": "Atreides Troop Ship II"
+        }
+    },
+    "19": {
+        "name": "Troop Skiff I",
+        "links": {
+            "18": "Assault Tanks III",
+            "23": "Ornithopters Omega",
+            "17": "Atreides Troop Ship II"
+        }
+    },
+    "20": {
+        "name": "Assault Tanks II",
+        "links": {
+            "10": "Central Entrance",
+            "17": "Atreides Troop Ship II",
+            "22": "Ornithopters Alpha"
+        }
+    },
+    "21": {
+        "name": "Ornithopters Delta",
+        "links": {
+            "28": "Imperial Warship",
+            "24": "Atreides Troop Ship I",
+            "22": "Ornithopters Alpha"
+        }
+    },
+    "22": {
+        "name": "Ornithopters Alpha",
+        "links": {
+            "20": "Assault Tanks II",
+            "29": "Imperial Tent",
+            "21": "Ornithopters Delta"
+        }
+    },
+    "23": {
+        "name": "Ornithopters Omega",
+        "links": {
+            "30": "Probe Ship II",
+            "19": "Troop Skiff I",
+            "29": "Imperial Tent"
+        }
+    },
+    "24": {
+        "name": "Atreides Troop Ship I",
+        "links": {
+            "13": "East Entrance",
+            "21": "Ornithopters Delta",
+            "26": "Spice Depot",
+            "25": "Assault Tanks I"
+        }
+    },
+    "25": {
+        "name": "Assault Tanks I",
+        "links": {
+            "24": "Atreides Troop Ship I",
+            "27": "Troop Skiff II",
+            "26": "Spice Depot"
+        }
+    },
+    "26": {
+        "name": "Spice Depot",
+        "links": {
+            "25": "Assault Tanks I",
+            "24": "Atreides Troop Ship I"
+        }
+    },
+    "27": {
+        "name": "Troop Skiff II",
+        "links": {
+            "25": "Assault Tanks I",
+            "34": "Repair Bay",
+            "37": "Rear Path"
+        }
+    },
+    "28": {
+        "name": "Imperial Warship",
+        "links": {
+            "29": "Imperial Tent",
+            "33": "Probe Ship I",
+            "21": "Ornithopters Delta"
+        }
+    },
+    "29": {
+        "name": "Imperial Tent",
+        "links": {
+            "28": "Imperial Warship",
+            "23": "Ornithopters Omega",
+            "32": "Ornithopters Beta",
+            "22": "Ornithopters Alpha"
+        }
+    },
+    "30": {
+        "name": "Probe Ship II",
+        "links": {
+            "23": "Ornithopters Omega",
+            "31": "Harkonnen Warship"
+        }
+    },
+    "31": {
+        "name": "Harkonnen Warship",
+        "links": {
+            "30": "Probe Ship II",
+            "32": "Ornithopters Beta",
+            "39": "Barracks"
+        }
+    },
+    "32": {
+        "name": "Ornithopters Beta",
+        "links": {
+            "31": "Harkonnen Warship",
+            "29": "Imperial Tent",
+            "33": "Probe Ship I"
+        }
+    },
+    "33": {
+        "name": "Probe Ship I",
+        "links": {
+            "28": "Imperial Warship",
+            "35": "Tarmac",
+            "32": "Ornithopters Beta"
+        }
+    },
+    "34": {
+        "name": "Repair Bay",
+        "links": {
+            "27": "Troop Skiff II",
+            "35": "Tarmac"
+        }
+    },
+    "35": {
+        "name": "Tarmac",
+        "links": {
+            "34": "Repair Bay",
+            "36": "AVX Tarmac",
+            "33": "Probe Ship I",
+            "38": "Spice"
+        }
+    },
+    "36": {
+        "name": "AVX Tarmac",
+        "links": {
+            "39": "Barracks",
+            "35": "Tarmac",
+            "38": "Spice"
+        }
+    },
+    "37": {
+        "name": "Rear Path",
+        "links": {
+            "27": "Troop Skiff II",
+            "38": "Spice"
+        }
+    },
+    "38": {
+        "name": "Spice",
+        "links": {
+            "37": "Rear Path",
+            "35": "Tarmac",
+            "36": "AVX Tarmac",
+            "39": "Barracks"
+        }
+    },
+    "39": {
+        "name": "Barracks",
+        "links": {
+            "31": "Harkonnen Warship",
+            "36": "AVX Tarmac",
+            "38": "Spice"
+        }
+    }
+}

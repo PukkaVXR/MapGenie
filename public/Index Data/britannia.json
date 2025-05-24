@@ -1,0 +1,457 @@
+{
+    "1": {
+        "name": "Ailech",
+        "links": {
+            "48": "Ulaid",
+            "6": "Breifna",
+            "14": "Dal Riata",
+            "2": "Airgialla"
+        }
+    },
+    "2": {
+        "name": "Airgialla",
+        "links": {
+            "1": "Ailech",
+            "48": "Ulaid",
+            "6": "Breifna",
+            "5": "Brega",
+            "35": "Mide"
+        }
+    },
+    "3": {
+        "name": "Alt Clut",
+        "links": {
+            "14": "Dal Riata",
+            "24": "Fortriu",
+            "26": "Galwyddel",
+            "13": "Cumbraland",
+            "27": "Gododdin",
+            "4": "Beornice"
+        }
+    },
+    "4": {
+        "name": "Beornice",
+        "links": {
+            "13": "Cumbraland",
+            "27": "Gododdin",
+            "37": "Nordanhymbra",
+            "3": "Alt Clut"
+        }
+    },
+    "5": {
+        "name": "Brega",
+        "links": {
+            "2": "Airgialla",
+            "31": "Laigin",
+            "35": "Mide"
+        }
+    },
+    "6": {
+        "name": "Breifna",
+        "links": {
+            "12": "Connachta",
+            "1": "Ailech",
+            "35": "Mide",
+            "2": "Airgialla"
+        }
+    },
+    "7": {
+        "name": "Brycheiniog",
+        "links": {
+            "28": "Gwent",
+            "43": "Seisyllwg",
+            "45": "South Mercna",
+            "41": "Powys"
+        }
+    },
+    "8": {
+        "name": "Cantware",
+        "links": {
+            "21": "East Seaxe",
+            "47": "Suth Seaxe",
+            "34": "Middel Seaxe",
+            "49": "West Seaxe"
+        }
+    },
+    "9": {
+        "name": "Cat",
+        "links": {
+            "14": "Dal Riata",
+            "23": "Fidach",
+            "46": "Sudregiar",
+            "39": "Orkney"
+        }
+    },
+    "10": {
+        "name": "Ce",
+        "links": {
+            "11": "Circind",
+            "23": "Fidach",
+            "25": "Fotla",
+            "39": "Orkney"
+        }
+    },
+    "11": {
+        "name": "Circind",
+        "links": {
+            "10": "Ce",
+            "22": "Fib",
+            "25": "Fotla"
+        }
+    },
+    "12": {
+        "name": "Connachta",
+        "links": {
+            "36": "Mumu",
+            "6": "Breifna",
+            "35": "Mide",
+            "31": "Laigin"
+        }
+    },
+    "13": {
+        "name": "Cumbraland",
+        "links": {
+            "4": "Beornice",
+            "26": "Galwyddel",
+            "3": "Alt Clut",
+            "37": "Nordanhymbra",
+            "33": "Manu",
+            "42": "Rheged"
+        }
+    },
+    "14": {
+        "name": "Dal Riata",
+        "links": {
+            "1": "Ailech",
+            "9": "Cat",
+            "25": "Fotla",
+            "24": "Fortriu",
+            "23": "Fidach",
+            "3": "Alt Clut",
+            "48": "Ulaid",
+            "46": "Sudregiar"
+        }
+    },
+    "15": {
+        "name": "Defnas",
+        "links": {
+            "17": "Dornsaette",
+            "18": "Dumnonia",
+            "44": "Somersaette"
+        }
+    },
+    "16": {
+        "name": "Dere",
+        "links": {
+            "37": "Nordanhymbra",
+            "32": "Lindisware"
+        }
+    },
+    "17": {
+        "name": "Dornsaette",
+        "links": {
+            "49": "West Seaxe",
+            "15": "Defnas",
+            "44": "Somersaette"
+        }
+    },
+    "18": {
+        "name": "Dumnonia",
+        "links": {
+            "15": "Defnas",
+            "19": "Dyfed"
+        }
+    },
+    "19": {
+        "name": "Dyfed",
+        "links": {
+            "18": "Dumnonia",
+            "43": "Seisyllwg"
+        }
+    },
+    "20": {
+        "name": "East Engle",
+        "links": {
+            "32": "Lindisware",
+            "21": "East Seaxe",
+            "45": "South Mercna"
+        }
+    },
+    "21": {
+        "name": "East Seaxe",
+        "links": {
+            "20": "East Engle",
+            "8": "Cantware",
+            "34": "Middel Seaxe",
+            "45": "South Mercna"
+        }
+    },
+    "22": {
+        "name": "Fib",
+        "links": {
+            "11": "Circind",
+            "24": "Fortriu",
+            "25": "Fotla",
+            "27": "Gododdin"
+        }
+    },
+    "23": {
+        "name": "Fidach",
+        "links": {
+            "9": "Cat",
+            "10": "Ce",
+            "25": "Fotla",
+            "14": "Dal Riata"
+        }
+    },
+    "24": {
+        "name": "Fortriu",
+        "links": {
+            "25": "Fotla",
+            "14": "Dal Riata",
+            "22": "Fib",
+            "3": "Alt Clut",
+            "27": "Gododdin"
+        }
+    },
+    "25": {
+        "name": "Fotla",
+        "links": {
+            "10": "Ce",
+            "11": "Circind",
+            "24": "Fortriu",
+            "14": "Dal Riata",
+            "22": "Fib",
+            "23": "Fidach"
+        }
+    },
+    "26": {
+        "name": "Galwyddel",
+        "links": {
+            "13": "Cumbraland",
+            "3": "Alt Clut",
+            "48": "Ulaid",
+            "33": "Manu"
+        }
+    },
+    "27": {
+        "name": "Gododdin",
+        "links": {
+            "22": "Fib",
+            "4": "Beornice",
+            "24": "Fortriu",
+            "3": "Alt Clut"
+        }
+    },
+    "28": {
+        "name": "Gwent",
+        "links": {
+            "45": "South Mercna",
+            "7": "Brycheiniog",
+            "43": "Seisyllwg",
+            "30": "Hwicce",
+            "44": "Somersaette"
+        }
+    },
+    "29": {
+        "name": "Gwynedd",
+        "links": {
+            "43": "Seisyllwg",
+            "31": "Laigin",
+            "41": "Powys",
+            "33": "Manu",
+            "42": "Rheged"
+        }
+    },
+    "30": {
+        "name": "Hwicce",
+        "links": {
+            "28": "Gwent",
+            "45": "South Mercna",
+            "44": "Somersaette",
+            "49": "West Seaxe"
+        }
+    },
+    "31": {
+        "name": "Laigin",
+        "links": {
+            "29": "Gwynedd",
+            "40": "Osraige",
+            "12": "Connachta",
+            "35": "Mide",
+            "5": "Brega",
+            "36": "Mumu"
+        }
+    },
+    "32": {
+        "name": "Lindisware",
+        "links": {
+            "20": "East Engle",
+            "45": "South Mercna",
+            "16": "Dere",
+            "37": "Nordanhymbra",
+            "38": "North Mercna"
+        }
+    },
+    "33": {
+        "name": "Manu",
+        "links": {
+            "26": "Galwyddel",
+            "13": "Cumbraland",
+            "48": "Ulaid",
+            "29": "Gwynedd"
+        }
+    },
+    "34": {
+        "name": "Middel Seaxe",
+        "links": {
+            "21": "East Seaxe",
+            "45": "South Mercna",
+            "8": "Cantware",
+            "49": "West Seaxe"
+        }
+    },
+    "35": {
+        "name": "Mide",
+        "links": {
+            "12": "Connachta",
+            "31": "Laigin",
+            "6": "Breifna",
+            "5": "Brega",
+            "2": "Airgialla"
+        }
+    },
+    "36": {
+        "name": "Mumu",
+        "links": {
+            "40": "Osraige",
+            "12": "Connachta",
+            "31": "Laigin"
+        }
+    },
+    "37": {
+        "name": "Nordanhymbra",
+        "links": {
+            "4": "Beornice",
+            "16": "Dere",
+            "13": "Cumbraland",
+            "32": "Lindisware",
+            "42": "Rheged",
+            "38": "North Mercna",
+            "41": "Powys",
+            "45": "South Mercna"
+        }
+    },
+    "38": {
+        "name": "North Mercna",
+        "links": {
+            "37": "Nordanhymbra",
+            "32": "Lindisware",
+            "45": "South Mercna"
+        }
+    },
+    "39": {
+        "name": "Orkney",
+        "links": {
+            "9": "Cat",
+            "10": "Ce"
+        }
+    },
+    "40": {
+        "name": "Osraige",
+        "links": {
+            "31": "Laigin",
+            "36": "Mumu"
+        }
+    },
+    "41": {
+        "name": "Powys",
+        "links": {
+            "7": "Brycheiniog",
+            "43": "Seisyllwg",
+            "29": "Gwynedd",
+            "45": "South Mercna",
+            "37": "Nordanhymbra"
+        }
+    },
+    "42": {
+        "name": "Rheged",
+        "links": {
+            "13": "Cumbraland",
+            "37": "Nordanhymbra",
+            "29": "Gwynedd"
+        }
+    },
+    "43": {
+        "name": "Seisyllwg",
+        "links": {
+            "19": "Dyfed",
+            "29": "Gwynedd",
+            "7": "Brycheiniog",
+            "28": "Gwent",
+            "41": "Powys"
+        }
+    },
+    "44": {
+        "name": "Somersaette",
+        "links": {
+            "49": "West Seaxe",
+            "17": "Dornsaette",
+            "15": "Defnas",
+            "28": "Gwent",
+            "30": "Hwicce"
+        }
+    },
+    "45": {
+        "name": "South Mercna",
+        "links": {
+            "28": "Gwent",
+            "32": "Lindisware",
+            "20": "East Engle",
+            "7": "Brycheiniog",
+            "30": "Hwicce",
+            "41": "Powys",
+            "21": "East Seaxe",
+            "34": "Middel Seaxe",
+            "49": "West Seaxe",
+            "38": "North Mercna",
+            "37": "Nordanhymbra"
+        }
+    },
+    "46": {
+        "name": "Sudregiar",
+        "links": {
+            "14": "Dal Riata",
+            "9": "Cat"
+        }
+    },
+    "47": {
+        "name": "Suth Seaxe",
+        "links": {
+            "8": "Cantware",
+            "49": "West Seaxe"
+        }
+    },
+    "48": {
+        "name": "Ulaid",
+        "links": {
+            "1": "Ailech",
+            "2": "Airgialla",
+            "14": "Dal Riata",
+            "26": "Galwyddel",
+            "33": "Manu"
+        }
+    },
+    "49": {
+        "name": "West Seaxe",
+        "links": {
+            "47": "Suth Seaxe",
+            "17": "Dornsaette",
+            "8": "Cantware",
+            "44": "Somersaette",
+            "30": "Hwicce",
+            "45": "South Mercna",
+            "34": "Middel Seaxe"
+        }
+    }
+}

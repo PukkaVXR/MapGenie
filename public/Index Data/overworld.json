@@ -1,0 +1,684 @@
+{
+    "1": {
+        "name": "Harsh Jungle",
+        "links": {
+            "57": "Dry Valley",
+            "47": "Green Forest",
+            "7": "Green Maze",
+            "26": "Dry Arches",
+            "48": "Moonstone Altar",
+            "59": "Earth Crystals",
+            "2": "Green Pillars"
+        }
+    },
+    "2": {
+        "name": "Green Pillars",
+        "links": {
+            "68": "Harry's Gallow",
+            "60": "Dark Mines",
+            "54": "Dunes",
+            "49": "Golden Forest",
+            "1": "Harsh Jungle",
+            "12": "Misty Stairs",
+            "59": "Earth Crystals",
+            "3": "Lost Woods",
+            "48": "Moonstone Altar"
+        }
+    },
+    "3": {
+        "name": "Lost Woods",
+        "links": {
+            "54": "Dunes",
+            "2": "Green Pillars",
+            "12": "Misty Stairs",
+            "8": "Grass Land"
+        }
+    },
+    "4": {
+        "name": "Kaiman's Water",
+        "links": {
+            "7": "Green Maze",
+            "5": "Cyclops",
+            "47": "Green Forest"
+        }
+    },
+    "5": {
+        "name": "Cyclops",
+        "links": {
+            "50": "Sacred River",
+            "42": "Golden Gilde",
+            "4": "Kaiman's Water",
+            "11": "Tribes",
+            "6": "Hidden City",
+            "49": "Golden Forest",
+            "12": "Misty Stairs",
+            "47": "Green Forest"
+        }
+    },
+    "6": {
+        "name": "Hidden City",
+        "links": {
+            "11": "Tribes",
+            "10": "Golden Fields",
+            "5": "Cyclops"
+        }
+    },
+    "7": {
+        "name": "Green Maze",
+        "links": {
+            "4": "Kaiman's Water",
+            "1": "Harsh Jungle",
+            "39": "Crystal Caves",
+            "47": "Green Forest"
+        }
+    },
+    "8": {
+        "name": "Grass Land",
+        "links": {
+            "11": "Tribes",
+            "9": "Old Bridge",
+            "12": "Misty Stairs",
+            "3": "Lost Woods"
+        }
+    },
+    "9": {
+        "name": "Old Bridge",
+        "links": {
+            "11": "Tribes",
+            "15": "Riverwatch",
+            "8": "Grass Land"
+        }
+    },
+    "10": {
+        "name": "Golden Fields",
+        "links": {
+            "43": "Shining City",
+            "11": "Tribes",
+            "6": "Hidden City"
+        }
+    },
+    "11": {
+        "name": "Tribes",
+        "links": {
+            "9": "Old Bridge",
+            "6": "Hidden City",
+            "12": "Misty Stairs",
+            "10": "Golden Fields",
+            "5": "Cyclops",
+            "8": "Grass Land"
+        }
+    },
+    "12": {
+        "name": "Misty Stairs",
+        "links": {
+            "2": "Green Pillars",
+            "3": "Lost Woods",
+            "8": "Grass Land",
+            "11": "Tribes",
+            "5": "Cyclops",
+            "49": "Golden Forest"
+        }
+    },
+    "13": {
+        "name": "Old Fort",
+        "links": {
+            "14": "Rusty Remains",
+            "15": "Riverwatch"
+        }
+    },
+    "14": {
+        "name": "Rusty Remains",
+        "links": {
+            "18": "Soras Rock",
+            "13": "Old Fort",
+            "32": "Worlds End"
+        }
+    },
+    "15": {
+        "name": "Riverwatch",
+        "links": {
+            "9": "Old Bridge",
+            "13": "Old Fort",
+            "16": "Water Mage"
+        }
+    },
+    "16": {
+        "name": "Water Mage",
+        "links": {
+            "17": "Bridge Watch",
+            "15": "Riverwatch"
+        }
+    },
+    "17": {
+        "name": "Bridge Watch",
+        "links": {
+            "52": "Summit Stairs",
+            "16": "Water Mage"
+        }
+    },
+    "18": {
+        "name": "Soras Rock",
+        "links": {
+            "20": "Trolls Peak",
+            "21": "Seagrogs Fortress",
+            "14": "Rusty Remains",
+            "23": "Rough Cliffs"
+        }
+    },
+    "19": {
+        "name": "Hidden Treasure",
+        "links": {
+            "20": "Trolls Peak"
+        }
+    },
+    "20": {
+        "name": "Trolls Peak",
+        "links": {
+            "19": "Hidden Treasure",
+            "74": "Ghostly Lighthouse",
+            "18": "Soras Rock",
+            "21": "Seagrogs Fortress"
+        }
+    },
+    "21": {
+        "name": "Seagrogs Fortress",
+        "links": {
+            "20": "Trolls Peak",
+            "18": "Soras Rock",
+            "22": "Old Mans Port"
+        }
+    },
+    "22": {
+        "name": "Old Mans Port",
+        "links": {
+            "74": "Ghostly Lighthouse",
+            "23": "Rough Cliffs",
+            "21": "Seagrogs Fortress"
+        }
+    },
+    "23": {
+        "name": "Rough Cliffs",
+        "links": {
+            "22": "Old Mans Port",
+            "18": "Soras Rock"
+        }
+    },
+    "74": {
+        "name": "Ghostly Lighthouse",
+        "links": {
+            "56": "Red Wood",
+            "22": "Old Mans Port",
+            "20": "Trolls Peak"
+        }
+    },
+    "51": {
+        "name": "Lagoon",
+        "links": {
+            "62": "Mountain Passage",
+            "55": "Springs",
+            "70": "Market City",
+            "52": "Summit Stairs"
+        }
+    },
+    "52": {
+        "name": "Summit Stairs",
+        "links": {
+            "62": "Mountain Passage",
+            "51": "Lagoon",
+            "17": "Bridge Watch"
+        }
+    },
+    "53": {
+        "name": "Tower of Confusion",
+        "links": {
+            "54": "Dunes",
+            "71": "Fossil Remains",
+            "72": "Trembling Tower",
+            "55": "Springs"
+        }
+    },
+    "54": {
+        "name": "Dunes",
+        "links": {
+            "60": "Dark Mines",
+            "72": "Trembling Tower",
+            "73": "Proving Ground",
+            "63": "Nomads",
+            "2": "Green Pillars",
+            "53": "Tower of Confusion",
+            "65": "Desert Fortress",
+            "3": "Lost Woods"
+        }
+    },
+    "55": {
+        "name": "Springs",
+        "links": {
+            "53": "Tower of Confusion",
+            "71": "Fossil Remains",
+            "70": "Market City",
+            "51": "Lagoon"
+        }
+    },
+    "56": {
+        "name": "Red Wood",
+        "links": {
+            "69": "Frozen Lake",
+            "74": "Ghostly Lighthouse",
+            "66": "Glacier",
+            "58": "Gareth's Retreat"
+        }
+    },
+    "57": {
+        "name": "Dry Valley",
+        "links": {
+            "26": "Dry Arches",
+            "1": "Harsh Jungle",
+            "59": "Earth Crystals"
+        }
+    },
+    "58": {
+        "name": "Gareth's Retreat",
+        "links": {
+            "56": "Red Wood",
+            "61": "Territory 60",
+            "67": "Floating Salesman"
+        }
+    },
+    "59": {
+        "name": "Earth Crystals",
+        "links": {
+            "57": "Dry Valley",
+            "1": "Harsh Jungle",
+            "2": "Green Pillars",
+            "68": "Harry's Gallow"
+        }
+    },
+    "60": {
+        "name": "Dark Mines",
+        "links": {
+            "68": "Harry's Gallow",
+            "54": "Dunes",
+            "63": "Nomads",
+            "2": "Green Pillars"
+        }
+    },
+    "61": {
+        "name": "Territory 60",
+        "links": {
+            "67": "Floating Salesman",
+            "64": "Kailao Village",
+            "58": "Gareth's Retreat"
+        }
+    },
+    "62": {
+        "name": "Mountain Passage",
+        "links": {
+            "69": "Frozen Lake",
+            "51": "Lagoon",
+            "70": "Market City",
+            "52": "Summit Stairs"
+        }
+    },
+    "63": {
+        "name": "Nomads",
+        "links": {
+            "68": "Harry's Gallow",
+            "60": "Dark Mines",
+            "54": "Dunes",
+            "65": "Desert Fortress"
+        }
+    },
+    "64": {
+        "name": "Kailao Village",
+        "links": {
+            "73": "Proving Ground",
+            "61": "Territory 60",
+            "67": "Floating Salesman",
+            "72": "Trembling Tower",
+            "71": "Fossil Remains",
+            "66": "Glacier"
+        }
+    },
+    "65": {
+        "name": "Desert Fortress",
+        "links": {
+            "54": "Dunes",
+            "73": "Proving Ground",
+            "63": "Nomads",
+            "67": "Floating Salesman",
+            "26": "Dry Arches"
+        }
+    },
+    "66": {
+        "name": "Glacier",
+        "links": {
+            "69": "Frozen Lake",
+            "71": "Fossil Remains",
+            "56": "Red Wood",
+            "64": "Kailao Village"
+        }
+    },
+    "67": {
+        "name": "Floating Salesman",
+        "links": {
+            "73": "Proving Ground",
+            "61": "Territory 60",
+            "65": "Desert Fortress",
+            "64": "Kailao Village",
+            "58": "Gareth's Retreat"
+        }
+    },
+    "68": {
+        "name": "Harry's Gallow",
+        "links": {
+            "63": "Nomads",
+            "2": "Green Pillars",
+            "59": "Earth Crystals",
+            "60": "Dark Mines"
+        }
+    },
+    "69": {
+        "name": "Frozen Lake",
+        "links": {
+            "62": "Mountain Passage",
+            "71": "Fossil Remains",
+            "56": "Red Wood",
+            "70": "Market City",
+            "66": "Glacier"
+        }
+    },
+    "70": {
+        "name": "Market City",
+        "links": {
+            "69": "Frozen Lake",
+            "62": "Mountain Passage",
+            "71": "Fossil Remains",
+            "51": "Lagoon",
+            "55": "Springs"
+        }
+    },
+    "71": {
+        "name": "Fossil Remains",
+        "links": {
+            "69": "Frozen Lake",
+            "72": "Trembling Tower",
+            "55": "Springs",
+            "70": "Market City",
+            "53": "Tower of Confusion",
+            "66": "Glacier",
+            "64": "Kailao Village"
+        }
+    },
+    "72": {
+        "name": "Trembling Tower",
+        "links": {
+            "54": "Dunes",
+            "71": "Fossil Remains",
+            "73": "Proving Ground",
+            "53": "Tower of Confusion",
+            "64": "Kailao Village"
+        }
+    },
+    "73": {
+        "name": "Proving Ground",
+        "links": {
+            "54": "Dunes",
+            "72": "Trembling Tower",
+            "67": "Floating Salesman",
+            "65": "Desert Fortress",
+            "64": "Kailao Village"
+        }
+    },
+    "24": {
+        "name": "Forest Village",
+        "links": {
+            "44": "Trigons Maze",
+            "25": "Blind Valley",
+            "26": "Dry Arches",
+            "45": "Eastern Plateau"
+        }
+    },
+    "25": {
+        "name": "Blind Valley",
+        "links": {
+            "24": "Forest Village",
+            "27": "Purple Swamp",
+            "44": "Trigons Maze"
+        }
+    },
+    "26": {
+        "name": "Dry Arches",
+        "links": {
+            "45": "Eastern Plateau",
+            "36": "Misty Forest",
+            "57": "Dry Valley",
+            "24": "Forest Village",
+            "1": "Harsh Jungle",
+            "65": "Desert Fortress"
+        }
+    },
+    "27": {
+        "name": "Purple Swamp",
+        "links": {
+            "46": "Western Plateau",
+            "25": "Blind Valley",
+            "44": "Trigons Maze",
+            "39": "Crystal Caves",
+            "31": "Hideout"
+        }
+    },
+    "28": {
+        "name": "Old Oak",
+        "links": {
+            "29": "Ancient Lighthouse",
+            "41": "Craters",
+            "37": "Basalt Streams",
+            "39": "Crystal Caves"
+        }
+    },
+    "29": {
+        "name": "Ancient Lighthouse",
+        "links": {
+            "40": "Lyons' Barracks",
+            "28": "Old Oak",
+            "41": "Craters"
+        }
+    },
+    "30": {
+        "name": "Ever Greens",
+        "links": {
+            "31": "Hideout",
+            "40": "Lyons' Barracks",
+            "38": "Strange Lights"
+        }
+    },
+    "31": {
+        "name": "Hideout",
+        "links": {
+            "30": "Ever Greens",
+            "35": "Soul Port",
+            "33": "Dark Passage",
+            "38": "Strange Lights",
+            "34": "Dust Pit",
+            "27": "Purple Swamp"
+        }
+    },
+    "32": {
+        "name": "Worlds End",
+        "links": {
+            "43": "Shining City",
+            "14": "Rusty Remains",
+            "33": "Dark Passage"
+        }
+    },
+    "33": {
+        "name": "Dark Passage",
+        "links": {
+            "32": "Worlds End",
+            "34": "Dust Pit",
+            "31": "Hideout"
+        }
+    },
+    "34": {
+        "name": "Dust Pit",
+        "links": {
+            "35": "Soul Port",
+            "33": "Dark Passage",
+            "31": "Hideout"
+        }
+    },
+    "35": {
+        "name": "Soul Port",
+        "links": {
+            "42": "Golden Gilde",
+            "38": "Strange Lights",
+            "31": "Hideout",
+            "34": "Dust Pit"
+        }
+    },
+    "36": {
+        "name": "Misty Forest",
+        "links": {
+            "39": "Crystal Caves",
+            "44": "Trigons Maze",
+            "26": "Dry Arches",
+            "45": "Eastern Plateau"
+        }
+    },
+    "37": {
+        "name": "Basalt Streams",
+        "links": {
+            "28": "Old Oak",
+            "38": "Strange Lights",
+            "39": "Crystal Caves",
+            "41": "Craters"
+        }
+    },
+    "38": {
+        "name": "Strange Lights",
+        "links": {
+            "40": "Lyons' Barracks",
+            "30": "Ever Greens",
+            "35": "Soul Port",
+            "37": "Basalt Streams",
+            "41": "Craters",
+            "31": "Hideout"
+        }
+    },
+    "39": {
+        "name": "Crystal Caves",
+        "links": {
+            "7": "Green Maze",
+            "28": "Old Oak",
+            "46": "Western Plateau",
+            "37": "Basalt Streams",
+            "27": "Purple Swamp",
+            "44": "Trigons Maze",
+            "36": "Misty Forest"
+        }
+    },
+    "40": {
+        "name": "Lyons' Barracks",
+        "links": {
+            "30": "Ever Greens",
+            "29": "Ancient Lighthouse",
+            "41": "Craters",
+            "38": "Strange Lights"
+        }
+    },
+    "41": {
+        "name": "Craters",
+        "links": {
+            "40": "Lyons' Barracks",
+            "28": "Old Oak",
+            "37": "Basalt Streams",
+            "38": "Strange Lights",
+            "29": "Ancient Lighthouse"
+        }
+    },
+    "42": {
+        "name": "Golden Gilde",
+        "links": {
+            "43": "Shining City",
+            "35": "Soul Port",
+            "5": "Cyclops"
+        }
+    },
+    "43": {
+        "name": "Shining City",
+        "links": {
+            "42": "Golden Gilde",
+            "32": "Worlds End",
+            "10": "Golden Fields"
+        }
+    },
+    "44": {
+        "name": "Trigons Maze",
+        "links": {
+            "24": "Forest Village",
+            "46": "Western Plateau",
+            "25": "Blind Valley",
+            "27": "Purple Swamp",
+            "39": "Crystal Caves",
+            "36": "Misty Forest",
+            "45": "Eastern Plateau"
+        }
+    },
+    "45": {
+        "name": "Eastern Plateau",
+        "links": {
+            "24": "Forest Village",
+            "26": "Dry Arches",
+            "44": "Trigons Maze",
+            "36": "Misty Forest"
+        }
+    },
+    "46": {
+        "name": "Western Plateau",
+        "links": {
+            "39": "Crystal Caves",
+            "27": "Purple Swamp",
+            "44": "Trigons Maze"
+        }
+    },
+    "47": {
+        "name": "Green Forest",
+        "links": {
+            "50": "Sacred River",
+            "4": "Kaiman's Water",
+            "7": "Green Maze",
+            "1": "Harsh Jungle",
+            "5": "Cyclops",
+            "48": "Moonstone Altar"
+        }
+    },
+    "48": {
+        "name": "Moonstone Altar",
+        "links": {
+            "50": "Sacred River",
+            "49": "Golden Forest",
+            "1": "Harsh Jungle",
+            "2": "Green Pillars",
+            "47": "Green Forest"
+        }
+    },
+    "49": {
+        "name": "Golden Forest",
+        "links": {
+            "50": "Sacred River",
+            "2": "Green Pillars",
+            "12": "Misty Stairs",
+            "5": "Cyclops",
+            "48": "Moonstone Altar"
+        }
+    },
+    "50": {
+        "name": "Sacred River",
+        "links": {
+            "49": "Golden Forest",
+            "5": "Cyclops",
+            "48": "Moonstone Altar",
+            "47": "Green Forest"
+        }
+    }
+}

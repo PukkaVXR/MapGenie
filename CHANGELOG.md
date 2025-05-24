@@ -22,4 +22,9 @@
 
 ### Fixed
 - Freehand connections no longer disappear after territory movement.
-- Connection Manager now lists and removes connections correctly. 
+- Connection Manager now lists and removes connections correctly.
+
+## [1.1.1] - Pathing Fixes
+- Removed curvature editing for arrows (all arrows are now straight)
+- All arrow types are now draggable in select mode
+- Improved pathing and arrow editing stability 

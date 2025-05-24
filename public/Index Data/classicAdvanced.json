@@ -1,0 +1,423 @@
+{
+    "1": {
+        "name": "Afghanistan",
+        "links": {
+            "41": "Ukraine",
+            "42": "Ural",
+            "7": "China",
+            "18": "India",
+            "24": "Middle East"
+        }
+    },
+    "2": {
+        "name": "Alaska",
+        "links": {
+            "30": "Northwest Territory",
+            "3": "Alberta",
+            "22": "Kamchatka"
+        }
+    },
+    "3": {
+        "name": "Alberta",
+        "links": {
+            "2": "Alaska",
+            "30": "Northwest Territory",
+            "31": "Ontario",
+            "46": "Western United States"
+        }
+    },
+    "4": {
+        "name": "Argentina",
+        "links": {
+            "13": "Falkland Islands",
+            "32": "Peru",
+            "5": "Brazil",
+            "27": "New Zealand"
+        }
+    },
+    "5": {
+        "name": "Brazil",
+        "links": {
+            "43": "Venezuela",
+            "28": "North Africa",
+            "4": "Argentina",
+            "32": "Peru"
+        }
+    },
+    "6": {
+        "name": "Central America",
+        "links": {
+            "11": "Eastern United States",
+            "43": "Venezuela",
+            "46": "Western United States"
+        }
+    },
+    "7": {
+        "name": "China",
+        "links": {
+            "42": "Ural",
+            "37": "Siberia",
+            "18": "India",
+            "1": "Afghanistan",
+            "36": "Siam",
+            "25": "Mongolia"
+        }
+    },
+    "8": {
+        "name": "Congo",
+        "links": {
+            "28": "North Africa",
+            "9": "East Africa",
+            "38": "South Africa"
+        }
+    },
+    "9": {
+        "name": "East Africa",
+        "links": {
+            "24": "Middle East",
+            "23": "Madagascar",
+            "12": "Egypt",
+            "28": "North Africa",
+            "8": "Congo",
+            "38": "South Africa"
+        }
+    },
+    "10": {
+        "name": "Eastern Australia",
+        "links": {
+            "26": "New Guinea",
+            "27": "New Zealand",
+            "44": "Western Australia"
+        }
+    },
+    "11": {
+        "name": "Eastern United States",
+        "links": {
+            "34": "Quebec",
+            "6": "Central America",
+            "46": "Western United States",
+            "31": "Ontario"
+        }
+    },
+    "12": {
+        "name": "Egypt",
+        "links": {
+            "24": "Middle East",
+            "9": "East Africa",
+            "28": "North Africa",
+            "39": "Southern Europe"
+        }
+    },
+    "13": {
+        "name": "Falkland Islands",
+        "links": {
+            "38": "South Africa",
+            "4": "Argentina"
+        }
+    },
+    "14": {
+        "name": "Great Britain",
+        "links": {
+            "45": "Western Europe",
+            "17": "Iceland",
+            "35": "Scandinavia",
+            "29": "Northern Europe"
+        }
+    },
+    "15": {
+        "name": "Greenland",
+        "links": {
+            "30": "Northwest Territory",
+            "40": "Svalbard",
+            "17": "Iceland",
+            "34": "Quebec",
+            "31": "Ontario"
+        }
+    },
+    "16": {
+        "name": "Hawaii",
+        "links": {
+            "46": "Western United States",
+            "21": "Japan"
+        }
+    },
+    "17": {
+        "name": "Iceland",
+        "links": {
+            "15": "Greenland",
+            "35": "Scandinavia",
+            "14": "Great Britain"
+        }
+    },
+    "18": {
+        "name": "India",
+        "links": {
+            "7": "China",
+            "1": "Afghanistan",
+            "36": "Siam",
+            "24": "Middle East"
+        }
+    },
+    "19": {
+        "name": "Indonesia",
+        "links": {
+            "33": "Philippine Islands",
+            "26": "New Guinea",
+            "36": "Siam",
+            "44": "Western Australia"
+        }
+    },
+    "20": {
+        "name": "Irkutsk",
+        "links": {
+            "37": "Siberia",
+            "47": "Yakutsk",
+            "25": "Mongolia",
+            "22": "Kamchatka"
+        }
+    },
+    "21": {
+        "name": "Japan",
+        "links": {
+            "22": "Kamchatka",
+            "25": "Mongolia",
+            "33": "Philippine Islands",
+            "16": "Hawaii"
+        }
+    },
+    "22": {
+        "name": "Kamchatka",
+        "links": {
+            "47": "Yakutsk",
+            "21": "Japan",
+            "20": "Irkutsk",
+            "25": "Mongolia",
+            "2": "Alaska"
+        }
+    },
+    "23": {
+        "name": "Madagascar",
+        "links": {
+            "9": "East Africa",
+            "38": "South Africa"
+        }
+    },
+    "24": {
+        "name": "Middle East",
+        "links": {
+            "18": "India",
+            "9": "East Africa",
+            "41": "Ukraine",
+            "1": "Afghanistan",
+            "39": "Southern Europe",
+            "12": "Egypt"
+        }
+    },
+    "25": {
+        "name": "Mongolia",
+        "links": {
+            "37": "Siberia",
+            "20": "Irkutsk",
+            "22": "Kamchatka",
+            "21": "Japan",
+            "7": "China"
+        }
+    },
+    "26": {
+        "name": "New Guinea",
+        "links": {
+            "19": "Indonesia",
+            "10": "Eastern Australia",
+            "44": "Western Australia"
+        }
+    },
+    "27": {
+        "name": "New Zealand",
+        "links": {
+            "10": "Eastern Australia",
+            "4": "Argentina"
+        }
+    },
+    "28": {
+        "name": "North Africa",
+        "links": {
+            "9": "East Africa",
+            "8": "Congo",
+            "5": "Brazil",
+            "45": "Western Europe",
+            "12": "Egypt",
+            "39": "Southern Europe"
+        }
+    },
+    "29": {
+        "name": "Northern Europe",
+        "links": {
+            "35": "Scandinavia",
+            "41": "Ukraine",
+            "39": "Southern Europe",
+            "45": "Western Europe",
+            "14": "Great Britain"
+        }
+    },
+    "30": {
+        "name": "Northwest Territory",
+        "links": {
+            "2": "Alaska",
+            "15": "Greenland",
+            "3": "Alberta",
+            "31": "Ontario"
+        }
+    },
+    "31": {
+        "name": "Ontario",
+        "links": {
+            "30": "Northwest Territory",
+            "15": "Greenland",
+            "3": "Alberta",
+            "34": "Quebec",
+            "46": "Western United States",
+            "11": "Eastern United States"
+        }
+    },
+    "32": {
+        "name": "Peru",
+        "links": {
+            "4": "Argentina",
+            "43": "Venezuela",
+            "5": "Brazil"
+        }
+    },
+    "33": {
+        "name": "Philippine Islands",
+        "links": {
+            "21": "Japan",
+            "19": "Indonesia"
+        }
+    },
+    "34": {
+        "name": "Quebec",
+        "links": {
+            "15": "Greenland",
+            "11": "Eastern United States",
+            "31": "Ontario"
+        }
+    },
+    "35": {
+        "name": "Scandinavia",
+        "links": {
+            "40": "Svalbard",
+            "41": "Ukraine",
+            "17": "Iceland",
+            "29": "Northern Europe",
+            "14": "Great Britain"
+        }
+    },
+    "36": {
+        "name": "Siam",
+        "links": {
+            "18": "India",
+            "7": "China",
+            "19": "Indonesia"
+        }
+    },
+    "37": {
+        "name": "Siberia",
+        "links": {
+            "42": "Ural",
+            "47": "Yakutsk",
+            "20": "Irkutsk",
+            "7": "China",
+            "25": "Mongolia"
+        }
+    },
+    "38": {
+        "name": "South Africa",
+        "links": {
+            "23": "Madagascar",
+            "13": "Falkland Islands",
+            "9": "East Africa",
+            "8": "Congo"
+        }
+    },
+    "39": {
+        "name": "Southern Europe",
+        "links": {
+            "41": "Ukraine",
+            "24": "Middle East",
+            "45": "Western Europe",
+            "29": "Northern Europe",
+            "12": "Egypt",
+            "28": "North Africa"
+        }
+    },
+    "40": {
+        "name": "Svalbard",
+        "links": {
+            "15": "Greenland",
+            "35": "Scandinavia"
+        }
+    },
+    "41": {
+        "name": "Ukraine",
+        "links": {
+            "35": "Scandinavia",
+            "42": "Ural",
+            "1": "Afghanistan",
+            "24": "Middle East",
+            "29": "Northern Europe",
+            "39": "Southern Europe"
+        }
+    },
+    "42": {
+        "name": "Ural",
+        "links": {
+            "41": "Ukraine",
+            "37": "Siberia",
+            "1": "Afghanistan",
+            "7": "China"
+        }
+    },
+    "43": {
+        "name": "Venezuela",
+        "links": {
+            "6": "Central America",
+            "5": "Brazil",
+            "32": "Peru"
+        }
+    },
+    "44": {
+        "name": "Western Australia",
+        "links": {
+            "19": "Indonesia",
+            "26": "New Guinea",
+            "10": "Eastern Australia"
+        }
+    },
+    "45": {
+        "name": "Western Europe",
+        "links": {
+            "28": "North Africa",
+            "14": "Great Britain",
+            "39": "Southern Europe",
+            "29": "Northern Europe"
+        }
+    },
+    "46": {
+        "name": "Western United States",
+        "links": {
+            "11": "Eastern United States",
+            "6": "Central America",
+            "16": "Hawaii",
+            "3": "Alberta",
+            "31": "Ontario"
+        }
+    },
+    "47": {
+        "name": "Yakutsk",
+        "links": {
+            "37": "Siberia",
+            "22": "Kamchatka",
+            "20": "Irkutsk"
+        }
+    }
+}

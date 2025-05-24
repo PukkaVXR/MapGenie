@@ -1,0 +1,417 @@
+{
+    "1": {
+        "name": "Ancient Vents",
+        "links": {
+            "12": "Deep Mine",
+            "46": "Volcanic Glass",
+            "30": "Rover Field",
+            "17": "Glass Valley",
+            "13": "Desh Passage"
+        }
+    },
+    "2": {
+        "name": "Apollo",
+        "links": {
+            "34": "Star Basin",
+            "33": "Shadow Field",
+            "37": "Strange Marks",
+            "29": "Rich Vein",
+            "32": "Scrap"
+        }
+    },
+    "3": {
+        "name": "Artemis Landing Site",
+        "links": {
+            "14": "Drill Port",
+            "23": "Launch Pads",
+            "31": "Ruby Craters",
+            "8": "Command",
+            "12": "Deep Mine",
+            "30": "Rover Field"
+        }
+    },
+    "4": {
+        "name": "Artifacts",
+        "links": {
+            "21": "Hideouts",
+            "6": "Basalt Vents",
+            "35": "Strange Caves"
+        }
+    },
+    "5": {
+        "name": "Basalt Valley",
+        "links": {
+            "6": "Basalt Vents",
+            "44": "Uvula",
+            "18": "Gods Gate",
+            "10": "Crater Cave"
+        }
+    },
+    "6": {
+        "name": "Basalt Vents",
+        "links": {
+            "4": "Artifacts",
+            "5": "Basalt Valley",
+            "10": "Crater Cave"
+        }
+    },
+    "7": {
+        "name": "Cave System",
+        "links": {
+            "36": "Strange Fossils",
+            "25": "Methane Pool",
+            "16": "Eulers Field"
+        }
+    },
+    "8": {
+        "name": "Command",
+        "links": {
+            "31": "Ruby Craters",
+            "3": "Artemis Landing Site",
+            "19": "Hangars",
+            "30": "Rover Field",
+            "24": "Meteor Field"
+        }
+    },
+    "9": {
+        "name": "Copper Mines",
+        "links": {
+            "23": "Launch Pads",
+            "42": "Trap Field",
+            "12": "Deep Mine",
+            "20": "Helium 3 Field",
+            "46": "Volcanic Glass"
+        }
+    },
+    "10": {
+        "name": "Crater Cave",
+        "links": {
+            "15": "Dust Carpet",
+            "5": "Basalt Valley",
+            "6": "Basalt Vents"
+        }
+    },
+    "11": {
+        "name": "Debris Field",
+        "links": {
+            "16": "Eulers Field",
+            "47": "Wax Field"
+        }
+    },
+    "12": {
+        "name": "Deep Mine",
+        "links": {
+            "23": "Launch Pads",
+            "9": "Copper Mines",
+            "3": "Artemis Landing Site",
+            "46": "Volcanic Glass",
+            "30": "Rover Field",
+            "1": "Ancient Vents"
+        }
+    },
+    "13": {
+        "name": "Desh Passage",
+        "links": {
+            "24": "Meteor Field",
+            "30": "Rover Field",
+            "1": "Ancient Vents"
+        }
+    },
+    "14": {
+        "name": "Drill Port",
+        "links": {
+            "26": "Neil's Hop",
+            "23": "Launch Pads",
+            "31": "Ruby Craters",
+            "3": "Artemis Landing Site"
+        }
+    },
+    "15": {
+        "name": "Dust Carpet",
+        "links": {
+            "10": "Crater Cave",
+            "28": "Platos Field"
+        }
+    },
+    "16": {
+        "name": "Eulers Field",
+        "links": {
+            "11": "Debris Field",
+            "25": "Methane Pool",
+            "7": "Cave System"
+        }
+    },
+    "17": {
+        "name": "Glass Valley",
+        "links": {
+            "46": "Volcanic Glass",
+            "43": "Unidentified Wreckage",
+            "1": "Ancient Vents",
+            "45": "Valley Maze"
+        }
+    },
+    "18": {
+        "name": "Gods Gate",
+        "links": {
+            "22": "Iron Field",
+            "5": "Basalt Valley",
+            "26": "Neil's Hop",
+            "29": "Rich Vein",
+            "31": "Ruby Craters"
+        }
+    },
+    "19": {
+        "name": "Hangars",
+        "links": {
+            "31": "Ruby Craters",
+            "8": "Command",
+            "24": "Meteor Field",
+            "32": "Scrap",
+            "29": "Rich Vein"
+        }
+    },
+    "20": {
+        "name": "Helium 3 Field",
+        "links": {
+            "42": "Trap Field",
+            "46": "Volcanic Glass",
+            "9": "Copper Mines"
+        }
+    },
+    "21": {
+        "name": "Hideouts",
+        "links": {
+            "42": "Trap Field",
+            "4": "Artifacts",
+            "35": "Strange Caves"
+        }
+    },
+    "22": {
+        "name": "Iron Field",
+        "links": {
+            "39": "Terminal A",
+            "18": "Gods Gate",
+            "41": "Terminal C",
+            "40": "Terminal B",
+            "33": "Shadow Field",
+            "29": "Rich Vein"
+        }
+    },
+    "23": {
+        "name": "Launch Pads",
+        "links": {
+            "14": "Drill Port",
+            "9": "Copper Mines",
+            "3": "Artemis Landing Site",
+            "12": "Deep Mine"
+        }
+    },
+    "24": {
+        "name": "Meteor Field",
+        "links": {
+            "8": "Command",
+            "30": "Rover Field",
+            "19": "Hangars",
+            "32": "Scrap",
+            "13": "Desh Passage",
+            "37": "Strange Marks"
+        }
+    },
+    "25": {
+        "name": "Methane Pool",
+        "links": {
+            "7": "Cave System",
+            "16": "Eulers Field"
+        }
+    },
+    "26": {
+        "name": "Neil's Hop",
+        "links": {
+            "18": "Gods Gate",
+            "14": "Drill Port",
+            "31": "Ruby Craters"
+        }
+    },
+    "27": {
+        "name": "Old Crash Site",
+        "links": {
+            "43": "Unidentified Wreckage",
+            "36": "Strange Fossils"
+        }
+    },
+    "28": {
+        "name": "Platos Field",
+        "links": {
+            "15": "Dust Carpet",
+            "33": "Shadow Field"
+        }
+    },
+    "29": {
+        "name": "Rich Vein",
+        "links": {
+            "2": "Apollo",
+            "33": "Shadow Field",
+            "22": "Iron Field",
+            "18": "Gods Gate",
+            "32": "Scrap",
+            "31": "Ruby Craters",
+            "19": "Hangars"
+        }
+    },
+    "30": {
+        "name": "Rover Field",
+        "links": {
+            "8": "Command",
+            "3": "Artemis Landing Site",
+            "24": "Meteor Field",
+            "12": "Deep Mine",
+            "13": "Desh Passage",
+            "1": "Ancient Vents"
+        }
+    },
+    "31": {
+        "name": "Ruby Craters",
+        "links": {
+            "18": "Gods Gate",
+            "26": "Neil's Hop",
+            "29": "Rich Vein",
+            "14": "Drill Port",
+            "3": "Artemis Landing Site",
+            "8": "Command",
+            "19": "Hangars"
+        }
+    },
+    "32": {
+        "name": "Scrap",
+        "links": {
+            "37": "Strange Marks",
+            "2": "Apollo",
+            "29": "Rich Vein",
+            "19": "Hangars",
+            "24": "Meteor Field"
+        }
+    },
+    "33": {
+        "name": "Shadow Field",
+        "links": {
+            "28": "Platos Field",
+            "41": "Terminal C",
+            "2": "Apollo",
+            "34": "Star Basin",
+            "29": "Rich Vein",
+            "22": "Iron Field"
+        }
+    },
+    "34": {
+        "name": "Star Basin",
+        "links": {
+            "2": "Apollo",
+            "33": "Shadow Field",
+            "37": "Strange Marks"
+        }
+    },
+    "35": {
+        "name": "Strange Caves",
+        "links": {
+            "47": "Wax Field",
+            "42": "Trap Field",
+            "21": "Hideouts",
+            "4": "Artifacts"
+        }
+    },
+    "36": {
+        "name": "Strange Fossils",
+        "links": {
+            "27": "Old Crash Site",
+            "7": "Cave System"
+        }
+    },
+    "37": {
+        "name": "Strange Marks",
+        "links": {
+            "34": "Star Basin",
+            "2": "Apollo",
+            "32": "Scrap",
+            "24": "Meteor Field"
+        }
+    },
+    "38": {
+        "name": "Strange Rocks",
+        "links": {
+            "45": "Valley Maze",
+            "43": "Unidentified Wreckage"
+        }
+    },
+    "39": {
+        "name": "Terminal A",
+        "links": {
+            "40": "Terminal B",
+            "22": "Iron Field"
+        }
+    },
+    "40": {
+        "name": "Terminal B",
+        "links": {
+            "41": "Terminal C",
+            "39": "Terminal A",
+            "22": "Iron Field"
+        }
+    },
+    "41": {
+        "name": "Terminal C",
+        "links": {
+            "33": "Shadow Field",
+            "40": "Terminal B",
+            "22": "Iron Field"
+        }
+    },
+    "42": {
+        "name": "Trap Field",
+        "links": {
+            "47": "Wax Field",
+            "20": "Helium 3 Field",
+            "35": "Strange Caves",
+            "21": "Hideouts",
+            "9": "Copper Mines"
+        }
+    },
+    "43": {
+        "name": "Unidentified Wreckage",
+        "links": {
+            "17": "Glass Valley",
+            "27": "Old Crash Site",
+            "38": "Strange Rocks"
+        }
+    },
+    "44": {
+        "name": "Uvula",
+        "links": {
+            "5": "Basalt Valley"
+        }
+    },
+    "45": {
+        "name": "Valley Maze",
+        "links": {
+            "17": "Glass Valley",
+            "38": "Strange Rocks"
+        }
+    },
+    "46": {
+        "name": "Volcanic Glass",
+        "links": {
+            "20": "Helium 3 Field",
+            "17": "Glass Valley",
+            "12": "Deep Mine",
+            "9": "Copper Mines",
+            "1": "Ancient Vents"
+        }
+    },
+    "47": {
+        "name": "Wax Field",
+        "links": {
+            "11": "Debris Field",
+            "42": "Trap Field",
+            "35": "Strange Caves"
+        }
+    }
+}

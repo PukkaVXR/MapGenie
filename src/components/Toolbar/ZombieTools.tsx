@@ -1,5 +1,5 @@
-import React from 'react';
-import { Box, ToggleButton, ToggleButtonGroup, Typography, Stack, MenuItem, Select, FormControl, InputLabel, Slider } from '@mui/material';
+import React, { useRef } from 'react';
+import { Box, ToggleButton, ToggleButtonGroup, Typography, Stack, MenuItem, Select, FormControl, InputLabel, Slider, Button } from '@mui/material';
 import FormatListNumberedIcon from '@mui/icons-material/FormatListNumbered';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ListAltIcon from '@mui/icons-material/ListAlt';
@@ -41,7 +41,9 @@ export const ZombieTools: React.FC<{
   onNumberFontSizeChange: (size: number) => void;
   numberColor: string;
   onNumberColorChange: (color: string) => void;
-}> = ({ selectedTool, onToolChange, arrowColor, onArrowColorChange, arrowSize, onArrowSizeChange, numberFont, onNumberFontChange, numberFontSize, onNumberFontSizeChange, numberColor, onNumberColorChange }) => {
+  autoPathHandler: (file: File) => void;
+}> = ({ selectedTool, onToolChange, arrowColor, onArrowColorChange, arrowSize, onArrowSizeChange, numberFont, onNumberFontChange, numberFontSize, onNumberFontSizeChange, numberColor, onNumberColorChange, autoPathHandler }) => {
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
   return (
     <Box
       sx={{
@@ -156,6 +158,29 @@ export const ZombieTools: React.FC<{
           </FormControl>
         </Stack>
       )}
+      <Stack sx={{ width: '100%', mt: 2 }} alignItems="center">
+        <Button
+          variant="contained"
+          color="secondary"
+          size="small"
+          onClick={() => fileInputRef.current?.click()}
+          fullWidth
+        >
+          AutoPath
+        </Button>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="application/json"
+          style={{ display: 'none' }}
+          onChange={e => {
+            if (e.target.files && e.target.files[0]) {
+              autoPathHandler(e.target.files[0]);
+              e.target.value = '';
+            }
+          }}
+        />
+      </Stack>
     </Box>
   );
 }; 

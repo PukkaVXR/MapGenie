@@ -1,0 +1,552 @@
+{
+    "1": {
+        "name": "Acre",
+        "links": {
+            "29": "Loreto",
+            "4": "Amazonas do Sul",
+            "55": "Ucayali",
+            "26": "La Paz",
+            "17": "Cusco"
+        }
+    },
+    "2": {
+        "name": "Amap\u00e1",
+        "links": {
+            "20": "French Guiana",
+            "37": "Par\u00e1",
+            "42": "Rio Grande do Sul"
+        }
+    },
+    "3": {
+        "name": "Amazonas",
+        "links": {
+            "44": "Roraima",
+            "37": "Par\u00e1",
+            "38": "Par\u00e1 do Sul",
+            "4": "Amazonas do Sul",
+            "22": "Guainia",
+            "33": "Meta"
+        }
+    },
+    "4": {
+        "name": "Amazonas do Sul",
+        "links": {
+            "3": "Amazonas",
+            "38": "Par\u00e1 do Sul",
+            "33": "Meta",
+            "29": "Loreto",
+            "1": "Acre",
+            "31": "Mato Grosso",
+            "26": "La Paz",
+            "43": "Rondonia"
+        }
+    },
+    "5": {
+        "name": "Ancash",
+        "links": {
+            "17": "Cusco",
+            "47": "San Martin",
+            "29": "Loreto",
+            "55": "Ucayali"
+        }
+    },
+    "6": {
+        "name": "Antioquia",
+        "links": {
+            "15": "Choco",
+            "23": "Gu\u00e1rico",
+            "33": "Meta",
+            "25": "Huila"
+        }
+    },
+    "7": {
+        "name": "Antofagasta",
+        "links": {
+            "8": "Atacama",
+            "53": "Tarapac\u00e1",
+            "27": "La Rioja",
+            "45": "Salta",
+            "15": "Choco",
+            "36": "Oruro"
+        }
+    },
+    "8": {
+        "name": "Atacama",
+        "links": {
+            "16": "Coquimbo",
+            "7": "Antofagasta",
+            "46": "San Juan",
+            "27": "La Rioja"
+        }
+    },
+    "9": {
+        "name": "Bahia",
+        "links": {
+            "40": "Piau\u00ed",
+            "28": "Litoral Nordestino",
+            "34": "Minas Gerais",
+            "21": "Goi\u00e1s",
+            "54": "Tocantins",
+            "19": "Esp\u00edrito Santo"
+        }
+    },
+    "10": {
+        "name": "Beni",
+        "links": {
+            "50": "Santa Cruz",
+            "36": "Oruro",
+            "43": "Rondonia",
+            "26": "La Paz"
+        }
+    },
+    "11": {
+        "name": "Bol\u00edvar",
+        "links": {
+            "22": "Guainia",
+            "33": "Meta",
+            "44": "Roraima",
+            "23": "Gu\u00e1rico",
+            "24": "Guyana",
+            "35": "Monagas"
+        }
+    },
+    "12": {
+        "name": "Boquer\u00f3n",
+        "links": {
+            "50": "Santa Cruz",
+            "36": "Oruro",
+            "32": "Mato Grosso do Sul",
+            "45": "Salta",
+            "48": "San Pedro",
+            "14": "Chaco"
+        }
+    },
+    "13": {
+        "name": "Buenos Aires",
+        "links": {
+            "56": "Uruguay",
+            "46": "San Juan",
+            "14": "Chaco",
+            "27": "La Rioja",
+            "45": "Salta"
+        }
+    },
+    "14": {
+        "name": "Chaco",
+        "links": {
+            "12": "Boquer\u00f3n",
+            "48": "San Pedro",
+            "56": "Uruguay",
+            "13": "Buenos Aires",
+            "45": "Salta",
+            "39": "Paran\u00e1",
+            "42": "Rio Grande do Sul",
+            "49": "Santa Catarina"
+        }
+    },
+    "15": {
+        "name": "Choco",
+        "links": {
+            "18": "Equador",
+            "6": "Antioquia",
+            "25": "Huila",
+            "29": "Loreto",
+            "7": "Antofagasta"
+        }
+    },
+    "16": {
+        "name": "Coquimbo",
+        "links": {
+            "46": "San Juan",
+            "8": "Atacama"
+        }
+    },
+    "17": {
+        "name": "Cusco",
+        "links": {
+            "53": "Tarapac\u00e1",
+            "5": "Ancash",
+            "1": "Acre",
+            "26": "La Paz",
+            "55": "Ucayali"
+        }
+    },
+    "18": {
+        "name": "Equador",
+        "links": {
+            "47": "San Martin",
+            "15": "Choco",
+            "29": "Loreto"
+        }
+    },
+    "19": {
+        "name": "Esp\u00edrito Santo",
+        "links": {
+            "9": "Bahia",
+            "41": "Rio de Janeiro",
+            "34": "Minas Gerais"
+        }
+    },
+    "20": {
+        "name": "French Guiana",
+        "links": {
+            "2": "Amap\u00e1",
+            "52": "Suriname"
+        }
+    },
+    "21": {
+        "name": "Goi\u00e1s",
+        "links": {
+            "34": "Minas Gerais",
+            "9": "Bahia",
+            "31": "Mato Grosso",
+            "32": "Mato Grosso do Sul",
+            "54": "Tocantins"
+        }
+    },
+    "22": {
+        "name": "Guainia",
+        "links": {
+            "44": "Roraima",
+            "3": "Amazonas",
+            "11": "Bol\u00edvar",
+            "33": "Meta"
+        }
+    },
+    "23": {
+        "name": "Gu\u00e1rico",
+        "links": {
+            "6": "Antioquia",
+            "35": "Monagas",
+            "11": "Bol\u00edvar",
+            "33": "Meta"
+        }
+    },
+    "24": {
+        "name": "Guyana",
+        "links": {
+            "52": "Suriname",
+            "37": "Par\u00e1",
+            "35": "Monagas",
+            "44": "Roraima",
+            "11": "Bol\u00edvar"
+        }
+    },
+    "25": {
+        "name": "Huila",
+        "links": {
+            "33": "Meta",
+            "29": "Loreto",
+            "6": "Antioquia",
+            "15": "Choco"
+        }
+    },
+    "26": {
+        "name": "La Paz",
+        "links": {
+            "36": "Oruro",
+            "53": "Tarapac\u00e1",
+            "1": "Acre",
+            "4": "Amazonas do Sul",
+            "10": "Beni",
+            "43": "Rondonia",
+            "17": "Cusco"
+        }
+    },
+    "27": {
+        "name": "La Rioja",
+        "links": {
+            "13": "Buenos Aires",
+            "46": "San Juan",
+            "8": "Atacama",
+            "7": "Antofagasta",
+            "45": "Salta"
+        }
+    },
+    "28": {
+        "name": "Litoral Nordestino",
+        "links": {
+            "9": "Bahia",
+            "40": "Piau\u00ed"
+        }
+    },
+    "29": {
+        "name": "Loreto",
+        "links": {
+            "4": "Amazonas do Sul",
+            "1": "Acre",
+            "25": "Huila",
+            "33": "Meta",
+            "15": "Choco",
+            "18": "Equador",
+            "55": "Ucayali",
+            "5": "Ancash",
+            "47": "San Martin"
+        }
+    },
+    "30": {
+        "name": "Maranh\u00e3o",
+        "links": {
+            "40": "Piau\u00ed",
+            "54": "Tocantins",
+            "37": "Par\u00e1",
+            "38": "Par\u00e1 do Sul"
+        }
+    },
+    "31": {
+        "name": "Mato Grosso",
+        "links": {
+            "38": "Par\u00e1 do Sul",
+            "54": "Tocantins",
+            "21": "Goi\u00e1s",
+            "32": "Mato Grosso do Sul",
+            "4": "Amazonas do Sul",
+            "43": "Rondonia",
+            "50": "Santa Cruz"
+        }
+    },
+    "32": {
+        "name": "Mato Grosso do Sul",
+        "links": {
+            "31": "Mato Grosso",
+            "21": "Goi\u00e1s",
+            "12": "Boquer\u00f3n",
+            "50": "Santa Cruz",
+            "48": "San Pedro",
+            "51": "S\u00e3o Paulo",
+            "39": "Paran\u00e1"
+        }
+    },
+    "33": {
+        "name": "Meta",
+        "links": {
+            "3": "Amazonas",
+            "4": "Amazonas do Sul",
+            "11": "Bol\u00edvar",
+            "22": "Guainia",
+            "23": "Gu\u00e1rico",
+            "25": "Huila",
+            "29": "Loreto",
+            "6": "Antioquia"
+        }
+    },
+    "34": {
+        "name": "Minas Gerais",
+        "links": {
+            "21": "Goi\u00e1s",
+            "9": "Bahia",
+            "51": "S\u00e3o Paulo",
+            "19": "Esp\u00edrito Santo",
+            "41": "Rio de Janeiro"
+        }
+    },
+    "35": {
+        "name": "Monagas",
+        "links": {
+            "23": "Gu\u00e1rico",
+            "24": "Guyana",
+            "11": "Bol\u00edvar"
+        }
+    },
+    "36": {
+        "name": "Oruro",
+        "links": {
+            "50": "Santa Cruz",
+            "12": "Boquer\u00f3n",
+            "10": "Beni",
+            "26": "La Paz",
+            "53": "Tarapac\u00e1",
+            "45": "Salta",
+            "7": "Antofagasta"
+        }
+    },
+    "37": {
+        "name": "Par\u00e1",
+        "links": {
+            "52": "Suriname",
+            "2": "Amap\u00e1",
+            "30": "Maranh\u00e3o",
+            "38": "Par\u00e1 do Sul",
+            "24": "Guyana",
+            "44": "Roraima",
+            "3": "Amazonas"
+        }
+    },
+    "38": {
+        "name": "Par\u00e1 do Sul",
+        "links": {
+            "37": "Par\u00e1",
+            "30": "Maranh\u00e3o",
+            "31": "Mato Grosso",
+            "54": "Tocantins",
+            "3": "Amazonas",
+            "4": "Amazonas do Sul"
+        }
+    },
+    "39": {
+        "name": "Paran\u00e1",
+        "links": {
+            "51": "S\u00e3o Paulo",
+            "49": "Santa Catarina",
+            "48": "San Pedro",
+            "32": "Mato Grosso do Sul",
+            "14": "Chaco"
+        }
+    },
+    "40": {
+        "name": "Piau\u00ed",
+        "links": {
+            "9": "Bahia",
+            "28": "Litoral Nordestino",
+            "30": "Maranh\u00e3o",
+            "54": "Tocantins"
+        }
+    },
+    "41": {
+        "name": "Rio de Janeiro",
+        "links": {
+            "19": "Esp\u00edrito Santo",
+            "51": "S\u00e3o Paulo",
+            "34": "Minas Gerais"
+        }
+    },
+    "42": {
+        "name": "Rio Grande do Sul",
+        "links": {
+            "49": "Santa Catarina",
+            "56": "Uruguay",
+            "14": "Chaco",
+            "2": "Amap\u00e1"
+        }
+    },
+    "43": {
+        "name": "Rondonia",
+        "links": {
+            "31": "Mato Grosso",
+            "50": "Santa Cruz",
+            "4": "Amazonas do Sul",
+            "10": "Beni",
+            "26": "La Paz"
+        }
+    },
+    "44": {
+        "name": "Roraima",
+        "links": {
+            "37": "Par\u00e1",
+            "3": "Amazonas",
+            "24": "Guyana",
+            "22": "Guainia",
+            "11": "Bol\u00edvar"
+        }
+    },
+    "45": {
+        "name": "Salta",
+        "links": {
+            "36": "Oruro",
+            "12": "Boquer\u00f3n",
+            "7": "Antofagasta",
+            "14": "Chaco",
+            "27": "La Rioja",
+            "13": "Buenos Aires"
+        }
+    },
+    "46": {
+        "name": "San Juan",
+        "links": {
+            "13": "Buenos Aires",
+            "16": "Coquimbo",
+            "27": "La Rioja",
+            "8": "Atacama"
+        }
+    },
+    "47": {
+        "name": "San Martin",
+        "links": {
+            "5": "Ancash",
+            "18": "Equador",
+            "29": "Loreto"
+        }
+    },
+    "48": {
+        "name": "San Pedro",
+        "links": {
+            "12": "Boquer\u00f3n",
+            "32": "Mato Grosso do Sul",
+            "14": "Chaco",
+            "39": "Paran\u00e1"
+        }
+    },
+    "49": {
+        "name": "Santa Catarina",
+        "links": {
+            "39": "Paran\u00e1",
+            "42": "Rio Grande do Sul",
+            "14": "Chaco"
+        }
+    },
+    "50": {
+        "name": "Santa Cruz",
+        "links": {
+            "43": "Rondonia",
+            "31": "Mato Grosso",
+            "12": "Boquer\u00f3n",
+            "36": "Oruro",
+            "32": "Mato Grosso do Sul",
+            "10": "Beni"
+        }
+    },
+    "51": {
+        "name": "S\u00e3o Paulo",
+        "links": {
+            "41": "Rio de Janeiro",
+            "39": "Paran\u00e1",
+            "32": "Mato Grosso do Sul",
+            "34": "Minas Gerais"
+        }
+    },
+    "52": {
+        "name": "Suriname",
+        "links": {
+            "20": "French Guiana",
+            "37": "Par\u00e1",
+            "24": "Guyana"
+        }
+    },
+    "53": {
+        "name": "Tarapac\u00e1",
+        "links": {
+            "7": "Antofagasta",
+            "17": "Cusco",
+            "26": "La Paz",
+            "36": "Oruro"
+        }
+    },
+    "54": {
+        "name": "Tocantins",
+        "links": {
+            "30": "Maranh\u00e3o",
+            "40": "Piau\u00ed",
+            "31": "Mato Grosso",
+            "38": "Par\u00e1 do Sul",
+            "21": "Goi\u00e1s",
+            "9": "Bahia"
+        }
+    },
+    "55": {
+        "name": "Ucayali",
+        "links": {
+            "29": "Loreto",
+            "1": "Acre",
+            "5": "Ancash",
+            "17": "Cusco"
+        }
+    },
+    "56": {
+        "name": "Uruguay",
+        "links": {
+            "42": "Rio Grande do Sul",
+            "13": "Buenos Aires",
+            "14": "Chaco"
+        }
+    }
+}

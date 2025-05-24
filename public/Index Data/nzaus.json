@@ -1,0 +1,346 @@
+{
+    "1": {
+        "name": "Adelaide",
+        "links": {
+            "21": "Melbourne",
+            "29": "Nullabor",
+            "11": "Flinders Ranges",
+            "24": "Murray & Riverina"
+        }
+    },
+    "2": {
+        "name": "Alice Springs",
+        "links": {
+            "18": "Kimberly-Pilbara",
+            "17": "Katherine",
+            "13": "Goldfields-Esperance",
+            "35": "Tennant Creek",
+            "11": "Flinders Ranges",
+            "19": "Longreach"
+        }
+    },
+    "3": {
+        "name": "Arnhem Land",
+        "links": {
+            "10": "Darwin",
+            "8": "Cairns",
+            "17": "Katherine"
+        }
+    },
+    "4": {
+        "name": "Auckland",
+        "links": {
+            "14": "Hamilton",
+            "8": "Cairns",
+            "38": "Whangarei",
+            "34": "Sydney"
+        }
+    },
+    "5": {
+        "name": "Bourke",
+        "links": {
+            "28": "Northern NSW",
+            "34": "Sydney",
+            "6": "Brisbane",
+            "7": "Broken Hill",
+            "24": "Murray & Riverina",
+            "33": "South East QLD"
+        }
+    },
+    "6": {
+        "name": "Brisbane",
+        "links": {
+            "28": "Northern NSW",
+            "5": "Bourke",
+            "20": "Mackay",
+            "33": "South East QLD"
+        }
+    },
+    "7": {
+        "name": "Broken Hill",
+        "links": {
+            "5": "Bourke",
+            "24": "Murray & Riverina",
+            "33": "South East QLD",
+            "11": "Flinders Ranges"
+        }
+    },
+    "8": {
+        "name": "Cairns",
+        "links": {
+            "3": "Arnhem Land",
+            "4": "Auckland",
+            "23": "Mt Isa",
+            "36": "Townsville"
+        }
+    },
+    "9": {
+        "name": "Christchurch",
+        "links": {
+            "34": "Sydney",
+            "26": "Nelson",
+            "31": "Queenstown",
+            "16": "Invercargill"
+        }
+    },
+    "10": {
+        "name": "Darwin",
+        "links": {
+            "17": "Katherine",
+            "3": "Arnhem Land"
+        }
+    },
+    "11": {
+        "name": "Flinders Ranges",
+        "links": {
+            "7": "Broken Hill",
+            "24": "Murray & Riverina",
+            "19": "Longreach",
+            "33": "South East QLD",
+            "13": "Goldfields-Esperance",
+            "2": "Alice Springs",
+            "1": "Adelaide",
+            "29": "Nullabor"
+        }
+    },
+    "12": {
+        "name": "Gippsland",
+        "links": {
+            "24": "Murray & Riverina",
+            "21": "Melbourne"
+        }
+    },
+    "13": {
+        "name": "Goldfields-Esperance",
+        "links": {
+            "29": "Nullabor",
+            "30": "Perth",
+            "18": "Kimberly-Pilbara",
+            "2": "Alice Springs",
+            "22": "Midwest-Gascoyne",
+            "11": "Flinders Ranges"
+        }
+    },
+    "14": {
+        "name": "Hamilton",
+        "links": {
+            "4": "Auckland",
+            "32": "Rotorua",
+            "27": "New Plymouth",
+            "25": "Napier"
+        }
+    },
+    "15": {
+        "name": "Hobart",
+        "links": {
+            "16": "Invercargill",
+            "21": "Melbourne"
+        }
+    },
+    "16": {
+        "name": "Invercargill",
+        "links": {
+            "31": "Queenstown",
+            "15": "Hobart",
+            "9": "Christchurch"
+        }
+    },
+    "17": {
+        "name": "Katherine",
+        "links": {
+            "18": "Kimberly-Pilbara",
+            "10": "Darwin",
+            "23": "Mt Isa",
+            "35": "Tennant Creek",
+            "2": "Alice Springs",
+            "3": "Arnhem Land"
+        }
+    },
+    "18": {
+        "name": "Kimberly-Pilbara",
+        "links": {
+            "22": "Midwest-Gascoyne",
+            "17": "Katherine",
+            "2": "Alice Springs",
+            "13": "Goldfields-Esperance"
+        }
+    },
+    "19": {
+        "name": "Longreach",
+        "links": {
+            "35": "Tennant Creek",
+            "23": "Mt Isa",
+            "33": "South East QLD",
+            "11": "Flinders Ranges",
+            "20": "Mackay",
+            "36": "Townsville",
+            "2": "Alice Springs"
+        }
+    },
+    "20": {
+        "name": "Mackay",
+        "links": {
+            "36": "Townsville",
+            "6": "Brisbane",
+            "33": "South East QLD",
+            "19": "Longreach"
+        }
+    },
+    "21": {
+        "name": "Melbourne",
+        "links": {
+            "15": "Hobart",
+            "30": "Perth",
+            "12": "Gippsland",
+            "1": "Adelaide",
+            "24": "Murray & Riverina"
+        }
+    },
+    "22": {
+        "name": "Midwest-Gascoyne",
+        "links": {
+            "30": "Perth",
+            "18": "Kimberly-Pilbara",
+            "13": "Goldfields-Esperance"
+        }
+    },
+    "23": {
+        "name": "Mt Isa",
+        "links": {
+            "35": "Tennant Creek",
+            "17": "Katherine",
+            "19": "Longreach",
+            "8": "Cairns",
+            "36": "Townsville"
+        }
+    },
+    "24": {
+        "name": "Murray & Riverina",
+        "links": {
+            "34": "Sydney",
+            "12": "Gippsland",
+            "7": "Broken Hill",
+            "5": "Bourke",
+            "11": "Flinders Ranges",
+            "21": "Melbourne",
+            "1": "Adelaide"
+        }
+    },
+    "25": {
+        "name": "Napier",
+        "links": {
+            "32": "Rotorua",
+            "37": "Wellington",
+            "14": "Hamilton",
+            "27": "New Plymouth"
+        }
+    },
+    "26": {
+        "name": "Nelson",
+        "links": {
+            "9": "Christchurch",
+            "27": "New Plymouth"
+        }
+    },
+    "27": {
+        "name": "New Plymouth",
+        "links": {
+            "26": "Nelson",
+            "14": "Hamilton",
+            "25": "Napier",
+            "37": "Wellington"
+        }
+    },
+    "28": {
+        "name": "Northern NSW",
+        "links": {
+            "34": "Sydney",
+            "5": "Bourke",
+            "6": "Brisbane"
+        }
+    },
+    "29": {
+        "name": "Nullabor",
+        "links": {
+            "1": "Adelaide",
+            "13": "Goldfields-Esperance",
+            "11": "Flinders Ranges"
+        }
+    },
+    "30": {
+        "name": "Perth",
+        "links": {
+            "21": "Melbourne",
+            "22": "Midwest-Gascoyne",
+            "13": "Goldfields-Esperance"
+        }
+    },
+    "31": {
+        "name": "Queenstown",
+        "links": {
+            "37": "Wellington",
+            "16": "Invercargill",
+            "9": "Christchurch"
+        }
+    },
+    "32": {
+        "name": "Rotorua",
+        "links": {
+            "14": "Hamilton",
+            "25": "Napier"
+        }
+    },
+    "33": {
+        "name": "South East QLD",
+        "links": {
+            "5": "Bourke",
+            "7": "Broken Hill",
+            "6": "Brisbane",
+            "19": "Longreach",
+            "11": "Flinders Ranges",
+            "20": "Mackay"
+        }
+    },
+    "34": {
+        "name": "Sydney",
+        "links": {
+            "4": "Auckland",
+            "9": "Christchurch",
+            "28": "Northern NSW",
+            "5": "Bourke",
+            "24": "Murray & Riverina"
+        }
+    },
+    "35": {
+        "name": "Tennant Creek",
+        "links": {
+            "23": "Mt Isa",
+            "17": "Katherine",
+            "19": "Longreach",
+            "2": "Alice Springs"
+        }
+    },
+    "36": {
+        "name": "Townsville",
+        "links": {
+            "8": "Cairns",
+            "20": "Mackay",
+            "19": "Longreach",
+            "23": "Mt Isa"
+        }
+    },
+    "37": {
+        "name": "Wellington",
+        "links": {
+            "25": "Napier",
+            "31": "Queenstown",
+            "27": "New Plymouth"
+        }
+    },
+    "38": {
+        "name": "Whangarei",
+        "links": {
+            "4": "Auckland"
+        }
+    }
+}

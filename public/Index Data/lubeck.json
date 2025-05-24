@@ -1,0 +1,383 @@
+{
+    "1": {
+        "name": "Altstadt",
+        "links": {
+            "27": "Rathaus",
+            "42": "West Burgtor",
+            "21": "Markthalle"
+        }
+    },
+    "2": {
+        "name": "Brauerei",
+        "links": {
+            "19": "Lachswehr",
+            "40": "Wallanlagen Nord"
+        }
+    },
+    "3": {
+        "name": "Burgfeld",
+        "links": {
+            "7": "Gerichtsgeb Burg",
+            "38": "Vorstadt St Gertrud",
+            "33": "Staat schule",
+            "6": "Garten"
+        }
+    },
+    "4": {
+        "name": "Dom Zu Lubeck",
+        "links": {
+            "16": "Kathol Kirch",
+            "42": "West Burgtor",
+            "23": "Navigationsschule",
+            "32": "St Petri zu Lubeck",
+            "18": "Kunsthalle"
+        }
+    },
+    "5": {
+        "name": "Finanzamt Lubeck",
+        "links": {
+            "17": "Kolosseum",
+            "19": "Lachswehr",
+            "12": "Invaliditats Altersheim"
+        }
+    },
+    "6": {
+        "name": "Garten",
+        "links": {
+            "38": "Vorstadt St Gertrud",
+            "39": "Wakenitz",
+            "3": "Burgfeld"
+        }
+    },
+    "7": {
+        "name": "Gerichtsgeb Burg",
+        "links": {
+            "8": "Hauptzollamt",
+            "3": "Burgfeld",
+            "29": "Schule Johanneum",
+            "33": "Staat schule"
+        }
+    },
+    "8": {
+        "name": "Hauptzollamt",
+        "links": {
+            "20": "Lagerplatz",
+            "7": "Gerichtsgeb Burg",
+            "21": "Markthalle",
+            "29": "Schule Johanneum",
+            "27": "Rathaus"
+        }
+    },
+    "9": {
+        "name": "Hawk Grunden",
+        "links": {
+            "39": "Wakenitz",
+            "11": "Huxterdamm",
+            "26": "Osten Burgtor"
+        }
+    },
+    "10": {
+        "name": "Herder",
+        "links": {
+            "13": "Irrenhaus",
+            "17": "Kolosseum",
+            "12": "Invaliditats Altersheim"
+        }
+    },
+    "11": {
+        "name": "Huxterdamm",
+        "links": {
+            "9": "Hawk Grunden",
+            "43": "Zuleitungskanal",
+            "15": "Kanal-Trave",
+            "26": "Osten Burgtor"
+        }
+    },
+    "12": {
+        "name": "Invaliditats Altersheim",
+        "links": {
+            "5": "Finanzamt Lubeck",
+            "35": "Sud Muhlentor",
+            "10": "Herder",
+            "17": "Kolosseum",
+            "13": "Irrenhaus"
+        }
+    },
+    "13": {
+        "name": "Irrenhaus",
+        "links": {
+            "14": "Kaland schule",
+            "10": "Herder",
+            "12": "Invaliditats Altersheim",
+            "35": "Sud Muhlentor",
+            "24": "Nord Muhlentor"
+        }
+    },
+    "14": {
+        "name": "Kaland schule",
+        "links": {
+            "43": "Zuleitungskanal",
+            "13": "Irrenhaus",
+            "24": "Nord Muhlentor"
+        }
+    },
+    "15": {
+        "name": "Kanal-Trave",
+        "links": {
+            "18": "Kunsthalle",
+            "11": "Huxterdamm",
+            "43": "Zuleitungskanal",
+            "24": "Nord Muhlentor"
+        }
+    },
+    "16": {
+        "name": "Kathol Kirch",
+        "links": {
+            "42": "West Burgtor",
+            "4": "Dom Zu Lubeck"
+        }
+    },
+    "17": {
+        "name": "Kolosseum",
+        "links": {
+            "10": "Herder",
+            "5": "Finanzamt Lubeck",
+            "12": "Invaliditats Altersheim"
+        }
+    },
+    "18": {
+        "name": "Kunsthalle",
+        "links": {
+            "30": "St Johannis Kloster",
+            "15": "Kanal-Trave",
+            "23": "Navigationsschule",
+            "4": "Dom Zu Lubeck",
+            "32": "St Petri zu Lubeck",
+            "36": "Verwaltungsburo"
+        }
+    },
+    "19": {
+        "name": "Lachswehr",
+        "links": {
+            "5": "Finanzamt Lubeck",
+            "2": "Brauerei",
+            "41": "Wallanlagen Sud"
+        }
+    },
+    "20": {
+        "name": "Lagerplatz",
+        "links": {
+            "25": "Nordlicher Holstentor",
+            "8": "Hauptzollamt"
+        }
+    },
+    "21": {
+        "name": "Markthalle",
+        "links": {
+            "27": "Rathaus",
+            "1": "Altstadt",
+            "25": "Nordlicher Holstentor",
+            "8": "Hauptzollamt"
+        }
+    },
+    "22": {
+        "name": "Matthai Kirche",
+        "links": {
+            "25": "Nordlicher Holstentor",
+            "28": "Schlachthaus",
+            "31": "St Lorenz Platz"
+        }
+    },
+    "23": {
+        "name": "Navigationsschule",
+        "links": {
+            "41": "Wallanlagen Sud",
+            "4": "Dom Zu Lubeck",
+            "35": "Sud Muhlentor",
+            "18": "Kunsthalle"
+        }
+    },
+    "24": {
+        "name": "Nord Muhlentor",
+        "links": {
+            "43": "Zuleitungskanal",
+            "14": "Kaland schule",
+            "35": "Sud Muhlentor",
+            "15": "Kanal-Trave",
+            "13": "Irrenhaus"
+        }
+    },
+    "25": {
+        "name": "Nordlicher Holstentor",
+        "links": {
+            "20": "Lagerplatz",
+            "34": "Sud Holstentor",
+            "22": "Matthai Kirche",
+            "21": "Markthalle"
+        }
+    },
+    "26": {
+        "name": "Osten Burgtor",
+        "links": {
+            "39": "Wakenitz",
+            "9": "Hawk Grunden",
+            "33": "Staat schule",
+            "29": "Schule Johanneum",
+            "30": "St Johannis Kloster",
+            "11": "Huxterdamm",
+            "36": "Verwaltungsburo"
+        }
+    },
+    "27": {
+        "name": "Rathaus",
+        "links": {
+            "36": "Verwaltungsburo",
+            "29": "Schule Johanneum",
+            "42": "West Burgtor",
+            "32": "St Petri zu Lubeck",
+            "1": "Altstadt",
+            "21": "Markthalle",
+            "8": "Hauptzollamt"
+        }
+    },
+    "28": {
+        "name": "Schlachthaus",
+        "links": {
+            "22": "Matthai Kirche",
+            "31": "St Lorenz Platz"
+        }
+    },
+    "29": {
+        "name": "Schule Johanneum",
+        "links": {
+            "36": "Verwaltungsburo",
+            "27": "Rathaus",
+            "8": "Hauptzollamt",
+            "7": "Gerichtsgeb Burg",
+            "33": "Staat schule",
+            "26": "Osten Burgtor",
+            "30": "St Johannis Kloster"
+        }
+    },
+    "30": {
+        "name": "St Johannis Kloster",
+        "links": {
+            "26": "Osten Burgtor",
+            "18": "Kunsthalle",
+            "36": "Verwaltungsburo",
+            "29": "Schule Johanneum",
+            "32": "St Petri zu Lubeck"
+        }
+    },
+    "31": {
+        "name": "St Lorenz Platz",
+        "links": {
+            "28": "Schlachthaus",
+            "37": "Viehhof",
+            "22": "Matthai Kirche"
+        }
+    },
+    "32": {
+        "name": "St Petri zu Lubeck",
+        "links": {
+            "42": "West Burgtor",
+            "27": "Rathaus",
+            "4": "Dom Zu Lubeck",
+            "36": "Verwaltungsburo",
+            "18": "Kunsthalle",
+            "30": "St Johannis Kloster"
+        }
+    },
+    "33": {
+        "name": "Staat schule",
+        "links": {
+            "7": "Gerichtsgeb Burg",
+            "3": "Burgfeld",
+            "26": "Osten Burgtor",
+            "29": "Schule Johanneum"
+        }
+    },
+    "34": {
+        "name": "Sud Holstentor",
+        "links": {
+            "40": "Wallanlagen Nord",
+            "25": "Nordlicher Holstentor"
+        }
+    },
+    "35": {
+        "name": "Sud Muhlentor",
+        "links": {
+            "12": "Invaliditats Altersheim",
+            "23": "Navigationsschule",
+            "24": "Nord Muhlentor",
+            "13": "Irrenhaus"
+        }
+    },
+    "36": {
+        "name": "Verwaltungsburo",
+        "links": {
+            "27": "Rathaus",
+            "29": "Schule Johanneum",
+            "32": "St Petri zu Lubeck",
+            "30": "St Johannis Kloster",
+            "18": "Kunsthalle",
+            "26": "Osten Burgtor"
+        }
+    },
+    "37": {
+        "name": "Viehhof",
+        "links": {
+            "31": "St Lorenz Platz"
+        }
+    },
+    "38": {
+        "name": "Vorstadt St Gertrud",
+        "links": {
+            "3": "Burgfeld",
+            "6": "Garten"
+        }
+    },
+    "39": {
+        "name": "Wakenitz",
+        "links": {
+            "6": "Garten",
+            "9": "Hawk Grunden",
+            "26": "Osten Burgtor"
+        }
+    },
+    "40": {
+        "name": "Wallanlagen Nord",
+        "links": {
+            "2": "Brauerei",
+            "34": "Sud Holstentor",
+            "41": "Wallanlagen Sud"
+        }
+    },
+    "41": {
+        "name": "Wallanlagen Sud",
+        "links": {
+            "40": "Wallanlagen Nord",
+            "23": "Navigationsschule",
+            "19": "Lachswehr"
+        }
+    },
+    "42": {
+        "name": "West Burgtor",
+        "links": {
+            "27": "Rathaus",
+            "32": "St Petri zu Lubeck",
+            "1": "Altstadt",
+            "16": "Kathol Kirch",
+            "4": "Dom Zu Lubeck"
+        }
+    },
+    "43": {
+        "name": "Zuleitungskanal",
+        "links": {
+            "11": "Huxterdamm",
+            "14": "Kaland schule",
+            "15": "Kanal-Trave",
+            "24": "Nord Muhlentor"
+        }
+    }
+}

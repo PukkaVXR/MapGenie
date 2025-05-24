@@ -1,0 +1,515 @@
+{
+    "1": {
+        "name": "Dropship Wires",
+        "links": {
+            "2": "Parts",
+            "3": "Torn Hull"
+        }
+    },
+    "2": {
+        "name": "Parts",
+        "links": {
+            "4": "Ramp",
+            "1": "Dropship Wires",
+            "3": "Torn Hull"
+        }
+    },
+    "3": {
+        "name": "Torn Hull",
+        "links": {
+            "4": "Ramp",
+            "2": "Parts",
+            "1": "Dropship Wires"
+        }
+    },
+    "4": {
+        "name": "Ramp",
+        "links": {
+            "6": "More Sand",
+            "5": "Sand",
+            "7": "Shells",
+            "3": "Torn Hull",
+            "2": "Parts"
+        }
+    },
+    "5": {
+        "name": "Sand",
+        "links": {
+            "8": "Log Bench",
+            "9": "Scavenged Seats",
+            "6": "More Sand",
+            "4": "Ramp"
+        }
+    },
+    "6": {
+        "name": "More Sand",
+        "links": {
+            "10": "Pizza",
+            "9": "Scavenged Seats",
+            "23": "Emergency Shell",
+            "5": "Sand",
+            "7": "Shells",
+            "4": "Ramp"
+        }
+    },
+    "7": {
+        "name": "Shells",
+        "links": {
+            "6": "More Sand",
+            "4": "Ramp",
+            "18": "Extra Fuel"
+        }
+    },
+    "8": {
+        "name": "Log Bench",
+        "links": {
+            "14": "Water Jug",
+            "11": "Campfire",
+            "9": "Scavenged Seats",
+            "5": "Sand"
+        }
+    },
+    "9": {
+        "name": "Scavenged Seats",
+        "links": {
+            "10": "Pizza",
+            "8": "Log Bench",
+            "5": "Sand",
+            "6": "More Sand"
+        }
+    },
+    "10": {
+        "name": "Pizza",
+        "links": {
+            "11": "Campfire",
+            "6": "More Sand",
+            "9": "Scavenged Seats",
+            "43": "West Exit"
+        }
+    },
+    "11": {
+        "name": "Campfire",
+        "links": {
+            "10": "Pizza",
+            "21": "Generator",
+            "15": "Lift Weights",
+            "8": "Log Bench"
+        }
+    },
+    "12": {
+        "name": "Garbage",
+        "links": {
+            "15": "Lift Weights",
+            "13": "Lunch Table"
+        }
+    },
+    "13": {
+        "name": "Lunch Table",
+        "links": {
+            "12": "Garbage",
+            "14": "Water Jug"
+        }
+    },
+    "14": {
+        "name": "Water Jug",
+        "links": {
+            "13": "Lunch Table",
+            "8": "Log Bench"
+        }
+    },
+    "15": {
+        "name": "Lift Weights",
+        "links": {
+            "12": "Garbage",
+            "16": "Spash Vents",
+            "19": "Dock",
+            "11": "Campfire"
+        }
+    },
+    "16": {
+        "name": "Spash Vents",
+        "links": {
+            "15": "Lift Weights"
+        }
+    },
+    "17": {
+        "name": "Zipline End",
+        "links": {
+            "38": "Zipline Start",
+            "18": "Extra Fuel"
+        }
+    },
+    "18": {
+        "name": "Extra Fuel",
+        "links": {
+            "7": "Shells",
+            "17": "Zipline End"
+        }
+    },
+    "19": {
+        "name": "Dock",
+        "links": {
+            "20": "Vegetables",
+            "15": "Lift Weights"
+        }
+    },
+    "20": {
+        "name": "Vegetables",
+        "links": {
+            "22": "Cooked Fish",
+            "19": "Dock",
+            "21": "Generator"
+        }
+    },
+    "21": {
+        "name": "Generator",
+        "links": {
+            "22": "Cooked Fish",
+            "20": "Vegetables",
+            "11": "Campfire"
+        }
+    },
+    "22": {
+        "name": "Cooked Fish",
+        "links": {
+            "20": "Vegetables",
+            "21": "Generator"
+        }
+    },
+    "23": {
+        "name": "Emergency Shell",
+        "links": {
+            "6": "More Sand",
+            "24": "Meeting Table",
+            "25": "Task Tester"
+        }
+    },
+    "24": {
+        "name": "Meeting Table",
+        "links": {
+            "23": "Emergency Shell",
+            "26": "The Dorm",
+            "25": "Task Tester"
+        }
+    },
+    "25": {
+        "name": "Task Tester",
+        "links": {
+            "23": "Emergency Shell",
+            "24": "Meeting Table",
+            "47": "North Exit"
+        }
+    },
+    "26": {
+        "name": "The Dorm",
+        "links": {
+            "24": "Meeting Table"
+        }
+    },
+    "27": {
+        "name": "Security",
+        "links": {
+            "29": "Lookout Vents",
+            "28": "ID Code"
+        }
+    },
+    "28": {
+        "name": "ID Code",
+        "links": {
+            "30": "Pit Entrance",
+            "27": "Security"
+        }
+    },
+    "29": {
+        "name": "Lookout Vents",
+        "links": {
+            "27": "Security"
+        }
+    },
+    "30": {
+        "name": "Pit Entrance",
+        "links": {
+            "32": "Hoist Supplies",
+            "37": "The Pit",
+            "28": "ID Code",
+            "31": "Receive Supplies"
+        }
+    },
+    "31": {
+        "name": "Receive Supplies",
+        "links": {
+            "30": "Pit Entrance",
+            "33": "Broken Chamber",
+            "53": "Flimsy Ladder"
+        }
+    },
+    "32": {
+        "name": "Hoist Supplies",
+        "links": {
+            "42": "Penultimate Plateau",
+            "30": "Pit Entrance",
+            "33": "Broken Chamber",
+            "34": "Scenic Shiitake",
+            "35": "Upper Engine"
+        }
+    },
+    "33": {
+        "name": "Broken Chamber",
+        "links": {
+            "32": "Hoist Supplies",
+            "31": "Receive Supplies",
+            "34": "Scenic Shiitake",
+            "59": "Critter"
+        }
+    },
+    "34": {
+        "name": "Scenic Shiitake",
+        "links": {
+            "32": "Hoist Supplies",
+            "35": "Upper Engine",
+            "33": "Broken Chamber"
+        }
+    },
+    "35": {
+        "name": "Upper Engine",
+        "links": {
+            "32": "Hoist Supplies",
+            "34": "Scenic Shiitake"
+        }
+    },
+    "36": {
+        "name": "Mine Ores",
+        "links": {
+            "37": "The Pit"
+        }
+    },
+    "37": {
+        "name": "The Pit",
+        "links": {
+            "36": "Mine Ores",
+            "30": "Pit Entrance"
+        }
+    },
+    "38": {
+        "name": "Zipline Start",
+        "links": {
+            "39": "Fix Antenna",
+            "40": "Fix Signal",
+            "17": "Zipline End"
+        }
+    },
+    "39": {
+        "name": "Fix Antenna",
+        "links": {
+            "38": "Zipline Start",
+            "41": "Comms Sabotage"
+        }
+    },
+    "40": {
+        "name": "Fix Signal",
+        "links": {
+            "38": "Zipline Start",
+            "41": "Comms Sabotage",
+            "42": "Penultimate Plateau"
+        }
+    },
+    "41": {
+        "name": "Comms Sabotage",
+        "links": {
+            "39": "Fix Antenna",
+            "40": "Fix Signal",
+            "65": "Reactor"
+        }
+    },
+    "42": {
+        "name": "Penultimate Plateau",
+        "links": {
+            "40": "Fix Signal",
+            "32": "Hoist Supplies"
+        }
+    },
+    "43": {
+        "name": "West Exit",
+        "links": {
+            "44": "Windy Way",
+            "10": "Pizza"
+        }
+    },
+    "44": {
+        "name": "Windy Way",
+        "links": {
+            "45": "Samples",
+            "43": "West Exit"
+        }
+    },
+    "45": {
+        "name": "Samples",
+        "links": {
+            "46": "Mushroom",
+            "44": "Windy Way"
+        }
+    },
+    "46": {
+        "name": "Mushroom",
+        "links": {
+            "47": "North Exit",
+            "49": "W. Jungle Vents",
+            "45": "Samples",
+            "61": "Vitals"
+        }
+    },
+    "47": {
+        "name": "North Exit",
+        "links": {
+            "46": "Mushroom",
+            "61": "Vitals",
+            "48": "Shortcut",
+            "25": "Task Tester"
+        }
+    },
+    "48": {
+        "name": "Shortcut",
+        "links": {
+            "47": "North Exit",
+            "50": "Greenhouse W"
+        }
+    },
+    "49": {
+        "name": "W. Jungle Vents",
+        "links": {
+            "51": "Greenhouse S",
+            "46": "Mushroom"
+        }
+    },
+    "50": {
+        "name": "Greenhouse W",
+        "links": {
+            "62": "Temps",
+            "52": "Greenhouse N",
+            "48": "Shortcut"
+        }
+    },
+    "51": {
+        "name": "Greenhouse S",
+        "links": {
+            "62": "Temps",
+            "56": "Monitor Mushroom",
+            "49": "W. Jungle Vents"
+        }
+    },
+    "52": {
+        "name": "Greenhouse N",
+        "links": {
+            "53": "Flimsy Ladder",
+            "50": "Greenhouse W"
+        }
+    },
+    "53": {
+        "name": "Flimsy Ladder",
+        "links": {
+            "31": "Receive Supplies",
+            "55": "Greenhouse E",
+            "63": "Water Plants",
+            "52": "Greenhouse N",
+            "54": "Ghost Mushroom"
+        }
+    },
+    "54": {
+        "name": "Ghost Mushroom",
+        "links": {
+            "58": "Mutated Shrooms",
+            "57": "E. Jungle Vents",
+            "55": "Greenhouse E",
+            "53": "Flimsy Ladder"
+        }
+    },
+    "55": {
+        "name": "Greenhouse E",
+        "links": {
+            "57": "E. Jungle Vents",
+            "56": "Monitor Mushroom",
+            "54": "Ghost Mushroom",
+            "53": "Flimsy Ladder",
+            "63": "Water Plants"
+        }
+    },
+    "56": {
+        "name": "Monitor Mushroom",
+        "links": {
+            "57": "E. Jungle Vents",
+            "55": "Greenhouse E",
+            "51": "Greenhouse S"
+        }
+    },
+    "57": {
+        "name": "E. Jungle Vents",
+        "links": {
+            "58": "Mutated Shrooms",
+            "54": "Ghost Mushroom",
+            "55": "Greenhouse E",
+            "56": "Monitor Mushroom"
+        }
+    },
+    "58": {
+        "name": "Mutated Shrooms",
+        "links": {
+            "59": "Critter",
+            "64": "Reactor Vents",
+            "54": "Ghost Mushroom",
+            "57": "E. Jungle Vents"
+        }
+    },
+    "59": {
+        "name": "Critter",
+        "links": {
+            "33": "Broken Chamber",
+            "64": "Reactor Vents",
+            "58": "Mutated Shrooms"
+        }
+    },
+    "60": {
+        "name": "Artifact",
+        "links": {
+            "61": "Vitals"
+        }
+    },
+    "61": {
+        "name": "Vitals",
+        "links": {
+            "47": "North Exit",
+            "60": "Artifact",
+            "46": "Mushroom"
+        }
+    },
+    "62": {
+        "name": "Temps",
+        "links": {
+            "63": "Water Plants",
+            "50": "Greenhouse W",
+            "51": "Greenhouse S"
+        }
+    },
+    "63": {
+        "name": "Water Plants",
+        "links": {
+            "53": "Flimsy Ladder",
+            "62": "Temps",
+            "55": "Greenhouse E"
+        }
+    },
+    "64": {
+        "name": "Reactor Vents",
+        "links": {
+            "65": "Reactor",
+            "59": "Critter",
+            "58": "Mutated Shrooms"
+        }
+    },
+    "65": {
+        "name": "Reactor",
+        "links": {
+            "64": "Reactor Vents",
+            "41": "Comms Sabotage"
+        }
+    }
+}

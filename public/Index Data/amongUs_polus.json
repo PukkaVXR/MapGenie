@@ -1,0 +1,447 @@
+{
+    "1": {
+        "name": "Key Panel",
+        "links": {
+            "2": "DS Alpha",
+            "3": "DS Bravo"
+        }
+    },
+    "2": {
+        "name": "DS Alpha",
+        "links": {
+            "1": "Key Panel",
+            "3": "DS Bravo",
+            "4": "DS Charlie"
+        }
+    },
+    "3": {
+        "name": "DS Bravo",
+        "links": {
+            "1": "Key Panel",
+            "2": "DS Alpha",
+            "4": "DS Charlie",
+            "6": "DS Echo"
+        }
+    },
+    "4": {
+        "name": "DS Charlie",
+        "links": {
+            "2": "DS Alpha",
+            "3": "DS Bravo",
+            "6": "DS Echo",
+            "5": "DS Delta"
+        }
+    },
+    "5": {
+        "name": "DS Delta",
+        "links": {
+            "4": "DS Charlie",
+            "6": "DS Echo",
+            "9": "Cam Lockers",
+            "41": "Fuel"
+        }
+    },
+    "6": {
+        "name": "DS Echo",
+        "links": {
+            "4": "DS Charlie",
+            "3": "DS Bravo",
+            "5": "DS Delta",
+            "54": "Lab Access W"
+        }
+    },
+    "7": {
+        "name": "Cam Vents",
+        "links": {
+            "14": "Monitor Tree",
+            "10": "Cam Desk",
+            "8": "Dispatch"
+        }
+    },
+    "8": {
+        "name": "Dispatch",
+        "links": {
+            "9": "Cam Lockers",
+            "7": "Cam Vents",
+            "11": "Processing",
+            "12": "Generator"
+        }
+    },
+    "9": {
+        "name": "Cam Lockers",
+        "links": {
+            "5": "DS Delta",
+            "8": "Dispatch"
+        }
+    },
+    "10": {
+        "name": "Cam Desk",
+        "links": {
+            "7": "Cam Vents",
+            "11": "Processing"
+        }
+    },
+    "11": {
+        "name": "Processing",
+        "links": {
+            "8": "Dispatch",
+            "10": "Cam Desk",
+            "52": "02 Hallway"
+        }
+    },
+    "12": {
+        "name": "Generator",
+        "links": {
+            "8": "Dispatch",
+            "13": "Fix lights"
+        }
+    },
+    "13": {
+        "name": "Fix lights",
+        "links": {
+            "12": "Generator"
+        }
+    },
+    "14": {
+        "name": "Monitor Tree",
+        "links": {
+            "7": "Cam Vents",
+            "16": "02 Wires"
+        }
+    },
+    "15": {
+        "name": "Canisters",
+        "links": {
+            "17": "Garbage Chute"
+        }
+    },
+    "16": {
+        "name": "02 Wires",
+        "links": {
+            "14": "Monitor Tree",
+            "52": "02 Hallway",
+            "18": "02 Entrance",
+            "17": "Garbage Chute"
+        }
+    },
+    "17": {
+        "name": "Garbage Chute",
+        "links": {
+            "16": "02 Wires",
+            "15": "Canisters",
+            "18": "02 Entrance",
+            "19": "Waterways"
+        }
+    },
+    "18": {
+        "name": "02 Entrance",
+        "links": {
+            "16": "02 Wires",
+            "17": "Garbage Chute",
+            "20": "Comms Data"
+        }
+    },
+    "19": {
+        "name": "Waterways",
+        "links": {
+            "17": "Garbage Chute"
+        }
+    },
+    "20": {
+        "name": "Comms Data",
+        "links": {
+            "18": "02 Entrance",
+            "21": "Radio Tower",
+            "23": "Weapon Data"
+        }
+    },
+    "21": {
+        "name": "Radio Tower",
+        "links": {
+            "20": "Comms Data",
+            "42": "Storage Vents"
+        }
+    },
+    "22": {
+        "name": "Asteroids",
+        "links": {
+            "23": "Weapon Data"
+        }
+    },
+    "23": {
+        "name": "Weapon Data",
+        "links": {
+            "20": "Comms Data",
+            "22": "Asteroids",
+            "31": "Office Entry"
+        }
+    },
+    "24": {
+        "name": "Water Jug",
+        "links": {
+            "30": "Office Vents",
+            "25": "Button"
+        }
+    },
+    "25": {
+        "name": "Button",
+        "links": {
+            "24": "Water Jug",
+            "26": "Projector"
+        }
+    },
+    "26": {
+        "name": "Projector",
+        "links": {
+            "25": "Button",
+            "29": "Office hall",
+            "27": "Swipe Card"
+        }
+    },
+    "27": {
+        "name": "Swipe Card",
+        "links": {
+            "29": "Office hall",
+            "26": "Projector",
+            "28": "Vitals"
+        }
+    },
+    "28": {
+        "name": "Vitals",
+        "links": {
+            "27": "Swipe Card",
+            "49": "Bathroom"
+        }
+    },
+    "29": {
+        "name": "Office hall",
+        "links": {
+            "30": "Office Vents",
+            "26": "Projector",
+            "27": "Swipe Card",
+            "32": "Admin Entry"
+        }
+    },
+    "30": {
+        "name": "Office Vents",
+        "links": {
+            "31": "Office Entry",
+            "24": "Water Jug",
+            "29": "Office hall"
+        }
+    },
+    "31": {
+        "name": "Office Entry",
+        "links": {
+            "30": "Office Vents",
+            "23": "Weapon Data"
+        }
+    },
+    "32": {
+        "name": "Admin Entry",
+        "links": {
+            "29": "Office hall",
+            "33": "Admin Panel",
+            "35": "Admin Vents"
+        }
+    },
+    "33": {
+        "name": "Admin Panel",
+        "links": {
+            "34": "Admin Table",
+            "32": "Admin Entry",
+            "35": "Admin Vents"
+        }
+    },
+    "34": {
+        "name": "Admin Table",
+        "links": {
+            "33": "Admin Panel"
+        }
+    },
+    "35": {
+        "name": "Admin Vents",
+        "links": {
+            "33": "Admin Panel",
+            "32": "Admin Entry",
+            "36": "Low Airlock"
+        }
+    },
+    "36": {
+        "name": "Low Airlock",
+        "links": {
+            "35": "Admin Vents",
+            "57": "Admin Access"
+        }
+    },
+    "37": {
+        "name": "Reactor",
+        "links": {
+            "59": "Specimen Access",
+            "40": "Specimens",
+            "38": "Artifacts"
+        }
+    },
+    "38": {
+        "name": "Artifacts",
+        "links": {
+            "37": "Reactor",
+            "39": "Specimen Data"
+        }
+    },
+    "39": {
+        "name": "Specimen Data",
+        "links": {
+            "40": "Specimens",
+            "38": "Artifacts",
+            "56": "Don\u2019t Look Down"
+        }
+    },
+    "40": {
+        "name": "Specimens",
+        "links": {
+            "37": "Reactor",
+            "39": "Specimen Data"
+        }
+    },
+    "41": {
+        "name": "Fuel",
+        "links": {
+            "42": "Storage Vents",
+            "5": "DS Delta"
+        }
+    },
+    "42": {
+        "name": "Storage Vents",
+        "links": {
+            "21": "Radio Tower",
+            "41": "Fuel"
+        }
+    },
+    "43": {
+        "name": "Temp Records",
+        "links": {
+            "44": "Lab Gear",
+            "54": "Lab Access W",
+            "53": "Repair Drill"
+        }
+    },
+    "44": {
+        "name": "Lab Gear",
+        "links": {
+            "46": "Samples",
+            "45": "Telescope",
+            "43": "Temp Records"
+        }
+    },
+    "45": {
+        "name": "Telescope",
+        "links": {
+            "46": "Samples",
+            "44": "Lab Gear"
+        }
+    },
+    "46": {
+        "name": "Samples",
+        "links": {
+            "47": "Med Bed",
+            "50": "Lab Wires",
+            "44": "Lab Gear",
+            "45": "Telescope"
+        }
+    },
+    "47": {
+        "name": "Med Bed",
+        "links": {
+            "46": "Samples",
+            "48": "Scanner"
+        }
+    },
+    "48": {
+        "name": "Scanner",
+        "links": {
+            "47": "Med Bed"
+        }
+    },
+    "49": {
+        "name": "Bathroom",
+        "links": {
+            "54": "Lab Access W",
+            "50": "Lab Wires",
+            "28": "Vitals"
+        }
+    },
+    "50": {
+        "name": "Lab Wires",
+        "links": {
+            "51": "High Airlock",
+            "46": "Samples",
+            "49": "Bathroom"
+        }
+    },
+    "51": {
+        "name": "High Airlock",
+        "links": {
+            "50": "Lab Wires",
+            "55": "Lab Access S"
+        }
+    },
+    "52": {
+        "name": "02 Hallway",
+        "links": {
+            "11": "Processing",
+            "16": "02 Wires"
+        }
+    },
+    "53": {
+        "name": "Repair Drill",
+        "links": {
+            "54": "Lab Access W",
+            "43": "Temp Records"
+        }
+    },
+    "54": {
+        "name": "Lab Access W",
+        "links": {
+            "6": "DS Echo",
+            "49": "Bathroom",
+            "43": "Temp Records",
+            "53": "Repair Drill"
+        }
+    },
+    "55": {
+        "name": "Lab Access S",
+        "links": {
+            "56": "Don\u2019t Look Down",
+            "51": "High Airlock"
+        }
+    },
+    "56": {
+        "name": "Don\u2019t Look Down",
+        "links": {
+            "39": "Specimen Data",
+            "55": "Lab Access S"
+        }
+    },
+    "57": {
+        "name": "Admin Access",
+        "links": {
+            "36": "Low Airlock",
+            "58": "S Bend"
+        }
+    },
+    "58": {
+        "name": "S Bend",
+        "links": {
+            "57": "Admin Access",
+            "59": "Specimen Access"
+        }
+    },
+    "59": {
+        "name": "Specimen Access",
+        "links": {
+            "58": "S Bend",
+            "37": "Reactor"
+        }
+    }
+}

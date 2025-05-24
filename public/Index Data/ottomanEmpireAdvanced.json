@@ -1,0 +1,527 @@
+{
+    "1": {
+        "name": "Spain",
+        "links": {
+            "3": "Morocco",
+            "34": "Portugal"
+        }
+    },
+    "2": {
+        "name": "Corsica - Sardinia",
+        "links": {
+            "38": "El Oued",
+            "17": "Hungary"
+        }
+    },
+    "3": {
+        "name": "Morocco",
+        "links": {
+            "1": "Spain",
+            "35": "Tindourf - Bechar",
+            "37": "El Bayadh"
+        }
+    },
+    "4": {
+        "name": "Tamanrasset",
+        "links": {
+            "40": "Illizi",
+            "39": "Ouargla",
+            "36": "Adrar"
+        }
+    },
+    "5": {
+        "name": "Syracuse",
+        "links": {
+            "6": "Tunisia",
+            "20": "Serbia"
+        }
+    },
+    "6": {
+        "name": "Tunisia",
+        "links": {
+            "39": "Ouargla",
+            "13": "Tripolitania",
+            "10": "Fezzan",
+            "5": "Syracuse",
+            "38": "El Oued"
+        }
+    },
+    "7": {
+        "name": "Kenya",
+        "links": {
+            "51": "Somali",
+            "52": "Somalia",
+            "49": "South Ethiopia"
+        }
+    },
+    "10": {
+        "name": "Fezzan",
+        "links": {
+            "60": "Cyrenaica",
+            "39": "Ouargla",
+            "13": "Tripolitania",
+            "6": "Tunisia",
+            "40": "Illizi"
+        }
+    },
+    "11": {
+        "name": "South Sudan",
+        "links": {
+            "44": "South West Sudan",
+            "50": "North Ethiopia",
+            "49": "South Ethiopia"
+        }
+    },
+    "12": {
+        "name": "North Sudan",
+        "links": {
+            "44": "South West Sudan",
+            "60": "Cyrenaica",
+            "41": "Central Egypt",
+            "43": "Red Sea Hills",
+            "42": "South East Egypt"
+        }
+    },
+    "13": {
+        "name": "Tripolitania",
+        "links": {
+            "60": "Cyrenaica",
+            "10": "Fezzan",
+            "6": "Tunisia"
+        }
+    },
+    "14": {
+        "name": "Turkey",
+        "links": {
+            "61": "Alexandria",
+            "16": "Greece",
+            "19": "Bulgaria",
+            "22": "Iraq",
+            "28": "Tabriz",
+            "25": "Syria"
+        }
+    },
+    "15": {
+        "name": "Ukraine",
+        "links": {
+            "18": "Romania",
+            "30": "Caspian Basin",
+            "17": "Hungary"
+        }
+    },
+    "16": {
+        "name": "Greece",
+        "links": {
+            "60": "Cyrenaica",
+            "14": "Turkey",
+            "19": "Bulgaria",
+            "20": "Serbia"
+        }
+    },
+    "17": {
+        "name": "Hungary",
+        "links": {
+            "2": "Corsica - Sardinia",
+            "15": "Ukraine",
+            "18": "Romania",
+            "20": "Serbia"
+        }
+    },
+    "18": {
+        "name": "Romania",
+        "links": {
+            "19": "Bulgaria",
+            "15": "Ukraine",
+            "20": "Serbia",
+            "17": "Hungary"
+        }
+    },
+    "19": {
+        "name": "Bulgaria",
+        "links": {
+            "16": "Greece",
+            "18": "Romania",
+            "14": "Turkey",
+            "20": "Serbia"
+        }
+    },
+    "20": {
+        "name": "Serbia",
+        "links": {
+            "16": "Greece",
+            "19": "Bulgaria",
+            "18": "Romania",
+            "5": "Syracuse",
+            "17": "Hungary"
+        }
+    },
+    "21": {
+        "name": "North Saudi",
+        "links": {
+            "22": "Iraq",
+            "26": "Jordan",
+            "23": "South Saudi"
+        }
+    },
+    "22": {
+        "name": "Iraq",
+        "links": {
+            "45": "Isfahan - Shiraz",
+            "14": "Turkey",
+            "26": "Jordan",
+            "46": "Kermanshah",
+            "28": "Tabriz",
+            "21": "North Saudi",
+            "25": "Syria"
+        }
+    },
+    "23": {
+        "name": "South Saudi",
+        "links": {
+            "24": "Oman",
+            "45": "Isfahan - Shiraz",
+            "21": "North Saudi",
+            "27": "Yemen"
+        }
+    },
+    "24": {
+        "name": "Oman",
+        "links": {
+            "52": "Somalia",
+            "27": "Yemen",
+            "23": "South Saudi"
+        }
+    },
+    "25": {
+        "name": "Syria",
+        "links": {
+            "14": "Turkey",
+            "22": "Iraq",
+            "26": "Jordan"
+        }
+    },
+    "26": {
+        "name": "Jordan",
+        "links": {
+            "61": "Alexandria",
+            "21": "North Saudi",
+            "22": "Iraq",
+            "25": "Syria"
+        }
+    },
+    "27": {
+        "name": "Yemen",
+        "links": {
+            "24": "Oman",
+            "23": "South Saudi"
+        }
+    },
+    "28": {
+        "name": "Tabriz",
+        "links": {
+            "14": "Turkey",
+            "22": "Iraq",
+            "46": "Kermanshah",
+            "47": "Tehran"
+        }
+    },
+    "29": {
+        "name": "Pakistan",
+        "links": {
+            "32": "Mashhad",
+            "31": "Afghanistan",
+            "52": "Somalia"
+        }
+    },
+    "30": {
+        "name": "Caspian Basin",
+        "links": {
+            "15": "Ukraine",
+            "33": "Uzbekistan",
+            "48": "Turkmenistan",
+            "53": "Central Highlands"
+        }
+    },
+    "31": {
+        "name": "Afghanistan",
+        "links": {
+            "33": "Uzbekistan",
+            "48": "Turkmenistan",
+            "32": "Mashhad",
+            "55": "Tajikistan",
+            "29": "Pakistan"
+        }
+    },
+    "32": {
+        "name": "Mashhad",
+        "links": {
+            "45": "Isfahan - Shiraz",
+            "48": "Turkmenistan",
+            "31": "Afghanistan",
+            "29": "Pakistan",
+            "47": "Tehran"
+        }
+    },
+    "33": {
+        "name": "Uzbekistan",
+        "links": {
+            "56": "Kyrgyzstan",
+            "57": "Kazakh Desert",
+            "48": "Turkmenistan",
+            "55": "Tajikistan",
+            "31": "Afghanistan",
+            "30": "Caspian Basin",
+            "53": "Central Highlands"
+        }
+    },
+    "34": {
+        "name": "Portugal",
+        "links": {
+            "1": "Spain"
+        }
+    },
+    "35": {
+        "name": "Tindourf - Bechar",
+        "links": {
+            "36": "Adrar",
+            "3": "Morocco",
+            "37": "El Bayadh"
+        }
+    },
+    "36": {
+        "name": "Adrar",
+        "links": {
+            "37": "El Bayadh",
+            "35": "Tindourf - Bechar",
+            "39": "Ouargla",
+            "4": "Tamanrasset"
+        }
+    },
+    "37": {
+        "name": "El Bayadh",
+        "links": {
+            "36": "Adrar",
+            "39": "Ouargla",
+            "3": "Morocco",
+            "35": "Tindourf - Bechar",
+            "38": "El Oued"
+        }
+    },
+    "38": {
+        "name": "El Oued",
+        "links": {
+            "2": "Corsica - Sardinia",
+            "39": "Ouargla",
+            "37": "El Bayadh",
+            "6": "Tunisia"
+        }
+    },
+    "39": {
+        "name": "Ouargla",
+        "links": {
+            "36": "Adrar",
+            "4": "Tamanrasset",
+            "37": "El Bayadh",
+            "10": "Fezzan",
+            "6": "Tunisia",
+            "40": "Illizi",
+            "38": "El Oued"
+        }
+    },
+    "40": {
+        "name": "Illizi",
+        "links": {
+            "39": "Ouargla",
+            "4": "Tamanrasset",
+            "10": "Fezzan"
+        }
+    },
+    "41": {
+        "name": "Central Egypt",
+        "links": {
+            "60": "Cyrenaica",
+            "61": "Alexandria",
+            "42": "South East Egypt",
+            "12": "North Sudan"
+        }
+    },
+    "42": {
+        "name": "South East Egypt",
+        "links": {
+            "61": "Alexandria",
+            "41": "Central Egypt",
+            "43": "Red Sea Hills",
+            "12": "North Sudan"
+        }
+    },
+    "43": {
+        "name": "Red Sea Hills",
+        "links": {
+            "44": "South West Sudan",
+            "12": "North Sudan",
+            "42": "South East Egypt",
+            "50": "North Ethiopia"
+        }
+    },
+    "44": {
+        "name": "South West Sudan",
+        "links": {
+            "43": "Red Sea Hills",
+            "12": "North Sudan",
+            "11": "South Sudan",
+            "50": "North Ethiopia"
+        }
+    },
+    "45": {
+        "name": "Isfahan - Shiraz",
+        "links": {
+            "22": "Iraq",
+            "32": "Mashhad",
+            "46": "Kermanshah",
+            "23": "South Saudi",
+            "47": "Tehran"
+        }
+    },
+    "46": {
+        "name": "Kermanshah",
+        "links": {
+            "45": "Isfahan - Shiraz",
+            "22": "Iraq",
+            "28": "Tabriz",
+            "47": "Tehran"
+        }
+    },
+    "47": {
+        "name": "Tehran",
+        "links": {
+            "32": "Mashhad",
+            "46": "Kermanshah",
+            "28": "Tabriz",
+            "45": "Isfahan - Shiraz",
+            "48": "Turkmenistan"
+        }
+    },
+    "48": {
+        "name": "Turkmenistan",
+        "links": {
+            "33": "Uzbekistan",
+            "32": "Mashhad",
+            "31": "Afghanistan",
+            "47": "Tehran",
+            "30": "Caspian Basin"
+        }
+    },
+    "49": {
+        "name": "South Ethiopia",
+        "links": {
+            "7": "Kenya",
+            "51": "Somali",
+            "11": "South Sudan",
+            "50": "North Ethiopia"
+        }
+    },
+    "50": {
+        "name": "North Ethiopia",
+        "links": {
+            "43": "Red Sea Hills",
+            "44": "South West Sudan",
+            "49": "South Ethiopia",
+            "11": "South Sudan"
+        }
+    },
+    "51": {
+        "name": "Somali",
+        "links": {
+            "7": "Kenya",
+            "52": "Somalia",
+            "49": "South Ethiopia"
+        }
+    },
+    "52": {
+        "name": "Somalia",
+        "links": {
+            "51": "Somali",
+            "7": "Kenya",
+            "29": "Pakistan",
+            "24": "Oman"
+        }
+    },
+    "53": {
+        "name": "Central Highlands",
+        "links": {
+            "33": "Uzbekistan",
+            "59": "Almaty Province",
+            "57": "Kazakh Desert",
+            "54": "Kazakhstani North",
+            "30": "Caspian Basin",
+            "58": "Altai"
+        }
+    },
+    "54": {
+        "name": "Kazakhstani North",
+        "links": {
+            "53": "Central Highlands"
+        }
+    },
+    "55": {
+        "name": "Tajikistan",
+        "links": {
+            "56": "Kyrgyzstan",
+            "33": "Uzbekistan",
+            "31": "Afghanistan"
+        }
+    },
+    "56": {
+        "name": "Kyrgyzstan",
+        "links": {
+            "57": "Kazakh Desert",
+            "59": "Almaty Province",
+            "33": "Uzbekistan",
+            "55": "Tajikistan"
+        }
+    },
+    "57": {
+        "name": "Kazakh Desert",
+        "links": {
+            "56": "Kyrgyzstan",
+            "33": "Uzbekistan",
+            "59": "Almaty Province",
+            "53": "Central Highlands"
+        }
+    },
+    "58": {
+        "name": "Altai",
+        "links": {
+            "53": "Central Highlands"
+        }
+    },
+    "59": {
+        "name": "Almaty Province",
+        "links": {
+            "56": "Kyrgyzstan",
+            "57": "Kazakh Desert",
+            "53": "Central Highlands"
+        }
+    },
+    "60": {
+        "name": "Cyrenaica",
+        "links": {
+            "61": "Alexandria",
+            "16": "Greece",
+            "41": "Central Egypt",
+            "13": "Tripolitania",
+            "12": "North Sudan",
+            "10": "Fezzan"
+        }
+    },
+    "61": {
+        "name": "Alexandria",
+        "links": {
+            "60": "Cyrenaica",
+            "14": "Turkey",
+            "41": "Central Egypt",
+            "26": "Jordan",
+            "42": "South East Egypt"
+        }
+    }
+}

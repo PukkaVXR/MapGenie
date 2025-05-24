@@ -1,0 +1,377 @@
+{
+    "1": {
+        "name": "Armory",
+        "links": {
+            "41": "Sky Light"
+        }
+    },
+    "2": {
+        "name": "Balcony",
+        "links": {
+            "36": "Outlook",
+            "5": "Ceremony"
+        }
+    },
+    "3": {
+        "name": "Bath",
+        "links": {
+            "13": "Food Hall"
+        }
+    },
+    "4": {
+        "name": "Cell",
+        "links": {
+            "27": "Kitchen",
+            "7": "Crypt"
+        }
+    },
+    "5": {
+        "name": "Ceremony",
+        "links": {
+            "13": "Food Hall",
+            "50": "Weeping Steps",
+            "2": "Balcony"
+        }
+    },
+    "6": {
+        "name": "Chamber",
+        "links": {
+            "7": "Crypt"
+        }
+    },
+    "7": {
+        "name": "Crypt",
+        "links": {
+            "6": "Chamber",
+            "15": "Gloomy Steps",
+            "4": "Cell",
+            "17": "Grave"
+        }
+    },
+    "8": {
+        "name": "Crypt Door",
+        "links": {
+            "12": "Entry Hall",
+            "47": "Tea Room",
+            "15": "Gloomy Steps"
+        }
+    },
+    "9": {
+        "name": "Displays",
+        "links": {
+            "28": "Lair Steps",
+            "22": "Inner Passage"
+        }
+    },
+    "10": {
+        "name": "Draculas Retreat",
+        "links": {
+            "46": "Swords Path"
+        }
+    },
+    "11": {
+        "name": "Entrance",
+        "links": {
+            "14": "Gate"
+        }
+    },
+    "12": {
+        "name": "Entry Hall",
+        "links": {
+            "43": "Staff",
+            "45": "Storage",
+            "14": "Gate",
+            "8": "Crypt Door",
+            "19": "Hall",
+            "27": "Kitchen"
+        }
+    },
+    "13": {
+        "name": "Food Hall",
+        "links": {
+            "22": "Inner Passage",
+            "5": "Ceremony",
+            "36": "Outlook",
+            "3": "Bath"
+        }
+    },
+    "14": {
+        "name": "Gate",
+        "links": {
+            "11": "Entrance",
+            "12": "Entry Hall"
+        }
+    },
+    "15": {
+        "name": "Gloomy Steps",
+        "links": {
+            "7": "Crypt",
+            "8": "Crypt Door"
+        }
+    },
+    "16": {
+        "name": "Golem",
+        "links": {
+            "33": "Midnight View",
+            "20": "Hidden Door"
+        }
+    },
+    "17": {
+        "name": "Grave",
+        "links": {
+            "7": "Crypt"
+        }
+    },
+    "18": {
+        "name": "Guards",
+        "links": {
+            "39": "Servants",
+            "24": "Kings Door"
+        }
+    },
+    "19": {
+        "name": "Hall",
+        "links": {
+            "12": "Entry Hall",
+            "27": "Kitchen"
+        }
+    },
+    "20": {
+        "name": "Hidden Door",
+        "links": {
+            "37": "Queens Passage",
+            "25": "Kings Passage",
+            "26": "Kings Stairs",
+            "16": "Golem"
+        }
+    },
+    "21": {
+        "name": "Hidden Passage",
+        "links": {
+            "49": "Watch",
+            "33": "Midnight View",
+            "24": "Kings Door"
+        }
+    },
+    "22": {
+        "name": "Inner Passage",
+        "links": {
+            "9": "Displays",
+            "13": "Food Hall",
+            "39": "Servants",
+            "24": "Kings Door"
+        }
+    },
+    "23": {
+        "name": "Kings Chamber",
+        "links": {
+            "41": "Sky Light",
+            "48": "Treasury"
+        }
+    },
+    "24": {
+        "name": "Kings Door",
+        "links": {
+            "18": "Guards",
+            "42": "South Stairs",
+            "22": "Inner Passage",
+            "21": "Hidden Passage"
+        }
+    },
+    "25": {
+        "name": "Kings Passage",
+        "links": {
+            "37": "Queens Passage",
+            "20": "Hidden Door",
+            "34": "Night Walk",
+            "41": "Sky Light",
+            "31": "Maids",
+            "30": "Loot"
+        }
+    },
+    "26": {
+        "name": "Kings Stairs",
+        "links": {
+            "20": "Hidden Door"
+        }
+    },
+    "27": {
+        "name": "Kitchen",
+        "links": {
+            "19": "Hall",
+            "12": "Entry Hall",
+            "4": "Cell"
+        }
+    },
+    "28": {
+        "name": "Lair Steps",
+        "links": {
+            "45": "Storage",
+            "9": "Displays"
+        }
+    },
+    "29": {
+        "name": "Library",
+        "links": {
+            "35": "North Stairs",
+            "38": "Reading Area",
+            "44": "Staff Quarters"
+        }
+    },
+    "30": {
+        "name": "Loot",
+        "links": {
+            "25": "Kings Passage"
+        }
+    },
+    "31": {
+        "name": "Maids",
+        "links": {
+            "25": "Kings Passage"
+        }
+    },
+    "32": {
+        "name": "Midnight Steps",
+        "links": {
+            "50": "Weeping Steps",
+            "40": "Shadow Passage"
+        }
+    },
+    "33": {
+        "name": "Midnight View",
+        "links": {
+            "21": "Hidden Passage",
+            "16": "Golem"
+        }
+    },
+    "34": {
+        "name": "Night Walk",
+        "links": {
+            "25": "Kings Passage",
+            "51": "West Watch",
+            "41": "Sky Light"
+        }
+    },
+    "35": {
+        "name": "North Stairs",
+        "links": {
+            "47": "Tea Room",
+            "29": "Library",
+            "50": "Weeping Steps"
+        }
+    },
+    "36": {
+        "name": "Outlook",
+        "links": {
+            "13": "Food Hall",
+            "2": "Balcony"
+        }
+    },
+    "37": {
+        "name": "Queens Passage",
+        "links": {
+            "25": "Kings Passage",
+            "20": "Hidden Door",
+            "42": "South Stairs"
+        }
+    },
+    "38": {
+        "name": "Reading Area",
+        "links": {
+            "29": "Library"
+        }
+    },
+    "39": {
+        "name": "Servants",
+        "links": {
+            "22": "Inner Passage",
+            "18": "Guards"
+        }
+    },
+    "40": {
+        "name": "Shadow Passage",
+        "links": {
+            "32": "Midnight Steps",
+            "46": "Swords Path",
+            "51": "West Watch"
+        }
+    },
+    "41": {
+        "name": "Sky Light",
+        "links": {
+            "46": "Swords Path",
+            "1": "Armory",
+            "25": "Kings Passage",
+            "34": "Night Walk",
+            "23": "Kings Chamber"
+        }
+    },
+    "42": {
+        "name": "South Stairs",
+        "links": {
+            "24": "Kings Door",
+            "37": "Queens Passage"
+        }
+    },
+    "43": {
+        "name": "Staff",
+        "links": {
+            "12": "Entry Hall"
+        }
+    },
+    "44": {
+        "name": "Staff Quarters",
+        "links": {
+            "29": "Library"
+        }
+    },
+    "45": {
+        "name": "Storage",
+        "links": {
+            "12": "Entry Hall",
+            "28": "Lair Steps"
+        }
+    },
+    "46": {
+        "name": "Swords Path",
+        "links": {
+            "40": "Shadow Passage",
+            "10": "Draculas Retreat",
+            "41": "Sky Light"
+        }
+    },
+    "47": {
+        "name": "Tea Room",
+        "links": {
+            "8": "Crypt Door",
+            "35": "North Stairs"
+        }
+    },
+    "48": {
+        "name": "Treasury",
+        "links": {
+            "23": "Kings Chamber"
+        }
+    },
+    "49": {
+        "name": "Watch",
+        "links": {
+            "21": "Hidden Passage"
+        }
+    },
+    "50": {
+        "name": "Weeping Steps",
+        "links": {
+            "5": "Ceremony",
+            "32": "Midnight Steps",
+            "35": "North Stairs"
+        }
+    },
+    "51": {
+        "name": "West Watch",
+        "links": {
+            "34": "Night Walk",
+            "40": "Shadow Passage"
+        }
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "1": {
+        "name": "Arnesz Syssel",
+        "links": {
+            "15": "Rangerwalle Syssel",
+            "4": "Gulbringe Syssel",
+            "7": "Huunevands Syssel",
+            "14": "Porgar Fiardur Syssel",
+            "9": "Kicse Syssel"
+        }
+    },
+    "2": {
+        "name": "Bardestrans Syssel",
+        "links": {
+            "16": "Snafedsnes Syssel",
+            "8": "Issa Fiordur Syssel",
+            "3": "Dalle Syssel",
+            "17": "Strande Syssel"
+        }
+    },
+    "3": {
+        "name": "Dalle Syssel",
+        "links": {
+            "10": "Myre Syssel",
+            "17": "Strande Syssel",
+            "2": "Bardestrans Syssel",
+            "16": "Snafedsnes Syssel",
+            "6": "Hnappdals Syssel"
+        }
+    },
+    "4": {
+        "name": "Gulbringe Syssel",
+        "links": {
+            "1": "Arnesz Syssel",
+            "16": "Snafedsnes Syssel",
+            "9": "Kicse Syssel"
+        }
+    },
+    "5": {
+        "name": "Heegrenesz Syssel",
+        "links": {
+            "12": "Nordtingoe Syssel",
+            "20": "Volde Syssel",
+            "7": "Huunevands Syssel"
+        }
+    },
+    "6": {
+        "name": "Hnappdals Syssel",
+        "links": {
+            "10": "Myre Syssel",
+            "16": "Snafedsnes Syssel",
+            "3": "Dalle Syssel"
+        }
+    },
+    "7": {
+        "name": "Huunevands Syssel",
+        "links": {
+            "8": "Issa Fiordur Syssel",
+            "5": "Heegrenesz Syssel",
+            "17": "Strande Syssel",
+            "1": "Arnesz Syssel",
+            "10": "Myre Syssel"
+        }
+    },
+    "8": {
+        "name": "Issa Fiordur Syssel",
+        "links": {
+            "2": "Bardestrans Syssel",
+            "7": "Huunevands Syssel",
+            "17": "Strande Syssel"
+        }
+    },
+    "9": {
+        "name": "Kicse Syssel",
+        "links": {
+            "14": "Porgar Fiardur Syssel",
+            "1": "Arnesz Syssel",
+            "4": "Gulbringe Syssel"
+        }
+    },
+    "10": {
+        "name": "Myre Syssel",
+        "links": {
+            "3": "Dalle Syssel",
+            "17": "Strande Syssel",
+            "7": "Huunevands Syssel",
+            "14": "Porgar Fiardur Syssel",
+            "6": "Hnappdals Syssel"
+        }
+    },
+    "11": {
+        "name": "Nord Muule Syssel",
+        "links": {
+            "13": "Ostlicher Skafftefiels Syssel",
+            "19": "Sunntingoe Syssel",
+            "12": "Nordtingoe Syssel",
+            "18": "Sunn Muule Syssel"
+        }
+    },
+    "12": {
+        "name": "Nordtingoe Syssel",
+        "links": {
+            "19": "Sunntingoe Syssel",
+            "5": "Heegrenesz Syssel",
+            "11": "Nord Muule Syssel",
+            "18": "Sunn Muule Syssel"
+        }
+    },
+    "13": {
+        "name": "Ostlicher Skafftefiels Syssel",
+        "links": {
+            "15": "Rangerwalle Syssel",
+            "11": "Nord Muule Syssel",
+            "18": "Sunn Muule Syssel",
+            "21": "Westlicher Skafftefiels Syssel"
+        }
+    },
+    "14": {
+        "name": "Porgar Fiardur Syssel",
+        "links": {
+            "1": "Arnesz Syssel",
+            "9": "Kicse Syssel",
+            "10": "Myre Syssel"
+        }
+    },
+    "15": {
+        "name": "Rangerwalle Syssel",
+        "links": {
+            "20": "Volde Syssel",
+            "13": "Ostlicher Skafftefiels Syssel",
+            "21": "Westlicher Skafftefiels Syssel",
+            "1": "Arnesz Syssel"
+        }
+    },
+    "16": {
+        "name": "Snafedsnes Syssel",
+        "links": {
+            "4": "Gulbringe Syssel",
+            "2": "Bardestrans Syssel",
+            "6": "Hnappdals Syssel",
+            "3": "Dalle Syssel"
+        }
+    },
+    "17": {
+        "name": "Strande Syssel",
+        "links": {
+            "10": "Myre Syssel",
+            "3": "Dalle Syssel",
+            "2": "Bardestrans Syssel",
+            "8": "Issa Fiordur Syssel",
+            "7": "Huunevands Syssel"
+        }
+    },
+    "18": {
+        "name": "Sunn Muule Syssel",
+        "links": {
+            "11": "Nord Muule Syssel",
+            "12": "Nordtingoe Syssel",
+            "13": "Ostlicher Skafftefiels Syssel"
+        }
+    },
+    "19": {
+        "name": "Sunntingoe Syssel",
+        "links": {
+            "20": "Volde Syssel",
+            "12": "Nordtingoe Syssel",
+            "11": "Nord Muule Syssel"
+        }
+    },
+    "20": {
+        "name": "Volde Syssel",
+        "links": {
+            "19": "Sunntingoe Syssel",
+            "5": "Heegrenesz Syssel",
+            "15": "Rangerwalle Syssel"
+        }
+    },
+    "21": {
+        "name": "Westlicher Skafftefiels Syssel",
+        "links": {
+            "13": "Ostlicher Skafftefiels Syssel",
+            "15": "Rangerwalle Syssel"
+        }
+    }
+}

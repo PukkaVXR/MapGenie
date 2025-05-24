@@ -1,0 +1,192 @@
+{
+    "1": {
+        "name": "Apothecary",
+        "links": {
+            "2": "Blacksmith",
+            "23": "Traveler's Inn",
+            "21": "Town Plaza",
+            "6": "General Markets"
+        }
+    },
+    "2": {
+        "name": "Blacksmith",
+        "links": {
+            "1": "Apothecary",
+            "23": "Traveler's Inn"
+        }
+    },
+    "3": {
+        "name": "Exotic Warehouse",
+        "links": {
+            "24": "Vault House",
+            "22": "Trading Pier",
+            "18": "State Bank"
+        }
+    },
+    "4": {
+        "name": "Fish Market",
+        "links": {
+            "19": "Storage Hut",
+            "9": "Market Street",
+            "16": "Shipyard"
+        }
+    },
+    "5": {
+        "name": "Fishing Dock",
+        "links": {
+            "15": "Shippers Lane",
+            "19": "Storage Hut",
+            "16": "Shipyard"
+        }
+    },
+    "6": {
+        "name": "General Markets",
+        "links": {
+            "1": "Apothecary",
+            "9": "Market Street",
+            "23": "Traveler's Inn"
+        }
+    },
+    "7": {
+        "name": "Gold Avenue",
+        "links": {
+            "22": "Trading Pier",
+            "14": "Ruler Road",
+            "8": "Main Street"
+        }
+    },
+    "8": {
+        "name": "Main Street",
+        "links": {
+            "12": "North Bridge",
+            "11": "Merchant Guild",
+            "14": "Ruler Road",
+            "20": "Town Hall",
+            "7": "Gold Avenue"
+        }
+    },
+    "9": {
+        "name": "Market Street",
+        "links": {
+            "4": "Fish Market",
+            "17": "South Bridge",
+            "6": "General Markets",
+            "21": "Town Plaza"
+        }
+    },
+    "10": {
+        "name": "Mayor's Manor",
+        "links": {
+            "14": "Ruler Road",
+            "20": "Town Hall"
+        }
+    },
+    "11": {
+        "name": "Merchant Guild",
+        "links": {
+            "8": "Main Street",
+            "24": "Vault House",
+            "18": "State Bank"
+        }
+    },
+    "12": {
+        "name": "North Bridge",
+        "links": {
+            "17": "South Bridge",
+            "8": "Main Street"
+        }
+    },
+    "13": {
+        "name": "River Boat Quay",
+        "links": {
+            "20": "Town Hall"
+        }
+    },
+    "14": {
+        "name": "Ruler Road",
+        "links": {
+            "7": "Gold Avenue",
+            "10": "Mayor's Manor",
+            "8": "Main Street"
+        }
+    },
+    "15": {
+        "name": "Shippers Lane",
+        "links": {
+            "21": "Town Plaza",
+            "5": "Fishing Dock"
+        }
+    },
+    "16": {
+        "name": "Shipyard",
+        "links": {
+            "4": "Fish Market",
+            "5": "Fishing Dock",
+            "19": "Storage Hut"
+        }
+    },
+    "17": {
+        "name": "South Bridge",
+        "links": {
+            "9": "Market Street",
+            "12": "North Bridge"
+        }
+    },
+    "18": {
+        "name": "State Bank",
+        "links": {
+            "3": "Exotic Warehouse",
+            "22": "Trading Pier",
+            "24": "Vault House",
+            "11": "Merchant Guild"
+        }
+    },
+    "19": {
+        "name": "Storage Hut",
+        "links": {
+            "5": "Fishing Dock",
+            "4": "Fish Market",
+            "16": "Shipyard"
+        }
+    },
+    "20": {
+        "name": "Town Hall",
+        "links": {
+            "10": "Mayor's Manor",
+            "13": "River Boat Quay",
+            "8": "Main Street"
+        }
+    },
+    "21": {
+        "name": "Town Plaza",
+        "links": {
+            "1": "Apothecary",
+            "15": "Shippers Lane",
+            "9": "Market Street"
+        }
+    },
+    "22": {
+        "name": "Trading Pier",
+        "links": {
+            "3": "Exotic Warehouse",
+            "7": "Gold Avenue",
+            "18": "State Bank"
+        }
+    },
+    "23": {
+        "name": "Traveler's Inn",
+        "links": {
+            "2": "Blacksmith",
+            "1": "Apothecary",
+            "6": "General Markets"
+        }
+    },
+    "24": {
+        "name": "Vault House",
+        "links": {
+            "11": "Merchant Guild",
+            "3": "Exotic Warehouse",
+            "18": "State Bank"
+        }
+    }
+}

@@ -1,0 +1,343 @@
+{
+    "1": {
+        "name": "Bandit Den",
+        "links": {
+            "6": "Cannon Lookout",
+            "12": "Fisherman's Wharf",
+            "37": "Town Square",
+            "30": "Sandy Retreat",
+            "7": "Cutlass Cove",
+            "3": "Bayside Inn"
+        }
+    },
+    "2": {
+        "name": "Barnacle Beach",
+        "links": {
+            "30": "Sandy Retreat",
+            "7": "Cutlass Cove"
+        }
+    },
+    "3": {
+        "name": "Bayside Inn",
+        "links": {
+            "12": "Fisherman's Wharf",
+            "23": "Pier 03",
+            "18": "Manor Grove",
+            "37": "Town Square",
+            "1": "Bandit Den"
+        }
+    },
+    "4": {
+        "name": "Bloodbeard's Revenge",
+        "links": {
+            "14": "Gold Cannon",
+            "10": "Fick's Fury"
+        }
+    },
+    "5": {
+        "name": "Bombard Bay",
+        "links": {
+            "36": "Toothy Cliffs",
+            "14": "Gold Cannon"
+        }
+    },
+    "6": {
+        "name": "Cannon Lookout",
+        "links": {
+            "7": "Cutlass Cove",
+            "24": "Plankwalk Point",
+            "1": "Bandit Den"
+        }
+    },
+    "7": {
+        "name": "Cutlass Cove",
+        "links": {
+            "2": "Barnacle Beach",
+            "6": "Cannon Lookout",
+            "30": "Sandy Retreat",
+            "1": "Bandit Den"
+        }
+    },
+    "8": {
+        "name": "Deadman's Delight",
+        "links": {
+            "34": "Stormweaver",
+            "31": "Skull Keeper",
+            "36": "Toothy Cliffs"
+        }
+    },
+    "9": {
+        "name": "Docks",
+        "links": {
+            "19": "Passenger Vessel",
+            "32": "Sleepy Plateau",
+            "29": "Salty Shore",
+            "20": "Pavilion"
+        }
+    },
+    "10": {
+        "name": "Fick's Fury",
+        "links": {
+            "4": "Bloodbeard's Revenge",
+            "13": "Fort Stonelock"
+        }
+    },
+    "11": {
+        "name": "Fish Markets",
+        "links": {
+            "16": "Landlubber Lagoon",
+            "30": "Sandy Retreat",
+            "37": "Town Square"
+        }
+    },
+    "12": {
+        "name": "Fisherman's Wharf",
+        "links": {
+            "1": "Bandit Den",
+            "23": "Pier 03",
+            "3": "Bayside Inn"
+        }
+    },
+    "13": {
+        "name": "Fort Stonelock",
+        "links": {
+            "17": "Lighthouse",
+            "27": "Rogue Paradise",
+            "10": "Fick's Fury"
+        }
+    },
+    "14": {
+        "name": "Gold Cannon",
+        "links": {
+            "31": "Skull Keeper",
+            "4": "Bloodbeard's Revenge",
+            "5": "Bombard Bay"
+        }
+    },
+    "15": {
+        "name": "Jetty",
+        "links": {
+            "25": "Prawn Peak",
+            "29": "Salty Shore",
+            "38": "Tropical Ascent",
+            "20": "Pavilion"
+        }
+    },
+    "16": {
+        "name": "Landlubber Lagoon",
+        "links": {
+            "32": "Sleepy Plateau",
+            "11": "Fish Markets",
+            "28": "Rum Raven's Tavern"
+        }
+    },
+    "17": {
+        "name": "Lighthouse",
+        "links": {
+            "13": "Fort Stonelock",
+            "27": "Rogue Paradise"
+        }
+    },
+    "18": {
+        "name": "Manor Grove",
+        "links": {
+            "28": "Rum Raven's Tavern",
+            "37": "Town Square",
+            "33": "St. Taylor's Estate",
+            "38": "Tropical Ascent",
+            "22": "Pier 02",
+            "3": "Bayside Inn"
+        }
+    },
+    "19": {
+        "name": "Passenger Vessel",
+        "links": {
+            "29": "Salty Shore",
+            "9": "Docks"
+        }
+    },
+    "20": {
+        "name": "Pavilion",
+        "links": {
+            "32": "Sleepy Plateau",
+            "28": "Rum Raven's Tavern",
+            "9": "Docks",
+            "38": "Tropical Ascent",
+            "15": "Jetty",
+            "29": "Salty Shore"
+        }
+    },
+    "21": {
+        "name": "Pier 01",
+        "links": {
+            "22": "Pier 02",
+            "33": "St. Taylor's Estate"
+        }
+    },
+    "22": {
+        "name": "Pier 02",
+        "links": {
+            "23": "Pier 03",
+            "21": "Pier 01",
+            "33": "St. Taylor's Estate",
+            "18": "Manor Grove"
+        }
+    },
+    "23": {
+        "name": "Pier 03",
+        "links": {
+            "12": "Fisherman's Wharf",
+            "22": "Pier 02",
+            "3": "Bayside Inn"
+        }
+    },
+    "24": {
+        "name": "Plankwalk Point",
+        "links": {
+            "6": "Cannon Lookout",
+            "35": "The Lunar Howl"
+        }
+    },
+    "25": {
+        "name": "Prawn Peak",
+        "links": {
+            "36": "Toothy Cliffs",
+            "15": "Jetty",
+            "33": "St. Taylor's Estate",
+            "38": "Tropical Ascent"
+        }
+    },
+    "26": {
+        "name": "Rock Pools",
+        "links": {
+            "27": "Rogue Paradise",
+            "41": "Wharf C"
+        }
+    },
+    "27": {
+        "name": "Rogue Paradise",
+        "links": {
+            "17": "Lighthouse",
+            "26": "Rock Pools",
+            "13": "Fort Stonelock"
+        }
+    },
+    "28": {
+        "name": "Rum Raven's Tavern",
+        "links": {
+            "20": "Pavilion",
+            "16": "Landlubber Lagoon",
+            "38": "Tropical Ascent",
+            "18": "Manor Grove",
+            "37": "Town Square"
+        }
+    },
+    "29": {
+        "name": "Salty Shore",
+        "links": {
+            "15": "Jetty",
+            "19": "Passenger Vessel",
+            "9": "Docks",
+            "20": "Pavilion"
+        }
+    },
+    "30": {
+        "name": "Sandy Retreat",
+        "links": {
+            "11": "Fish Markets",
+            "2": "Barnacle Beach",
+            "1": "Bandit Den",
+            "7": "Cutlass Cove"
+        }
+    },
+    "31": {
+        "name": "Skull Keeper",
+        "links": {
+            "8": "Deadman's Delight",
+            "14": "Gold Cannon"
+        }
+    },
+    "32": {
+        "name": "Sleepy Plateau",
+        "links": {
+            "39": "Wharf A",
+            "16": "Landlubber Lagoon",
+            "9": "Docks",
+            "20": "Pavilion"
+        }
+    },
+    "33": {
+        "name": "St. Taylor's Estate",
+        "links": {
+            "21": "Pier 01",
+            "25": "Prawn Peak",
+            "18": "Manor Grove",
+            "38": "Tropical Ascent",
+            "22": "Pier 02"
+        }
+    },
+    "34": {
+        "name": "Stormweaver",
+        "links": {
+            "35": "The Lunar Howl",
+            "8": "Deadman's Delight"
+        }
+    },
+    "35": {
+        "name": "The Lunar Howl",
+        "links": {
+            "24": "Plankwalk Point",
+            "34": "Stormweaver"
+        }
+    },
+    "36": {
+        "name": "Toothy Cliffs",
+        "links": {
+            "5": "Bombard Bay",
+            "25": "Prawn Peak",
+            "8": "Deadman's Delight"
+        }
+    },
+    "37": {
+        "name": "Town Square",
+        "links": {
+            "18": "Manor Grove",
+            "28": "Rum Raven's Tavern",
+            "3": "Bayside Inn",
+            "1": "Bandit Den",
+            "11": "Fish Markets"
+        }
+    },
+    "38": {
+        "name": "Tropical Ascent",
+        "links": {
+            "20": "Pavilion",
+            "28": "Rum Raven's Tavern",
+            "25": "Prawn Peak",
+            "15": "Jetty",
+            "18": "Manor Grove",
+            "33": "St. Taylor's Estate"
+        }
+    },
+    "39": {
+        "name": "Wharf A",
+        "links": {
+            "40": "Wharf B",
+            "32": "Sleepy Plateau"
+        }
+    },
+    "40": {
+        "name": "Wharf B",
+        "links": {
+            "41": "Wharf C",
+            "39": "Wharf A"
+        }
+    },
+    "41": {
+        "name": "Wharf C",
+        "links": {
+            "26": "Rock Pools",
+            "40": "Wharf B"
+        }
+    }
+}

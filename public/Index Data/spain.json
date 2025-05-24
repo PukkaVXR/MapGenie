@@ -1,0 +1,445 @@
+{
+    "1": {
+        "name": "A Coru\u00f1a",
+        "links": {
+            "34": "Pontevedra",
+            "32": "Oviedo",
+            "31": "Ourense",
+            "23": "Le\u00f3n",
+            "36": "Santa Cruz de Tenerife"
+        }
+    },
+    "2": {
+        "name": "Albacete",
+        "links": {
+            "15": "Cuenca",
+            "44": "Valencia",
+            "13": "Ciudad Real",
+            "30": "Murcia",
+            "16": "Granada",
+            "21": "Ja\u00e9n"
+        }
+    },
+    "3": {
+        "name": "Almer\u00eda",
+        "links": {
+            "30": "Murcia",
+            "16": "Granada"
+        }
+    },
+    "4": {
+        "name": "\u00c1vila",
+        "links": {
+            "9": "C\u00e1ceres",
+            "35": "Salamanca",
+            "43": "Toledo",
+            "45": "Valladolid",
+            "25": "Madrid",
+            "38": "Segovia"
+        }
+    },
+    "5": {
+        "name": "Badajoz",
+        "links": {
+            "18": "Huelva",
+            "9": "C\u00e1ceres",
+            "39": "Sevilla",
+            "14": "C\u00f3rdoba",
+            "43": "Toledo",
+            "13": "Ciudad Real"
+        }
+    },
+    "6": {
+        "name": "Barcelona",
+        "links": {
+            "24": "Lleida",
+            "29": "Menorca",
+            "41": "Tarragona"
+        }
+    },
+    "7": {
+        "name": "Bilbao",
+        "links": {
+            "37": "Santander",
+            "33": "Pamplona",
+            "40": "Soria",
+            "8": "Burgos"
+        }
+    },
+    "8": {
+        "name": "Burgos",
+        "links": {
+            "7": "Bilbao",
+            "40": "Soria",
+            "37": "Santander",
+            "38": "Segovia",
+            "45": "Valladolid"
+        }
+    },
+    "9": {
+        "name": "C\u00e1ceres",
+        "links": {
+            "5": "Badajoz",
+            "35": "Salamanca",
+            "43": "Toledo",
+            "4": "\u00c1vila"
+        }
+    },
+    "10": {
+        "name": "C\u00e1diz",
+        "links": {
+            "22": "Las Palmas de Gran Canaria",
+            "18": "Huelva",
+            "12": "Ceuta",
+            "39": "Sevilla",
+            "26": "M\u00e1laga"
+        }
+    },
+    "11": {
+        "name": "Castell\u00f3n",
+        "links": {
+            "41": "Tarragona",
+            "44": "Valencia",
+            "42": "Teruel"
+        }
+    },
+    "12": {
+        "name": "Ceuta",
+        "links": {
+            "28": "Melilla",
+            "10": "C\u00e1diz"
+        }
+    },
+    "13": {
+        "name": "Ciudad Real",
+        "links": {
+            "43": "Toledo",
+            "15": "Cuenca",
+            "2": "Albacete",
+            "21": "Ja\u00e9n",
+            "14": "C\u00f3rdoba",
+            "5": "Badajoz"
+        }
+    },
+    "14": {
+        "name": "C\u00f3rdoba",
+        "links": {
+            "21": "Ja\u00e9n",
+            "16": "Granada",
+            "39": "Sevilla",
+            "5": "Badajoz",
+            "26": "M\u00e1laga",
+            "13": "Ciudad Real"
+        }
+    },
+    "15": {
+        "name": "Cuenca",
+        "links": {
+            "13": "Ciudad Real",
+            "43": "Toledo",
+            "2": "Albacete",
+            "44": "Valencia",
+            "25": "Madrid",
+            "42": "Teruel",
+            "17": "Guadalajara"
+        }
+    },
+    "16": {
+        "name": "Granada",
+        "links": {
+            "3": "Almer\u00eda",
+            "26": "M\u00e1laga",
+            "21": "Ja\u00e9n",
+            "2": "Albacete",
+            "14": "C\u00f3rdoba",
+            "30": "Murcia"
+        }
+    },
+    "17": {
+        "name": "Guadalajara",
+        "links": {
+            "15": "Cuenca",
+            "25": "Madrid",
+            "42": "Teruel",
+            "38": "Segovia",
+            "40": "Soria",
+            "47": "Zaragoza"
+        }
+    },
+    "18": {
+        "name": "Huelva",
+        "links": {
+            "10": "C\u00e1diz",
+            "5": "Badajoz",
+            "39": "Sevilla"
+        }
+    },
+    "19": {
+        "name": "Huesca",
+        "links": {
+            "33": "Pamplona",
+            "24": "Lleida",
+            "47": "Zaragoza",
+            "41": "Tarragona"
+        }
+    },
+    "20": {
+        "name": "Ibiza-Eivissa",
+        "links": {
+            "27": "Mallorca",
+            "44": "Valencia"
+        }
+    },
+    "21": {
+        "name": "Ja\u00e9n",
+        "links": {
+            "16": "Granada",
+            "2": "Albacete",
+            "14": "C\u00f3rdoba",
+            "13": "Ciudad Real"
+        }
+    },
+    "22": {
+        "name": "Las Palmas de Gran Canaria",
+        "links": {
+            "36": "Santa Cruz de Tenerife",
+            "10": "C\u00e1diz"
+        }
+    },
+    "23": {
+        "name": "Le\u00f3n",
+        "links": {
+            "46": "Zamora",
+            "31": "Ourense",
+            "1": "A Coru\u00f1a",
+            "32": "Oviedo",
+            "45": "Valladolid",
+            "37": "Santander"
+        }
+    },
+    "24": {
+        "name": "Lleida",
+        "links": {
+            "19": "Huesca",
+            "6": "Barcelona",
+            "41": "Tarragona"
+        }
+    },
+    "25": {
+        "name": "Madrid",
+        "links": {
+            "15": "Cuenca",
+            "43": "Toledo",
+            "17": "Guadalajara",
+            "4": "\u00c1vila",
+            "38": "Segovia"
+        }
+    },
+    "26": {
+        "name": "M\u00e1laga",
+        "links": {
+            "16": "Granada",
+            "10": "C\u00e1diz",
+            "39": "Sevilla",
+            "14": "C\u00f3rdoba"
+        }
+    },
+    "27": {
+        "name": "Mallorca",
+        "links": {
+            "29": "Menorca",
+            "20": "Ibiza-Eivissa"
+        }
+    },
+    "28": {
+        "name": "Melilla",
+        "links": {
+            "30": "Murcia",
+            "12": "Ceuta"
+        }
+    },
+    "29": {
+        "name": "Menorca",
+        "links": {
+            "6": "Barcelona",
+            "27": "Mallorca"
+        }
+    },
+    "30": {
+        "name": "Murcia",
+        "links": {
+            "44": "Valencia",
+            "28": "Melilla",
+            "2": "Albacete",
+            "3": "Almer\u00eda",
+            "16": "Granada"
+        }
+    },
+    "31": {
+        "name": "Ourense",
+        "links": {
+            "46": "Zamora",
+            "34": "Pontevedra",
+            "23": "Le\u00f3n",
+            "1": "A Coru\u00f1a"
+        }
+    },
+    "32": {
+        "name": "Oviedo",
+        "links": {
+            "1": "A Coru\u00f1a",
+            "37": "Santander",
+            "23": "Le\u00f3n"
+        }
+    },
+    "33": {
+        "name": "Pamplona",
+        "links": {
+            "7": "Bilbao",
+            "19": "Huesca",
+            "47": "Zaragoza",
+            "40": "Soria"
+        }
+    },
+    "34": {
+        "name": "Pontevedra",
+        "links": {
+            "31": "Ourense",
+            "1": "A Coru\u00f1a"
+        }
+    },
+    "35": {
+        "name": "Salamanca",
+        "links": {
+            "9": "C\u00e1ceres",
+            "46": "Zamora",
+            "4": "\u00c1vila",
+            "45": "Valladolid"
+        }
+    },
+    "36": {
+        "name": "Santa Cruz de Tenerife",
+        "links": {
+            "22": "Las Palmas de Gran Canaria",
+            "1": "A Coru\u00f1a"
+        }
+    },
+    "37": {
+        "name": "Santander",
+        "links": {
+            "32": "Oviedo",
+            "7": "Bilbao",
+            "23": "Le\u00f3n",
+            "8": "Burgos",
+            "45": "Valladolid"
+        }
+    },
+    "38": {
+        "name": "Segovia",
+        "links": {
+            "8": "Burgos",
+            "40": "Soria",
+            "4": "\u00c1vila",
+            "45": "Valladolid",
+            "17": "Guadalajara",
+            "25": "Madrid"
+        }
+    },
+    "39": {
+        "name": "Sevilla",
+        "links": {
+            "10": "C\u00e1diz",
+            "18": "Huelva",
+            "5": "Badajoz",
+            "14": "C\u00f3rdoba",
+            "26": "M\u00e1laga"
+        }
+    },
+    "40": {
+        "name": "Soria",
+        "links": {
+            "7": "Bilbao",
+            "8": "Burgos",
+            "33": "Pamplona",
+            "38": "Segovia",
+            "47": "Zaragoza",
+            "17": "Guadalajara"
+        }
+    },
+    "41": {
+        "name": "Tarragona",
+        "links": {
+            "19": "Huesca",
+            "24": "Lleida",
+            "47": "Zaragoza",
+            "6": "Barcelona",
+            "42": "Teruel",
+            "11": "Castell\u00f3n"
+        }
+    },
+    "42": {
+        "name": "Teruel",
+        "links": {
+            "47": "Zaragoza",
+            "41": "Tarragona",
+            "44": "Valencia",
+            "15": "Cuenca",
+            "11": "Castell\u00f3n",
+            "17": "Guadalajara"
+        }
+    },
+    "43": {
+        "name": "Toledo",
+        "links": {
+            "13": "Ciudad Real",
+            "15": "Cuenca",
+            "9": "C\u00e1ceres",
+            "25": "Madrid",
+            "4": "\u00c1vila",
+            "5": "Badajoz"
+        }
+    },
+    "44": {
+        "name": "Valencia",
+        "links": {
+            "20": "Ibiza-Eivissa",
+            "30": "Murcia",
+            "2": "Albacete",
+            "15": "Cuenca",
+            "11": "Castell\u00f3n",
+            "42": "Teruel"
+        }
+    },
+    "45": {
+        "name": "Valladolid",
+        "links": {
+            "35": "Salamanca",
+            "46": "Zamora",
+            "4": "\u00c1vila",
+            "23": "Le\u00f3n",
+            "38": "Segovia",
+            "37": "Santander",
+            "8": "Burgos"
+        }
+    },
+    "46": {
+        "name": "Zamora",
+        "links": {
+            "35": "Salamanca",
+            "31": "Ourense",
+            "45": "Valladolid",
+            "23": "Le\u00f3n"
+        }
+    },
+    "47": {
+        "name": "Zaragoza",
+        "links": {
+            "33": "Pamplona",
+            "19": "Huesca",
+            "41": "Tarragona",
+            "40": "Soria",
+            "42": "Teruel",
+            "17": "Guadalajara"
+        }
+    }
+}

@@ -1,0 +1,542 @@
+{
+    "1": {
+        "name": "Achaia",
+        "links": {
+            "47": "Crete",
+            "17": "Epirus"
+        }
+    },
+    "2": {
+        "name": "Aegyptus",
+        "links": {
+            "24": "East Levant",
+            "5": "South Levant",
+            "14": "Cyrenaica"
+        }
+    },
+    "3": {
+        "name": "Africa",
+        "links": {
+            "34": "Numidia",
+            "40": "Sicilia",
+            "14": "Cyrenaica"
+        }
+    },
+    "4": {
+        "name": "Aquitania",
+        "links": {
+            "42": "Tarraconensis ",
+            "32": "Narbonensis",
+            "25": "Lugdunensis "
+        }
+    },
+    "5": {
+        "name": "South Levant",
+        "links": {
+            "41": "North Levant",
+            "24": "East Levant",
+            "2": "Aegyptus"
+        }
+    },
+    "7": {
+        "name": "Belgica",
+        "links": {
+            "9": "Britannia Inferior",
+            "21": "Germania Inferior",
+            "22": "Germania Superior",
+            "25": "Lugdunensis "
+        }
+    },
+    "8": {
+        "name": "Pontus",
+        "links": {
+            "37": "North Cappadocia",
+            "36": "Asia",
+            "18": "Galatia",
+            "43": "Thracia"
+        }
+    },
+    "9": {
+        "name": "Britannia Inferior",
+        "links": {
+            "7": "Belgica",
+            "65": "Caledonia",
+            "10": "Britannia Superior"
+        }
+    },
+    "10": {
+        "name": "Britannia Superior",
+        "links": {
+            "9": "Britannia Inferior",
+            "25": "Lugdunensis "
+        }
+    },
+    "11": {
+        "name": "South Cappadocia",
+        "links": {
+            "37": "North Cappadocia",
+            "41": "North Levant",
+            "18": "Galatia",
+            "12": "Cilicia",
+            "60": "Armenia"
+        }
+    },
+    "12": {
+        "name": "Cilicia",
+        "links": {
+            "41": "North Levant",
+            "27": "Lycia",
+            "48": "Cyprus",
+            "11": "South Cappadocia",
+            "18": "Galatia"
+        }
+    },
+    "13": {
+        "name": "Corsica",
+        "links": {
+            "39": "Sardinia",
+            "23": "Italia"
+        }
+    },
+    "14": {
+        "name": "Cyrenaica",
+        "links": {
+            "3": "Africa",
+            "2": "Aegyptus"
+        }
+    },
+    "15": {
+        "name": "Dacia",
+        "links": {
+            "30": "Moesia Inferior",
+            "54": "Hercynia",
+            "57": "Sarmatia Superior",
+            "31": "Moesia Superior"
+        }
+    },
+    "16": {
+        "name": "Dalmatia",
+        "links": {
+            "35": "Pannonia Superior",
+            "46": "Pannonia Inferior",
+            "28": "Macedonia",
+            "31": "Moesia Superior",
+            "20": "Gallia Cisalpina"
+        }
+    },
+    "17": {
+        "name": "Epirus",
+        "links": {
+            "28": "Macedonia",
+            "1": "Achaia"
+        }
+    },
+    "18": {
+        "name": "Galatia",
+        "links": {
+            "37": "North Cappadocia",
+            "36": "Asia",
+            "27": "Lycia",
+            "8": "Pontus",
+            "11": "South Cappadocia",
+            "12": "Cilicia"
+        }
+    },
+    "20": {
+        "name": "Gallia Cisalpina",
+        "links": {
+            "32": "Narbonensis",
+            "33": "Noricum",
+            "38": "Raetia",
+            "16": "Dalmatia",
+            "35": "Pannonia Superior",
+            "22": "Germania Superior",
+            "23": "Italia"
+        }
+    },
+    "21": {
+        "name": "Germania Inferior",
+        "links": {
+            "52": "Magna Germania",
+            "7": "Belgica",
+            "22": "Germania Superior"
+        }
+    },
+    "22": {
+        "name": "Germania Superior",
+        "links": {
+            "38": "Raetia",
+            "21": "Germania Inferior",
+            "52": "Magna Germania",
+            "7": "Belgica",
+            "20": "Gallia Cisalpina",
+            "32": "Narbonensis",
+            "25": "Lugdunensis "
+        }
+    },
+    "23": {
+        "name": "Italia",
+        "links": {
+            "39": "Sardinia",
+            "40": "Sicilia",
+            "20": "Gallia Cisalpina",
+            "28": "Macedonia",
+            "13": "Corsica"
+        }
+    },
+    "24": {
+        "name": "East Levant",
+        "links": {
+            "41": "North Levant",
+            "5": "South Levant",
+            "2": "Aegyptus"
+        }
+    },
+    "25": {
+        "name": "Lugdunensis ",
+        "links": {
+            "22": "Germania Superior",
+            "7": "Belgica",
+            "4": "Aquitania",
+            "10": "Britannia Superior",
+            "32": "Narbonensis"
+        }
+    },
+    "27": {
+        "name": "Lycia",
+        "links": {
+            "48": "Cyprus",
+            "36": "Asia",
+            "18": "Galatia",
+            "12": "Cilicia"
+        }
+    },
+    "28": {
+        "name": "Macedonia",
+        "links": {
+            "43": "Thracia",
+            "16": "Dalmatia",
+            "23": "Italia",
+            "17": "Epirus",
+            "31": "Moesia Superior"
+        }
+    },
+    "29": {
+        "name": "Mauretania Caesariensis",
+        "links": {
+            "50": "Mauretania Tingitana",
+            "34": "Numidia"
+        }
+    },
+    "30": {
+        "name": "Moesia Inferior",
+        "links": {
+            "57": "Sarmatia Superior",
+            "58": "Ponto",
+            "15": "Dacia",
+            "31": "Moesia Superior",
+            "43": "Thracia"
+        }
+    },
+    "31": {
+        "name": "Moesia Superior",
+        "links": {
+            "30": "Moesia Inferior",
+            "43": "Thracia",
+            "16": "Dalmatia",
+            "54": "Hercynia",
+            "15": "Dacia",
+            "46": "Pannonia Inferior",
+            "28": "Macedonia"
+        }
+    },
+    "32": {
+        "name": "Narbonensis",
+        "links": {
+            "25": "Lugdunensis ",
+            "20": "Gallia Cisalpina",
+            "4": "Aquitania",
+            "42": "Tarraconensis ",
+            "22": "Germania Superior"
+        }
+    },
+    "33": {
+        "name": "Noricum",
+        "links": {
+            "20": "Gallia Cisalpina",
+            "38": "Raetia",
+            "54": "Hercynia",
+            "35": "Pannonia Superior"
+        }
+    },
+    "34": {
+        "name": "Numidia",
+        "links": {
+            "29": "Mauretania Caesariensis",
+            "3": "Africa"
+        }
+    },
+    "35": {
+        "name": "Pannonia Superior",
+        "links": {
+            "16": "Dalmatia",
+            "54": "Hercynia",
+            "46": "Pannonia Inferior",
+            "33": "Noricum",
+            "20": "Gallia Cisalpina"
+        }
+    },
+    "36": {
+        "name": "Asia",
+        "links": {
+            "27": "Lycia",
+            "18": "Galatia",
+            "47": "Crete",
+            "8": "Pontus",
+            "43": "Thracia"
+        }
+    },
+    "37": {
+        "name": "North Cappadocia",
+        "links": {
+            "18": "Galatia",
+            "11": "South Cappadocia",
+            "8": "Pontus"
+        }
+    },
+    "38": {
+        "name": "Raetia",
+        "links": {
+            "54": "Hercynia",
+            "22": "Germania Superior",
+            "52": "Magna Germania",
+            "20": "Gallia Cisalpina",
+            "33": "Noricum"
+        }
+    },
+    "39": {
+        "name": "Sardinia",
+        "links": {
+            "23": "Italia",
+            "13": "Corsica"
+        }
+    },
+    "40": {
+        "name": "Sicilia",
+        "links": {
+            "3": "Africa",
+            "23": "Italia"
+        }
+    },
+    "41": {
+        "name": "North Levant",
+        "links": {
+            "11": "South Cappadocia",
+            "24": "East Levant",
+            "5": "South Levant",
+            "62": "Mesopotamia",
+            "12": "Cilicia",
+            "60": "Armenia"
+        }
+    },
+    "42": {
+        "name": "Tarraconensis ",
+        "links": {
+            "44": "Gallaecia et Asturia",
+            "49": "Baleares",
+            "45": "Lusitania ",
+            "64": "Baetica",
+            "4": "Aquitania",
+            "32": "Narbonensis"
+        }
+    },
+    "43": {
+        "name": "Thracia",
+        "links": {
+            "30": "Moesia Inferior",
+            "36": "Asia",
+            "8": "Pontus",
+            "28": "Macedonia",
+            "31": "Moesia Superior"
+        }
+    },
+    "44": {
+        "name": "Gallaecia et Asturia",
+        "links": {
+            "42": "Tarraconensis ",
+            "45": "Lusitania "
+        }
+    },
+    "45": {
+        "name": "Lusitania ",
+        "links": {
+            "42": "Tarraconensis ",
+            "44": "Gallaecia et Asturia",
+            "64": "Baetica"
+        }
+    },
+    "46": {
+        "name": "Pannonia Inferior",
+        "links": {
+            "35": "Pannonia Superior",
+            "16": "Dalmatia",
+            "54": "Hercynia",
+            "31": "Moesia Superior"
+        }
+    },
+    "47": {
+        "name": "Crete",
+        "links": {
+            "1": "Achaia",
+            "36": "Asia"
+        }
+    },
+    "48": {
+        "name": "Cyprus",
+        "links": {
+            "27": "Lycia",
+            "12": "Cilicia"
+        }
+    },
+    "49": {
+        "name": "Baleares",
+        "links": {
+            "42": "Tarraconensis "
+        }
+    },
+    "50": {
+        "name": "Mauretania Tingitana",
+        "links": {
+            "29": "Mauretania Caesariensis",
+            "64": "Baetica"
+        }
+    },
+    "51": {
+        "name": "Hibernia",
+        "links": {
+            "65": "Caledonia"
+        }
+    },
+    "52": {
+        "name": "Magna Germania",
+        "links": {
+            "54": "Hercynia",
+            "38": "Raetia",
+            "21": "Germania Inferior",
+            "22": "Germania Superior",
+            "55": "Suebi"
+        }
+    },
+    "53": {
+        "name": "Silesia",
+        "links": {
+            "54": "Hercynia",
+            "55": "Suebi",
+            "56": "Sarmatia Inferior",
+            "57": "Sarmatia Superior"
+        }
+    },
+    "54": {
+        "name": "Hercynia",
+        "links": {
+            "35": "Pannonia Superior",
+            "38": "Raetia",
+            "15": "Dacia",
+            "52": "Magna Germania",
+            "55": "Suebi",
+            "46": "Pannonia Inferior",
+            "53": "Silesia",
+            "57": "Sarmatia Superior",
+            "33": "Noricum",
+            "31": "Moesia Superior"
+        }
+    },
+    "55": {
+        "name": "Suebi",
+        "links": {
+            "54": "Hercynia",
+            "52": "Magna Germania",
+            "56": "Sarmatia Inferior",
+            "53": "Silesia"
+        }
+    },
+    "56": {
+        "name": "Sarmatia Inferior",
+        "links": {
+            "53": "Silesia",
+            "57": "Sarmatia Superior",
+            "55": "Suebi"
+        }
+    },
+    "57": {
+        "name": "Sarmatia Superior",
+        "links": {
+            "30": "Moesia Inferior",
+            "54": "Hercynia",
+            "15": "Dacia",
+            "56": "Sarmatia Inferior",
+            "58": "Ponto",
+            "53": "Silesia"
+        }
+    },
+    "58": {
+        "name": "Ponto",
+        "links": {
+            "30": "Moesia Inferior",
+            "59": "Bospurus",
+            "57": "Sarmatia Superior"
+        }
+    },
+    "59": {
+        "name": "Bospurus",
+        "links": {
+            "58": "Ponto"
+        }
+    },
+    "60": {
+        "name": "Armenia",
+        "links": {
+            "61": "Assyria",
+            "41": "North Levant",
+            "11": "South Cappadocia",
+            "62": "Mesopotamia"
+        }
+    },
+    "61": {
+        "name": "Assyria",
+        "links": {
+            "60": "Armenia",
+            "62": "Mesopotamia"
+        }
+    },
+    "62": {
+        "name": "Mesopotamia",
+        "links": {
+            "61": "Assyria",
+            "41": "North Levant",
+            "63": "Babylonia",
+            "60": "Armenia"
+        }
+    },
+    "63": {
+        "name": "Babylonia",
+        "links": {
+            "62": "Mesopotamia"
+        }
+    },
+    "64": {
+        "name": "Baetica",
+        "links": {
+            "42": "Tarraconensis ",
+            "45": "Lusitania ",
+            "50": "Mauretania Tingitana"
+        }
+    },
+    "65": {
+        "name": "Caledonia",
+        "links": {
+            "9": "Britannia Inferior",
+            "51": "Hibernia"
+        }
+    }
+}

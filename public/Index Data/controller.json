@@ -1,0 +1,439 @@
+{
+    "1": {
+        "name": "Cable Command",
+        "links": {
+            "4": "Fuse Firingline",
+            "42": "Control Chip Courtyard",
+            "47": "Right Trigger Runway",
+            "2": "L Cancel Chasm"
+        }
+    },
+    "2": {
+        "name": "L Cancel Chasm",
+        "links": {
+            "1": "Cable Command",
+            "3": "Left Trigger Landing",
+            "17": "Directional Defence",
+            "16": "Magnet Mainframe"
+        }
+    },
+    "3": {
+        "name": "Left Trigger Landing",
+        "links": {
+            "2": "L Cancel Chasm",
+            "17": "Directional Defence",
+            "5": "Wavedash Wreckage",
+            "11": "Digger Deadzone"
+        }
+    },
+    "4": {
+        "name": "Fuse Firingline",
+        "links": {
+            "42": "Control Chip Courtyard",
+            "43": "Cyber Capture",
+            "1": "Cable Command"
+        }
+    },
+    "5": {
+        "name": "Wavedash Wreckage",
+        "links": {
+            "3": "Left Trigger Landing",
+            "11": "Digger Deadzone"
+        }
+    },
+    "6": {
+        "name": "Special Strike",
+        "links": {
+            "10": "Stickbox Stronghold",
+            "8": "Rappel Raid",
+            "7": "Potentiometer Peak"
+        }
+    },
+    "7": {
+        "name": "Potentiometer Peak",
+        "links": {
+            "10": "Stickbox Stronghold",
+            "6": "Special Strike"
+        }
+    },
+    "8": {
+        "name": "Rappel Raid",
+        "links": {
+            "24": "Resistor Resistence",
+            "6": "Special Strike",
+            "9": "Anzac Archway"
+        }
+    },
+    "9": {
+        "name": "Anzac Archway",
+        "links": {
+            "24": "Resistor Resistence",
+            "8": "Rappel Raid"
+        }
+    },
+    "10": {
+        "name": "Stickbox Stronghold",
+        "links": {
+            "6": "Special Strike",
+            "7": "Potentiometer Peak"
+        }
+    },
+    "11": {
+        "name": "Digger Deadzone",
+        "links": {
+            "3": "Left Trigger Landing",
+            "12": "Transistor Target",
+            "5": "Wavedash Wreckage",
+            "14": "Stickbox Stronghold ",
+            "17": "Directional Defence",
+            "13": "SNAFU Site"
+        }
+    },
+    "12": {
+        "name": "Transistor Target",
+        "links": {
+            "35": "Psyop Park",
+            "14": "Stickbox Stronghold ",
+            "13": "SNAFU Site",
+            "18": "Capacitor Catwalk",
+            "41": "Wire Warfare",
+            "11": "Digger Deadzone"
+        }
+    },
+    "13": {
+        "name": "SNAFU Site",
+        "links": {
+            "41": "Wire Warfare",
+            "15": "Propaganda Perimeter",
+            "11": "Digger Deadzone",
+            "12": "Transistor Target"
+        }
+    },
+    "14": {
+        "name": "Stickbox Stronghold ",
+        "links": {
+            "18": "Capacitor Catwalk",
+            "11": "Digger Deadzone",
+            "12": "Transistor Target",
+            "17": "Directional Defence"
+        }
+    },
+    "15": {
+        "name": "Propaganda Perimeter",
+        "links": {
+            "41": "Wire Warfare",
+            "13": "SNAFU Site"
+        }
+    },
+    "16": {
+        "name": "Magnet Mainframe",
+        "links": {
+            "45": "Crystal Counter",
+            "17": "Directional Defence",
+            "44": "Starting Stronghold",
+            "42": "Control Chip Courtyard",
+            "18": "Capacitor Catwalk",
+            "2": "L Cancel Chasm"
+        }
+    },
+    "17": {
+        "name": "Directional Defence",
+        "links": {
+            "11": "Digger Deadzone",
+            "16": "Magnet Mainframe",
+            "14": "Stickbox Stronghold ",
+            "2": "L Cancel Chasm",
+            "3": "Left Trigger Landing",
+            "18": "Capacitor Catwalk"
+        }
+    },
+    "18": {
+        "name": "Capacitor Catwalk",
+        "links": {
+            "45": "Crystal Counter",
+            "17": "Directional Defence",
+            "34": "Manic Minefield",
+            "35": "Psyop Park",
+            "14": "Stickbox Stronghold ",
+            "12": "Transistor Target",
+            "16": "Magnet Mainframe"
+        }
+    },
+    "19": {
+        "name": "Yorkshire Yield",
+        "links": {
+            "23": "High Kick Highrise",
+            "21": "Standard Attack",
+            "47": "Right Trigger Runway",
+            "27": "Airport Assembly"
+        }
+    },
+    "20": {
+        "name": "Diode Deception",
+        "links": {
+            "24": "Resistor Resistence",
+            "25": "Explosive Extraction",
+            "28": "Uppercut Underpass"
+        }
+    },
+    "21": {
+        "name": "Standard Attack",
+        "links": {
+            "23": "High Kick Highrise",
+            "19": "Yorkshire Yield",
+            "22": "Zero Day Zone"
+        }
+    },
+    "22": {
+        "name": "Zero Day Zone",
+        "links": {
+            "23": "High Kick Highrise",
+            "21": "Standard Attack"
+        }
+    },
+    "23": {
+        "name": "High Kick Highrise",
+        "links": {
+            "26": "Action Assault",
+            "25": "Explosive Extraction",
+            "22": "Zero Day Zone",
+            "27": "Airport Assembly",
+            "21": "Standard Attack",
+            "19": "Yorkshire Yield",
+            "28": "Uppercut Underpass"
+        }
+    },
+    "24": {
+        "name": "Resistor Resistence",
+        "links": {
+            "26": "Action Assault",
+            "27": "Airport Assembly",
+            "9": "Anzac Archway",
+            "20": "Diode Deception",
+            "28": "Uppercut Underpass",
+            "8": "Rappel Raid"
+        }
+    },
+    "25": {
+        "name": "Explosive Extraction",
+        "links": {
+            "20": "Diode Deception",
+            "28": "Uppercut Underpass",
+            "23": "High Kick Highrise"
+        }
+    },
+    "26": {
+        "name": "Action Assault",
+        "links": {
+            "28": "Uppercut Underpass",
+            "23": "High Kick Highrise",
+            "24": "Resistor Resistence",
+            "27": "Airport Assembly"
+        }
+    },
+    "27": {
+        "name": "Airport Assembly",
+        "links": {
+            "24": "Resistor Resistence",
+            "26": "Action Assault",
+            "43": "Cyber Capture",
+            "23": "High Kick Highrise",
+            "19": "Yorkshire Yield",
+            "46": "Lethal Logic Gate",
+            "47": "Right Trigger Runway",
+            "29": "Backalley Battlegrounds"
+        }
+    },
+    "28": {
+        "name": "Uppercut Underpass",
+        "links": {
+            "23": "High Kick Highrise",
+            "20": "Diode Deception",
+            "24": "Resistor Resistence",
+            "25": "Explosive Extraction",
+            "26": "Action Assault"
+        }
+    },
+    "29": {
+        "name": "Backalley Battlegrounds",
+        "links": {
+            "27": "Airport Assembly"
+        }
+    },
+    "30": {
+        "name": "Luietenants Leftfield",
+        "links": {
+            "37": "Death Dome",
+            "34": "Manic Minefield",
+            "36": "Static Skirmish",
+            "40": "Order Outskirts"
+        }
+    },
+    "31": {
+        "name": "Declassified Downtown",
+        "links": {
+            "39": "Breakpoint Beach",
+            "40": "Order Outskirts",
+            "37": "Death Dome"
+        }
+    },
+    "32": {
+        "name": "Regament Rite",
+        "links": {
+            "39": "Breakpoint Beach",
+            "38": "Claymore Canyon",
+            "37": "Death Dome"
+        }
+    },
+    "33": {
+        "name": "Unclassified Uptown",
+        "links": {
+            "38": "Claymore Canyon",
+            "37": "Death Dome",
+            "34": "Manic Minefield"
+        }
+    },
+    "34": {
+        "name": "Manic Minefield",
+        "links": {
+            "30": "Luietenants Leftfield",
+            "37": "Death Dome",
+            "18": "Capacitor Catwalk",
+            "38": "Claymore Canyon",
+            "33": "Unclassified Uptown",
+            "45": "Crystal Counter",
+            "35": "Psyop Park",
+            "36": "Static Skirmish"
+        }
+    },
+    "35": {
+        "name": "Psyop Park",
+        "links": {
+            "41": "Wire Warfare",
+            "12": "Transistor Target",
+            "34": "Manic Minefield",
+            "18": "Capacitor Catwalk",
+            "36": "Static Skirmish"
+        }
+    },
+    "36": {
+        "name": "Static Skirmish",
+        "links": {
+            "40": "Order Outskirts",
+            "35": "Psyop Park",
+            "30": "Luietenants Leftfield",
+            "34": "Manic Minefield"
+        }
+    },
+    "37": {
+        "name": "Death Dome",
+        "links": {
+            "30": "Luietenants Leftfield",
+            "31": "Declassified Downtown",
+            "32": "Regament Rite",
+            "38": "Claymore Canyon",
+            "34": "Manic Minefield",
+            "40": "Order Outskirts",
+            "33": "Unclassified Uptown",
+            "39": "Breakpoint Beach"
+        }
+    },
+    "38": {
+        "name": "Claymore Canyon",
+        "links": {
+            "37": "Death Dome",
+            "32": "Regament Rite",
+            "34": "Manic Minefield",
+            "33": "Unclassified Uptown",
+            "39": "Breakpoint Beach"
+        }
+    },
+    "39": {
+        "name": "Breakpoint Beach",
+        "links": {
+            "32": "Regament Rite",
+            "38": "Claymore Canyon",
+            "40": "Order Outskirts",
+            "31": "Declassified Downtown",
+            "37": "Death Dome"
+        }
+    },
+    "40": {
+        "name": "Order Outskirts",
+        "links": {
+            "30": "Luietenants Leftfield",
+            "36": "Static Skirmish",
+            "31": "Declassified Downtown",
+            "37": "Death Dome",
+            "39": "Breakpoint Beach"
+        }
+    },
+    "41": {
+        "name": "Wire Warfare",
+        "links": {
+            "35": "Psyop Park",
+            "12": "Transistor Target",
+            "13": "SNAFU Site",
+            "15": "Propaganda Perimeter"
+        }
+    },
+    "42": {
+        "name": "Control Chip Courtyard",
+        "links": {
+            "43": "Cyber Capture",
+            "1": "Cable Command",
+            "16": "Magnet Mainframe",
+            "44": "Starting Stronghold",
+            "4": "Fuse Firingline"
+        }
+    },
+    "43": {
+        "name": "Cyber Capture",
+        "links": {
+            "4": "Fuse Firingline",
+            "27": "Airport Assembly",
+            "46": "Lethal Logic Gate",
+            "42": "Control Chip Courtyard",
+            "47": "Right Trigger Runway",
+            "45": "Crystal Counter",
+            "44": "Starting Stronghold"
+        }
+    },
+    "44": {
+        "name": "Starting Stronghold",
+        "links": {
+            "45": "Crystal Counter",
+            "43": "Cyber Capture",
+            "42": "Control Chip Courtyard",
+            "16": "Magnet Mainframe"
+        }
+    },
+    "45": {
+        "name": "Crystal Counter",
+        "links": {
+            "44": "Starting Stronghold",
+            "43": "Cyber Capture",
+            "34": "Manic Minefield",
+            "16": "Magnet Mainframe",
+            "18": "Capacitor Catwalk",
+            "46": "Lethal Logic Gate"
+        }
+    },
+    "46": {
+        "name": "Lethal Logic Gate",
+        "links": {
+            "43": "Cyber Capture",
+            "27": "Airport Assembly",
+            "45": "Crystal Counter"
+        }
+    },
+    "47": {
+        "name": "Right Trigger Runway",
+        "links": {
+            "43": "Cyber Capture",
+            "27": "Airport Assembly",
+            "1": "Cable Command",
+            "19": "Yorkshire Yield"
+        }
+    }
+}

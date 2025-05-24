@@ -1,0 +1,159 @@
+{
+    "1": {
+        "name": "Andean States",
+        "links": {
+            "17": "The Guianas",
+            "2": "Brazil",
+            "8": "Eastern Australia"
+        }
+    },
+    "2": {
+        "name": "Brazil",
+        "links": {
+            "12": "North Africa",
+            "1": "Andean States",
+            "17": "The Guianas"
+        }
+    },
+    "3": {
+        "name": "British Isles",
+        "links": {
+            "10": "Mainland Europe",
+            "14": "Scandinavia"
+        }
+    },
+    "4": {
+        "name": "Canada",
+        "links": {
+            "9": "Greenland",
+            "18": "USA",
+            "13": "Russia"
+        }
+    },
+    "5": {
+        "name": "Central Africa",
+        "links": {
+            "11": "Middle East",
+            "15": "South Africa",
+            "12": "North Africa"
+        }
+    },
+    "6": {
+        "name": "Central America",
+        "links": {
+            "17": "The Guianas",
+            "18": "USA"
+        }
+    },
+    "7": {
+        "name": "China",
+        "links": {
+            "13": "Russia",
+            "16": "South East Asia",
+            "11": "Middle East",
+            "10": "Mainland Europe"
+        }
+    },
+    "8": {
+        "name": "Eastern Australia",
+        "links": {
+            "16": "South East Asia",
+            "19": "Western Australia",
+            "1": "Andean States"
+        }
+    },
+    "9": {
+        "name": "Greenland",
+        "links": {
+            "4": "Canada",
+            "14": "Scandinavia"
+        }
+    },
+    "10": {
+        "name": "Mainland Europe",
+        "links": {
+            "7": "China",
+            "11": "Middle East",
+            "13": "Russia",
+            "3": "British Isles",
+            "14": "Scandinavia",
+            "12": "North Africa"
+        }
+    },
+    "11": {
+        "name": "Middle East",
+        "links": {
+            "7": "China",
+            "10": "Mainland Europe",
+            "16": "South East Asia",
+            "5": "Central Africa",
+            "12": "North Africa"
+        }
+    },
+    "12": {
+        "name": "North Africa",
+        "links": {
+            "10": "Mainland Europe",
+            "11": "Middle East",
+            "5": "Central Africa",
+            "2": "Brazil"
+        }
+    },
+    "13": {
+        "name": "Russia",
+        "links": {
+            "7": "China",
+            "14": "Scandinavia",
+            "10": "Mainland Europe",
+            "4": "Canada"
+        }
+    },
+    "14": {
+        "name": "Scandinavia",
+        "links": {
+            "9": "Greenland",
+            "13": "Russia",
+            "3": "British Isles",
+            "10": "Mainland Europe"
+        }
+    },
+    "15": {
+        "name": "South Africa",
+        "links": {
+            "5": "Central Africa",
+            "19": "Western Australia"
+        }
+    },
+    "16": {
+        "name": "South East Asia",
+        "links": {
+            "7": "China",
+            "8": "Eastern Australia",
+            "11": "Middle East",
+            "19": "Western Australia"
+        }
+    },
+    "17": {
+        "name": "The Guianas",
+        "links": {
+            "1": "Andean States",
+            "6": "Central America",
+            "2": "Brazil"
+        }
+    },
+    "18": {
+        "name": "USA",
+        "links": {
+            "6": "Central America",
+            "4": "Canada"
+        }
+    },
+    "19": {
+        "name": "Western Australia",
+        "links": {
+            "16": "South East Asia",
+            "8": "Eastern Australia",
+            "15": "South Africa"
+        }
+    }
+}

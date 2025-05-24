@@ -1,0 +1,458 @@
+{
+    "1": {
+        "name": "Butchers",
+        "links": {
+            "9": "Farmers",
+            "52": "South Road"
+        }
+    },
+    "2": {
+        "name": "Center Road",
+        "links": {
+            "5": "Corn Storage",
+            "9": "Farmers",
+            "23": "Live Stock North",
+            "52": "South Road",
+            "33": "North Road"
+        }
+    },
+    "3": {
+        "name": "Choonsai House",
+        "links": {
+            "21": "Koko-en North"
+        }
+    },
+    "4": {
+        "name": "City Road",
+        "links": {
+            "48": "Shollars",
+            "19": "Kiseimon Gate",
+            "29": "Military Inn",
+            "30": "Moat Island"
+        }
+    },
+    "5": {
+        "name": "Corn Storage",
+        "links": {
+            "33": "North Road",
+            "2": "Center Road",
+            "27": "Meat Storage"
+        }
+    },
+    "6": {
+        "name": "Docks",
+        "links": {
+            "19": "Kiseimon Gate",
+            "56": "Trader Route"
+        }
+    },
+    "7": {
+        "name": "East Path",
+        "links": {
+            "51": "South Path",
+            "46": "Shimosanri Walls East",
+            "30": "Moat Island",
+            "38": "Sannomaru Square"
+        }
+    },
+    "8": {
+        "name": "East Wall",
+        "links": {
+            "41": "Segakushi Park East",
+            "19": "Kiseimon Gate",
+            "46": "Shimosanri Walls East",
+            "34": "North Wall"
+        }
+    },
+    "9": {
+        "name": "Farmers",
+        "links": {
+            "2": "Center Road",
+            "1": "Butchers"
+        }
+    },
+    "10": {
+        "name": "Fish Market",
+        "links": {
+            "56": "Trader Route",
+            "32": "North Pass"
+        }
+    },
+    "11": {
+        "name": "Fishery",
+        "links": {
+            "52": "South Road"
+        }
+    },
+    "12": {
+        "name": "Forest Inn",
+        "links": {
+            "52": "South Road"
+        }
+    },
+    "13": {
+        "name": "Guards",
+        "links": {
+            "19": "Kiseimon Gate"
+        }
+    },
+    "14": {
+        "name": "Guest Inn",
+        "links": {
+            "19": "Kiseimon Gate"
+        }
+    },
+    "15": {
+        "name": "Harakirimaru",
+        "links": {
+            "16": "Himeji Castle",
+            "18": "Kaminowamazato"
+        }
+    },
+    "16": {
+        "name": "Himeji Castle",
+        "links": {
+            "58": "Ubagaishi",
+            "15": "Harakirimaru"
+        }
+    },
+    "17": {
+        "name": "Hishi Gate",
+        "links": {
+            "59": "West Path",
+            "31": "Nishinomaru",
+            "28": "Mikuni Moat"
+        }
+    },
+    "18": {
+        "name": "Kaminowamazato",
+        "links": {
+            "15": "Harakirimaru",
+            "28": "Mikuni Moat"
+        }
+    },
+    "19": {
+        "name": "Kiseimon Gate",
+        "links": {
+            "8": "East Wall",
+            "6": "Docks",
+            "4": "City Road",
+            "13": "Guards",
+            "56": "Trader Route",
+            "55": "Temple South",
+            "14": "Guest Inn"
+        }
+    },
+    "20": {
+        "name": "Koko-en Bridge",
+        "links": {
+            "51": "South Path",
+            "22": "Koko-en South",
+            "57": "Tsukiyama-chisen Garden"
+        }
+    },
+    "21": {
+        "name": "Koko-en North",
+        "links": {
+            "22": "Koko-en South",
+            "3": "Choonsai House",
+            "52": "South Road",
+            "37": "Oyashiki West"
+        }
+    },
+    "22": {
+        "name": "Koko-en South",
+        "links": {
+            "20": "Koko-en Bridge",
+            "50": "Small River South",
+            "49": "Small River North",
+            "21": "Koko-en North",
+            "35": "Oyashiki East",
+            "57": "Tsukiyama-chisen Garden"
+        }
+    },
+    "23": {
+        "name": "Live Stock North",
+        "links": {
+            "2": "Center Road",
+            "24": "Live Stock South"
+        }
+    },
+    "24": {
+        "name": "Live Stock South",
+        "links": {
+            "23": "Live Stock North",
+            "52": "South Road"
+        }
+    },
+    "25": {
+        "name": "Market",
+        "links": {
+            "26": "Market Road"
+        }
+    },
+    "26": {
+        "name": "Market Road",
+        "links": {
+            "56": "Trader Route",
+            "32": "North Pass",
+            "54": "Temple North",
+            "25": "Market"
+        }
+    },
+    "27": {
+        "name": "Meat Storage",
+        "links": {
+            "5": "Corn Storage"
+        }
+    },
+    "28": {
+        "name": "Mikuni Moat",
+        "links": {
+            "18": "Kaminowamazato",
+            "17": "Hishi Gate"
+        }
+    },
+    "29": {
+        "name": "Military Inn",
+        "links": {
+            "4": "City Road"
+        }
+    },
+    "30": {
+        "name": "Moat Island",
+        "links": {
+            "4": "City Road",
+            "7": "East Path"
+        }
+    },
+    "31": {
+        "name": "Nishinomaru",
+        "links": {
+            "17": "Hishi Gate",
+            "58": "Ubagaishi"
+        }
+    },
+    "32": {
+        "name": "North Pass",
+        "links": {
+            "10": "Fish Market",
+            "45": "Senhime-no-Komichi",
+            "26": "Market Road"
+        }
+    },
+    "33": {
+        "name": "North Road",
+        "links": {
+            "45": "Senhime-no-Komichi",
+            "5": "Corn Storage",
+            "2": "Center Road"
+        }
+    },
+    "34": {
+        "name": "North Wall",
+        "links": {
+            "8": "East Wall",
+            "53": "Steep Wall"
+        }
+    },
+    "35": {
+        "name": "Oyashiki East",
+        "links": {
+            "36": "Oyashiki North",
+            "22": "Koko-en South",
+            "37": "Oyashiki West"
+        }
+    },
+    "36": {
+        "name": "Oyashiki North",
+        "links": {
+            "37": "Oyashiki West",
+            "40": "Segakushi Gate West",
+            "35": "Oyashiki East"
+        }
+    },
+    "37": {
+        "name": "Oyashiki West",
+        "links": {
+            "21": "Koko-en North",
+            "36": "Oyashiki North",
+            "35": "Oyashiki East"
+        }
+    },
+    "38": {
+        "name": "Sannomaru Square",
+        "links": {
+            "7": "East Path",
+            "51": "South Path"
+        }
+    },
+    "39": {
+        "name": "Segakushi Gate East",
+        "links": {
+            "40": "Segakushi Gate West",
+            "42": "Segakushi Park West"
+        }
+    },
+    "40": {
+        "name": "Segakushi Gate West",
+        "links": {
+            "45": "Senhime-no-Komichi",
+            "39": "Segakushi Gate East",
+            "36": "Oyashiki North"
+        }
+    },
+    "41": {
+        "name": "Segakushi Park East",
+        "links": {
+            "42": "Segakushi Park West",
+            "8": "East Wall"
+        }
+    },
+    "42": {
+        "name": "Segakushi Park West",
+        "links": {
+            "39": "Segakushi Gate East",
+            "41": "Segakushi Park East"
+        }
+    },
+    "43": {
+        "name": "Senhime Botan East",
+        "links": {
+            "51": "South Path",
+            "44": "Senhime Botan West"
+        }
+    },
+    "44": {
+        "name": "Senhime Botan West",
+        "links": {
+            "43": "Senhime Botan East",
+            "59": "West Path"
+        }
+    },
+    "45": {
+        "name": "Senhime-no-Komichi",
+        "links": {
+            "32": "North Pass",
+            "40": "Segakushi Gate West",
+            "33": "North Road"
+        }
+    },
+    "46": {
+        "name": "Shimosanri Walls East",
+        "links": {
+            "47": "Shimosanri Walls West",
+            "8": "East Wall",
+            "7": "East Path"
+        }
+    },
+    "47": {
+        "name": "Shimosanri Walls West",
+        "links": {
+            "59": "West Path",
+            "46": "Shimosanri Walls East"
+        }
+    },
+    "48": {
+        "name": "Shollars",
+        "links": {
+            "4": "City Road"
+        }
+    },
+    "49": {
+        "name": "Small River North",
+        "links": {
+            "50": "Small River South",
+            "22": "Koko-en South"
+        }
+    },
+    "50": {
+        "name": "Small River South",
+        "links": {
+            "22": "Koko-en South",
+            "49": "Small River North"
+        }
+    },
+    "51": {
+        "name": "South Path",
+        "links": {
+            "59": "West Path",
+            "7": "East Path",
+            "38": "Sannomaru Square",
+            "20": "Koko-en Bridge",
+            "43": "Senhime Botan East"
+        }
+    },
+    "52": {
+        "name": "South Road",
+        "links": {
+            "1": "Butchers",
+            "11": "Fishery",
+            "21": "Koko-en North",
+            "24": "Live Stock South",
+            "2": "Center Road",
+            "12": "Forest Inn"
+        }
+    },
+    "53": {
+        "name": "Steep Wall",
+        "links": {
+            "34": "North Wall",
+            "60": "West Wall"
+        }
+    },
+    "54": {
+        "name": "Temple North",
+        "links": {
+            "55": "Temple South",
+            "26": "Market Road"
+        }
+    },
+    "55": {
+        "name": "Temple South",
+        "links": {
+            "19": "Kiseimon Gate",
+            "54": "Temple North"
+        }
+    },
+    "56": {
+        "name": "Trader Route",
+        "links": {
+            "10": "Fish Market",
+            "6": "Docks",
+            "26": "Market Road",
+            "19": "Kiseimon Gate"
+        }
+    },
+    "57": {
+        "name": "Tsukiyama-chisen Garden",
+        "links": {
+            "22": "Koko-en South",
+            "20": "Koko-en Bridge"
+        }
+    },
+    "58": {
+        "name": "Ubagaishi",
+        "links": {
+            "31": "Nishinomaru",
+            "16": "Himeji Castle"
+        }
+    },
+    "59": {
+        "name": "West Path",
+        "links": {
+            "47": "Shimosanri Walls West",
+            "60": "West Wall",
+            "17": "Hishi Gate",
+            "51": "South Path",
+            "44": "Senhime Botan West"
+        }
+    },
+    "60": {
+        "name": "West Wall",
+        "links": {
+            "53": "Steep Wall",
+            "59": "West Path"
+        }
+    }
+}

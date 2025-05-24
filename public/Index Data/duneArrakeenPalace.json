@@ -1,0 +1,290 @@
+{
+    "1": {
+        "name": "Kitchens",
+        "links": {
+            "2": "House Keeping",
+            "11": "Lower Passage West"
+        }
+    },
+    "2": {
+        "name": "House Keeping",
+        "links": {
+            "9": "War Room",
+            "24": "Council Chambers",
+            "4": "North Hall",
+            "11": "Lower Passage West",
+            "1": "Kitchens",
+            "3": "Master Room",
+            "10": "Gallery Hall"
+        }
+    },
+    "3": {
+        "name": "Master Room",
+        "links": {
+            "9": "War Room",
+            "4": "North Hall",
+            "2": "House Keeping"
+        }
+    },
+    "4": {
+        "name": "North Hall",
+        "links": {
+            "9": "War Room",
+            "24": "Council Chambers",
+            "7": "Paul's Room",
+            "5": "Main Hall",
+            "2": "House Keeping",
+            "25": "Throne Room",
+            "3": "Master Room"
+        }
+    },
+    "5": {
+        "name": "Main Hall",
+        "links": {
+            "9": "War Room",
+            "6": "Stairs West",
+            "4": "North Hall",
+            "8": "Stairs East",
+            "25": "Throne Room",
+            "12": "South Hall"
+        }
+    },
+    "6": {
+        "name": "Stairs West",
+        "links": {
+            "9": "War Room",
+            "5": "Main Hall"
+        }
+    },
+    "7": {
+        "name": "Paul's Room",
+        "links": {
+            "24": "Council Chambers",
+            "4": "North Hall",
+            "25": "Throne Room"
+        }
+    },
+    "8": {
+        "name": "Stairs East",
+        "links": {
+            "5": "Main Hall",
+            "25": "Throne Room"
+        }
+    },
+    "9": {
+        "name": "War Room",
+        "links": {
+            "6": "Stairs West",
+            "4": "North Hall",
+            "13": "Guest Bedroom",
+            "5": "Main Hall",
+            "2": "House Keeping",
+            "17": "Great Dining Hall",
+            "3": "Master Room",
+            "10": "Gallery Hall",
+            "12": "South Hall"
+        }
+    },
+    "10": {
+        "name": "Gallery Hall",
+        "links": {
+            "9": "War Room",
+            "2": "House Keeping",
+            "11": "Lower Passage West",
+            "17": "Great Dining Hall"
+        }
+    },
+    "11": {
+        "name": "Lower Passage West",
+        "links": {
+            "2": "House Keeping",
+            "18": "Shield Generator Room",
+            "1": "Kitchens",
+            "17": "Great Dining Hall",
+            "10": "Gallery Hall"
+        }
+    },
+    "12": {
+        "name": "South Hall",
+        "links": {
+            "9": "War Room",
+            "13": "Guest Bedroom",
+            "5": "Main Hall",
+            "25": "Throne Room",
+            "16": "Leto's Office",
+            "14": "Balcony West",
+            "15": "Balcony East"
+        }
+    },
+    "13": {
+        "name": "Guest Bedroom",
+        "links": {
+            "9": "War Room",
+            "17": "Great Dining Hall",
+            "14": "Balcony West",
+            "12": "South Hall"
+        }
+    },
+    "14": {
+        "name": "Balcony West",
+        "links": {
+            "13": "Guest Bedroom",
+            "21": "West Corridor",
+            "17": "Great Dining Hall",
+            "12": "South Hall",
+            "15": "Balcony East"
+        }
+    },
+    "15": {
+        "name": "Balcony East",
+        "links": {
+            "28": "Great Library",
+            "22": "East Corridor",
+            "16": "Leto's Office",
+            "14": "Balcony West",
+            "12": "South Hall"
+        }
+    },
+    "16": {
+        "name": "Leto's Office",
+        "links": {
+            "28": "Great Library",
+            "25": "Throne Room",
+            "12": "South Hall",
+            "15": "Balcony East"
+        }
+    },
+    "17": {
+        "name": "Great Dining Hall",
+        "links": {
+            "9": "War Room",
+            "13": "Guest Bedroom",
+            "11": "Lower Passage West",
+            "18": "Shield Generator Room",
+            "21": "West Corridor",
+            "14": "Balcony West",
+            "10": "Gallery Hall"
+        }
+    },
+    "18": {
+        "name": "Shield Generator Room",
+        "links": {
+            "11": "Lower Passage West",
+            "19": "Guard's Quarters West",
+            "21": "West Corridor",
+            "17": "Great Dining Hall"
+        }
+    },
+    "19": {
+        "name": "Guard's Quarters West",
+        "links": {
+            "18": "Shield Generator Room"
+        }
+    },
+    "20": {
+        "name": "Residency Courtyard",
+        "links": {
+            "22": "East Corridor",
+            "21": "West Corridor"
+        }
+    },
+    "21": {
+        "name": "West Corridor",
+        "links": {
+            "20": "Residency Courtyard",
+            "22": "East Corridor",
+            "18": "Shield Generator Room",
+            "17": "Great Dining Hall",
+            "14": "Balcony West"
+        }
+    },
+    "22": {
+        "name": "East Corridor",
+        "links": {
+            "28": "Great Library",
+            "29": "Armory",
+            "20": "Residency Courtyard",
+            "21": "West Corridor",
+            "15": "Balcony East"
+        }
+    },
+    "23": {
+        "name": "Deep Storage",
+        "links": {
+            "24": "Council Chambers",
+            "27": "Lower Passage East"
+        }
+    },
+    "24": {
+        "name": "Council Chambers",
+        "links": {
+            "7": "Paul's Room",
+            "4": "North Hall",
+            "2": "House Keeping",
+            "23": "Deep Storage",
+            "25": "Throne Room",
+            "26": "Antechamber",
+            "27": "Lower Passage East"
+        }
+    },
+    "25": {
+        "name": "Throne Room",
+        "links": {
+            "28": "Great Library",
+            "24": "Council Chambers",
+            "7": "Paul's Room",
+            "4": "North Hall",
+            "8": "Stairs East",
+            "5": "Main Hall",
+            "26": "Antechamber",
+            "16": "Leto's Office",
+            "12": "South Hall"
+        }
+    },
+    "26": {
+        "name": "Antechamber",
+        "links": {
+            "28": "Great Library",
+            "24": "Council Chambers",
+            "25": "Throne Room",
+            "27": "Lower Passage East"
+        }
+    },
+    "27": {
+        "name": "Lower Passage East",
+        "links": {
+            "28": "Great Library",
+            "24": "Council Chambers",
+            "29": "Armory",
+            "23": "Deep Storage",
+            "26": "Antechamber"
+        }
+    },
+    "28": {
+        "name": "Great Library",
+        "links": {
+            "22": "East Corridor",
+            "15": "Balcony East",
+            "16": "Leto's Office",
+            "25": "Throne Room",
+            "26": "Antechamber",
+            "27": "Lower Passage East",
+            "29": "Armory"
+        }
+    },
+    "29": {
+        "name": "Armory",
+        "links": {
+            "28": "Great Library",
+            "22": "East Corridor",
+            "30": "Guard's Quarters East",
+            "27": "Lower Passage East"
+        }
+    },
+    "30": {
+        "name": "Guard's Quarters East",
+        "links": {
+            "29": "Armory"
+        }
+    }
+}

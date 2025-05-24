@@ -1,0 +1,258 @@
+{
+    "1": {
+        "name": "Territory 0",
+        "links": {
+            "4": "Territory 3",
+            "6": "Territory 5",
+            "7": "Territory 6"
+        }
+    },
+    "2": {
+        "name": "Territory 1",
+        "links": {
+            "5": "Territory 4",
+            "20": "Territory 19",
+            "31": "Territory 30"
+        }
+    },
+    "3": {
+        "name": "Territory 2",
+        "links": {
+            "7": "Territory 6",
+            "17": "Territory 16"
+        }
+    },
+    "4": {
+        "name": "Territory 3",
+        "links": {
+            "1": "Territory 0",
+            "6": "Territory 5"
+        }
+    },
+    "5": {
+        "name": "Territory 4",
+        "links": {
+            "2": "Territory 1",
+            "7": "Territory 6"
+        }
+    },
+    "6": {
+        "name": "Territory 5",
+        "links": {
+            "1": "Territory 0",
+            "4": "Territory 3",
+            "17": "Territory 16"
+        }
+    },
+    "7": {
+        "name": "Territory 6",
+        "links": {
+            "1": "Territory 0",
+            "3": "Territory 2",
+            "5": "Territory 4"
+        }
+    },
+    "8": {
+        "name": "Territory 7",
+        "links": {
+            "9": "Territory 8",
+            "13": "Territory 12",
+            "12": "Territory 11"
+        }
+    },
+    "9": {
+        "name": "Territory 8",
+        "links": {
+            "8": "Territory 7",
+            "12": "Territory 11",
+            "13": "Territory 12"
+        }
+    },
+    "11": {
+        "name": "Territory 10",
+        "links": {
+            "13": "Territory 12",
+            "14": "Territory 13",
+            "23": "Territory 22"
+        }
+    },
+    "12": {
+        "name": "Territory 11",
+        "links": {
+            "8": "Territory 7",
+            "9": "Territory 8"
+        }
+    },
+    "13": {
+        "name": "Territory 12",
+        "links": {
+            "8": "Territory 7",
+            "11": "Territory 10",
+            "9": "Territory 8",
+            "31": "Territory 30"
+        }
+    },
+    "14": {
+        "name": "Territory 13",
+        "links": {
+            "11": "Territory 10",
+            "28": "Territory 27"
+        }
+    },
+    "15": {
+        "name": "Territory 14",
+        "links": {
+            "17": "Territory 16",
+            "19": "Territory 18",
+            "18": "Territory 17",
+            "21": "Territory 20"
+        }
+    },
+    "16": {
+        "name": "Territory 15",
+        "links": {
+            "28": "Territory 27",
+            "35": "Territory 34"
+        }
+    },
+    "17": {
+        "name": "Territory 16",
+        "links": {
+            "3": "Territory 2",
+            "6": "Territory 5",
+            "15": "Territory 14"
+        }
+    },
+    "18": {
+        "name": "Territory 17",
+        "links": {
+            "15": "Territory 14"
+        }
+    },
+    "19": {
+        "name": "Territory 18",
+        "links": {
+            "15": "Territory 14",
+            "35": "Territory 34"
+        }
+    },
+    "20": {
+        "name": "Territory 19",
+        "links": {
+            "2": "Territory 1",
+            "35": "Territory 34"
+        }
+    },
+    "21": {
+        "name": "Territory 20",
+        "links": {
+            "15": "Territory 14",
+            "29": "Territory 28"
+        }
+    },
+    "35": {
+        "name": "Territory 34",
+        "links": {
+            "16": "Territory 15",
+            "19": "Territory 18",
+            "20": "Territory 19"
+        }
+    },
+    "22": {
+        "name": "Territory 21",
+        "links": {
+            "24": "Territory 23",
+            "25": "Territory 24",
+            "27": "Territory 26",
+            "29": "Territory 28"
+        }
+    },
+    "23": {
+        "name": "Territory 22",
+        "links": {
+            "11": "Territory 10",
+            "28": "Territory 27",
+            "26": "Territory 25",
+            "25": "Territory 24"
+        }
+    },
+    "24": {
+        "name": "Territory 23",
+        "links": {
+            "22": "Territory 21",
+            "29": "Territory 28"
+        }
+    },
+    "25": {
+        "name": "Territory 24",
+        "links": {
+            "22": "Territory 21",
+            "23": "Territory 22"
+        }
+    },
+    "26": {
+        "name": "Territory 25",
+        "links": {
+            "23": "Territory 22",
+            "30": "Territory 29"
+        }
+    },
+    "27": {
+        "name": "Territory 26",
+        "links": {
+            "22": "Territory 21",
+            "29": "Territory 28"
+        }
+    },
+    "28": {
+        "name": "Territory 27",
+        "links": {
+            "14": "Territory 13",
+            "16": "Territory 15",
+            "23": "Territory 22"
+        }
+    },
+    "29": {
+        "name": "Territory 28",
+        "links": {
+            "21": "Territory 20",
+            "22": "Territory 21",
+            "24": "Territory 23",
+            "27": "Territory 26"
+        }
+    },
+    "30": {
+        "name": "Territory 29",
+        "links": {
+            "26": "Territory 25"
+        }
+    },
+    "31": {
+        "name": "Territory 30",
+        "links": {
+            "2": "Territory 1",
+            "13": "Territory 12",
+            "34": "Territory 33",
+            "33": "Territory 32",
+            "32": "Territory 31"
+        }
+    },
+    "32": {
+        "name": "Territory 31",
+        "links": {
+            "31": "Territory 30"
+        }
+    },
+    "33": {
+        "name": "Territory 32",
+        "links": {
+            "31": "Territory 30"
+        }
+    },
+    "34": {
+        "name": "Territory 33",
+        "links": {
+            "31": "Territory 30"
+        }
+    }
+}

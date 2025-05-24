@@ -1,0 +1,318 @@
+{
+    "1": {
+        "name": "Altar",
+        "links": {
+            "7": "Flying Dragon",
+            "28": "Patio"
+        }
+    },
+    "2": {
+        "name": "Butcher",
+        "links": {
+            "5": "Dau",
+            "40": "Torch Tower"
+        }
+    },
+    "3": {
+        "name": "Ceremonies",
+        "links": {
+            "24": "Offerings",
+            "21": "Nan Dowas",
+            "4": "Dapahu"
+        }
+    },
+    "4": {
+        "name": "Dapahu",
+        "links": {
+            "34": "Scrolls",
+            "3": "Ceremonies",
+            "37": "South Steps"
+        }
+    },
+    "5": {
+        "name": "Dau",
+        "links": {
+            "32": "River House",
+            "2": "Butcher"
+        }
+    },
+    "6": {
+        "name": "Fishery",
+        "links": {
+            "38": "Tall Wall",
+            "33": "Rocks"
+        }
+    },
+    "7": {
+        "name": "Flying Dragon",
+        "links": {
+            "19": "Mill",
+            "1": "Altar",
+            "18": "Marble Gate"
+        }
+    },
+    "8": {
+        "name": "Food Area",
+        "links": {
+            "35": "Servants",
+            "12": "Inner Well",
+            "28": "Patio"
+        }
+    },
+    "9": {
+        "name": "Guards",
+        "links": {
+            "39": "Temple",
+            "13": "Jail"
+        }
+    },
+    "10": {
+        "name": "Hall",
+        "links": {
+            "16": "Library",
+            "25": "Olisihpa",
+            "22": "Nobility"
+        }
+    },
+    "11": {
+        "name": "Inland Wall",
+        "links": {
+            "33": "Rocks",
+            "23": "North Steps"
+        }
+    },
+    "12": {
+        "name": "Inner Well",
+        "links": {
+            "8": "Food Area",
+            "18": "Marble Gate"
+        }
+    },
+    "13": {
+        "name": "Jail",
+        "links": {
+            "9": "Guards",
+            "31": "River Gate",
+            "37": "South Steps"
+        }
+    },
+    "14": {
+        "name": "Kariahn",
+        "links": {
+            "30": "Reef",
+            "39": "Temple"
+        }
+    },
+    "15": {
+        "name": "Kitchen",
+        "links": {
+            "17": "Lounge",
+            "35": "Servants"
+        }
+    },
+    "16": {
+        "name": "Library",
+        "links": {
+            "10": "Hall",
+            "26": "Olosohpa"
+        }
+    },
+    "17": {
+        "name": "Lounge",
+        "links": {
+            "27": "Path",
+            "15": "Kitchen",
+            "34": "Scrolls",
+            "18": "Marble Gate"
+        }
+    },
+    "18": {
+        "name": "Marble Gate",
+        "links": {
+            "12": "Inner Well",
+            "7": "Flying Dragon",
+            "17": "Lounge"
+        }
+    },
+    "19": {
+        "name": "Mill",
+        "links": {
+            "41": "Torch Wall",
+            "7": "Flying Dragon"
+        }
+    },
+    "20": {
+        "name": "Mortuary",
+        "links": {
+            "36": "Sorcerers",
+            "33": "Rocks"
+        }
+    },
+    "21": {
+        "name": "Nan Dowas",
+        "links": {
+            "3": "Ceremonies",
+            "32": "River House"
+        }
+    },
+    "22": {
+        "name": "Nobility",
+        "links": {
+            "23": "North Steps",
+            "27": "Path",
+            "10": "Hall"
+        }
+    },
+    "23": {
+        "name": "North Steps",
+        "links": {
+            "11": "Inland Wall",
+            "22": "Nobility"
+        }
+    },
+    "24": {
+        "name": "Offerings",
+        "links": {
+            "28": "Patio",
+            "3": "Ceremonies"
+        }
+    },
+    "25": {
+        "name": "Olisihpa",
+        "links": {
+            "36": "Sorcerers",
+            "10": "Hall",
+            "37": "South Steps"
+        }
+    },
+    "26": {
+        "name": "Olosohpa",
+        "links": {
+            "16": "Library",
+            "36": "Sorcerers"
+        }
+    },
+    "27": {
+        "name": "Path",
+        "links": {
+            "22": "Nobility",
+            "17": "Lounge"
+        }
+    },
+    "28": {
+        "name": "Patio",
+        "links": {
+            "1": "Altar",
+            "24": "Offerings",
+            "8": "Food Area",
+            "35": "Servants"
+        }
+    },
+    "29": {
+        "name": "Peinering",
+        "links": {
+            "37": "South Steps",
+            "39": "Temple"
+        }
+    },
+    "30": {
+        "name": "Reef",
+        "links": {
+            "40": "Torch Tower",
+            "14": "Kariahn"
+        }
+    },
+    "31": {
+        "name": "River Gate",
+        "links": {
+            "13": "Jail",
+            "42": "Wall Tower"
+        }
+    },
+    "32": {
+        "name": "River House",
+        "links": {
+            "21": "Nan Dowas",
+            "5": "Dau"
+        }
+    },
+    "33": {
+        "name": "Rocks",
+        "links": {
+            "6": "Fishery",
+            "11": "Inland Wall",
+            "20": "Mortuary"
+        }
+    },
+    "34": {
+        "name": "Scrolls",
+        "links": {
+            "17": "Lounge",
+            "4": "Dapahu"
+        }
+    },
+    "35": {
+        "name": "Servants",
+        "links": {
+            "15": "Kitchen",
+            "8": "Food Area",
+            "28": "Patio"
+        }
+    },
+    "36": {
+        "name": "Sorcerers",
+        "links": {
+            "26": "Olosohpa",
+            "25": "Olisihpa",
+            "42": "Wall Tower",
+            "20": "Mortuary"
+        }
+    },
+    "37": {
+        "name": "South Steps",
+        "links": {
+            "4": "Dapahu",
+            "29": "Peinering",
+            "13": "Jail",
+            "25": "Olisihpa"
+        }
+    },
+    "38": {
+        "name": "Tall Wall",
+        "links": {
+            "42": "Wall Tower",
+            "6": "Fishery"
+        }
+    },
+    "39": {
+        "name": "Temple",
+        "links": {
+            "14": "Kariahn",
+            "9": "Guards",
+            "29": "Peinering"
+        }
+    },
+    "40": {
+        "name": "Torch Tower",
+        "links": {
+            "41": "Torch Wall",
+            "2": "Butcher",
+            "30": "Reef"
+        }
+    },
+    "41": {
+        "name": "Torch Wall",
+        "links": {
+            "40": "Torch Tower",
+            "19": "Mill"
+        }
+    },
+    "42": {
+        "name": "Wall Tower",
+        "links": {
+            "31": "River Gate",
+            "38": "Tall Wall",
+            "36": "Sorcerers"
+        }
+    }
+}

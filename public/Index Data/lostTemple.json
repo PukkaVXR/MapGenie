@@ -1,0 +1,347 @@
+{
+    "1": {
+        "name": "Altar",
+        "links": {
+            "20": "Holy Fountain",
+            "8": "Chapel",
+            "36": "Tomb"
+        }
+    },
+    "2": {
+        "name": "Armory",
+        "links": {
+            "5": "Captain's Quarter",
+            "3": "Bedrooms"
+        }
+    },
+    "3": {
+        "name": "Bedrooms",
+        "links": {
+            "2": "Armory",
+            "42": "Underworld Harbour",
+            "26": "Passage of Heroes"
+        }
+    },
+    "4": {
+        "name": "Bone Hall",
+        "links": {
+            "31": "Retreat",
+            "29": "Ready Room",
+            "23": "Last Portal",
+            "13": "Dungeon Entrance"
+        }
+    },
+    "5": {
+        "name": "Captain's Quarter",
+        "links": {
+            "33": "Sickbay",
+            "2": "Armory"
+        }
+    },
+    "6": {
+        "name": "Cerebrus Landing",
+        "links": {
+            "42": "Underworld Harbour",
+            "10": "Devil's Bay",
+            "9": "Demon Nursery",
+            "16": "Eternal Walls"
+        }
+    },
+    "7": {
+        "name": "Chamber of Pain",
+        "links": {
+            "17": "Fallen Minions",
+            "22": "Lair of the Fallen God"
+        }
+    },
+    "8": {
+        "name": "Chapel",
+        "links": {
+            "20": "Holy Fountain",
+            "12": "Drill Hall",
+            "1": "Altar"
+        }
+    },
+    "9": {
+        "name": "Demon Nursery",
+        "links": {
+            "15": "Emerald Crypt",
+            "16": "Eternal Walls",
+            "6": "Cerebrus Landing",
+            "10": "Devil's Bay"
+        }
+    },
+    "10": {
+        "name": "Devil's Bay",
+        "links": {
+            "6": "Cerebrus Landing",
+            "15": "Emerald Crypt",
+            "9": "Demon Nursery"
+        }
+    },
+    "11": {
+        "name": "Dragon Pit",
+        "links": {
+            "35": "Sulfur Mine",
+            "39": "Toxic Swamp"
+        }
+    },
+    "12": {
+        "name": "Drill Hall",
+        "links": {
+            "8": "Chapel",
+            "26": "Passage of Heroes",
+            "40": "Training Ground"
+        }
+    },
+    "13": {
+        "name": "Dungeon Entrance",
+        "links": {
+            "4": "Bone Hall",
+            "38": "Torturer"
+        }
+    },
+    "14": {
+        "name": "Eastern Hall",
+        "links": {
+            "29": "Ready Room",
+            "45": "Western Hall"
+        }
+    },
+    "15": {
+        "name": "Emerald Crypt",
+        "links": {
+            "10": "Devil's Bay",
+            "41": "Treasury",
+            "9": "Demon Nursery"
+        }
+    },
+    "16": {
+        "name": "Eternal Walls",
+        "links": {
+            "9": "Demon Nursery",
+            "37": "Tomb Passage",
+            "6": "Cerebrus Landing"
+        }
+    },
+    "17": {
+        "name": "Fallen Minions",
+        "links": {
+            "41": "Treasury",
+            "7": "Chamber of Pain"
+        }
+    },
+    "18": {
+        "name": "Hall of Madness",
+        "links": {
+            "43": "Warlock's Tower",
+            "23": "Last Portal",
+            "25": "Orc Pit",
+            "20": "Holy Fountain"
+        }
+    },
+    "19": {
+        "name": "Hell Hounds",
+        "links": {
+            "25": "Orc Pit",
+            "27": "Priests",
+            "44": "Waste"
+        }
+    },
+    "20": {
+        "name": "Holy Fountain",
+        "links": {
+            "27": "Priests",
+            "18": "Hall of Madness",
+            "8": "Chapel",
+            "45": "Western Hall",
+            "1": "Altar"
+        }
+    },
+    "21": {
+        "name": "Kitchen",
+        "links": {
+            "24": "Mess Hall",
+            "33": "Sickbay"
+        }
+    },
+    "22": {
+        "name": "Lair of the Fallen God",
+        "links": {
+            "7": "Chamber of Pain",
+            "30": "Resurrection Cave"
+        }
+    },
+    "23": {
+        "name": "Last Portal",
+        "links": {
+            "18": "Hall of Madness",
+            "32": "Secret Chamber",
+            "4": "Bone Hall"
+        }
+    },
+    "24": {
+        "name": "Mess Hall",
+        "links": {
+            "29": "Ready Room",
+            "21": "Kitchen",
+            "26": "Passage of Heroes"
+        }
+    },
+    "25": {
+        "name": "Orc Pit",
+        "links": {
+            "18": "Hall of Madness",
+            "19": "Hell Hounds"
+        }
+    },
+    "26": {
+        "name": "Passage of Heroes",
+        "links": {
+            "12": "Drill Hall",
+            "45": "Western Hall",
+            "24": "Mess Hall",
+            "3": "Bedrooms"
+        }
+    },
+    "27": {
+        "name": "Priests",
+        "links": {
+            "19": "Hell Hounds",
+            "20": "Holy Fountain"
+        }
+    },
+    "28": {
+        "name": "Prison Cells",
+        "links": {
+            "38": "Torturer"
+        }
+    },
+    "29": {
+        "name": "Ready Room",
+        "links": {
+            "4": "Bone Hall",
+            "24": "Mess Hall",
+            "14": "Eastern Hall"
+        }
+    },
+    "30": {
+        "name": "Resurrection Cave",
+        "links": {
+            "35": "Sulfur Mine",
+            "22": "Lair of the Fallen God"
+        }
+    },
+    "31": {
+        "name": "Retreat",
+        "links": {
+            "34": "Spirit Encounter",
+            "4": "Bone Hall"
+        }
+    },
+    "32": {
+        "name": "Secret Chamber",
+        "links": {
+            "23": "Last Portal",
+            "38": "Torturer"
+        }
+    },
+    "33": {
+        "name": "Sickbay",
+        "links": {
+            "34": "Spirit Encounter",
+            "21": "Kitchen",
+            "5": "Captain's Quarter"
+        }
+    },
+    "34": {
+        "name": "Spirit Encounter",
+        "links": {
+            "33": "Sickbay",
+            "31": "Retreat"
+        }
+    },
+    "35": {
+        "name": "Sulfur Mine",
+        "links": {
+            "39": "Toxic Swamp",
+            "37": "Tomb Passage",
+            "30": "Resurrection Cave",
+            "11": "Dragon Pit"
+        }
+    },
+    "36": {
+        "name": "Tomb",
+        "links": {
+            "37": "Tomb Passage",
+            "1": "Altar"
+        }
+    },
+    "37": {
+        "name": "Tomb Passage",
+        "links": {
+            "35": "Sulfur Mine",
+            "36": "Tomb",
+            "16": "Eternal Walls"
+        }
+    },
+    "38": {
+        "name": "Torturer",
+        "links": {
+            "32": "Secret Chamber",
+            "28": "Prison Cells",
+            "13": "Dungeon Entrance"
+        }
+    },
+    "39": {
+        "name": "Toxic Swamp",
+        "links": {
+            "44": "Waste",
+            "35": "Sulfur Mine",
+            "11": "Dragon Pit"
+        }
+    },
+    "40": {
+        "name": "Training Ground",
+        "links": {
+            "42": "Underworld Harbour",
+            "12": "Drill Hall"
+        }
+    },
+    "41": {
+        "name": "Treasury",
+        "links": {
+            "15": "Emerald Crypt",
+            "17": "Fallen Minions"
+        }
+    },
+    "42": {
+        "name": "Underworld Harbour",
+        "links": {
+            "3": "Bedrooms",
+            "6": "Cerebrus Landing",
+            "40": "Training Ground"
+        }
+    },
+    "43": {
+        "name": "Warlock's Tower",
+        "links": {
+            "18": "Hall of Madness"
+        }
+    },
+    "44": {
+        "name": "Waste",
+        "links": {
+            "19": "Hell Hounds",
+            "39": "Toxic Swamp"
+        }
+    },
+    "45": {
+        "name": "Western Hall",
+        "links": {
+            "26": "Passage of Heroes",
+            "20": "Holy Fountain",
+            "14": "Eastern Hall"
+        }
+    }
+}

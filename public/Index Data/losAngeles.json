@@ -1,0 +1,387 @@
+{
+    "1": {
+        "name": "Beverly Hills",
+        "links": {
+            "40": "West LA",
+            "39": "West Hollywood",
+            "14": "Hollywood"
+        }
+    },
+    "2": {
+        "name": "Boyle Heights",
+        "links": {
+            "15": "Huntington Park",
+            "8": "DTLA",
+            "23": "Montebello",
+            "24": "Montecito Heights",
+            "9": "East LA"
+        }
+    },
+    "3": {
+        "name": "Carson",
+        "links": {
+            "20": "Long Beach",
+            "28": "Palos Verdes",
+            "36": "Torrance",
+            "11": "Gardena",
+            "5": "Compton"
+        }
+    },
+    "4": {
+        "name": "Chatsworth",
+        "links": {
+            "38": "West Hills",
+            "26": "Northridge"
+        }
+    },
+    "5": {
+        "name": "Compton",
+        "links": {
+            "3": "Carson",
+            "11": "Gardena",
+            "21": "Lynwood",
+            "29": "Paramount",
+            "20": "Long Beach"
+        }
+    },
+    "6": {
+        "name": "Culver City",
+        "links": {
+            "14": "Hollywood",
+            "8": "DTLA",
+            "40": "West LA",
+            "19": "LAX",
+            "17": "Ladera Heights",
+            "37": "Venice"
+        }
+    },
+    "7": {
+        "name": "Downey",
+        "links": {
+            "21": "Lynwood",
+            "34": "South Gate",
+            "29": "Paramount",
+            "23": "Montebello",
+            "30": "Pico Rivera",
+            "41": "Whittier",
+            "27": "Norwalk"
+        }
+    },
+    "8": {
+        "name": "DTLA",
+        "links": {
+            "6": "Culver City",
+            "14": "Hollywood",
+            "17": "Ladera Heights",
+            "15": "Huntington Park",
+            "2": "Boyle Heights",
+            "16": "Inglewood",
+            "24": "Montecito Heights"
+        }
+    },
+    "9": {
+        "name": "East LA",
+        "links": {
+            "24": "Montecito Heights",
+            "23": "Montebello",
+            "2": "Boyle Heights"
+        }
+    },
+    "10": {
+        "name": "El Segundo",
+        "links": {
+            "19": "LAX",
+            "16": "Inglewood",
+            "22": "Manhattan Beach",
+            "12": "Hawthorne"
+        }
+    },
+    "11": {
+        "name": "Gardena",
+        "links": {
+            "16": "Inglewood",
+            "21": "Lynwood",
+            "12": "Hawthorne",
+            "36": "Torrance",
+            "3": "Carson",
+            "13": "Hermosa Beach",
+            "5": "Compton"
+        }
+    },
+    "12": {
+        "name": "Hawthorne",
+        "links": {
+            "16": "Inglewood",
+            "11": "Gardena",
+            "13": "Hermosa Beach",
+            "22": "Manhattan Beach",
+            "10": "El Segundo"
+        }
+    },
+    "13": {
+        "name": "Hermosa Beach",
+        "links": {
+            "36": "Torrance",
+            "22": "Manhattan Beach",
+            "11": "Gardena",
+            "12": "Hawthorne"
+        }
+    },
+    "14": {
+        "name": "Hollywood",
+        "links": {
+            "25": "North Hollywood",
+            "24": "Montecito Heights",
+            "39": "West Hollywood",
+            "6": "Culver City",
+            "8": "DTLA",
+            "40": "West LA",
+            "1": "Beverly Hills"
+        }
+    },
+    "15": {
+        "name": "Huntington Park",
+        "links": {
+            "8": "DTLA",
+            "2": "Boyle Heights",
+            "16": "Inglewood",
+            "21": "Lynwood",
+            "34": "South Gate",
+            "23": "Montebello"
+        }
+    },
+    "16": {
+        "name": "Inglewood",
+        "links": {
+            "19": "LAX",
+            "17": "Ladera Heights",
+            "8": "DTLA",
+            "15": "Huntington Park",
+            "10": "El Segundo",
+            "11": "Gardena",
+            "21": "Lynwood",
+            "12": "Hawthorne"
+        }
+    },
+    "17": {
+        "name": "Ladera Heights",
+        "links": {
+            "19": "LAX",
+            "6": "Culver City",
+            "16": "Inglewood",
+            "8": "DTLA"
+        }
+    },
+    "18": {
+        "name": "Lakewood",
+        "links": {
+            "27": "Norwalk",
+            "20": "Long Beach",
+            "29": "Paramount"
+        }
+    },
+    "19": {
+        "name": "LAX",
+        "links": {
+            "6": "Culver City",
+            "17": "Ladera Heights",
+            "37": "Venice",
+            "16": "Inglewood",
+            "10": "El Segundo"
+        }
+    },
+    "20": {
+        "name": "Long Beach",
+        "links": {
+            "18": "Lakewood",
+            "3": "Carson",
+            "29": "Paramount",
+            "5": "Compton"
+        }
+    },
+    "21": {
+        "name": "Lynwood",
+        "links": {
+            "15": "Huntington Park",
+            "34": "South Gate",
+            "11": "Gardena",
+            "16": "Inglewood",
+            "5": "Compton",
+            "29": "Paramount",
+            "7": "Downey"
+        }
+    },
+    "22": {
+        "name": "Manhattan Beach",
+        "links": {
+            "13": "Hermosa Beach",
+            "33": "Santa Monica",
+            "12": "Hawthorne",
+            "10": "El Segundo"
+        }
+    },
+    "23": {
+        "name": "Montebello",
+        "links": {
+            "9": "East LA",
+            "30": "Pico Rivera",
+            "15": "Huntington Park",
+            "2": "Boyle Heights",
+            "7": "Downey"
+        }
+    },
+    "24": {
+        "name": "Montecito Heights",
+        "links": {
+            "14": "Hollywood",
+            "9": "East LA",
+            "2": "Boyle Heights",
+            "8": "DTLA"
+        }
+    },
+    "25": {
+        "name": "North Hollywood",
+        "links": {
+            "35": "Sun Valley",
+            "14": "Hollywood",
+            "31": "Reseda",
+            "26": "Northridge"
+        }
+    },
+    "26": {
+        "name": "Northridge",
+        "links": {
+            "32": "San Fernando",
+            "35": "Sun Valley",
+            "4": "Chatsworth",
+            "31": "Reseda",
+            "38": "West Hills",
+            "25": "North Hollywood"
+        }
+    },
+    "27": {
+        "name": "Norwalk",
+        "links": {
+            "41": "Whittier",
+            "18": "Lakewood",
+            "7": "Downey",
+            "29": "Paramount"
+        }
+    },
+    "28": {
+        "name": "Palos Verdes",
+        "links": {
+            "3": "Carson",
+            "36": "Torrance"
+        }
+    },
+    "29": {
+        "name": "Paramount",
+        "links": {
+            "5": "Compton",
+            "21": "Lynwood",
+            "7": "Downey",
+            "18": "Lakewood",
+            "20": "Long Beach",
+            "27": "Norwalk"
+        }
+    },
+    "30": {
+        "name": "Pico Rivera",
+        "links": {
+            "23": "Montebello",
+            "41": "Whittier",
+            "7": "Downey"
+        }
+    },
+    "31": {
+        "name": "Reseda",
+        "links": {
+            "25": "North Hollywood",
+            "38": "West Hills",
+            "26": "Northridge"
+        }
+    },
+    "32": {
+        "name": "San Fernando",
+        "links": {
+            "35": "Sun Valley",
+            "26": "Northridge"
+        }
+    },
+    "33": {
+        "name": "Santa Monica",
+        "links": {
+            "22": "Manhattan Beach",
+            "40": "West LA",
+            "37": "Venice"
+        }
+    },
+    "34": {
+        "name": "South Gate",
+        "links": {
+            "21": "Lynwood",
+            "15": "Huntington Park",
+            "7": "Downey"
+        }
+    },
+    "35": {
+        "name": "Sun Valley",
+        "links": {
+            "32": "San Fernando",
+            "26": "Northridge",
+            "25": "North Hollywood"
+        }
+    },
+    "36": {
+        "name": "Torrance",
+        "links": {
+            "28": "Palos Verdes",
+            "13": "Hermosa Beach",
+            "11": "Gardena",
+            "3": "Carson"
+        }
+    },
+    "37": {
+        "name": "Venice",
+        "links": {
+            "6": "Culver City",
+            "19": "LAX",
+            "33": "Santa Monica",
+            "40": "West LA"
+        }
+    },
+    "38": {
+        "name": "West Hills",
+        "links": {
+            "31": "Reseda",
+            "4": "Chatsworth",
+            "26": "Northridge"
+        }
+    },
+    "39": {
+        "name": "West Hollywood",
+        "links": {
+            "1": "Beverly Hills",
+            "14": "Hollywood"
+        }
+    },
+    "40": {
+        "name": "West LA",
+        "links": {
+            "33": "Santa Monica",
+            "1": "Beverly Hills",
+            "14": "Hollywood",
+            "6": "Culver City",
+            "37": "Venice"
+        }
+    },
+    "41": {
+        "name": "Whittier",
+        "links": {
+            "30": "Pico Rivera",
+            "27": "Norwalk",
+            "7": "Downey"
+        }
+    }
+}

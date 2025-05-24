@@ -1,0 +1,315 @@
+{
+    "1": {
+        "name": "Aeroport",
+        "links": {
+            "25": "Ostankinsky",
+            "9": "Krasnoselsky",
+            "7": "Khovrino",
+            "5": "Dmitrovsky",
+            "28": "Shchukino",
+            "26": "Presnensky"
+        }
+    },
+    "2": {
+        "name": "Akademichesky",
+        "links": {
+            "8": "Konkovo",
+            "24": "Ochakovo Matveyevskoye",
+            "26": "Presnensky",
+            "33": "Zyablikovo",
+            "6": "Dorogomilovo",
+            "3": "Biryulyovo Zapadnoye"
+        }
+    },
+    "3": {
+        "name": "Biryulyovo Zapadnoye",
+        "links": {
+            "30": "Tsaritsyno",
+            "31": "Yuzhnoye Butovo",
+            "33": "Zyablikovo",
+            "8": "Konkovo",
+            "2": "Akademichesky"
+        }
+    },
+    "4": {
+        "name": "Bogorodskoye",
+        "links": {
+            "23": "Novogireyevo",
+            "15": "Lefortovo",
+            "19": "Metrogorodok",
+            "9": "Krasnoselsky",
+            "21": "Nekrasovka",
+            "16": "Lianozovo"
+        }
+    },
+    "5": {
+        "name": "Dmitrovsky",
+        "links": {
+            "7": "Khovrino",
+            "1": "Aeroport",
+            "16": "Lianozovo",
+            "25": "Ostankinsky",
+            "27": "Severny"
+        }
+    },
+    "6": {
+        "name": "Dorogomilovo",
+        "links": {
+            "2": "Akademichesky",
+            "24": "Ochakovo Matveyevskoye",
+            "10": "Krylatskoye",
+            "28": "Shchukino",
+            "26": "Presnensky"
+        }
+    },
+    "7": {
+        "name": "Khovrino",
+        "links": {
+            "5": "Dmitrovsky",
+            "1": "Aeroport",
+            "13": "Kurkino",
+            "29": "Strogino"
+        }
+    },
+    "8": {
+        "name": "Konkovo",
+        "links": {
+            "31": "Yuzhnoye Butovo",
+            "24": "Ochakovo Matveyevskoye",
+            "3": "Biryulyovo Zapadnoye",
+            "2": "Akademichesky"
+        }
+    },
+    "9": {
+        "name": "Krasnoselsky",
+        "links": {
+            "19": "Metrogorodok",
+            "4": "Bogorodskoye",
+            "32": "Zamoskvorechye",
+            "26": "Presnensky",
+            "15": "Lefortovo",
+            "25": "Ostankinsky",
+            "1": "Aeroport"
+        }
+    },
+    "10": {
+        "name": "Krylatskoye",
+        "links": {
+            "24": "Ochakovo Matveyevskoye",
+            "22": "Novo Peredelkino",
+            "6": "Dorogomilovo",
+            "28": "Shchukino",
+            "29": "Strogino",
+            "12": "Kuntsevo"
+        }
+    },
+    "11": {
+        "name": "Kryukovo",
+        "links": {
+            "18": "Matushkine Savyolki",
+            "12": "Kuntsevo"
+        }
+    },
+    "12": {
+        "name": "Kuntsevo",
+        "links": {
+            "29": "Strogino",
+            "10": "Krylatskoye",
+            "11": "Kryukovo"
+        }
+    },
+    "13": {
+        "name": "Kurkino",
+        "links": {
+            "20": "Molzhaninovskly",
+            "7": "Khovrino",
+            "29": "Strogino"
+        }
+    },
+    "14": {
+        "name": "Kuzminki",
+        "links": {
+            "23": "Novogireyevo",
+            "15": "Lefortovo",
+            "17": "Lyublino"
+        }
+    },
+    "15": {
+        "name": "Lefortovo",
+        "links": {
+            "4": "Bogorodskoye",
+            "14": "Kuzminki",
+            "17": "Lyublino",
+            "30": "Tsaritsyno",
+            "32": "Zamoskvorechye",
+            "9": "Krasnoselsky",
+            "33": "Zyablikovo"
+        }
+    },
+    "16": {
+        "name": "Lianozovo",
+        "links": {
+            "5": "Dmitrovsky",
+            "20": "Molzhaninovskly",
+            "27": "Severny",
+            "4": "Bogorodskoye"
+        }
+    },
+    "17": {
+        "name": "Lyublino",
+        "links": {
+            "21": "Nekrasovka",
+            "30": "Tsaritsyno",
+            "14": "Kuzminki",
+            "15": "Lefortovo"
+        }
+    },
+    "18": {
+        "name": "Matushkine Savyolki",
+        "links": {
+            "20": "Molzhaninovskly",
+            "11": "Kryukovo"
+        }
+    },
+    "19": {
+        "name": "Metrogorodok",
+        "links": {
+            "4": "Bogorodskoye",
+            "9": "Krasnoselsky",
+            "27": "Severny",
+            "25": "Ostankinsky"
+        }
+    },
+    "20": {
+        "name": "Molzhaninovskly",
+        "links": {
+            "16": "Lianozovo",
+            "13": "Kurkino",
+            "18": "Matushkine Savyolki"
+        }
+    },
+    "21": {
+        "name": "Nekrasovka",
+        "links": {
+            "31": "Yuzhnoye Butovo",
+            "17": "Lyublino",
+            "4": "Bogorodskoye",
+            "23": "Novogireyevo"
+        }
+    },
+    "22": {
+        "name": "Novo Peredelkino",
+        "links": {
+            "24": "Ochakovo Matveyevskoye",
+            "31": "Yuzhnoye Butovo",
+            "10": "Krylatskoye"
+        }
+    },
+    "23": {
+        "name": "Novogireyevo",
+        "links": {
+            "14": "Kuzminki",
+            "4": "Bogorodskoye",
+            "21": "Nekrasovka"
+        }
+    },
+    "24": {
+        "name": "Ochakovo Matveyevskoye",
+        "links": {
+            "8": "Konkovo",
+            "22": "Novo Peredelkino",
+            "2": "Akademichesky",
+            "10": "Krylatskoye",
+            "6": "Dorogomilovo"
+        }
+    },
+    "25": {
+        "name": "Ostankinsky",
+        "links": {
+            "9": "Krasnoselsky",
+            "1": "Aeroport",
+            "5": "Dmitrovsky",
+            "27": "Severny",
+            "19": "Metrogorodok"
+        }
+    },
+    "26": {
+        "name": "Presnensky",
+        "links": {
+            "9": "Krasnoselsky",
+            "32": "Zamoskvorechye",
+            "33": "Zyablikovo",
+            "2": "Akademichesky",
+            "6": "Dorogomilovo",
+            "1": "Aeroport",
+            "28": "Shchukino"
+        }
+    },
+    "27": {
+        "name": "Severny",
+        "links": {
+            "5": "Dmitrovsky",
+            "16": "Lianozovo",
+            "25": "Ostankinsky",
+            "19": "Metrogorodok"
+        }
+    },
+    "28": {
+        "name": "Shchukino",
+        "links": {
+            "6": "Dorogomilovo",
+            "10": "Krylatskoye",
+            "29": "Strogino",
+            "1": "Aeroport",
+            "26": "Presnensky"
+        }
+    },
+    "29": {
+        "name": "Strogino",
+        "links": {
+            "10": "Krylatskoye",
+            "12": "Kuntsevo",
+            "7": "Khovrino",
+            "28": "Shchukino",
+            "13": "Kurkino"
+        }
+    },
+    "30": {
+        "name": "Tsaritsyno",
+        "links": {
+            "17": "Lyublino",
+            "3": "Biryulyovo Zapadnoye",
+            "15": "Lefortovo",
+            "33": "Zyablikovo"
+        }
+    },
+    "31": {
+        "name": "Yuzhnoye Butovo",
+        "links": {
+            "21": "Nekrasovka",
+            "3": "Biryulyovo Zapadnoye",
+            "8": "Konkovo",
+            "22": "Novo Peredelkino"
+        }
+    },
+    "32": {
+        "name": "Zamoskvorechye",
+        "links": {
+            "9": "Krasnoselsky",
+            "26": "Presnensky",
+            "15": "Lefortovo",
+            "33": "Zyablikovo"
+        }
+    },
+    "33": {
+        "name": "Zyablikovo",
+        "links": {
+            "30": "Tsaritsyno",
+            "3": "Biryulyovo Zapadnoye",
+            "15": "Lefortovo",
+            "26": "Presnensky",
+            "2": "Akademichesky",
+            "32": "Zamoskvorechye"
+        }
+    }
+}

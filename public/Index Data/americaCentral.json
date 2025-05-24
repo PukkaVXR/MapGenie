@@ -1,0 +1,561 @@
+{
+    "1": {
+        "name": "Acadiana",
+        "links": {
+            "29": "Kansa Lands",
+            "6": "Arkansas",
+            "59": "Veracruz",
+            "56": "Tejas",
+            "17": "Creek Lands"
+        }
+    },
+    "2": {
+        "name": "Adirondacks",
+        "links": {
+            "37": "New Brunswick",
+            "35": "Massachusetts",
+            "40": "Niagara",
+            "33": "Maine",
+            "36": "Montreal",
+            "38": "New York"
+        }
+    },
+    "3": {
+        "name": "Angostura",
+        "links": {
+            "32": "Lesser Antilles",
+            "25": "Guyana",
+            "58": "Venezuela",
+            "34": "Maracaibo"
+        }
+    },
+    "4": {
+        "name": "Apache Lands",
+        "links": {
+            "12": "Chihuahua",
+            "5": "Arapaho Lands",
+            "56": "Tejas",
+            "14": "Coahuila"
+        }
+    },
+    "5": {
+        "name": "Arapaho Lands",
+        "links": {
+            "4": "Apache Lands",
+            "18": "Crow Lands",
+            "48": "Pawnee Lands",
+            "29": "Kansa Lands",
+            "56": "Tejas"
+        }
+    },
+    "6": {
+        "name": "Arkansas",
+        "links": {
+            "53": "Shawnee Lands",
+            "52": "Sauk Lands",
+            "29": "Kansa Lands",
+            "1": "Acadiana",
+            "57": "Tennessee",
+            "17": "Creek Lands",
+            "30": "Kentucky"
+        }
+    },
+    "7": {
+        "name": "Bahamas",
+        "links": {
+            "21": "Florida",
+            "20": "Dominican Republic",
+            "19": "Cuba"
+        }
+    },
+    "8": {
+        "name": "Bogota",
+        "links": {
+            "58": "Venezuela",
+            "47": "Panama",
+            "10": "Cartagena",
+            "34": "Maracaibo"
+        }
+    },
+    "9": {
+        "name": "Carolina",
+        "links": {
+            "60": "Virginia",
+            "23": "Georgia",
+            "30": "Kentucky"
+        }
+    },
+    "10": {
+        "name": "Cartagena",
+        "links": {
+            "8": "Bogota",
+            "47": "Panama",
+            "34": "Maracaibo"
+        }
+    },
+    "11": {
+        "name": "Chiapas",
+        "links": {
+            "24": "Guatemala",
+            "43": "Oaxaca",
+            "61": "Yucatan",
+            "59": "Veracruz"
+        }
+    },
+    "12": {
+        "name": "Chihuahua",
+        "links": {
+            "27": "Jalisco",
+            "4": "Apache Lands",
+            "14": "Coahuila",
+            "55": "Tamaulipas"
+        }
+    },
+    "13": {
+        "name": "Chippewa Lands",
+        "links": {
+            "46": "Ontario",
+            "22": "Fort Detroit",
+            "29": "Kansa Lands",
+            "54": "Sioux Lands",
+            "52": "Sauk Lands",
+            "16": "Cree Lands",
+            "45": "Ojibwa Lands"
+        }
+    },
+    "14": {
+        "name": "Coahuila",
+        "links": {
+            "56": "Tejas",
+            "4": "Apache Lands",
+            "55": "Tamaulipas",
+            "12": "Chihuahua"
+        }
+    },
+    "15": {
+        "name": "Costa Rica",
+        "links": {
+            "47": "Panama",
+            "41": "Nicaragua"
+        }
+    },
+    "16": {
+        "name": "Cree Lands",
+        "links": {
+            "18": "Crow Lands",
+            "45": "Ojibwa Lands",
+            "13": "Chippewa Lands",
+            "54": "Sioux Lands"
+        }
+    },
+    "17": {
+        "name": "Creek Lands",
+        "links": {
+            "57": "Tennessee",
+            "23": "Georgia",
+            "6": "Arkansas",
+            "1": "Acadiana",
+            "21": "Florida"
+        }
+    },
+    "18": {
+        "name": "Crow Lands",
+        "links": {
+            "5": "Arapaho Lands",
+            "16": "Cree Lands",
+            "54": "Sioux Lands",
+            "48": "Pawnee Lands"
+        }
+    },
+    "19": {
+        "name": "Cuba",
+        "links": {
+            "20": "Dominican Republic",
+            "28": "Jamaica",
+            "21": "Florida",
+            "7": "Bahamas",
+            "61": "Yucatan"
+        }
+    },
+    "20": {
+        "name": "Dominican Republic",
+        "links": {
+            "35": "Massachusetts",
+            "50": "Puerto Rico",
+            "7": "Bahamas",
+            "19": "Cuba",
+            "28": "Jamaica"
+        }
+    },
+    "21": {
+        "name": "Florida",
+        "links": {
+            "23": "Georgia",
+            "7": "Bahamas",
+            "19": "Cuba",
+            "17": "Creek Lands"
+        }
+    },
+    "22": {
+        "name": "Fort Detroit",
+        "links": {
+            "46": "Ontario",
+            "40": "Niagara",
+            "13": "Chippewa Lands",
+            "44": "Ohio",
+            "53": "Shawnee Lands",
+            "52": "Sauk Lands"
+        }
+    },
+    "23": {
+        "name": "Georgia",
+        "links": {
+            "9": "Carolina",
+            "21": "Florida",
+            "30": "Kentucky",
+            "57": "Tennessee",
+            "17": "Creek Lands"
+        }
+    },
+    "24": {
+        "name": "Guatemala",
+        "links": {
+            "26": "Honduras",
+            "11": "Chiapas",
+            "61": "Yucatan"
+        }
+    },
+    "25": {
+        "name": "Guyana",
+        "links": {
+            "3": "Angostura",
+            "58": "Venezuela"
+        }
+    },
+    "26": {
+        "name": "Honduras",
+        "links": {
+            "41": "Nicaragua",
+            "24": "Guatemala"
+        }
+    },
+    "27": {
+        "name": "Jalisco",
+        "links": {
+            "43": "Oaxaca",
+            "12": "Chihuahua",
+            "55": "Tamaulipas",
+            "59": "Veracruz"
+        }
+    },
+    "28": {
+        "name": "Jamaica",
+        "links": {
+            "19": "Cuba",
+            "20": "Dominican Republic",
+            "41": "Nicaragua"
+        }
+    },
+    "29": {
+        "name": "Kansa Lands",
+        "links": {
+            "13": "Chippewa Lands",
+            "54": "Sioux Lands",
+            "48": "Pawnee Lands",
+            "5": "Arapaho Lands",
+            "52": "Sauk Lands",
+            "6": "Arkansas",
+            "1": "Acadiana",
+            "56": "Tejas"
+        }
+    },
+    "30": {
+        "name": "Kentucky",
+        "links": {
+            "60": "Virginia",
+            "9": "Carolina",
+            "44": "Ohio",
+            "53": "Shawnee Lands",
+            "23": "Georgia",
+            "57": "Tennessee",
+            "6": "Arkansas"
+        }
+    },
+    "31": {
+        "name": "Labrador",
+        "links": {
+            "51": "Quebec",
+            "39": "Newfoundland"
+        }
+    },
+    "32": {
+        "name": "Lesser Antilles",
+        "links": {
+            "50": "Puerto Rico",
+            "3": "Angostura"
+        }
+    },
+    "33": {
+        "name": "Maine",
+        "links": {
+            "37": "New Brunswick",
+            "35": "Massachusetts",
+            "2": "Adirondacks"
+        }
+    },
+    "34": {
+        "name": "Maracaibo",
+        "links": {
+            "8": "Bogota",
+            "10": "Cartagena",
+            "58": "Venezuela",
+            "3": "Angostura"
+        }
+    },
+    "35": {
+        "name": "Massachusetts",
+        "links": {
+            "33": "Maine",
+            "20": "Dominican Republic",
+            "38": "New York",
+            "2": "Adirondacks"
+        }
+    },
+    "36": {
+        "name": "Montreal",
+        "links": {
+            "37": "New Brunswick",
+            "2": "Adirondacks",
+            "40": "Niagara",
+            "46": "Ontario",
+            "51": "Quebec"
+        }
+    },
+    "37": {
+        "name": "New Brunswick",
+        "links": {
+            "42": "Nova Scotia",
+            "33": "Maine",
+            "51": "Quebec",
+            "2": "Adirondacks",
+            "36": "Montreal"
+        }
+    },
+    "38": {
+        "name": "New York",
+        "links": {
+            "35": "Massachusetts",
+            "49": "Pennsylvania",
+            "40": "Niagara",
+            "2": "Adirondacks"
+        }
+    },
+    "39": {
+        "name": "Newfoundland",
+        "links": {
+            "31": "Labrador",
+            "42": "Nova Scotia"
+        }
+    },
+    "40": {
+        "name": "Niagara",
+        "links": {
+            "38": "New York",
+            "49": "Pennsylvania",
+            "2": "Adirondacks",
+            "46": "Ontario",
+            "22": "Fort Detroit",
+            "44": "Ohio",
+            "36": "Montreal"
+        }
+    },
+    "41": {
+        "name": "Nicaragua",
+        "links": {
+            "15": "Costa Rica",
+            "26": "Honduras",
+            "28": "Jamaica"
+        }
+    },
+    "42": {
+        "name": "Nova Scotia",
+        "links": {
+            "39": "Newfoundland",
+            "37": "New Brunswick"
+        }
+    },
+    "43": {
+        "name": "Oaxaca",
+        "links": {
+            "11": "Chiapas",
+            "27": "Jalisco",
+            "59": "Veracruz"
+        }
+    },
+    "44": {
+        "name": "Ohio",
+        "links": {
+            "49": "Pennsylvania",
+            "60": "Virginia",
+            "22": "Fort Detroit",
+            "40": "Niagara",
+            "30": "Kentucky",
+            "53": "Shawnee Lands"
+        }
+    },
+    "45": {
+        "name": "Ojibwa Lands",
+        "links": {
+            "16": "Cree Lands",
+            "46": "Ontario",
+            "13": "Chippewa Lands"
+        }
+    },
+    "46": {
+        "name": "Ontario",
+        "links": {
+            "45": "Ojibwa Lands",
+            "51": "Quebec",
+            "40": "Niagara",
+            "22": "Fort Detroit",
+            "13": "Chippewa Lands",
+            "36": "Montreal"
+        }
+    },
+    "47": {
+        "name": "Panama",
+        "links": {
+            "8": "Bogota",
+            "15": "Costa Rica",
+            "10": "Cartagena"
+        }
+    },
+    "48": {
+        "name": "Pawnee Lands",
+        "links": {
+            "29": "Kansa Lands",
+            "5": "Arapaho Lands",
+            "18": "Crow Lands",
+            "54": "Sioux Lands"
+        }
+    },
+    "49": {
+        "name": "Pennsylvania",
+        "links": {
+            "38": "New York",
+            "60": "Virginia",
+            "40": "Niagara",
+            "44": "Ohio"
+        }
+    },
+    "50": {
+        "name": "Puerto Rico",
+        "links": {
+            "20": "Dominican Republic",
+            "32": "Lesser Antilles"
+        }
+    },
+    "51": {
+        "name": "Quebec",
+        "links": {
+            "31": "Labrador",
+            "46": "Ontario",
+            "37": "New Brunswick",
+            "36": "Montreal"
+        }
+    },
+    "52": {
+        "name": "Sauk Lands",
+        "links": {
+            "29": "Kansa Lands",
+            "13": "Chippewa Lands",
+            "53": "Shawnee Lands",
+            "6": "Arkansas",
+            "22": "Fort Detroit"
+        }
+    },
+    "53": {
+        "name": "Shawnee Lands",
+        "links": {
+            "30": "Kentucky",
+            "6": "Arkansas",
+            "52": "Sauk Lands",
+            "22": "Fort Detroit",
+            "44": "Ohio"
+        }
+    },
+    "54": {
+        "name": "Sioux Lands",
+        "links": {
+            "13": "Chippewa Lands",
+            "29": "Kansa Lands",
+            "16": "Cree Lands",
+            "18": "Crow Lands",
+            "48": "Pawnee Lands"
+        }
+    },
+    "55": {
+        "name": "Tamaulipas",
+        "links": {
+            "14": "Coahuila",
+            "59": "Veracruz",
+            "27": "Jalisco",
+            "12": "Chihuahua"
+        }
+    },
+    "56": {
+        "name": "Tejas",
+        "links": {
+            "14": "Coahuila",
+            "4": "Apache Lands",
+            "1": "Acadiana",
+            "5": "Arapaho Lands",
+            "29": "Kansa Lands"
+        }
+    },
+    "57": {
+        "name": "Tennessee",
+        "links": {
+            "23": "Georgia",
+            "17": "Creek Lands",
+            "6": "Arkansas",
+            "30": "Kentucky"
+        }
+    },
+    "58": {
+        "name": "Venezuela",
+        "links": {
+            "25": "Guyana",
+            "8": "Bogota",
+            "34": "Maracaibo",
+            "3": "Angostura"
+        }
+    },
+    "59": {
+        "name": "Veracruz",
+        "links": {
+            "55": "Tamaulipas",
+            "1": "Acadiana",
+            "11": "Chiapas",
+            "43": "Oaxaca",
+            "27": "Jalisco"
+        }
+    },
+    "60": {
+        "name": "Virginia",
+        "links": {
+            "49": "Pennsylvania",
+            "9": "Carolina",
+            "44": "Ohio",
+            "30": "Kentucky"
+        }
+    },
+    "61": {
+        "name": "Yucatan",
+        "links": {
+            "24": "Guatemala",
+            "11": "Chiapas",
+            "19": "Cuba"
+        }
+    }
+}

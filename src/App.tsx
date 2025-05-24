@@ -156,6 +156,22 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [canUndo, canRedo]);
 
+  // Move handleAutoPathFile up from MapCanvas
+  function handleAutoPathFile(file: File) {
+    if (mapCanvasRef.current && mapCanvasRef.current.autoPathFromJson) {
+      const reader = new FileReader();
+      reader.onload = (event) => {
+        try {
+          const json = JSON.parse(event.target?.result as string);
+          mapCanvasRef.current.autoPathFromJson(json);
+        } catch (err) {
+          alert('Invalid JSON file.');
+        }
+      };
+      reader.readAsText(file);
+    }
+  }
+
   return (
     <Box sx={{ display: 'flex', width: '100vw', height: '100vh', overflow: 'hidden' }}>
       {continentOpen ? (
@@ -230,6 +246,7 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
             onNumberFontSizeChange={setZombieNumberFontSize}
             numberColor={zombieNumberColor}
             onNumberColorChange={setZombieNumberColor}
+            autoPathHandler={handleAutoPathFile}
           />
         ) : (
           <MainTools />

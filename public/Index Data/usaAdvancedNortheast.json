@@ -1,0 +1,310 @@
+{
+    "1": {
+        "name": "Erie",
+        "links": {
+            "5": "Buffalo",
+            "2": "Pittsburgh",
+            "3": "St. Marys"
+        }
+    },
+    "2": {
+        "name": "Pittsburgh",
+        "links": {
+            "34": "Lancaster",
+            "1": "Erie"
+        }
+    },
+    "3": {
+        "name": "St. Marys",
+        "links": {
+            "5": "Buffalo",
+            "4": "Williamsport",
+            "1": "Erie",
+            "8": "Ithaca"
+        }
+    },
+    "4": {
+        "name": "Williamsport",
+        "links": {
+            "3": "St. Marys",
+            "8": "Ithaca",
+            "31": "Newark"
+        }
+    },
+    "5": {
+        "name": "Buffalo",
+        "links": {
+            "6": "Geneva",
+            "3": "St. Marys",
+            "1": "Erie",
+            "8": "Ithaca"
+        }
+    },
+    "6": {
+        "name": "Geneva",
+        "links": {
+            "5": "Buffalo",
+            "7": "Syracuse",
+            "8": "Ithaca"
+        }
+    },
+    "7": {
+        "name": "Syracuse",
+        "links": {
+            "9": "Utica",
+            "6": "Geneva",
+            "10": "Watertown",
+            "8": "Ithaca"
+        }
+    },
+    "8": {
+        "name": "Ithaca",
+        "links": {
+            "5": "Buffalo",
+            "7": "Syracuse",
+            "9": "Utica",
+            "4": "Williamsport",
+            "6": "Geneva",
+            "3": "St. Marys"
+        }
+    },
+    "9": {
+        "name": "Utica",
+        "links": {
+            "12": "Rutland",
+            "7": "Syracuse",
+            "10": "Watertown",
+            "8": "Ithaca",
+            "21": "Pittsfield"
+        }
+    },
+    "10": {
+        "name": "Watertown",
+        "links": {
+            "12": "Rutland",
+            "7": "Syracuse",
+            "9": "Utica",
+            "11": "Burlington"
+        }
+    },
+    "11": {
+        "name": "Burlington",
+        "links": {
+            "12": "Rutland",
+            "10": "Watertown",
+            "13": "Berlin"
+        }
+    },
+    "12": {
+        "name": "Rutland",
+        "links": {
+            "9": "Utica",
+            "14": "Conway",
+            "10": "Watertown",
+            "13": "Berlin",
+            "11": "Burlington"
+        }
+    },
+    "13": {
+        "name": "Berlin",
+        "links": {
+            "12": "Rutland",
+            "16": "Augusta",
+            "20": "Farmington",
+            "14": "Conway",
+            "11": "Burlington"
+        }
+    },
+    "14": {
+        "name": "Conway",
+        "links": {
+            "12": "Rutland",
+            "16": "Augusta",
+            "20": "Farmington",
+            "13": "Berlin",
+            "15": "Manchester"
+        }
+    },
+    "15": {
+        "name": "Manchester",
+        "links": {
+            "23": "Boston",
+            "16": "Augusta",
+            "14": "Conway",
+            "22": "Worcester",
+            "21": "Pittsfield"
+        }
+    },
+    "16": {
+        "name": "Augusta",
+        "links": {
+            "17": "Waterville",
+            "20": "Farmington",
+            "14": "Conway",
+            "24": "New Bedford",
+            "19": "Caribou",
+            "13": "Berlin",
+            "18": "Bangor",
+            "15": "Manchester"
+        }
+    },
+    "17": {
+        "name": "Waterville",
+        "links": {
+            "16": "Augusta",
+            "20": "Farmington",
+            "19": "Caribou",
+            "18": "Bangor"
+        }
+    },
+    "18": {
+        "name": "Bangor",
+        "links": {
+            "16": "Augusta",
+            "17": "Waterville",
+            "19": "Caribou"
+        }
+    },
+    "19": {
+        "name": "Caribou",
+        "links": {
+            "16": "Augusta",
+            "17": "Waterville",
+            "18": "Bangor"
+        }
+    },
+    "20": {
+        "name": "Farmington",
+        "links": {
+            "16": "Augusta",
+            "17": "Waterville",
+            "14": "Conway",
+            "13": "Berlin"
+        }
+    },
+    "21": {
+        "name": "Pittsfield",
+        "links": {
+            "29": "Poughkeepsie",
+            "9": "Utica",
+            "26": "Hartford",
+            "22": "Worcester",
+            "27": "Bridgeport",
+            "15": "Manchester"
+        }
+    },
+    "22": {
+        "name": "Worcester",
+        "links": {
+            "23": "Boston",
+            "25": "Providence",
+            "26": "Hartford",
+            "15": "Manchester",
+            "21": "Pittsfield"
+        }
+    },
+    "23": {
+        "name": "Boston",
+        "links": {
+            "24": "New Bedford",
+            "25": "Providence",
+            "22": "Worcester",
+            "15": "Manchester"
+        }
+    },
+    "24": {
+        "name": "New Bedford",
+        "links": {
+            "23": "Boston",
+            "16": "Augusta",
+            "25": "Providence"
+        }
+    },
+    "25": {
+        "name": "Providence",
+        "links": {
+            "23": "Boston",
+            "28": "New Haven",
+            "24": "New Bedford",
+            "26": "Hartford",
+            "22": "Worcester"
+        }
+    },
+    "26": {
+        "name": "Hartford",
+        "links": {
+            "28": "New Haven",
+            "25": "Providence",
+            "22": "Worcester",
+            "27": "Bridgeport",
+            "21": "Pittsfield"
+        }
+    },
+    "27": {
+        "name": "Bridgeport",
+        "links": {
+            "29": "Poughkeepsie",
+            "28": "New Haven",
+            "26": "Hartford",
+            "30": "New York",
+            "21": "Pittsfield"
+        }
+    },
+    "28": {
+        "name": "New Haven",
+        "links": {
+            "25": "Providence",
+            "26": "Hartford",
+            "27": "Bridgeport"
+        }
+    },
+    "29": {
+        "name": "Poughkeepsie",
+        "links": {
+            "27": "Bridgeport",
+            "30": "New York",
+            "31": "Newark",
+            "21": "Pittsfield"
+        }
+    },
+    "30": {
+        "name": "New York",
+        "links": {
+            "29": "Poughkeepsie",
+            "27": "Bridgeport",
+            "31": "Newark"
+        }
+    },
+    "31": {
+        "name": "Newark",
+        "links": {
+            "29": "Poughkeepsie",
+            "4": "Williamsport",
+            "33": "Philadelphia",
+            "32": "Lakewood",
+            "30": "New York"
+        }
+    },
+    "32": {
+        "name": "Lakewood",
+        "links": {
+            "31": "Newark",
+            "33": "Philadelphia"
+        }
+    },
+    "33": {
+        "name": "Philadelphia",
+        "links": {
+            "34": "Lancaster",
+            "32": "Lakewood",
+            "31": "Newark"
+        }
+    },
+    "34": {
+        "name": "Lancaster",
+        "links": {
+            "2": "Pittsburgh",
+            "33": "Philadelphia"
+        }
+    }
+}

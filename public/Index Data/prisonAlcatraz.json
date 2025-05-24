@@ -1,0 +1,283 @@
+{
+    "1": {
+        "name": "Hospital",
+        "links": {
+            "3": "Passage"
+        }
+    },
+    "2": {
+        "name": "Mess Room",
+        "links": {
+            "11": "Cell Room Exit Left",
+            "24": "Kitchen"
+        }
+    },
+    "3": {
+        "name": "Passage",
+        "links": {
+            "1": "Hospital",
+            "5": "Attendants Room",
+            "12": "Cell Room Exit Right",
+            "32": "Screen Room",
+            "20": "Dispel Room",
+            "27": "Lecher Room",
+            "34": "Sick Ward"
+        }
+    },
+    "4": {
+        "name": "Adjutants Office",
+        "links": {
+            "23": "Hallway"
+        }
+    },
+    "5": {
+        "name": "Attendants Room",
+        "links": {
+            "3": "Passage"
+        }
+    },
+    "6": {
+        "name": "Bakery",
+        "links": {
+            "39": "Workshop",
+            "18": "Clothing Room"
+        }
+    },
+    "7": {
+        "name": "Basement Stairway",
+        "links": {
+            "35": "Stockade Stairway",
+            "39": "Workshop"
+        }
+    },
+    "8": {
+        "name": "Cell Room Center",
+        "links": {
+            "14": "Cell Room Northwest",
+            "9": "Cell Room Center Passage",
+            "10": "Cell Room Entrance",
+            "15": "Cell Room South",
+            "13": "Cell Room North"
+        }
+    },
+    "9": {
+        "name": "Cell Room Center Passage",
+        "links": {
+            "11": "Cell Room Exit Left",
+            "8": "Cell Room Center"
+        }
+    },
+    "10": {
+        "name": "Cell Room Entrance",
+        "links": {
+            "8": "Cell Room Center",
+            "13": "Cell Room North",
+            "15": "Cell Room South",
+            "23": "Hallway"
+        }
+    },
+    "11": {
+        "name": "Cell Room Exit Left",
+        "links": {
+            "12": "Cell Room Exit Right",
+            "9": "Cell Room Center Passage",
+            "16": "Cell Room South Passage",
+            "2": "Mess Room"
+        }
+    },
+    "12": {
+        "name": "Cell Room Exit Right",
+        "links": {
+            "14": "Cell Room Northwest",
+            "11": "Cell Room Exit Left",
+            "3": "Passage"
+        }
+    },
+    "13": {
+        "name": "Cell Room North",
+        "links": {
+            "14": "Cell Room Northwest",
+            "10": "Cell Room Entrance",
+            "8": "Cell Room Center"
+        }
+    },
+    "14": {
+        "name": "Cell Room Northwest",
+        "links": {
+            "8": "Cell Room Center",
+            "12": "Cell Room Exit Right",
+            "13": "Cell Room North"
+        }
+    },
+    "15": {
+        "name": "Cell Room South",
+        "links": {
+            "8": "Cell Room Center",
+            "10": "Cell Room Entrance",
+            "16": "Cell Room South Passage"
+        }
+    },
+    "16": {
+        "name": "Cell Room South Passage",
+        "links": {
+            "15": "Cell Room South",
+            "11": "Cell Room Exit Left"
+        }
+    },
+    "17": {
+        "name": "Clerks",
+        "links": {
+            "33": "Second Floor Hall"
+        }
+    },
+    "18": {
+        "name": "Clothing Room",
+        "links": {
+            "6": "Bakery",
+            "26": "Lavatory"
+        }
+    },
+    "19": {
+        "name": "Commandants Office",
+        "links": {
+            "23": "Hallway"
+        }
+    },
+    "20": {
+        "name": "Dispel Room",
+        "links": {
+            "3": "Passage"
+        }
+    },
+    "21": {
+        "name": "Guards Lavatory",
+        "links": {
+            "23": "Hallway"
+        }
+    },
+    "22": {
+        "name": "Guards Room",
+        "links": {
+            "28": "Main Stairway",
+            "23": "Hallway"
+        }
+    },
+    "23": {
+        "name": "Hallway",
+        "links": {
+            "22": "Guards Room",
+            "21": "Guards Lavatory",
+            "19": "Commandants Office",
+            "4": "Adjutants Office",
+            "10": "Cell Room Entrance"
+        }
+    },
+    "24": {
+        "name": "Kitchen",
+        "links": {
+            "2": "Mess Room",
+            "35": "Stockade Stairway",
+            "25": "Kitchen Storage",
+            "30": "Pantry",
+            "29": "Overseers Mess"
+        }
+    },
+    "25": {
+        "name": "Kitchen Storage",
+        "links": {
+            "24": "Kitchen"
+        }
+    },
+    "26": {
+        "name": "Lavatory",
+        "links": {
+            "18": "Clothing Room"
+        }
+    },
+    "27": {
+        "name": "Lecher Room",
+        "links": {
+            "3": "Passage"
+        }
+    },
+    "28": {
+        "name": "Main Stairway",
+        "links": {
+            "33": "Second Floor Hall",
+            "22": "Guards Room"
+        }
+    },
+    "29": {
+        "name": "Overseers Mess",
+        "links": {
+            "24": "Kitchen"
+        }
+    },
+    "30": {
+        "name": "Pantry",
+        "links": {
+            "24": "Kitchen"
+        }
+    },
+    "31": {
+        "name": "Record Room",
+        "links": {
+            "33": "Second Floor Hall"
+        }
+    },
+    "32": {
+        "name": "Screen Room",
+        "links": {
+            "3": "Passage"
+        }
+    },
+    "33": {
+        "name": "Second Floor Hall",
+        "links": {
+            "17": "Clerks",
+            "28": "Main Stairway",
+            "31": "Record Room",
+            "37": "Telegraph Office"
+        }
+    },
+    "34": {
+        "name": "Sick Ward",
+        "links": {
+            "3": "Passage",
+            "38": "Upper Lavatory"
+        }
+    },
+    "35": {
+        "name": "Stockade Stairway",
+        "links": {
+            "24": "Kitchen",
+            "7": "Basement Stairway"
+        }
+    },
+    "36": {
+        "name": "Storage",
+        "links": {
+            "39": "Workshop"
+        }
+    },
+    "37": {
+        "name": "Telegraph Office",
+        "links": {
+            "33": "Second Floor Hall"
+        }
+    },
+    "38": {
+        "name": "Upper Lavatory",
+        "links": {
+            "34": "Sick Ward"
+        }
+    },
+    "39": {
+        "name": "Workshop",
+        "links": {
+            "7": "Basement Stairway",
+            "6": "Bakery",
+            "36": "Storage"
+        }
+    }
+}

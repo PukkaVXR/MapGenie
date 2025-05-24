@@ -1,0 +1,308 @@
+{
+    "1": {
+        "name": "Plastic Basin",
+        "links": {
+            "8": "Broken Land",
+            "3": "Splint Rock",
+            "2": "Tuno Basin",
+            "9": "Hagga Basin"
+        }
+    },
+    "2": {
+        "name": "Tuno Basin",
+        "links": {
+            "4": "Cave of Ridges",
+            "3": "Splint Rock",
+            "1": "Plastic Basin"
+        }
+    },
+    "3": {
+        "name": "Splint Rock",
+        "links": {
+            "1": "Plastic Basin",
+            "2": "Tuno Basin",
+            "4": "Cave of Ridges",
+            "10": "Idaho Base",
+            "9": "Hagga Basin"
+        }
+    },
+    "4": {
+        "name": "Cave of Ridges",
+        "links": {
+            "5": "Sietch Tabr",
+            "10": "Idaho Base",
+            "3": "Splint Rock",
+            "2": "Tuno Basin",
+            "6": "MT Idaho",
+            "36": "Habbanya Ridge"
+        }
+    },
+    "5": {
+        "name": "Sietch Tabr",
+        "links": {
+            "4": "Cave of Ridges",
+            "7": "Bight of the Cliff",
+            "6": "MT Idaho"
+        }
+    },
+    "6": {
+        "name": "MT Idaho",
+        "links": {
+            "5": "Sietch Tabr",
+            "4": "Cave of Ridges",
+            "10": "Idaho Base",
+            "7": "Bight of the Cliff"
+        }
+    },
+    "7": {
+        "name": "Bight of the Cliff",
+        "links": {
+            "5": "Sietch Tabr",
+            "6": "MT Idaho",
+            "10": "Idaho Base"
+        }
+    },
+    "8": {
+        "name": "Broken Land",
+        "links": {
+            "13": "Imperial Basin",
+            "14": "Arrakeen",
+            "1": "Plastic Basin",
+            "9": "Hagga Basin",
+            "28": "West Sihaya"
+        }
+    },
+    "9": {
+        "name": "Hagga Basin",
+        "links": {
+            "12": "Arsunt",
+            "10": "Idaho Base",
+            "8": "Broken Land",
+            "3": "Splint Rock",
+            "1": "Plastic Basin",
+            "11": "Above Wind Pass",
+            "13": "Imperial Basin"
+        }
+    },
+    "10": {
+        "name": "Idaho Base",
+        "links": {
+            "4": "Cave of Ridges",
+            "7": "Bight of the Cliff",
+            "3": "Splint Rock",
+            "9": "Hagga Basin",
+            "6": "MT Idaho",
+            "11": "Above Wind Pass"
+        }
+    },
+    "11": {
+        "name": "Above Wind Pass",
+        "links": {
+            "12": "Arsunt",
+            "10": "Idaho Base",
+            "9": "Hagga Basin"
+        }
+    },
+    "12": {
+        "name": "Arsunt",
+        "links": {
+            "13": "Imperial Basin",
+            "9": "Hagga Basin",
+            "11": "Above Wind Pass"
+        }
+    },
+    "13": {
+        "name": "Imperial Basin",
+        "links": {
+            "12": "Arsunt",
+            "14": "Arrakeen",
+            "8": "Broken Land",
+            "19": "False Wall East",
+            "9": "Hagga Basin"
+        }
+    },
+    "14": {
+        "name": "Arrakeen",
+        "links": {
+            "13": "Imperial Basin",
+            "8": "Broken Land",
+            "19": "False Wall East",
+            "22": "Minor Erg North",
+            "23": "Shield Wall East"
+        }
+    },
+    "15": {
+        "name": "Polar Sink",
+        "links": {
+            "17": "Worm Line",
+            "16": "North Pole",
+            "19": "False Wall East"
+        }
+    },
+    "16": {
+        "name": "North Pole",
+        "links": {
+            "15": "Polar Sink",
+            "17": "Worm Line"
+        }
+    },
+    "17": {
+        "name": "Worm Line",
+        "links": {
+            "18": "Harg Pass",
+            "33": "Upper False Wall West",
+            "15": "Polar Sink",
+            "16": "North Pole"
+        }
+    },
+    "18": {
+        "name": "Harg Pass",
+        "links": {
+            "32": "Cielago Depression East",
+            "17": "Worm Line"
+        }
+    },
+    "19": {
+        "name": "False Wall East",
+        "links": {
+            "20": "Minor Erg South",
+            "13": "Imperial Basin",
+            "14": "Arrakeen",
+            "21": "Tuck's Sietch",
+            "22": "Minor Erg North",
+            "15": "Polar Sink"
+        }
+    },
+    "20": {
+        "name": "Minor Erg South",
+        "links": {
+            "27": "False Wall South",
+            "21": "Tuck's Sietch",
+            "19": "False Wall East"
+        }
+    },
+    "21": {
+        "name": "Tuck's Sietch",
+        "links": {
+            "20": "Minor Erg South",
+            "27": "False Wall South",
+            "19": "False Wall East",
+            "22": "Minor Erg North"
+        }
+    },
+    "22": {
+        "name": "Minor Erg North",
+        "links": {
+            "14": "Arrakeen",
+            "19": "False Wall East",
+            "21": "Tuck's Sietch"
+        }
+    },
+    "23": {
+        "name": "Shield Wall East",
+        "links": {
+            "24": "Pasty Mesa West",
+            "30": "Sihaya Ridge",
+            "14": "Arrakeen"
+        }
+    },
+    "24": {
+        "name": "Pasty Mesa West",
+        "links": {
+            "23": "Shield Wall East",
+            "25": "Pasty Mesa East",
+            "26": "Smuggler's Community"
+        }
+    },
+    "25": {
+        "name": "Pasty Mesa East",
+        "links": {
+            "24": "Pasty Mesa West",
+            "26": "Smuggler's Community"
+        }
+    },
+    "26": {
+        "name": "Smuggler's Community",
+        "links": {
+            "24": "Pasty Mesa West",
+            "25": "Pasty Mesa East",
+            "27": "False Wall South"
+        }
+    },
+    "27": {
+        "name": "False Wall South",
+        "links": {
+            "26": "Smuggler's Community",
+            "21": "Tuck's Sietch",
+            "20": "Minor Erg South",
+            "32": "Cielago Depression East"
+        }
+    },
+    "28": {
+        "name": "West Sihaya",
+        "links": {
+            "8": "Broken Land",
+            "29": "North Sihaya",
+            "30": "Sihaya Ridge"
+        }
+    },
+    "29": {
+        "name": "North Sihaya",
+        "links": {
+            "30": "Sihaya Ridge",
+            "28": "West Sihaya"
+        }
+    },
+    "30": {
+        "name": "Sihaya Ridge",
+        "links": {
+            "28": "West Sihaya",
+            "29": "North Sihaya",
+            "23": "Shield Wall East"
+        }
+    },
+    "31": {
+        "name": "Cielago Depression West",
+        "links": {
+            "32": "Cielago Depression East",
+            "35": "Lower False Wall West"
+        }
+    },
+    "32": {
+        "name": "Cielago Depression East",
+        "links": {
+            "18": "Harg Pass",
+            "27": "False Wall South",
+            "31": "Cielago Depression West"
+        }
+    },
+    "33": {
+        "name": "Upper False Wall West",
+        "links": {
+            "17": "Worm Line",
+            "34": "False Wall West"
+        }
+    },
+    "34": {
+        "name": "False Wall West",
+        "links": {
+            "35": "Lower False Wall West",
+            "33": "Upper False Wall West"
+        }
+    },
+    "35": {
+        "name": "Lower False Wall West",
+        "links": {
+            "31": "Cielago Depression West",
+            "34": "False Wall West",
+            "36": "Habbanya Ridge"
+        }
+    },
+    "36": {
+        "name": "Habbanya Ridge",
+        "links": {
+            "4": "Cave of Ridges",
+            "35": "Lower False Wall West"
+        }
+    }
+}
