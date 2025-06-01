@@ -84,19 +84,18 @@ export const UtilityToolbar: React.FC<{
   return (
     <>
       <Box sx={{
-        position: 'absolute',
-        top: 16,
-        right: 16,
-        zIndex: 1200,
         bgcolor: 'background.paper',
         borderRadius: 1,
         boxShadow: 1,
-        p: 1,
+        p: 2,
         display: 'flex',
         flexDirection: 'column',
         gap: 2,
         alignItems: 'flex-start',
         minWidth: 180,
+        width: '100%',
+        height: '100%',
+        overflowY: 'auto',
       }}>
         {/* Zombie Mode Toggle Button */}
         <Button

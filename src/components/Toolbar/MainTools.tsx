@@ -27,7 +27,8 @@ const AVAILABLE_FONTS = [
 
 export const MainTools: React.FC<{
   onCanvasResize?: (widthPercent: number, heightPercent: number, mode: 'expand' | 'contract') => void;
-}> = ({ onCanvasResize }) => {
+  vertical?: boolean;
+}> = ({ onCanvasResize, vertical = false }) => {
   const { state, dispatch } = useMap();
   const WIDTH_HEIGHT_STEP = 25;
 
@@ -52,7 +53,16 @@ export const MainTools: React.FC<{
 
   return (
     <Box
-      sx={{
+      sx={vertical ? {
+        bgcolor: 'background.paper',
+        borderRadius: 0,
+        boxShadow: 'none',
+        p: 2,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'stretch',
+        width: '100%',
+      } : {
         position: 'absolute',
         top: 16,
         left: '50%',
@@ -69,34 +79,36 @@ export const MainTools: React.FC<{
         exclusive
         onChange={handleToolChange}
         aria-label="drawing tools"
+        orientation={vertical ? 'vertical' : 'horizontal'}
+        sx={vertical ? { width: '100%' } : {}}
       >
-        <ToggleButton value="select" aria-label="select tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <EditIcon />
-          <Typography variant="caption">Select</Typography>
+        <ToggleButton value="select" aria-label="select tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <EditIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>SELECT</Typography>
         </ToggleButton>
-        <ToggleButton value="draw" aria-label="draw tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <BrushIcon />
-          <Typography variant="caption">Freehand</Typography>
+        <ToggleButton value="draw" aria-label="draw tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <BrushIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>FREEHAND</Typography>
         </ToggleButton>
-        <ToggleButton value="polygon" aria-label="polygon tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <ChangeHistoryIcon />
-          <Typography variant="caption">Polygon</Typography>
+        <ToggleButton value="polygon" aria-label="polygon tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <ChangeHistoryIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>POLYGON</Typography>
         </ToggleButton>
-        <ToggleButton value="rect" aria-label="rectangle tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <CropSquareIcon />
-          <Typography variant="caption">Rectangle</Typography>
+        <ToggleButton value="rect" aria-label="rectangle tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <CropSquareIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>RECTANGLE</Typography>
         </ToggleButton>
-        <ToggleButton value="ellipse" aria-label="ellipse tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <PanoramaFishEyeIcon />
-          <Typography variant="caption">Ellipse</Typography>
+        <ToggleButton value="ellipse" aria-label="ellipse tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <PanoramaFishEyeIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>ELLIPSE</Typography>
         </ToggleButton>
-        <ToggleButton value="connected" aria-label="connected tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <CallMergeIcon />
-          <Typography variant="caption">Connected</Typography>
+        <ToggleButton value="connected" aria-label="connected tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <CallMergeIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>CONNECTED</Typography>
         </ToggleButton>
-        <ToggleButton value="connect" aria-label="connect tool" sx={{ flexDirection: 'column', minWidth: 64 }}>
-          <LinkIcon />
-          <Typography variant="caption">Connect</Typography>
+        <ToggleButton value="connect" aria-label="connect tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <LinkIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>CONNECT</Typography>
         </ToggleButton>
       </ToggleButtonGroup>
       {state.selectedTool === 'connect' && (
@@ -119,20 +131,22 @@ export const MainTools: React.FC<{
           </ToggleButtonGroup>
         </Box>
       )}
-      <Box sx={{ mt: 2, p: 1, borderTop: '1px solid #eee' }}>
-        <Stack spacing={2}>
-          <Stack direction="row" spacing={1} alignItems="center">
-            <Typography variant="body2">Width</Typography>
-            <IconButton size="small" onClick={() => handleResize('contract', 'width')}><RemoveIcon /></IconButton>
-            <IconButton size="small" onClick={() => handleResize('expand', 'width')}><AddIcon /></IconButton>
-            <Typography variant="body2">Height</Typography>
-            <IconButton size="small" onClick={() => handleResize('contract', 'height')}><RemoveIcon /></IconButton>
-            <IconButton size="small" onClick={() => handleResize('expand', 'height')}><AddIcon /></IconButton>
+      {!vertical && (
+        <Box sx={{ mt: 2, p: 1, borderTop: '1px solid #eee' }}>
+          <Stack spacing={2}>
+            <Stack direction="row" spacing={1} alignItems="center">
+              <Typography variant="body2">Width</Typography>
+              <IconButton size="small" onClick={() => handleResize('contract', 'width')}><RemoveIcon /></IconButton>
+              <IconButton size="small" onClick={() => handleResize('expand', 'width')}><AddIcon /></IconButton>
+              <Typography variant="body2">Height</Typography>
+              <IconButton size="small" onClick={() => handleResize('contract', 'height')}><RemoveIcon /></IconButton>
+              <IconButton size="small" onClick={() => handleResize('expand', 'height')}><AddIcon /></IconButton>
+            </Stack>
+            {/* Customise button */}
+            <Button variant="outlined" onClick={() => setCustomiseOpen(true)} fullWidth sx={{ mt: 1 }}>Customise Text</Button>
           </Stack>
-          {/* Customise button */}
-          <Button variant="outlined" onClick={() => setCustomiseOpen(true)} fullWidth sx={{ mt: 1 }}>Customise Text</Button>
-        </Stack>
-      </Box>
+        </Box>
+      )}
       {/* Customise Dialog */}
       <Dialog open={customiseOpen} onClose={() => setCustomiseOpen(false)} maxWidth="xs" fullWidth>
         <DialogTitle>Default Text Settings</DialogTitle>

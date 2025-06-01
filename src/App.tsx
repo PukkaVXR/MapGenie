@@ -8,6 +8,7 @@ import { UtilityToolbar } from './components/Toolbar/UtilityToolbar';
 import React from 'react';
 import { MainTools } from './components/Toolbar/MainTools';
 import { ZombieTools } from './components/Toolbar/ZombieTools';
+import { TopToolbar } from './components/Toolbar/TopToolbar';
 
 function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; themeMode: 'light' | 'dark' }) {
   const { state, dispatch, canUndo, canRedo } = useMap();
@@ -23,6 +24,12 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
   const [zombieNumberFont, setZombieNumberFont] = useState('Arial');
   const [zombieNumberFontSize, setZombieNumberFontSize] = useState(24);
   const [zombieNumberColor, setZombieNumberColor] = useState('#fff');
+  const [pngFilename, setPngFilename] = useState('risk-map.png');
+  const fileInputRef = React.useRef<HTMLInputElement>(null);
+  const bgInputRef = React.useRef<HTMLInputElement>(null);
+  const [helpOpen, setHelpOpen] = useState(false);
+  const [paletteAnchor, setPaletteAnchor] = useState<null | HTMLElement>(null);
+  const [customiseOpen, setCustomiseOpen] = useState(false);
 
   const PALETTES = {
     Classic: ['#f44336', '#2196f3', '#4caf50', '#ff9800', '#9c27b0', '#00bcd4', '#8bc34a', '#ffc107'],
@@ -172,96 +179,117 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
     }
   }
 
+  const handlePaletteClick = (event: React.MouseEvent<HTMLElement>) => setPaletteAnchor(event.currentTarget);
+  const handlePaletteClose = () => setPaletteAnchor(null);
+  const handlePaletteSelect = (name: string) => { handlePaletteChange(name); handlePaletteClose(); };
+
+  // Add a handler for canvas resizing for the top toolbar
+  const handleCanvasResize = (widthDelta: number, heightDelta: number, mode: 'expand' | 'contract') => {
+    if (mapCanvasRef.current && mapCanvasRef.current.resizeCanvas) {
+      mapCanvasRef.current.resizeCanvas(widthDelta, heightDelta, mode);
+    }
+  };
+
   return (
-    <Box sx={{ display: 'flex', width: '100vw', height: '100vh', overflow: 'hidden' }}>
-      {continentOpen ? (
-        <ContinentEditor open={continentOpen} onToggle={() => setContinentOpen(false)} palette={palette} />
-      ) : (
-        <Box sx={{ width: 24, height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: 'background.paper', borderRight: '1px solid #eee', position: 'relative' }}>
-          <IconButton size="small" onClick={() => setContinentOpen(true)} title="Show Continents" sx={{ position: 'absolute', top: '50%', left: 0, transform: 'translateY(-50%)' }}>
-            <svg width="20" height="20" viewBox="0 0 20 20"><path d="M7 4l6 6-6 6" stroke="#1976d2" strokeWidth="2" fill="none"/></svg>
-          </IconButton>
-          <Box sx={{ position: 'absolute', bottom: 32, left: '50%', transform: 'translateX(-50%) rotate(-90deg)' }}>
-            <span style={{ fontSize: 13, letterSpacing: 2, color: '#1976d2', fontWeight: 500 }}>Continents</span>
+    <Box sx={{ display: 'flex', flexDirection: 'column', width: '100vw', height: '100vh', overflow: 'hidden' }}>
+      {/* Top Toolbar */}
+      <TopToolbar
+        onExportJSON={handleExportJSON}
+        onImportJSON={handleImportJSON}
+        onSaveLocal={handleSaveLocal}
+        onLoadLocal={handleLoadLocal}
+        onSetBackground={handleSetBackground}
+        onRemoveBackground={handleRemoveBackground}
+        onExportPNG={handleExportPNG}
+        onUndo={handleUndo}
+        onRedo={handleRedo}
+        canUndo={canUndo}
+        canRedo={canRedo}
+        toggleTheme={toggleTheme}
+        themeMode={themeMode}
+        paletteName={paletteName}
+        palette={palette}
+        paletteNames={paletteNames}
+        onPaletteChange={handlePaletteChange}
+        onToggleTerritoryNames={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showTerritoryNames' })}
+        onToggleContinentColors={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showContinentColors' })}
+        onToggleConnections={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showConnections' })}
+        showTerritoryNames={state.viewSettings.showTerritoryNames}
+        showContinentColors={state.viewSettings.showContinentColors}
+        showConnections={state.viewSettings.showConnections}
+        onZombieModeToggle={() => {
+          setIsZombieMode(z => {
+            const next = !z;
+            if (next) setZombieTool('select');
+            return next;
+          });
+        }}
+        isZombieMode={isZombieMode}
+        pngFilename={pngFilename}
+        setPngFilename={setPngFilename}
+        fileInputRef={fileInputRef}
+        bgInputRef={bgInputRef}
+        onHelpOpen={() => setHelpOpen(true)}
+        paletteAnchor={paletteAnchor}
+        handlePaletteClick={handlePaletteClick}
+        handlePaletteClose={handlePaletteClose}
+        handlePaletteSelect={handlePaletteSelect}
+        onCanvasResize={handleCanvasResize}
+      />
+      {/* Main Content: flex row */}
+      <Box sx={{ display: 'flex', flex: 1, minHeight: 0 }}>
+        {/* Left Sidebar: Tools only */}
+        <Box sx={{ width: 200, height: '100%', display: 'flex', flexDirection: 'column', bgcolor: 'background.paper', borderRight: '1px solid #222', zIndex: 1200, alignItems: 'center', justifyContent: 'flex-start', pt: 2 }}>
+          <Box sx={{ width: '100%', bgcolor: '#181818', border: '1px solid #333', borderRadius: 2, boxShadow: 2, p: 0, display: 'flex', flexDirection: 'column', alignItems: 'stretch', mb: 2 }}>
+            {isZombieMode ? (
+              <ZombieTools
+                selectedTool={zombieTool}
+                onToolChange={tool => setZombieTool(tool as 'select' | 'number' | 'arrow' | 'key')}
+                arrowColor={zombieArrowColor}
+                onArrowColorChange={setZombieArrowColor}
+                arrowSize={zombieArrowSize}
+                onArrowSizeChange={setZombieArrowSize}
+                numberFont={zombieNumberFont}
+                onNumberFontChange={setZombieNumberFont}
+                numberFontSize={zombieNumberFontSize}
+                onNumberFontSizeChange={setZombieNumberFontSize}
+                numberColor={zombieNumberColor}
+                onNumberColorChange={setZombieNumberColor}
+                autoPathHandler={handleAutoPathFile}
+                vertical
+              />
+            ) : (
+              <MainTools vertical onCustomiseText={() => setCustomiseOpen(true)} />
+            )}
+            {/* Bottom button: Customise Text (design mode) or Autopath (zombie mode) */}
+            {!isZombieMode && (
+              <Box sx={{ p: 1, borderTop: '1px solid #333', mt: 1 }}>
+                <button style={{ width: '100%', padding: '10px 0', background: 'none', border: '1px solid #1976d2', color: '#42a5f5', borderRadius: 4, fontWeight: 700, fontSize: 16, cursor: 'pointer' }} onClick={() => setCustomiseOpen(true)}>
+                  CUSTOMISE<br />TEXT
+                </button>
+              </Box>
+            )}
           </Box>
         </Box>
-      )}
-      {connectionOpen ? (
-        <ConnectionManager open={connectionOpen} onToggle={() => setConnectionOpen(false)} setHighlighted={setHighlightedConnection} highlighted={highlightedConnection} />
-      ) : (
-        <Box sx={{ width: 24, height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: 'background.paper', borderRight: '1px solid #eee', position: 'relative' }}>
-          <IconButton size="small" onClick={() => setConnectionOpen(true)} title="Show Connections" sx={{ position: 'absolute', top: '50%', left: 0, transform: 'translateY(-50%)' }}>
-            <svg width="20" height="20" viewBox="0 0 20 20"><path d="M7 4l6 6-6 6" stroke="#1976d2" strokeWidth="2" fill="none"/></svg>
-          </IconButton>
-          <Box sx={{ position: 'absolute', bottom: 32, left: '50%', transform: 'translateX(-50%) rotate(-90deg)' }}>
-            <span style={{ fontSize: 13, letterSpacing: 2, color: '#1976d2', fontWeight: 500 }}>Connections</span>
-          </Box>
-        </Box>
-      )}
-      <Box sx={{ flex: 1, position: 'relative', overflow: 'hidden' }}>
-        <UtilityToolbar
-          onExportJSON={handleExportJSON}
-          onImportJSON={handleImportJSON}
-          onSaveLocal={handleSaveLocal}
-          onLoadLocal={handleLoadLocal}
-          onSetBackground={handleSetBackground}
-          onRemoveBackground={handleRemoveBackground}
-          onExportPNG={handleExportPNG}
-          onUndo={handleUndo}
-          onRedo={handleRedo}
-          canUndo={canUndo}
-          canRedo={canRedo}
-          toggleTheme={toggleTheme}
-          themeMode={themeMode}
-          paletteName={paletteName}
-          palette={palette}
-          paletteNames={paletteNames}
-          onPaletteChange={handlePaletteChange}
-          onToggleTerritoryNames={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showTerritoryNames' })}
-          onToggleContinentColors={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showContinentColors' })}
-          onToggleConnections={() => dispatch({ type: 'TOGGLE_VIEW_SETTING', payload: 'showConnections' })}
-          showTerritoryNames={state.viewSettings.showTerritoryNames}
-          showContinentColors={state.viewSettings.showContinentColors}
-          showConnections={state.viewSettings.showConnections}
-          onZombieModeToggle={() => {
-            setIsZombieMode(z => {
-              const next = !z;
-              if (next) setZombieTool('select');
-              return next;
-            });
-          }}
-          isZombieMode={isZombieMode}
-        />
-        {isZombieMode ? (
-          <ZombieTools
-            selectedTool={zombieTool}
-            onToolChange={tool => setZombieTool(tool as 'select' | 'number' | 'arrow' | 'key')}
-            arrowColor={zombieArrowColor}
-            onArrowColorChange={setZombieArrowColor}
-            arrowSize={zombieArrowSize}
-            onArrowSizeChange={setZombieArrowSize}
-            numberFont={zombieNumberFont}
-            onNumberFontChange={setZombieNumberFont}
-            numberFontSize={zombieNumberFontSize}
-            onNumberFontSizeChange={setZombieNumberFontSize}
-            numberColor={zombieNumberColor}
-            onNumberColorChange={setZombieNumberColor}
-            autoPathHandler={handleAutoPathFile}
+        {/* Main Content: Canvas only */}
+        <Box sx={{ flex: 1, position: 'relative', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <MapCanvas
+            ref={mapCanvasRef}
+            backgroundImage={backgroundImage}
+            isZombieMode={isZombieMode}
+            zombieTool={zombieTool}
+            zombieNumberFont={zombieNumberFont}
+            zombieNumberFontSize={zombieNumberFontSize}
+            zombieNumberColor={zombieNumberColor}
+            zombieArrowColor={zombieArrowColor}
+            zombieArrowSize={zombieArrowSize}
           />
-        ) : (
-          <MainTools />
-        )}
-        <MapCanvas
-          ref={mapCanvasRef}
-          backgroundImage={backgroundImage}
-          isZombieMode={isZombieMode}
-          zombieTool={zombieTool}
-          zombieNumberFont={zombieNumberFont}
-          zombieNumberFontSize={zombieNumberFontSize}
-          zombieNumberColor={zombieNumberColor}
-          zombieArrowColor={zombieArrowColor}
-          zombieArrowSize={zombieArrowSize}
-        />
+        </Box>
+        {/* Right Sidebar: Continents and Connections */}
+        <Box sx={{ width: 320, height: '100%', display: 'flex', flexDirection: 'column', bgcolor: 'background.paper', borderLeft: '1px solid #222', zIndex: 1200 }}>
+          <ContinentEditor open={continentOpen} onToggle={() => setContinentOpen(false)} palette={palette} />
+          <ConnectionManager open={connectionOpen} onToggle={() => setConnectionOpen(false)} setHighlighted={setHighlightedConnection} highlighted={highlightedConnection} />
+        </Box>
       </Box>
     </Box>
   );

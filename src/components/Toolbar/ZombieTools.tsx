@@ -42,19 +42,30 @@ export const ZombieTools: React.FC<{
   numberColor: string;
   onNumberColorChange: (color: string) => void;
   autoPathHandler: (file: File) => void;
-}> = ({ selectedTool, onToolChange, arrowColor, onArrowColorChange, arrowSize, onArrowSizeChange, numberFont, onNumberFontChange, numberFontSize, onNumberFontSizeChange, numberColor, onNumberColorChange, autoPathHandler }) => {
+  vertical?: boolean;
+}> = ({ selectedTool, onToolChange, arrowColor, onArrowColorChange, arrowSize, onArrowSizeChange, numberFont, onNumberFontChange, numberFontSize, onNumberFontSizeChange, numberColor, onNumberColorChange, autoPathHandler, vertical = false }) => {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   return (
     <Box
-      sx={{
+      sx={vertical ? {
+        bgcolor: 'background.paper',
+        borderRadius: 0,
+        boxShadow: 'none',
+        p: 2,
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'stretch',
+        width: '100%',
+      } : {
+        position: 'absolute',
+        top: 16,
+        left: '50%',
+        transform: 'translateX(-50%)',
+        zIndex: 1000,
         bgcolor: 'background.paper',
         borderRadius: 1,
         boxShadow: 1,
-        p: 1,
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        minWidth: 220,
+        p: 0.5,
       }}
     >
       <ToggleButtonGroup
@@ -62,23 +73,24 @@ export const ZombieTools: React.FC<{
         exclusive
         onChange={(_e, val) => val && onToolChange(val)}
         aria-label="zombie tools"
-        sx={{ mb: 2 }}
+        orientation={vertical ? 'vertical' : 'horizontal'}
+        sx={vertical ? { width: '100%' } : {}}
       >
-        <ToggleButton value="select" aria-label="Select Tool">
-          <PanToolIcon />
-          <Typography variant="caption" sx={{ ml: 1 }}>Select</Typography>
+        <ToggleButton value="select" aria-label="Select Tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <PanToolIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>SELECT</Typography>
         </ToggleButton>
-        <ToggleButton value="number" aria-label="Number Tool">
-          <FormatListNumberedIcon />
-          <Typography variant="caption" sx={{ ml: 1 }}>Number</Typography>
+        <ToggleButton value="number" aria-label="Number Tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <FormatListNumberedIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>NUMBER</Typography>
         </ToggleButton>
-        <ToggleButton value="arrow" aria-label="Arrow Tool">
-          <ArrowForwardIcon />
-          <Typography variant="caption" sx={{ ml: 1 }}>Arrow</Typography>
+        <ToggleButton value="arrow" aria-label="Arrow Tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <ArrowForwardIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>ARROW</Typography>
         </ToggleButton>
-        <ToggleButton value="key" aria-label="Key Tool">
-          <ListAltIcon />
-          <Typography variant="caption" sx={{ ml: 1 }}>Key</Typography>
+        <ToggleButton value="key" aria-label="Key Tool" sx={vertical ? { minWidth: '100%', width: '100%', height: 56, display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'flex-start', textAlign: 'left', gap: 1, px: 2 } : { flexDirection: 'column', minWidth: 64 }}>
+          <ListAltIcon sx={{ mr: 1 }} />
+          <Typography variant="caption" sx={{ fontSize: 13, whiteSpace: 'normal', wordBreak: 'break-word', textAlign: 'left' }}>KEY</Typography>
         </ToggleButton>
       </ToggleButtonGroup>
       {selectedTool === 'arrow' && (
@@ -161,12 +173,12 @@ export const ZombieTools: React.FC<{
       <Stack sx={{ width: '100%', mt: 2 }} alignItems="center">
         <Button
           variant="contained"
-          color="secondary"
-          size="small"
+          size="large"
           onClick={() => fileInputRef.current?.click()}
           fullWidth
+          sx={{ height: 48, fontWeight: 700, fontSize: 16, background: '#ce93d8', color: '#222', borderRadius: 4, mt: 2, '&:hover': { background: '#e1bee7' } }}
         >
-          AutoPath
+          AUTOPATH
         </Button>
         <input
           ref={fileInputRef}
