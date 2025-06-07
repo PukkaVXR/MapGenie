@@ -1,10 +1,11 @@
-import React, { useState, useEffect, useRef, RefObject } from 'react';
+import { useState, useEffect } from 'react';
+import type { RefObject } from 'react';
 
-interface UsePanZoomProps {
+interface UsePanZoomOptions {
   stageRef: RefObject<any>;
 }
 
-export const usePanZoom = ({ stageRef }: UsePanZoomProps) => {
+export const usePanZoom = ({ stageRef }: UsePanZoomOptions) => {
   const [stageScale, setStageScale] = useState(1);
   const [stageX, setStageX] = useState(0);
   const [stageY, setStageY] = useState(0);

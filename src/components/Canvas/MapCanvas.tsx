@@ -9,7 +9,7 @@ import zombiemodeImg from '../../../public/Zombiemode.png';
 
 // Constants
 import { CANVAS_INITIAL_WIDTH, CANVAS_INITIAL_HEIGHT } from './constants/sizes';
-import { ZOMBIE_ARROW_ORDER_COLORS, ZOMBIE_ARROW_LABELS } from './constants/colors';
+import { ZOMBIE_ARROW_ORDER_COLORS } from './constants/colors';
 
 // Types
 import type { ZombieNumber, ZombieArrow, SelectionRect } from './types';
@@ -69,10 +69,8 @@ const MapCanvas = forwardRef<any, {
     newShape,
     snappedEdge,
     connectionStart,
-    connectionStartPoint,
     freehandDrawing,
     freehandPoints,
-    freehandStart,
     handleDrawingMouseDown,
     handleDrawingMouseMove,
     handleDrawingMouseUp,
@@ -315,18 +313,10 @@ const MapCanvas = forwardRef<any, {
   // Zombie mode state
   const [zombieNumbers, setZombieNumbers] = useState<ZombieNumber[]>([]);
   const [nextZombieNumber, setNextZombieNumber] = useState(1);
-  const [selectedZombieNumberId, setSelectedZombieNumberId] = useState<string | null>(null);
-  const [zombieEditorPos, setZombieEditorPos] = useState<{ x: number; y: number } | null>(null);
   const [zombieArrows, setZombieArrows] = useState<ZombieArrow[]>([]);
   const [drawingZombieArrow, setDrawingZombieArrow] = useState<null | { x1: number; y1: number; x2: number; y2: number; color: string; strokeWidth: number }>(null);
-  const [selectedZombieArrowId, setSelectedZombieArrowId] = useState<string | null>(null);
-  const [legendPos, setLegendPos] = useState<{ x: number; y: number }>({ x: 40, y: 40 });
   const [showZombieFlash, setShowZombieFlash] = useState(false);
-  const [arrowEditorPanelPos, setArrowEditorPanelPos] = useState<{ right: number; bottom: number }>({ right: 32, bottom: 32 });
   const fileInputRef = useRef<HTMLInputElement | null>(null);
-
-  // Compute used arrow colors
-  const usedArrowColors = Array.from(new Set(zombieArrows.map(a => a.color))).filter(c => ZOMBIE_ARROW_LABELS[c]);
 
   // Show flash overlay when switching to zombie mode
   useEffect(() => {
@@ -342,9 +332,7 @@ const MapCanvas = forwardRef<any, {
   // Close pop-up editors when switching away from select tool
   useEffect(() => {
     if (isZombieMode && zombieTool !== 'select') {
-      setSelectedZombieNumberId(null);
-      setZombieEditorPos(null);
-      setSelectedZombieArrowId(null);
+      setDrawingZombieArrow(null);
     }
   }, [zombieTool, isZombieMode]);
 
@@ -367,24 +355,12 @@ const MapCanvas = forwardRef<any, {
 
   const handleZombieNumberClick = (num: any) => {
     if (zombieTool === 'select') {
-      setSelectedZombieNumberId(num.id);
-      setZombieEditorPos({ x: num.x, y: num.y });
+      console.log('Zombie number clicked:', num.id);
     }
   };
 
   const handleZombieNumberDrag = (id: string, x: number, y: number) => {
     setZombieNumbers(nums => nums.map(n => n.id === id ? { ...n, x, y } : n));
-    if (selectedZombieNumberId === id) setZombieEditorPos({ x, y });
-  };
-
-  const handleZombieNumberEdit = (id: string, updates: Partial<any>) => {
-    setZombieNumbers(nums => nums.map(n => n.id === id ? { ...n, ...updates } : n));
-  };
-
-  const handleZombieNumberDelete = (id: string) => {
-    setZombieNumbers(nums => nums.filter(n => n.id !== id));
-    setSelectedZombieNumberId(null);
-    setZombieEditorPos(null);
   };
 
   // Zombie arrow handlers
@@ -432,30 +408,8 @@ const MapCanvas = forwardRef<any, {
   };
 
   const handleZombieArrowClick = (arrow: any) => {
-    if (zombieTool === 'select') {
-      setSelectedZombieArrowId(arrow.id);
-    }
-  };
-
-  const handleZombieArrowEdit = (id: string, updates: Partial<any>) => {
-    setZombieArrows(arrows => arrows.map(a => a.id === id ? { ...a, ...updates } : a));
-  };
-
-  const handleZombieArrowDelete = (id: string) => {
-    setZombieArrows(arrows => arrows.filter(a => a.id !== id));
-    setSelectedZombieArrowId(null);
-  };
-
-  const handleZombieArrowDragEnd = (e: any) => {
-    const { arrow, dx, dy } = e;
-    handleZombieArrowEdit(arrow.id, {
-      x1: arrow.x1 + dx,
-      y1: arrow.y1 + dy,
-      x2: arrow.x2 + dx,
-      y2: arrow.y2 + dy,
-      midX: arrow.midX + dx,
-      midY: arrow.midY + dy,
-    });
+    // Just log click for now, no selection
+    console.log('Arrow clicked:', arrow.id);
   };
 
   // Zombie mode mouse handlers
@@ -464,20 +418,18 @@ const MapCanvas = forwardRef<any, {
     const pointer = getCanvasPointer(stage);
     
     if (isZombieMode && zombieTool === 'arrow') {
-      setSelectedZombieArrowId(null);
       handleZombieArrowMouseDown(pointer);
       return;
     }
     
     if (isZombieMode && zombieTool === 'number') {
-      setSelectedZombieNumberId(null);
       handleZombieNumberPlace(pointer);
       return;
     }
     
     // Only clear selection if clicking on empty canvas
     if (e && e.target && e.target === e.target.getStage()) {
-      setSelectedZombieArrowId(null);
+      setDrawingZombieArrow(null);
     }
   };
 
@@ -647,6 +599,23 @@ const MapCanvas = forwardRef<any, {
     } else {
       handleStageMouseUp();
     }
+  };
+
+  const handleZombieArrowDragEnd = (e: any) => {
+    const { arrow, dx, dy } = e;
+    setZombieArrows(arrows => arrows.map(a => 
+      a.id === arrow.id 
+        ? {
+            ...a,
+            x1: arrow.x1 + dx,
+            y1: arrow.y1 + dy,
+            x2: arrow.x2 + dx,
+            y2: arrow.y2 + dy,
+            midX: arrow.midX + dx,
+            midY: arrow.midY + dy,
+          }
+        : a
+    ));
   };
 
   // ... existing code ...
