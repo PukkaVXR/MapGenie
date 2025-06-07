@@ -1,10 +1,9 @@
-import { ThemeProvider, createTheme, CssBaseline, Box, IconButton } from '@mui/material';
+import { ThemeProvider, createTheme, CssBaseline, Box } from '@mui/material';
 import { MapProvider, useMap, initialState } from './context/MapContext';
 import { MapCanvas } from './components/Canvas/MapCanvas';
 import { ContinentEditor } from './components/Sidebar/ContinentEditor';
 import { useState, useRef } from 'react';
 import { ConnectionManager } from './components/Sidebar/ConnectionManager';
-import { UtilityToolbar } from './components/Toolbar/UtilityToolbar';
 import React from 'react';
 import { MainTools } from './components/Toolbar/MainTools';
 import { ZombieTools } from './components/Toolbar/ZombieTools';
@@ -25,11 +24,9 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
   const [zombieNumberFontSize, setZombieNumberFontSize] = useState(24);
   const [zombieNumberColor, setZombieNumberColor] = useState('#fff');
   const [pngFilename, setPngFilename] = useState('risk-map.png');
-  const fileInputRef = React.useRef<HTMLInputElement>(null);
-  const bgInputRef = React.useRef<HTMLInputElement>(null);
-  const [helpOpen, setHelpOpen] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null!);
+  const bgInputRef = useRef<HTMLInputElement>(null!);
   const [paletteAnchor, setPaletteAnchor] = useState<null | HTMLElement>(null);
-  const [customiseOpen, setCustomiseOpen] = useState(false);
 
   const PALETTES = {
     Classic: ['#f44336', '#2196f3', '#4caf50', '#ff9800', '#9c27b0', '#00bcd4', '#8bc34a', '#ffc107'],
@@ -229,7 +226,7 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
         setPngFilename={setPngFilename}
         fileInputRef={fileInputRef}
         bgInputRef={bgInputRef}
-        onHelpOpen={() => setHelpOpen(true)}
+        onHelpOpen={() => {}}
         paletteAnchor={paletteAnchor}
         handlePaletteClick={handlePaletteClick}
         handlePaletteClose={handlePaletteClose}
@@ -259,16 +256,29 @@ function AppContent({ toggleTheme, themeMode }: { toggleTheme: () => void; theme
                 vertical
               />
             ) : (
-              <MainTools vertical onCustomiseText={() => setCustomiseOpen(true)} />
+              <MainTools vertical />
             )}
-            {/* Bottom button: Customise Text (design mode) or Autopath (zombie mode) */}
-            {!isZombieMode && (
-              <Box sx={{ p: 1, borderTop: '1px solid #333', mt: 1 }}>
-                <button style={{ width: '100%', padding: '10px 0', background: 'none', border: '1px solid #1976d2', color: '#42a5f5', borderRadius: 4, fontWeight: 700, fontSize: 16, cursor: 'pointer' }} onClick={() => setCustomiseOpen(true)}>
-                  CUSTOMISE<br />TEXT
-                </button>
-              </Box>
-            )}
+          </Box>
+          <Box sx={{ 
+            bgcolor: 'transparent', 
+            p: 1, 
+            position: 'absolute', 
+            bottom: 16, 
+            left: '50%', 
+            transform: 'translateX(-50%)', 
+            borderRadius: 1, 
+            px: 2, 
+            py: 0.5,
+            minWidth: 100,
+            textAlign: 'center', 
+            fontWeight: 500, 
+            fontSize: 14, 
+            letterSpacing: 0.5, 
+            background: '#e8f0fe', 
+            color: '#1976d2', 
+            cursor: 'default' 
+          }}>
+            {isZombieMode ? zombieTool.charAt(0).toUpperCase() + zombieTool.slice(1) : 'None'}
           </Box>
         </Box>
         {/* Main Content: Canvas only */}

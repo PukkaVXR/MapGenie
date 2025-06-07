@@ -1,12 +1,13 @@
-import React, { useState, useRef } from 'react';
+import { useState, useCallback } from 'react';
 import { useMap } from '../../../context/MapContext';
 import { v4 as uuidv4 } from 'uuid';
+import type { RefObject } from 'react';
 import type { DrawingShape, SnappedEdge, ConnectionStartPoint } from '../types';
 import { getPolygonBounds, findNearestEdge } from '../utils/geometry';
 import { getCanvasPointer } from '../utils/canvasUtils';
 
 interface UseDrawingProps {
-  stageRef: React.RefObject<any>;
+  stageRef: RefObject<any>;
 }
 
 export const useDrawing = ({ stageRef }: UseDrawingProps) => {
@@ -14,13 +15,13 @@ export const useDrawing = ({ stageRef }: UseDrawingProps) => {
   const [drawing, setDrawing] = useState(false);
   const [newShape, setNewShape] = useState<DrawingShape | null>(null);
   const [snappedEdge, setSnappedEdge] = useState<SnappedEdge | null>(null);
-  const [connectionStart, setConnectionStart] = useState<string | null>(null);
+  const [connectionStart] = useState<string | null>(null);
   const [connectionStartPoint, setConnectionStartPoint] = useState<ConnectionStartPoint | null>(null);
   const [freehandDrawing, setFreehandDrawing] = useState(false);
   const [freehandPoints, setFreehandPoints] = useState<number[]>([]);
   const [freehandStart, setFreehandStart] = useState<string | null>(null);
 
-  const handleDrawingMouseDown = (e: any) => {
+  const handleDrawingMouseDown = useCallback((_e: any) => {
     if (!stageRef.current) return;
     
     const stage = stageRef.current.getStage();
@@ -138,7 +139,7 @@ export const useDrawing = ({ stageRef }: UseDrawingProps) => {
         setNewShape((prev: any) => ({ ...prev, points: [...prev.points, pointer.x, pointer.y] }));
       }
     }
-  };
+  }, [state.selectedTool, state.connectionMode, state.territories, drawing, snappedEdge, connectionStartPoint, dispatch]);
 
   const handleDrawingMouseMove = () => {
     if (!stageRef.current) return;
@@ -285,7 +286,7 @@ export const useDrawing = ({ stageRef }: UseDrawingProps) => {
     }
   };
 
-  const handleDrawingDblClick = () => {
+  const handleDrawingDblClick = useCallback(() => {
     if ((state.selectedTool === 'polygon' || state.selectedTool === 'connected') && 
         drawing && newShape && newShape.points && newShape.points.length >= 6) {
       const points = newShape.points;
@@ -312,7 +313,7 @@ export const useDrawing = ({ stageRef }: UseDrawingProps) => {
       setNewShape(null);
       setSnappedEdge(null);
     }
-  };
+  }, [state.selectedTool, drawing, newShape, state.territories, dispatch]);
 
   return {
     drawing,
