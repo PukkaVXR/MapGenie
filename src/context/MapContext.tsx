@@ -179,7 +179,16 @@ function mapReducer(state: MapState, action: MapAction): MapState {
           territory.connections = territory.connections.filter(id => id !== action.payload);
         }
       });
-      return { ...state, territories: remainingTerritories };
+      return {
+        ...state,
+        territories: remainingTerritories,
+        connections: state.connections.filter(
+          conn => conn.from !== action.payload && conn.to !== action.payload
+        ),
+        freehandConnections: state.freehandConnections.filter(
+          conn => conn.from !== action.payload && conn.to !== action.payload
+        ),
+      };
     
     case 'TOGGLE_VIEW_SETTING':
       return {
