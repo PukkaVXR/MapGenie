@@ -40,7 +40,7 @@ export interface Connection {
   toPoint: { x: number; y: number };
 }
 
-interface MapState {
+export interface MapState {
   territories: Record<string, Territory>;
   continents: Record<string, Continent>;
   selectedTool: 'draw' | 'polygon' | 'connect' | 'select' | 'rect' | 'ellipse' | 'connected';
@@ -171,15 +171,32 @@ function mapReducer(state: MapState, action: MapAction): MapState {
         },
       };
     
-    case 'DELETE_TERRITORY':
+    case 'DELETE_TERRITORY': {
       const { [action.payload]: deleted, ...remainingTerritories } = state.territories;
-      // Remove connections to/from the deleted territory
-      Object.values(remainingTerritories).forEach(territory => {
-        if (territory.connections.includes(action.payload)) {
-          territory.connections = territory.connections.filter(id => id !== action.payload);
-        }
+
+      const filteredConnections = state.connections.filter(
+        conn => conn.from !== action.payload && conn.to !== action.payload
+      );
+
+      const filteredFreehand = state.freehandConnections.filter(
+        conn => conn.from !== action.payload && conn.to !== action.payload
+      );
+
+      const updatedTerritories: Record<string, Territory> = {};
+      Object.entries(remainingTerritories).forEach(([id, territory]) => {
+        updatedTerritories[id] = {
+          ...territory,
+          connections: territory.connections.filter(tid => tid !== action.payload),
+        };
       });
-      return { ...state, territories: remainingTerritories };
+
+      return {
+        ...state,
+        territories: updatedTerritories,
+        connections: filteredConnections,
+        freehandConnections: filteredFreehand,
+      };
+    }
     
     case 'TOGGLE_VIEW_SETTING':
       return {
@@ -345,4 +362,7 @@ export function useMap() {
     throw new Error('useMap must be used within a MapProvider');
   }
   return context;
-} 
+}
+
+// Export reducer for testing
+export { mapReducer };

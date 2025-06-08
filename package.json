@@ -12,7 +12,8 @@
     "pretest": "npx tsc src/components/Canvas/utils/geometry.ts --outDir dist/test --module Node16 --target ES2022 --skipLibCheck",
     "test": "node --test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "test": "vitest run"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
