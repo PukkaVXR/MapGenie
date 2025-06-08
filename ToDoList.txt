@@ -41,4 +41,4 @@ Version control for map data
 Phase 7 - Feedback Implementation
 Territory nodes/areas for connections don't move with the shapes when they are moved ✔
 UI doesn't seem to be optimized for smaller Resolution ✔
-Switching to Dark Mode makes the canvas zoom level unreadable ✔ 
+Switching to Dark Mode makes the canvas zoom level unreadable ✔
