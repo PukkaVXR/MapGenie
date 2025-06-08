@@ -1,13 +1,14 @@
 {
   "name": "mapdesigntoolrisk",
   "private": true,
-  "version": "1.0.81",
+  "version": "1.1.2",
   "description": "Fixed all drawing tools behavior",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "test": "vitest run",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -41,6 +42,7 @@
     "globals": "^16.0.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.30.1",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vitest": "^3.2.2"
   }
 }
